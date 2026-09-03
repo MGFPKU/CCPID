@@ -1,0 +1,10 @@
+__pycache__/
+.env
+.codex/
+logs/
+~$*.xlsx
+outputs/temp/
+temp/
+*.bak*
+_test_gradient*.xlsx
+.claude/settings.local.json

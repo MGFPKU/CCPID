@@ -1,0 +1,1247 @@
+﻿schema_version: "0.2"
+status: resolved_template_governance
+sources_read:
+  - inputs/template_en.xlsx
+  - inputs/template_cn.xlsx
+  - inputs/attribute definitions.xlsx
+  - inputs/field_dictionary.md
+  - inputs/classification structure.md
+  - inputs/approaches_en.md
+  - inputs/approaches_cn.md
+  - inputs/regulated assets and activities.md
+  - inputs/IFCMA paper.pdf
+notes:
+  - "This file defines template structure and validation rules only; it contains no policy data."
+  - "The source templates do not explicitly mark required columns. Required fields below distinguish draft-entry requirements from final-publication requirements."
+  - "Chinese template headers mirror the English template but source encoding is not normalized here; English headers are canonical."
+  - "Validation should normalize recognized values for casing and aliases, while exports should use the canonical display values defined here."
+
+canonical_fields:
+  policy_names:
+    domestic: Domestic name
+    domestic_aliases:
+      - Domestic instrument name
+    english: English name
+    english_aliases:
+      - English instrument name
+    rule: "At least one policy name is required for draft entry. Domestic name is preferred for China data; English name may be translated later."
+  revision:
+    canonical: Last revision
+    aliases:
+      - Last revisions
+    details_canonical: Last revision (Details)
+    details_aliases:
+      - Last revisions (Details)
+  mitigation_effect:
+    canonical: Mitigation effect
+    aliases:
+      - Mitigation effects
+  other_sources:
+    canonical: Other relevant websites
+    aliases:
+      - Other weblinks
+
+classification_hierarchy:
+  - level: 1
+    name: Category
+    description: "High-level classification based on the policy instrument operating mechanism."
+  - level: 2
+    name: Group
+    description: "Functional grouping of instruments within each category."
+  - level: 3
+    name: Approach
+    description: "Standardized internationally comparable policy approach."
+  - level: 4
+    name: Instrument
+    description: "Specific legal or regulatory measure implemented in a jurisdiction at a given time."
+  - level: 5
+    name: Sub-scheme
+    optional: true
+    description: "Variation within a single instrument, such as differentiated requirements, exemptions, or implementation phases."
+
+row_types:
+  allowed_values:
+    - Instrument
+    - Subscheme
+  validation:
+    - "Use Instrument for the primary policy instrument row."
+    - "Use Subscheme only when the row is a policy variation under an existing instrument."
+
+templates:
+  Economic instruments:
+    category: Economic
+    columns:
+      - Policy Instrument ID
+      - Instrument / subscheme
+      - Group
+      - Approach
+      - Emission sector
+      - Sub-sector
+      - Domestic instrument name
+      - English instrument name
+      - Policy Package
+      - Description
+      - Objective
+      - Mitigation relevance
+      - Functioning channel
+      - Country
+      - Jurisdiction level
+      - Jurisdiction name
+      - Adoption date
+      - Start date
+      - End date
+      - Last revisions
+      - Last revisions (Details)
+      - Status
+      - Administrating authorities
+      - Asset
+      - Asset (Status)
+      - Asset (Details)
+      - Asset (Other)
+      - Asset (Cut-off range)
+      - Agent
+      - Agent (Detail)
+      - Activity
+      - Activity (Details)
+      - Intensity (Value)
+      - Intensity (Unit)
+      - Intensity (Details)
+      - Requirement specification
+      - Compliance calculation methodology I
+      - Compliance calculation methodology II
+      - "Tax and Tax Incentive: annual revenue"
+      - "Tax and Tax Incentive: earmarked revenue"
+      - "Tax and Tax Incentive: annual revenue forgone"
+      - "Subsidy: annual budget/ expenditure"
+      - "Subsidy: Limit"
+      - "Subsidy: Floor or ceiling"
+      - "Subsidy: distribution mechanism"
+      - "Subsidy: Support duration"
+      - "Subsidy: Enforcement Mechanism"
+      - "Trading System: Type"
+      - "Trading System: cap"
+      - "Trading System: allowance mechanism"
+      - "Trading System: Free Allowance"
+      - "Trading System: Offset use allowed"
+      - "Trading System: Linkages"
+      - "Trading System: market stabilisation mechanism"
+      - "Trading System: revenue (annual)"
+      - "Trading System: Volume"
+      - "Trading System: penalties for non-compliance"
+      - GHG emission coverage (absolute)
+      - GHG emission coverage (% domestic emissions)
+      - Economic sector
+      - GHGs affected
+      - Mitigation effects
+      - Mitigation co-benefits
+      - Legal statute
+      - Legal document
+      - Other weblinks
+  Regulatory instruments:
+    category: Regulatory
+    columns:
+      - Policy Instrument ID
+      - Instrument / subscheme
+      - Group
+      - Approach
+      - Emission sector
+      - Sub-sector
+      - Domestic instrument name
+      - English instrument name
+      - Policy Package
+      - Description
+      - Objective
+      - Mitigation relevance
+      - Functioning channel
+      - Country
+      - Jurisdiction level
+      - Jurisdiction name
+      - Adoption date
+      - Start date
+      - End date
+      - Last revisions
+      - Last revisions (Details)
+      - Status
+      - Administrating authorities
+      - Asset
+      - Asset (Status)
+      - Asset (Details)
+      - Asset (Other)
+      - Asset (Cut-off range)
+      - Agent
+      - Agent (Detail)
+      - Activity
+      - Activity (Details)
+      - Intensity (Value)
+      - Intensity (Unit)
+      - Intensity (Details)
+      - Requirement specification
+      - Compliance calculation methodology I
+      - Compliance calculation methodology II
+      - Compliance monitoring
+      - Compliance monitoring details
+      - Compliance enforcement
+      - Compliance enforcement details
+      - Compliance promotion
+      - Compliance promotion detail
+      - GHG emission coverage (absolute)
+      - GHG emission coverage (% domestic emissions)
+      - Economic sector
+      - GHGs affected
+      - Mitigation effects
+      - Mitigation co-benefits
+      - Legal statute
+      - Legal document
+      - Other weblinks
+  Government I&C:
+    category: Government investment and consumption
+    columns:
+      - Policy Instrument ID
+      - Instrument / subscheme
+      - Group
+      - Approach
+      - Emission sector
+      - Sub-sector
+      - Domestic instrument name
+      - English instrument name
+      - Policy Package
+      - Description
+      - Objective
+      - Mitigation relevance
+      - Functioning channel
+      - Country
+      - Jurisdiction level
+      - Jurisdiction name
+      - Adoption date
+      - Start date
+      - End date
+      - Last revisions
+      - Last revisions (Details)
+      - Status
+      - Administrating authorities
+      - Asset
+      - Asset (Status)
+      - Asset (Details)
+      - Asset (Other)
+      - Asset (Cut-off range)
+      - Agent
+      - Agent (Detail)
+      - Activity
+      - Activity (Details)
+      - Intensity (Value)
+      - Intensity (Unit)
+      - Intensity (Details)
+      - Requirement specification
+      - Compliance calculation methodology I
+      - Compliance calculation methodology II
+      - "Public investment: Co-financing"
+      - "Public investment: Selection process"
+      - "Public procurement: Tender process"
+      - "Public procurement: Award criteria tender process"
+      - "Public procurement: Compliance monitoring"
+      - "Public procurement: Compliance enforcement"
+      - "Public procurement: Life-cycle costing"
+      - "Public investment/procurement: Annual expenditure"
+      - GHG emission coverage (absolute)
+      - GHG emission coverage (% domestic emissions)
+      - Economic sector
+      - GHGs affected
+      - Mitigation effect
+      - Mitigation co-benefits
+      - Legal statute
+      - Legal document
+      - Other weblinks
+  Information instruments:
+    category: Information
+    columns:
+      - Policy Instrument ID
+      - Instrument / subscheme
+      - Group
+      - Approach
+      - Emission sector
+      - Sub-sector
+      - Domestic instrument name
+      - English instrument name
+      - Policy Package
+      - Description
+      - Objective
+      - Mitigation relevance
+      - Functioning channel
+      - Country
+      - Jurisdiction level
+      - Jurisdiction name
+      - Adoption date
+      - Start date
+      - End date
+      - Last revision
+      - Last revision (Details)
+      - Status
+      - Administrating authorities
+      - Asset
+      - Asset (Status)
+      - Asset (Details)
+      - Asset (Other)
+      - Asset (Cut-off range)
+      - Agent
+      - Agent (Detail)
+      - Activity
+      - Activity (Details)
+      - Intensity (Value)
+      - Intensity (Unit)
+      - Intensity (Details)
+      - Requirement specification
+      - Compliance calculation methodology I
+      - Compliance calculation methodology II
+      - Instrument linkage
+      - Responsibility information capturing
+      - Information transmission
+      - Frequency of information provision
+      - Public availability of information
+      - "For labels: Type"
+      - Compliance monitoring
+      - Compliance monitoring details
+      - Compliance enforcement
+      - Compliance enforcement details
+      - Compliance promotion
+      - Details on capacity building, training/education, information campaigns and award schemes
+      - GHG emission coverage (absolute)
+      - GHG emission coverage (% domestic emissions)
+      - Economic sector
+      - GHGs affected
+      - Mitigation effect
+      - Mitigation co-benefits
+      - Legal statute
+      - Legal document
+      - Other weblinks
+  Voluntary approaches:
+    category: Voluntary
+    columns:
+      - Policy Instrument ID
+      - Instrument / subscheme
+      - Group
+      - Approach
+      - Emission sector
+      - Sub-sector
+      - Domestic instrument name
+      - English instrument name
+      - Policy Package
+      - Description
+      - Objective
+      - Mitigation relevance
+      - Functioning channel
+      - Country
+      - Jurisdiction level
+      - Jurisdiction name
+      - Adoption date
+      - Start date
+      - End date
+      - Last revisions
+      - Last revisions (Details)
+      - Status
+      - Administrating authorities
+      - Asset
+      - Asset (Status)
+      - Asset (Details)
+      - Asset (Other)
+      - Asset (Cut-off range)
+      - Agent
+      - Agent (Detail)
+      - Activity
+      - Activity (Details)
+      - Intensity (Value)
+      - Intensity (Unit)
+      - Intensity (Details)
+      - Requirement specification
+      - Compliance calculation methodology I
+      - Compliance calculation methodology II
+      - Incentives for Participation
+      - Monitoring
+      - Sanctions for non-compliance
+      - GHG emission coverage (absolute)
+      - GHG emission coverage (% domestic emissions)
+      - Economic sector
+      - GHGs affected
+      - Mitigation effect
+      - Mitigation co-benefits
+      - Legal statute
+      - Legal document
+      - Other weblinks
+
+required_fields:
+  draft_entry_required:
+    - Policy Instrument ID
+    - Instrument / subscheme
+    - Group
+    - Approach
+    - Country
+    - Jurisdiction level
+    - Status
+  final_publication_required:
+    - Policy Instrument ID
+    - Instrument / subscheme
+    - Group
+    - Approach
+    - Country
+    - Jurisdiction level
+    - Status
+    - Legal statute
+  inferred_name_at_least_one:
+    - Domestic instrument name
+    - English instrument name
+    - Domestic name
+    - English name
+  inferred_source_at_least_one:
+    - Legal document
+    - Other weblinks
+    - Other relevant websites
+  conditional:
+    - rule: "Jurisdiction name is required when Jurisdiction level is supranational, subnational, or special economic zone (SEZ)."
+    - rule: "Last revision details are required when a last revision date is provided."
+    - rule: "Asset (Other) is required when Asset includes Other."
+    - rule: "Activity (Details) is required when Activity needs narrowing beyond the controlled value."
+    - rule: "Compliance monitoring details are required when Compliance monitoring is Other or includes a criterion/details placeholder."
+    - rule: "Compliance enforcement details are required when Compliance enforcement is Other or penalty/prohibition/order details are needed."
+    - rule: "Economic instrument-specific fields apply only to the matching economic instrument group or approach."
+    - rule: "Public investment/procurement fields apply only to Government I&C rows."
+    - rule: "Information fields apply only to Information instruments rows."
+    - rule: "Voluntary approach fields apply only to Voluntary approaches rows."
+    - rule: "Legal statute is required before final publication when known. If unavailable, Legal document plus Not specified in Legal statute is acceptable."
+
+global_validation_rules:
+  policy_instrument_id:
+    pattern: "^[A-Z]{3}[A-Z]{3}[A-Z]{3}I[0-9]{2}S[0-9]{3}$"
+    rule: "Policy Instrument ID format is {ISO3 country}{group code}{approach code}I{2-digit instrument sequence}S{3-digit subscheme sequence}."
+    examples:
+      - "CHNTRAETSI01S000"
+      - "CHNTRARECI01S000"
+    component_rules:
+      - "The country code must match the row country."
+      - "The group code must match the selected Group when a group-code mapping is defined."
+      - "The approach code must match the selected Approach when an approach-code mapping is defined."
+      - "The literal I marks the instrument sequence, as in I01."
+      - "Instrument rows use S000; subscheme rows use S001, S002, etc. under the parent stem."
+    known_codes:
+      group:
+        Subsidy: SUB
+        Tax: TAX
+        Trading scheme: TRA
+        Comparative energy efficiency label: CEL
+        Framework regulation: FRM
+        Performance standard: PRF
+        Technology standard: TEC
+        Public investment: PIV
+        Public procurement: PPC
+        Public appraisal rules: PAR
+        Administered price: ADP
+        Reporting requirements: REP
+        Capacity building and public awareness: CBA
+        Voluntary information instrument: VII
+        Voluntary trading system: VTS
+        Voluntary target: VTG
+      approach:
+        Carbon contract for difference: CCD
+        Feebate: FEE
+        "Concessional loans, loan guarantees and credit support": CLG
+        Renewable electricity contract for difference: ECD
+        Renewable electricity feed-in premium: FIP
+        Renewable electricity feed-in tariff: FIT
+        Subsidy for low-emissions fuels: LFF
+        Vehicle purchase subsidy: VPS
+        Ecosystem service payments: ESP
+        Trade-in subsidy: TIS
+        Clean heating subsidy: CHS
+        Recycling and treatment subsidy: RTS
+        Low-emission machinery purchase subsidy: MPS
+        GHG tax: GHT
+        CIT incentive: CIT
+        Vehicle purchase tax incentive: VPT
+        Electricity and heat excise tax: EHT
+        Fuel excise tax: FET
+        Road use tax: RUT
+        Waste incineration tax: WIT
+        Differentiated vehicle tax: DVT
+        Vehicle ownership tax incentive: VOT
+        VAT incentive: VAT
+        Environmental pollution tax: EPT
+        Consumption tax incentive: CTI
+        Parafiscal levy exemption: PLE
+        Urban land use tax incentive: ULT
+        Emissions trading system: ETS
+        Tradable energy efficiency obligations or certificates: EEO
+        "Tradable performance standards": TPS
+        "Tradable renewable electricity credits, quota or tradable performance standards": REC
+        Energy labels for buildings: ELB
+        Energy labels for products and appliances: ELP
+        Energy labels for vehicles: ELV
+        Energy statistics and audit: ESA
+        Sustainability information disclosure: SID
+        Greenhouse gas emissions reporting: GRV
+        Green finance statistics: GFS
+        Green finance performance evaluation: GFE
+        Green finance governance framework: GFG
+        Technology promotion catalogue: TPC
+        Industry guidance catalogue: IGC
+        Technical guidance: TGC
+        Capacity building programme: CBP
+        Public awareness campaign: PAC
+        Citizen code of conduct: COC
+        Professional certification: PCE
+        Education system integration: ESI
+        Green standard system: GSS
+        Sustainable finance taxonomy: SFT
+        Voluntary carbon neutrality methodology: VCN
+        Voluntary procurement guidance: VPG
+        Voluntary carbon market: VCM
+        Voluntary certification and labelling scheme: VLB
+        Voluntary information disclosure: VID
+        Voluntary target: VTG
+        Speed limits: SPD
+        Energy performance management framework for public institutions: EPM
+        Target responsibility system: TRS
+        Enterprise energy management obligation: EEM
+        Capacity replacement: CAP
+        Agricultural pollution control: APC
+        Extended producer responsibility: EPR
+        Industrial transition governance: ITG
+        Renewable priority dispatch: RPD
+        Production scheduling mandate: PSM
+        Ecosystem protection mandate: ECM
+        Eco-environmental zoning: EEZ
+        Eco-compensation: ECO
+        Pollution discharge permitting: PDP
+        Building/envelope airtightness requirements: BAR
+        EV fleet mandate: EFM
+        EV sales mandate: ESM
+        Fuel economy standard: FEC
+        Insulation requirements for buildings: INS
+        Minimum Energy Performance Standards (MEPS) for buildings: MEB
+        Minimum Energy Performance Standards (MEPS) for cooking systems: MEC
+        Minimum Energy Performance Standards (MEPS) for electric appliances: MEA
+        Minimum Energy Performance Standards (MEPS) for lighting systems: MEL
+        Minimum Energy Performance Standards (MEPS) for residential solar panels: MEP
+        Minimum Energy Performance Standards (MEPS) for spatial cooling: MCS
+        Minimum Energy Performance Standards (MEPS) for spatial heating: MHS
+        Minimum Energy Performance Standards (MEPS) for water heating systems: MWH
+        Minimum Energy Performance Standards (MEPS) for industrial thermal equipment: MIT
+        Minimum Energy Performance Standards (MEPS) for refrigeration equipment: MRE
+        Energy intensity limit for industrial production: EIL
+        Solar factor requirements for windows: SFW
+        Bans and phase-outs of fossil fuel based power generation plants: BFP
+        Bans and phase-outs of fossil fuel extraction: BFE
+        Bans and phase-outs of fossil fuel heating systems: BFH
+        Bans and phase-outs of ICE vehicles: BIV
+        Bans and phase-outs of short haul flights: BSF
+        Bans and phase-outs of ozone-depleting substances: ODS
+        Bans and phase-outs of fluorinated greenhouse gases (F-gases): FGA
+        Biofuel quotas for aviation fuels: BQA
+        Biofuel quotas for land transport fuels: BQL
+        Biofuel quotas for maritime fuels: BQM
+        Bans and phase-outs of plastic products: BPP
+        Minimum Energy Performance Standards (MEPS) for electric motors: MEM
+        Government-funded RD&D programmes: RDD
+        Central budget investment: CBI
+        Government investment fund: GIF
+        Industrial differentiated electricity pricing: IDP
+        Residential increasing-block tariff: RIT
+        Capacity pricing mechanism: CPM
+        Green public procurement: GPP
+        Strategic environmental assessment: SEA
+        Climate performance assessment and evaluation: CPA
+        Environmental impact assessment: EIA
+        Energy and carbon review for investment projects: ECR
+        Environmental compliance audit: ECA
+  blank_values:
+    allowed_when_unknown:
+      - ""
+      - "N/A"
+      - "Not specified"
+    rule: "Use N/A for structurally non-applicable fields, Not specified for true unknowns, and blank only during draft entry."
+  canonicalization:
+    case_sensitive: false
+    export_uses_canonical_values: true
+    rules:
+      - "Normalize recognized controlled values for casing during validation."
+      - "Preserve source spelling in free-text evidence fields."
+      - "Treat configured aliases as equivalent to their canonical field names."
+  dates:
+    type: string
+    format: "dd/mm/yyyy"
+    fields:
+      - Adoption date
+      - Start date
+      - End date
+      - Last revision
+      - Last revisions
+    rules:
+      - "Dates must match dd/mm/yyyy when day and month are available."
+      - "Start date should not be earlier than Adoption date unless legally justified in details."
+      - "End date should not be earlier than Start date."
+      - "End date means the date when the final legal requirement of the mandate takes effect, not necessarily policy expiry."
+  urls:
+    type: uri
+    fields:
+      - Legal document
+      - Other weblinks
+      - Other relevant websites
+    rules:
+      - "Must be an http or https URL when a web source is provided."
+      - "Multiple URLs must be separated by semicolons."
+      - "Minimum final-publication source standard is primary legislation or an official government source. Secondary sources are allowed only as temporary support."
+      - "Every non-empty factual field should be traceable to Legal statute, Legal document, Other relevant websites, or another source note before final publication."
+  numbers:
+    type: number_or_formula_text
+    fields:
+      - Intensity (Value)
+      - Intensity (Year)
+      - "Tax and Tax Incentive: annual revenue"
+      - "Tax and Tax Incentive: annual revenue forgone"
+      - "Subsidy: annual budget/ expenditure"
+      - "Subsidy: Limit"
+      - "Trading System: cap"
+      - "Trading System: Free Allowance"
+      - "Trading System: revenue (annual)"
+      - "Trading System: Volume"
+      - "Public investment/procurement: Annual expenditure"
+      - GHG emission coverage (absolute)
+      - GHG emission coverage (% domestic emissions)
+    rules:
+      - "Numeric values may include formulas exactly as stated in law."
+      - "For market instruments, annual market-operation data should be sourced from operational disclosures before being marked unavailable: regulator statistics/newsletters/press releases/briefings/Q&A, official platform or market-operator bulletins, official industry/system-operator reports, then credible non-official market reports or news."
+      - "Do not infer annual transaction value from unmatched total volume and category/vintage average prices. Use calculated values only when the matching quantity and price scope are disclosed."
+      - "Distinguish annual from cumulative figures, total transaction value from average price, standalone trades from bundled green-power/certificate trades, and secondary-market transaction value from allocation or auction revenue."
+      - "Units, currency, base year, and price year should be captured in the paired unit/detail field."
+      - "For tiered rates, ranges, formulas, or thresholds, put the simplest comparable scalar in Intensity (Value) when possible, the measurement unit in Intensity (Unit), and the full formula/table/range in Intensity (Details)."
+  multi_value_fields:
+    separator: ";"
+    rule: "Use semicolon-separated values for multi-select fields."
+  dependent_values:
+    group_approach_required: true
+    rule: "Approach must be valid for the selected Group and Category."
+  non_exhaustive_controlled_lists:
+    applies_to:
+      - Asset
+      - Activity
+      - Objective
+    allow_custom_values: true
+    rule: "Allow values outside the source list only when the paired details/other field explains the custom value."
+  subscheme_splitting:
+    rules:
+      - "Split mixed Asset (Status) coverage into subschemes when New and existing assets have different legal requirements."
+      - "Allow both New and existing in one row only when the same requirement applies to both."
+      - "For national policies with subnational implementation variation, keep Jurisdiction level as national and capture the variation in details or subschemes."
+  not_applicable_fields:
+    rule: "Use N/A for instrument-specific fields that do not apply to the selected group or approach; do not omit template columns during export."
+  instrument_specific_row_splitting:
+    rules:
+      - "Split public investment and public procurement into separate rows when they are legally or operationally distinct."
+      - "Allow one Government I&C row to contain both public investment and public procurement fields when the same instrument genuinely includes both."
+
+allowed_values:
+  Group:
+    Economic:
+      - Subsidy
+      - Tax
+      - Trading scheme
+      - Administered price
+    Information:
+      - Comparative energy efficiency label
+      - Reporting requirements
+      - Capacity building and public awareness
+    Regulatory:
+      - Framework regulation
+      - Performance standard
+      - Technology standard
+    Government investment and consumption:
+      - Public investment
+      - Public procurement
+      - Public appraisal rules
+    Voluntary:
+      - Voluntary information instrument
+      - Voluntary trading system
+      - Voluntary target
+  Group_Approach_dependencies:
+    Subsidy:
+      - Carbon contract for difference
+      - Feebate
+      - Concessional loans, loan guarantees and credit support
+      - Renewable electricity contract for difference
+      - Renewable electricity feed-in premium
+      - Renewable electricity feed-in tariff
+      - Subsidy for low-emissions fuels
+      - Vehicle purchase subsidy
+      - Ecosystem service payments
+      - Trade-in subsidy
+      - Clean heating subsidy
+      - Recycling and treatment subsidy
+      - Low-emission machinery purchase subsidy
+    Tax:
+      - GHG tax
+      - CIT incentive
+      - Vehicle purchase tax incentive
+      - Electricity and heat excise tax
+      - Fuel excise tax
+      - Road use tax
+      - Waste incineration tax
+      - Differentiated vehicle tax
+      - Vehicle ownership tax incentive
+      - VAT incentive
+      - Environmental pollution tax
+      - Consumption tax incentive
+      - Parafiscal levy exemption
+      - Urban land use tax incentive
+    Trading scheme:
+      - Emissions trading system
+      - Tradable energy efficiency obligations or certificates
+      - Tradable performance standards
+      - Tradable renewable electricity credits, quota or tradable performance standards
+    Administered price:
+      - Industrial differentiated electricity pricing
+      - Residential increasing-block pricing
+      - Capacity pricing mechanism
+    Comparative energy efficiency label:
+      - Energy labels for buildings
+      - Energy labels for products and appliances
+      - Energy labels for vehicles
+    Framework regulation:
+      - Energy performance management framework for public institutions
+      - Target responsibility system
+      - Enterprise energy management obligation
+      - Capacity replacement
+      - Agricultural pollution control
+      - Extended producer responsibility
+      - Industrial transition governance
+      - Renewable priority dispatch
+      - Production scheduling mandate
+      - Eco-environmental zoning
+      - Eco-compensation
+      - Ecosystem protection mandate
+      - Pollution discharge permitting
+      - Green finance governance framework
+    Performance standard:
+      - Building/envelope airtightness requirements
+      - EV fleet mandate
+      - EV sales mandate
+      - Fuel economy standard
+      - Insulation requirements for buildings
+      - Minimum Energy Performance Standards (MEPS) for buildings
+      - Minimum Energy Performance Standards (MEPS) for cooking systems
+      - Minimum Energy Performance Standards (MEPS) for electric appliances
+      - Minimum Energy Performance Standards (MEPS) for lighting systems
+      - Minimum Energy Performance Standards (MEPS) for residential solar panels
+      - Minimum Energy Performance Standards (MEPS) for spatial cooling
+      - Minimum Energy Performance Standards (MEPS) for spatial heating
+      - Minimum Energy Performance Standards (MEPS) for water heating systems
+      - Minimum Energy Performance Standards (MEPS) for industrial thermal equipment
+      - Minimum Energy Performance Standards (MEPS) for refrigeration equipment
+      - Energy intensity limit for industrial production
+      - Solar factor requirements for windows
+      - Speed limits
+    Technology standard:
+      - Bans and phase-outs of fossil fuel based power generation plants
+      - Bans and phase-outs of fossil fuel extraction
+      - Bans and phase-outs of fossil fuel heating systems
+      - Bans and phase-outs of ICE vehicles
+      - Bans and phase-outs of short haul flights
+      - Bans and phase-outs of ozone-depleting substances
+      - Bans and phase-outs of fluorinated greenhouse gases (F-gases)
+      - Biofuel quotas for aviation fuels
+      - Biofuel quotas for land transport fuels
+      - Biofuel quotas for maritime fuels
+      - Bans and phase-outs of plastic products
+      - Minimum Energy Performance Standards (MEPS) for electric motors
+    Public investment:
+      - Government-funded RD&D programmes for low-carbon technologies
+      - Low-carbon infrastructure investment
+      - Ecosystem restoration investment
+    Public procurement:
+      - Green public procurement
+    Public appraisal rules:
+      - Strategic environmental assessment
+      - Climate performance assessment and evaluation
+      - Environmental impact assessment
+      - Energy and carbon review for investment projects
+      - Environmental compliance audit
+    Reporting requirements:
+      - Energy statistics and audit
+      - Sustainability information disclosure
+      - Greenhouse gas emissions reporting
+      - Green finance statistics
+      - Green finance performance evaluation
+    Capacity building and public awareness:
+      - Technology promotion catalogue
+      - Industry guidance catalogue
+      - Technical guidance
+      - Capacity building programme
+      - Public awareness campaign
+      - Citizen code of conduct
+      - Professional certification
+      - Education system integration
+      - Green standard system
+    Voluntary information instrument:
+      - Sustainable finance taxonomy
+      - Voluntary carbon neutrality methodology
+      - Voluntary procurement guidance
+      - Voluntary certification and labelling scheme
+      - Voluntary information disclosure
+    Voluntary trading system:
+      - Voluntary carbon market
+    Voluntary target:
+      - Voluntary target
+  Approach:
+    - Feebate
+    - Concessional loans, loan guarantees and credit support
+    - Renewable electricity contract for difference
+    - Renewable electricity feed-in premium
+    - Renewable electricity feed-in tariff
+    - Subsidy for low-emissions fuels
+    - Vehicle purchase subsidy
+    - Ecosystem service payments
+    - Ecosystem restoration investment
+    - Trade-in subsidy
+    - Clean heating subsidy
+    - Recycling and treatment subsidy
+    - Low-emission machinery purchase subsidy
+    - GHG tax
+    - CIT incentive
+    - Vehicle purchase tax incentive
+    - Electricity and heat excise tax
+    - Fuel excise tax
+    - Road use tax
+    - Waste incineration tax
+    - Differentiated vehicle tax
+    - Vehicle ownership tax incentive
+    - VAT incentive
+    - Environmental pollution tax
+    - Consumption tax incentive
+    - Parafiscal levy exemption
+    - Urban land use tax incentive
+    - Emissions trading system
+    - Tradable energy efficiency obligations or certificates
+    - Tradable performance standards
+    - Tradable renewable electricity credits, quota or tradable performance standards
+    - Energy labels for buildings
+    - Energy labels for products and appliances
+    - Energy labels for vehicles
+    - Energy statistics and audit
+    - Sustainability information disclosure
+    - Greenhouse gas emissions reporting
+    - Green finance statistics
+    - Green finance performance evaluation
+    - Green finance governance framework
+    - Technology promotion catalogue
+    - Industry guidance catalogue
+    - Technical guidance
+    - Capacity building programme
+    - Public awareness campaign
+    - Citizen code of conduct
+    - Professional certification
+    - Education system integration
+    - Standard-setting programme
+    - Sustainable finance taxonomy
+    - Voluntary carbon neutrality methodology
+    - Voluntary procurement guidance
+    - Voluntary carbon market
+    - Voluntary certification and labelling scheme
+    - Voluntary information disclosure
+    - Voluntary target
+    - Speed limits
+    - Energy performance management framework for public institutions
+    - Target responsibility system
+    - Enterprise energy management obligation
+    - Building/envelope airtightness requirements
+    - EV fleet mandate
+    - EV sales mandate
+    - Fuel economy standard
+    - Insulation requirements for buildings
+    - Minimum Energy Performance Standards (MEPS) for buildings
+    - Minimum Energy Performance Standards (MEPS) for cooking systems
+    - Minimum Energy Performance Standards (MEPS) for electric appliances
+    - Minimum Energy Performance Standards (MEPS) for lighting systems
+    - Minimum Energy Performance Standards (MEPS) for residential solar panels
+    - Minimum Energy Performance Standards (MEPS) for spatial cooling
+    - Minimum Energy Performance Standards (MEPS) for spatial heating
+    - Minimum Energy Performance Standards (MEPS) for water heating systems
+    - Minimum Energy Performance Standards (MEPS) for industrial thermal equipment
+    - Minimum Energy Performance Standards (MEPS) for refrigeration equipment
+    - Energy intensity limit for industrial production
+    - Solar factor requirements for windows
+    - Bans and phase-outs of fossil fuel based power generation plants
+    - Bans and phase-outs of fossil fuel extraction
+    - Bans and phase-outs of fossil fuel heating systems
+    - Bans and phase-outs of ICE vehicles
+    - Bans and phase-outs of short haul flights
+    - Bans and phase-outs of ozone-depleting substances
+    - Bans and phase-outs of fluorinated greenhouse gases (F-gases)
+    - Biofuel quotas for aviation fuels
+    - Biofuel quotas for land transport fuels
+    - Biofuel quotas for maritime fuels
+    - Bans and phase-outs of plastic products
+    - Minimum Energy Performance Standards (MEPS) for electric motors
+    - Government-funded RD&D programmes for low-carbon technologies
+    - Green public procurement
+    - Low-carbon infrastructure investment
+    - Strategic environmental assessment
+    - Climate performance assessment and evaluation
+    - Environmental impact assessment
+    - Energy and carbon review for investment projects
+    - Environmental compliance audit
+  Instrument / subscheme:
+    - Instrument
+    - Subscheme
+  Emission sector:
+    - Energy
+    - transport
+    - buildings
+    - industry
+    - AFOLU
+    - waste
+    - Cross-sectoral
+  Objective:
+    - Air pollution
+    - Waste reduction
+    - Circular economy
+    - Green economy
+    - Climate change mitigation
+    - Climate change adaptation
+    - Economic growth
+    - Energy efficiency
+    - Energy security
+    - Social security
+    - Poverty reduction
+    - Not specified
+    - Other
+  Mitigation relevance:
+    - Direct
+    - Indirect
+  Functioning channel:
+    - Supply-side
+    - demand-side
+    - environment
+  Jurisdiction level:
+    - supranational
+    - national
+    - subnational
+    - special economic zone (SEZ)
+  Status:
+    - in force
+    - scheduled
+    - ended
+    - non-existent
+  Asset (Status):
+    - New
+    - existing
+  Agent:
+    - Households
+    - Firms
+    - Governments
+    - Non-governmental organisations
+  GHGs affected:
+    - CO2
+    - CH4
+    - N2O
+    - SF6
+    - HFCs
+    - PFCs
+    - NF3
+  Mitigation effect:
+    - positive
+    - negative
+    - neutral
+    - unknown
+  Mitigation effects:
+    - positive
+    - negative
+    - neutral
+    - unknown
+  Mitigation co-benefits:
+    - Adaptation
+    - Air pollution
+    - Energy supply security
+    - Technological innovation
+    - Poverty reduction
+    - Employment
+    - Industrial development
+    - Other
+  Compliance monitoring:
+    regulatory_and_procurement:
+      - No compliance monitoring
+      - Self-monitoring and reporting
+      - Inspections or audits conducted by government authorities or third parties
+      - Other
+    information:
+      - No compliance monitoring
+      - Random
+      - Targeted, according to a criteria:__
+      - Regular temporal intervals:__
+      - Irregular temporal intervals
+      - Inspections/audits with prior notice
+      - Inspections/audits without prior notice
+  Compliance enforcement:
+    - No compliance enforcement
+    - Monetary penalties
+    - Prohibitions
+    - Compliance order
+    - Other
+  Compliance promotion:
+    - No compliance promotion
+    - Information and direct assistance
+    - Financial support
+    - Other incentives or support
+  "Public investment: Co-financing":
+    - Yes
+    - No
+  "Public investment: Selection process":
+    - Yes
+    - No
+  "Public procurement: Tender process":
+    - Open tender
+    - Direct purchase
+    - Negotiated purchase
+    - Accelerated public tender
+  "Public procurement: Life-cycle costing":
+    - Yes
+    - No
+  Responsibility information capturing:
+    - Government authorities (inspections or audits)
+    - Third parties (inspections or audits)
+    - The regulated agents (self-reporting)
+  Frequency of information provision:
+    - In real-time
+    - Quarterly
+    - Annually
+    - Other, details:__
+  "For labels: Type":
+    - Binary (based on a single threshold value)
+    - Categorial
+    - Continuously
+  Incentives for Participation:
+    - Financial
+    - Regulatory
+    - Reputational
+    - None
+  Monitoring:
+    - Yes
+    - No
+  Sanctions for non-compliance:
+    - Yes
+    - No
+
+controlled_lists:
+  Asset:
+    source: inputs/regulated assets and activities.md
+    non_exhaustive: true
+    allow_custom_values_with_details: true
+    allowed_values:
+      - Road transport vehicles
+      - Cars
+      - Trailers and semi-trailers
+      - Light-duty trucks
+      - Heavy-duty trucks
+      - Buses
+      - Motorcycles
+      - Aquatic ships
+      - Railway and tramway locomotives and rolling stock
+      - Aircraft
+      - Other transport equipment
+      - Buildings
+      - Power plants
+      - Industrial plants
+      - Residential buildings
+      - Commercial buildings
+      - Public buildings
+      - Parts of buildings and constructions (windows, doors, and others)
+      - Buildings energy systems (electricity systems, heating systems, etc.)
+      - Space heating systems
+      - Space cooling systems
+      - Water heating systems
+      - Cooking systems
+      - Lighting systems
+      - Road infrastructure
+      - Rail infrastructure
+      - Port infrastructure
+      - Electricity grid
+      - Pipelines
+      - Mines
+      - Forest land
+      - Cropland
+      - Grassland
+      - Wetlands
+      - Settlements
+      - Other land
+      - Engines and turbines and parts thereof
+      - Pumps, compressors, hydraulic and pneumatic power engines, and valves, and parts thereof
+      - Ovens and furnace burners and parts thereof
+      - Lifting and handling equipment and parts thereof
+      - Gas generators; distilling plant; filtering machinery
+      - Air-conditioning and refrigerating equipment
+      - Agricultural or forestry machinery and parts thereof
+      - Machinery for mining, quarrying and construction, and parts thereof
+      - Domestic appliances and parts thereof
+      - Electrical machinery and apparatus
+      - Accumulators, primary cells and primary batteries, and parts thereof
+      - Other machinery and equipment
+      - Coal
+      - Natural gas
+      - Oil
+      - Crude petroleum
+      - Motor gasoline
+      - Aviation gasoline
+      - Naphtha
+      - Kerosenes
+      - Gas oil
+      - Fuel oils
+      - Electricity
+      - Heat
+      - Biofuels
+      - Biomass
+      - Nuclear energy
+      - Solar energy
+      - Wind energy
+      - Hydropower
+      - Geothermal
+      - Other renewable energies
+      - Industrial waste
+      - Municipal waste
+      - Ozone depleting substances
+      - Substitutes of ozone depleting substances
+      - GHGs
+      - R&D outputs (studies, papers, etc.)
+      - Information
+  Activity:
+    source: inputs/regulated assets and activities.md
+    non_exhaustive: true
+    allow_custom_values_with_details: true
+    allowed_values:
+      - Conservation, protection or storage
+      - Extraction, abstraction or harvesting
+      - Production, generation or conversion
+      - Abatement or prevention
+      - Export, import, sales or purchase
+      - Registration, licensing or other administrative tasks
+      - Consumption (use, ownership or capital formation)
+      - Disposal, collection or sorting after use
+      - Recycling, repurposing or other treatment after use
+      - Research and development
+      - Collateral acceptance and credit support
+      - Financing and investment
+
+field_types:
+  enum:
+    description: "Single value from allowed_values."
+  multi_enum:
+    description: "One or more values from allowed_values, separated by semicolons."
+  string:
+    description: "Free text."
+  long_text:
+    description: "Long free text; should summarize the legal text without adding unsourced interpretation."
+  date:
+    description: "Date string in dd/mm/yyyy format."
+  number:
+    description: "Numeric value."
+  number_or_formula_text:
+    description: "Numeric value or formula/rate expression as stated in the legal source."
+  url:
+    description: "http or https URL."
+  isic_code:
+    description: "Economic sector ISIC code, letter plus two digits."
+
+fields:
+  Policy Instrument ID: {type: string, required: true}
+  Instrument / subscheme: {type: enum, required: true, allowed_values_ref: "Instrument / subscheme"}
+  Instrument / Subscheme: {type: enum, required: true, alias_of: "Instrument / subscheme"}
+  Group: {type: enum, required: true, allowed_values_ref: Group}
+  Approach: {type: enum, required: true, allowed_values_ref: Approach}
+  Emission sector: {type: enum, required: false, allowed_values_ref: "Emission sector"}
+  Sub-sector: {type: string, required: false}
+  Domestic instrument name: {type: string, required: "at_least_one_name", alias_of: "Domestic name"}
+  English instrument name: {type: string, required: "at_least_one_name", alias_of: "English name"}
+  Domestic name: {type: string, required: "at_least_one_name", canonical: true, aliases: ["Domestic instrument name"]}
+  English name: {type: string, required: "at_least_one_name", canonical: true, aliases: ["English instrument name"]}
+  Policy Package: {type: string, required: false}
+  Description: {type: long_text, required: false}
+  Objective: {type: multi_enum, required: false, allowed_values_ref: Objective}
+  Mitigation relevance: {type: enum, required: false, allowed_values_ref: "Mitigation relevance"}
+  Functioning channel: {type: enum, required: false, allowed_values_ref: "Functioning channel"}
+  Country: {type: string, required: true}
+  Jurisdiction level: {type: enum, required: true, allowed_values_ref: "Jurisdiction level"}
+  Jurisdiction name: {type: string, required: conditional}
+  Adoption date: {type: date, required: false}
+  Start date: {type: date, required: false}
+  End date: {type: date, required: false}
+  Last revision: {type: date, required: false}
+  Last revisions: {type: date, required: false, alias_of: "Last revision"}
+  Last revision (Details): {type: long_text, required: conditional}
+  Last revisions (Details): {type: long_text, required: conditional, alias_of: "Last revision (Details)"}
+  Status: {type: enum, required: true, allowed_values_ref: Status}
+  Administrating authorities: {type: string, required: false}
+  Asset: {type: multi_enum, required: false, allowed_values_ref: "controlled_lists.Asset"}
+  Asset (Status): {type: enum, required: false, allowed_values_ref: "Asset (Status)"}
+  Asset (Details): {type: string, required: false}
+  Asset (Other): {type: string, required: conditional}
+  Asset (Cut-off range): {type: string, required: false}
+  Agent: {type: multi_enum, required: false, allowed_values_ref: Agent}
+  Agent (Detail): {type: string, required: false}
+  Activity: {type: multi_enum, required: false, allowed_values_ref: "controlled_lists.Activity"}
+  Activity (Details): {type: string, required: conditional}
+  Intensity (Value): {type: number_or_formula_text, required: false}
+  Intensity (Unit): {type: string, required: conditional}
+  Intensity (Year): {type: number, required: false, note: "Present in attribute definitions; not present in all template sheets."}
+  Intensity (Details): {type: long_text, required: false}
+  Requirement specification: {type: long_text, required: false}
+  Compliance calculation methodology I: {type: string, required: false}
+  Compliance calculation methodology II: {type: string, required: false}
+  "Tax and Tax Incentive: annual revenue": {type: number_or_formula_text, required: false}
+  "Tax and Tax Incentive: earmarked revenue": {type: long_text, required: false}
+  "Tax and Tax Incentive: annual revenue forgone": {type: number_or_formula_text, required: false, applies_to: "Tax incentives and tax exemptions that reduce liability."}
+  "Subsidy: annual budget/ expenditure": {type: number_or_formula_text, required: false}
+  "Subsidy: Limit": {type: number_or_formula_text, required: false}
+  "Subsidy: Floor or ceiling": {type: string, required: false}
+  "Subsidy: distribution mechanism": {type: string, required: false}
+  "Subsidy: Support duration": {type: string, required: false}
+  "Subsidy: Enforcement Mechanism": {type: string, required: false}
+  "Trading System: Type": {type: string, required: false}
+  "Trading System: cap": {type: number_or_formula_text, required: false}
+  "Trading System: allowance mechanism": {type: string, required: false}
+  "Trading System: Free Allowance": {type: number_or_formula_text, required: false}
+  "Trading System: Offset use allowed": {type: string, required: false}
+  "Trading System: Linkages": {type: string, required: false, rule: "Prefer IFCMA policy instrument IDs; allow external market names when IDs are not assigned yet."}
+  "Trading System: market stabilisation mechanism": {type: long_text, required: false}
+  "Trading System: revenue (annual)": {type: number_or_formula_text, required: false}
+  "Trading System: Volume": {type: number_or_formula_text, required: false}
+  "Trading System: penalties for non-compliance": {type: string, required: false}
+  Compliance monitoring: {type: enum, required: false, allowed_values_ref: "Compliance monitoring"}
+  Compliance monitoring details: {type: long_text, required: conditional}
+  Compliance enforcement: {type: multi_enum, required: false, allowed_values_ref: "Compliance enforcement"}
+  Compliance enforcement details: {type: long_text, required: conditional}
+  Compliance promotion: {type: multi_enum, required: false, allowed_values_ref: "Compliance promotion"}
+  Compliance promotion detail: {type: long_text, required: conditional}
+  "Public investment: Co-financing": {type: enum, required: false, allowed_values_ref: "Public investment: Co-financing"}
+  "Public investment: Selection process": {type: enum, required: false, allowed_values_ref: "Public investment: Selection process"}
+  "Public procurement: Tender process": {type: enum, required: false, allowed_values_ref: "Public procurement: Tender process"}
+  "Public procurement: Award criteria tender process": {type: long_text, required: false}
+  "Public procurement: Compliance monitoring": {type: enum, required: false, allowed_values_ref: "Compliance monitoring"}
+  "Public procurement: Compliance enforcement": {type: multi_enum, required: false, allowed_values_ref: "Compliance enforcement"}
+  "Public procurement: Life-cycle costing": {type: enum, required: false, allowed_values_ref: "Public procurement: Life-cycle costing"}
+  "Public investment/procurement: Annual expenditure": {type: number_or_formula_text, required: false}
+  Instrument linkage: {type: string, required: false}
+  Responsibility information capturing: {type: enum, required: false, allowed_values_ref: "Responsibility information capturing"}
+  Information transmission: {type: string, required: false}
+  Frequency of information provision: {type: enum, required: false, allowed_values_ref: "Frequency of information provision"}
+  Public availability of information: {type: long_text, required: false}
+  "For labels: Type": {type: enum, required: false, allowed_values_ref: "For labels: Type"}
+  Details on capacity building, training/education, information campaigns and award schemes: {type: long_text, required: false}
+  Incentives for Participation: {type: enum, required: false, allowed_values_ref: "Incentives for Participation"}
+  Monitoring: {type: enum, required: false, allowed_values_ref: Monitoring}
+  Sanctions for non-compliance: {type: enum, required: false, allowed_values_ref: "Sanctions for non-compliance"}
+  GHG emission coverage (absolute): {type: number, required: false, unit: KtCO2eq}
+  GHG emission coverage (% domestic emissions): {type: number, required: false, unit: percent}
+  Economic sector: {type: isic_code, required: false}
+  GHGs affected: {type: multi_enum, required: false, allowed_values_ref: "GHGs affected"}
+  Mitigation effect: {type: enum, required: false, allowed_values_ref: "Mitigation effect"}
+  Mitigation effects: {type: enum, required: false, allowed_values_ref: "Mitigation effect", alias_of: "Mitigation effect"}
+  Mitigation co-benefits: {type: multi_enum, required: false, allowed_values_ref: "Mitigation co-benefits"}
+  Legal statute: {type: string, required: "final_publication_unless_unavailable"}
+  Legal document: {type: url, required: "at_least_one_source"}
+  Other weblinks: {type: url, required: "at_least_one_source", alias_of: "Other relevant websites"}
+  Other relevant websites: {type: url, required: "at_least_one_source", canonical: true, aliases: ["Other weblinks"]}
+
