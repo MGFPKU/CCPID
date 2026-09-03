@@ -102,6 +102,14 @@ python scripts\normalize_isic_economic_sector.py
 
 CCPID（中国气候政策工具数据库）是一个中英双语的国家层面气候减缓政策工具数据库，分类体系与 OECD IFCMA 气候政策数据库保持一致。以政策工具（或子方案）为观测单位，涵盖经济工具、监管工具、政府投资与消费、信息工具、自愿方法五大类，截至 2026 年 9 月共收录 281 个工具（含子方案共 313 行）。每个字段均有来源 URL、来源标题、证据引文和置信度评分支撑（见 `outputs/evidence_log.csv`），证据不足时标注 `未找到`/`N/A` 并转人工复核，不编造数据。中文版先行填写，经人工审核后生成英文版。详细使用说明见上文英文部分及 `CLAUDE.md`。
 
+## License
+
+- **Code** (`scripts/` and tooling): [MIT License](LICENSE)
+- **Data** (CSV/Excel datasets in `outputs/` and templates in `inputs/`): [CC BY 4.0](LICENSE-DATA) — attribute the CCPID team, MGFPKU, Peking University.
+
 ## Contact
 
 Maintained by [MGFPKU](https://github.com/MGFPKU) — Peking University.
+
+- dqshao@nsd.pku.edu.cn
+- xbhe@nsd.pku.edu.cn
