@@ -71,7 +71,7 @@ TEXT = {
         "group_col": "组别",
         "sector_col": "排放部门",
         "mitigation_col": "减缓相关性",
-        "total_col": "总计",
+        "total_col": "路径数量总计",
         "note": (
             '注："类别"和"组别"的数字之和等于路径/工具的总数，因为每个路径/工具仅属于一个类别/组别。'
             "其他表中的数字之和大于路径/工具总数，因为部分路径/工具属于多个分类。"
@@ -85,7 +85,7 @@ TEXT = {
         "group_col": "Group",
         "sector_col": "Emission Sector",
         "mitigation_col": "Mitigation relevance",
-        "total_col": "Total",
+        "total_col": "Total number of approaches",
         "note": (
             'Note: The sum of numbers for "category" and "group" equals the total number of '
             "approaches/instruments, since each approach/instrument only belongs to one "

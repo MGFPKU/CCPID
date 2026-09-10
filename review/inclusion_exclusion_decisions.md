@@ -835,3 +835,24 @@ For every user-requested data-filling item, record the inclusion gate before fil
 - Decision (14/08/2026): unified the Chinese group name for Administered price on 行政定价; removed the last remaining 管制价格 (a static label cell B14 in the summary sheet of inputs/template_cn.xlsx that leaked into the exported workbook).
 - Rationale: all live data (CSVs, classification files, fill/export scripts, other workbook sheets) already use 行政定价, which also renders IFCMA's "Administered price" more precisely (行政定价 vs 市场定价); 管制价格 is associated with general price controls and was a leftover.
 - Files updated: inputs/template_cn.xlsx (zip-level cell text edit). No CSV/schema/script changes needed.
+
+## CCNT 双周检测轮（2026-09-09 报告）落实 — 2026-09-10
+
+用户审核确认检测报告（review/ccnt/reports/2026-09-09.md）中的三项建议，正式落实：
+
+### 1. 碳效领跑者拆分为子方案（报告第 4 项）
+
+- Decision (10/09/2026): CHNVIIVLBI04S000 能效领跑者制度更名为"能效、碳效领跑者制度"（EN: Energy Efficiency and Carbon Efficiency Top-Runner Programme），依据工信厅联节函〔2026〕372号更新描述（能效领跑者 43 个细分行业、新增绿色电力消费比例要求、申报门槛 1 万吨标准煤/2.6 万吨二氧化碳当量、每行业不超过 5 家）、最近修订（30/07/2026）与法律文件；新增子方案 CHNVIIVLBI04S001 重点行业碳效领跑者（电解铝、水泥熟料、合成氨、乙烯、甲醇 5 行业，依据产品碳足迹核算规则国家标准或团体标准对标）。
+- Rationale: 用户决定拆分（指标从能效转为碳效、覆盖行业不同，符合 CCPID 子方案拆分规则）；能效领跑者内容保留在父行，碳效领跑者单独成子方案。
+- Files updated: outputs/CCPID_cn_voluntary_approaches.csv, outputs/evidence_log.csv.
+
+### 2. CHNFRMEPMI01S000 公共机构节能 — "十五五"目标更新（报告第 5 项）
+
+- Decision (10/09/2026): 按国管节能〔2026〕161号《"十五五"公共机构节能降碳工作方案》更新描述（2030 年目标：单位建筑面积碳排放下降 8.5%、单位建筑面积能耗下降 5%、人均用水量下降 3%；煤炭消费占比 ≤5%；用电占比达到 65%；碳排放总量 2030 年前尽早达峰）与政策包、法律文件名称；最近修订保持不变（《公共机构节能条例》2017 年修订仍是现行法律文件）。
+- Files updated: outputs/CCPID_cn_regulatory_instruments.csv, outputs/evidence_log.csv.
+
+### 3. 零碳工厂纳入（报告第 11 项，方案 B + 拆分子方案）
+
+- Decision (10/09/2026): 采用方案 B — 独立新工具 CHNVIIVLBI11S000 零碳工厂标识（Zero-Carbon Factory Label），自愿措施/自愿性信息工具/自愿性认证标识，与零碳园区标识 CHNVIIVLBI10S000 平行，依据工信厅节函〔2026〕334号及工信部联节〔2026〕13号。不并入绿色工厂梯度培育（CHNCBACBPI01S000）：虽申报以入选绿色工厂为前提，但本工具的评价对象（工厂/算力设施）、核心指标（碳指标两档）与认定程序独立，属标识类工具。
+- 子方案拆分（用户确认）：CHNVIIVLBI11S001 零碳工厂（制造型企业）与 CHNVIIVLBI11S002 零碳算力设施。拆分理由：受规制资产不同（制造型企业 vs 算力设施）；门槛不同（制造型：年综合能耗 ≥1000 吨标准煤 + 国家绿色工厂名单 + 单位产品能耗 1 级/标杆；算力设施：≥3000 标准机架（智算中心豁免）+ PUE 达 GB 40879 2 级 + 国家绿色算力设施名单）；指标豁免不同（算力设施不设"非化石能源电力消费物理认定量占比"基本要求 ≥10%）。
+- Files updated: outputs/CCPID_cn_voluntary_approaches.csv, outputs/evidence_log.csv.
