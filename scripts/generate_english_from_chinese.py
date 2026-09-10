@@ -96872,7 +96872,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "projects across multiple sectors and has no single "
             "domestic emission coverage share)"
         ),
-        "Economic sector": "A02; B05; D35",
+        "Economic sector": "A01; A02; B05; B06; D35; F41",
         "GHGs affected": "CO2; CH4",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
