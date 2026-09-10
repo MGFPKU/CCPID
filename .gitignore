@@ -8,3 +8,6 @@ temp/
 *.bak*
 _test_gradient*.xlsx
 .claude/settings.local.json
+review/ccnt/docs/
+review/ccnt/api_cache.json
+review/ccnt/candidates.json
