@@ -2646,7 +2646,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Air pollution; technological innovation; industrial development"
+            "Air pollution; technological innovation; industrial development; adaptation"
 
 
         ),
@@ -80544,7 +80544,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Ecological protection; biodiversity conservation; water resource conservation; flood control and water storage",
+        "Mitigation co-benefits": "Ecological protection; biodiversity conservation; water resource conservation; flood control and water storage; adaptation",
 
 
         "Legal statute": "General Office of the State Council, Notice on Printing and Issuing the Wetland Protection and Restoration System Plan (SC General Office Doc. [2016] No. 89)",
@@ -96879,7 +96879,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Renewable energy development; Technological innovation; "
             "Ecological protection; Green industry development; "
             "Resource conservation; Pollution control; "
-            "Air pollutant emission reduction"
+            "Air pollutant emission reduction; Energy security; Soil and water conservation; Biodiversity conservation; Adaptation"
         ),
         "Last revisions (Details)": (
             "On 13 June 2012, the National Development and Reform "
@@ -97589,7 +97589,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
             "Ecological protection; Biodiversity conservation; "
             "Coastal protection; Pollution control; "
-            "Resource conservation"
+            "Resource conservation; Adaptation"
         ),
         "Last revisions (Details)": (
             "N/A (revised draft issued for public consultation in "
@@ -98673,7 +98673,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Ecological protection; "
             "Biodiversity conservation; "
             "Pollution control; "
-            "Green industry development"
+            "Green industry development; Adaptation"
         ),
         "Legal statute": (
             "Notice on Issuing Two Methodologies Including "
@@ -98839,7 +98839,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Ecological protection; "
             "Biodiversity conservation; "
             "Pollution control; "
-            "Green industry development"
+            "Green industry development; Adaptation"
         ),
         "Legal statute": (
             "Notice on Issuing Two Methodologies Including "
@@ -99018,7 +99018,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Ecological protection; "
             "Soil and water conservation; "
             "Pollution control; "
-            "Green industry development"
+            "Green industry development; Adaptation"
         ),
         "Legal statute": (
             "Notice on Issuing the Methodology for Voluntary "
