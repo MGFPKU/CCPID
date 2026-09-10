@@ -509,11 +509,14 @@ DOWNLOAD_CSS = """
 """
 
 
+RAW_BASE = "https://raw.githubusercontent.com/MGFPKU/CCPID/main/docs"
+
+
 def build_download_html(lang: str, generated: str) -> str:
     t = TEXT[lang]
     return f"""<!-- CCPID 数据下载模块 · 自动生成于 {generated} · 由 scripts/generate_webpage.py 生成，请勿手改 -->
 <div class="ccpid-download" id="ccpid-download">
-  <a class="ccpid-download-btn" href="CCPID_{lang}.xlsx" download>{t["download_btn"]}</a>
+  <a class="ccpid-download-btn" href="{RAW_BASE}/CCPID_{lang}.xlsx" download>{t["download_btn"]}</a>
 </div>
 <style>
 {DOWNLOAD_CSS}</style>
@@ -529,8 +532,8 @@ def main() -> int:
         help="Directory containing the CCPID CSVs (default: outputs/).",
     )
     parser.add_argument(
-        "--out", type=Path, default=ROOT / "webpage",
-        help="Output directory for the generated module (default: webpage/).",
+        "--out", type=Path, default=ROOT / "docs",
+        help="Output directory for the generated module (default: docs/).",
     )
     parser.add_argument(
         "--lang", choices=["all", "cn", "en"], default="cn",
