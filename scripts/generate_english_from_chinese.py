@@ -1233,7 +1233,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "falsely reported or concealed portion may be deducted from the next year’s allowances."
         ),
         "Mitigation effects": "Positive",
-        "Mitigation co-benefits": "Air pollution mitigation",
+        "Mitigation co-benefits": "Air pollutant emission reduction",
     },
 
 
@@ -1433,7 +1433,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Trading System: penalties for non-compliance": "Subject to the unified national carbon market penalty rules.",
         "Mitigation effects": "Positive",
-        "Mitigation co-benefits": "Air pollution mitigation",
+        "Mitigation co-benefits": "Air pollutant emission reduction",
     },
 
 
@@ -1642,7 +1642,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Trading System: penalties for non-compliance": "Subject to the unified national carbon market penalty rules.",
         "Mitigation effects": "Positive",
-        "Mitigation co-benefits": "Air pollution mitigation",
+        "Mitigation co-benefits": "Air pollutant emission reduction",
     },
 
 
@@ -1836,7 +1836,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Trading System: penalties for non-compliance": "Subject to the unified national carbon market penalty rules.",
         "Mitigation effects": "Positive",
-        "Mitigation co-benefits": "Air pollution mitigation",
+        "Mitigation co-benefits": "Air pollutant emission reduction",
     },
 
 
@@ -2042,7 +2042,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Trading System: penalties for non-compliance": "Subject to the unified national carbon market penalty rules.",
         "Mitigation effects": "Positive",
-        "Mitigation co-benefits": "Air pollution mitigation",
+        "Mitigation co-benefits": "Air pollutant emission reduction",
     },
 
 
@@ -2646,7 +2646,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Air pollution; Technological innovation; Industrial development; Ecological protection; Biodiversity conservation; adaptation"
+            "Air pollution; Technological innovation; Industrial development; Ecological protection; Biodiversity conservation; Adaptation"
 
 
         ),
@@ -3285,10 +3285,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Air pollution; biodiversity protection; watershed protection; "
-
-
-            "soil conservation; adaptation"
+            "Air pollution; Biodiversity conservation; Watershed protection; Soil conservation; Adaptation"
 
 
         ),
@@ -3853,10 +3850,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Air pollution; biodiversity protection; soil conservation; "
-
-
-            "watershed protection; adaptation"
+            "Air pollution; Biodiversity conservation; Soil conservation; Watershed protection; Adaptation"
 
 
         ),
@@ -4306,10 +4300,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Biodiversity protection; soil conservation; watershed protection; "
-
-
-            "adaptation"
+            "Biodiversity conservation; Soil conservation; Watershed protection; Adaptation"
 
 
         ),
@@ -4783,10 +4774,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Biodiversity protection; soil conservation; adaptation; "
-
-
-            "industrial development"
+            "Biodiversity conservation; Soil conservation; Adaptation; Industrial development"
 
 
         ),
@@ -5404,10 +5392,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Biodiversity protection; soil conservation; watershed protection; "
-
-
-            "adaptation; technological innovation"
+            "Biodiversity conservation; Soil conservation; Watershed protection; Adaptation; Technological innovation"
 
 
         ),
@@ -6157,10 +6142,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Air pollution; biodiversity protection; soil conservation; "
-
-
-            "watershed protection; adaptation; employment and poverty reduction"
+            "Air pollution; Biodiversity conservation; Soil conservation; Watershed protection; Adaptation; Employment and poverty reduction"
 
 
         ),
@@ -6685,10 +6667,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Air pollution; energy supply security; technological innovation; "
-
-
-            "industrial development"
+            "Air pollution; Energy supply security; Technological innovation; Industrial development"
 
 
         ),
@@ -7330,10 +7309,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Air pollution; energy supply security; technological innovation; "
-
-
-            "industrial development"
+            "Air pollution; Energy supply security; Technological innovation; Industrial development"
 
 
         ),
@@ -8131,7 +8107,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Air pollution; Energy supply security; Consumption growth",
+        "Mitigation co-benefits": "Air pollution; Energy supply security; Industrial development",
 
 
         "Legal statute": (
@@ -8494,7 +8470,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Air pollution; Consumption growth",
+        "Mitigation co-benefits": "Air pollution; Industrial development",
 
 
         "Legal statute": (
@@ -8857,7 +8833,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Air pollution; Energy supply security; Public service improvement",
+        "Mitigation co-benefits": "Air pollution; Energy supply security; Public health",
 
 
         "Legal statute": (
@@ -9532,7 +9508,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Air pollution; energy supply security; industrial development",
+        "Mitigation co-benefits": "Air pollution; Energy supply security; Industrial development",
 
 
         "Legal statute": (
@@ -10228,7 +10204,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Circular economy; pollution reduction; resource efficiency",
+        "Mitigation co-benefits": "Circular economy; Pollution control; Resource conservation",
 
 
         "Legal statute": (
@@ -10903,7 +10879,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Air pollution; technological innovation",
+        "Mitigation co-benefits": "Air pollution; Technological innovation",
 
 
         "Legal statute": (
@@ -11543,7 +11519,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Air pollution; technological innovation; industrial development",
+        "Mitigation co-benefits": "Air pollution; Technological innovation; Industrial development",
 
 
         "Legal statute": (
@@ -12206,10 +12182,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Air pollution; technological innovation; industrial "
-
-
-            "development; energy supply security"
+            "Air pollution; Technological innovation; Industrial development; Energy supply security"
 
 
         ),
@@ -12965,10 +12938,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Pollution prevention and control; ecological protection; technological "
-
-
-            "innovation; industrial development; energy supply security"
+            "Pollution control; Ecological protection; Technological innovation; Industrial development; Energy supply security"
 
 
         ),
@@ -13565,7 +13535,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Air pollution; energy supply security; industrial development"
+            "Air pollution; Energy supply security; Industrial development"
 
 
         ),
@@ -15562,7 +15532,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "MOF STA Announcement [2021] No. 40, Announcement on Improving the VAT Policy for Resource Comprehensive Utilisation",
 
 
-        "Mitigation co-benefits": "Industrial development; Technological innovation; Waste reduction",
+        "Mitigation co-benefits": "Industrial development; Technological innovation; Circular economy",
 
 
         "Mitigation effects": "positive",
@@ -15854,7 +15824,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Technological innovation; Soil health; Water quality protection",
+        "Mitigation co-benefits": "Technological innovation; Soil conservation; Pollution control",
 
 
         "Mitigation effects": "positive",
@@ -17114,7 +17084,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "Administrative Measures for the China Clean Development Mechanism Fund (seven-ministry Order No. 111, 2022)",
 
 
-        "Mitigation co-benefits": "Technological innovation; green industry development; pollution prevention and control; ecological protection",
+        "Mitigation co-benefits": "Technological innovation; green industry development; pollution prevention and control; Ecological protection",
 
 
         "Mitigation effects": "Positive",
@@ -17764,7 +17734,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "positive",
 
 
-        "Mitigation co-benefits": "Environmental protection; Water conservation; Waste reduction; Technological innovation",
+        "Mitigation co-benefits": "Pollution control; Water resource conservation; Circular economy; Technological innovation",
 
 
         "Tax and Tax Incentive: annual revenue": "N/A",
@@ -17869,7 +17839,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "positive",
 
 
-        "Mitigation co-benefits": "Environmental protection; Water conservation; Industrial development; Technological innovation",
+        "Mitigation co-benefits": "Pollution control; Water resource conservation; Industrial development; Technological innovation",
 
 
         "Tax and Tax Incentive: annual revenue": "N/A",
@@ -17974,7 +17944,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "positive",
 
 
-        "Mitigation co-benefits": "Industrial development; Technological innovation; Digital economy development; Equipment upgrading",
+        "Mitigation co-benefits": "Industrial development; Technological innovation",
 
 
         "Tax and Tax Incentive: annual revenue": "N/A",
@@ -18079,7 +18049,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "positive",
 
 
-        "Mitigation co-benefits": "Waste reduction; Resource conservation; Circular economy; Technological innovation",
+        "Mitigation co-benefits": "Circular economy; Resource conservation; Technological innovation",
 
 
         "Tax and Tax Incentive: annual revenue": "N/A",
@@ -21729,7 +21699,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Air pollution mitigation; Energy security; Technological innovation"
+            "Air pollutant emission reduction; Energy security; Technological innovation"
         ),
     },
 
@@ -22071,7 +22041,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "entered into adverse credit records and subject to joint disciplinary sanctions."
         ),
         "Mitigation effects": "Positive",
-        "Mitigation co-benefits": "Air pollution mitigation; Energy security",
+        "Mitigation co-benefits": "Air pollutant emission reduction; Energy security",
     },
 
 
@@ -22315,7 +22285,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "positive",
 
 
-        "Mitigation co-benefits": "Air pollution mitigation; Emission reduction",
+        "Mitigation co-benefits": "Air pollutant emission reduction",
 
 
         "Functioning channel": "Demand-side",
@@ -22491,8 +22461,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Air pollution mitigation; Energy supply security; Technological innovation;"
-            "Industrial development"
+            "Air pollutant emission reduction; Energy supply security; Technological innovation; Industrial development"
         ),
     },
 
@@ -22599,7 +22568,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "notification, product filing or import management."
         ),
         "Mitigation effects": "Positive",
-        "Mitigation co-benefits": "Air pollution mitigation; Energy supply security; Technological innovation",
+        "Mitigation co-benefits": "Air pollutant emission reduction; Energy supply security; Technological innovation",
 
         "Intensity (Details)": (
             "Enterprise-level intensity is calculated by weighting vehicle-model fuel "
@@ -22712,8 +22681,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Air pollution mitigation; Energy supply security; Technological innovation;"
-            "Industrial development"
+            "Air pollutant emission reduction; Energy supply security; Technological innovation; Industrial development"
         ),
 
         "Intensity (Details)": (
@@ -22937,7 +22905,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Energy efficiency; Industrial development; Technological innovation",
+        "Mitigation co-benefits": "Energy efficiency improvement; Industrial development; Technological innovation",
 
 
         "Last revisions (Details)": "N/A",
@@ -23754,7 +23722,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Energy efficiency; Pollution control; Circular economy; Technological innovation",
+        "Mitigation co-benefits": "Energy efficiency improvement; Pollution control; Circular economy; Technological innovation",
 
 
         "Last revisions (Details)": (
@@ -24076,7 +24044,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Energy efficiency; Technological innovation; Industrial development",
+        "Mitigation co-benefits": "Energy efficiency improvement; Technological innovation; Industrial development",
 
 
         "Last revisions (Details)": "N/A",
@@ -25045,10 +25013,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy conservation; Circular economy; Technological innovation; Industrial "
-
-
-            "development; Energy security"
+            "Energy efficiency improvement; Circular economy; Technological innovation; Industrial development; Energy security"
 
 
         ),
@@ -25546,10 +25511,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Air pollution reduction; Transport modal shift; Regional economic development; "
-
-
-            "Energy security"
+            "Air pollutant emission reduction; Energy consumption reduction; Industrial development; Energy security"
 
 
         ),
@@ -26152,10 +26114,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Air pollution reduction; Transport modal shift; Regional economic development; "
-
-
-            "Industrial chain and supply chain security"
+            "Air pollutant emission reduction; Energy consumption reduction; Industrial development; Energy security"
 
 
         ),
@@ -26770,10 +26729,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Biodiversity conservation; Soil and water conservation; Desertification "
-
-
-            "control; Sustainable development"
+            "Biodiversity conservation; Soil and water conservation; Desertification control; Ecological protection"
 
 
         ),
@@ -27163,7 +27119,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Technological innovation; Green industry development; Energy supply security; Air pollution reduction",
+        "Mitigation co-benefits": "Technological innovation; Green industry development; Energy supply security; Air pollutant emission reduction",
 
 
         "Legal statute": (
@@ -27574,7 +27530,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Technological innovation; Green industry development; Energy supply security; Air pollution reduction",
+        "Mitigation co-benefits": "Technological innovation; Green industry development; Energy supply security; Air pollutant emission reduction",
 
 
         "Legal statute": (
@@ -27985,7 +27941,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Technological innovation; Green industry development; Energy supply security; Air pollution reduction",
+        "Mitigation co-benefits": "Technological innovation; Green industry development; Energy supply security; Air pollutant emission reduction",
 
 
         "Legal statute": (
@@ -28414,7 +28370,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Technological innovation; Energy supply security; Grid stability; Green industry development",
+        "Mitigation co-benefits": "Technological innovation; Energy supply security; Energy security; Green industry development",
 
 
         "Legal statute": (
@@ -28879,7 +28835,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Pollution prevention; Resource conservation; Green industry development; Technological innovation; Carbon reduction synergy",
+        "Mitigation co-benefits": "Pollution control; Resource conservation; Green industry development; Technological innovation",
 
 
         "Legal statute": (
@@ -29356,7 +29312,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Pollution prevention and control; Ecological protection; Sustainable resource use; Public participation",
+        "Mitigation co-benefits": "Pollution control; Ecological protection; Resource conservation; Public health",
 
 
         "Legal statute": (
@@ -29692,7 +29648,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Energy efficiency; Energy security; Green investment",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy security; Green industry development",
 
 
         "Legal statute": (
@@ -30007,7 +29963,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Energy security; Green economy; Air quality improvement",
+        "Mitigation co-benefits": "Energy security; Green industry development; Pollution control",
 
 
         "Legal statute": (
@@ -30397,7 +30353,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Environmental protection; Pollution prevention; Resource efficiency; Energy efficiency",
+        "Mitigation co-benefits": "Pollution control; Resource conservation; Energy efficiency improvement",
 
 
         "Legal statute": (
@@ -30736,7 +30692,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Pollution prevention and control; Ecological protection; Sustainable resource use",
+        "Mitigation co-benefits": "Pollution control; Ecological protection; Resource conservation",
 
 
         "Legal statute": (
@@ -31408,13 +31364,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Harmful gas emission reduction; "
-
-
-            "ODS and HFC alternative technology R&D; "
-
-
-            "Green upgrading of refrigeration and fire protection industries"
+            "Pollution control; Technological innovation; Green industry development"
 
 
         ),
@@ -31714,13 +31664,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Natural refrigerant technology substitution; "
-
-
-            "Green refrigeration industry upgrading; "
-
-
-            "Export competitiveness enhancement"
+            "Technological innovation; Green industry development; Industrial development"
 
 
         ),
@@ -32050,10 +31994,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "High-efficiency motor technology R&D and industrialisation; "
-
-
-            "Motor industry transformation toward energy efficiency"
+            "Technological innovation; Green industry development"
 
 
         ),
@@ -32374,10 +32315,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "High-efficiency PM motor technology R&D and industrialisation; "
-
-
-            "PM motor industry upgrading toward energy efficiency"
+            "Technological innovation; Green industry development"
 
 
         ),
@@ -32698,10 +32636,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "High-efficiency HV motor technology R&D and industrialisation; "
-
-
-            "HV motor industry upgrading toward energy efficiency"
+            "Technological innovation; Green industry development"
 
 
         ),
@@ -33016,13 +32951,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Air pollutant emission reduction; "
-
-
-            "Clean heating technology progress; "
-
-
-            "Clean energy industry development"
+            "Air pollutant emission reduction; Technological innovation; Renewable energy development"
 
 
         ),
@@ -33901,7 +33830,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Pollution prevention; Resource conservation; Circular economy"
+            "Pollution control; Resource conservation; Circular economy"
 
 
         ),
@@ -34381,13 +34310,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Building operational carbon emission reduction; "
-
-
-            "Indoor environmental quality improvement; "
-
-
-            "Renewable energy industry development"
+            "Energy consumption reduction; Public health; Renewable energy development"
 
 
         ),
@@ -34804,13 +34727,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Data centre operating cost reduction; "
-
-
-            "Advanced cooling and energy-saving technology R&D and industrialisation; "
-
-
-            "Green and high-quality development of new data centres"
+            "Resource conservation; Technological innovation; Green industry development"
 
 
         ),
@@ -35251,13 +35168,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Kitchen appliance energy efficiency improvement; "
-
-
-            "Reduction in residential and commercial electricity consumption; "
-
-
-            "High-efficiency home appliance industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -35584,13 +35495,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Commercial kitchen energy efficiency improvement; "
-
-
-            "Reduction in food service sector electricity consumption; "
-
-
-            "High-efficiency commercial kitchen equipment industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -35944,13 +35849,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Gas cooking appliance energy efficiency improvement; "
-
-
-            "Reduction in residential and commercial gas consumption; "
-
-
-            "High-efficiency gas appliance industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -36271,13 +36170,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Low-voltage apparatus energy efficiency improvement; "
-
-
-            "Reduction in industrial power distribution losses; "
-
-
-            "High-efficiency low-voltage apparatus industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -36631,13 +36524,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Transmission and distribution network loss reduction; "
-
-
-            "Renewable energy generation efficiency improvement; "
-
-
-            "High-efficiency transformer industry upgrading"
+            "Energy consumption reduction; Energy efficiency improvement; Green industry development"
 
 
         ),
@@ -36937,13 +36824,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Data centre energy efficiency improvement; "
-
-
-            "Advancement of energy-saving IT equipment technology; "
-
-
-            "Development of green computing infrastructure"
+            "Energy efficiency improvement; Technological innovation; Green industry development"
 
 
         ),
@@ -37243,13 +37124,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Electronic equipment energy efficiency improvement; "
-
-
-            "Reduction in office and residential electricity consumption; "
-
-
-            "High-efficiency display industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -37561,13 +37436,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Household appliance energy efficiency improvement; "
-
-
-            "Reduction in residential electricity consumption; "
-
-
-            "High-efficiency air cleaning and ventilation product industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -37897,13 +37766,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Industrial pump energy efficiency improvement; "
-
-
-            "Energy savings in agricultural and urban water supply and drainage systems; "
-
-
-            "High-efficiency pump industry upgrading"
+            "Energy efficiency improvement; Green industry development"
 
 
         ),
@@ -38203,13 +38066,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Household appliance energy efficiency improvement; "
-
-
-            "Reduction in residential electricity consumption; "
-
-
-            "High-efficiency electric fan industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -38539,13 +38396,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Consumer electronics energy efficiency improvement; "
-
-
-            "Reduction in residential electricity consumption; "
-
-
-            "High-efficiency display industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -38839,13 +38690,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Industrial ventilation system energy saving; "
-
-
-            "HVAC system energy efficiency improvement; "
-
-
-            "High-efficiency fan industry upgrading"
+            "Energy efficiency improvement; Green industry development"
 
 
         ),
@@ -39154,13 +38999,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Industrial compressed air system energy saving; "
-
-
-            "General machinery energy efficiency improvement; "
-
-
-            "High-efficiency compressor industry upgrading"
+            "Energy efficiency improvement; Green industry development"
 
 
         ),
@@ -39472,13 +39311,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Industrial welding energy efficiency improvement; "
-
-
-            "Reduction in manufacturing electricity consumption; "
-
-
-            "High-efficiency welding equipment industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -39772,13 +39605,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Bathroom appliance energy and water efficiency improvement; "
-
-
-            "Reduction in residential water and electricity consumption; "
-
-
-            "High-efficiency sanitary ware industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -40117,13 +39944,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Household appliance energy and water efficiency improvement; "
-
-
-            "Reduction in residential water and electricity consumption; "
-
-
-            "High-efficiency dishwasher industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -40462,16 +40283,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Household appliance energy efficiency significant improvement; "
-
-
-            "Substantial reduction in residential electricity consumption "
-
-
-            "(annual savings of approximately 13 TWh); "
-
-
-            "High-efficiency refrigeration industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -40801,13 +40613,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Information equipment energy efficiency improvement; "
-
-
-            "Reduction in office and residential electricity consumption; "
-
-
-            "High-efficiency computer industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -41134,13 +40940,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Household appliance energy and water efficiency improvement; "
-
-
-            "Reduction in residential water and electricity consumption; "
-
-
-            "High-efficiency washing machine industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -41458,13 +41258,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Wastewater treatment system energy saving; "
-
-
-            "Environmental equipment energy efficiency improvement; "
-
-
-            "High-efficiency aeration equipment industry upgrading"
+            "Energy efficiency improvement; Green industry development"
 
 
         ),
@@ -41749,13 +41543,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Wastewater treatment system energy saving; "
-
-
-            "Environmental equipment energy efficiency improvement; "
-
-
-            "High-efficiency mixing equipment industry upgrading"
+            "Energy efficiency improvement; Green industry development"
 
 
         ),
@@ -42052,13 +41840,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Industrial pump energy efficiency improvement; "
-
-
-            "Petrochemical and water supply/drainage system energy saving; "
-
-
-            "High-efficiency pump industry upgrading"
+            "Energy efficiency improvement; Green industry development"
 
 
         ),
@@ -42370,13 +42152,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Industrial dust removal system energy saving; "
-
-
-            "Environmental equipment energy efficiency improvement; "
-
-
-            "High-efficiency dust collection equipment industry upgrading"
+            "Energy efficiency improvement; Green industry development"
 
 
         ),
@@ -42667,13 +42443,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Industrial hydrogen production energy efficiency improvement; "
-
-
-            "Green hydrogen industry development; "
-
-
-            "High-efficiency electrolysis equipment industry upgrading"
+            "Energy efficiency improvement; Green industry development"
 
 
         ),
@@ -42955,13 +42725,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Electronic equipment energy efficiency improvement; "
-
-
-            "Reduction in office and education electricity consumption; "
-
-
-            "High-efficiency projector industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -43282,13 +43046,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Household appliance energy efficiency improvement; "
-
-
-            "Reduction in residential electricity consumption; "
-
-
-            "High-efficiency kitchen and ventilation appliance industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -43594,13 +43352,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Household appliance energy efficiency improvement; "
-
-
-            "Reduction in residential electricity consumption; "
-
-
-            "High-efficiency drinking water dispenser industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -43903,13 +43655,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Office equipment energy efficiency improvement; "
-
-
-            "Reduction in office electricity consumption; "
-
-
-            "High-efficiency office equipment industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -44239,16 +43985,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Electronic equipment energy efficiency improvement; "
-
-
-            "Reduction in information equipment and industrial equipment "
-
-
-            "electricity consumption; "
-
-
-            "High-efficiency power supply industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -44557,13 +44294,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Industrial fan energy efficiency improvement; "
-
-
-            "Energy saving in wastewater treatment and industrial ventilation systems; "
-
-
-            "High-efficiency blower industry upgrading"
+            "Energy efficiency improvement; Green industry development"
 
 
         ),
@@ -44878,13 +44609,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Charging infrastructure energy efficiency improvement; "
-
-
-            "Greening of the new energy vehicle industry chain; "
-
-
-            "High-efficiency power electronics industry upgrading"
+            "Energy efficiency improvement; Green industry development"
 
 
         ),
@@ -45024,9 +44749,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "PV product energy efficiency improvement; "
-            "PV generation cost reduction; "
-            "Green industry development"
+            "Energy efficiency improvement; Technological innovation; Green industry development"
         ),
         "Legal statute": (
             "GB 47834-2026 Minimum Allowable Values of Energy Efficiency and "
@@ -45166,9 +44889,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Building lighting energy efficiency improvement; "
-            "Building energy consumption reduction; "
-            "Green building development"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
         ),
         "Legal statute": (
             "GB 30255-2026 Minimum Allowable Values of Energy Efficiency and "
@@ -45466,13 +45187,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Lighting energy efficiency improvement; "
-
-
-            "Reduction in lighting electricity consumption; "
-
-
-            "High-efficiency lighting product industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -45784,13 +45499,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Ballast energy efficiency improvement; "
-
-
-            "Reduction in lighting system energy consumption; "
-
-
-            "High-efficiency ballast industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -46120,13 +45829,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "LED lighting energy efficiency improvement; "
-
-
-            "Reduction in lighting electricity consumption; "
-
-
-            "High-efficiency LED lighting industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -46435,13 +46138,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Indoor lighting energy efficiency improvement; "
-
-
-            "Reduction in building lighting electricity consumption; "
-
-
-            "High-efficiency LED lighting industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -46777,13 +46474,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Road and tunnel lighting energy efficiency improvement; "
-
-
-            "Reduction in public lighting electricity consumption; "
-
-
-            "High-efficiency LED street lighting industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -47068,13 +46759,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Industrial and commercial lighting energy efficiency improvement; "
-
-
-            "Reduction in industrial and commercial lighting electricity "
-
-
-            "consumption; High-efficiency gas discharge lamp industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -47374,13 +47059,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Lighting energy efficiency improvement; "
-
-
-            "Reduction in lighting electricity consumption; "
-
-
-            "High-efficiency lighting product promotion"
+            "Energy efficiency improvement; Energy consumption reduction"
 
 
         ),
@@ -47671,13 +47350,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Road lighting energy efficiency improvement; "
-
-
-            "Reduction in outdoor lighting electricity consumption; "
-
-
-            "High-efficiency light source industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -47970,13 +47643,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Building air conditioning and heating energy efficiency improvement; "
-
-
-            "Reduction in building electricity consumption; "
-
-
-            "High-efficiency HVAC industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -48323,13 +47990,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Building air conditioning energy efficiency improvement; "
-
-
-            "Reduction in residential and commercial electricity consumption; "
-
-
-            "High-efficiency air conditioning industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -48652,13 +48313,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Building air conditioning energy efficiency improvement; "
-
-
-            "Reduction in commercial building electricity consumption; "
-
-
-            "High-efficiency HVAC industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -48960,13 +48615,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Building and data centre air conditioning energy efficiency improvement; "
-
-
-            "Reduction in commercial and industrial electricity consumption; "
-
-
-            "High-efficiency HVAC industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -49328,13 +48977,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Building heating and cooling energy efficiency improvement; "
-
-
-            "Reduction in industrial heat supply electricity consumption; "
-
-
-            "High-efficiency heat pump industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -49663,13 +49306,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Solar water heating utilisation; "
-
-
-            "Reduction in building hot water energy consumption; "
-
-
-            "Renewable energy building application promotion"
+            "Renewable energy development; Energy consumption reduction"
 
 
         ),
@@ -50020,13 +49657,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Gas-fired water heating and space heating energy efficiency improvement; "
-
-
-            "Reduction in building gas consumption; "
-
-
-            "High-efficiency gas appliance industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -50346,13 +49977,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Air-source heat pump hot water utilisation; "
-
-
-            "Reduction in building hot water energy consumption; "
-
-
-            "High-efficiency heat pump industry upgrading"
+            "Renewable energy development; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -50630,13 +50255,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Electric water heater energy efficiency improvement; "
-
-
-            "Reduction in residential electricity consumption; "
-
-
-            "High-efficiency home appliance industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -50950,13 +50569,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Industrial boiler energy efficiency improvement; "
-
-
-            "Reduction in industrial heat supply fuel consumption; "
-
-
-            "High-efficiency boiler industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -51279,13 +50892,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Iron and steel industry heating process energy efficiency improvement; "
-
-
-            "Reduction in industrial fuel consumption; "
-
-
-            "High-efficiency industrial furnace industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -51590,13 +51197,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Oil and gas industry heating energy efficiency improvement; "
-
-
-            "Reduction in industrial fuel consumption; "
-
-
-            "High-efficiency industrial heating equipment industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -51934,13 +51535,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Cold chain refrigeration energy efficiency improvement; "
-
-
-            "Reduction in warehouse and food cold chain electricity consumption; "
-
-
-            "High-efficiency refrigeration equipment industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -52287,19 +51882,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Commercial refrigeration energy efficiency improvement; "
-
-
-            "Reduction in commercial and cold chain electricity consumption; "
-
-
-            "Promoting adoption of R290 and other environmentally friendly "
-
-
-            "refrigerants; High-efficiency commercial refrigeration equipment "
-
-
-            "industry upgrading"
+            "Energy efficiency improvement; Energy consumption reduction; Pollution control; Green industry development"
 
 
         ),
@@ -52458,7 +52041,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance promotion": "The state encourages formaldehyde producers to benchmark against Grade 1 advanced values and undertake energy conservation and carbon reduction retrofits, guiding and supporting uptake of advanced production capacity through energy conservation reviews, green factory certification and key-industry energy conservation and carbon reduction retrofit campaigns.",
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 45246-2025 Norm of Energy Consumption per Unit Production of Main Wood-Based Panel Products",
@@ -52491,7 +52074,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction; Co-benefits of reduced coal use and air pollution",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction; Air pollutant emission reduction",
 
 
     },
@@ -52517,7 +52100,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
     },
@@ -52544,7 +52127,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction; Co-benefits of reduced coal use and air pollution",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction; Air pollutant emission reduction",
 
 
     },
@@ -52570,7 +52153,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
     },
@@ -52597,7 +52180,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
     },
@@ -52623,7 +52206,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
     },
@@ -52649,7 +52232,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
     },
@@ -52675,7 +52258,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
     },
@@ -52702,7 +52285,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction; Co-benefits of reduced coal use and air pollution",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction; Air pollutant emission reduction",
 
 
     },
@@ -52728,7 +52311,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
     },
@@ -52974,7 +52557,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": (
@@ -53220,7 +52803,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": (
@@ -53475,7 +53058,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": (
@@ -53748,7 +53331,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction; Co-reduction of CO2 and air pollutants",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction; Air pollutant emission reduction",
 
 
         "Legal statute": (
@@ -54018,7 +53601,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": (
@@ -54252,7 +53835,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 21345-2024 Norm of Energy Consumption per Unit Production of Yellow Phosphorus",
@@ -54483,7 +54066,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 29449-2024 Norm of Energy Consumption per Unit Production of Tyres and Carbon Black",
@@ -54714,7 +54297,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": (
@@ -54960,7 +54543,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": (
@@ -55215,7 +54798,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 31335-2024 Norm of Energy Consumption per Unit Production of Iron Ore Mining and Dressing",
@@ -55470,7 +55053,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 31825-2024 Norm of Energy Consumption per Unit Production of Pulp and Paper",
@@ -55728,7 +55311,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 29140-2024 Norm of Energy Consumption per Unit Production of Soda Ash",
@@ -55968,7 +55551,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 30530-2024 Norm of Energy Consumption per Unit Production of Dimethyl Siloxane",
@@ -56223,7 +55806,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction; Co-reduction of CO2 and air pollutants",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction; Air pollutant emission reduction",
 
 
         "Legal statute": "GB 30251-2024 Norm of Energy Consumption per Unit Production of Refining and Chemical Industry",
@@ -56490,7 +56073,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 21343-2023 Norm of Energy Consumption per Unit Production of Calcium Carbide, Vinyl Acetate, Polyvinyl Alcohol, 1,4-Butanediol, Dicyandiamide and Monocyanamide",
@@ -56751,7 +56334,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 21344-2023 Norm of Energy Consumption per Unit Production of Fertilizer Industry",
@@ -57024,7 +56607,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 29145-2023 Norm of Energy Consumption per Unit Production of Tungsten Concentrate, Molybdenum Concentrate and Roasted Molybdenum Concentrate",
@@ -57285,7 +56868,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 29436-2023 Norm of Energy Consumption per Unit Production of Methanol, Ethylene Glycol and Dimethyl Ether",
@@ -57552,7 +57135,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 21252-2023 Norm of Energy Consumption per Unit Production of Architecture and Sanitary Ceramics and Alumina Grinding Ball",
@@ -57822,7 +57405,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 21347-2023 Norm of Energy Consumption per Unit Production of Industrial Silicon and Magnesium",
@@ -58113,7 +57696,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 25323-2023 Norm of Energy Consumption per Unit Production of Non-Ferrous Heavy Metals Metallurgical Enterprises",
@@ -58398,7 +57981,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 21351-2023 Norm of Energy Consumption per Unit Production of Wrought Aluminium and Aluminium Alloys",
@@ -58689,7 +58272,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 21350-2023 Norm of Energy Consumption per Unit Production of Wrought Copper and Copper Alloy",
@@ -58959,7 +58542,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 29447-2022 Norm of Energy Consumption per Unit Production of Polysilicon and Germanium",
@@ -59223,7 +58806,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 25324-2022 Norm of Energy Consumption per Unit Production of Carbon Materials for Aluminium Production",
@@ -59499,7 +59082,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 21341-2022 Norm of Energy Consumption per Unit Production of Ferroalloys",
@@ -59772,7 +59355,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 29448-2022 Norm of Energy Consumption per Unit Production of Titanium Sponge and Titanium Ingot",
@@ -60054,7 +59637,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 21346-2022 Norm of Energy Consumption per Unit Production of Electrolytic Aluminium and Alumina",
@@ -60564,7 +60147,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 40878-2021 Norm of Energy Consumption per Unit Production of Sodium Gluconate",
@@ -60837,7 +60420,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 40877-2021 Norm of Energy Consumption per Unit Production of Aluminium Silicate Fibre and Products",
@@ -61134,7 +60717,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 16780-2021 Norm of Energy Consumption per Unit Production of Cement",
@@ -61407,7 +60990,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 30526-2019 Norm of Energy Consumption per Unit Production of Sintered Wall Materials and Foam Glass",
@@ -61677,7 +61260,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 38263-2019 Norm of Energy Consumption per Unit Production of Cement Products",
@@ -61950,7 +61533,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 21340-2019 Norm of Energy Consumption per Unit Production of Glass and Cast Stone",
@@ -62211,7 +61794,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 36888-2018 Norm of Energy Consumption per Unit Production of Ready-Mixed Concrete",
@@ -62481,7 +62064,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 36892-2018 Norm of Energy Consumption per Unit Production of Corundum",
@@ -62742,7 +62325,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 36891-2018 Norm of Energy Consumption per Unit Production of Mullite",
@@ -63006,7 +62589,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 36890-2018 Norm of Energy Consumption per Unit Production of Domestic Ceramics",
@@ -63345,7 +62928,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 36887-2018 Norm of Energy Consumption per Unit Production of Synthetic Leather",
@@ -63684,7 +63267,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 36889-2018 Norm of Energy Consumption per Unit Production of PET and PET Fiber",
@@ -64062,7 +63645,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 21370-2017 Norm of Energy Consumption per Unit Production of Carbon Products",
@@ -64380,7 +63963,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 33654-2017 Norm of Energy Consumption per Unit Production of Gypsum Plaster",
@@ -64701,7 +64284,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 32044-2015 Norm of Energy Consumption per Unit Production of Sugar",
@@ -65019,7 +64602,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 32047-2015 Norm of Energy Consumption per Unit Production of Beer",
@@ -65358,7 +64941,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 32050-2015 Norm of Energy Consumption per Unit Production of Electric Arc Furnace Steelmaking",
@@ -65685,7 +65268,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 30182-2013 Norm of Energy Consumption per Unit Production of Friction Materials",
@@ -66030,7 +65613,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 30183-2013 Norm of Energy Consumption per Unit Production of Rock Wool, Slag Wool and Their Products",
@@ -66375,7 +65958,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 30184-2013 Norm of Energy Consumption per Unit Production of Asphalt-Based Waterproof Membrane",
@@ -66741,7 +66324,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 30185-2013 Norm of Energy Consumption per Unit Production of Aluminium-Plastic Composite Panel",
@@ -67008,7 +66591,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": (
@@ -67363,7 +66946,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 29438-2012 Norm of Energy Consumption per Unit Production of Polyoxymethylene",
@@ -67711,7 +67294,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 29444-2012 Norm of Energy Consumption per Unit Production of Coal Underground Mining",
@@ -68050,7 +67633,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 29445-2012 Norm of Energy Consumption per Unit Production of Coal Surface Mining",
@@ -68401,7 +67984,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Industrial energy efficiency improvement; Industrial energy consumption reduction",
+        "Mitigation co-benefits": "Energy efficiency improvement; Energy consumption reduction",
 
 
         "Legal statute": "GB 29450-2012 Norm of Energy Consumption per Unit Production of Glass Fiber",
@@ -68542,9 +68125,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Industrial energy efficiency improvement; "
-            "Industrial energy consumption reduction; "
-            "PV supply chain emission reduction"
+            "Energy efficiency improvement; Energy consumption reduction; Air pollutant emission reduction"
         ),
         "Legal statute": (
             "GB 29447-2026 Norm of Energy Consumption per Unit Products "
@@ -68668,9 +68249,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Industrial energy efficiency improvement; "
-            "Industrial energy consumption reduction; "
-            "PV supply chain emission reduction"
+            "Energy efficiency improvement; Energy consumption reduction; Air pollutant emission reduction"
         ),
         "Legal statute": (
             "GB 47835-2026 Norm of Energy Consumption per Unit Products "
@@ -69001,7 +68580,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Transport energy efficiency improvement; Transport energy consumption reduction"
+            "Energy efficiency improvement; Energy consumption reduction"
 
 
         ),
@@ -69322,7 +68901,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Transport energy efficiency improvement; Transport energy consumption reduction"
+            "Energy efficiency improvement; Energy consumption reduction"
 
 
         ),
@@ -69634,10 +69213,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Transport energy efficiency improvement; Transport energy consumption reduction; "
-
-
-            "Air pollutant emission reduction"
+            "Energy efficiency improvement; Energy consumption reduction; Air pollutant emission reduction"
 
 
         ),
@@ -69940,10 +69516,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Transport energy efficiency improvement; Transport energy consumption reduction; "
-
-
-            "Air pollutant emission reduction"
+            "Energy efficiency improvement; Energy consumption reduction; Air pollutant emission reduction"
 
 
         ),
@@ -70249,10 +69822,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Transport energy efficiency improvement; Transport energy consumption reduction; "
-
-
-            "Air pollutant emission reduction"
+            "Energy efficiency improvement; Energy consumption reduction; Air pollutant emission reduction"
 
 
         ),
@@ -70585,10 +70155,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Transport energy efficiency improvement; Transport energy consumption "
-
-
-            "reduction; Air pollutant emission reduction"
+            "Energy efficiency improvement; Energy consumption reduction; Air pollutant emission reduction"
 
 
         ),
@@ -78506,7 +78073,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
     "CHNFRMGFGI01S000": {
 
-        "Mitigation co-benefits": "Green industry development, Energy consumption reduction, Pollution control",
+        "Mitigation co-benefits": "Green industry development; Energy consumption reduction; Pollution control",
         "Compliance monitoring": "Information reporting; Internal audit; Supervision and inspection",
         "Mitigation effects": "Positive",        "Asset (Status)": "New; Existing",
     },
@@ -79668,7 +79235,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Ecological protection; biodiversity conservation; water resource conservation; soil and water conservation; adaptation",
+        "Mitigation co-benefits": "Ecological protection; Biodiversity conservation; Water resource conservation; Soil and water conservation; Adaptation",
 
 
         "Legal statute": "General Office of the CPC Central Committee and General Office of the State Council, Natural Forest Protection and Restoration System Plan",
@@ -80100,7 +79667,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Ecological protection; biodiversity conservation; soil and water conservation; windbreak and sand fixation; adaptation",
+        "Mitigation co-benefits": "Ecological protection; Biodiversity conservation; Soil and water conservation; Windbreak and sand fixation; Adaptation",
 
 
         "Legal statute": "General Office of the State Council, Several Opinions on Strengthening Grassland Protection and Restoration (SC General Office Doc. [2021] No. 7)",
@@ -80544,7 +80111,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Ecological protection; biodiversity conservation; water resource conservation; flood control and water storage; adaptation",
+        "Mitigation co-benefits": "Ecological protection; Biodiversity conservation; Water resource conservation; Flood control and water storage; Adaptation",
 
 
         "Legal statute": "General Office of the State Council, Notice on Printing and Issuing the Wetland Protection and Restoration System Plan (SC General Office Doc. [2016] No. 89)",
@@ -81321,13 +80888,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Ecological protection; Biodiversity protection; Water resource "
-
-
-            "conservation; Water and soil conservation; Pollution control; "
-
-
-            "Adaptation."
+            "Ecological protection; Biodiversity conservation; Water resource conservation; Soil and water conservation; Pollution control; Adaptation"
 
 
         ),
@@ -82158,13 +81719,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Ecological protection; Biodiversity protection; Pollution control; Resource conservation; "
-
-
-            "Green industry development; Energy consumption reduction; "
-
-
-            "Adaptation."
+            "Ecological protection; Biodiversity conservation; Pollution control; Resource conservation; Green industry development; Energy consumption reduction; Adaptation"
 
 
         ),
@@ -82989,10 +82544,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Pollution control; Air pollutant emission reduction; "
-
-
-            "Water resource conservation; Resource conservation."
+            "Pollution control; Air pollutant emission reduction; Water resource conservation; Resource conservation"
 
 
         ),
@@ -83607,10 +83159,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement in buildings; Energy consumption "
-
-
-            "reduction; Green building industry development"
+            "Energy efficiency improvement; Energy consumption reduction; Green industry development"
 
 
         ),
@@ -85428,10 +84977,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Energy consumption reduction; "
-
-
-            "Green consumption guidance; Technological innovation"
+            "Energy efficiency improvement; Energy consumption reduction; Green consumption; Technological innovation"
 
 
         ),
@@ -86064,10 +85610,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Green consumption guidance; Energy consumption reduction in "
-
-
-            "transport; Energy efficiency improvement"
+            "Green consumption; Energy consumption reduction; Energy efficiency improvement"
 
 
         ),
