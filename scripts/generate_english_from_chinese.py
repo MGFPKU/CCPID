@@ -6808,7 +6808,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
+        "Functioning channel": "demand-side",
 
 
         "Country": "CHN",
@@ -10333,7 +10333,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
+        "Functioning channel": "demand-side",
 
 
         "Country": "CHN",
