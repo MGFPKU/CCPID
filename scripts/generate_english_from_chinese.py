@@ -18135,7 +18135,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "N/A",
+        "Objective": "Energy security; Climate change mitigation",
 
 
         "Mitigation relevance": "Direct",
@@ -18444,7 +18444,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "N/A",
+        "Objective": "Energy security; Climate change mitigation",
 
 
         "Mitigation relevance": "Direct",
@@ -19047,7 +19047,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "N/A",
+        "Objective": "Circular economy; Climate change mitigation",
 
 
         "Mitigation relevance": "Direct",
