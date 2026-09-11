@@ -2145,10 +2145,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Soil and water conservation and ecological improvement; farmer income "
-
-
-            "increase and rural development"
+            "Ecological protection; Employment and poverty reduction"
 
 
         ),
@@ -2769,10 +2766,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Forest ecosystem protection and restoration; carbon sequestration; "
-
-
-            "biodiversity protection; water retention"
+            "Ecological protection; Biodiversity conservation; Climate change mitigation"
 
 
         ),
@@ -3409,10 +3403,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Grassland ecological protection and restoration; safeguarding "
-
-
-            "livestock product supply; increasing herder income"
+            "Ecological protection; Employment and poverty reduction"
 
 
         ),
@@ -3961,10 +3952,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Grassland ecological protection and restoration; safeguarding "
-
-
-            "herder income"
+            "Ecological protection; Employment and poverty reduction"
 
 
         ),
@@ -4411,10 +4399,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Sustainable grassland use; safeguarding livestock product supply; "
-
-
-            "increasing herder income"
+            "Ecological protection; Employment and poverty reduction"
 
 
         ),
@@ -4906,10 +4891,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Grassland ecological recovery; desertification control; soil and "
-
-
-            "water conservation; herder production-mode transformation"
+            "Ecological protection; Desertification control; Employment and poverty reduction"
 
 
         ),
@@ -5545,10 +5527,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Natural forest ecosystem protection and restoration; soil erosion "
-
-
-            "control; biodiversity protection; climate change response"
+            "Ecological protection; Biodiversity conservation; Adaptation"
 
 
         ),
@@ -6274,7 +6253,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Green economy; climate change mitigation; energy efficiency"
+            "Green economy; Climate change mitigation; Energy efficiency"
 
 
         ),
@@ -6820,7 +6799,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Green economy; energy efficiency; industrial development"
+            "Green economy; Energy efficiency; Industrial development"
 
 
         ),
@@ -7414,7 +7393,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Green economy; Energy efficiency; Industrial upgrading; Expand domestic demand",
+        "Objective": "Green economy; Climate change mitigation; Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -7819,7 +7798,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Green economy; Energy efficiency; Expand consumption",
+        "Objective": "Green economy; Climate change mitigation; Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -8206,7 +8185,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Green economy; Energy efficiency; Expand consumption",
+        "Objective": "Green economy; Climate change mitigation; Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -8965,7 +8944,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Green economy; climate change mitigation; energy efficiency",
+        "Objective": "Climate change mitigation; Pollution control; Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -9643,7 +9622,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Circular economy; waste reduction; climate change mitigation",
+        "Objective": "Circular economy; Resource conservation",
 
 
         "Mitigation relevance": "Indirect",
@@ -10348,7 +10327,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Agricultural modernisation; Energy efficiency; Green economy",
+        "Objective": "Green economy; Energy efficiency; Climate change mitigation",
 
 
         "Mitigation relevance": "Direct",
@@ -11029,7 +11008,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Climate change mitigation; green economy; technological innovation",
+        "Objective": "Climate change mitigation; Green economy; Energy security",
 
 
         "Mitigation relevance": "Direct",
@@ -11672,7 +11651,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Climate change mitigation; green economy; energy supply security; technological innovation",
+        "Objective": "Climate change mitigation; Green economy; Energy security; Technological innovation",
 
 
         "Mitigation relevance": "Direct",
@@ -12341,7 +12320,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Green and low-carbon development; pollution prevention and control; ecological protection; clean energy development; green transport",
+        "Objective": "Climate change mitigation; Pollution control; Ecological protection; Renewable energy development; Green consumption",
 
 
         "Mitigation relevance": "Direct",
@@ -13073,7 +13052,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Green economy; energy efficiency; economic growth"
+            "Green economy; Energy efficiency"
 
 
         ),
@@ -13628,7 +13607,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Description": "China's environmental protection tax, established under the Environmental Protection Tax Law of the People's Republic of China (adopted 25/12/2016 by the 25th Session of the 12th NPC Standing Committee, Presidential Order No. 61, effective 01/01/2018), is levied on enterprises, public institutions, and other producers and operators that directly discharge taxable pollutants into the environment. Taxable pollutants fall into four categories: air pollutants (1.2-12 yuan per pollution equivalent, with provincial governments authorised to set specific rates within this range), water pollutants (1.4-14 yuan per pollution equivalent), solid waste (5-1,000 yuan per tonne by type, including coal gangue, tailings, hazardous waste, smelting slag, fly ash, and furnace slag), and industrial noise (350-11,200 yuan per month based on excess decibel levels). Discharges of taxable pollutants from agricultural production (excluding large-scale livestock farming) and mobile sources such as motor vehicles and vessels are temporarily exempt. The tax replaced the pollutant discharge fee system in place since 2003, following a 'tax burden shift' principle to achieve a smooth transition. Annual revenue is approximately 20 billion yuan (2023).",
 
 
-        "Objective": "Air pollution; Waste reduction",
+        "Objective": "Pollution control; Ecological protection",
 
 
         "Mitigation relevance": "Indirect",
@@ -14015,7 +13994,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "positive",
 
 
-        "Objective": "Fiscal revenue; Energy efficiency; Economic growth",
+        "Objective": "Climate change mitigation; Energy efficiency",
 
 
         "Policy Package": "N/A",
@@ -14348,7 +14327,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "positive",
 
 
-        "Objective": "Fiscal revenue; Energy saving and emission reduction; Consumption guidance",
+        "Objective": "Climate change mitigation; Energy efficiency; Green economy",
 
 
         "Policy Package": "N/A",
@@ -15538,7 +15517,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "positive",
 
 
-        "Objective": "Circular economy; Waste reduction; Resource conservation",
+        "Objective": "Circular economy; Resource conservation; Climate change mitigation",
 
 
         "Policy Package": "N/A",
@@ -15830,7 +15809,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "positive",
 
 
-        "Objective": "Soil protection; Environmental quality; Green agricultural development",
+        "Objective": "Climate change mitigation; Pollution control",
 
 
         "Policy Package": "N/A",
@@ -16271,7 +16250,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Objective": "Energy conservation; Environmental protection",
+        "Objective": "Green economy",
 
 
         "Other weblinks": "N/A",
@@ -16433,7 +16412,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Objective": "Green economy",
+        "Objective": "Green economy; Climate change mitigation",
 
 
         "Other weblinks": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026011515253112924/index.html",
@@ -16595,7 +16574,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Objective": "Green economy; Economic growth; Energy efficiency",
+        "Objective": "Green economy; Energy efficiency",
 
 
         "Other weblinks": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055549.htm",
@@ -17093,7 +17072,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Objective": "Carbon peaking and carbon neutrality; climate change response; green and low-carbon development",
+        "Objective": "Climate change mitigation",
 
 
         "Other weblinks": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202305/t20230508_478349.html; https://www.cdmfund.cn",
@@ -17352,7 +17331,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Objective": "Renewable energy development and consumption; Green economy",
+        "Objective": "Renewable energy development; Green economy",
 
 
         "Other weblinks": "N/A",
@@ -17514,7 +17493,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Objective": "Industrial development; Low-carbon mobility; Green economy",
+        "Objective": "Industrial development; Green consumption; Green economy",
 
 
         "Other weblinks": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=48973",
@@ -17670,7 +17649,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Description": "Enterprises engaged in qualifying environmental protection, energy-saving and water-saving projects receive CIT exemption for the first three years and a 50% CIT reduction (at 12.5% effective rate) for the following three years, starting from the tax year in which the project obtains its first production or operating income. Projects must be listed in the Catalogue of Enterprise Income Tax Incentives for Environmental Protection, Energy-Saving and Water-Saving Projects (2021 Edition) (MOF/STA/NDRC/MEE Announcement [2021] No. 36, Annex 1). The 2021 catalogue expanded the scope to include carbon capture, utilisation and storage (CCUS), communication base station and data centre energy-saving projects, and other new categories.",
 
 
-        "Objective": "Pollution control; Energy efficiency; Water conservation",
+        "Objective": "Pollution control; Energy efficiency; Resource conservation",
 
 
         "Policy Package": "N/A",
@@ -17880,7 +17859,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Description": "During 1 January 2024 to 31 December 2027, enterprises that undertake digital and intelligent transformation of environmental protection, energy-saving and water-saving special equipment listed in the Cai Shui [2017] No. 71 catalogue may credit 10% of the transformation investment (limited to the portion not exceeding 50% of the equipment's original tax basis at the time of purchase) against their CIT payable for the current year. Any excess credit may be carried forward to subsequent years for up to 5 years. Digital and intelligent transformation refers to the use of new-generation information technologies such as industrial internet, big data, cloud computing, artificial intelligence and digital twin technologies to intelligently upgrade the equipment.",
 
 
-        "Objective": "Energy efficiency; Digital economy development; Equipment upgrading",
+        "Objective": "Energy efficiency; Technological innovation",
 
 
         "Policy Package": "N/A",
@@ -18768,7 +18747,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy conservation; Environmental protection",
+        "Objective": "Green economy; Climate change mitigation",
 
 
         "Mitigation relevance": "Indirect",
@@ -19329,7 +19308,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Comprehensive resource utilisation; Environmental protection",
+        "Objective": "Circular economy; Resource conservation; Climate change mitigation",
 
 
         "Mitigation relevance": "Direct",
@@ -19650,7 +19629,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy structure adjustment; Ecological civilisation; Photovoltaic industry development",
+        "Objective": "Climate change mitigation; Energy security",
 
 
         "Mitigation relevance": "Direct",
@@ -19980,7 +19959,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Curb blind expansion of high-energy-consuming industries; promote industrial restructuring and technological upgrading; improve energy efficiency",
+        "Objective": "Industrial development; Energy conservation",
 
 
         "Administrating authorities": "National Development and Reform Commission; provincial pricing authorities",
@@ -20241,7 +20220,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Promote energy conservation and environmental protection; balance fairness with affordability in residential electricity pricing",
+        "Objective": "Energy conservation; Pollution control",
 
 
         "Administrating authorities": "National Development and Reform Commission; provincial pricing authorities",
@@ -20538,7 +20517,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Ensure power system capacity adequacy; promote energy structure adjustment",
+        "Objective": "Energy security; Renewable energy development",
 
 
         "Administrating authorities": "National Development and Reform Commission; National Energy Administration",
@@ -20823,7 +20802,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Ensure coal-fired capacity adequacy; promote the transition of coal-fired units to balancing and regulating power sources",
+        "Objective": "Energy security",
 
 
         "Administrating authorities": "National Development and Reform Commission; National Energy Administration",
@@ -21072,7 +21051,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Ensure natural gas-fired capacity adequacy; incentivise natural gas-fired generation to provide peaking and regulation services",
+        "Objective": "Energy security",
 
 
         "Administrating authorities": "National Development and Reform Commission; National Energy Administration",
@@ -21246,7 +21225,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Incentivise new-type energy storage investment and construction; enhance power system flexible regulation capability",
+        "Objective": "Energy security; Renewable energy development",
 
 
         "Administrating authorities": "National Development and Reform Commission; National Energy Administration",
@@ -21429,7 +21408,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Ensure pumped hydro storage capacity adequacy; incentivise pumped hydro investment and construction",
+        "Objective": "Energy security; Renewable energy development",
 
 
         "Administrating authorities": "National Development and Reform Commission; National Energy Administration",
@@ -21756,7 +21735,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Promote large-scale renewable electricity development and consumption; support carbon peak and carbon neutrality goals",
+        "Objective": "Renewable energy development; Climate change mitigation",
 
 
         "Last revisions": "05/06/2026",
@@ -22107,7 +22086,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Promote renewable energy consumption in key energy-using industries; support carbon peak and carbon neutrality goals",
+        "Objective": "Renewable energy development; Climate change mitigation",
 
 
         "Last revisions": "N/A",
@@ -22353,7 +22332,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "and fulfil negative credit obligations through carry-forward, transfer,"
             "purchase, credit pooling and other methods."
         ),
-        "Objective": "Energy conservation; Industrial development",
+        "Objective": "Energy efficiency; Industrial development",
         "Functioning channel": "Supply-side",
         "Last revisions (Details)": (
             "On 7 November 2025, the Ministry of Industry and Information Technology"
@@ -22478,7 +22457,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "enterprises. Negative credits must be offset using CAFC positive credits,"
             "NEV positive credits and other means in accordance with the measures."
         ),
-        "Objective": "Energy conservation; Industrial development",
+        "Objective": "Energy efficiency",
         "Functioning channel": "Supply-side",
         "Last revisions (Details)": (
             "On 7 November 2025, the Ministry of Industry and Information Technology"
@@ -22590,7 +22569,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "pool. The annual NEV credit ratio requirement determines the target credit"
             "volume."
         ),
-        "Objective": "Energy conservation; Industrial development",
+        "Objective": "Industrial development; Energy efficiency",
         "Functioning channel": "Supply-side",
         "Last revisions (Details)": (
             "On 7 November 2025, the Ministry of Industry and Information Technology"
@@ -22775,7 +22754,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Environmental protection; Sustainable development",
+        "Objective": "Energy conservation; Pollution control",
 
 
         "Administrating authorities": "Ministry of Finance; National Development and Reform Commission; State Administration for Market Regulation",
@@ -23022,7 +23001,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Environmental protection; Energy efficiency; Resource recycling; Sustainable development",
+        "Objective": "Pollution control; Energy conservation; Circular economy",
 
 
         "Administrating authorities": "Ministry of Finance; Ministry of Ecology and Environment; State Administration for Market Regulation",
@@ -23257,7 +23236,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Air pollution control; Industrial development",
+        "Objective": "Energy conservation; Pollution control; Industrial development",
 
 
         "Administrating authorities": (
@@ -23553,7 +23532,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Green development; Energy efficiency; Green consumption",
+        "Objective": "Green economy; Energy conservation; Green consumption",
 
 
         "Administrating authorities": (
@@ -23860,7 +23839,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Climate change mitigation; Energy efficiency; Environmental protection; Resource recycling",
+        "Objective": "Climate change mitigation; Energy conservation; Pollution control; Circular economy",
 
 
         "Administrating authorities": (
@@ -24131,9 +24110,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Objective": (
-            "Promote green and low-carbon highway development; "
-            "Reduce carbon emissions from road construction and operation; "
-            "Scale up green procurement in transport infrastructure"
+            "Climate change mitigation; Green consumption"
         ),
 
 
@@ -24486,7 +24463,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy conservation and carbon reduction; Green and low-carbon development; Climate change mitigation",
+        "Objective": "Energy conservation; Climate change mitigation",
 
 
         "Mitigation relevance": "Direct",
@@ -25131,10 +25108,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Transport infrastructure development; Regional development; Economic development; "
-
-
-            "Border and national defence security"
+            "Industrial development"
 
 
         ),
@@ -25659,13 +25633,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Green water transport development; Optimisation and upgrading of the national "
-
-
-            "water transport facility network; Industrial chain and supply chain security; "
-
-
-            "Regional coordinated development"
+            "Green economy; Industrial development"
 
 
         ),
@@ -26274,10 +26242,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Ecological protection and restoration; Biodiversity conservation; Natural "
-
-
-            "resource conservation and utilisation; Sustainable development"
+            "Ecological protection; Biodiversity conservation; Resource conservation"
 
 
         ),
@@ -26835,7 +26800,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Transport sector carbon reduction; energy supply security; green industry development; technological innovation",
+        "Objective": "Climate change mitigation; Energy security; Industrial development; Technological innovation",
 
 
         "Mitigation relevance": "Direct",
@@ -27231,7 +27196,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Climate change mitigation; energy supply security; green industry development; technological innovation",
+        "Objective": "Climate change mitigation; Energy security; Industrial development; Technological innovation",
 
 
         "Mitigation relevance": "Direct",
@@ -27639,7 +27604,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Climate change mitigation; energy supply security; green industry development; technological innovation",
+        "Objective": "Climate change mitigation; Energy security; Industrial development; Technological innovation",
 
 
         "Mitigation relevance": "Direct",
@@ -28038,7 +28003,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Carbon peak and carbon neutrality support; energy supply security; grid stability; technological innovation",
+        "Objective": "Climate change mitigation; Energy security; Technological innovation",
 
 
         "Mitigation relevance": "Indirect",
@@ -28491,7 +28456,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Pollution and carbon reduction synergy; resource recycling; green industry development; technological innovation",
+        "Objective": "Pollution control; Climate change mitigation; Circular economy; Industrial development; Technological innovation",
 
 
         "Mitigation relevance": "Indirect",
@@ -28977,7 +28942,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Environmental protection; Pollution prevention and control; Sustainable development; Ecological protection",
+        "Objective": "Pollution control; Ecological protection",
 
 
         "Mitigation relevance": "Indirect",
@@ -29781,7 +29746,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Climate change mitigation; Energy security; Green development",
+        "Objective": "Climate change mitigation; Energy security; Green economy",
 
 
         "Mitigation relevance": "Indirect",
@@ -30096,7 +30061,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Environmental protection; Resource efficiency; Green production; Sustainable development",
+        "Objective": "Pollution control; Resource conservation",
 
 
         "Mitigation relevance": "Indirect",
@@ -30465,7 +30430,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Environmental protection; Pollution prevention and control; Sustainable development; Ecological protection",
+        "Objective": "Pollution control; Ecological protection",
 
 
         "Mitigation relevance": "Indirect",
@@ -30804,7 +30769,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Climate change mitigation; Energy efficiency; Cost reduction; Government leadership by example",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Last revisions (Details)": (
@@ -31152,7 +31117,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Ozone layer protection; Climate change mitigation",
+        "Objective": "Ozone layer protection",
 
 
         "Administrating authorities": (
@@ -31479,7 +31444,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Climate change mitigation; Fulfilment of obligations under the Kigali Amendment",
+        "Objective": "Climate change mitigation",
 
 
         "Administrating authorities": (
@@ -31737,7 +31702,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Industrial energy efficiency improvement; Climate change mitigation",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": (
@@ -32064,7 +32029,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Industrial energy efficiency improvement; Climate change mitigation",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": (
@@ -32385,7 +32350,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Industrial energy efficiency improvement; Climate change mitigation",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": (
@@ -32736,7 +32701,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Climate change mitigation; Air quality improvement",
+        "Objective": "Climate change mitigation",
 
 
         "Administrating authorities": (
@@ -33081,10 +33046,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Energy security; Ecological environment protection; "
-
-
-            "Air quality improvement; Agricultural and rural development"
+            "Energy security; Ecological protection; Pollution control; Industrial development"
 
 
         ),
@@ -33492,10 +33454,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Pollution prevention; Resource conservation; "
-
-
-            "Circular economy"
+            "Pollution control; Resource conservation; Circular economy"
 
 
         ),
@@ -34008,10 +33967,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Building energy conservation and carbon reduction; "
-
-
-            "Increase renewable energy building application share"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -34443,10 +34399,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Data centre energy conservation and carbon reduction; "
-
-
-            "Improve ICT infrastructure energy efficiency"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -34905,13 +34858,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve kitchen appliance energy efficiency; "
-
-
-            "Reduce residential and commercial building electricity consumption; "
-
-
-            "Climate change mitigation"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -35259,13 +35206,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve commercial kitchen equipment energy efficiency; "
-
-
-            "Reduce electricity consumption in the food service sector; "
-
-
-            "Climate change mitigation"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -35592,13 +35533,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve gas cooking appliance energy efficiency; "
-
-
-            "Reduce residential and commercial gas consumption; "
-
-
-            "Climate change mitigation"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -35949,10 +35884,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve low-voltage apparatus energy efficiency; "
-
-
-            "Reduce industrial power distribution system losses"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -36285,10 +36217,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve power transformer energy efficiency; "
-
-
-            "Reduce transmission and distribution network losses"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -36621,10 +36550,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve server energy efficiency; "
-
-
-            "Reduce energy consumption in data centres and information infrastructure"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -36906,10 +36832,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve display energy efficiency; "
-
-
-            "Reduce electronic equipment electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -37224,10 +37147,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve air cleaner energy efficiency; "
-
-
-            "Reduce residential electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -37551,10 +37471,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve pump energy efficiency; "
-
-
-            "Reduce electricity consumption in industrial water supply and drainage"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -37848,10 +37765,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve electric fan energy efficiency; "
-
-
-            "Reduce residential electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -38178,10 +38092,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve television and set-top box energy efficiency; "
-
-
-            "Reduce consumer electronics electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -38475,10 +38386,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve fan energy efficiency; "
-
-
-            "Reduce electricity consumption in industrial ventilation and HVAC"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -38769,10 +38677,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve air compressor energy efficiency; "
-
-
-            "Reduce electricity consumption in industrial compressed air systems"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -39081,10 +38986,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve welding machine energy efficiency; "
-
-
-            "Reduce electricity consumption in industrial welding"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -39393,10 +39295,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve smart toilet energy and water efficiency; "
-
-
-            "Reduce residential water and electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -39726,10 +39625,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve dishwasher energy and water efficiency; "
-
-
-            "Reduce residential water and electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -40068,10 +39964,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve refrigerator energy efficiency; "
-
-
-            "Reduce residential electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -40401,10 +40294,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve microcomputer energy efficiency; "
-
-
-            "Reduce information equipment electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -40731,10 +40621,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve washing machine energy and water efficiency; "
-
-
-            "Reduce residential water and electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -41046,10 +40933,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve wastewater treatment equipment energy efficiency; "
-
-
-            "Reduce electricity consumption in wastewater treatment"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -41331,10 +41215,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve wastewater treatment equipment energy efficiency; "
-
-
-            "Reduce electricity consumption in wastewater treatment"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -41625,10 +41506,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve centrifugal pump energy efficiency; "
-
-
-            "Reduce electricity consumption in industrial pumping"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -41940,10 +41818,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve dust collector energy efficiency; "
-
-
-            "Reduce electricity consumption in industrial dust removal"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -42222,10 +42097,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve water electrolysis hydrogen production system energy efficiency; "
-
-
-            "Reduce electricity consumption in industrial hydrogen production"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -42519,10 +42391,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve projector energy efficiency; "
-
-
-            "Reduce electronic equipment electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -42831,10 +42700,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve range hood and ventilation fan energy efficiency; "
-
-
-            "Reduce residential electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -43146,10 +43012,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve drinking water dispenser energy efficiency; "
-
-
-            "Reduce residential electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -43434,10 +43297,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve office equipment energy efficiency; "
-
-
-            "Reduce office electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -43767,10 +43627,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve power supply energy efficiency; "
-
-
-            "Reduce electronic equipment electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -44085,10 +43942,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve blower energy efficiency; "
-
-
-            "Reduce electricity consumption in industrial fan applications"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -44391,10 +44245,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve electric vehicle charging equipment energy efficiency; "
-
-
-            "Reduce power loss in charging infrastructure"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -44652,8 +44503,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "standards framework for the PV industry."
         ),
         "Objective": (
-            "Improve PV module and inverter energy efficiency; "
-            "Eliminate low-efficiency production capacity"
+            "Energy efficiency; Energy conservation; Industrial development"
         ),
         "Administrating authorities": (
             "State Administration for Market Regulation; "
@@ -44794,8 +44644,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "energy efficiency."
         ),
         "Objective": (
-            "Improve LED lighting product energy efficiency; "
-            "Reduce electricity consumption for building lighting"
+            "Energy efficiency; Energy conservation"
         ),
         "Administrating authorities": (
             "State Administration for Market Regulation; "
@@ -44969,10 +44818,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve fluorescent lamp product energy efficiency; "
-
-
-            "Reduce lighting electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -45290,10 +45136,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve ballast energy efficiency for gas discharge lamps; "
-
-
-            "Reduce lighting system energy consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -45608,10 +45451,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve LED flat panel luminaire energy efficiency; "
-
-
-            "Reduce lighting electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -45902,10 +45742,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve indoor LED product energy efficiency; "
-
-
-            "Reduce building lighting electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -46241,10 +46078,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve road and tunnel LED luminaire energy efficiency; "
-
-
-            "Reduce public lighting electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -46547,10 +46381,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve metal-halide lamp energy efficiency; "
-
-
-            "Reduce industrial and commercial lighting electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -46853,10 +46684,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve tungsten halogen lamp energy efficiency; "
-
-
-            "Reduce lighting electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -47135,10 +46963,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve high-pressure sodium vapour lamp energy efficiency; "
-
-
-            "Reduce road and outdoor lighting electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -47443,10 +47268,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve multi-connected air-condition (heat pump) unit energy efficiency; "
-
-
-            "Reduce building air conditioning and heating electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -47790,10 +47612,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve room air conditioner energy efficiency; "
-
-
-            "Reduce building air conditioning electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -48125,10 +47944,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve ducted air conditioner energy efficiency; "
-
-
-            "Reduce building air conditioning electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -48418,10 +48234,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve unitary air conditioner energy efficiency; "
-
-
-            "Reduce building and data centre air conditioning electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -48768,13 +48581,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve heat pump and water chiller energy efficiency; "
-
-
-            "Reduce building heating and industrial heat supply electricity "
-
-
-            "consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -49115,10 +48922,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve domestic solar water heating system energy efficiency; "
-
-
-            "Reduce building hot water energy consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -49439,10 +49243,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve domestic gas water heater and combi-boiler energy efficiency; "
-
-
-            "Reduce building hot water and heating gas consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -49786,10 +49587,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve heat pump water heater energy efficiency; "
-
-
-            "Reduce building hot water energy consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -50070,10 +49868,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve electrical storage water heater energy efficiency; "
-
-
-            "Reduce building hot water electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -50363,10 +50158,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve industrial boiler energy efficiency; "
-
-
-            "Reduce industrial heat supply fuel consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -50695,10 +50487,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve rolling reheating furnace energy efficiency; "
-
-
-            "Reduce iron and steel industry rolling process energy consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -50991,13 +50780,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve petroleum industry heater energy efficiency; "
-
-
-            "Reduce oil and gas extraction and pipeline transportation heating "
-
-
-            "energy consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -51311,10 +51094,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve cold storage and compressor-condensing unit energy efficiency; "
-
-
-            "Reduce cold chain and warehouse refrigeration electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -51664,10 +51444,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve commercial refrigerating appliance energy efficiency; "
-
-
-            "Reduce commercial and cold chain refrigeration electricity consumption"
+            "Energy efficiency; Energy conservation"
 
 
         ),
@@ -51976,7 +51753,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Description": "GB 46029-2025 Norm of Energy Consumption per Unit Production of Formaldehyde is a mandatory national standard, published on 1 August 2025 and effective 1 August 2026. It applies to enterprises using methanol as feedstock and producing formaldehyde via the silver-catalysed process or the iron-molybdenum process. Energy intensity limits are classified into three grades (Grade 1 is the most stringent), with Grade 3 as the minimum limit (mandatory for existing firms), Grade 2 as the access limit (mandatory for new, expansion and renovation projects), and Grade 1 as the advanced benchmark. Silver-process formaldehyde: Grade 3 <=740 kgce/t, Grade 2 <=700 kgce/t, Grade 1 <=680 kgce/t. Iron-molybdenum process formaldehyde: Grade 3 <=670 kgce/t, Grade 2 <=635 kgce/t, Grade 1 <=615 kgce/t.",
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -52366,7 +52143,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -52627,7 +52404,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -52873,7 +52650,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -53137,7 +52914,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -53410,7 +53187,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -53665,7 +53442,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -53893,7 +53670,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -54127,7 +53904,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -54373,7 +54150,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -54622,7 +54399,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -54868,7 +54645,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -55123,7 +54900,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -55381,7 +55158,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -55624,7 +55401,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -55879,7 +55656,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -56143,7 +55920,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -56410,7 +56187,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -56683,7 +56460,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -56938,7 +56715,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -57214,7 +56991,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -57484,7 +57261,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -57775,7 +57552,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -58057,7 +57834,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -58354,7 +58131,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -58615,7 +58392,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -58885,7 +58662,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -59161,7 +58938,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -59431,7 +59208,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -59713,7 +59490,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -59968,7 +59745,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -60223,7 +60000,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -60499,7 +60276,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -60793,7 +60570,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -61063,7 +60840,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -61336,7 +61113,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -61606,7 +61383,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -61870,7 +61647,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -62137,7 +61914,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -62398,7 +62175,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -62677,7 +62454,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -63007,7 +62784,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -63355,7 +63132,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -63721,7 +63498,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -64036,7 +63813,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -64360,7 +64137,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -64684,7 +64461,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -65023,7 +64800,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -65356,7 +65133,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -65701,7 +65478,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -66052,7 +65829,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -66393,7 +66170,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -66701,7 +66478,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -67025,7 +66802,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -67376,7 +67153,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -67718,7 +67495,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Mitigation relevance": "Direct",
@@ -68035,8 +67812,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "for the PV industry."
         ),
         "Objective": (
-            "Improve energy efficiency; Reduce energy consumption; "
-            "Eliminate backward production capacity"
+            "Energy efficiency; Energy conservation; Industrial development"
         ),
         "Mitigation relevance": "Direct",
         "Administrating authorities": (
@@ -68162,7 +67938,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "framework for the PV industry, setting a mandatory energy intensity "
             "limit for the monocrystalline silicon segment for the first time."
         ),
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
         "Administrating authorities": (
             "State Administration for Market Regulation; "
             "Standardization Administration of China"
@@ -68271,7 +68047,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "It was revised in 2023 into the Energy Efficiency Benchmark and Baseline Levels for Key Industrial Sectors (2023 Edition) (Fa Gai Chan Ye [2023] No. 723, issued 6 June 2023, published 4 July 2023), jointly issued by the same five departments, expanding to 36 key sectors by adding 11 new sectors (ethylene glycol, urea, titanium dioxide, polyvinyl chloride, purified terephthalic acid, radial tyres, industrial silicon, tissue paper base / napkin base, cotton / chemical fibre and blended woven fabrics, knitted fabrics / yarn, viscose staple fibre), with deadlines of end of 2025 for the original sectors and end of 2026 for the newly added sectors. "
             "Supporting policies include medium- and long-term loans, green credit, green bonds, climate investment and financing, tiered electricity pricing, industrial energy conservation supervision, environmental protection supervision and law enforcement, and tax incentives, driving energy conservation and carbon reduction in industry through tiered management and deadline-driven upgrading."
         ),
-        "Objective": "Promote energy conservation and carbon reduction in key sectors; Improve industrial energy efficiency; Phase out backward production capacity; Accelerate the green and low-carbon transition of manufacturing",
+        "Objective": "Energy conservation; Climate change mitigation; Energy efficiency; Industrial development",
         "Last revisions (Details)": (
             "First established on 15 November 2021 as the Energy Efficiency Benchmark and Baseline Levels for Key Areas in Energy-Intensive Industries (2021 Edition) (Fa Gai Chan Ye [2021] No. 1609, jointly issued by five departments, effective 1 January 2022), framed by the Several Opinions on Strictly Enforcing Energy Efficiency Constraints to Promote Energy Conservation and Carbon Reduction in Key Areas (Fa Gai Chan Ye [2021] No. 1464, issued 18 October 2021), covering 25 key sectors. "
             "Revised in 2023 into the Energy Efficiency Benchmark and Baseline Levels for Key Industrial Sectors (2023 Edition) (Fa Gai Chan Ye [2023] No. 723, issued 6 June 2023, published 4 July 2023), jointly issued by the same five departments, expanded to 36 key sectors with 11 newly added, setting two tiered deadlines for upgrade (end of 2025 and end of 2026), and simultaneously repealing the 2021 edition."
@@ -68368,7 +68144,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": (
@@ -68680,7 +68456,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": (
@@ -69001,7 +68777,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": (
@@ -69298,7 +69074,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": (
@@ -69613,7 +69389,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Improve energy efficiency; Reduce energy consumption",
+        "Objective": "Energy efficiency; Energy conservation",
 
 
         "Administrating authorities": (
@@ -69907,7 +69683,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Maintain road traffic order; Prevent and reduce traffic accidents; Protect personal and property safety; Improve traffic efficiency",
+        "Objective": "Public health; Energy conservation",
 
 
         "Administrating authorities": (
@@ -70267,10 +70043,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Improve energy efficiency; Control total energy consumption; "
-
-
-            "Optimise energy structure"
+            "Energy efficiency; Energy conservation; Energy security"
 
 
         ),
@@ -71125,7 +70898,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Climate change mitigation; Energy conservation; Environmental conservation",
+        "Objective": "Climate change mitigation; Energy efficiency; Pollution control",
 
 
         "Administrating authorities": (
@@ -71545,7 +71318,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Energy conservation; Energy consumption total control; Energy structure optimisation"
+            "Energy efficiency; Energy conservation; Energy security"
 
 
         ),
@@ -72133,10 +71906,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Total capacity control; Overcapacity reduction; "
-
-
-            "Green transition promotion; Merger and restructuring promotion"
+            "Industrial development; Climate change mitigation"
 
 
         ),
@@ -72778,7 +72548,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Total capacity control; Overcapacity reduction; Industry structural adjustment; Energy conservation"
+            "Industrial development; Energy efficiency"
 
 
         ),
@@ -73429,10 +73199,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Total capacity control; Overcapacity reduction; "
-
-
-            "Capacity distribution optimisation"
+            "Industrial development"
 
 
         ),
@@ -74443,10 +74210,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Livestock pollution prevention and control; waste resource "
-
-
-            "utilisation promotion; rural ecological environment protection"
+            "Pollution control; Circular economy; Ecological protection"
 
 
         ),
@@ -75010,10 +74774,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Guarantee renewable energy consumption; Promote clean energy "
-
-
-            "development; Drive green energy structure transition"
+            "Renewable energy development; Energy security"
 
 
         ),
@@ -75574,13 +75335,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Promote product life-cycle greening; Improve resource recovery "
-
-
-            "and recycling levels; Reduce life-cycle environmental impacts "
-
-
-            "of products"
+            "Circular economy; Resource conservation"
 
 
         ),
@@ -76153,13 +75908,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Standardise WEEE take-back and treatment; "
-
-
-            "Promote resource recycling; "
-
-
-            "Prevent and control e-waste pollution"
+            "Circular economy; Resource conservation; Pollution control"
 
 
         ),
@@ -76804,16 +76553,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Establish a power battery whole-life-cycle traceability "
-
-
-            "management system; Implement producer take-back primary "
-
-
-            "responsibility; Standardise comprehensive utilisation of "
-
-
-            "waste power batteries"
+            "Circular economy; Resource conservation"
 
 
         ),
@@ -77485,16 +77225,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Guide industrial investment direction; "
-
-
-            "Eliminate backward production capacity; "
-
-
-            "Promote industrial structure optimisation and upgrading; "
-
-
-            "Drive green and low-carbon transition"
+            "Industrial development; Climate change mitigation"
 
 
         ),
@@ -78258,13 +77989,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Address severe cement industry overcapacity; reduce air "
-
-
-            "pollutant emissions during heating seasons; promote green and "
-
-
-            "low-carbon transformation of the cement industry"
+            "Industrial development; Pollution control; Climate change mitigation"
 
 
         ),
@@ -78900,7 +78625,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Protect natural forest resources; enhance forest carbon sink capacity; conserve biodiversity and national ecological security",
+        "Objective": "Ecological protection; Biodiversity conservation; Climate change mitigation",
 
 
         "Asset": "Natural forests",
@@ -79311,7 +79036,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Protect grassland ecosystems; restore degraded grassland vegetation; enhance grassland carbon sink function; safeguard national ecological security",
+        "Objective": "Ecological protection; Climate change mitigation",
 
 
         "Asset": "Grasslands",
@@ -79749,7 +79474,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Protect wetland ecosystems; maintain wetland ecological functions; enhance wetland carbon sinks; conserve biodiversity",
+        "Objective": "Ecological protection; Biodiversity conservation; Climate change mitigation",
 
 
         "Asset": "Wetlands",
@@ -80268,13 +79993,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Protect ecosystem service functions; incentivise ecological "
-
-
-            "protection behaviour; promote coordinated regional development; "
-
-
-            "safeguard national ecological security."
+            "Ecological protection"
 
 
         ),
@@ -81036,22 +80755,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Implement the Three Lines and One Permit as binding constraints to "
-
-
-            "establish a nationwide eco-environmental zoning control system; "
-
-
-            "optimise the spatial pattern of territorial development and "
-
-
-            "protection; prevent and control eco-environmental problems at source; "
-
-
-            "promote the coordination of economic and social development with "
-
-
-            "resource and environmental carrying capacity."
+            "Ecological protection; Pollution control"
 
 
         ),
@@ -81843,19 +81547,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Regulate the pollution discharge behaviour of enterprises, public "
-
-
-            "institutions, and other producers and operators; control pollutant "
-
-
-            "discharges and improve the quality of the ecological environment; "
-
-
-            "establish a stationary pollution source environmental management "
-
-
-            "system centred on the pollution discharge permit."
+            "Pollution control"
 
 
         ),
@@ -82677,10 +82369,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Building energy conservation; Information transparency; "
-
-
-            "Green building promotion"
+            "Energy conservation; Information disclosure; Green economy"
 
 
         ),
@@ -83247,13 +82936,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Promote energy conservation in public institutions; Improve energy "
-
-
-            "efficiency; Demonstrate the exemplary role of public institutions in "
-
-
-            "energy conservation"
+            "Energy conservation"
 
 
         ),
@@ -83835,13 +83518,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Regulate the legally-mandated disclosure of enterprise environmental "
-
-
-            "information; Strengthen social oversight; Safeguard the public's right to "
-
-
-            "know, participate in and supervise environmental matters"
+            "Information disclosure"
 
 
         ),
@@ -84453,10 +84130,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Energy conservation and consumption reduction; Information "
-
-
-            "transparency; Green consumption guidance"
+            "Energy conservation; Information disclosure; Green consumption"
 
 
         ),
@@ -85086,10 +84760,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Guide consumption of high-efficiency energy-saving vehicles; "
-
-
-            "Information transparency"
+            "Energy conservation; Green consumption; Information disclosure"
 
 
         ),
@@ -85782,19 +85453,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Map the greenhouse gas emission baseline of key industries; Ensure carbon "
-
-
-            "emission data quality; Provide the data foundation for national carbon "
-
-
-            "emission trading market allowance allocation and compliance surrender; "
-
-
-            "Support national greenhouse gas inventory compilation and carbon peak and "
-
-
-            "carbon neutrality policy formulation"
+            "Information disclosure; Climate change mitigation"
 
 
         ),
@@ -86562,19 +86221,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Comprehensively capture the scale, direction and quality of green loans "
-
-
-            "extended by banking financial institutions; Provide data support for "
-
-
-            "green finance policy formulation and evaluation; Support structural "
-
-
-            "monetary policy instruments and macro-prudential management; Guide the "
-
-
-            "allocation of financial resources towards green and low-carbon fields"
+            "Information disclosure; Green economy"
 
 
         ),
@@ -87162,22 +86809,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Systematically capture the scale, structure and claims of green insurance "
-
-
-            "business in the insurance industry; Provide data support for green "
-
-
-            "finance and green insurance policy formulation; Guide insurance funds and "
-
-
-            "insurance protection services towards green and low-carbon development; "
-
-
-            "Enhance the insurance industry's environmental and climate risk "
-
-
-            "management capacity"
+            "Information disclosure; Green economy"
 
 
         ),
@@ -87678,22 +87310,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Evaluate the green finance business of banking financial institutions; "
-
-
-            "Guide financial institutions to increase green finance supply through the "
-
-
-            "incentive and constraint effects of evaluation results; Drive the "
-
-
-            "allocation of financial resources towards green and low-carbon fields; "
-
-
-            "Support macro-prudential management and the use of monetary policy "
-
-
-            "instruments"
+            "Information disclosure; Green economy"
 
 
         ),
@@ -88299,22 +87916,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Promote advanced applicable industrial energy-saving and "
-
-
-            "carbon-reduction technologies and equipment; guide industrial "
-
-
-            "enterprises to adopt high-efficiency, low-carbon technology retrofits; "
-
-
-            "promote energy efficiency improvement and reduction of carbon emission "
-
-
-            "intensity in the industrial sector; support the green and low-carbon "
-
-
-            "transition of industry"
+            "Energy conservation; Technological innovation; Climate change mitigation"
 
 
         ),
@@ -88920,19 +88522,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Promote mature applicable low-carbon technologies; guide key areas to "
-
-
-            "accelerate low-carbon technology application; promote the "
-
-
-            "industrialisation and large-scale promotion of low-carbon technologies; "
-
-
-            "support the achievement of national carbon-peaking and carbon-neutrality "
-
-
-            "goals"
+            "Technological innovation; Climate change mitigation"
 
 
         ),
@@ -89475,16 +89065,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Promote advanced applicable green technologies; guide enterprises and "
-
-
-            "localities to accelerate green technology application; promote the "
-
-
-            "transformation and industrialisation of green technology innovation "
-
-
-            "outcomes; support green and low-carbon economic and social development"
+            "Technological innovation; Green economy"
 
 
         ),
@@ -90003,19 +89584,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Promote advanced applicable processes, technologies and equipment for the "
-
-
-            "comprehensive utilisation of industrial resources; guide the "
-
-
-            "comprehensive utilisation of industrial solid waste and renewable "
-
-
-            "resources; promote the development of the resource-recycling industry; "
-
-
-            "support green, low-carbon and circular development of industry"
+            "Resource conservation; Circular economy; Technological innovation"
 
 
         ),
@@ -90555,19 +90124,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Promote advanced applicable power demand-side management products and "
-
-
-            "technologies; guide the industrial sector to carry out power demand-side "
-
-
-            "management; improve electricity-use efficiency and power system "
-
-
-            "flexibility; support the construction of a new-type power system and the "
-
-
-            "green and low-carbon transition of industry"
+            "Energy conservation; Energy security; Technological innovation"
 
 
         ),
@@ -91110,22 +90667,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Clarify the boundaries of green and low-carbon industries; unify the "
-
-
-            "criteria for identifying green industries; guide investment, pricing, "
-
-
-            "financial and tax policy resources toward the green and low-carbon field; "
-
-
-            "support the comprehensive green transition of economic and social "
-
-
-            "development and the achievement of carbon-peaking and carbon-neutrality "
-
-
-            "goals"
+            "Industrial development; Green economy; Climate change mitigation"
 
 
         ),
@@ -91683,22 +91225,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Unify the definition and identification criteria of the projects "
-
-
-            "supported by various green finance products; improve the management "
-
-
-            "efficiency of green finance assets and reduce identification costs; guide "
-
-
-            "financial resources toward the green and low-carbon field; support the "
-
-
-            "comprehensive green transition of economic and social development and the "
-
-
-            "building of a Beautiful China"
+            "Green economy"
 
 
         ),
@@ -92143,17 +91670,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "Objective": (
 
-            "Guide industrial enterprises and parks to build digital energy-carbon  "
-
-            "management capabilities; promote the in-depth application of digital  "
-
-            "technologies in the field of energy-carbon management; support the  "
-
-            "comprehensive transition from dual control of energy consumption to  "
-
-            "dual control of carbon emissions; serve the carbon peak and carbon  "
-
-            "neutrality goals of the industrial sector"
+            "Technological innovation; Energy conservation; Climate change mitigation"
 
         ),
 
@@ -92478,17 +91995,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "Objective": (
 
-            "Guide enterprises in energy-intensive industries to benchmark their  "
-
-            "energy efficiency against the benchmark level and the leading level;  "
-
-            "provide energy-saving and carbon-reduction upgrade technical pathways;  "
-
-            "promote the green and low-carbon transition and high-quality  "
-
-            "development of energy-intensive industries; support the achievement  "
-
-            "of carbon peak and carbon neutrality goals in the industrial sector"
+            "Energy efficiency; Energy conservation; Climate change mitigation; Industrial development"
 
         ),
 
@@ -92802,17 +92309,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "Objective": (
 
-            "Guide industrial enterprises and parks to build green microgrid  "
-
-            "systems; increase the share of renewable energy used and energy  "
-
-            "efficiency in the industrial sector; promote the green and  "
-
-            "low-carbon transition of the industrial energy consumption  "
-
-            "structure; support the achievement of carbon peak and carbon  "
-
-            "neutrality goals in the industrial sector"
+            "Renewable energy development; Energy efficiency; Climate change mitigation"
 
         ),
 
@@ -93131,13 +92628,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "period is 2018-2030."
         ),
                 "Objective": (
-            "With green inputs, cost-saving and efficiency-enhancing "
-            "technologies, eco-circular models, and green standards as the "
-            "main lines of advance, comprehensively build an efficient, "
-            "safe, low-carbon, circular, smart and integrated agricultural "
-            "green development technology system, leading agriculture onto "
-            "a modernisation path featuring high output efficiency, product "
-            "safety, resource conservation and environmental friendliness."
+            "Food safety; Climate change mitigation; Resource conservation; Circular economy; Ecological protection"
         ),
         "Administrating authorities": (
             "Ministry of Agriculture and Rural Affairs (Department of Science, "
@@ -93292,17 +92783,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "implementation pathways."
         ),
                 "Objective": (
-            "In accordance with the product full-life-cycle theory, "
-            "systematically consider the impacts of each stage "
-            "(raw material selection, production, distribution, use, "
-            "recycling, and treatment and disposal) on resource "
-            "consumption, the eco-environment and climate change at "
-            "the product design and development stage; minimise or "
-            "control resource and energy consumption to the greatest "
-            "extent; avoid or minimise the use of toxic and hazardous "
-            "raw materials wherever possible; reduce the generation "
-            "and emission of pollutants and greenhouse gases; achieve "
-            "green and low-carbon development."
+            "Resource conservation; Pollution control; Climate change mitigation"
         ),
         "Administrating authorities": (
             "Ministry of Industry and Information Technology (Department "
@@ -93453,12 +92934,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "manufacturing."
         ),
                 "Objective": (
-            "Accelerate the building of a green manufacturing and services "
-            "system; bring into play the foundational and guiding role of "
-            "green factories in the green and low-carbon transition of "
-            "manufacturing; accelerate the formation of a standardised, "
-            "long-term cultivation mechanism; build a leading force in "
-            "green manufacturing."
+            "Industrial development; Green economy"
         ),
         "Administrating authorities": (
             "Ministry of Industry and Information Technology (Department "
@@ -93672,17 +93148,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "Objective": (
 
-            "Provide a standardised methodology and operational guidance for  "
-
-            "event organisers to voluntarily achieve carbon neutrality; guide  "
-
-            "and standardise the accounting, reduction and offsetting of  "
-
-            "greenhouse gas emissions from large-scale events; promote the  "
-
-            "formation of a new low-carbon social ethos and raise awareness  "
-
-            "of climate change across society"
+            "Climate change mitigation"
 
         ),
 
@@ -93914,10 +93380,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "departments, formulate and implement regional plans."
         ),
         "Objective": (
-            "Raise public awareness and knowledge of household waste sorting; "
-            "Guide public participation in waste sorting practice; Promote "
-            "reduction, recycling and harmless treatment of urban household waste; "
-            "Foster green and low-carbon lifestyles"
+            "Public awareness; Green consumption"
         ),
         "Administrating authorities": (
             "Ministry of Housing and Urban-Rural Development; Ministry of Education; "
@@ -94051,7 +93514,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Cross-sectoral",
         "English instrument name": "Energy-Saving and Low-Carbon Product Certification",
         "Description": "The Energy-Saving and Low-Carbon Product Certification is a voluntary product certification system established and implemented under the leadership of the State Administration for Market Regulation together with multiple departments, formed through the integration of the former Energy-Saving Product Certification system and Low-Carbon Product Certification system. Through third-party testing and certification, it conducts comprehensive evaluation and labelling of end-use energy-consuming products on both energy efficiency and full-life-cycle greenhouse gas emissions, guiding consumers toward energy-saving and low-carbon products and encouraging enterprises to improve product energy efficiency and reduce carbon emissions. The system traces back to 1999 when the China Energy-Saving Product Certification Administrative Measures (State Economic and Trade Commission) established the earliest national-level voluntary energy-saving product certification system, and to 2013 when the Interim Administrative Measures for Low-Carbon Product Certification (NDRC Climate [2013] No. 279, jointly issued by NDRC and CNCA) added the low-carbon product certification dimension. In 2016, the General Office of the State Council issued the Opinions on Establishing a Unified Green Product Standard, Certification and Labelling System (Guobanfa [2016] No. 86), incorporating energy-saving and low-carbon product certification into the unified green product labelling system framework. In September 2022, the General Office of the State Council issued the Opinions on Deepening the Reform of the Management System for the Electronic and Electrical Appliances Industry (Guobanfa [2022] No. 31), formally integrating the Energy-Saving Product Certification system and the Low-Carbon Product Certification system into a unified Energy-Saving and Low-Carbon Product Certification system, with SAMR leading the development of certification rules and relevant departments jointly developing standards, and incorporating it into the green product certification and labelling system. Products passing the certification enjoy priority procurement or mandatory procurement policies in government procurement. Enterprises voluntarily apply for certification; there are no mandatory compliance obligations or penalties.",
-        "Objective": "Promote energy efficiency improvement and low-carbon production and consumption",
+        "Objective": "Energy efficiency; Climate change mitigation; Green consumption",
         "Administrating authorities": "State Administration for Market Regulation (lead, Department of Certification Supervision); National Development and Reform Commission; Ministry of Industry and Information Technology; Ministry of Ecology and Environment. Historically: State Economic and Trade Commission (1999 energy-saving product certification); NDRC and CNCA (2013 low-carbon product certification)",
         "Asset": "End-use energy-consuming products (energy-saving and low-carbon certification objects)",
         "Asset (Details)": "The object defined and covered by this instrument is the various categories of end-use energy-consuming products that have passed energy-saving and low-carbon product certification, including household appliances (air conditioners, refrigerators, washing machines, televisions, etc.), office equipment (computers, printers, etc.), lighting products (LED luminaires, etc.), industrial equipment (electric motors, transformers, etc.), building materials (energy-saving windows and doors, insulation materials, etc.) and renewable energy products (solar water heaters, etc.). Certification evaluates products on both energy efficiency and full-life-cycle carbon emission dimensions; products must pass testing by designated testing bodies and meet the relevant energy-saving and low-carbon certification standard requirements.",
@@ -94075,7 +93538,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Buildings",
         "English instrument name": "Green Building Label",
         "Description": "The Green Building Evaluation Label is a voluntary building evaluation and labelling system established and managed by the housing and urban-rural development authorities. Based on the national green building evaluation standards, building projects are comprehensively assessed across five performance categories — safety and durability, health and comfort, convenience of living, resource conservation and environmental liveability — over their full life cycle, and awarded a star-rated green building label. Labels are divided into four grades: Basic, One-Star, Two-Star and Three-Star, with Three-Star being the highest. The evaluation covers land conservation and outdoor environment, energy conservation and energy utilisation, water conservation and water resource utilisation, material conservation and material resource utilisation, indoor environmental quality, and operations management, among which the energy conservation and energy utilisation indicators directly produce positive climate change mitigation effects. The Green Building Label system began in 2007, implemented by the Ministry of Housing and Urban-Rural Development under the Green Building Evaluation Label Administrative Measures (Jian Ke [2007] No. 206), with evaluation and certification conducted according to the national standard GB/T 50378 Green Building Evaluation Standard. Project owners voluntarily apply; there are no mandatory compliance obligations or penalties.",
-        "Objective": "Promote green building development and reduce carbon emissions in the building sector",
+        "Objective": "Energy conservation; Climate change mitigation",
         "Administrating authorities": "Ministry of Housing and Urban-Rural Development (Department of Standard Quota); provincial-level, autonomous-region and municipal housing and urban-rural development authorities",
         "Asset": "Buildings (green building evaluation objects)",
         "Asset (Details)": "The objects defined and covered by this instrument are various types of civil buildings, including residential buildings and public buildings. Evaluation applies to building clusters, individual buildings or areas within buildings. The evaluation phases are divided into design evaluation and operation evaluation: design evaluation is conducted after the construction drawing design documents have passed review, and operation evaluation is conducted after the building has been completed and put into use for one year or more. Evaluation is based on GB/T 50378 Green Building Evaluation Standard, and green building labels of Basic, One-Star, Two-Star or Three-Star are awarded according to the comprehensive score.",
@@ -94099,7 +93562,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Cross-sectoral; Industry",
         "English instrument name": "Energy Efficiency and Carbon Efficiency Top-Runner Programme",
         "Description": "The Energy Efficiency Top-Runner Programme is a voluntary system established and implemented under the leadership of the National Development and Reform Commission. It periodically selects and publishes the top runners with the highest energy efficiency levels among enterprises in high-energy-consuming industries and public institutions, and uses their energy efficiency levels as industry benchmarks and catch-up targets to guide energy users in energy efficiency benchmarking, target attainment and competition, thereby driving the continuous improvement of overall energy efficiency. The programme was established under the Implementation Plan for the Energy Efficiency Top-Runner Programme (NDRC Environment and Resources [2014] No. 3001) and originally covered three categories: end-use energy-consuming products, enterprises in high-energy-consuming industries and public institutions. In September 2022, the General Office of the State Council issued the Opinions on Deepening the Reform of the Management System for the Electronic and Electrical Appliances Industry (Guobanfa [2022] No. 31), abolishing the energy efficiency top-runner product selection system (end-use energy-consuming products track); the enterprise and public institution tracks continue. It now focuses on two categories: (1) High-energy-consuming industry top runners — enterprises whose unit product energy consumption reaches the industry advanced level, covering more than 30 sub-sectors including steel, non-ferrous metals, building materials, petrochemicals, chemicals, textiles and paper-making; (2) Public institution top runners — state organs, schools, hospitals and other public institutions whose energy and resource utilisation efficiency reaches an advanced level. The various top-runner lists are published by the competent government authorities following voluntary enterprise or public institution application, local recommendation, expert review and public notification. On 30 July 2026, the General Office of the Ministry of Industry and Information Technology, the General Office of the National Development and Reform Commission and the General Office of the State Administration for Market Regulation jointly issued the Notice on Organising the 2026 Recommendation of Energy Efficiency and Carbon Efficiency Top-Runner Enterprises in Key Industries (MIIT Joint Notification [2026] No. 372), expanding the recommended scope of key-industry energy efficiency top runners to 43 sub-sectors and, for the first time, establishing the key-industry carbon efficiency top-runner selection (electrolytic aluminium, cement clinker, synthetic ammonia, ethylene and methanol — five sub-sectors benchmarked against product carbon footprint accounting rules under national or group standards; see subscheme S001). The notice adds a green electricity consumption share requirement (not lower than the region's 2025 renewable electricity consumption responsibility weight and the green electricity consumption share for key energy-consuming industries), sets an application threshold of annual energy consumption exceeding 10,000 tonnes of standard coal equivalent or annual carbon dioxide emissions exceeding 26,000 tonnes of CO2 equivalent, and provides that in principle no more than 5 enterprises per industry may be designated as energy efficiency or carbon efficiency top runners. Participation is voluntary, with no mandatory compliance obligations or penalties.",
-        "Objective": "Promote energy efficiency improvement",
+        "Objective": "Energy efficiency",
         "Administrating authorities": "National Development and Reform Commission (Department of Resource Conservation and Environmental Protection); Ministry of Industry and Information Technology (Department of Energy Conservation and Comprehensive Utilisation); State Administration for Market Regulation (Department of Product Quality and Safety Supervision)",
         "Asset": "High-energy-consuming enterprises / public institutions (energy efficiency top-runner designation objects)",
         "Asset (Details)": "The object defined and covered by this instrument covers two categories: (1) High-energy-consuming industry enterprises, including those in steel, cement, electrolytic aluminium, flat glass, oil refining, ethylene and synthetic ammonia, with unit product comprehensive energy consumption as the selection basis (the 2026 round expands the scope to 43 sub-sectors); (2) Public institutions (state organs, schools, hospitals, etc.), with per-unit-floor-area energy consumption and per-capita energy consumption as the selection basis. From the 2026 round, the carbon efficiency top-runner selection is added (electrolytic aluminium, cement clinker, synthetic ammonia, ethylene and methanol — five sub-sectors benchmarked on product carbon footprint; see subscheme S001). Top runners in each category are selected and published on a regular basis. The end-use energy-consuming product top-runner selection was abolished in September 2022 (Guobanfa [2022] No. 31).",
@@ -94125,7 +93588,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Carbon Efficiency Top-Runner in Key Industries",
         "Policy Package": "Energy Efficiency and Carbon Efficiency Top-Runner Programme",
         "Description": "The Carbon Efficiency Top-Runner in Key Industries is a carbon-efficiency benchmarking and designation mechanism newly added under the Energy Efficiency and Carbon Efficiency Top-Runner Programme starting from the 2026 annual round. Based on the national standards or group standards for product carbon footprint accounting rules, it designates top-runner enterprises with leading carbon efficiency levels in five sub-sectors — electrolytic aluminium, cement clinker, synthetic ammonia, ethylene and methanol — and uses their product carbon emission intensity as industry benchmarks and catch-up targets, guiding industrial enterprises to undertake energy conservation and carbon reduction retrofits and lower their product carbon footprints. Applicant enterprises must be independent legal entities with annual energy consumption exceeding 10,000 tonnes of standard coal equivalent or annual carbon dioxide emissions exceeding 26,000 tonnes of CO2 equivalent; their unit product energy efficiency must reach or exceed Level 1 (advanced value) of the current mandatory national standards on energy consumption limits for their industry and the benchmark level of the Benchmark Levels and Baseline Levels of Energy Efficiency in Key Industrial Sectors (2023 Edition); their green electricity consumption share must be no lower than the region's 2025 renewable electricity consumption responsibility weight and the green electricity consumption share for key energy-consuming industries. Enterprises apply voluntarily; provincial industry and information technology, development and reform, and market regulation departments conduct preliminary review and recommend the best candidates; the Ministry of Industry and Information Technology, the National Development and Reform Commission and the State Administration for Market Regulation organise re-examination and finalise and publish the list following expert review. In principle, no more than 5 carbon efficiency top-runner enterprises may be designated per industry. Participation is voluntary, with no mandatory compliance obligations or penalties.",
-        "Objective": "Promote carbon efficiency improvement",
+        "Objective": "Climate change mitigation",
         "Administrating authorities": "Ministry of Industry and Information Technology (Department of Energy Conservation and Comprehensive Utilisation); National Development and Reform Commission (Department of Resource Conservation and Environmental Protection); State Administration for Market Regulation (Department of Metrology)",
         "Asset": "Industrial enterprises in key industries (carbon efficiency top-runner designation objects)",
         "Asset (Details)": "Covers industrial enterprises in five sub-sectors: electrolytic aluminium, cement clinker, synthetic ammonia, ethylene and methanol. Applicant enterprises must be independent legal entities with annual energy consumption exceeding 10,000 tonnes of standard coal equivalent or annual carbon dioxide emissions exceeding 26,000 tonnes of CO2 equivalent; their unit product energy efficiency must reach or exceed Level 1 (advanced value) of the current mandatory national standards on energy consumption limits for their industry and the benchmark level of the Benchmark Levels and Baseline Levels of Energy Efficiency in Key Industrial Sectors (2023 Edition), with main process equipment at the domestically leading level; their green electricity consumption share must be no lower than the region's 2025 renewable electricity consumption responsibility weight and the green electricity consumption share for key energy-consuming industries. Designation is based on the national standards or group standards for product carbon footprint accounting rules.",
@@ -94148,7 +93611,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Cross-sectoral",
         "English instrument name": "Green Product Label",
         "Description": "Green Product Certification is a unified green product certification and labelling system established and implemented under the unified deployment of the State Council, led by the State Administration for Market Regulation together with relevant departments. Based on the full-life-cycle assessment concept, products are comprehensively evaluated and certified across four dimensions — resource attributes, energy attributes, environmental attributes and quality attributes — and awarded the unified national green product label. The system originated from the 2016 Opinions of the General Office of the State Council on Establishing a Unified Green Product Standard, Certification and Labelling System (Guobanfa [2016] No. 86), which integrated the various environmental protection, energy-saving, water-saving, circular, low-carbon, recycled and organic product certifications previously dispersed among different authorities into a unified national green product certification and labelling system. The first batch of the green product certification catalogue covers categories such as wood-based panels and wooden flooring, coatings, sanitary ceramics, building glass, solar water heating systems, furniture, waterproof and sealing materials, ceramic tiles (slabs), textile products, paper and paper products, wood-plastic products, plastic products and washing products. Green building material product certification is included as a sub-category within the unified framework. Enterprises voluntarily apply for certification; there are no mandatory compliance obligations or penalties.",
-        "Objective": "Promote green production and consumption, and mitigate and adapt to climate change",
+        "Objective": "Green consumption; Climate change mitigation; Adaptation",
         "Administrating authorities": "State Administration for Market Regulation (Department of Certification Supervision); Certification and Accreditation Administration of the People's Republic of China; National Development and Reform Commission; Ministry of Industry and Information Technology; Ministry of Housing and Urban-Rural Development and other relevant departments",
         "Asset": "Products (green product certification objects)",
         "Asset (Details)": "The object defined and covered by this instrument is the various categories of products included in the green product certification catalogue, including but not limited to building materials (wood-based panels, coatings, sanitary ceramics, building glass, ceramic tiles, waterproof and sealing materials, etc.), furniture, textiles, paper products, plastic products, washing products and other categories. Certification is based on the green product evaluation standards for the corresponding product category, comprehensively evaluating products across four dimensions — resource attributes, energy attributes, environmental attributes and quality attributes — over their full life cycle.",
@@ -94172,7 +93635,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Buildings",
         "English instrument name": "Nearly Zero Energy Building Label",
         "Description": "The Nearly Zero Energy Building Label is a voluntary evaluation system for assessing and labelling building projects that meet the nearly zero energy building technical standards. Based on the national standard GB/T 51350-2019 Technical Standard for Nearly Zero Energy Buildings, it comprehensively assesses the indoor environmental parameters and energy efficiency indicators of buildings, awarding corresponding labels to ultra-low energy buildings, nearly zero energy buildings and zero energy buildings that meet the standards. Labels are divided into three grades: ultra-low energy building (energy saving rate of 82%-85% or above), nearly zero energy building (energy saving rate of 86%-90% or above) and zero energy building (annual renewable energy generation greater than or equal to the building's own annual final energy consumption). Assessment indicators include building energy efficiency indicators (building envelope energy saving rate, comprehensive building energy saving rate, renewable energy utilisation rate) and indoor environmental parameters (temperature, humidity, fresh air volume, noise, etc.), verified through building energy simulation calculations and on-site testing. The system was promoted and established by the housing and urban-rural development authorities and the building energy conservation associations, and formally came into operation after the implementation of the national standard GB/T 51350-2019 in 2019. Project owners voluntarily apply; there are no mandatory compliance obligations or penalties.",
-        "Objective": "Promote deep energy conservation and near-zero carbon emissions in the building sector",
+        "Objective": "Energy conservation; Climate change mitigation",
         "Administrating authorities": "Ministry of Housing and Urban-Rural Development (Department of Standard Quota); China Association of Building Energy Efficiency and other authorised assessment bodies",
         "Asset": "Buildings (nearly zero energy building evaluation objects)",
         "Asset (Details)": "The object defined and covered by this instrument is the various types of new, renovated and expanded civil buildings, including residential buildings and public buildings. Evaluation is based on GB/T 51350-2019 Technical Standard for Nearly Zero Energy Buildings, and buildings are classified as ultra-low energy, nearly zero energy or zero energy according to indicators such as building envelope energy saving rate, comprehensive building energy saving rate and renewable energy utilisation rate. Evaluation applies to both the design phase and the operation phase.",
@@ -94195,7 +93658,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Cross-sectoral",
         "English instrument name": "Product Carbon Footprint Label",
         "Description": "The Product Carbon Footprint Label Certification is a voluntary product carbon footprint labelling and certification system jointly established and implemented by the State Administration for Market Regulation and other departments. Based on product carbon footprint accounting standards and certification specifications, the full-life-cycle GHG emissions of products — from raw material acquisition, manufacturing, distribution and transport, use and consumption to disposal and recycling — are quantified, verified and labelled, conveying product carbon emission information to consumers and purchasers through a unified carbon footprint label and guiding low-carbon consumption and low-carbon production. The system was established under the Notice on Launching the Pilot Programme for Product Carbon Footprint Label Certification (Guoshijian Ren Zhengfa [2024] No. 85) jointly issued by the State Administration for Market Regulation, the Ministry of Ecology and Environment, the National Development and Reform Commission and the Ministry of Industry and Information Technology in August 2024. The pilot covers 11 priority product categories — lithium batteries, photovoltaic products, steel, textiles, electronic and electrical appliances, tyres, cement, electrolytic aluminium, urea, ammonium phosphate and wood products — with a pilot period of three years. The certification and labelling system covers two labelling forms: carbon footprint quantification labels and carbon footprint grade labels. Enterprises voluntarily apply for certification; there are no mandatory compliance obligations or penalties.",
-        "Objective": "Mitigate climate change (promote carbon footprint transparency and low-carbon consumption)",
+        "Objective": "Climate change mitigation; Green consumption",
         "Administrating authorities": "State Administration for Market Regulation (Department of Certification Supervision); Ministry of Ecology and Environment; National Development and Reform Commission; Ministry of Industry and Information Technology",
         "Asset": "Products (carbon footprint label certification objects)",
         "Asset (Details)": "The object defined and covered by this instrument is the various categories of products included in the carbon footprint label certification catalogue. The near-term focus is on key-industry products with urgent carbon footprint data needs, such as batteries, photovoltaic products, electronic and electrical appliances, textiles, steel, non-ferrous metals and building materials. Certification is based on the product carbon footprint accounting general rules and product-category-specific carbon footprint accounting rules, quantifying and labelling the full-life-cycle GHG emissions of products (raw material acquisition, manufacturing, distribution and transport, use and consumption, disposal and recycling).",
@@ -94219,7 +93682,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Industry",
         "English instrument name": "Zero-Carbon Factory Label",
         "Description": "The Zero-Carbon Factory Label is a national-level voluntary factory evaluation, designation and labelling system established by the Ministry of Industry and Information Technology, founded on the Guiding Opinions on the Construction of Zero-Carbon Factories (MIIT Joint Energy Conservation [2026] No. 13) and the Notice of the General Office of the Ministry of Industry and Information Technology on Organising the Construction of National Zero-Carbon Factories (MIIT Office Energy Conservation Letter [2026] No. 334, dated 13 July 2026). A zero-carbon factory (including zero-carbon computing facilities) refers to a manufacturing enterprise or computing facility that, through emission reduction measures such as technological innovation, structural adjustment and management optimisation, continuously reduces carbon dioxide emissions within its boundary and gradually moves towards near-zero emissions. The system follows the implementation path of 'voluntary application, provincial recommendation, expert review, construction management, and evaluation and acceptance': applicant entities voluntarily submit application materials through the Industrial Energy Conservation and Green Development Management Platform (green.miit.gov.cn); provincial industry and information technology authorities review and recommend; the Ministry of Industry and Information Technology organises expert review and publishes the national zero-carbon factory construction list. During the construction period (no later than 2030), annual targets for core indicators are met year by year; once the target requirements are achieved, acceptance inspection is organised under the principle of 'accepting each mature batch'; those passing acceptance formally become national zero-carbon factories. Those that still fail to pass acceptance upon expiry of the construction period are removed from the construction list; after passing acceptance, the achievement of core indicators must be disclosed annually on a continuous basis. Core indicators are set at two tiers, 'basic requirement → target requirement': carbon emissions per unit energy consumption no higher than 1.8 → 0.2 tonnes of CO2 per tonne of standard coal equivalent; non-fossil energy consumption share no lower than 30% → 95%; physically verified non-fossil electricity consumption share no lower than 10% → 35% (applicable to applicants with annual electricity consumption above 5 million kWh; no basic requirement is set for computing facilities). Participation is voluntary, with no mandatory compliance obligations or penalties.",
-        "Objective": "Promote green and low-carbon transformation of factories, and facilitate carbon peaking and carbon neutrality",
+        "Objective": "Climate change mitigation; Industrial development",
         "Administrating authorities": "Ministry of Industry and Information Technology (Department of Energy Conservation and Comprehensive Utilisation, lead); provincial industry and information technology authorities (review, recommendation and follow-up management)",
         "Asset": "Manufacturing enterprises; computing facilities (national zero-carbon factory designation and evaluation objects)",
         "Asset (Details)": "Covers two categories of applicant entities: manufacturing enterprises and computing facilities. Manufacturing enterprises: independent legal entities (or independent accounting units treated as legal persons) that are above-designated-size industrial enterprises engaged in actual production, with annual comprehensive energy consumption of no less than 1,000 tonnes of standard coal equivalent (electricity converted by calorific equivalent), already on the national green factory list, and whose main product unit energy consumption reaches or exceeds Level 1 (advanced value) of the mandatory national standards on energy consumption limits for the industry and the benchmark level of the Benchmark Levels and Baseline Levels of Energy Efficiency in Key Industrial Sectors. Computing facilities: owners with independent legal personality, clear property rights, clear and complete physical boundaries, and independent power supply and distribution and cooling systems, with a scale of no less than 3,000 standard racks (this requirement does not apply to AI computing centres), power usage effectiveness (PUE) reaching Level 2 or above under GB 40879-2021 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Data Centres, and already on the national green computing facility list (formerly the national green data centre list). See subschemes S001 (manufacturing enterprises) and S002 (computing facilities).",
@@ -94243,7 +93706,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Zero-Carbon Factory (Manufacturing Enterprise)",
         "Policy Package": "Zero-Carbon Factory Label",
         "Description": "The national zero-carbon factory construction and designation scheme for manufacturing enterprises (the manufacturing enterprise subscheme of the Zero-Carbon Factory Label system). Applicant entities must have independent legal personality, or be independent accounting units treated as legal persons; they must be above-designated-size industrial enterprises engaged in actual production, with annual comprehensive energy consumption of no less than 1,000 tonnes of standard coal equivalent (electricity converted by calorific equivalent), and already on the national green factory list. Their main product unit energy consumption must reach or exceed Level 1 (advanced value) of the mandatory national standards on energy consumption limits for the industry and the benchmark level of the Benchmark Levels and Baseline Levels of Energy Efficiency in Key Industrial Sectors; where no such standard or requirement exists, they must reach the industry-leading level. Core indicators are set at two tiers, basic requirement and target requirement: carbon emissions per unit energy consumption no higher than 1.8 → 0.2 tonnes of CO2 per tonne of standard coal equivalent; non-fossil energy consumption share no lower than 30% → 95%; physically verified non-fossil electricity consumption share no lower than 10% → 35% (applicable to applicants with annual electricity consumption above 5 million kWh). The target requirements for core indicators must be achieved within the construction period (no later than 2030); following evaluation and acceptance, the enterprise formally becomes a national zero-carbon factory. Participation is voluntary, with no mandatory compliance obligations or penalties.",
-        "Objective": "Promote green and low-carbon transformation of factories, and facilitate carbon peaking and carbon neutrality",
+        "Objective": "Climate change mitigation; Industrial development",
         "Administrating authorities": "Ministry of Industry and Information Technology (Department of Energy Conservation and Comprehensive Utilisation); provincial industry and information technology authorities",
         "Asset": "Above-designated-size industrial enterprises (manufacturing type)",
         "Asset (Details)": "Above-designated-size industrial enterprises engaged in actual production, with annual comprehensive energy consumption of no less than 1,000 tonnes of standard coal equivalent (electricity converted by calorific equivalent), already on the national green factory list. Their main product unit energy consumption must reach or exceed Level 1 (advanced value) of the mandatory national standards on energy consumption limits for the industry and the benchmark level of the Benchmark Levels and Baseline Levels of Energy Efficiency in Key Industrial Sectors; where no such standard or requirement exists, they must reach the industry-leading level.",
@@ -94268,7 +93731,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Zero-Carbon Computing Facility",
         "Policy Package": "Zero-Carbon Factory Label",
         "Description": "The national zero-carbon factory construction and designation scheme for computing facilities (the computing facility subscheme of the Zero-Carbon Factory Label system). Applicant entities (computing facility owners) must have independent legal personality, with clear property rights, clear and complete physical boundaries, and independent power supply and distribution and cooling systems for the computing facility; the scale must be no less than 3,000 standard racks (this requirement does not apply to AI computing centres); power usage effectiveness (PUE) must reach Level 2 or above under GB 40879-2021 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Data Centres; and the facility must already be on the national green computing facility list (formerly the national green data centre list). Core indicators are set at two tiers, basic requirement and target requirement: carbon emissions per unit energy consumption no higher than 1.8 → 0.2 tonnes of CO2 per tonne of standard coal equivalent; non-fossil energy consumption share no lower than 30% → 95%; no basic requirement is set for the physically verified non-fossil electricity consumption share, while the target requirement is no lower than 35% (applicable to applicants with annual electricity consumption above 5 million kWh). The target requirements for core indicators must be achieved within the construction period (no later than 2030); following evaluation and acceptance, the facility formally becomes a national zero-carbon factory. Participation is voluntary, with no mandatory compliance obligations or penalties.",
-        "Objective": "Promote green and low-carbon transformation of factories, and facilitate carbon peaking and carbon neutrality",
+        "Objective": "Climate change mitigation; Industrial development",
         "Administrating authorities": "Ministry of Industry and Information Technology (Department of Energy Conservation and Comprehensive Utilisation); provincial industry and information technology authorities",
         "Asset": "Computing facilities",
         "Asset (Details)": "Computing facilities with clear property rights, clear and complete physical boundaries, and independent power supply and distribution and cooling systems. The scale must be no less than 3,000 standard racks (this requirement does not apply to AI computing centres); power usage effectiveness (PUE) must reach Level 2 or above under GB 40879-2021 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Data Centres; and the facility must already be on the national green computing facility list (formerly the national green data centre list).",
@@ -94332,11 +93795,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "mandatory compliance obligations or penalties."
         ),
         "Objective": (
-            "Building a resource-conserving and environment-friendly society; "
-            "guide and promote enterprises to actively fulfill their "
-            "environmental protection responsibilities, establish green "
-            "supply chains, and achieve green, low-carbon and circular "
-            "development."
+            "Green consumption"
         ),
         "Administrating authorities": (
             "Ministry of Commerce (Department of Circulation Development); "
@@ -94498,12 +93957,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "and departments submit activity summaries to the NDRC and MEE."
         ),
         "Objective": (
-            "Publicise energy conservation laws, regulations and standards; "
-            "Showcase energy-saving and low-carbon technologies and products; "
-            "Promote advanced energy conservation experiences; Disseminate energy "
-            "conservation knowledge and methods; Raise public energy conservation "
-            "awareness and capability; Foster green and low-carbon production "
-            "and lifestyle patterns"
+            "Public awareness; Energy conservation"
         ),
         "Administrating authorities": (
             "National Development and Reform Commission; Ministry of Ecology "
@@ -94689,11 +94143,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "footprint."
         ),
         "Objective": (
-            "Disseminate knowledge about climate change; Publicise the concept "
-            "and policies of green and low-carbon development; Encourage public "
-            "participation in addressing climate change; Advance the task of "
-            "controlling greenhouse gas emissions; Create a social culture of "
-            "green and low-carbon living"
+            "Public awareness; Climate change mitigation"
         ),
         "Administrating authorities": (
             "National Development and Reform Commission; Ministry of Ecology "
@@ -94867,11 +94317,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Localities submit summaries after the campaign."
         ),
         "Objective": (
-            "Deepen the implementation of the strategy of prioritising the "
-            "development of urban public transport; Encourage and guide the "
-            "public to prioritise public transport and green travel modes; "
-            "Foster green and low-carbon lifestyles; Improve the urban transport "
-            "environment and air quality"
+            "Public awareness; Green consumption"
         ),
         "Administrating authorities": (
             "Ministry of Transport; Ministry of Public Security; Ministry of "
@@ -95084,14 +94530,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "citizens."
         ),
         "Objective": (
-            "Guide citizens to fulfil their ecological and environmental "
-            "protection obligations; enhance public ecological and "
-            "environmental awareness throughout society; promote a simple, "
-            "moderate, green, low-carbon, civilised and healthy lifestyle; "
-            "foster a social atmosphere in which everyone, in all matters, "
-            "at all times and in all places, upholds an ecological "
-            "civilisation; support the building of a Beautiful China and "
-            "the achievement of carbon peak and carbon neutrality goals."
+            "Public awareness; Green consumption"
         ),
         "Administrating authorities": (
             "Ministry of Ecology and Environment; Central Office of "
@@ -95302,14 +94741,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "manufacturing standardisation."
         ),
         "Objective": (
-            "Establish a unified and co-ordinated green manufacturing standards "
-            "system framework; provide the technical standards basis for the "
-            "evaluation, certification and promotion of green factories, green "
-            "products, green industrial parks and green supply chains; standardise "
-            "and guide the green and low-carbon transition of the manufacturing "
-            "sector; reduce duplication and fragmentation of standards; and "
-            "support the implementation of the Made in China 2025 green "
-            "manufacturing strategy."
+            "Industrial development; Technological innovation"
         ),
         "Administrating authorities": (
             "Ministry of Industry and Information Technology (Energy Conservation "
@@ -95482,12 +94914,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "2026) to provide operational guidance for implementation."
         ),
         "Objective": (
-            "Standardise sustainability information disclosure by listed "
-            "companies; improve the quality and comparability of ESG "
-            "information disclosed by listed companies; guide capital "
-            "allocation toward green, low-carbon and sustainable development; "
-            "support implementation of the national carbon peak and carbon "
-            "neutrality targets and the sustainable development strategy"
+            "Information disclosure; Green economy; Climate change mitigation"
         ),
         "Administrating authorities": (
             "China Securities Regulatory Commission (guiding); Shanghai Stock "
@@ -95680,15 +95107,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "University."
         ),
         "Objective": (
-            "Standardise the professional conduct and practice "
-            "requirements of carbon emission management practitioners; "
-            "unify the skill standards and grade recognition for the "
-            "carbon emission management occupation; guide the direction "
-            "of vocational education and skill training and cultivate "
-            "professional and skilled personnel urgently needed in the "
-            "carbon peak and carbon neutrality field; provide human "
-            "resource support for the national carbon peak and carbon "
-            "neutrality strategy"
+            "Capacity building; Climate change mitigation"
         ),
         "Administrating authorities": (
             "Ministry of Human Resources and Social Security; Ministry "
@@ -95893,14 +95312,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "26 October 2022 as Jiao Fa [2022] No. 2."
         ),
         "Objective": (
-            "Integrate the concept of green and low-carbon development "
-            "into all levels and domains of the national education "
-            "system; nurture a new generation of young people who "
-            "embrace green and low-carbon principles; build a system "
-            "of disciplines and programmes related to carbon peak and "
-            "carbon neutrality and cultivate a professional talent pool; "
-            "support the implementation of the national carbon peak and "
-            "carbon neutrality strategy through the education system"
+            "Public awareness; Climate change mitigation"
         ),
         "Administrating authorities": "Ministry of Education",
         "Asset": "National education system (curricula, disciplines and campus construction)",
