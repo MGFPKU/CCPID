@@ -2646,7 +2646,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Air pollution; technological innovation; industrial development; adaptation"
+            "Air pollution; Technological innovation; Industrial development; Ecological protection; Biodiversity conservation; adaptation"
 
 
         ),
@@ -79668,7 +79668,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Ecological protection; biodiversity conservation; water resource conservation; soil and water conservation",
+        "Mitigation co-benefits": "Ecological protection; biodiversity conservation; water resource conservation; soil and water conservation; adaptation",
 
 
         "Legal statute": "General Office of the CPC Central Committee and General Office of the State Council, Natural Forest Protection and Restoration System Plan",
@@ -80100,7 +80100,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Ecological protection; biodiversity conservation; soil and water conservation; windbreak and sand fixation",
+        "Mitigation co-benefits": "Ecological protection; biodiversity conservation; soil and water conservation; windbreak and sand fixation; adaptation",
 
 
         "Legal statute": "General Office of the State Council, Several Opinions on Strengthening Grassland Protection and Restoration (SC General Office Doc. [2021] No. 7)",
@@ -81324,7 +81324,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Ecological protection; Biodiversity protection; Water resource "
 
 
-            "conservation; Water and soil conservation; Pollution control."
+            "conservation; Water and soil conservation; Pollution control; "
+
+
+            "Adaptation."
 
 
         ),
@@ -82155,10 +82158,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Ecological protection; Pollution control; Resource conservation; "
+            "Ecological protection; Biodiversity protection; Pollution control; Resource conservation; "
 
 
-            "Green industry development; Energy consumption reduction."
+            "Green industry development; Energy consumption reduction; "
+
+
+            "Adaptation."
 
 
         ),
