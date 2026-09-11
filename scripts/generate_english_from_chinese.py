@@ -22353,7 +22353,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "and fulfil negative credit obligations through carry-forward, transfer,"
             "purchase, credit pooling and other methods."
         ),
-        "Objective": "Energy efficiency improvement; Industrial development",
+        "Objective": "Energy conservation; Industrial development",
         "Functioning channel": "Supply-side",
         "Last revisions (Details)": (
             "On 7 November 2025, the Ministry of Industry and Information Technology"
@@ -22478,7 +22478,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "enterprises. Negative credits must be offset using CAFC positive credits,"
             "NEV positive credits and other means in accordance with the measures."
         ),
-        "Objective": "Energy efficiency improvement; Industrial development",
+        "Objective": "Energy conservation; Industrial development",
         "Functioning channel": "Supply-side",
         "Last revisions (Details)": (
             "On 7 November 2025, the Ministry of Industry and Information Technology"
@@ -22590,7 +22590,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "pool. The annual NEV credit ratio requirement determines the target credit"
             "volume."
         ),
-        "Objective": "Energy efficiency improvement; Industrial development",
+        "Objective": "Energy conservation; Industrial development",
         "Functioning channel": "Supply-side",
         "Last revisions (Details)": (
             "On 7 November 2025, the Ministry of Industry and Information Technology"
@@ -22904,7 +22904,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement; Industrial development; Technological innovation",
+        "Mitigation co-benefits": "Energy conservation; Industrial development; Technological innovation",
 
 
         "Last revisions (Details)": "N/A",
@@ -23721,7 +23721,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement; Pollution control; Circular economy; Technological innovation",
+        "Mitigation co-benefits": "Energy conservation; Pollution control; Circular economy; Technological innovation",
 
 
         "Last revisions (Details)": (
@@ -24043,7 +24043,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement; Technological innovation; Industrial development",
+        "Mitigation co-benefits": "Energy conservation; Technological innovation; Industrial development",
 
 
         "Last revisions (Details)": "N/A",
@@ -24351,7 +24351,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation co-benefits": (
-            "Energy efficiency improvement; Pollution control; Circular economy; Technological innovation; Industrial development"
+            "Energy conservation; Pollution control; Circular economy; Technological innovation; Industrial development"
         ),
 
 
@@ -25008,7 +25008,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Circular economy; Technological innovation; Industrial development; Energy security"
+            "Energy conservation; Circular economy; Technological innovation; Industrial development; Energy security"
 
 
         ),
@@ -29643,7 +29643,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement; Energy security; Industrial development",
+        "Mitigation co-benefits": "Energy conservation; Energy security; Industrial development",
 
 
         "Legal statute": (
@@ -30348,7 +30348,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Pollution control; Resource conservation; Energy efficiency improvement",
+        "Mitigation co-benefits": "Pollution control; Resource conservation; Energy conservation",
 
 
         "Legal statute": (
@@ -31062,7 +31062,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement; Industrial development",
+        "Mitigation co-benefits": "Energy conservation; Industrial development",
 
 
         "GHGs affected": "CO2",
@@ -31989,7 +31989,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -32310,7 +32310,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -32631,7 +32631,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -32946,7 +32946,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Pollution control; Energy efficiency improvement; Renewable energy development"
+            "Pollution control; Energy conservation; Renewable energy development"
 
 
         ),
@@ -34302,7 +34302,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Renewable energy development"
+            "Energy conservation; Renewable energy development"
 
 
         ),
@@ -34719,7 +34719,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -35160,7 +35160,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -35487,7 +35487,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -35841,7 +35841,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -36162,7 +36162,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -36516,7 +36516,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -36816,7 +36816,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Technological innovation; Industrial development"
+            "Energy conservation; Technological innovation; Industrial development"
 
 
         ),
@@ -37116,7 +37116,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -37428,7 +37428,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -37758,7 +37758,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -38058,7 +38058,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -38388,7 +38388,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -38682,7 +38682,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -38991,7 +38991,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -39303,7 +39303,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -39597,7 +39597,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -39936,7 +39936,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -40275,7 +40275,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -40605,7 +40605,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -40932,7 +40932,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -41250,7 +41250,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -41535,7 +41535,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -41832,7 +41832,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -42144,7 +42144,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -42435,7 +42435,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -42717,7 +42717,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -43038,7 +43038,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -43344,7 +43344,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -43647,7 +43647,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -43977,7 +43977,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -44286,7 +44286,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -44601,7 +44601,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -44741,7 +44741,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Energy efficiency improvement; Technological innovation; Industrial development"
+            "Energy conservation; Technological innovation; Industrial development"
         ),
         "Legal statute": (
             "GB 47834-2026 Minimum Allowable Values of Energy Efficiency and "
@@ -44881,7 +44881,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
         ),
         "Legal statute": (
             "GB 30255-2026 Minimum Allowable Values of Energy Efficiency and "
@@ -45179,7 +45179,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -45491,7 +45491,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -45821,7 +45821,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -46130,7 +46130,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -46466,7 +46466,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -46751,7 +46751,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -47051,7 +47051,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -47342,7 +47342,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -47635,7 +47635,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -47982,7 +47982,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -48305,7 +48305,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -48607,7 +48607,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -48969,7 +48969,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -49298,7 +49298,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Renewable energy development; Energy efficiency improvement"
+            "Renewable energy development; Energy conservation"
 
 
         ),
@@ -49649,7 +49649,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -49969,7 +49969,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Renewable energy development; Energy efficiency improvement; Industrial development"
+            "Renewable energy development; Energy conservation; Industrial development"
 
 
         ),
@@ -50247,7 +50247,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -50561,7 +50561,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -50884,7 +50884,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -51189,7 +51189,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -51527,7 +51527,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -51874,7 +51874,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Pollution control; Industrial development"
+            "Energy conservation; Pollution control; Industrial development"
 
 
         ),
@@ -52033,7 +52033,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance promotion": "The state encourages formaldehyde producers to benchmark against Grade 1 advanced values and undertake energy conservation and carbon reduction retrofits, guiding and supporting uptake of advanced production capacity through energy conservation reviews, green factory certification and key-industry energy conservation and carbon reduction retrofit campaigns.",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 45246-2025 Norm of Energy Consumption per Unit Production of Main Wood-Based Panel Products",
@@ -52066,7 +52066,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement; Pollution control",
+        "Mitigation co-benefits": "Energy conservation; Pollution control",
 
 
     },
@@ -52092,7 +52092,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
     },
@@ -52119,7 +52119,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement; Pollution control",
+        "Mitigation co-benefits": "Energy conservation; Pollution control",
 
 
     },
@@ -52145,7 +52145,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
     },
@@ -52172,7 +52172,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
     },
@@ -52198,7 +52198,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
     },
@@ -52224,7 +52224,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
     },
@@ -52250,7 +52250,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
     },
@@ -52277,7 +52277,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement; Pollution control",
+        "Mitigation co-benefits": "Energy conservation; Pollution control",
 
 
     },
@@ -52303,7 +52303,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Unit)": "Energy intensity limit grade",
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
     },
@@ -52549,7 +52549,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": (
@@ -52795,7 +52795,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": (
@@ -53050,7 +53050,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": (
@@ -53323,7 +53323,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement; Pollution control",
+        "Mitigation co-benefits": "Energy conservation; Pollution control",
 
 
         "Legal statute": (
@@ -53593,7 +53593,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": (
@@ -53827,7 +53827,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 21345-2024 Norm of Energy Consumption per Unit Production of Yellow Phosphorus",
@@ -54058,7 +54058,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 29449-2024 Norm of Energy Consumption per Unit Production of Tyres and Carbon Black",
@@ -54289,7 +54289,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": (
@@ -54535,7 +54535,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": (
@@ -54790,7 +54790,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 31335-2024 Norm of Energy Consumption per Unit Production of Iron Ore Mining and Dressing",
@@ -55045,7 +55045,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 31825-2024 Norm of Energy Consumption per Unit Production of Pulp and Paper",
@@ -55303,7 +55303,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 29140-2024 Norm of Energy Consumption per Unit Production of Soda Ash",
@@ -55543,7 +55543,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 30530-2024 Norm of Energy Consumption per Unit Production of Dimethyl Siloxane",
@@ -55798,7 +55798,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement; Pollution control",
+        "Mitigation co-benefits": "Energy conservation; Pollution control",
 
 
         "Legal statute": "GB 30251-2024 Norm of Energy Consumption per Unit Production of Refining and Chemical Industry",
@@ -56065,7 +56065,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 21343-2023 Norm of Energy Consumption per Unit Production of Calcium Carbide, Vinyl Acetate, Polyvinyl Alcohol, 1,4-Butanediol, Dicyandiamide and Monocyanamide",
@@ -56326,7 +56326,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 21344-2023 Norm of Energy Consumption per Unit Production of Fertilizer Industry",
@@ -56599,7 +56599,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 29145-2023 Norm of Energy Consumption per Unit Production of Tungsten Concentrate, Molybdenum Concentrate and Roasted Molybdenum Concentrate",
@@ -56860,7 +56860,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 29436-2023 Norm of Energy Consumption per Unit Production of Methanol, Ethylene Glycol and Dimethyl Ether",
@@ -57127,7 +57127,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 21252-2023 Norm of Energy Consumption per Unit Production of Architecture and Sanitary Ceramics and Alumina Grinding Ball",
@@ -57397,7 +57397,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 21347-2023 Norm of Energy Consumption per Unit Production of Industrial Silicon and Magnesium",
@@ -57688,7 +57688,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 25323-2023 Norm of Energy Consumption per Unit Production of Non-Ferrous Heavy Metals Metallurgical Enterprises",
@@ -57973,7 +57973,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 21351-2023 Norm of Energy Consumption per Unit Production of Wrought Aluminium and Aluminium Alloys",
@@ -58264,7 +58264,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 21350-2023 Norm of Energy Consumption per Unit Production of Wrought Copper and Copper Alloy",
@@ -58534,7 +58534,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 29447-2022 Norm of Energy Consumption per Unit Production of Polysilicon and Germanium",
@@ -58798,7 +58798,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 25324-2022 Norm of Energy Consumption per Unit Production of Carbon Materials for Aluminium Production",
@@ -59074,7 +59074,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 21341-2022 Norm of Energy Consumption per Unit Production of Ferroalloys",
@@ -59347,7 +59347,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 29448-2022 Norm of Energy Consumption per Unit Production of Titanium Sponge and Titanium Ingot",
@@ -59629,7 +59629,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 21346-2022 Norm of Energy Consumption per Unit Production of Electrolytic Aluminium and Alumina",
@@ -59890,7 +59890,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement; Pollution control",
+        "Mitigation co-benefits": "Energy conservation; Pollution control",
 
 
         "Legal statute": "GB 31823-2021 Norm of Energy Consumption per Unit Throughput of Terminal Operations",
@@ -60139,7 +60139,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 40878-2021 Norm of Energy Consumption per Unit Production of Sodium Gluconate",
@@ -60412,7 +60412,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 40877-2021 Norm of Energy Consumption per Unit Production of Aluminium Silicate Fibre and Products",
@@ -60709,7 +60709,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 16780-2021 Norm of Energy Consumption per Unit Production of Cement",
@@ -60982,7 +60982,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 30526-2019 Norm of Energy Consumption per Unit Production of Sintered Wall Materials and Foam Glass",
@@ -61252,7 +61252,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 38263-2019 Norm of Energy Consumption per Unit Production of Cement Products",
@@ -61525,7 +61525,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 21340-2019 Norm of Energy Consumption per Unit Production of Glass and Cast Stone",
@@ -61786,7 +61786,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 36888-2018 Norm of Energy Consumption per Unit Production of Ready-Mixed Concrete",
@@ -62056,7 +62056,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 36892-2018 Norm of Energy Consumption per Unit Production of Corundum",
@@ -62317,7 +62317,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 36891-2018 Norm of Energy Consumption per Unit Production of Mullite",
@@ -62581,7 +62581,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 36890-2018 Norm of Energy Consumption per Unit Production of Domestic Ceramics",
@@ -62920,7 +62920,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 36887-2018 Norm of Energy Consumption per Unit Production of Synthetic Leather",
@@ -63259,7 +63259,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 36889-2018 Norm of Energy Consumption per Unit Production of PET and PET Fiber",
@@ -63637,7 +63637,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 21370-2017 Norm of Energy Consumption per Unit Production of Carbon Products",
@@ -63955,7 +63955,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 33654-2017 Norm of Energy Consumption per Unit Production of Gypsum Plaster",
@@ -64276,7 +64276,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 32044-2015 Norm of Energy Consumption per Unit Production of Sugar",
@@ -64594,7 +64594,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 32047-2015 Norm of Energy Consumption per Unit Production of Beer",
@@ -64933,7 +64933,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 32050-2015 Norm of Energy Consumption per Unit Production of Electric Arc Furnace Steelmaking",
@@ -65260,7 +65260,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 30182-2013 Norm of Energy Consumption per Unit Production of Friction Materials",
@@ -65605,7 +65605,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 30183-2013 Norm of Energy Consumption per Unit Production of Rock Wool, Slag Wool and Their Products",
@@ -65950,7 +65950,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 30184-2013 Norm of Energy Consumption per Unit Production of Asphalt-Based Waterproof Membrane",
@@ -66316,7 +66316,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 30185-2013 Norm of Energy Consumption per Unit Production of Aluminium-Plastic Composite Panel",
@@ -66583,7 +66583,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": (
@@ -66938,7 +66938,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 29438-2012 Norm of Energy Consumption per Unit Production of Polyoxymethylene",
@@ -67286,7 +67286,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 29444-2012 Norm of Energy Consumption per Unit Production of Coal Underground Mining",
@@ -67625,7 +67625,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 29445-2012 Norm of Energy Consumption per Unit Production of Coal Surface Mining",
@@ -67976,7 +67976,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Energy efficiency improvement",
+        "Mitigation co-benefits": "Energy conservation",
 
 
         "Legal statute": "GB 29450-2012 Norm of Energy Consumption per Unit Production of Glass Fiber",
@@ -68117,7 +68117,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Energy efficiency improvement; Pollution control"
+            "Energy conservation; Pollution control"
         ),
         "Legal statute": (
             "GB 29447-2026 Norm of Energy Consumption per Unit Products "
@@ -68241,7 +68241,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Energy efficiency improvement; Pollution control"
+            "Energy conservation; Pollution control"
         ),
         "Legal statute": (
             "GB 47835-2026 Norm of Energy Consumption per Unit Products "
@@ -68308,7 +68308,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance promotion": (
             "Financial policies such as medium- and long-term loans, green credit, green bonds and climate investment and financing shall support enterprises' energy conservation and carbon reduction upgrades; tax incentives for energy conservation equipment, technology upgrading and comprehensive resource utilisation shall be implemented; linked with the tiered electricity pricing system, electricity price incentives shall be provided to enterprises with leading energy efficiency levels. Enterprises reaching the benchmark level shall receive support in industry evaluation for excellence, capacity expansion approval and energy-use rights trading."
         ),
-        "Mitigation co-benefits": "Energy efficiency improvement; Technological innovation; Pollution control; Industrial development; Resource conservation",
+        "Mitigation co-benefits": "Energy conservation; Technological innovation; Pollution control; Industrial development; Resource conservation",
         "Economic sector": "C13; C17; C19; C20; C22; C23; C24",
         "Legal statute": "Notice of the National Development and Reform Commission and Other Departments on Issuing the Energy Efficiency Benchmark and Baseline Levels for Key Industrial Sectors (2023 Edition) (Fa Gai Chan Ye [2023] No. 723)",
         "Other weblinks": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202111/t20211115_1304012_ext.html",
@@ -68572,7 +68572,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement"
+            "Energy conservation"
 
 
         ),
@@ -68893,7 +68893,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement"
+            "Energy conservation"
 
 
         ),
@@ -69205,7 +69205,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Pollution control"
+            "Energy conservation; Pollution control"
 
 
         ),
@@ -69508,7 +69508,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Pollution control"
+            "Energy conservation; Pollution control"
 
 
         ),
@@ -69814,7 +69814,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Pollution control"
+            "Energy conservation; Pollution control"
 
 
         ),
@@ -70147,7 +70147,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Pollution control"
+            "Energy conservation; Pollution control"
 
 
         ),
@@ -70522,7 +70522,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Pollution control; Energy security"
+            "Energy conservation; Pollution control; Energy security"
 
 
         ),
@@ -71020,7 +71020,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Pollution control; Technological innovation; Industrial development; Energy security; Renewable energy development; Ecological protection"
+            "Energy conservation; Pollution control; Technological innovation; Industrial development; Energy security; Renewable energy development; Ecological protection"
 
 
         ),
@@ -71125,7 +71125,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Climate change mitigation; Energy efficiency improvement; Environmental conservation",
+        "Objective": "Climate change mitigation; Energy conservation; Environmental conservation",
 
 
         "Administrating authorities": (
@@ -71443,7 +71443,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Pollution control; Technological innovation; Industrial development; Energy security; Ecological protection"
+            "Energy conservation; Pollution control; Technological innovation; Industrial development; Energy security; Ecological protection"
 
 
         ),
@@ -71545,10 +71545,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Energy efficiency improvement; Energy consumption total control; "
-
-
-            "Energy structure optimisation"
+            "Energy conservation; Energy consumption total control; Energy structure optimisation"
 
 
         ),
@@ -71896,7 +71893,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Pollution control; Technological innovation"
+            "Energy conservation; Pollution control; Technological innovation"
 
 
         ),
@@ -72526,7 +72523,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Pollution control; Technological innovation; Industrial development"
+            "Energy conservation; Pollution control; Technological innovation; Industrial development"
 
 
         ),
@@ -72781,10 +72778,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Total capacity control; Overcapacity reduction; "
-
-
-            "Industry structural adjustment; Energy efficiency improvement"
+            "Total capacity control; Overcapacity reduction; Industry structural adjustment; Energy conservation"
 
 
         ),
@@ -73153,7 +73147,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Pollution control; Technological innovation; Industrial development"
+            "Energy conservation; Pollution control; Technological innovation; Industrial development"
 
 
         ),
@@ -73795,7 +73789,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Pollution control; Industrial development"
+            "Energy conservation; Pollution control; Industrial development"
 
 
         ),
@@ -74224,7 +74218,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Pollution control; Technological innovation; Industrial development"
+            "Energy conservation; Pollution control; Technological innovation; Industrial development"
 
 
         ),
@@ -77914,7 +77908,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Pollution control; Technological innovation; Industrial development"
+            "Energy conservation; Pollution control; Technological innovation; Industrial development"
 
 
         ),
@@ -81645,7 +81639,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Ecological protection; Biodiversity conservation; Pollution control; Resource conservation; Industrial development; Energy efficiency improvement; Adaptation"
+            "Ecological protection; Biodiversity conservation; Pollution control; Resource conservation; Industrial development; Energy conservation; Adaptation"
 
 
         ),
@@ -83085,7 +83079,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Industrial development"
+            "Energy conservation; Industrial development"
 
 
         ),
@@ -83640,7 +83634,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Resource conservation"
+            "Energy conservation; Resource conservation"
 
 
         ),
@@ -84903,7 +84897,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Green consumption; Technological innovation"
+            "Energy conservation; Green consumption; Technological innovation"
 
 
         ),
@@ -85536,7 +85530,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Green consumption; Energy efficiency improvement"
+            "Green consumption; Energy conservation"
 
 
         ),
@@ -86328,7 +86322,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Pollution control; Energy efficiency improvement"
+            "Pollution control; Energy conservation"
 
 
         ),
@@ -88647,7 +88641,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Technological innovation; Industrial development"
+            "Energy conservation; Technological innovation; Industrial development"
 
 
         ),
@@ -89262,7 +89256,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Technological innovation; Energy efficiency improvement; Industrial development; Pollution control"
+            "Technological innovation; Energy conservation; Industrial development; Pollution control"
 
 
         ),
@@ -90891,7 +90885,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Energy efficiency improvement; Technological innovation; Energy security"
+            "Energy conservation; Technological innovation; Energy security"
 
 
         ),
@@ -92257,7 +92251,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "Mitigation effects": "Positive",
 
-        "Mitigation co-benefits": "Energy efficiency improvement; Technological innovation; Pollution control; Industrial development",
+        "Mitigation co-benefits": "Energy conservation; Technological innovation; Pollution control; Industrial development",
 
         "Requirement specification": (
 
@@ -92592,7 +92586,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "Mitigation effects": "Positive",
 
-        "Mitigation co-benefits": "Energy efficiency improvement; Pollution control; Industrial development",
+        "Mitigation co-benefits": "Energy conservation; Pollution control; Industrial development",
 
         "Requirement specification": (
 
@@ -92938,7 +92932,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "Mitigation effects": "Positive",
 
-        "Mitigation co-benefits": "Renewable energy development; Energy efficiency improvement; Energy security; Pollution control",
+        "Mitigation co-benefits": "Renewable energy development; Energy conservation; Energy security; Pollution control",
 
         "Requirement specification": (
 
@@ -94070,7 +94064,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Sanctions for non-compliance": "N/A (voluntary certification label; no non-compliance sanctions. For products and enterprises that fail to pass supervisory inspections or do not continuously meet certification requirements, the certification body may suspend or revoke their certification certificate and the right to use the label; those found to have engaged in falsification shall be held legally liable.)",
         "GHG emission coverage (absolute)": "N/A (this instrument is a voluntary certification and labelling tool; the amount of GHG emissions covered depends on the number of products voluntarily certified and the energy-saving and carbon reduction effect, and there is no directly quantifiable fixed coverage amount)",
         "GHG emission coverage (% domestic emissions)": "N/A (this instrument is a voluntary tool; the share of GHG emissions covered depends on voluntary uptake)",
-        "Mitigation co-benefits": "Energy efficiency improvement; Pollution control; Technological innovation; Industrial development",
+        "Mitigation co-benefits": "Energy conservation; Pollution control; Technological innovation; Industrial development",
         "Legal statute": "Opinions of the General Office of the State Council on Deepening the Reform of the Management System for the Electronic and Electrical Appliances Industry (Guobanfa [2022] No. 31)",
         "Other weblinks": "https://www.ndrc.gov.cn/fggz/hjyzy/stwmjs/200507/t20050711_1159582_ext.html; https://www.ndrc.gov.cn/xxgk/zcfb/tz/201303/t20130319_964565.html",
         "Last revisions (Details)": "The system traces back to the China Energy-Saving Product Certification Administrative Measures (State Economic and Trade Commission, 11 February 1999) which established the earliest national-level voluntary energy-saving product certification system. On 19 February 2013, the Interim Administrative Measures for Low-Carbon Product Certification (NDRC Climate [2013] No. 279, jointly issued by NDRC and CNCA) established the low-carbon product certification system. In 2016, the General Office of the State Council issued the Opinions on Establishing a Unified Green Product Standard, Certification and Labelling System (Guobanfa [2016] No. 86), incorporating energy-saving and low-carbon product certification into the unified green product labelling system framework. On 23 September 2022, the General Office of the State Council issued the Opinions on Deepening the Reform of the Management System for the Electronic and Electrical Appliances Industry (Guobanfa [2022] No. 31), formally integrating the energy-saving product certification system and the low-carbon product certification system into a unified Energy-Saving and Low-Carbon Product Certification system, with SAMR leading the development of certification rules and relevant departments jointly developing standards.",
@@ -94094,7 +94088,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Sanctions for non-compliance": "N/A (voluntary building evaluation label; no non-compliance sanctions. Where falsification of application materials is discovered or operations no longer meet the requirements, the competent authority shall revoke the label.)",
         "GHG emission coverage (absolute)": "N/A (this instrument is a voluntary building evaluation and labelling tool; the amount of GHG emissions covered depends on the total amount of green building space voluntarily submitted for evaluation and awarded labels, and there is no directly quantifiable fixed coverage amount)",
         "GHG emission coverage (% domestic emissions)": "N/A (this instrument is a voluntary tool; the share of GHG emissions covered depends on voluntary uptake)",
-        "Mitigation co-benefits": "Energy efficiency improvement; Water resource conservation; Pollution control; Ecological protection",
+        "Mitigation co-benefits": "Energy conservation; Water resource conservation; Pollution control; Ecological protection",
         "Legal statute": "Notice of the Ministry of Housing and Urban-Rural Development on Issuing the Green Building Label Administrative Measures (Jian Biao Gui [2021] No. 1)",
         "Other weblinks": "N/A",
         "Last revisions (Details)": "In 2019, GB/T 50378-2019 Green Building Evaluation Standard was revised (the original standard was first issued in 2006 and revised in 2014 and 2019 respectively), restructuring the evaluation indicator system around five core performance categories — safety and durability, health and comfort, convenience of living, resource conservation and environmental liveability — and further strengthening the content on building carbon emission calculation and renewable energy utilisation. In 2021, the Ministry of Housing and Urban-Rural Development issued the Green Building Label Administrative Measures (Jian Biao Gui [2021] No. 1), further standardising label recognition and award management.",
@@ -94118,7 +94112,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Sanctions for non-compliance": "N/A (voluntary programme; no non-compliance sanctions. Those that no longer meet the top-runner conditions or are found to have engaged in falsification shall have their top-runner qualification revoked and be publicly announced.)",
         "GHG emission coverage (absolute)": "N/A (this instrument is a voluntary benchmarking programme; the amount of GHG emissions covered depends on the scale and extent of voluntary enterprise and public institution participation and energy efficiency improvement, and there is no directly quantifiable fixed coverage amount)",
         "GHG emission coverage (% domestic emissions)": "N/A (this instrument is a voluntary tool; the share of GHG emissions covered depends on voluntary uptake)",
-        "Mitigation co-benefits": "Energy efficiency improvement; Technological innovation; Industrial development; Pollution control",
+        "Mitigation co-benefits": "Energy conservation; Technological innovation; Industrial development; Pollution control",
         "Legal statute": "Notice on Issuing the Implementation Plan for the Energy Efficiency Top-Runner Programme (NDRC Environment and Resources [2014] No. 3001); Notice on Organising the 2026 Recommendation of Energy Efficiency and Carbon Efficiency Top-Runner Enterprises in Key Industries (MIIT Joint Notification [2026] No. 372)",
         "Other weblinks": "https://wap.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_277a824ef0ae478faf7dc2d4f14b5db6.html",
         "Last revisions (Details)": "On 31 December 2014, the NDRC and other departments issued the Implementation Plan for the Energy Efficiency Top-Runner Programme (NDRC Environment and Resources [2014] No. 3001), establishing the top-runner system covering three categories: end-use energy-consuming products, high-energy-consuming industry enterprises and public institutions. The programme has been implemented since then, with multiple batches of key-industry energy efficiency top-runner enterprises and public institution top runners published. On 23 September 2022, the General Office of the State Council issued the Opinions on Deepening the Reform of the Management System for the Electronic and Electrical Appliances Industry (Guobanfa [2022] No. 31), abolishing the energy efficiency top-runner product selection system (end-use energy-consuming products track); the enterprise and public institution top-runner tracks continue. In 2023-2024, top-runner selection continued for key industries (MIIT Joint Notification [2023] No. 278, covering 37 sub-sectors) and public institutions (Guoguan Energy Conservation [2023] No. 282). On 30 July 2026, the General Offices of MIIT, NDRC and SAMR issued the Notice on Organising the 2026 Recommendation of Energy Efficiency and Carbon Efficiency Top-Runner Enterprises in Key Industries (MIIT Joint Notification [2026] No. 372), expanding the recommended scope of key-industry energy efficiency top-runner enterprises to 43 sub-sectors, establishing the carbon efficiency top-runner selection for the first time (electrolytic aluminium, cement clinker, synthetic ammonia, ethylene and methanol — five sub-sectors), and adding a green electricity consumption share requirement.",
@@ -94145,7 +94139,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Monitoring": "Provincial preliminary review (recommendation opinions and forms submitted by 15 September 2026); the Ministry of Industry and Information Technology, the National Development and Reform Commission and the State Administration for Market Regulation organise re-examination and determine the list through expert review; a new round of recommendation and designation is organised every year with dynamic updating.",
         "Sanctions for non-compliance": "N/A (voluntary designation label; no non-compliance sanctions. Applicants with records of major or above accidents, administrative penalties above a relatively major level, or dishonesty in the past three years are ineligible; those that no longer meet the top-runner conditions or engage in falsification shall have their qualification revoked.)",
         "GHG emission coverage (absolute)": "N/A (voluntary instrument; the amount of GHG emissions covered depends on the scale and number of enterprises voluntarily applying and designated, with no fixed quantifiable coverage amount)",
-        "Mitigation co-benefits": "Energy efficiency improvement; Technological innovation; Industrial development",
+        "Mitigation co-benefits": "Energy conservation; Technological innovation; Industrial development",
         "Legal statute": "Notice on Organising the 2026 Recommendation of Energy Efficiency and Carbon Efficiency Top-Runner Enterprises in Key Industries (MIIT Joint Notification [2026] No. 372)",
     },
     "CHNVIIVLBI05S000": {
@@ -94191,7 +94185,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Sanctions for non-compliance": "N/A (voluntary building evaluation label; no non-compliance sanctions. Where falsification of application materials is discovered or operations no longer meet the requirements, the assessment body shall revoke the label.)",
         "GHG emission coverage (absolute)": "N/A (this instrument is a voluntary building evaluation and labelling tool; the amount of GHG emissions covered depends on the total amount of nearly zero energy building space voluntarily submitted for evaluation and awarded labels, and there is no directly quantifiable fixed coverage amount)",
         "GHG emission coverage (% domestic emissions)": "N/A (this instrument is a voluntary tool; the share of GHG emissions covered depends on voluntary uptake)",
-        "Mitigation co-benefits": "Energy efficiency improvement; Pollution control; Technological innovation",
+        "Mitigation co-benefits": "Energy conservation; Pollution control; Technological innovation",
         "Legal statute": "Announcement of the Ministry of Housing and Urban-Rural Development on Issuing the National Standard Technical Standard for Nearly Zero Energy Buildings (MOHURD Announcement [2019] No. 22, GB/T 51350-2019)",
         "Other weblinks": "N/A",
     },
@@ -94214,7 +94208,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Sanctions for non-compliance": "N/A (voluntary certification label; no non-compliance sanctions. For products and enterprises that fail to pass supervisory inspections, have false carbon footprint data or do not continuously meet certification requirements, the certification body may suspend or revoke their certification certificate and the right to use the label.)",
         "GHG emission coverage (absolute)": "N/A (this instrument is a voluntary certification and labelling tool; the amount of GHG emissions covered depends on the categories and quantity of products voluntarily certified by enterprises as well as the magnitude of product carbon footprints and emission reductions, and there is no directly quantifiable fixed coverage amount)",
         "GHG emission coverage (% domestic emissions)": "N/A (this instrument is a voluntary tool; the share of GHG emissions covered depends on voluntary uptake)",
-        "Mitigation co-benefits": "Technological innovation; Industrial development; Energy efficiency improvement",
+        "Mitigation co-benefits": "Technological innovation; Industrial development; Energy conservation",
         "Legal statute": "Notice of the State Administration for Market Regulation and Other Departments on Launching the Pilot Programme for Product Carbon Footprint Label Certification (Guoshijian Ren Zhengfa [2024] No. 85)",
         "Other weblinks": "N/A",
     },
@@ -94239,7 +94233,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Monitoring": "Entities on the construction list regularly report annual construction progress, changes in core indicators and performance information through the Industrial Energy Conservation and Green Development Management Platform; provincial industry and information technology authorities establish regular tracking mechanisms and strengthen guidance and supervision of listed entities; the Ministry of Industry and Information Technology conducts spot checks and verifications of construction entities from time to time; zero-carbon factories that have passed acceptance disclose the achievement of core indicators and the implementation of other energy conservation and carbon reduction measures annually on a continuous basis.",
         "Sanctions for non-compliance": "N/A (voluntary evaluation and designation label; no non-compliance sanctions. Those that still fail to pass acceptance inspection upon expiry of the construction period shall be removed from the national zero-carbon factory construction list in accordance with the procedures.)",
         "GHG emission coverage (absolute)": "N/A (voluntary labelling instrument; coverage depends on the scale and number of voluntarily applying and designated manufacturing enterprises and computing facilities, with no fixed quantifiable coverage amount)",
-        "Mitigation co-benefits": "Technological innovation; Industrial development; Energy efficiency improvement; Renewable energy development",
+        "Mitigation co-benefits": "Technological innovation; Industrial development; Energy conservation; Renewable energy development",
         "Legal statute": "Notice of the General Office of the Ministry of Industry and Information Technology on Organising the Construction of National Zero-Carbon Factories (MIIT Office Energy Conservation Letter [2026] No. 334); Guiding Opinions on the Construction of Zero-Carbon Factories (MIIT Joint Energy Conservation [2026] No. 13)",
     },
     "CHNVIIVLBI11S001": {
@@ -94263,7 +94257,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Monitoring": "Entities on the construction list regularly report annual construction progress, changes in core indicators and performance information through the Industrial Energy Conservation and Green Development Management Platform; provincial industry and information technology authorities establish regular tracking mechanisms and strengthen guidance and supervision of listed entities; the Ministry of Industry and Information Technology conducts spot checks and verifications of construction entities from time to time.",
         "Sanctions for non-compliance": "N/A (voluntary evaluation and designation label; no non-compliance sanctions. Those that still fail to pass acceptance inspection upon expiry of the construction period shall be removed from the national zero-carbon factory construction list in accordance with the procedures.)",
         "GHG emission coverage (absolute)": "N/A (voluntary labelling instrument; coverage depends on the scale and number of voluntarily applying and designated enterprises, with no fixed quantifiable coverage amount)",
-        "Mitigation co-benefits": "Technological innovation; Industrial development; Energy efficiency improvement",
+        "Mitigation co-benefits": "Technological innovation; Industrial development; Energy conservation",
         "Legal statute": "Notice of the General Office of the Ministry of Industry and Information Technology on Organising the Construction of National Zero-Carbon Factories (MIIT Office Energy Conservation Letter [2026] No. 334); Guiding Opinions on the Construction of Zero-Carbon Factories (MIIT Joint Energy Conservation [2026] No. 13)",
     },
     "CHNVIIVLBI11S002": {
@@ -94288,7 +94282,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Monitoring": "Entities on the construction list regularly report annual construction progress, changes in core indicators and performance information through the Industrial Energy Conservation and Green Development Management Platform; provincial industry and information technology authorities establish regular tracking mechanisms and strengthen guidance and supervision of listed entities; the Ministry of Industry and Information Technology conducts spot checks and verifications of construction entities from time to time.",
         "Sanctions for non-compliance": "N/A (voluntary evaluation and designation label; no non-compliance sanctions. Those that still fail to pass acceptance inspection upon expiry of the construction period shall be removed from the national zero-carbon factory construction list in accordance with the procedures.)",
         "GHG emission coverage (absolute)": "N/A (voluntary labelling instrument; coverage depends on the scale and number of voluntarily applying and designated computing facilities, with no fixed quantifiable coverage amount)",
-        "Mitigation co-benefits": "Technological innovation; Energy efficiency improvement; Renewable energy development",
+        "Mitigation co-benefits": "Technological innovation; Energy conservation; Renewable energy development",
         "Legal statute": "Notice of the General Office of the Ministry of Industry and Information Technology on Organising the Construction of National Zero-Carbon Factories (MIIT Office Energy Conservation Letter [2026] No. 334); Guiding Opinions on the Construction of Zero-Carbon Factories (MIIT Joint Energy Conservation [2026] No. 13)",
     },
 
@@ -94632,7 +94626,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Energy efficiency improvement; Energy security; Industrial development; Technological innovation; Pollution control"
+            "Energy conservation; Energy security; Industrial development; Technological innovation; Pollution control"
         ),
         "Legal statute": (
             "Notice of the National Development and Reform Commission and the "
@@ -94813,7 +94807,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Energy efficiency improvement; Industrial development; Technological innovation; Pollution control; Public health"
+            "Energy conservation; Industrial development; Technological innovation; Pollution control; Public health"
         ),
         "Legal statute": (
             "Notice of the National Development and Reform Commission and the "
@@ -94997,7 +94991,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Energy efficiency improvement; Pollution control; Public health; Industrial development"
+            "Energy conservation; Pollution control; Public health; Industrial development"
         ),
         "Legal statute": (
             "Notice of the General Office of the Ministry of Transport, the "
@@ -95440,7 +95434,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "no direct GHG emission coverage share)"
         ),
         "Mitigation co-benefits": (
-            "Industrial development; Technological innovation; Energy efficiency improvement; Pollution control; Resource conservation; Circular economy"
+            "Industrial development; Technological innovation; Energy conservation; Pollution control; Resource conservation; Circular economy"
         ),
         "Legal statute": (
             "Notice of the Ministry of Industry and Information Technology "
@@ -97195,7 +97189,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Energy efficiency improvement; Technological innovation; Pollution control"
+            "Energy conservation; Technological innovation; Pollution control"
         ),
         "Legal statute": (
             "Notice on Issuing the Methodology for Voluntary GHG "
@@ -99007,7 +99001,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; HFCs",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Energy efficiency improvement; Industrial development; Technological innovation"
+            "Energy conservation; Industrial development; Technological innovation"
         ),
         "Legal statute": (
             "Notice on Issuing the Methodology for Voluntary "
