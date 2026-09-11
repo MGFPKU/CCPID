@@ -2154,7 +2154,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Environment",
+        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -2775,7 +2775,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Environment",
+        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -3412,7 +3412,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Environment",
+        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -3961,7 +3961,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Environment",
+        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -4408,7 +4408,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Environment",
+        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -4900,7 +4900,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Environment",
+        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -5536,7 +5536,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Environment",
+        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -10333,7 +10333,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Demand-side",
+        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -21560,7 +21560,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "mechanism combining mandatory and voluntary consumption."
         ),
         "Objective": "Climate change mitigation",
-        "Functioning channel": "Supply-side; Demand-side",
+        "Functioning channel": "Supply-side",
         "Last revisions (Details)": (
             "The NDRC, NEA and other departments issued the Opinions on "
             "Promoting the High-Quality Development of the Renewable Energy "
