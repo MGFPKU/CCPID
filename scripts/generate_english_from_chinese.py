@@ -97085,7 +97085,8 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
             "Ecological protection; Biodiversity conservation; "
-            "Soil and water conservation; Resource conservation"
+            "Soil and water conservation; Resource conservation; "
+            "Adaptation"
         ),
         "Last revisions (Details)": (
             "N/A (revised draft issued for public consultation in "
