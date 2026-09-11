@@ -3285,7 +3285,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Pollution control; Biodiversity conservation; Ecological protection; Soil and water conservation; Adaptation"
+            "Pollution control; Biodiversity conservation; Ecological protection; Adaptation"
 
 
         ),
@@ -3850,7 +3850,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Pollution control; Biodiversity conservation; Soil and water conservation; Ecological protection; Adaptation"
+            "Pollution control; Biodiversity conservation; Ecological protection; Adaptation"
 
 
         ),
@@ -4300,7 +4300,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Biodiversity conservation; Soil and water conservation; Ecological protection; Adaptation"
+            "Biodiversity conservation; Ecological protection; Adaptation"
 
 
         ),
@@ -4774,7 +4774,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Biodiversity conservation; Soil and water conservation; Adaptation; Industrial development"
+            "Biodiversity conservation; Ecological protection; Adaptation; Industrial development"
 
 
         ),
@@ -5392,7 +5392,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Biodiversity conservation; Soil and water conservation; Ecological protection; Adaptation; Technological innovation"
+            "Biodiversity conservation; Ecological protection; Adaptation; Technological innovation"
 
 
         ),
@@ -6142,7 +6142,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Pollution control; Biodiversity conservation; Soil and water conservation; Ecological protection; Adaptation; Employment and poverty reduction"
+            "Pollution control; Biodiversity conservation; Ecological protection; Adaptation; Employment and poverty reduction"
 
 
         ),
@@ -15824,7 +15824,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Technological innovation; Soil and water conservation; Pollution control",
+        "Mitigation co-benefits": "Technological innovation; Ecological protection; Pollution control",
 
 
         "Mitigation effects": "positive",
@@ -17733,7 +17733,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "positive",
 
 
-        "Mitigation co-benefits": "Pollution control; Water resource conservation; Circular economy; Technological innovation",
+        "Mitigation co-benefits": "Pollution control; Resource conservation; Circular economy; Technological innovation",
 
 
         "Tax and Tax Incentive: annual revenue": "N/A",
@@ -17838,7 +17838,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "positive",
 
 
-        "Mitigation co-benefits": "Pollution control; Water resource conservation; Industrial development; Technological innovation",
+        "Mitigation co-benefits": "Pollution control; Resource conservation; Industrial development; Technological innovation",
 
 
         "Tax and Tax Incentive: annual revenue": "N/A",
@@ -26724,7 +26724,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Biodiversity conservation; Soil and water conservation; Desertification control; Ecological protection"
+            "Biodiversity conservation; Ecological protection; Desertification control"
 
 
         ),
@@ -79155,7 +79155,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Ecological protection; Biodiversity conservation; Soil and water conservation; Adaptation",
+        "Mitigation co-benefits": "Ecological protection; Biodiversity conservation; Adaptation",
 
 
         "Legal statute": "General Office of the CPC Central Committee and General Office of the State Council, Natural Forest Protection and Restoration System Plan",
@@ -79587,7 +79587,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Ecological protection; Biodiversity conservation; Soil and water conservation; Adaptation",
+        "Mitigation co-benefits": "Ecological protection; Biodiversity conservation; Adaptation",
 
 
         "Legal statute": "General Office of the State Council, Several Opinions on Strengthening Grassland Protection and Restoration (SC General Office Doc. [2021] No. 7)",
@@ -80031,7 +80031,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Ecological protection; Biodiversity conservation; Soil and water conservation; Adaptation",
+        "Mitigation co-benefits": "Ecological protection; Biodiversity conservation; Adaptation",
 
 
         "Legal statute": "General Office of the State Council, Notice on Printing and Issuing the Wetland Protection and Restoration System Plan (SC General Office Doc. [2016] No. 89)",
@@ -80808,7 +80808,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Ecological protection; Biodiversity conservation; Soil and water conservation; Pollution control; Adaptation"
+            "Ecological protection; Biodiversity conservation; Pollution control; Adaptation"
 
 
         ),
@@ -82464,7 +82464,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Pollution control; Water resource conservation; Resource conservation"
+            "Pollution control; Resource conservation"
 
 
         ),
@@ -94088,7 +94088,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Sanctions for non-compliance": "N/A (voluntary building evaluation label; no non-compliance sanctions. Where falsification of application materials is discovered or operations no longer meet the requirements, the competent authority shall revoke the label.)",
         "GHG emission coverage (absolute)": "N/A (this instrument is a voluntary building evaluation and labelling tool; the amount of GHG emissions covered depends on the total amount of green building space voluntarily submitted for evaluation and awarded labels, and there is no directly quantifiable fixed coverage amount)",
         "GHG emission coverage (% domestic emissions)": "N/A (this instrument is a voluntary tool; the share of GHG emissions covered depends on voluntary uptake)",
-        "Mitigation co-benefits": "Energy conservation; Water resource conservation; Pollution control; Ecological protection",
+        "Mitigation co-benefits": "Energy conservation; Resource conservation; Pollution control; Ecological protection",
         "Legal statute": "Notice of the Ministry of Housing and Urban-Rural Development on Issuing the Green Building Label Administrative Measures (Jian Biao Gui [2021] No. 1)",
         "Other weblinks": "N/A",
         "Last revisions (Details)": "In 2019, GB/T 50378-2019 Green Building Evaluation Standard was revised (the original standard was first issued in 2006 and revised in 2014 and 2019 respectively), restructuring the evaluation indicator system around five core performance categories — safety and durability, health and comfort, convenience of living, resource conservation and environmental liveability — and further strengthening the content on building carbon emission calculation and renewable energy utilisation. In 2021, the Ministry of Housing and Urban-Rural Development issued the Green Building Label Administrative Measures (Jian Biao Gui [2021] No. 1), further standardising label recognition and award management.",
@@ -96312,7 +96312,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Renewable energy development; Technological innovation; Ecological protection; Industrial development; Resource conservation; Pollution control; Energy security; Soil and water conservation; Biodiversity conservation; Adaptation"
+            "Renewable energy development; Technological innovation; Ecological protection; Industrial development; Resource conservation; Pollution control; Energy security; Biodiversity conservation; Adaptation"
         ),
         "Last revisions (Details)": (
             "On 13 June 2012, the National Development and Reform "
@@ -96511,9 +96511,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Ecological protection; Biodiversity conservation; "
-            "Soil and water conservation; Resource conservation; "
-            "Adaptation"
+            "Ecological protection; Biodiversity conservation; Resource conservation; Adaptation"
         ),
         "Last revisions (Details)": (
             "N/A (revised draft issued for public consultation in "
@@ -98428,7 +98426,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Ecological protection; Soil and water conservation; Pollution control; Industrial development; Adaptation"
+            "Ecological protection; Pollution control; Industrial development; Adaptation"
         ),
         "Legal statute": (
             "Notice on Issuing the Methodology for Voluntary "
