@@ -183,22 +183,6 @@ Source: `inputs/attribute definitions.xlsx`
 - Common mistakes:
   - Not specified in source workbook.
 
-## Functioning channel
-
-- Field name: Functioning channel
-- Attribute type: Policy description
-- Definition: "Supply-side" refers to policies directly affect the behaviors of producers; "Demand-side" refers to policies directly affect the behaviors of consumers; "Environment" refers to policies which establish the enabling conditions for supply- and demand-side measures to operate effectively.
-- Allowed values:
-  - Supply-side
-  - demand-side
-  - environment
-- Examples:
-  - Not specified in source workbook.
-- Notes:
-  - Entry type: Categorial
-- Common mistakes:
-  - Not specified in source workbook.
-
 ## Country
 
 - Field name: Country

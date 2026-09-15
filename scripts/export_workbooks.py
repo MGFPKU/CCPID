@@ -37,7 +37,7 @@ LANG_CONFIG = {
         "overview_sheet": "工具总览",
         "summary_sheet": "概览",
         "cover_sheet": "封面",
-        "approaches_headers": ["类别", "组别", "路径", "缩写", "定义", "排放部门", "减缓相关性", "作用渠道", "工具数量"],
+        "approaches_headers": ["类别", "组别", "路径", "缩写", "定义", "排放部门", "减缓相关性", "工具数量"],
         "sheets": {
             "economic_instruments": "经济工具",
             "regulatory_instruments": "规制工具",
@@ -64,7 +64,6 @@ LANG_CONFIG = {
             "Definition",
             "Emission sector",
             "Mitigation relevance",
-            "Functioning channel",
             "Number of instruments",
         ],
         "sheets": {
@@ -88,19 +87,18 @@ DATABAR_COLOR = "4D14936F"
 SUMMARY_DATABAR_RANGES = {
     "cn": [
         "C10:D25",
-        "I10:J14",
-        "I18:J24",
-        "I29:J31",
-        "I35:J36",
-        "I40:N46",
+        "H10:I14",
+        "H18:I24",
+        "H29:I30",
+        "H31:I31",
+        "H34:M40",
     ],
     "en": [
         "C10:D25",
         "I10:J14",
         "I18:J24",
-        "I29:J31",
-        "I35:J36",
-        "I40:N46",
+        "I31:J32",
+        "I36:N42",
     ],
 }
 
@@ -392,6 +390,294 @@ def _apply_status_formulas(ws, header_row: int, row_count: int) -> None:
         ws.cell(row=row_num, column=status_col_idx + 1).value = formula
 
 
+# Autofit row heights the user set on the overview data rows (keyed by ID so
+# row reorderings keep heights attached to the right instrument).
+OVERVIEW_ROW_HEIGHTS = {
+    'CHNTRAETSI01S000': 42.75,
+    'CHNTRARECI01S000': 42.75,
+    'CHNTRARECI02S000': 42.75,
+    'CHNTRARECI03S000': 42.75,
+    'CHNTRATPSI01S000': 42.75,
+    'CHNSUBTISI01S000': 42.75,
+    'CHNSUBTISI02S000': 42.75,
+    'CHNSUBTISI03S000': 42.75,
+    'CHNSUBCLGI01S000': 42.75,
+    'CHNSUBCLGI02S000': 42.75,
+    'CHNSUBCLGI03S000': 42.75,
+    'CHNSUBCLGI04S000': 42.75,
+    'CHNSUBMPSI01S000': 42.75,
+    'CHNSUBVPSI01S000': 42.75,
+    'CHNSUBVPSI02S000': 42.75,
+    'CHNSUBVPSI03S000': 42.75,
+    'CHNSUBVPSI04S000': 42.75,
+    'CHNSUBECDI01S000': 42.75,
+    'CHNSUBRTSI01S000': 42.75,
+    'CHNSUBCHSI01S000': 42.75,
+    'CHNSUBESPI01S000': 42.75,
+    'CHNSUBESPI02S000': 42.75,
+    'CHNSUBESPI03S000': 42.75,
+    'CHNSUBESPI04S000': 42.75,
+    'CHNSUBESPI05S000': 42.75,
+    'CHNTAXCITI01S000': 42.75,
+    'CHNTAXCITI02S000': 42.75,
+    'CHNTAXCITI03S000': 42.75,
+    'CHNTAXCITI04S000': 42.75,
+    'CHNTAXCITI05S000': 42.75,
+    'CHNTAXULTI01S000': 42.75,
+    'CHNTAXULTI02S000': 57.0,
+    'CHNTAXVATI02S000': 114.0,
+    'CHNTAXVATI03S000': 57.0,
+    'CHNTAXVATI04S000': 71.25,
+    'CHNTAXDVTI01S000': 57.0,
+    'CHNTAXPLEI01S000': 57.0,
+    'CHNTAXCTII01S000': 71.25,
+    'CHNTAXCTII02S000': 71.25,
+    'CHNTAXCTII03S000': 57.0,
+    'CHNTAXFETI01S000': 85.5,
+    'CHNTAXEPTI01S000': 114.0,
+    'CHNTAXVOTI01S000': 85.5,
+    'CHNTAXVPTI01S000': 85.5,
+    'CHNADPCPMI01S000': 57.0,
+    'CHNADPRITI01S000': 71.25,
+    'CHNADPIDPI01S000': 156.75,
+    'CHNTECBFHI01S000': 85.5,
+    'CHNTECBPPI01S000': 142.5,
+    'CHNTECFGAI01S000': 114.0,
+    'CHNTECODSI01S000': 156.75,
+    'CHNTECMEMI01S000': 114.0,
+    'CHNTECMEMI02S000': 114.0,
+    'CHNTECMEMI03S000': 114.0,
+    'CHNTECBQLI01S000': 71.25,
+    'CHNFRMITGI01S000': 57.0,
+    'CHNFRMCAPI01S000': 57.0,
+    'CHNFRMCAPI02S000': 57.0,
+    'CHNFRMCAPI03S000': 57.0,
+    'CHNFRMEEMI01S000': 71.25,
+    'CHNFRMEPMI01S000': 142.5,
+    'CHNFRMAPCI01S000': 57.0,
+    'CHNFRMRPDI01S000': 57.0,
+    'CHNFRMPDPI01S000': 142.5,
+    'CHNFRMEPRI01S000': 57.0,
+    'CHNFRMEPRI02S000': 57.0,
+    'CHNFRMEPRI03S000': 71.25,
+    'CHNFRMGFGI01S000': 85.5,
+    'CHNFRMPSMI01S000': 57.0,
+    'CHNFRMECOI01S000': 57.0,
+    'CHNFRMEEZI01S000': 57.0,
+    'CHNFRMECMI01S000': 57.0,
+    'CHNFRMECMI02S000': 57.0,
+    'CHNFRMECMI03S000': 57.0,
+    'CHNFRMTRSI01S000': 57.0,
+    'CHNFRMTRSI02S000': 57.0,
+    'CHNFRMTRSI03S000': 57.0,
+    'CHNFRMTRSI04S000': 71.25,
+    'CHNPRFMEAI01S000': 114.0,
+    'CHNPRFMEAI02S000': 114.0,
+    'CHNPRFMEAI03S000': 114.0,
+    'CHNPRFMEAI04S000': 114.0,
+    'CHNPRFMEAI05S000': 114.0,
+    'CHNPRFMEAI06S000': 114.0,
+    'CHNPRFMEAI07S000': 114.0,
+    'CHNPRFMEAI08S000': 114.0,
+    'CHNPRFMEAI09S000': 114.0,
+    'CHNPRFMEAI10S000': 114.0,
+    'CHNPRFMEAI11S000': 114.0,
+    'CHNPRFMEAI12S000': 114.0,
+    'CHNPRFMEAI13S000': 114.0,
+    'CHNPRFMEAI14S000': 114.0,
+    'CHNPRFMEAI15S000': 114.0,
+    'CHNPRFMEAI16S000': 114.0,
+    'CHNPRFMEAI17S000': 114.0,
+    'CHNPRFMEAI18S000': 114.0,
+    'CHNPRFMEAI19S000': 114.0,
+    'CHNPRFMEAI20S000': 114.0,
+    'CHNPRFMEAI21S000': 114.0,
+    'CHNPRFMEAI22S000': 114.0,
+    'CHNPRFMEAI23S000': 114.0,
+    'CHNPRFMEAI24S000': 114.0,
+    'CHNPRFMEAI25S000': 114.0,
+    'CHNPRFMEAI26S000': 114.0,
+    'CHNPRFMEAI27S000': 114.0,
+    'CHNPRFMEAI28S000': 114.0,
+    'CHNPRFMEAI29S000': 114.0,
+    'CHNPRFMEAI30S000': 114.0,
+    'CHNPRFMREI01S000': 142.5,
+    'CHNPRFMREI02S000': 142.5,
+    'CHNPRFEILI01S000': 409.5,
+    'CHNPRFEILI02S000': 85.5,
+    'CHNPRFEILI03S000': 85.5,
+    'CHNPRFEILI04S000': 85.5,
+    'CHNPRFEILI05S000': 85.5,
+    'CHNPRFEILI06S000': 85.5,
+    'CHNPRFEILI07S000': 85.5,
+    'CHNPRFEILI08S000': 85.5,
+    'CHNPRFEILI09S000': 85.5,
+    'CHNPRFEILI10S000': 85.5,
+    'CHNPRFEILI11S000': 85.5,
+    'CHNPRFEILI12S000': 85.5,
+    'CHNPRFEILI13S000': 85.5,
+    'CHNPRFEILI14S000': 85.5,
+    'CHNPRFEILI15S000': 85.5,
+    'CHNPRFEILI16S000': 85.5,
+    'CHNPRFEILI17S000': 85.5,
+    'CHNPRFEILI18S000': 85.5,
+    'CHNPRFEILI19S000': 85.5,
+    'CHNPRFEILI20S000': 85.5,
+    'CHNPRFEILI21S000': 85.5,
+    'CHNPRFEILI22S000': 85.5,
+    'CHNPRFEILI23S000': 85.5,
+    'CHNPRFEILI24S000': 85.5,
+    'CHNPRFEILI25S000': 85.5,
+    'CHNPRFEILI26S000': 85.5,
+    'CHNPRFEILI27S000': 99.75,
+    'CHNPRFEILI28S000': 85.5,
+    'CHNPRFEILI29S000': 99.75,
+    'CHNPRFEILI30S000': 85.5,
+    'CHNPRFEILI31S000': 85.5,
+    'CHNPRFEILI32S000': 85.5,
+    'CHNPRFEILI33S000': 85.5,
+    'CHNPRFEILI34S000': 85.5,
+    'CHNPRFEILI35S000': 85.5,
+    'CHNPRFEILI36S000': 85.5,
+    'CHNPRFEILI37S000': 85.5,
+    'CHNPRFEILI38S000': 85.5,
+    'CHNPRFEILI39S000': 85.5,
+    'CHNPRFEILI40S000': 85.5,
+    'CHNPRFEILI41S000': 85.5,
+    'CHNPRFEILI42S000': 85.5,
+    'CHNPRFEILI43S000': 85.5,
+    'CHNPRFEILI44S000': 85.5,
+    'CHNPRFEILI45S000': 85.5,
+    'CHNPRFEILI46S000': 85.5,
+    'CHNPRFEILI47S000': 85.5,
+    'CHNPRFEILI48S000': 85.5,
+    'CHNPRFEILI49S000': 85.5,
+    'CHNPRFEILI50S000': 85.5,
+    'CHNPRFEILI51S000': 85.5,
+    'CHNPRFEILI52S000': 85.5,
+    'CHNPRFEILI53S000': 85.5,
+    'CHNPRFEILI54S000': 85.5,
+    'CHNPRFEILI55S000': 85.5,
+    'CHNPRFEILI56S000': 85.5,
+    'CHNPRFEILI57S000': 85.5,
+    'CHNPRFEILI58S000': 85.5,
+    'CHNPRFEILI59S000': 85.5,
+    'CHNPRFEILI60S000': 85.5,
+    'CHNPRFEILI61S000': 85.5,
+    'CHNPRFEILI62S000': 85.5,
+    'CHNPRFEILI63S000': 85.5,
+    'CHNPRFEILI64S000': 85.5,
+    'CHNPRFEILI65S000': 85.5,
+    'CHNPRFEILI66S000': 85.5,
+    'CHNPRFEILI67S000': 85.5,
+    'CHNPRFEILI68S000': 85.5,
+    'CHNPRFEILI69S000': 85.5,
+    'CHNPRFMITI01S000': 142.5,
+    'CHNPRFMITI02S000': 142.5,
+    'CHNPRFMITI03S000': 142.5,
+    'CHNPRFMEBI01S000': 128.25,
+    'CHNPRFMEBI02S000': 99.75,
+    'CHNPRFMWHI01S000': 128.25,
+    'CHNPRFMWHI02S000': 128.25,
+    'CHNPRFMWHI03S000': 128.25,
+    'CHNPRFMWHI04S000': 128.25,
+    'CHNPRFMECI01S000': 114.0,
+    'CHNPRFMECI02S000': 114.0,
+    'CHNPRFMECI03S000': 114.0,
+    'CHNPRFMELI01S000': 114.0,
+    'CHNPRFMELI02S000': 114.0,
+    'CHNPRFMELI03S000': 114.0,
+    'CHNPRFMELI04S000': 114.0,
+    'CHNPRFMELI05S000': 114.0,
+    'CHNPRFMELI06S000': 114.0,
+    'CHNPRFMELI07S000': 114.0,
+    'CHNPRFMELI08S000': 114.0,
+    'CHNPRFFECI01S000': 57.0,
+    'CHNPRFFECI02S000': 57.0,
+    'CHNPRFFECI03S000': 57.0,
+    'CHNPRFFECI04S000': 57.0,
+    'CHNPRFFECI05S000': 57.0,
+    'CHNPRFMHSI01S000': 114.0,
+    'CHNPRFMCSI01S000': 114.0,
+    'CHNPRFMCSI02S000': 114.0,
+    'CHNPRFMCSI03S000': 114.0,
+    'CHNPRFMCSI04S000': 114.0,
+    'CHNPRFSPDI01S000': 57.0,
+    'CHNPPCGPPI01S000': 156.75,
+    'CHNPPCGPPI02S000': 185.25,
+    'CHNPPCGPPI03S000': 85.5,
+    'CHNPPCGPPI04S000': 185.25,
+    'CHNPPCGPPI05S000': 57.0,
+    'CHNPPCGPPI06S000': 71.25,
+    'CHNPIVCBII01S000': 114.0,
+    'CHNPIVCBII02S000': 384.75,
+    'CHNPIVCBII03S000': 99.75,
+    'CHNPIVCBII04S000': 114.0,
+    'CHNPIVCBII05S000': 242.25,
+    'CHNPIVGIFI01S000': 142.5,
+    'CHNPIVRDDI01S000': 114.0,
+    'CHNPIVRDDI02S000': 99.75,
+    'CHNPIVRDDI03S000': 142.5,
+    'CHNPIVRDDI04S000': 128.25,
+    'CHNPIVRDDI05S000': 71.25,
+    'CHNPIVRDDI06S000': 156.75,
+    'CHNPARSEAI01S000': 399.0,
+    'CHNPARECRI01S000': 85.5,
+    'CHNPARECAI01S000': 57.0,
+    'CHNPAREIAI01S000': 71.25,
+    'CHNPARCPAI01S000': 342.0,
+    'CHNREPSIDI01S000': 156.75,
+    'CHNREPSIDI02S000': 71.25,
+    'CHNREPGRVI01S000': 171.0,
+    'CHNREPGFEI01S000': 71.25,
+    'CHNREPGFSI01S000': 71.25,
+    'CHNREPGFSI02S000': 71.25,
+    'CHNREPESAI01S000': 142.5,
+    'CHNCELELPI01S000': 213.75,
+    'CHNCELELBI01S000': 85.5,
+    'CHNCELELVI01S000': 85.5,
+    'CHNCBAIGCI01S000': 99.75,
+    'CHNCBAPACI01S000': 99.75,
+    'CHNCBAPACI03S000': 99.75,
+    'CHNCBAPACI04S000': 99.75,
+    'CHNCBAPACI05S000': 99.75,
+    'CHNCBATGCI01S000': 99.75,
+    'CHNCBATGCI02S000': 409.5,
+    'CHNCBATGCI03S000': 99.75,
+    'CHNCBATGCI04S000': 99.75,
+    'CHNCBATGCI06S000': 370.5,
+    'CHNCBATPCI01S000': 99.75,
+    'CHNCBATPCI02S000': 99.75,
+    'CHNCBATPCI03S000': 99.75,
+    'CHNCBATPCI04S000': 99.75,
+    'CHNCBATPCI05S000': 99.75,
+    'CHNCBAESII01S000': 99.75,
+    'CHNCBAGSSI01S000': 99.75,
+    'CHNCBAPCEI01S000': 99.75,
+    'CHNCBACBPI01S000': 99.75,
+    'CHNCBACOCI01S000': 99.75,
+    'CHNVTSVCMI01S000': 199.5,
+    'CHNVIISFTI01S000': 85.5,
+    'CHNVIIVPGI01S000': 85.5,
+    'CHNVIIVCNI01S000': 85.5,
+    'CHNVIIVIDI01S000': 85.5,
+    'CHNVIIVIDI02S000': 85.5,
+    'CHNVIIVLBI01S000': 85.5,
+    'CHNVIIVLBI02S000': 85.5,
+    'CHNVIIVLBI03S000': 85.5,
+    'CHNVIIVLBI04S000': 85.5,
+    'CHNVIIVLBI05S000': 85.5,
+    'CHNVIIVLBI06S000': 85.5,
+    'CHNVIIVLBI07S000': 85.5,
+    'CHNVIIVLBI08S000': 85.5,
+    'CHNVIIVLBI09S000': 85.5,
+    'CHNVIIVLBI10S000': 85.5,
+    'CHNVTGVTGI01S000': 57.0,
+    'CHNVTGVTGI02S000': 85.5,
+    'CHNVIIVLBI11S000': 85.5,
+}
+
+
 def write_instruments_overview_sheet(wb, lang: str) -> None:
     """Populate the Instruments overview sheet with live cell references.
 
@@ -406,9 +692,9 @@ def write_instruments_overview_sheet(wb, lang: str) -> None:
 
     ov_ws = wb[sheet_name]
 
-    # Clear existing data rows (row 3+) while preserving headers
-    if ov_ws.max_row > 2:
-        ov_ws.delete_rows(3, ov_ws.max_row - 2)
+    # Clear existing data rows (row 2+) while preserving the header row
+    if ov_ws.max_row > 1:
+        ov_ws.delete_rows(2, ov_ws.max_row - 1)
 
     from openpyxl.utils import get_column_letter
 
@@ -418,17 +704,16 @@ def write_instruments_overview_sheet(wb, lang: str) -> None:
         2: get_column_letter(4),   # Approach
         3: get_column_letter(8),   # English instrument name
         4: get_column_letter(7),   # Domestic instrument name
-        5: get_column_letter(22),  # Status
-        6: get_column_letter(18),  # Start date
-        7: get_column_letter(19),  # End date
+        5: get_column_letter(21),  # Status
+        6: get_column_letter(17),  # Start date
+        7: get_column_letter(18),  # End date
         8: get_column_letter(12),  # Mitigation relevance
         10: get_column_letter(3),  # Group
         11: get_column_letter(5),  # Emission sector
         12: get_column_letter(6),  # Sub-sector
-        13: get_column_letter(13), # Functioning channel
     }
 
-    row_idx = 3
+    row_idx = 2
     total = 0
     for sheet_label in config["sheets"].values():
         if sheet_label not in wb.sheetnames:
@@ -451,6 +736,7 @@ def write_instruments_overview_sheet(wb, lang: str) -> None:
 
             # Category (col 9) is static — the sheet name itself
             ov_ws.cell(row=row_idx, column=9, value=sheet_label)
+            ov_ws.row_dimensions[row_idx].height = OVERVIEW_ROW_HEIGHTS.get(pid)
             row_idx += 1
             total += 1
 
@@ -461,8 +747,8 @@ def write_instruments_overview_sheet(wb, lang: str) -> None:
         wb._sheets.insert(target_idx, wb._sheets.pop(current_idx))
 
     # Apply alignment for data rows
-    for r in range(3, ov_ws.max_row + 1):
-        for c in range(1, 14):
+    for r in range(2, ov_ws.max_row + 1):
+        for c in range(1, 13):
             ov_ws.cell(row=r, column=c).alignment = Alignment(wrap_text=True, vertical="top")
 
 
@@ -487,18 +773,20 @@ SUMMARY_LAYOUT = {
             (18, "能源"), (19, "工业"), (20, "建筑"), (21, "交通"),
             (22, "农业、林业和其他土地利用"), (23, "废弃物"), (24, "跨部门"),
         ],
-        "channels": [(29, "供给侧"), (30, "需求侧"), (31, "环境")],
-        "mitigations": [(35, "直接"), (36, "间接")],
+        "mitigations": [(29, "直接"), (30, "间接")],
         "approaches_label": "路径数量",
         "instruments_label": "工具数量",
         "cross_sectors": [
-            (40, "能源"), (41, "工业"), (42, "建筑"), (43, "交通"),
-            (44, "农业、林业和其他土地利用"), (45, "废弃物"), (46, "跨部门"),
+            (34, "能源"), (35, "工业"), (36, "建筑"), (37, "交通"),
+            (38, "农业、林业和其他土地利用"), (39, "废弃物"), (40, "跨部门"),
         ],
         "cross_cats": [
-            ("I", "经济工具"), ("J", "规制工具"), ("K", "政府投资与消费"),
-            ("L", "信息工具"), ("M", "自愿措施"),
+            ("H", "经济工具"), ("I", "规制工具"), ("J", "政府投资与消费"),
+            ("K", "信息工具"), ("L", "自愿措施"),
         ],
+        "data_cols": ("H", "I"),
+        "cross_sum_col": "M",
+        "width_groups": [("C", "D"), ("H", "I", "J", "K", "L", "M")],
     },
     "en": {
         "groups": [
@@ -521,19 +809,21 @@ SUMMARY_LAYOUT = {
             (18, "Energy"), (19, "Industry"), (20, "Buildings"), (21, "Transport"),
             (22, "AFOLU"), (23, "Waste"), (24, "Cross-sectoral"),
         ],
-        "channels": [(29, "Supply-side"), (30, "Demand-side"), (31, "Environment")],
-        "mitigations": [(35, "Direct"), (36, "Indirect")],
+        "mitigations": [(31, "Direct"), (32, "Indirect")],
         "approaches_label": "Number of Approaches",
         "instruments_label": "Number of Instruments",
         "cross_sectors": [
-            (40, "Energy"), (41, "Industry"), (42, "Buildings"), (43, "Transport"),
-            (44, "AFOLU"), (45, "Waste"), (46, "Cross-sectoral"),
+            (36, "Energy"), (37, "Industry"), (38, "Buildings"), (39, "Transport"),
+            (40, "AFOLU"), (41, "Waste"), (42, "Cross-sectoral"),
         ],
         "cross_cats": [
             ("I", "Economic"), ("J", "Regulatory"),
             ("K", "Government investment and consumption"), ("L", "Information"),
             ("M", "Voluntary"),
         ],
+        "data_cols": ("I", "J"),
+        "cross_sum_col": "N",
+        "width_groups": [("C", "D"), ("I", "J", "K", "L", "M", "N")],
     },
 }
 
@@ -554,16 +844,19 @@ def write_summary_sheet(wb, lang: str) -> None:
     cats = layout["cats"]
     ov_cats = layout["ov_cats"]
     sectors = layout["sectors"]
-    channels = layout["channels"]
     mitigations = layout["mitigations"]
     approaches_label = layout["approaches_label"]
     instruments_label = layout["instruments_label"]
     cross_sectors = layout["cross_sectors"]
     cross_cats = layout["cross_cats"]
+    app_col, ov_col = layout["data_cols"]
+    cross_sum_col = layout["cross_sum_col"]
+    cross_first_col = cross_cats[0][0]
+    cross_last_col = cross_cats[-1][0]
 
     # ── Top stats (COUNTA on full columns minus header rows) ──
     ws["B4"] = f"=COUNTA({app}!C:C)-1"
-    ws["B5"] = f"=COUNTA({ov}!A:A)-2"
+    ws["B5"] = f"=COUNTA({ov}!A:A)-1"
 
     # ── Left side: Category/Group breakdown ──
     for row, group in groups:
@@ -572,44 +865,37 @@ def write_summary_sheet(wb, lang: str) -> None:
 
     # ── Right side: Category totals ──
     for row, cat in cats:
-        _set(ws, f"I{row}", f'=COUNTIF({app}!A:A, "{cat}")')
+        _set(ws, f"{app_col}{row}", f'=COUNTIF({app}!A:A, "{cat}")')
     for row, cat in ov_cats:
-        _set(ws, f"J{row}", f'=COUNTIF({ov}!I:I, "{cat}")')
+        _set(ws, f"{ov_col}{row}", f'=COUNTIF({ov}!I:I, "{cat}")')
 
     # ── Right side: Emission sectors ──
     sector_header = min(row for row, _ in sectors) - 1
-    _set(ws, f"I{sector_header}", approaches_label)
-    _set(ws, f"J{sector_header}", instruments_label)
+    _set(ws, f"{app_col}{sector_header}", approaches_label)
+    _set(ws, f"{ov_col}{sector_header}", instruments_label)
     for row, sector in sectors:
-        _set(ws, f"I{row}", f'=SUMPRODUCT((ISNUMBER(SEARCH("{sector}",{app}!F:F)))*1)')
-        _set(ws, f"J{row}", f'=COUNTIF({ov}!K:K, "*{sector}*")')
-
-    # ── Right side: Functioning channel ──
-    channel_header = min(row for row, _ in channels) - 1
-    _set(ws, f"J{channel_header}", instruments_label)
-    for row, ch in channels:
-        _set(ws, f"I{row}", f'=SUMPRODUCT((ISNUMBER(SEARCH("{ch}",{app}!H:H)))*1)')
-        _set(ws, f"J{row}", f'=COUNTIF({ov}!M:M, "*{ch}*")')
+        _set(ws, f"{app_col}{row}", f'=SUMPRODUCT((ISNUMBER(SEARCH("{sector}",{app}!F:F)))*1)')
+        _set(ws, f"{ov_col}{row}", f'=COUNTIF({ov}!K:K, "*{sector}*")')
 
     # ── Right side: Mitigation relevance ──
     mit_header = min(row for row, _ in mitigations) - 1
-    _set(ws, f"I{mit_header}", approaches_label)
-    _set(ws, f"J{mit_header}", instruments_label)
+    _set(ws, f"{app_col}{mit_header}", approaches_label)
+    _set(ws, f"{ov_col}{mit_header}", instruments_label)
     for row, rel in mitigations:
-        _set(ws, f"I{row}", f'=SUMPRODUCT((ISNUMBER(SEARCH("{rel}",{app}!G:G)))*1)')
-        _set(ws, f"J{row}", f'=COUNTIF({ov}!H:H, "{rel}")')
+        _set(ws, f"{app_col}{row}", f'=SUMPRODUCT((ISNUMBER(SEARCH("{rel}",{app}!G:G)))*1)')
+        _set(ws, f"{ov_col}{row}", f'=COUNTIF({ov}!H:H, "{rel}")')
 
     # ── Cross-tabulation: Emission Sector x Category (approaches) ──
     for row, sector in cross_sectors:
         for col_letter, cat_name in cross_cats:
             formula = f'=COUNTIFS({app}!F:F, "*{sector}*", {app}!A:A, "{cat_name}")'
             _set(ws, f"{col_letter}{row}", formula)
-        _set(ws, f"N{row}", f"=SUM(I{row}:M{row})")
+        _set(ws, f"{cross_sum_col}{row}", f"=SUM({cross_first_col}{row}:{cross_last_col}{row})")
 
     # ── Uniform data-column widths within each table (mirrors the webpage module) ──
-    # Left table: C/D. Right tables and cross-tab share I..N, so one group keeps
-    # every table uniform; each group takes its widest current column.
-    for group in (("C", "D"), ("I", "J", "K", "L", "M", "N")):
+    # Left table: C/D. Right tables and cross-tab share the data columns, so one
+    # group keeps every table uniform; each group takes its widest current column.
+    for group in layout["width_groups"]:
         defined = [
             ws.column_dimensions[col].width
             for col in group
@@ -639,6 +925,102 @@ def _set(ws, cell: str, value: str) -> None:
     c = ws[cell]
     if c.value is None or (isinstance(c.value, str) and c.value.strip() == ""):
         c.value = value
+
+
+# Autofit row heights the user set on the Approaches data rows (row 2..N;
+# None keeps the default height). CN and EN sort identically, so the position
+# list applies to both languages.
+APPROACHES_DATA_ROW_HEIGHTS = [
+    85.5,
+    99.75,
+    99.75,
+    42.75,
+    42.75,
+    28.5,
+    71.25,
+    57.0,
+    57.0,
+    57.0,
+    71.25,
+    71.25,
+    42.75,
+    None,
+    85.5,
+    57.0,
+    85.5,
+    71.25,
+    71.25,
+    71.25,
+    57.0,
+    71.25,
+    57.0,
+    71.25,
+    28.5,
+    42.75,
+    28.5,
+    71.25,
+    71.25,
+    85.5,
+    57.0,
+    28.5,
+    28.5,
+    28.5,
+    28.5,
+    28.5,
+    28.5,
+    28.5,
+    28.5,
+    28.5,
+    42.75,
+    42.75,
+    99.75,
+    85.5,
+    99.75,
+    128.25,
+    85.5,
+    99.75,
+    114.0,
+    128.25,
+    114.0,
+    142.5,
+    99.75,
+    99.75,
+    85.5,
+    85.5,
+    71.25,
+    71.25,
+    57.0,
+    99.75,
+    85.5,
+    71.25,
+    57.0,
+    71.25,
+    85.5,
+    28.5,
+    28.5,
+    28.5,
+    99.75,
+    185.25,
+    171.0,
+    128.25,
+    114.0,
+    156.75,
+    128.25,
+    128.25,
+    156.75,
+    142.5,
+    128.25,
+    99.75,
+    128.25,
+    128.25,
+    142.5,
+    142.5,
+    114.0,
+    156.75,
+    114.0,
+    128.25,
+    114.0,
+]
 
 
 def write_approaches_sheet(wb, lang: str, csv_data: list[tuple[list[str], list[dict[str, str]]]]) -> None:
@@ -683,10 +1065,9 @@ def write_approaches_sheet(wb, lang: str, csv_data: list[tuple[list[str], list[d
             if lang == "en" and key in cn_to_en:
                 approach = cn_to_en[key]
                 key = normalise_key(approach)
-            summary = summaries.setdefault(key, {"approach": approach, "sectors": [], "relevance": [], "channels": [], "ids": []})
+            summary = summaries.setdefault(key, {"approach": approach, "sectors": [], "relevance": [], "ids": []})
             append_unique(summary["sectors"], get_field(row, csv_headers, "Emission sector", "排放部门"))
             append_unique(summary["relevance"], get_field(row, csv_headers, "Mitigation relevance", "减缓相关性"))
-            append_unique(summary["channels"], get_field(row, csv_headers, "Functioning channel", "作用渠道"))
             append_unique(summary["ids"], get_field(row, csv_headers, "Policy Instrument ID", "政策工具ID"))
 
     def approach_sort_key(key: str) -> tuple[int, str]:
@@ -711,7 +1092,6 @@ def write_approaches_sheet(wb, lang: str, csv_data: list[tuple[list[str], list[d
                     classification.get("定义", ""),
                     "；".join(summary["sectors"]),
                     "；".join(summary["relevance"]),
-                    "；".join(summary["channels"]),
                     len(summary["ids"]),
                 ]
             )
@@ -725,19 +1105,22 @@ def write_approaches_sheet(wb, lang: str, csv_data: list[tuple[list[str], list[d
                     classification.get("Definition", ""),
                     "; ".join(summary["sectors"]),
                     "; ".join(summary["relevance"]),
-                    "; ".join(summary["channels"]),
                     len(summary["ids"]),
                 ]
             )
+        data_row = ws.max_row
+        if data_row - 2 < len(APPROACHES_DATA_ROW_HEIGHTS):
+            ws.row_dimensions[data_row].height = APPROACHES_DATA_ROW_HEIGHTS[data_row - 2]
 
-    header_fill = PatternFill("solid", fgColor="FFE2EFDA")
+    header_fill = PatternFill("solid", fgColor="FF0E5C46")
     for cell in ws[1]:
-        cell.font = Font(bold=True)
+        cell.font = Font(bold=True, color="FFFFFFFF", sz=12)
         cell.fill = header_fill
-    for row in ws.iter_rows():
+        cell.alignment = Alignment(horizontal="center", vertical="center")
+    for row in ws.iter_rows(min_row=2):
         for cell in row:
             cell.alignment = Alignment(wrap_text=True, vertical="top")
-    for index, width in enumerate([18, 22, 36, 14, 100, 28, 20, 22, 24], start=1):
+    for index, width in enumerate([18, 22, 36, 14, 100, 28, 20, 24], start=1):
         ws.column_dimensions[get_column_letter(index)].width = width
     ws.freeze_panes = "A2"
 
@@ -1071,6 +1454,11 @@ def write_ended_sheet(wb: Workbook, lang: str, outputs_dir: Path) -> None:
         for cell in row:
             if cell.font.bold:
                 cell.font = cell.font.copy(bold=False)
+
+    if lang == "en":
+        for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=4, max_col=5):
+            for cell in row:
+                cell.alignment = cell.alignment.copy(horizontal="left")
 
 
 def update_cover_date(wb: Workbook, lang: str) -> None:

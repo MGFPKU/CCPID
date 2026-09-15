@@ -214,9 +214,6 @@ COMMON = {
     "Mitigation relevance": "Direct",
 
 
-    "Functioning channel": "Supply-side",
-
-
     "Country": "CHN",
 
 
@@ -557,18 +554,6 @@ _STRUCTURAL_TRANSLATIONS: dict[str, tuple[str, dict[str, str]]] = {
 
 
         {"直接": "Direct", "间接": "Indirect", "不适用": "N/A"},
-
-
-    ),
-
-
-    "作用渠道": (
-
-
-        "Functioning channel",
-
-
-        {"供给侧": "Supply-side", "需求侧": "demand-side", "环境": "environment"},
 
 
     ),
@@ -1181,7 +1166,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal document": "https://www.gov.cn/zhengce/content/202402/content_6930137.htm",
 
 
-        "Functioning channel": "Supply-side",
         "Intensity (Value)": "69.30",
         "Intensity (Unit)": "CNY/tonne",
         "Trading System: Type": (
@@ -1405,7 +1389,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal document": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/t20241021_1089750.html",
 
 
-        "Functioning channel": "Supply-side",
         "Intensity (Value)": "69.30",
         "Intensity (Unit)": "CNY/tonne",
         "Trading System: Type": "Carbon emission allowance trading system",
@@ -1614,7 +1597,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal document": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202503/t20250326_1104736.html",
 
 
-        "Functioning channel": "Supply-side",
         "Intensity (Value)": "69.30",
         "Intensity (Unit)": "CNY/tonne",
         "Trading System: Type": "Carbon emission allowance trading system",
@@ -1808,7 +1790,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal document": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202503/t20250326_1104736.html",
 
 
-        "Functioning channel": "Supply-side",
         "Intensity (Value)": "69.30",
         "Intensity (Unit)": "CNY/tonne",
         "Trading System: Type": "Carbon emission allowance trading system",
@@ -2014,7 +1995,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal document": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202503/t20250326_1104736.html",
 
 
-        "Functioning channel": "Supply-side",
         "Intensity (Value)": "69.30",
         "Intensity (Unit)": "CNY/tonne",
         "Trading System: Type": "Carbon emission allowance trading system",
@@ -2154,7 +2134,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -2775,7 +2754,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -3412,7 +3390,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -3961,7 +3938,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -4279,7 +4255,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Economic sector": "A01",
 
 
-        "GHGs affected": "CO2; CH4",
+        "GHGs affected": "CO2; CH4; N2O",
 
 
         "Mitigation effects": "Positive",
@@ -4408,7 +4384,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -4750,7 +4725,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Economic sector": "A01",
 
 
-        "GHGs affected": "CO2; CH4",
+        "GHGs affected": "CO2; CH4; N2O",
 
 
         "Mitigation effects": "Positive",
@@ -4900,7 +4875,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -5365,7 +5339,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Economic sector": "A01",
 
 
-        "GHGs affected": "CO2; CH4",
+        "GHGs affected": "CO2; CH4; N2O",
 
 
         "Mitigation effects": "Positive",
@@ -5536,7 +5510,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -6262,7 +6235,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -6808,7 +6780,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "demand-side",
 
 
         "Country": "CHN",
@@ -7399,7 +7370,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -7804,7 +7774,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "demand-side",
 
 
         "Country": "CHN",
@@ -8191,7 +8160,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "demand-side",
 
 
         "Country": "CHN",
@@ -8548,7 +8516,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -8950,7 +8917,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Demand-side",
 
 
         "Country": "CHN",
@@ -9628,7 +9594,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -10333,7 +10298,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "demand-side",
 
 
         "Country": "CHN",
@@ -11014,7 +10978,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -11657,7 +11620,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -12326,7 +12288,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -13061,7 +13022,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Demand-side",
 
 
         "Country": "CHN",
@@ -13613,7 +13573,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -16196,7 +16155,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "MLF green collateral eligibility expansion",
 
 
-        "Functioning channel": "environment",
 
 
         "GHG emission coverage (% domestic emissions)": "N/A",
@@ -16358,7 +16316,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Carbon emission reduction support tool",
 
 
-        "Functioning channel": "environment",
 
 
         "GHG emission coverage (% domestic emissions)": "N/A",
@@ -16520,7 +16477,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Fiscal interest subsidy for equipment renewal loans",
 
 
-        "Functioning channel": "environment",
 
 
         "GHG emission coverage (% domestic emissions)": "N/A",
@@ -16952,7 +16908,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "China Clean Development Mechanism Fund",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "GHG emission coverage (% domestic emissions)": "N/A",
@@ -17277,7 +17232,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "New energy sustainable price settlement mechanism",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "GHG emission coverage (% domestic emissions)": "N/A",
@@ -17439,7 +17393,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "New energy vehicle purchase tax exemption and reduction policy",
 
 
-        "Functioning channel": "demand-side",
 
 
         "GHG emission coverage (% domestic emissions)": "N/A",
@@ -18120,7 +18073,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -18429,7 +18381,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -18753,7 +18704,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -19032,7 +18982,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -19314,7 +19263,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -19635,7 +19583,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -21560,7 +21507,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "mechanism combining mandatory and voluntary consumption."
         ),
         "Objective": "Climate change mitigation",
-        "Functioning channel": "Supply-side",
         "Last revisions (Details)": (
             "The NDRC, NEA and other departments issued the Opinions on "
             "Promoting the High-Quality Development of the Renewable Energy "
@@ -21975,7 +21921,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Functioning channel": "Demand-side",
         "Intensity (Value)": (
             "Provincial-level annual minimum and incentive renewable electricity consumption responsibility"
             "weights; the consumption amount of each obligated entity is calculated as its annual electricity"
@@ -22266,7 +22211,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Pollution control; Technological innovation",
 
 
-        "Functioning channel": "Demand-side",
         "Intensity (Value)": (
             "Annual minimum renewable energy consumption proportion targets for key energy-using industries;"
             "specific minimum proportion values are determined by relevant departments by industry"
@@ -22333,7 +22277,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "purchase, credit pooling and other methods."
         ),
         "Objective": "Energy efficiency; Industrial development",
-        "Functioning channel": "Supply-side",
         "Last revisions (Details)": (
             "On 7 November 2025, the Ministry of Industry and Information Technology"
             "issued a notice on 2026-2027 credit management matters, stipulating NEV"
@@ -22458,7 +22401,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "NEV positive credits and other means in accordance with the measures."
         ),
         "Objective": "Energy efficiency",
-        "Functioning channel": "Supply-side",
         "Last revisions (Details)": (
             "On 7 November 2025, the Ministry of Industry and Information Technology"
             "issued a notice on 2026-2027 credit management matters, further adjusting"
@@ -22570,7 +22512,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "volume."
         ),
         "Objective": "Industrial development; Energy efficiency",
-        "Functioning channel": "Supply-side",
         "Last revisions (Details)": (
             "On 7 November 2025, the Ministry of Industry and Information Technology"
             "issued a notice on 2026-2027 credit management matters, setting NEV credit"
@@ -24117,7 +24058,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Demand-side",
 
 
         "Country": "CHN",
@@ -24469,7 +24409,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -25117,7 +25056,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -25642,7 +25580,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -26251,7 +26188,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -26806,7 +26742,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -27202,7 +27137,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -27610,7 +27544,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -28009,7 +27942,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -28462,7 +28394,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -28948,7 +28879,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "environment",
 
 
         "Country": "CHN",
@@ -29401,7 +29331,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "environment",
 
 
         "Country": "CHN",
@@ -29752,7 +29681,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "environment",
 
 
         "Country": "CHN",
@@ -30067,7 +29995,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "environment",
 
 
         "Country": "CHN",
@@ -30436,7 +30363,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Functioning channel": "environment",
 
 
         "Country": "CHN",
@@ -62460,7 +62386,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -62790,7 +62715,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -63138,7 +63062,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -63504,7 +63427,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -63819,7 +63741,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -64143,7 +64064,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -64467,7 +64387,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -64806,7 +64725,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -65139,7 +65057,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -65484,7 +65401,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -65835,7 +65751,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -66176,7 +66091,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -66484,7 +66398,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -66808,7 +66721,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -67159,7 +67071,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -67501,7 +67412,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Functioning channel": "Supply-side",
 
 
         "Country": "CHN",
@@ -74135,7 +74045,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "GHGs affected": "Methane (CH4); Nitrous oxide (N2O)",
+        "GHGs affected": "CH4; N2O",
 
 
         "Emission sector": "AFOLU",
@@ -82816,7 +82726,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "GHGs affected": "CO2; HFCs",
+        "GHGs affected": "CO2",
 
 
         "Mitigation effects": "Positive",
@@ -84640,7 +84550,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "GHGs affected": "CO2; HFCs",
+        "GHGs affected": "CO2",
 
 
         "Mitigation effects": "Positive",
@@ -85291,7 +85201,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "GHGs affected": "CO2; CH4; N2O",
+        "GHGs affected": "CO2",
 
 
         "Mitigation effects": "Positive",
@@ -94882,7 +94792,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
     "CHNREPSIDI02S000": {
         "Emission sector": "Cross-sectoral",
-        "Functioning channel": "Supply-side",
         "English instrument name": "Sustainability Reporting Guidelines for Listed Companies",
         "Description": (
             "The Sustainability Reporting Guidelines for Listed Companies are "
@@ -95721,7 +95630,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "domestic emission coverage share)"
         ),
         "Economic sector": "A01; A02; B05; B06; D35; F41",
-        "GHGs affected": "CO2; CH4",
+        "GHGs affected": "CO2; CH4; SF6; HFCs",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
             "Renewable energy development; Technological innovation; Ecological protection; Industrial development; Resource conservation; Pollution control; Energy security; Biodiversity conservation; Adaptation"
@@ -99039,70 +98948,6 @@ def load_cn_to_en_headers() -> dict[str, str]:
 
 
 
-
-
-    # Align CN headers to EN headers when EN has extra columns.
-
-
-    # The CN Information instruments template is missing two detail columns
-
-
-    # that exist in the EN schema (Compliance monitoring details and
-
-
-    # Compliance enforcement details), which breaks positional zip for
-
-
-    # every column from index 45 onward.
-
-
-    if len(cn_headers) < len(english):
-
-
-        aligned = list(cn_headers)
-
-
-        for i, en_col in enumerate(english):
-
-
-            if i >= len(aligned):
-
-
-                aligned.append(f"__placeholder_{i}__")
-
-
-            elif en_col in (
-
-
-                "Compliance monitoring details",
-
-
-                "Compliance enforcement details",
-
-
-            ):
-
-
-                aligned.insert(i, f"__placeholder_{i}__")
-
-
-        # Second pass: insert placeholders for the 2nd and 3rd parts of
-        # the split capacity-building field (EN columns 50 and 51).
-        cap_parts = (
-            " training/education",
-            " information campaigns and award schemes",
-        )
-        for i, en_col in enumerate(english):
-            if en_col in cap_parts:
-                aligned.insert(i, f"__placeholder_cap_{i}__")
-
-
-        cn_headers = aligned
-
-
-
-
-
     return dict(zip(cn_headers, english))
 
 
@@ -99203,9 +99048,6 @@ LANGUAGE_NEUTRAL_FIELDS = {
 
 
     "Mitigation relevance",
-
-
-    "Functioning channel",
 
 
     "GHGs affected",

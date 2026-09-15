@@ -28,7 +28,7 @@ VALID_EMISSION_SECTORS_CN = {
 CN_ONLY_FIELDS = [
     "强度（单位）", "目标", "排放部门", "描述",
     "本国工具名称", "工具/子方案", "组别", "路径",
-    "国家", "管辖层级", "状态", "减缓相关性", "作用渠道",
+    "国家", "管辖层级", "状态", "减缓相关性",
     "减缓效果", "受规制资产（状态）",
 ]
 
@@ -47,7 +47,6 @@ CN_ENGLISH_ENUM_VALUES: dict[str, dict[str, str]] = {
         "ended": "已终止", "non-existent": "不存在",
     },
     "减缓相关性": {"Direct": "直接", "Indirect": "间接"},
-    "作用渠道": {"Supply-side": "供给侧", "demand-side": "需求侧", "environment": "环境"},
     "工具/子方案": {"Instrument": "工具", "Subscheme": "子方案"},
     "减缓效果": {"positive": "正向", "negative": "负向", "neutral": "中性", "unknown": "未知"},
     "受规制资产（状态）": {"New": "新建", "existing": "既有"},

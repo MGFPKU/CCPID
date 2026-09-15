@@ -83,7 +83,6 @@ templates:
       - Description
       - Objective
       - Mitigation relevance
-      - Functioning channel
       - Country
       - Jurisdiction level
       - Jurisdiction name
@@ -152,7 +151,6 @@ templates:
       - Description
       - Objective
       - Mitigation relevance
-      - Functioning channel
       - Country
       - Jurisdiction level
       - Jurisdiction name
@@ -208,7 +206,6 @@ templates:
       - Description
       - Objective
       - Mitigation relevance
-      - Functioning channel
       - Country
       - Jurisdiction level
       - Jurisdiction name
@@ -266,7 +263,6 @@ templates:
       - Description
       - Objective
       - Mitigation relevance
-      - Functioning channel
       - Country
       - Jurisdiction level
       - Jurisdiction name
@@ -299,9 +295,7 @@ templates:
       - Public availability of information
       - "For labels: Type"
       - Compliance monitoring
-      - Compliance monitoring details
       - Compliance enforcement
-      - Compliance enforcement details
       - Compliance promotion
       - Details on capacity building, training/education, information campaigns and award schemes
       - GHG emission coverage (absolute)
@@ -328,7 +322,6 @@ templates:
       - Description
       - Objective
       - Mitigation relevance
-      - Functioning channel
       - Country
       - Jurisdiction level
       - Jurisdiction name
@@ -913,10 +906,6 @@ allowed_values:
   Mitigation relevance:
     - Direct
     - Indirect
-  Functioning channel:
-    - Supply-side
-    - demand-side
-    - environment
   Jurisdiction level:
     - supranational
     - national
@@ -1161,7 +1150,6 @@ fields:
   Description: {type: long_text, required: false}
   Objective: {type: multi_enum, required: false, allowed_values_ref: Objective}
   Mitigation relevance: {type: enum, required: false, allowed_values_ref: "Mitigation relevance"}
-  Functioning channel: {type: enum, required: false, allowed_values_ref: "Functioning channel"}
   Country: {type: string, required: true}
   Jurisdiction level: {type: enum, required: true, allowed_values_ref: "Jurisdiction level"}
   Jurisdiction name: {type: string, required: conditional}
