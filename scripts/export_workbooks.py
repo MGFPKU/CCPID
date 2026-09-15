@@ -1237,9 +1237,10 @@ def normalise_workbook_fonts(wb: Workbook, font_name: str) -> None:
                 if isinstance(cell, MergedCell):
                     continue
                 font = cell.font
+                is_cover_title = ws.title in ("Cover", "封面") and cell.row == 1
                 cell.font = Font(
                     name=font_name,
-                    sz=font.sz,
+                    sz=font.sz if is_cover_title else 12,
                     bold=font.bold,
                     italic=font.italic,
                     vertAlign=font.vertAlign,
@@ -1266,7 +1267,7 @@ def normalise_workbook_fonts(wb: Workbook, font_name: str) -> None:
     # Default cell style font (fontId 0) — governs cells without an explicit style
     if wb._fonts and wb._fonts[0] is not None:
         default = wb._fonts[0]
-        wb._fonts[0] = Font(name=font_name, sz=default.sz or 11)
+        wb._fonts[0] = Font(name=font_name, sz=12)
 
     # Theme minor font: CJK text in theme-dependent cells falls back to the
     # Hans script typeface, so fix it for the Chinese workbook
