@@ -149,18 +149,23 @@ Source: `inputs/attribute definitions.xlsx`
 - Attribute type: Policy description
 - Definition: Indicates the instruments policy objective(s) as explicitly stated in the legislation
 - Allowed values:
-  - Air pollution
-  - Waste reduction
-  - circular economy
   - Climate change mitigation
-  - Climate change adaptation
-  - Economic growth
+  - Non-fossil energy
   - Energy efficiency
+  - Green economy
+  - Technological innovation
   - Energy security
-  - Social security
-  - poverty reduction
-  - Not specified
-  - etc.
+  - Pollution control
+  - Ecological protection
+  - Circular economy
+  - Adaptation
+  - Green finance
+  - Electrification
+  - Industrial development
+  - Green consumption
+  - Information disclosure
+  - Public awareness
+  - Ozone layer protection
 - Examples:
   - Not specified in source workbook.
 - Notes:

@@ -890,19 +890,23 @@ allowed_values:
     - waste
     - Cross-sectoral
   Objective:
-    - Air pollution
-    - Waste reduction
-    - Circular economy
-    - Green economy
     - Climate change mitigation
-    - Climate change adaptation
-    - Economic growth
+    - Non-fossil energy
     - Energy efficiency
+    - Green economy
+    - Technological innovation
     - Energy security
-    - Social security
-    - Poverty reduction
-    - Not specified
-    - Other
+    - Pollution control
+    - Ecological protection
+    - Circular economy
+    - Adaptation
+    - Green finance
+    - Electrification
+    - Industrial development
+    - Green consumption
+    - Information disclosure
+    - Public awareness
+    - Ozone layer protection
   Mitigation relevance:
     - Direct
     - Indirect
