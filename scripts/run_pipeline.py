@@ -52,7 +52,7 @@ def main() -> int:
         validate_args.append("--check-urls")
     steps.append((validate_args, "Validate outputs", True))  # warnings are non-fatal
 
-    steps.append(([str(SCRIPTS / "generate_webpage.py")], "Generate data-overview webpage", False))
+    steps.append(([str(SCRIPTS / "generate_webpage.py"), "--lang", "all"], "Generate data-overview webpage", False))
 
     failed = 0
     for step_args, description, allow_warnings in steps:
