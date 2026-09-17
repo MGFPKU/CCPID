@@ -37,7 +37,6 @@ REQUIRED_FIELD_GROUPS = [
     ("Instrument / subscheme", ["Instrument / subscheme", "Instrument / Subscheme", "row_type", "instrument_subscheme"]),
     ("Group", ["Group", "IFCMA type", "Instrument Type", "instrument_type", "type"]),
     ("Approach", ["Approach", "IFCMA approach", "approach"]),
-    ("Country", ["Country", "country"]),
     ("Jurisdiction level", ["Jurisdiction level", "jurisdiction_level"]),
     ("Status", ["Status", "status"]),
 ]
@@ -645,7 +644,7 @@ def validate_rows(
     all_ids: set[str] = set()
     all_ids_by_file: dict[Path, set[str]] = defaultdict(set)
     id_locations: dict[tuple[Path, str], list[str]] = defaultdict(list)
-    duplicate_keys: dict[tuple[Path, str, str, str], list[str]] = defaultdict(list)
+    duplicate_keys: dict[tuple[Path, str, str], list[str]] = defaultdict(list)
     url_health_cache: dict[str, tuple[int, str | None]] = {}
 
     flattened: list[tuple[Path, int, dict[str, object]]] = []
@@ -657,12 +656,11 @@ def validate_rows(
                 all_ids.add(instrument_id)
                 all_ids_by_file[path].add(instrument_id)
                 id_locations[(path, instrument_id)].append(f"{path.name}:{index}")
-            country = get_value(row, ["Country", "country"]).casefold()
             domestic = get_value(row, NAME_FIELD_GROUPS[0]).casefold()
             english = get_value(row, NAME_FIELD_GROUPS[1]).casefold()
             name = domestic or english
-            if country and name:
-                duplicate_keys[(path, country, name, get_value(row, GROUP_FIELDS).casefold())].append(f"{path.name}:{index}")
+            if name:
+                duplicate_keys[(path, name, get_value(row, GROUP_FIELDS).casefold())].append(f"{path.name}:{index}")
 
     def add(path: Path, row_number: int, check: str, detail: str, severity: str = "error") -> None:
         issues.append(
@@ -772,13 +770,10 @@ def validate_rows(
                 "Policy Instrument ID must match {ISO3}{group code}{approach code}I{2-digit instrument sequence}S{3-digit subscheme sequence}, e.g. CHNTRARECI01S000.",
             )
         elif parsed_id:
-            country_code, group_code, approach_code = expected_id_codes(
-                get_value(row, ["Country", "country"]),
+            _, group_code, approach_code = expected_id_codes(
                 get_value(row, GROUP_FIELDS),
                 get_value(row, APPROACH_FIELDS),
             )
-            if country_code and parsed_id["country"] != country_code:
-                add(path, row_number, "invalid instrument ID", f"ID country code {parsed_id['country']} does not match row country {country_code}.")
             if group_code and parsed_id["group"] != group_code:
                 add(path, row_number, "invalid instrument ID", f"ID group code {parsed_id['group']} does not match row group code {group_code}.")
             if approach_code and parsed_id["approach"] != approach_code:
@@ -928,9 +923,9 @@ def validate_rows(
                 file_name, row_number = location.rsplit(":", 1)
                 add(Path(file_name), int(row_number), "duplicate instruments", f"Duplicate Policy Instrument ID: {instrument_id}")
 
-    for (_, country, name, group), locations in duplicate_keys.items():
+    for (_, name, group), locations in duplicate_keys.items():
         if len(locations) > 1:
-            detail = f"Duplicate country/name/group key: {country} / {name} / {group}"
+            detail = f"Duplicate name/group key: {name} / {group}"
             for location in locations:
                 file_name, row_number = location.rsplit(":", 1)
                 add(Path(file_name), int(row_number), "duplicate instruments", detail, "warning")

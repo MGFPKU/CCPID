@@ -83,7 +83,6 @@ python scripts\fill_instrument.py add `
   --set "Group=Trading scheme" `
   --set "Approach=Emissions trading system" `
   --set "Domestic name=..." `
-  --set "Country=CHN" `
   --source-url "https://..." --source-title "..." --evidence-quote "..." --confidence-score 0.8
 
 # Full export + validate pipeline (preferred after any CSV edit)

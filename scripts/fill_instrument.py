@@ -36,7 +36,6 @@ DRAFT_REQUIRED = [
     "Instrument / subscheme",
     "Group",
     "Approach",
-    "Country",
     "Jurisdiction level",
     "Status",
 ]
@@ -428,15 +427,11 @@ def apply_defaults(row: dict[str, str], instrument_id: str, values: dict[str, st
     if lang == "cn":
         if not get_row_value(row, ["Instrument / subscheme"], aliases):
             set_row_value(row, "Instrument / subscheme", "工具", aliases)
-        if not get_row_value(row, ["Country"], aliases):
-            set_row_value(row, "Country", "中国", aliases)
         if not get_row_value(row, ["Jurisdiction level"], aliases):
             set_row_value(row, "Jurisdiction level", "国家", aliases)
     else:
         if not get_row_value(row, ["Instrument / subscheme"], aliases):
             set_row_value(row, "Instrument / subscheme", "Instrument", aliases)
-        if not get_row_value(row, ["Country"], aliases):
-            set_row_value(row, "Country", "CHN", aliases)
         if not get_row_value(row, ["Jurisdiction level"], aliases):
             set_row_value(row, "Jurisdiction level", "national", aliases)
 
@@ -626,14 +621,11 @@ def command_add(args: argparse.Namespace) -> int:
     print(f"Evidence entries updated: {evidence_count}")
     parsed_id = parse_policy_id(args.id)
     if parsed_id:
-        country_code, group_code, approach_code = expected_id_codes(
-            get_row_value(row, ["Country"], aliases),
+        _, group_code, approach_code = expected_id_codes(
             get_row_value(row, ["Group"], aliases),
             get_row_value(row, ["Approach"], aliases),
         )
         id_warnings = []
-        if country_code and parsed_id["country"] != country_code:
-            id_warnings.append(f"country code {parsed_id['country']} != expected {country_code}")
         if group_code and parsed_id["group"] != group_code:
             id_warnings.append(f"group code {parsed_id['group']} != expected {group_code}")
         if approach_code and parsed_id["approach"] != approach_code:

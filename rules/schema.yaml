@@ -83,7 +83,6 @@ templates:
       - Description
       - Objective
       - Mitigation relevance
-      - Country
       - Jurisdiction level
       - Jurisdiction name
       - Adoption date
@@ -151,7 +150,6 @@ templates:
       - Description
       - Objective
       - Mitigation relevance
-      - Country
       - Jurisdiction level
       - Jurisdiction name
       - Adoption date
@@ -206,7 +204,6 @@ templates:
       - Description
       - Objective
       - Mitigation relevance
-      - Country
       - Jurisdiction level
       - Jurisdiction name
       - Adoption date
@@ -263,7 +260,6 @@ templates:
       - Description
       - Objective
       - Mitigation relevance
-      - Country
       - Jurisdiction level
       - Jurisdiction name
       - Adoption date
@@ -322,7 +318,6 @@ templates:
       - Description
       - Objective
       - Mitigation relevance
-      - Country
       - Jurisdiction level
       - Jurisdiction name
       - Adoption date
@@ -366,7 +361,6 @@ required_fields:
     - Instrument / subscheme
     - Group
     - Approach
-    - Country
     - Jurisdiction level
     - Status
   final_publication_required:
@@ -374,7 +368,6 @@ required_fields:
     - Instrument / subscheme
     - Group
     - Approach
-    - Country
     - Jurisdiction level
     - Status
     - Legal statute
@@ -408,7 +401,6 @@ global_validation_rules:
       - "CHNTRAETSI01S000"
       - "CHNTRARECI01S000"
     component_rules:
-      - "The country code must match the row country."
       - "The group code must match the selected Group when a group-code mapping is defined."
       - "The approach code must match the selected Approach when an approach-code mapping is defined."
       - "The literal I marks the instrument sequence, as in I01."
@@ -1154,7 +1146,6 @@ fields:
   Description: {type: long_text, required: false}
   Objective: {type: multi_enum, required: false, allowed_values_ref: Objective}
   Mitigation relevance: {type: enum, required: false, allowed_values_ref: "Mitigation relevance"}
-  Country: {type: string, required: true}
   Jurisdiction level: {type: enum, required: true, allowed_values_ref: "Jurisdiction level"}
   Jurisdiction name: {type: string, required: conditional}
   Adoption date: {type: date, required: false}

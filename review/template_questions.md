@@ -4,7 +4,7 @@ These decisions resolve the initial template questions and should be applied bef
 
 ## Required Fields
 
-1. Enforce a small draft-entry core: `Policy Instrument ID`, `Instrument / subscheme`, `Group`, `Approach`, `Country`, `Jurisdiction level`, and `Status`.
+1. Enforce a small draft-entry core: `Policy Instrument ID`, `Instrument / subscheme`, `Group`, `Approach`, `Jurisdiction level`, and `Status`.
 2. For final publication, also require source coverage: `Legal statute` when known and at least one source URL from `Legal document` or `Other relevant websites`.
 3. If the legal statute name is unavailable, enter `Not specified` in `Legal statute` and provide an official `Legal document` URL.
 4. Require at least one policy name. For China records, prefer `Domestic name`; `English name` may be translated later.

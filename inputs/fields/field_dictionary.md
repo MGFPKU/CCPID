@@ -188,20 +188,6 @@ Source: `inputs/attribute definitions.xlsx`
 - Common mistakes:
   - Not specified in source workbook.
 
-## Country
-
-- Field name: Country
-- Attribute type: Administrative information
-- Definition: Indicates the corresponding country name
-- Allowed values:
-  - Not specified in source workbook.
-- Examples:
-  - Not specified in source workbook.
-- Notes:
-  - Not specified in source workbook.
-- Common mistakes:
-  - Not specified in source workbook.
-
 ## Jurisdiction level
 
 - Field name: Jurisdiction level

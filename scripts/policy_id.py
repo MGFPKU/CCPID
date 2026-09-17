@@ -115,9 +115,9 @@ def parse_policy_id(instrument_id: str) -> re.Match[str] | None:
 
 
 def expected_id_codes(
-    country: str,
     group: str,
     approach: str,
+    country: str = "",
     schema_path: Path = DEFAULT_SCHEMA_PATH,
 ) -> tuple[str, str, str]:
     group_codes, approach_codes = load_id_codes(schema_path)

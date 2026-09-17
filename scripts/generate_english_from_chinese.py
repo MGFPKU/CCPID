@@ -212,11 +212,6 @@ COMMON = {
 
 
     "Mitigation relevance": "Direct",
-
-
-    "Country": "CHN",
-
-
     "Jurisdiction level": "national",
 
 
@@ -527,11 +522,6 @@ _STRUCTURAL_TRANSLATIONS: dict[str, tuple[str, dict[str, str]]] = {
 
 
     ),
-
-
-    "国家": ("Country", {"中国": "CHN"}),
-
-
     "管辖层级": ("Jurisdiction level", {"国家": "national", "省级": "subnational", "县级": "subnational", "城市级": "subnational"}),
 
 
@@ -747,9 +737,6 @@ _CRITICAL_EN_FIELDS = {
 
 
     "English name",
-
-
-    "Country",
 
 
     "Jurisdiction level",
@@ -2132,13 +2119,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -2752,13 +2732,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -3388,13 +3361,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -3936,13 +3902,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -4382,13 +4341,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -4873,13 +4825,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -5508,13 +5453,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -6233,13 +6171,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -6778,13 +6709,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -7368,13 +7292,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -7772,13 +7689,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -8158,13 +8068,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -8514,13 +8417,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -8915,13 +8811,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -9592,13 +9481,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -10296,13 +10178,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -10976,13 +10851,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "Subnational",
 
 
@@ -11618,13 +11486,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "Subnational",
 
 
@@ -12286,13 +12147,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -13020,13 +12874,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -13571,13 +13418,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -13693,11 +13533,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Approach": "Fuel excise tax",
-
-
-        "Country": "CHN",
-
-
         "Emission sector": "Energy",
 
 
@@ -14032,11 +13867,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Approach": "Differentiated vehicle tax",
-
-
-        "Country": "CHN",
-
-
         "Emission sector": "Transport",
 
 
@@ -14355,11 +14185,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Approach": "Vehicle ownership tax incentive",
-
-
-        "Country": "CHN",
-
-
         "Emission sector": "Transport",
 
 
@@ -14707,11 +14532,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Approach": "Vehicle ownership tax incentive",
-
-
-        "Country": "CHN",
-
-
         "Emission sector": "Transport",
 
 
@@ -14955,11 +14775,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Approach": "Vehicle ownership tax incentive",
-
-
-        "Country": "CHN",
-
-
         "Emission sector": "Transport",
 
 
@@ -15216,11 +15031,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Approach": "VAT incentive",
-
-
-        "Country": "CHN",
-
-
         "Emission sector": "Industry; Waste",
 
 
@@ -15541,11 +15351,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Approach": "VAT incentive",
-
-
-        "Country": "CHN",
-
-
         "Emission sector": "AFOLU",
 
 
@@ -15828,11 +15633,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Approach": "VAT incentive",
-
-
-        "Country": "CHN",
-
-
         "Emission sector": "Energy",
 
 
@@ -16132,11 +15932,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Compliance calculation methodology II": "N/A",
-
-
-        "Country": "CHN",
-
-
         "Description": "The People's Bank of China expanded the collateral accepted for medium-term lending facility (MLF) operations to include AA-or-above green financial bonds and high-quality green loans, alongside small/micro, agriculture-related and selected corporate credit bonds. The green collateral treatment improves the liquidity and central-bank refinancing value of eligible green finance assets.",
 
 
@@ -16293,11 +16088,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Compliance calculation methodology II": "Qualified loan eligibility is assessed against the PBOC's key carbon-reduction areas and project information requirements.",
-
-
-        "Country": "CHN",
-
-
         "Description": "The People's Bank of China provides low-cost funds to eligible financial institutions that issue loans to key carbon-reduction areas. The tool operates on a lend-first-borrow-later basis: after financial institutions issue qualified carbon-reduction loans, they may apply to the PBOC for central-bank funding equal to 60% of the loan principal.",
 
 
@@ -16454,11 +16244,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Compliance calculation methodology II": "Eligibility is assessed against the official equipment renewal loan fiscal interest subsidy policy scope and bank loan documentation.",
-
-
-        "Country": "CHN",
-
-
         "Description": "China provides central fiscal interest subsidies for eligible bank loans used for equipment renewal and technological transformation. The 2024 policy subsidized 1 percentage point of eligible equipment renewal loan principal interest for up to two years. The 2026 optimization expands eligible fields, covers equipment-renewal fixed-asset loans and technology-innovation loans supported by the technology innovation and technological transformation relending policy, raises the subsidy to 1.5 percentage points, and states that fiscal interest subsidy no longer depends on the loan receiving relending support.",
 
 
@@ -16810,11 +16595,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Compliance calculation methodology II": "N/A",
-
-
-        "Country": "CHN",
-
-
         "Description": (
 
 
@@ -17209,11 +16989,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Compliance calculation methodology II": "If the market transaction average price is below the mechanism electricity price, the difference is paid to the new energy generator; if it is above, the generator pays the difference back.",
-
-
-        "Country": "CHN",
-
-
         "Description": "China deepens market-based reform of new energy feed-in tariffs and establishes a sustainable price settlement mechanism for eligible new energy generation. New energy electricity enters power markets and feed-in prices are formed through market transactions. For electricity included in the mechanism, a difference settlement is made between the market transaction average price and the mechanism electricity price: when the market average is lower than the mechanism price, the difference is paid to the generator; when it is higher, the generator pays back the difference.",
 
 
@@ -17370,11 +17145,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Compliance calculation methodology II": "2024-2025: relief amount is capped at CNY 30,000 per new energy passenger vehicle. 2026-2027: relief amount is capped at CNY 15,000 per new energy passenger vehicle.",
-
-
-        "Country": "CHN",
-
-
         "Description": "China exempts or reduces vehicle purchase tax for eligible new energy vehicles. The original 2014 policy exempted eligible NEVs from vehicle purchase tax from 1 September 2014 to 31 December 2017. The 2023 extension and optimization continues support through 2027: NEVs purchased from 1 January 2024 to 31 December 2025 are exempt from vehicle purchase tax, with a maximum exemption of CNY 30,000 per new energy passenger vehicle; NEVs purchased from 1 January 2026 to 31 December 2027 receive a 50% vehicle purchase tax reduction, with a maximum reduction of CNY 15,000 per new energy passenger vehicle.",
 
 
@@ -18071,13 +17841,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -18379,13 +18142,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -18702,13 +18458,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -18980,13 +18729,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -19261,13 +19003,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -19581,13 +19316,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "national",
 
 
@@ -24056,13 +23784,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "Subnational",
 
 
@@ -24407,13 +24128,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -25054,13 +24768,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -25578,13 +25285,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -26186,13 +25886,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -26740,13 +26433,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -27135,13 +26821,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -27542,13 +27221,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -27940,13 +27612,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -28392,13 +28057,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -28877,13 +28535,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -29329,13 +28980,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -29679,13 +29323,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -29993,13 +29630,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -30361,13 +29991,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -62384,13 +62007,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -62713,13 +62329,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -63060,13 +62669,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -63425,13 +63027,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -63739,13 +63334,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -63995,323 +63583,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-    "CHNPRFEILI57S000": {
-
-
-        "Policy Instrument ID": "CHNPRFEILI57S000",
-
-
-        "Instrument / subscheme": "Instrument",
-
-
-        "Group": "Performance standard",
-
-
-        "Approach": "Energy intensity limit for industrial production",
-
-
-        "Emission sector": "Industry",
-
-
-        "Sub-sector": "Beer manufacturing",
-
-
-        "English instrument name": "Norm of Energy Consumption per Unit Production of Beer",
-
-
-        "Policy Package": "N/A",
-
-
-        "Description": (
-
-
-            "GB 32047-2015 Norm of Energy Consumption per Unit Production of Beer is a mandatory "
-
-
-            "national standard, published on 11 September 2015 and effective 1 October 2016. "
-
-
-            "It applies to the calculation and assessment of energy consumption per unit product for "
-
-
-            "enterprises producing beer using malt, rice, hops and other main raw materials through "
-
-
-            "mashing, fermentation, filtration and packaging processes, as well as to the energy "
-
-
-            "consumption control of new, expansion and renovation projects. Energy intensity limits "
-
-
-            "are classified into three grades (Grade 1 is the most stringent, i.e. most advanced). "
-
-
-            "Grade 3 is the minimum limit (mandatory for existing firms), Grade 2 is the access limit "
-
-
-            "(mandatory for new, expansion and renovation projects), and Grade 1 is the advanced value. "
-
-
-            "This is the first mandatory energy intensity limit standard for the beer industry."
-
-
-        ),
-
-
-        "Objective": "Energy efficiency; Energy conservation",
-
-
-        "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
-        "Jurisdiction level": "National",
-
-
-        "Jurisdiction name": "N/A",
-
-
-        "Adoption date": "11/09/2015",
-
-
-        "Start date": "01/10/2016",
-
-
-        "End date": "N/A",
-
-
-        "Last revisions": "N/A",
-
-
-        "Status": "In force",
-
-
-        "Administrating authorities": (
-
-
-            "State Administration for Market Regulation; "
-
-
-            "Standardization Administration of China"
-
-
-        ),
-
-
-        "Asset": "Beer production line",
-
-
-        "Asset (Status)": "New; existing",
-
-
-        "Asset (Details)": (
-
-
-            "Complete beer production lines using malt, rice, hops, etc. as raw materials, including "
-
-
-            "raw material handling (malt milling, rice gelatinisation), mashing (mashing, lauter tun "
-
-
-            "filtration, wort boiling, whirlpool settling), fermentation (primary fermentation, "
-
-
-            "secondary fermentation/storage), filtration (diatomaceous earth filtration, membrane "
-
-
-            "filtration), packaging (bottling, canning, kegging, etc.) and associated utilities "
-
-
-            "(refrigeration, compressed air, CO₂ recovery, CIP cleaning). Products include pasteurised "
-
-
-            "beer, draft beer (pure draft beer) and specialty beers. Excludes malt production and "
-
-
-            "ready-to-drink beer-based mixed beverages."
-
-
-        ),
-
-
-        "Asset (Other)": "N/A",
-
-
-        "Asset (Cut-off range)": "N/A",
-
-
-        "Agent": "Firms",
-
-
-        "Agent (Detail)": "Enterprises operating beer production lines within China.",
-
-
-        "Activity": "Production",
-
-
-        "Activity (Details)": (
-
-
-            "Operational activities of beer production lines. Existing firms must meet Grade 3 "
-
-
-            "(minimum) intensity limits; new, expansion and renovation projects must meet Grade 2 "
-
-
-            "(access) intensity limits."
-
-
-        ),
-
-
-        "Intensity (Value)": "3 grades",
-
-
-        "Intensity (Unit)": "Energy intensity limit grade",
-
-
-        "Intensity (Details)": (
-
-
-            "Energy intensity limits are classified into three grades (Grade 1 is the most stringent, "
-
-
-            "i.e. most advanced). Grade 3 is the minimum limit (mandatory for existing firms), Grade 2 "
-
-
-            "is the access limit (mandatory for new, expansion and renovation projects), and Grade 1 is "
-
-
-            "the advanced value. Measured in kgce of comprehensive energy per kilolitre (kgce/kL). "
-
-
-            "Beer (kL): Grade 3 ≤ 70.0, Grade 2 ≤ 56.0, Grade 1 ≤ 45.0 kgce/kL."
-
-
-        ),
-
-
-        "Requirement specification": (
-
-
-            "1) Existing beer producers must meet Grade 3 (minimum) intensity limits to continue "
-
-
-            "operating; non-compliant firms must undergo retrofits or be phased out within a prescribed "
-
-
-            "period. 2) New, expansion and renovation projects must meet Grade 2 (access) intensity "
-
-
-            "limits before commencing production. 3) Grade 1 advanced values serve as energy efficiency "
-
-
-            "benchmarks to guide the industry."
-
-
-        ),
-
-
-        "Compliance calculation methodology I": "N/A",
-
-
-        "Compliance calculation methodology II": "N/A",
-
-
-        "Compliance monitoring": (
-
-
-            "Inspections or audits conducted by government authorities or third parties; Energy consumption "
-
-
-            "data reporting by firms"
-
-
-        ),
-
-
-        "Compliance monitoring details": (
-
-
-            "Market regulatory authorities and industry and information technology authorities conduct "
-
-
-            "supervision inspections on beer producers' compliance with energy intensity limit standards; "
-
-
-            "firms must submit annual energy consumption data and undergo energy conservation supervision."
-
-
-        ),
-
-
-        "Compliance enforcement": "Compliance order; Fines; Differentiated electricity pricing; Phase-out and closure",
-
-
-        "Compliance enforcement details": (
-
-
-            "For beer producers that do not meet the mandatory energy intensity limit standard, "
-
-
-            "relevant authorities shall order rectification within a prescribed period; those failing "
-
-
-            "to complete rectification or still not meeting the standard after rectification shall be "
-
-
-            "subject to differentiated electricity pricing and lawfully phased out and closed."
-
-
-        ),
-
-
-        "Compliance promotion": "Other incentives or support",
-
-
-        "Compliance promotion": (
-
-
-            "The state encourages beer producers to benchmark against Grade 1 advanced values and "
-
-
-            "undertake energy conservation and carbon reduction retrofits, guiding and supporting "
-
-
-            "uptake of advanced production capacity through energy conservation reviews and green "
-
-
-            "factory designation."
-
-
-        ),
-
-
-        "Mitigation co-benefits": "Energy conservation",
-
-
-        "Legal statute": "GB 32047-2015 Norm of Energy Consumption per Unit Production of Beer",
-
-
-        "Other weblinks": "N/A",
-
-
-        "Last revisions (Details)": "N/A",
-
-
-        "Mitigation effects": "Positive"
-
-
-    },
-
-
-
-
-
     "CHNPRFEILI58S000": {
 
 
@@ -64385,13 +63656,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -64723,13 +63987,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -65055,13 +64312,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -65399,13 +64649,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -65749,13 +64992,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -66089,13 +65325,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -66396,13 +65625,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -66719,13 +65941,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -67069,13 +66284,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -67410,13 +66618,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-
-
-
-
-        "Country": "CHN",
-
-
         "Jurisdiction level": "National",
 
 
@@ -99041,9 +98242,6 @@ LANGUAGE_NEUTRAL_FIELDS = {
 
 
     "Group",
-
-
-    "Country",
 
 
     "Jurisdiction level",

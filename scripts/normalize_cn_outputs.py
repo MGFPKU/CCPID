@@ -28,7 +28,7 @@ VALID_EMISSION_SECTORS_CN = {
 CN_ONLY_FIELDS = [
     "强度（单位）", "目标", "排放部门", "描述",
     "本国工具名称", "工具/子方案", "组别", "路径",
-    "国家", "管辖层级", "状态", "减缓相关性",
+    "管辖层级", "状态", "减缓相关性",
     "减缓效果", "受规制资产（状态）",
 ]
 
@@ -37,7 +37,6 @@ LATIN_RE = re.compile(r"[a-z]{3,}")  # 3+ consecutive lowercase = English prose
 # Known English enum values that should not appear in Chinese CSVs
 # Maps CN header name → set of English values to flag
 CN_ENGLISH_ENUM_VALUES: dict[str, dict[str, str]] = {
-    "国家": {"CHN": "中国"},
     "管辖层级": {
         "national": "国家", "subnational": "省级",
         "supranational": "超国家", "special economic zone (SEZ)": "经济特区",

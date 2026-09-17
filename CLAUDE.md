@@ -34,7 +34,7 @@ Group and approach codes are defined in `rules/schema.yaml` under `known_codes`.
 5. Run `scripts/validate_dataset.py` and review `logs/validation_report.md`
 6. Export Excel deliverables with `scripts/export_workbooks.py`
 
-**Ended instruments**: when an included instrument expires or is terminated, move its full row from the category CSV into `outputs/CCPID_{lang}_{category}_ended.csv`. The export pipeline appends these rows to the workbook's `Ended` / `已终止` sheet automatically, below the curated historical rows kept in the template.
+**Ended instruments**: when an included instrument expires or is terminated, move its full row from the category CSV into `outputs/CCPID_{lang}_{category}_ended.csv`. The export pipeline appends these rows to the workbook's `Ended` / `已终止` sheet automatically, below the curated historical rows kept in the template. Superseded old-version standards (e.g. GB 32047-2015 replaced by GB 32047-2025) are an exception: delete the old-version row, keep one row for the current version with the earliest predecessor's adoption/start dates, and mention the replaced version in the description fields.
 
 ## Key Commands
 
@@ -64,7 +64,6 @@ python scripts\fill_instrument.py add `
   --set "Group=Trading scheme" `
   --set "Approach=Emissions trading system" `
   --set "Domestic name=..." `
-  --set "Country=CHN" `
   --source-url "https://..." --source-title "..." --evidence-quote "..." --confidence-score 0.8
 ```
 
@@ -111,11 +110,11 @@ DO NOT run multiple filling scripts that write `outputs/evidence_log.csv` in par
 
 `scripts/generate_english_from_chinese.py` has three safeguards against incomplete/missing translations:
 
-1. **Structural field CN→EN auto-translation** — `_STRUCTURAL_TRANSLATIONS` maps known Chinese structural values (Group, Status, Country, Jurisdiction level, Instrument/subscheme, Mitigation relevance) to their English equivalents. These are applied automatically and never need to be in ROW_TRANSLATIONS entries.
+1. **Structural field CN→EN auto-translation** — `_STRUCTURAL_TRANSLATIONS` maps known Chinese structural values (Group, Status, Jurisdiction level, Instrument/subscheme, Mitigation relevance) to their English equivalents. These are applied automatically and never need to be in ROW_TRANSLATIONS entries.
 
 2. **Domestic instrument name passthrough** — `Domestic instrument name` is passed through from the CN CSV automatically (it is CJK-exempt). No ROW_TRANSLATIONS entry needs to include it.
 
-3. **Completeness check** — After generating the EN CSV, `_check_completeness()` verifies every row has non-empty values for critical fields (Instrument/subscheme, Group, Approach, Emission sector, Domestic instrument name, English instrument name, Country, Jurisdiction level, Status). Missing fields are printed as warnings and the script exits non-zero.
+3. **Completeness check** — After generating the EN CSV, `_check_completeness()` verifies every row has non-empty values for critical fields (Instrument/subscheme, Group, Approach, Emission sector, Domestic instrument name, English instrument name, Jurisdiction level, Status). Missing fields are printed as warnings and the script exits non-zero.
 
 4. **Merge-based ROW_TRANSLATIONS** — `existing_english` is always applied as a base; `ROW_TRANSLATIONS` only overrides specific fields. A ROW_TRANSLATIONS entry never needs to duplicate every field — only fields that differ from the existing English row need to be specified.
 
