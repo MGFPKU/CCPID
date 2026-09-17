@@ -2602,7 +2602,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Pollution control; Technological innovation; Industrial development; Ecological protection; Biodiversity conservation; Adaptation"
+            "Pollution control; Technological innovation; Industrial development; Ecological protection; Biodiversity conservation; Climate change adaptation"
 
 
         ),
@@ -3230,7 +3230,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Pollution control; Biodiversity conservation; Ecological protection; Adaptation"
+            "Pollution control; Biodiversity conservation; Ecological protection; Climate change adaptation"
 
 
         ),
@@ -3784,7 +3784,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Pollution control; Biodiversity conservation; Ecological protection; Adaptation"
+            "Pollution control; Biodiversity conservation; Ecological protection; Climate change adaptation"
 
 
         ),
@@ -4223,7 +4223,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Biodiversity conservation; Ecological protection; Adaptation"
+            "Biodiversity conservation; Ecological protection; Climate change adaptation"
 
 
         ),
@@ -4686,7 +4686,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Biodiversity conservation; Ecological protection; Adaptation; Industrial development"
+            "Biodiversity conservation; Ecological protection; Climate change adaptation; Industrial development"
 
 
         ),
@@ -5293,7 +5293,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Biodiversity conservation; Ecological protection; Adaptation; Technological innovation"
+            "Biodiversity conservation; Ecological protection; Climate change adaptation; Technological innovation"
 
 
         ),
@@ -5446,7 +5446,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": (
 
 
-            "Ecological protection; Biodiversity conservation; Adaptation"
+            "Ecological protection; Biodiversity protection; Natural resource protection"
 
 
         ),
@@ -6032,7 +6032,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Pollution control; Biodiversity conservation; Ecological protection; Adaptation; Employment and poverty reduction"
+            "Pollution control; Biodiversity conservation; Ecological protection; Climate change adaptation; Employment and poverty reduction"
 
 
         ),
@@ -77991,7 +77991,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Ecological protection; Biodiversity conservation; Adaptation",
+        "Mitigation co-benefits": "Ecological protection; Biodiversity conservation; Climate change adaptation",
 
 
         "Legal statute": "General Office of the CPC Central Committee and General Office of the State Council, Natural Forest Protection and Restoration System Plan",
@@ -78423,7 +78423,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Ecological protection; Biodiversity conservation; Adaptation",
+        "Mitigation co-benefits": "Ecological protection; Biodiversity conservation; Climate change adaptation",
 
 
         "Legal statute": "General Office of the State Council, Several Opinions on Strengthening Grassland Protection and Restoration (SC General Office Doc. [2021] No. 7)",
@@ -78867,7 +78867,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation co-benefits": "Ecological protection; Biodiversity conservation; Adaptation",
+        "Mitigation co-benefits": "Ecological protection; Biodiversity conservation; Climate change adaptation",
 
 
         "Legal statute": "General Office of the State Council, Notice on Printing and Issuing the Wetland Protection and Restoration System Plan (SC General Office Doc. [2016] No. 89)",
@@ -79638,7 +79638,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Ecological protection; Biodiversity conservation; Pollution control; Adaptation"
+            "Ecological protection; Biodiversity conservation; Pollution control; Climate change adaptation"
 
 
         ),
@@ -80454,7 +80454,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": (
 
 
-            "Ecological protection; Biodiversity conservation; Pollution control; Resource conservation; Industrial development; Energy conservation; Adaptation"
+            "Ecological protection; Biodiversity conservation; Pollution control; Resource conservation; Industrial development; Energy conservation; Climate change adaptation"
 
 
         ),
@@ -91739,7 +91739,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "period is 2018-2030."
         ),
                 "Objective": (
-            "Food safety; Climate change mitigation; Resource conservation; Circular economy; Ecological protection"
+            "Climate change mitigation; Circular economy; Ecological protection"
         ),
         "Administrating authorities": (
             "Ministry of Agriculture and Rural Affairs (Department of Science, "
@@ -91848,7 +91848,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "instrument with no direct GHG emission coverage share)"
         ),
         "Mitigation effects": "Positive",
-        "Mitigation co-benefits": "Pollution control; Resource conservation; Circular economy; Ecological protection; Food safety",
+        "Mitigation co-benefits": "Pollution control; Resource conservation; Circular economy; Ecological protection; Food security",
         "Legal statute": (
             "Notice of the Ministry of Agriculture and Rural Affairs on "
             "Issuing the Agricultural Green Development Technical Guidance "
@@ -92745,7 +92745,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Cross-sectoral",
         "English instrument name": "Green Product Label",
         "Description": "Green Product Certification is a unified green product certification and labelling system established and implemented under the unified deployment of the State Council, led by the State Administration for Market Regulation together with relevant departments. Based on the full-life-cycle assessment concept, products are comprehensively evaluated and certified across four dimensions — resource attributes, energy attributes, environmental attributes and quality attributes — and awarded the unified national green product label. The system originated from the 2016 Opinions of the General Office of the State Council on Establishing a Unified Green Product Standard, Certification and Labelling System (Guobanfa [2016] No. 86), which integrated the various environmental protection, energy-saving, water-saving, circular, low-carbon, recycled and organic product certifications previously dispersed among different authorities into a unified national green product certification and labelling system. The first batch of the green product certification catalogue covers categories such as wood-based panels and wooden flooring, coatings, sanitary ceramics, building glass, solar water heating systems, furniture, waterproof and sealing materials, ceramic tiles (slabs), textile products, paper and paper products, wood-plastic products, plastic products and washing products. Green building material product certification is included as a sub-category within the unified framework. Enterprises voluntarily apply for certification; there are no mandatory compliance obligations or penalties.",
-        "Objective": "Green consumption; Climate change mitigation; Adaptation",
+        "Objective": "Green consumption; Climate change mitigation; Climate change adaptation",
         "Administrating authorities": "State Administration for Market Regulation (Department of Certification Supervision); Certification and Accreditation Administration of the People's Republic of China; National Development and Reform Commission; Ministry of Industry and Information Technology; Ministry of Housing and Urban-Rural Development and other relevant departments",
         "Asset": "Products (green product certification objects)",
         "Asset (Details)": "The object defined and covered by this instrument is the various categories of products included in the green product certification catalogue, including but not limited to building materials (wood-based panels, coatings, sanitary ceramics, building glass, ceramic tiles, waterproof and sealing materials, etc.), furniture, textiles, paper products, plastic products, washing products and other categories. Certification is based on the green product evaluation standards for the corresponding product category, comprehensively evaluating products across four dimensions — resource attributes, energy attributes, environmental attributes and quality attributes — over their full life cycle.",
@@ -94857,7 +94857,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; SF6; HFCs",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Renewable energy development; Technological innovation; Ecological protection; Industrial development; Resource conservation; Pollution control; Energy security; Biodiversity conservation; Adaptation"
+            "Renewable energy development; Technological innovation; Ecological protection; Industrial development; Resource conservation; Pollution control; Energy security; Biodiversity conservation; Climate change adaptation"
         ),
         "Last revisions (Details)": (
             "On 13 June 2012, the National Development and Reform "
@@ -95056,7 +95056,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Ecological protection; Biodiversity conservation; Resource conservation; Adaptation"
+            "Ecological protection; Biodiversity conservation; Resource conservation; Climate change adaptation"
         ),
         "Last revisions (Details)": (
             "N/A (revised draft issued for public consultation in "
@@ -95562,7 +95562,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Ecological protection; Biodiversity conservation; Adaptation; Pollution control; Resource conservation"
+            "Ecological protection; Biodiversity conservation; Climate change adaptation; Pollution control; Resource conservation"
         ),
         "Last revisions (Details)": (
             "N/A (revised draft issued for public consultation in "
@@ -96632,7 +96632,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Ecological protection; Biodiversity conservation; Pollution control; Industrial development; Adaptation"
+            "Ecological protection; Biodiversity conservation; Pollution control; Industrial development; Climate change adaptation"
         ),
         "Legal statute": (
             "Notice on Issuing Two Methodologies Including "
@@ -96795,7 +96795,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Ecological protection; Biodiversity conservation; Pollution control; Industrial development; Adaptation"
+            "Ecological protection; Biodiversity conservation; Pollution control; Industrial development; Climate change adaptation"
         ),
         "Legal statute": (
             "Notice on Issuing Two Methodologies Including "
@@ -96971,7 +96971,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
         "Mitigation effects": "Positive",
         "Mitigation co-benefits": (
-            "Ecological protection; Pollution control; Industrial development; Adaptation"
+            "Ecological protection; Pollution control; Industrial development; Climate change adaptation"
         ),
         "Legal statute": (
             "Notice on Issuing the Methodology for Voluntary "

@@ -157,8 +157,10 @@ Source: `inputs/attribute definitions.xlsx`
   - Energy security
   - Pollution control
   - Ecological protection
+  - Biodiversity protection
+  - Natural resource protection
   - Circular economy
-  - Adaptation
+  - Climate change adaptation
   - Green finance
   - Electrification
   - Industrial development
@@ -1267,14 +1269,22 @@ for details
 - Attribute type: Classification & Indicators
 - Definition: Additional, non-mitigation positive outcomes or advantages that result from the implementation of climate change mitigating measures, identified by the IFCMA Secretariat.
 - Allowed values:
-  - Adaptation
-  - Air pollution
-  - Energy supply security
+  - Energy conservation
   - Technological innovation
-  - Poverty reduction
-  - Employment
+  - Energy security
+  - Pollution control
+  - Ecological protection
+  - Resource conservation
+  - Circular economy
+  - Renewable energy development
+  - Public health
+  - Climate change adaptation
+  - Employment and poverty reduction
   - Industrial development
-  - Other (non-exhaustive list, current options here based on IPCC)
+  - Biodiversity conservation
+  - Desertification control
+  - Green consumption
+  - Food security
 - Examples:
   - Not specified in source workbook.
 - Notes:

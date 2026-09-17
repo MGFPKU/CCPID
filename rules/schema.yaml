@@ -890,8 +890,10 @@ allowed_values:
     - Energy security
     - Pollution control
     - Ecological protection
+    - Biodiversity protection
+    - Natural resource protection
     - Circular economy
-    - Adaptation
+    - Climate change adaptation
     - Green finance
     - Electrification
     - Industrial development
@@ -939,14 +941,22 @@ allowed_values:
     - neutral
     - unknown
   Mitigation co-benefits:
-    - Adaptation
-    - Air pollution
-    - Energy supply security
+    - Energy conservation
     - Technological innovation
-    - Poverty reduction
-    - Employment
+    - Energy security
+    - Pollution control
+    - Ecological protection
+    - Resource conservation
+    - Circular economy
+    - Renewable energy development
+    - Public health
+    - Climate change adaptation
+    - Employment and poverty reduction
     - Industrial development
-    - Other
+    - Biodiversity conservation
+    - Desertification control
+    - Green consumption
+    - Food security
   Compliance monitoring:
     regulatory_and_procurement:
       - No compliance monitoring
