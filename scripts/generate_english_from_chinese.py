@@ -30151,7 +30151,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Last revisions (Details)": (
@@ -31084,7 +31084,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -31411,7 +31411,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -31732,7 +31732,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -32833,13 +32833,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Pollution control; Resource conservation; Circular economy"
-
-
-        ),
+        "Objective": "Pollution control; Circular economy",
 
 
         "Administrating authorities": (
@@ -33346,13 +33340,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -33778,13 +33766,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -34237,13 +34219,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -34585,13 +34561,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -34912,13 +34882,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -35263,13 +35227,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -35596,13 +35554,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -35929,13 +35881,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -36211,13 +36157,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -36526,13 +36466,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -36850,13 +36784,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -37144,13 +37072,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -37471,13 +37393,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -37765,13 +37681,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -38056,13 +37966,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -38365,13 +38269,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -38674,13 +38572,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -39004,13 +38896,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -39343,13 +39229,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -39673,13 +39553,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -40000,13 +39874,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -40312,13 +40180,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -40594,13 +40456,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -40885,13 +40741,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -41197,13 +41047,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -41476,13 +41320,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -41770,13 +41608,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -42079,13 +41911,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -42391,13 +42217,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -42676,13 +42496,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -43006,13 +42820,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -43321,13 +43129,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -43624,13 +43426,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency; Electrification",
 
 
         "Administrating authorities": (
@@ -43884,9 +43680,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "standard forms the mandatory energy consumption and energy efficiency "
             "standards framework for the PV industry."
         ),
-        "Objective": (
-            "Energy efficiency; Energy conservation; Industrial development"
-        ),
+        "Objective": "Energy efficiency; Industrial development",
         "Administrating authorities": (
             "State Administration for Market Regulation; "
             "Standardization Administration of China"
@@ -44025,9 +43819,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "(<= 1.5 W), extending the evaluation from operational efficiency to full-time "
             "energy efficiency."
         ),
-        "Objective": (
-            "Energy efficiency; Energy conservation"
-        ),
+        "Objective": "Energy efficiency",
         "Administrating authorities": (
             "State Administration for Market Regulation; "
             "Standardization Administration of China"
@@ -44197,13 +43989,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -44515,13 +44301,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -44830,13 +44610,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -45121,13 +44895,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -45457,13 +45225,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -45760,13 +45522,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -46063,13 +45819,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -46342,13 +46092,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -46647,13 +46391,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
 
@@ -46991,13 +46729,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -47323,13 +47055,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -47613,13 +47339,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -47960,13 +47680,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -48301,13 +48015,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -48622,13 +48330,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -48966,13 +48668,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -49247,13 +48943,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -49537,13 +49227,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -49866,13 +49550,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -50159,13 +49837,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -50473,13 +50145,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -50823,13 +50489,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -51135,7 +50795,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Description": "GB 46029-2025 Norm of Energy Consumption per Unit Production of Formaldehyde is a mandatory national standard, published on 1 August 2025 and effective 1 August 2026. It applies to enterprises using methanol as feedstock and producing formaldehyde via the silver-catalysed process or the iron-molybdenum process. Energy intensity limits are classified into three grades (Grade 1 is the most stringent), with Grade 3 as the minimum limit (mandatory for existing firms), Grade 2 as the access limit (mandatory for new, expansion and renovation projects), and Grade 1 as the advanced benchmark. Silver-process formaldehyde: Grade 3 <=740 kgce/t, Grade 2 <=700 kgce/t, Grade 1 <=680 kgce/t. Iron-molybdenum process formaldehyde: Grade 3 <=670 kgce/t, Grade 2 <=635 kgce/t, Grade 1 <=615 kgce/t.",
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -51525,7 +51185,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -51786,7 +51446,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -52032,7 +51692,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -52296,7 +51956,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -52569,7 +52229,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -52824,7 +52484,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -53052,7 +52712,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -53286,7 +52946,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -53532,7 +53192,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -53781,7 +53441,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -54027,7 +53687,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -54282,7 +53942,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -54540,7 +54200,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -54783,7 +54443,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -55038,7 +54698,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -55302,7 +54962,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -55569,7 +55229,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -55842,7 +55502,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -56097,7 +55757,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -56373,7 +56033,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -56643,7 +56303,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -56934,7 +56594,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -57216,7 +56876,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -57513,7 +57173,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -57774,7 +57434,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -58044,7 +57704,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -58320,7 +57980,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -58590,7 +58250,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -58872,7 +58532,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -59127,7 +58787,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -59382,7 +59042,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -59658,7 +59318,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -59952,7 +59612,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -60222,7 +59882,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -60495,7 +60155,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -60765,7 +60425,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -61029,7 +60689,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -61296,7 +60956,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -61557,7 +61217,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": "State Administration for Market Regulation; Standardization Administration of China",
@@ -61836,7 +61496,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -62158,7 +61818,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -62498,7 +62158,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -62856,7 +62516,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -63163,7 +62823,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -63485,7 +63145,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -63816,7 +63476,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -64141,7 +63801,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -64478,7 +64138,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -64821,7 +64481,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -65154,7 +64814,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -65454,7 +65114,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -65770,7 +65430,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -66113,7 +65773,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -66447,7 +66107,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Mitigation relevance": "Direct",
@@ -66755,9 +66415,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "mandatory energy consumption and energy efficiency standards framework "
             "for the PV industry."
         ),
-        "Objective": (
-            "Energy efficiency; Energy conservation; Industrial development"
-        ),
+        "Objective": "Energy efficiency; Industrial development",
         "Mitigation relevance": "Direct",
         "Administrating authorities": (
             "State Administration for Market Regulation; "
@@ -66882,7 +66540,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "framework for the PV industry, setting a mandatory energy intensity "
             "limit for the monocrystalline silicon segment for the first time."
         ),
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
         "Administrating authorities": (
             "State Administration for Market Regulation; "
             "Standardization Administration of China"
@@ -66991,7 +66649,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "It was revised in 2023 into the Energy Efficiency Benchmark and Baseline Levels for Key Industrial Sectors (2023 Edition) (Fa Gai Chan Ye [2023] No. 723, issued 6 June 2023, published 4 July 2023), jointly issued by the same five departments, expanding to 36 key sectors by adding 11 new sectors (ethylene glycol, urea, titanium dioxide, polyvinyl chloride, purified terephthalic acid, radial tyres, industrial silicon, tissue paper base / napkin base, cotton / chemical fibre and blended woven fabrics, knitted fabrics / yarn, viscose staple fibre), with deadlines of end of 2025 for the original sectors and end of 2026 for the newly added sectors. "
             "Supporting policies include medium- and long-term loans, green credit, green bonds, climate investment and financing, tiered electricity pricing, industrial energy conservation supervision, environmental protection supervision and law enforcement, and tax incentives, driving energy conservation and carbon reduction in industry through tiered management and deadline-driven upgrading."
         ),
-        "Objective": "Energy conservation; Climate change mitigation; Energy efficiency; Industrial development",
+        "Objective": "Energy efficiency; Climate change mitigation; Industrial development",
         "Last revisions (Details)": (
             "First established on 15 November 2021 as the Energy Efficiency Benchmark and Baseline Levels for Key Areas in Energy-Intensive Industries (2021 Edition) (Fa Gai Chan Ye [2021] No. 1609, jointly issued by five departments, effective 1 January 2022), framed by the Several Opinions on Strictly Enforcing Energy Efficiency Constraints to Promote Energy Conservation and Carbon Reduction in Key Areas (Fa Gai Chan Ye [2021] No. 1464, issued 18 October 2021), covering 25 key sectors. "
             "Revised in 2023 into the Energy Efficiency Benchmark and Baseline Levels for Key Industrial Sectors (2023 Edition) (Fa Gai Chan Ye [2023] No. 723, issued 6 June 2023, published 4 July 2023), jointly issued by the same five departments, expanded to 36 key sectors with 11 newly added, setting two tiered deadlines for upgrade (end of 2025 and end of 2026), and simultaneously repealing the 2021 edition."
@@ -67088,7 +66746,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency; Electrification",
 
 
         "Administrating authorities": (
@@ -67400,7 +67058,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -67721,7 +67379,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -68018,7 +67676,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -68333,7 +67991,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy efficiency; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -68627,7 +68285,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Public health; Energy conservation",
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -68669,7 +68327,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Asset (Cut-off range)": "N/A",
 
 
-        "Agent": "Firms; Individuals",
+        "Agent": "Households; Firms",
 
 
         "Agent (Detail)": (
@@ -68984,13 +68642,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation; Energy security"
-
-
-        ),
+        "Objective": "Energy efficiency; Energy security",
 
 
         "Administrating authorities": (
@@ -70259,13 +69911,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy efficiency; Energy conservation; Energy security"
-
-
-        ),
+        "Objective": "Energy efficiency; Energy security",
 
 
         "Administrating authorities": (
@@ -73715,13 +73361,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Renewable energy development; Energy security"
-
-
-        ),
+        "Objective": "Non-fossil energy; Energy security",
 
 
         "Administrating authorities": (
@@ -74332,13 +73972,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Circular economy; Resource conservation"
-
-
-        ),
+        "Objective": "Circular economy",
 
 
         "Administrating authorities": (
@@ -74905,13 +74539,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Circular economy; Resource conservation; Pollution control"
-
-
-        ),
+        "Objective": "Circular economy; Pollution control",
 
 
         "Administrating authorities": (
@@ -75550,13 +75178,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Circular economy; Resource conservation"
-
-
-        ),
+        "Objective": "Circular economy",
 
 
         "Administrating authorities": (
@@ -77625,7 +77247,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Ecological protection; Biodiversity conservation; Climate change mitigation",
+        "Objective": "Ecological protection; Climate change mitigation",
 
 
         "Asset": "Natural forests",
@@ -77658,7 +77280,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Agent": "Forestry management entities; local government forestry authorities",
+        "Agent": "Firms; Governments",
 
 
         "Agent (Detail)": (
@@ -78072,7 +77694,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Agent": "Grassland contract operators; grassland users",
+        "Agent": "Households; Firms",
 
 
         "Agent (Detail)": (
@@ -78474,7 +78096,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Ecological protection; Biodiversity conservation; Climate change mitigation",
+        "Objective": "Ecological protection; Climate change mitigation",
 
 
         "Asset": "Wetlands",
@@ -78519,7 +78141,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Agent": "Local government wetland protection authorities; wetland occupiers",
+        "Agent": "Firms; Governments",
 
 
         "Agent (Detail)": (
@@ -79065,7 +78687,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Agent": "Local governments; Enterprises; Individuals",
+        "Agent": "Households; Firms; Governments",
 
 
         "Agent (Detail)": (
@@ -79821,7 +79443,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Agent": "Local governments",
+        "Agent": "Governments",
 
 
         "Agent (Detail)": (
@@ -80622,7 +80244,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Agent": "Enterprises; Public institutions",
+        "Agent": "Firms; Governments",
 
 
         "Agent (Detail)": (
@@ -81366,13 +80988,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy conservation; Information disclosure; Green economy"
-
-
-        ),
+        "Objective": "Energy efficiency; Information disclosure; Green economy",
 
 
         "Administrating authorities": (
@@ -81933,13 +81549,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy conservation"
-
-
-        ),
+        "Objective": "Energy efficiency",
 
 
         "Administrating authorities": (
@@ -81990,7 +81600,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Agent": "Public institutions (state organs, public institutions and civil organisations)",
+        "Agent": "Governments",
 
 
         "Agent (Detail)": (
@@ -83127,13 +82737,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy conservation; Information disclosure; Green consumption"
-
-
-        ),
+        "Objective": "Energy efficiency; Information disclosure; Green consumption",
 
 
         "Administrating authorities": (
@@ -83757,13 +83361,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy conservation; Green consumption; Information disclosure"
-
-
-        ),
+        "Objective": "Energy efficiency; Green consumption; Information disclosure",
 
 
         "Administrating authorities": (
@@ -85019,13 +84617,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Information disclosure; Green economy"
-
-
-        ),
+        "Objective": "Information disclosure; Green economy; Green finance",
 
 
         "Administrating authorities": (
@@ -85607,13 +85199,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Information disclosure; Green economy"
-
-
-        ),
+        "Objective": "Information disclosure; Green economy; Green finance",
 
 
         "Administrating authorities": (
@@ -86108,13 +85694,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Information disclosure; Green economy"
-
-
-        ),
+        "Objective": "Information disclosure; Green economy; Green finance",
 
 
         "Administrating authorities": (
@@ -86714,13 +86294,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy conservation; Technological innovation; Climate change mitigation"
-
-
-        ),
+        "Objective": "Energy efficiency; Technological innovation; Climate change mitigation",
 
 
         "Administrating authorities": (
@@ -88382,13 +87956,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Resource conservation; Circular economy; Technological innovation"
-
-
-        ),
+        "Objective": "Circular economy; Technological innovation",
 
 
         "Administrating authorities": (
@@ -88922,13 +88490,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Energy conservation; Energy security; Technological innovation"
-
-
-        ),
+        "Objective": "Energy efficiency; Energy security; Technological innovation; Electrification",
 
 
         "Administrating authorities": (
@@ -90469,11 +90031,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         ),
 
-        "Objective": (
-
-            "Technological innovation; Energy conservation; Climate change mitigation"
-
-        ),
+        "Objective": "Technological innovation; Energy efficiency; Climate change mitigation",
 
         "Administrating authorities": "Ministry of Industry and Information Technology (Department of Energy Conservation and Comprehensive Utilisation)",
 
@@ -90503,7 +90061,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         ),
 
-        "Agent": "Enterprises",
+        "Agent": "Firms",
 
         "Agent (Detail)": (
 
@@ -90794,11 +90352,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         ),
 
-        "Objective": (
-
-            "Energy efficiency; Energy conservation; Climate change mitigation; Industrial development"
-
-        ),
+        "Objective": "Energy efficiency; Climate change mitigation; Industrial development",
 
         "Administrating authorities": (
 
@@ -90830,7 +90384,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         ),
 
-        "Agent": "Enterprises",
+        "Agent": "Firms",
 
         "Agent (Detail)": (
 
@@ -91108,11 +90662,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         ),
 
-        "Objective": (
-
-            "Renewable energy development; Energy efficiency; Climate change mitigation"
-
-        ),
+        "Objective": "Non-fossil energy; Energy efficiency; Climate change mitigation",
 
         "Administrating authorities": (
 
@@ -91156,7 +90706,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         ),
 
-        "Agent": "Enterprises",
+        "Agent": "Firms",
 
         "Agent (Detail)": (
 
@@ -91446,7 +90996,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "models. The Guidance is advisory in nature and does not directly "
             "regulate physical emission assets."
         ),
-        "Agent": "Enterprises",
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Agricultural enterprises and agricultural production and "
             "operation entities (including crop farming, livestock and "
@@ -91583,9 +91133,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "green design solutions. It also puts forward six "
             "implementation pathways."
         ),
-                "Objective": (
-            "Resource conservation; Pollution control; Climate change mitigation"
-        ),
+                "Objective": "Circular economy; Pollution control; Climate change mitigation",
         "Administrating authorities": (
             "Ministry of Industry and Information Technology (Department "
             "of Energy Conservation and Comprehensive Utilisation); "
@@ -91604,7 +91152,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "and voluntary in nature and does not directly regulate "
             "physical emission assets."
         ),
-        "Agent": "Enterprises",
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Industrial enterprises (particularly manufacturing product "
             "design and production enterprises); green design solution "
@@ -91753,7 +91301,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "management nature and does not directly regulate physical "
             "emission assets."
         ),
-        "Agent": "Enterprises",
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Manufacturing enterprises (voluntarily applying for green "
             "factory evaluation and recognition); third-party evaluation "
@@ -92199,7 +91747,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "practice through non-mandatory means such as knowledge dissemination "
             "and behavioural advocacy."
         ),
-        "Agent": "General public; Enterprises; Public institutions",
+        "Agent": "Households; Firms; Governments",
         "Agent (Detail)": (
             "Urban residents and households (waste sorting at source); government "
             "agencies, enterprises, public institutions, schools and social "
@@ -92780,9 +92328,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "transport and public institutions. After the event, local authorities "
             "and departments submit activity summaries to the NDRC and MEE."
         ),
-        "Objective": (
-            "Public awareness; Energy conservation"
-        ),
+        "Objective": "Public awareness; Energy efficiency",
         "Administrating authorities": (
             "National Development and Reform Commission; Ministry of Ecology "
             "and Environment; jointly with the Ministry of Education, the "
@@ -92809,7 +92355,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "means such as energy conservation knowledge dissemination, "
             "technology demonstration and experience sharing."
         ),
-        "Agent": "General public; Enterprises; Public institutions",
+        "Agent": "Households; Firms; Governments",
         "Agent (Detail)": (
             "All types of energy-using entities across society, including "
             "industrial production enterprises, building operators, transport "
@@ -92988,7 +92534,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "through non-mandatory means such as climate change knowledge "
             "dissemination and low-carbon concept advocacy."
         ),
-        "Agent": "General public; Enterprises; Public institutions",
+        "Agent": "Households; Firms; Governments",
         "Agent (Detail)": (
             "All types of entities across society, including industrial "
             "enterprises, building operators, transport enterprises, public "
@@ -93161,7 +92707,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "transport priority concept, green travel advocacy and public "
             "experience activities."
         ),
-        "Agent": "General public; Enterprises; Public institutions",
+        "Agent": "Households; Firms; Governments",
         "Agent (Detail)": (
             "Urban residents and travellers (public transport and green travel "
             "mode users); public transport operators (bus, metro and other "
@@ -93587,7 +93133,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "standards. Each specific standard has its own independent legal force "
             "and scope of application."
         ),
-        "Agent": "Enterprises (users of standards); standardisation technical bodies (developers of standards)",
+        "Agent": "Firms; Governments",
         "Agent (Detail)": (
             "The development of green manufacturing standards is undertaken by "
             "the National Technical Committee on Green Manufacturing Technology "
@@ -93753,7 +93299,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "disclose climate change-related topics including GHG emissions, "
             "climate risks and opportunities, and transition plans."
         ),
-        "Agent": "Corporations",
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Companies listed on the SSE, SZSE and BSE. Among these, "
             "constituents of the SSE 180 Index, STAR 50 Index, SZSE 100 "
@@ -93929,9 +93475,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Change Strategy and International Cooperation, and Tsinghua "
             "University."
         ),
-        "Objective": (
-            "Capacity building; Climate change mitigation"
-        ),
+        "Objective": "Climate change mitigation",
         "Administrating authorities": (
             "Ministry of Human Resources and Social Security; Ministry "
             "of Ecology and Environment"
@@ -93949,7 +93493,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "management of GHG emissions by standardising the skill level "
             "of practitioners."
         ),
-        "Agent": "General public",
+        "Agent": "Households",
         "Agent (Detail)": (
             "Persons intending to engage in carbon emission management-"
             "related work (including carbon emission monitoring, "
@@ -94151,7 +93695,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "talent through the education system, indirectly supporting "
             "society-wide GHG emission reductions."
         ),
-        "Agent": "General public",
+        "Agent": "Households",
         "Agent (Detail)": (
             "Education administrative departments at all levels, "
             "universities, primary and secondary schools and "
