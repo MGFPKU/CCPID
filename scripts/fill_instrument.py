@@ -308,7 +308,10 @@ def load_xlsx_row_headers(path: Path, row_number: int = 2) -> dict[str, list[str
                         value = shared_strings[int(value)]
                 values_by_index[cell_ref_column(cell.attrib.get("r", ""))] = value
             max_index = max(values_by_index, default=0)
-            headers_by_sheet[sheet_name] = [values_by_index.get(index, "") for index in range(1, max_index + 1)]
+            headers = [values_by_index.get(index, "") for index in range(1, max_index + 1)]
+            while headers and headers[-1] == "":
+                headers.pop()
+            headers_by_sheet[sheet_name] = headers
     return headers_by_sheet
 
 

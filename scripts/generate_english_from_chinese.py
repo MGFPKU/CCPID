@@ -98159,6 +98159,193 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
+# ETS 2025/2026 allowance allocation plan updates (Guo Huan Gui Qi Hou
+# [2026] No. 1, issued 2026-09-02). Kept as a separate overlay so the long
+# translated values remain easy to review; merged into ROW_TRANSLATIONS below.
+_ETS_PLAN_OVERRIDES: dict[str, dict[str, str]] = {
+    "CHNTRAETSI01S000": {
+        "Legal statute": (
+            "Interim Regulations on the Administration of Carbon Emission "
+            "Allowance Trading; Measures for the Administration of Carbon "
+            "Emission Allowance Trading (Trial); Ecological Environment Code "
+            "of the People's Republic of China"
+        ),
+        "Trading System: penalties for non-compliance": (
+            "Failure to surrender allowances in full and on time: ordered to "
+            "rectify and fined CNY 20,000-30,000. Under the Ecological "
+            "Environment Code of the People's Republic of China (effective "
+            "15 August 2026), ecology and environment authorities no longer "
+            "make new deduction decisions for failure to surrender allowances "
+            "in full; deduction decisions made before the Code took effect "
+            "continue to be implemented; key emitting entities that refuse to "
+            "rectify in cases such as fraud remain subject to the "
+            "equal-amount deduction rule under the Interim Regulations on the "
+            "Administration of Carbon Emission Allowance Trading. False "
+            "reporting, concealing or refusing to fulfil emission reporting "
+            "obligations: fined CNY 10,000-30,000, and the false or concealed "
+            "portion may be deducted in equal amount from the next year's "
+            "allowance allocation."
+        ),
+    },
+    "CHNTRAETSI01S001": {
+        "Last revisions": "02/09/2026",
+        "Last revisions (Details)": (
+            "On 2 September 2026, the Ministry of Ecology and Environment "
+            "issued the Plan for the Total Allowance Volume and Allocation of "
+            "the National Carbon Emission Trading Market for the Power "
+            "Generation Sector in 2025 and 2026 and for the Steel, Cement and "
+            "Aluminum Smelting Sectors in 2026 (Guo Huan Gui Qi Hou [2026] "
+            "No. 1), covering allowance allocation for the power generation "
+            "sector for 2025 and 2026 with dynamically adjusted benchmarks. "
+            "Key emitting entities must surrender allowances for the previous "
+            "year by 31 December each year. Allowances for 2019-2024 cannot "
+            "be used for surrender in 2025 and subsequent years; allowances "
+            "for 2019-2026 may be used to settle outstanding surrenders for "
+            "2019-2024."
+        ),
+        "Trading System: allowance mechanism": (
+            "Carbon emission intensity benchmark method. 2025/2026 power "
+            "generation benchmarks (tCO2/MWh): conventional coal-fired units "
+            "above 300 MW class 0.7902/0.7894, conventional coal-fired units "
+            "at or below 300 MW class 0.8017/0.7985, unconventional "
+            "coal-fired units (including circulating fluidized bed units) "
+            "0.8162/0.8080, gas-fired units 0.3288/0.3288; heat supply "
+            "benchmarks (tCO2/GJ): coal-fired 0.1027/0.1021, gas-fired "
+            "0.0533/0.0533. A new peak-shaving adjustment factor applies to "
+            "conventional coal-fired units: when the load factor F<50%, the "
+            "factor is 7.254-0.633x(1-e^(-F/29.822))-5.643x(1-e^(-F/6.871)); "
+            "when F>=50%, the factor is 1. Pre-allocation is in principle 50% "
+            "of the previous year's verified emissions; gas-fired units are "
+            "exempted at the unit level (supplemented to verified emissions "
+            "when the initial allowance is lower); a 20% compliance "
+            "shortfall-rate cap exemption applies at the key emitting entity "
+            "level (supplemented to 80% of verified emissions when the "
+            "initial allowance is lower). (Source: Guo Huan Gui Qi Hou [2026] "
+            "No. 1)"
+        ),
+        "Trading System: Free Allowance": (
+            "Fully free allocation for 2025 and 2026 (based on carbon "
+            "emission intensity control), laying the foundation for the "
+            "orderly introduction of a combined free and paid allocation "
+            "approach in subsequent years. (Source: Guo Huan Gui Qi Hou "
+            "[2026] No. 1)"
+        ),
+        "Trading System: Offset use allowed": (
+            "Allowed. CCERs registered after the launch of the national "
+            "voluntary GHG emission reduction trading market on 22 January "
+            "2024 may be used to offset allowance surrender for 2025 and "
+            "2026, capped at 5% of allowances due. Emission reduction "
+            "projects already covered by the national carbon market "
+            "allowance management cannot be used for offsetting."
+        ),
+        "Legal statute": (
+            "Notice on allocation and surrender work for the national carbon "
+            "emission trading power generation sector allowances for 2023 and "
+            "2024; Plan for the Total Allowance Volume and Allocation of the "
+            "National Carbon Emission Trading Market for the Power Generation "
+            "Sector in 2025 and 2026 and for the Steel, Cement and Aluminum "
+            "Smelting Sectors in 2026"
+        ),
+        "Legal document": (
+            "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202609/"
+            "t20260903_1165029.html"
+        ),
+    },
+    "CHNTRAETSI01S002": {
+        "Last revisions": "02/09/2026",
+        "Last revisions (Details)": (
+            "On 2 September 2026, the Ministry of Ecology and Environment "
+            "issued the Plan for the Total Allowance Volume and Allocation of "
+            "the National Carbon Emission Trading Market for the Power "
+            "Generation Sector in 2025 and 2026 and for the Steel, Cement and "
+            "Aluminum Smelting Sectors in 2026 (Guo Huan Gui Qi Hou [2026] "
+            "No. 1). The steel sector continues to use the carbon emission "
+            "intensity coefficient method for 2026, with the allocation "
+            "method unchanged from 2025; pre-allocation is in principle 50% "
+            "of the previous year's verified emissions."
+        ),
+        "Trading System: allowance mechanism": (
+            "Carbon emission intensity coefficient method. The 2026 carbon "
+            "emission intensity coefficient a is determined by the deviation "
+            "rate X: a=0.15X when -20%<X<20%, a=0.03 when X>=20%, a=-0.03 "
+            "when X<=-20%. The steel sector balance value is available via "
+            "the national carbon market management platform. (Source: Guo "
+            "Huan Gui Qi Hou [2026] No. 1)"
+        ),
+        "Trading System: Offset use allowed": (
+            "Allowed. CCERs registered after the launch of the national "
+            "voluntary GHG emission reduction trading market on 22 January "
+            "2024 may be used to offset allowance surrender for 2026, capped "
+            "at 5% of allowances due. Emission reduction projects already "
+            "covered by the national carbon market allowance management "
+            "cannot be used for offsetting."
+        ),
+    },
+    "CHNTRAETSI01S003": {
+        "Last revisions": "02/09/2026",
+        "Last revisions (Details)": (
+            "On 2 September 2026, the Ministry of Ecology and Environment "
+            "issued the Plan for the Total Allowance Volume and Allocation of "
+            "the National Carbon Emission Trading Market for the Power "
+            "Generation Sector in 2025 and 2026 and for the Steel, Cement and "
+            "Aluminum Smelting Sectors in 2026 (Guo Huan Gui Qi Hou [2026] "
+            "No. 1). The cement sector continues to use the carbon emission "
+            "intensity coefficient method for 2026, with the allocation "
+            "method unchanged from 2025; pre-allocation is in principle 50% "
+            "of the previous year's verified emissions."
+        ),
+        "Trading System: allowance mechanism": (
+            "Carbon emission intensity coefficient method. The 2026 carbon "
+            "emission intensity coefficient a is determined by the deviation "
+            "rate X: a=0.15X when -20%<X<20%, a=0.03 when X>=20%, a=-0.03 "
+            "when X<=-20%. The cement sector balance value is available via "
+            "the national carbon market management platform. (Source: Guo "
+            "Huan Gui Qi Hou [2026] No. 1)"
+        ),
+        "Trading System: Offset use allowed": (
+            "Allowed. CCERs registered after the launch of the national "
+            "voluntary GHG emission reduction trading market on 22 January "
+            "2024 may be used to offset allowance surrender for 2026, capped "
+            "at 5% of allowances due. Emission reduction projects already "
+            "covered by the national carbon market allowance management "
+            "cannot be used for offsetting."
+        ),
+    },
+    "CHNTRAETSI01S004": {
+        "Last revisions": "02/09/2026",
+        "Last revisions (Details)": (
+            "On 2 September 2026, the Ministry of Ecology and Environment "
+            "issued the Plan for the Total Allowance Volume and Allocation of "
+            "the National Carbon Emission Trading Market for the Power "
+            "Generation Sector in 2025 and 2026 and for the Steel, Cement and "
+            "Aluminum Smelting Sectors in 2026 (Guo Huan Gui Qi Hou [2026] "
+            "No. 1). The aluminum smelting sector continues to use the carbon "
+            "emission intensity coefficient method for 2026, with the "
+            "allocation method unchanged from 2025; pre-allocation is in "
+            "principle 50% of the previous year's verified emissions."
+        ),
+        "Trading System: allowance mechanism": (
+            "Carbon emission intensity coefficient method. The 2026 carbon "
+            "emission intensity coefficient a is determined by the deviation "
+            "rate X: a=0.15X when -20%<X<20%, a=0.03 when X>=20%, a=-0.03 "
+            "when X<=-20%. The aluminum smelting sector balance value is "
+            "available via the national carbon market management platform. "
+            "(Source: Guo Huan Gui Qi Hou [2026] No. 1)"
+        ),
+        "Trading System: Offset use allowed": (
+            "Allowed. CCERs registered after the launch of the national "
+            "voluntary GHG emission reduction trading market on 22 January "
+            "2024 may be used to offset allowance surrender for 2026, capped "
+            "at 5% of allowances due. Emission reduction projects already "
+            "covered by the national carbon market allowance management "
+            "cannot be used for offsetting."
+        ),
+    },
+}
+for _iid, _overrides in _ETS_PLAN_OVERRIDES.items():
+    ROW_TRANSLATIONS.setdefault(_iid, {}).update(_overrides)
+
+
 def load_cn_to_en_headers() -> dict[str, str]:
 
 
