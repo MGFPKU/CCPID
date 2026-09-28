@@ -53,6 +53,9 @@ API_CACHE = CCND_DIR / "api_cache.json"
 API_URL = "https://ccnt.igdp.cn/api/v1/policies/all?locale=zh"
 CACHE_MAX_AGE = 6 * 3600
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) CCPID-update-checker"}
+# The system proxy (127.0.0.1:7078) resets connections to ccnt.igdp.cn during the
+# TLS handshake, so always fetch directly instead of honoring registry proxy settings.
+NO_PROXY_OPENER = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 
 
 def log(msg):
@@ -66,7 +69,7 @@ def fetch_policies(force=False):
         if age < CACHE_MAX_AGE:
             return json.loads(API_CACHE.read_text(encoding="utf-8"))
     req = urllib.request.Request(API_URL, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=120) as resp:
+    with NO_PROXY_OPENER.open(req, timeout=120) as resp:
         raw = resp.read()
     API_CACHE.write_bytes(raw)
     return json.loads(raw.decode("utf-8"))
@@ -182,7 +185,7 @@ def download_doc(item, idx):
     ext = os.path.splitext(urlparse(link).path)[1].lower()
     req = urllib.request.Request(link, headers=HEADERS)
     try:
-        with urllib.request.urlopen(req, timeout=90) as resp:
+        with NO_PROXY_OPENER.open(req, timeout=90) as resp:
             raw = resp.read()
             ctype = (resp.headers.get("Content-Type") or "").lower()
     except Exception as e:
