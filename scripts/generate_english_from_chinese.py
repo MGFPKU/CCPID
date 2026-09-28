@@ -943,171 +943,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Trading System: Type": (
-
-
-            "Carbon emission allowance trading system; trading methods include "
-
-
-            "agreement transfer, one-way bidding or other compliant methods."
-
-
-        ),
-
-
-        "Trading System: cap": (
-
-
-            "The Ministry of Ecology and Environment formulates the total allowance "
-
-
-            "volume and allocation plan according to national GHG control "
-
-
-            "requirements and factors such as economic growth, industrial "
-
-
-            "restructuring, energy mix optimisation and coordinated air-pollution "
-
-
-            "control. The legal text does not specify a fixed absolute cap value."
-
-
-        ),
-
-
-        "Trading System: allowance mechanism": (
-
-
-            "The Ministry of Ecology and Environment formulates total allowance "
-
-
-            "volume and allocation plans; provincial ecology and environment "
-
-
-            "authorities allocate annual allowances to key emitting entities. "
-
-
-            "Allocation is mainly free allocation, with paid allocation possible "
-
-
-            "at an appropriate time according to national requirements."
-
-
-        ),
-
-
-        "Trading System: Free Allowance": (
-
-
-            "Mainly free allocation; paid allocation may be introduced at an "
-
-
-            "appropriate time according to national requirements. The specific "
-
-
-            "free-allocation share is not found in this legal text."
-
-
-        ),
-
-
-        "Trading System: Offset use allowed": (
-
-
-            "Yes. China Certified Emission Reductions may be used to offset "
-
-
-            "allowance surrender, with offsets capped at 5% of allowances due for "
-
-
-            "surrender. Emission-reduction projects already covered by national "
-
-
-            "carbon market allowance management cannot be used for offsets."
-
-
-        ),
-
-
-        "Trading System: market stabilisation mechanism": (
-
-
-            "The trading institution must take effective measures to prevent "
-
-
-            "excessive speculation and maintain healthy market development; the "
-
-
-            "registration and trading institutions must establish risk management "
-
-
-            "and information disclosure systems. Allowances voluntarily cancelled "
-
-
-            "for public-interest purposes are deducted one-for-one from the "
-
-
-            "national allowance total."
-
-
-        ),
-
-
-        "Trading System: revenue (annual)": (
-
-
-            "CNY 18.11 billion (2024 annual transaction value; source: Ministry "
-
-
-            "of Ecology and Environment, Progress Report of China's National "
-
-
-            "Carbon Market (2025))"
-
-
-        ),
-
-
-        "Trading System: Volume": (
-
-
-            "189 million tonnes (2024; source: Ministry of Ecology and Environment, "
-
-
-            "Progress Report of China's National Carbon Market (2025))"
-
-
-        ),
-
-
-        "Trading System: penalties for non-compliance": (
-
-
-            "Failure to surrender allowances fully and on time: order to correct "
-
-
-            "and fine of CNY 20,000-30,000; if not corrected by the deadline, the "
-
-
-            "shortfall is deducted one-for-one from the next year's allowance "
-
-
-            "allocation. False reporting, concealment or refusal to perform "
-
-
-            "emissions reporting obligations: fine of CNY 10,000-30,000, and the "
-
-
-            "falsely reported or concealed amount may be deducted one-for-one from "
-
-
-            "the next year's allowance allocation."
-
-
-        ),
-
-
         "GHG emission coverage (absolute)": (
 
 
@@ -1151,14 +986,12 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Legal document": "https://www.gov.cn/zhengce/content/202402/content_6930137.htm",
+        "Other weblinks": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk02/202101/t20210105_816131.html; https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202503/t20250326_1104736.html; https://www.mee.gov.cn/ywgz/ydqhbh/wsqtkz/202509/W020250927515319387445.pdf; https://icapcarbonaction.com/en/ets/china-national-ets; https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202609/t20260903_1165029.html; https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202609/W020260903551498752549.pdf; https://flk.npc.gov.cn/detail?title=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E7%94%9F%E6%80%81%E7%8E%AF%E5%A2%83%E6%B3%95%E5%85%B8&id=96630961659b4d87a65b7b1c595097fa; https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20628",
 
 
         "Intensity (Value)": "69.30",
         "Intensity (Unit)": "CNY/tonne",
-        "Trading System: Type": (
-            "Carbon emission allowance trading system. Trading methods include agreement transfer, one-way"
-            "bidding and other prescribed methods."
-        ),
+        "Trading System: Type": "Carbon emission allowance trading system. Trading methods include agreement transfer, one-way bidding and other prescribed methods. From May 2026, carbon emission trading fees are subject to government-guided price administration (NDRC Price [2026] No. 667): the ceiling fee standard is determined by the provincial development and reform authority where the trading institution is located, in consultation with the provincial development and reform authority where the registration institution is located, based on the cost-recovery principle; fees are collected uniformly at the trading stage from entities trading within the market; and the assessment cycle in principle does not exceed three years.",
         "Trading System: cap": (
             "The Ministry of Ecology and Environment formulates the total allowance determination and allocation"
             "plan based on national GHG emission control requirements, taking into account economic growth,"
@@ -74305,6 +74138,62 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
+    "CHNFRMRPDI02S000": {
+
+        "Policy Instrument ID": "CHNFRMRPDI02S000",
+        "Instrument / subscheme": "Instrument",
+        "Group": "Framework regulation",
+        "Approach": "Renewable priority dispatch",
+        "Emission sector": "Energy",
+        "Sub-sector": "Electricity",
+        "Domestic instrument name": "多用户绿电直连制度",
+        "English instrument name": "Multi-user Green Power Direct Connection Scheme",
+        "Policy Package": "N/A",
+        "Description": "The multi-user green power direct connection scheme is an electricity market governance system under which renewable energy generation such as wind power, solar power and biomass power is not connected to the public grid but supplies green electricity directly to multiple users through dedicated lines and transformer facilities, with clear tracing and allocation of the supplied electricity. The scheme is established under the Notice on Orderly Promoting the Development of Green Power Direct Connection (Fa Gai Neng Yuan [2025] No. 650) and the Notice on Orderly Promoting the Development of Multi-user Green Power Direct Connection (Fa Gai Neng Yuan [2026] No. 688). Projects are divided into grid-connected type (connected to the public grid as a whole) and off-grid type. Under the 'load-based sourcing' principle, a project's annual self-generated and self-consumed electricity must account for no less than 60% of total available generation and no less than 30% of total electricity consumption (no less than 35% before 2030); for grid-connected projects, annual electricity fed into the grid may in principle not exceed 20% of total available generation. The project participates in the electricity spot market as a whole (initially on a 'quantity-only, no-price' basis). An hourly green electricity tracing mechanism is established, and green electricity certificates corresponding to the project's self-generated and self-consumed electricity are issued, transferred and cancelled in accordance with relevant provisions. The project and its internal resources are exempted from electricity business licensing. Priority support is given to computing facilities, green hydrogen/ammonia/methanol and other emerging and future industries in developing green power direct connection.",
+        "Objective": "Non-fossil energy",
+        "Mitigation relevance": "Direct",
+        "Jurisdiction level": "national",
+        "Jurisdiction name": "N/A",
+        "Adoption date": "21/05/2025",
+        "Start date": "21/05/2025",
+        "End date": "N/A",
+        "Last revisions": "14/05/2026",
+        "Last revisions (Details)": "On 21 May 2025, the National Development and Reform Commission and the National Energy Administration issued the Notice on Orderly Promoting the Development of Green Power Direct Connection (Fa Gai Neng Yuan [2025] No. 650), establishing the single-user green power direct connection scheme, requiring that a project's annual self-generated and self-consumed new energy electricity account for no less than 60% of total generation and no less than 30% of total electricity consumption, rising from 2025 to no less than 35% by 2030. On 14 May 2026, the Notice on Orderly Promoting the Development of Multi-user Green Power Direct Connection (Fa Gai Neng Yuan [2026] No. 688) extended green power direct connection to the multi-user model: specifying grid-connected and off-grid project types; defining multi-user as multiple distinct legal person entities (excluding residential and agricultural users); capping grid-connected projects' annual grid-fed electricity in principle at no more than 20% of total available generation; requiring projects in principle to participate in electricity market trading as a whole, initially participating in the electricity spot market on a 'quantity-only, no-price' basis; establishing hourly matching of new energy generation and consumption and a green electricity tracing mechanism; giving priority support to computing facilities, green hydrogen/ammonia/methanol and other emerging and future industries; and exempting projects and their internal resources from electricity business licensing (unless otherwise provided).",
+        "Status": "in force",
+        "Administrating authorities": "National Development and Reform Commission; National Energy Administration; provincial energy authorities; regional offices of the National Energy Administration; grid enterprises; electricity market operators",
+        "Asset": "Renewable energy generating units",
+        "Asset (Status)": "New; Existing",
+        "Asset (Details)": "Power sources of green power direct connection projects are renewable energy generating units such as wind power, solar power and biomass power, together with dedicated lines, transformer facilities, energy storage and the operating platform. New loads may form multi-user green power direct connection projects with supporting construction of new energy power sources; among existing loads, single-user green power direct connection projects may absorb other new loads with supporting expansion of new energy power sources; distributed photovoltaics may participate through centralised collection.",
+        "Asset (Other)": "N/A",
+        "Asset (Cut-off range)": "Annual self-generated and self-consumed electricity no less than 60% of total available generation; no less than 30% of total electricity consumption (no less than 35% before 2030); for grid-connected projects, annual grid-fed electricity in principle no more than 20% of total available generation",
+        "Agent": "Firms",
+        "Agent (Detail)": "The project's responsible entity (with legal person status, in principle established as a joint venture between the power source side and the load side, or invested and established by one side alone; in the industrial park model it may be invested and established by the park administrative committee or a third-party institution) bears responsibility for project construction, operation, internal settlement and balancing. Multi-user means multiple distinct legal person entities, excluding residential and agricultural users. Enterprises with green electricity consumption ratio requirements, key energy-consuming and carbon-emitting enterprises, export-oriented enterprises and the like may use surrounding new energy resources to develop multi-user green power direct connection.",
+        "Activity": "New construction; Operation",
+        "Activity (Details)": "New construction (planning, investment, construction) and operation (responsibility interface management, safe operation, internal adjustment and settlement, electricity market trading, green electricity tracing) activities of green power direct connection projects. Project installed capacity is planned under the 'load-based sourcing' principle; grid-connected projects settle electricity charges with the public grid as a whole and fairly bear transmission and distribution charges, system operation charges, policy cross-subsidies and other costs; the project's new energy generation is not included in the new energy sustainable development price settlement mechanism.",
+        "Intensity (Value)": "60",
+        "Intensity (Unit)": "% (minimum share of annual self-generated and self-consumed electricity in total available generation)",
+        "Intensity (Details)": "Annual self-generated and self-consumed electricity accounts for no less than 60% of total available generation and no less than 30% of total electricity consumption (no less than 35% before 2030); for grid-connected projects, annual grid-fed electricity in principle does not exceed 20% of total available generation (specific ratios may be determined by provincial energy authorities based on local conditions).",
+        "Requirement specification": "1) Projects shall reasonably plan new energy installed capacity under the 'load-based sourcing' principle; annual self-generated and self-consumed electricity shall account for no less than 60% of total available generation and no less than 30% of total electricity consumption (no less than 35% before 2030); 2) for grid-connected projects, annual grid-fed electricity shall in principle not exceed 20% of total available generation, and no electricity shall be fed back to the public grid during periods of difficulty in absorbing new energy; 3) projects shall in principle participate in electricity market trading as a whole (initially participating in the spot market on a 'quantity-only, no-price' basis) and shall not have electricity purchased on their behalf by grid enterprises; 4) projects shall meet separate metering conditions and establish an hourly green electricity tracing mechanism, with green electricity certificates corresponding to self-generated and self-consumed electricity issued, transferred and cancelled in accordance with relevant provisions; 5) projects and their internal resources are exempted from electricity business licensing (unless otherwise provided); 6) enterprises are strictly prohibited from carrying out illegal or non-compliant activities through green power direct connection.",
+        "Compliance calculation methodology I": "N/A",
+        "Compliance calculation methodology II": "N/A",
+        "Compliance monitoring": "Information reporting; Energy regulatory agency supervision and inspection",
+        "Compliance monitoring details": "Provincial energy authorities organise qualified third-party institutions to review project proposals, track and monitor project operation in a timely manner, strengthen safety supervision of project construction and operation, and specify exit mechanisms for project power sources, loads, connection lines and transformer facilities. Regional offices of the National Energy Administration strengthen supervision in accordance with their responsibilities and track project construction and policy implementation within their jurisdictions in a timely manner. Grid enterprises calculate green electricity tracing results based on metering data and, after verification as required, push them to the national green electricity certificate issuance and trading system.",
+        "Compliance enforcement": "Other",
+        "Compliance enforcement details": "Provincial energy authorities specify project exit mechanisms based on provincial conditions; where grid connection capacity changes after project completion, system access assessment and other procedures shall be performed anew; new energy generation capacity added within a project shall be approved by provincial energy authorities and included in the new energy generation development and construction plan; activities violating national industrial policy or using green power direct connection for illegal or non-compliant purposes are handled in accordance with the law.",
+        "Compliance promotion": "GEC trading revenue; Exemption from electricity business licensing",
+        "Compliance promotion detail": "The project's self-generated and self-consumed electricity is recognised as green electricity consumption through the issuance and transfer of green electricity certificates, supporting enterprises in meeting green electricity consumption ratio requirements; the project and its internal resources are exempted from electricity business licensing, lowering entry barriers; priority support is given to computing facilities, green hydrogen/ammonia/methanol and other emerging and future industries in developing green power direct connection.",
+        "GHG emission coverage (absolute)": "N/A",
+        "GHG emission coverage (% domestic emissions)": "N/A",
+        "Economic sector": "D35",
+        "GHGs affected": "CO2",
+        "Mitigation effects": "Positive",
+        "Mitigation co-benefits": "Renewable energy development; Energy security; Industrial development",
+        "Legal statute": "Notice on Orderly Promoting the Development of Multi-user Green Power Direct Connection (Fa Gai Neng Yuan [2026] No. 688); Notice on Orderly Promoting the Development of Green Power Direct Connection (Fa Gai Neng Yuan [2025] No. 650)",
+        "Legal document": "https://www.ndrc.gov.cn/xwdt/tzgg/202605/t20260520_1405314.html",
+        "Other weblinks": "Notice on Orderly Promoting the Development of Green Power Direct Connection (Fa Gai Neng Yuan [2025] No. 650): https://www.gov.cn/zhengce/zhengceku/202506/content_7026087.htm",
+    },
+
+
     "CHNFRMEPRI01S000": {
 
 
@@ -84441,124 +84330,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Policy Package": "ETS",
 
 
-        "Description": (
-
-
-            "The Greenhouse Gas Emissions Reporting and Verification System for Key "
-
-
-            "Industries was established under carbon emission trading management "
-
-
-            "regulations and is administered by the Ministry of Ecology and Environment "
-
-
-            "(formerly the National Development and Reform Commission). The system "
-
-
-            "requires key emission entities with annual greenhouse gas emissions of "
-
-
-            "26,000 tonnes of CO2 equivalent or more to calculate and report their "
-
-
-            "greenhouse gas emission data in accordance with unified technical "
-
-
-            "guidelines, and to undergo verification by third-party bodies. The system "
-
-
-            "covers electricity generation, iron and steel, cement, electrolytic "
-
-
-            "aluminium, petrochemicals, chemicals, paper and civil aviation sectors. "
-
-
-            "It comprises two interlinked components: (1) emission reporting — "
-
-
-            "enterprises must compile annual greenhouse gas emission reports in "
-
-
-            "accordance with sector-specific greenhouse gas emission accounting and "
-
-
-            "reporting guidelines, covering fossil fuel combustion emissions, "
-
-
-            "industrial process emissions, and indirect emissions from purchased "
-
-
-            "electricity and heat, and submit them through the National Carbon "
-
-
-            "Emission Trading Market Management Platform; (2) third-party verification "
-
-
-            "— provincial ecology and environment authorities commission qualified "
-
-
-            "independent third-party technical service bodies to verify enterprise "
-
-
-            "emission reports, covering accounting methodology compliance, activity "
-
-
-            "data accuracy, reasonableness of emission factors and correctness of "
-
-
-            "emission calculations, and issue verification conclusions and reports. "
-
-
-            "The system's origin dates to the 2014 Interim Measures for the "
-
-
-            "Administration of Carbon Emission Trading (NDRC Order No. 17), which "
-
-
-            "first established key emission entities' greenhouse gas emission reporting "
-
-
-            "and verification obligations; the 2020 Measures for the Administration of "
-
-
-            "Carbon Emission Trading (Trial) (MEE Order No. 19) further refined "
-
-
-            "reporting and verification procedures and technical requirements; the "
-
-
-            "2024 Interim Regulations on the Administration of Carbon Emission Trading "
-
-
-            "(State Council Order No. 775) elevated the emission reporting and "
-
-
-            "verification system to the State Council administrative regulation level, "
-
-
-            "specifying enterprise reporting obligations, third-party verifiers' legal "
-
-
-            "status, data quality legal responsibilities and penalties for violations. "
-
-
-            "Through emission reporting the system maps the greenhouse gas emission "
-
-
-            "baseline of key industries, and through third-party verification ensures "
-
-
-            "data quality, providing the data foundation for carbon emission allowance "
-
-
-            "allocation and compliance surrender, national greenhouse gas inventory "
-
-
-            "compilation and low-carbon development policy formulation."
-
-
-        ),
+        "Description": "The Greenhouse Gas Emissions Reporting and Verification System for Key Industries was established under carbon emission trading management regulations and is administered by the Ministry of Ecology and Environment (formerly the National Development and Reform Commission). The system requires key emission entities with annual greenhouse gas emissions of 26,000 tonnes of CO2 equivalent or more to calculate and report their greenhouse gas emission data in accordance with unified technical guidelines, and to undergo verification by third-party bodies. The system covers electricity generation, iron and steel, cement, electrolytic aluminium, petrochemicals, chemicals, building materials (flat glass), non-ferrous metals (copper smelting), paper and civil aviation and other key emitting sectors. It comprises two interlinked components: (1) emission reporting — enterprises must compile annual greenhouse gas emission reports in accordance with sector-specific greenhouse gas emission accounting and reporting guidelines, covering fossil fuel combustion emissions, industrial process emissions, and indirect emissions from purchased electricity and heat, and submit them through the National Carbon Emission Trading Market Management Platform; (2) third-party verification — provincial ecology and environment authorities commission qualified independent third-party technical service bodies to verify enterprise emission reports, covering accounting methodology compliance, activity data accuracy, reasonableness of emission factors and correctness of emission calculations, and issue verification conclusions and reports. The system's origin dates to the 2014 Interim Measures for the Administration of Carbon Emission Trading (NDRC Order No. 17), which first established key emission entities' greenhouse gas emission reporting and verification obligations; the 2020 Measures for the Administration of Carbon Emission Trading (Trial) (MEE Order No. 19) further refined reporting and verification procedures and technical requirements; the 2024 Interim Regulations on the Administration of Carbon Emission Trading (State Council Order No. 775) elevated the emission reporting and verification system to the State Council administrative regulation level, specifying enterprise reporting obligations, third-party verifiers' legal status, data quality legal responsibilities and penalties for violations. Through emission reporting the system maps the greenhouse gas emission baseline of key industries, and through third-party verification ensures data quality, providing the data foundation for carbon emission allowance allocation and compliance surrender, national greenhouse gas inventory compilation and low-carbon development policy formulation. On 27 January 2026, the General Office of the Ministry of Ecology and Environment issued the Notice on Effectively Conducting the Work Related to the 2026 National Carbon Emission Trading Market (MEE General Office Climate Letter [2026] No. 32), bringing enterprises in the petrochemicals, chemicals, building materials (flat glass), non-ferrous metals (copper smelting), paper and civil aviation sectors, as well as iron and steel and cement enterprises not yet included in the national carbon market key emitting entities list, into the scope of 2025 greenhouse gas emission reporting management, and promoting monthly digitalised record-keeping of carbon emission statistics and accounting data, in preparation for the expansion of the national carbon market.",
 
 
         "Objective": (
@@ -85098,100 +84870,18 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Legal statute": (
+        "Legal statute": "Notice on Effectively Conducting the 2023–2025 Greenhouse Gas Emission Reporting and Verification for Enterprises in Certain Key Industries; Notice on Effectively Conducting the Work Related to the 2026 National Carbon Emission Trading Market (MEE General Office Climate Letter [2026] No. 32)",
 
 
-            "Notice on Effectively Conducting the 2023–2025 Greenhouse Gas "
-
-
-            "Emission Reporting and Verification for Enterprises in Certain "
-
-
-            "Key Industries"
-
-
-        ),
-
-
-        "Other weblinks": (
-
-
-            "Interim Regulations on the Administration of Carbon Emission Trading "
-
-
-            "(State Council Order No. 775): "
-
-
-            "https://www.gov.cn/zhengce/content/202402/content_6929567.htm; "
-
-
-            "Measures for the Administration of Carbon Emission Trading (Trial) "
-
-
-            "(MEE Order No. 19): "
-
-
-            "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk02/202101/"
-
-
-            "t20210105_816131.html"
-
-
-        ),
+        "Other weblinks": "Interim Regulations on the Administration of Carbon Emission Trading (State Council Order No. 775): https://www.gov.cn/zhengce/content/202402/content_6929567.htm; Measures for the Administration of Carbon Emission Trading (Trial) (MEE Order No. 19): https://www.mee.gov.cn/xxgk2018/xxgk/xxgk02/202101/t20210105_816131.html; Notice on Effectively Conducting the Work Related to the 2026 National Carbon Emission Trading Market (MEE General Office Climate Letter [2026] No. 32): https://www.mee.gov.cn/xxgk2018/xxgk/xxgk06/202602/t20260209_1143900.html",
 
 
         "English instrument name": "Greenhouse Gas Emissions Reporting and Verification System for Key Industries",
 
 
-        "Last revisions (Details)": (
-
-
-            "System origin: on 10 December 2014 the Interim Measures for the "
-
-
-            "Administration of Carbon Emission Trading (NDRC Order No. 17, effective "
-
-
-            "9 January 2015) first established key emission entities' greenhouse gas "
-
-
-            "emission reporting and verification obligations. On 31 December 2020 the "
-
-
-            "Measures for the Administration of Carbon Emission Trading (Trial) (MEE "
-
-
-            "Order No. 19, effective 1 February 2021) further refined reporting and "
-
-
-            "verification procedures, expanded covered sectors and specified technical "
-
-
-            "requirements, accompanied by sector-specific greenhouse gas emission "
-
-
-            "accounting and reporting guidelines. On 25 January 2024 the Interim "
-
-
-            "Regulations on the Administration of Carbon Emission Trading (State "
-
-
-            "Council Order No. 775, effective 1 May 2024) elevated the emission "
-
-
-            "reporting and verification system to the State Council administrative "
-
-
-            "regulation level, specifying enterprise reporting obligations, third-party "
-
-
-            "verifiers' legal status and data quality primary responsibility, and "
-
-
-            "substantially increasing penalties for violations."
-
-
-        ),
+        "Last revisions (Details)": "System origin: on 10 December 2014 the Interim Measures for the Administration of Carbon Emission Trading (NDRC Order No. 17, effective 9 January 2015) first established key emission entities' greenhouse gas emission reporting and verification obligations. On 31 December 2020 the Measures for the Administration of Carbon Emission Trading (Trial) (MEE Order No. 19, effective 1 February 2021) further refined reporting and verification procedures, expanded covered sectors and specified technical requirements, accompanied by sector-specific greenhouse gas emission accounting and reporting guidelines. On 25 January 2024 the Interim Regulations on the Administration of Carbon Emission Trading (State Council Order No. 775, effective 1 May 2024) elevated the emission reporting and verification system to the State Council administrative regulation level, specifying enterprise reporting obligations, third-party verifiers' legal status and data quality primary responsibility, and substantially increasing penalties for violations. On 27 January 2026, the General Office of the Ministry of Ecology and Environment issued the Notice on Effectively Conducting the Work Related to the 2026 National Carbon Emission Trading Market (MEE General Office Climate Letter [2026] No. 32) as the current annual implementing document: organising key emitting entities in the electricity generation, iron and steel, cement and aluminium smelting sectors to submit 2025 greenhouse gas emission reports before 31 March 2026 (verification completed before 30 June for electricity generation and before 31 July for iron and steel, cement and aluminium), promoting monthly digitalised record-keeping of carbon emission statistics and accounting data; and bringing enterprises in the petrochemicals, chemicals, building materials (flat glass), non-ferrous metals (copper smelting), paper and civil aviation sectors, as well as iron and steel and cement enterprises not yet included in the carbon market list, into the scope of 2025 greenhouse gas emission reporting management, in preparation for the expansion of the national carbon market.",
+        "Last revision": "27/01/2026",
+        "Last revision (Details)": "System origin: on 10 December 2014 the Interim Measures for the Administration of Carbon Emission Trading (NDRC Order No. 17, effective 9 January 2015) first established key emission entities' greenhouse gas emission reporting and verification obligations. On 31 December 2020 the Measures for the Administration of Carbon Emission Trading (Trial) (MEE Order No. 19, effective 1 February 2021) further refined reporting and verification procedures, expanded covered sectors and specified technical requirements, accompanied by sector-specific greenhouse gas emission accounting and reporting guidelines. On 25 January 2024 the Interim Regulations on the Administration of Carbon Emission Trading (State Council Order No. 775, effective 1 May 2024) elevated the emission reporting and verification system to the State Council administrative regulation level, specifying enterprise reporting obligations, third-party verifiers' legal status and data quality primary responsibility, and substantially increasing penalties for violations. On 27 January 2026, the General Office of the Ministry of Ecology and Environment issued the Notice on Effectively Conducting the Work Related to the 2026 National Carbon Emission Trading Market (MEE General Office Climate Letter [2026] No. 32) as the current annual implementing document: organising key emitting entities in the electricity generation, iron and steel, cement and aluminium smelting sectors to submit 2025 greenhouse gas emission reports before 31 March 2026 (verification completed before 30 June for electricity generation and before 31 July for iron and steel, cement and aluminium), promoting monthly digitalised record-keeping of carbon emission statistics and accounting data; and bringing enterprises in the petrochemicals, chemicals, building materials (flat glass), non-ferrous metals (copper smelting), paper and civil aviation sectors, as well as iron and steel and cement enterprises not yet included in the carbon market list, into the scope of 2025 greenhouse gas emission reporting management, in preparation for the expansion of the national carbon market.",
 
 
         "Legal document": (
@@ -99536,5 +99226,6 @@ if __name__ == "__main__":
 
 
     raise SystemExit(main())
+
 
 
