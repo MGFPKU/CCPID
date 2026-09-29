@@ -44250,7 +44250,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Approach": "Minimum Energy Performance Standards (MEPS) for lighting systems",
 
 
-        "Emission sector": "Industry; Business",
+        "Emission sector": "Buildings; Industry",
 
 
         "Sub-sector": "Ballasts for gas discharge lamps for general lighting",
@@ -45474,7 +45474,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Approach": "Minimum Energy Performance Standards (MEPS) for lighting systems",
 
 
-        "Emission sector": "Industry; Business",
+        "Emission sector": "Buildings; Industry",
 
 
         "Sub-sector": "General lighting and industrial lighting",
