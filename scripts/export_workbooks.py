@@ -92,6 +92,7 @@ SUMMARY_DATABAR_RANGES = {
         "H29:I30",
         "H31:I31",
         "H34:M40",
+        "H44:N59",
     ],
     "en": [
         "C10:D25",
@@ -99,6 +100,7 @@ SUMMARY_DATABAR_RANGES = {
         "I18:J24",
         "I31:J32",
         "I36:N42",
+        "J46:P61",
     ],
 }
 
@@ -783,9 +785,20 @@ SUMMARY_LAYOUT = {
             ("H", "经济工具"), ("I", "规制工具"), ("J", "政府投资与消费"),
             ("K", "信息工具"), ("L", "自愿措施"),
         ],
+        "matrix_groups": [
+            (44, "交易机制"), (45, "补贴"), (46, "税收"), (47, "行政定价"),
+            (48, "技术标准"), (49, "绩效标准"), (50, "框架性规制"),
+            (51, "公共采购"), (52, "公共投资"), (53, "公共评估规则"),
+            (54, "比较性能效标签"), (55, "报告与披露要求"), (56, "能力建设与公众意识"),
+            (57, "自愿性信息工具"), (58, "自愿性目标"), (59, "自愿交易体系"),
+        ],
+        "matrix_sector_cols": [
+            ("H", "能源"), ("I", "工业"), ("J", "建筑"), ("K", "交通"),
+            ("L", "农业、林业和其他土地利用"), ("M", "废弃物"), ("N", "跨部门"),
+        ],
         "data_cols": ("H", "I"),
         "cross_sum_col": "M",
-        "width_groups": [("C", "D"), ("H", "I", "J", "K", "L", "M")],
+        "width_groups": [("C", "D"), ("H", "I", "J", "K", "L", "M", "N")],
     },
     "en": {
         "groups": [
@@ -820,9 +833,22 @@ SUMMARY_LAYOUT = {
             ("K", "Government investment and consumption"), ("L", "Information"),
             ("M", "Voluntary"),
         ],
+        "matrix_groups": [
+            (46, "Trading scheme"), (47, "Subsidy"), (48, "Tax"), (49, "Administered price"),
+            (50, "Technology standard"), (51, "Performance standard"), (52, "Framework regulation"),
+            (53, "Public procurement"), (54, "Public investment"), (55, "Public appraisal rules"),
+            (56, "Comparative energy efficiency label"), (57, "Reporting requirements"),
+            (58, "Capacity building and public awareness"),
+            (59, "Voluntary information instrument"), (60, "Voluntary target"),
+            (61, "Voluntary trading system"),
+        ],
+        "matrix_sector_cols": [
+            ("J", "Energy"), ("K", "Industry"), ("L", "Buildings"), ("M", "Transport"),
+            ("N", "AFOLU"), ("O", "Waste"), ("P", "Cross-sectoral"),
+        ],
         "data_cols": ("I", "J"),
         "cross_sum_col": "N",
-        "width_groups": [("C", "D"), ("I", "J", "K", "L", "M", "N")],
+        "width_groups": [("C", "D"), ("K", "L", "M", "N", "O", "P")],
     },
 }
 
@@ -890,6 +916,11 @@ def write_summary_sheet(wb, lang: str) -> None:
             formula = f'=COUNTIFS({app}!F:F, "*{sector}*", {app}!A:A, "{cat_name}")'
             _set(ws, f"{col_letter}{row}", formula)
         _set(ws, f"{cross_sum_col}{row}", f"=SUM({cross_first_col}{row}:{cross_last_col}{row})")
+
+    # ── Matrix: Emission Sector x Group (approaches) ──
+    for row, group in layout["matrix_groups"]:
+        for col_letter, sector in layout["matrix_sector_cols"]:
+            _set(ws, f"{col_letter}{row}", f'=COUNTIFS({app}!F:F, "*{sector}*", {app}!B:B, "{group}")')
 
     # ── Uniform data-column widths within each table (mirrors the webpage module) ──
     # Left table: C/D. Right tables and cross-tab share the data columns, so one

@@ -62,6 +62,22 @@ CROSS_CAT_LABELS = {
     "en": {"Government investment and consumption": "Government I&C"},
 }
 
+# Matrix row display labels (the Excel left-table vocabulary); SUMMARY_LAYOUT
+# matrix_groups values stay untouched as they are the Approaches!B match keys.
+MATRIX_GROUP_LABELS = {
+    "cn": {
+        "比较性能效标签": "标签",
+        "报告与披露要求": "报告要求",
+        "自愿性信息工具": "自愿信息工具",
+        "自愿交易体系": "自愿交易机制",
+    },
+    "en": {
+        "Public appraisal rules": "Public appraisal rule",
+        "Comparative energy efficiency label": "Label",
+        "Reporting requirements": "Reporting requirement",
+    },
+}
+
 TEXT = {
     "cn": {
         "download_btn": "数据下载",
@@ -117,7 +133,7 @@ CSS = """
   background: #fff; border: 1px solid #e2e8e5; border-radius: 8px; padding: 14px 16px;
   overflow-x: auto;
 }
-#ccpid-overview .ccpid-cross { margin-top: 18px; }
+#ccpid-overview .ccpid-cross, #ccpid-overview .ccpid-matrix { margin-top: 18px; }
 #ccpid-overview .ccpid-full { margin-top: 18px; }
 #ccpid-overview .ccpid-bottom {
   display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
@@ -272,6 +288,19 @@ def compute_stats(data: dict, lang: str) -> dict:
         row_values.append(sum(row_values))
         cross.append((sector, row_values))
 
+    # Group x sector matrix (approaches only, mirrors the Excel COUNTIFS matrix)
+    matrix = []
+    for _, group in layout["matrix_groups"]:
+        row_values = [
+            sum(
+                1
+                for s in approaches.values()
+                if contains("；".join(s["sectors"]), sector) and eq(s["group"], group)
+            )
+            for _, sector in layout["matrix_sector_cols"]
+        ]
+        matrix.append((group, row_values))
+
     return {
         "n_approaches": len(approaches),
         "n_instruments": len(instruments),
@@ -280,6 +309,7 @@ def compute_stats(data: dict, lang: str) -> dict:
         "sectors": sectors,
         "mitigations": mitigations,
         "cross": cross,
+        "matrix": matrix,
         "group_categories": _group_categories(approaches, layout),
     }
 
@@ -314,6 +344,7 @@ def _table(
     extra_cls: str = "",
     fit_headers: bool = False,
     uniform_cols: bool = False,
+    uniform_from: int | None = None,
 ) -> str:
     # Data bars scaled per table (min/max), like the Excel conditional-formatting ranges;
     # a 10% floor keeps the smallest bar visible.
@@ -340,6 +371,8 @@ def _table(
         # Label columns sized to their content (no wrap). Numeric columns sized to
         # their header: the full header text when fit_headers (wide full-width
         # tables), otherwise the longest word so headers wrap but stay complete.
+        # With uniform_from, all numeric columns share one width (the widest
+        # header), mirroring the Excel uniform data columns.
         col_ems = []
         for c in range(label_cols):
             texts = [str(headers[c])]
@@ -349,17 +382,27 @@ def _table(
                     continue
                 texts.append(cell[0] if isinstance(cell, tuple) else str(cell))
             col_ems.append(max(text_em(t) for t in texts))
-        num_ems = []
-        for c in range(label_cols, len(headers)):
-            words = headers[c].split() or [headers[c]]
-            em = max(text_em(w) for w in words)
-            if fit_headers:
-                em = max(em, text_em(headers[c]))
+        if uniform_from is not None:
+            num_headers = headers[uniform_from:]
+            num_em = max((text_em(h) for h in num_headers), default=0.0)
             for row in rows:
-                cell = row[c] if c < len(row) else None
-                if isinstance(cell, (int, float)):
-                    em = max(em, text_em(str(cell)))
-            num_ems.append(em)
+                for i in range(uniform_from, len(headers)):
+                    cell = row[i] if i < len(row) else None
+                    if isinstance(cell, (int, float)):
+                        num_em = max(num_em, text_em(str(cell)))
+            num_ems = [num_em] * len(num_headers)
+        else:
+            num_ems = []
+            for c in range(label_cols, len(headers)):
+                words = headers[c].split() or [headers[c]]
+                em = max(text_em(w) for w in words)
+                if fit_headers:
+                    em = max(em, text_em(headers[c]))
+                for row in rows:
+                    cell = row[c] if c < len(row) else None
+                    if isinstance(cell, (int, float)):
+                        em = max(em, text_em(str(cell)))
+                num_ems.append(em)
         colgroup = "<colgroup>" + "".join(
             f'<col style="width:{em + PADDING_EM:.2f}em">' for em in col_ems + num_ems
         ) + "</colgroup>"
@@ -455,6 +498,36 @@ def build_html(lang: str, stats: dict, generated: str) -> str:
     cross_rows = [[sector, *values] for sector, values in stats["cross"]]
     cross_html = _table(cross_headers, cross_rows, uniform_cols=True)
 
+    # Group x sector matrix with rowspan category labels (like the Excel matrix)
+    cat_display = {
+        cat_doc: ov_label
+        for (_, cat_doc), (_, ov_label) in zip(layout["cats"], layout["ov_cats"])
+    }
+    group_display = MATRIX_GROUP_LABELS.get(lang, {})
+    matrix_rows = []
+    i = 0
+    while i < len(layout["matrix_groups"]):
+        _, criterion = layout["matrix_groups"][i]
+        cat_doc = stats["group_categories"].get(criterion, "")
+        j = i
+        while (
+            j < len(layout["matrix_groups"])
+            and stats["group_categories"].get(layout["matrix_groups"][j][1], "") == cat_doc
+        ):
+            j += 1
+        cat_label = cat_display.get(cat_doc, cat_doc)
+        for k in range(i, j):
+            criterion = layout["matrix_groups"][k][1]
+            display = group_display.get(criterion, criterion)
+            first = (cat_label, j - i) if k == i else None
+            matrix_rows.append([first, display, *stats["matrix"][k][1]])
+        i = j
+    matrix_headers = (
+        [t["cat_col"], t["group_col"]]
+        + [sector for _, sector in layout["matrix_sector_cols"]]
+    )
+    matrix_html = _table(matrix_headers, matrix_rows, num_from=2, label_cols=2, uniform_from=2)
+
     return f"""<!-- CCPID 数据概览模块 · 自动生成于 {generated} · 由 scripts/generate_webpage.py 生成，请勿手改 -->
 <div class="ccpid-overview" id="ccpid-overview">
   <div class="ccpid-scope">
@@ -477,6 +550,9 @@ def build_html(lang: str, stats: dict, generated: str) -> str:
   </div>
   <div class="ccpid-panel ccpid-cross">
 {cross_html}
+  </div>
+  <div class="ccpid-panel ccpid-matrix">
+{matrix_html}
   </div>
   <div class="ccpid-bottom">
     <div class="ccpid-panel">
