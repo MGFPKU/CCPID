@@ -11195,19 +11195,19 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPIVRDDI01S000": {
+    "CHNSUBTDRI01S000": {
 
 
-        "Policy Instrument ID": "CHNPIVRDDI01S000",
+        "Policy Instrument ID": "CHNSUBTDRI01S000",
 
 
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Public investment",
+        "Group": "Subsidy",
 
 
-        "Approach": "Government-funded RD&D programmes",
+        "Approach": "Technology deployment reward",
 
 
         "Emission sector": "Transport; Industry; Energy",
@@ -11228,88 +11228,121 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Description": (
 
 
-            "The Ministry of Industry and Information Technology, the Ministry "
+            "The Ministry of Industry and Information Technology, the Ministry of Finance and "
 
 
-            "of Finance and the National Development and Reform Commission "
+            "the National Development and Reform Commission jointly issued the Notice on "
 
 
-            "jointly issued the Notice on Conducting the Hydrogen Comprehensive "
+            "Conducting the Hydrogen Comprehensive Application Pilot (GXB Lian Jie[2026] No. "
 
 
-            "Application Pilot (GXB Lian Jie[2026] No. 59, issued 16 March 2026), "
+            "59, issued 16 March 2026), selecting 5 city clusters through a competitive "
 
 
-            "selecting 5 city clusters through a competitive 'unveiling and "
+            "'unveiling and leading' mechanism for a 4-year pilot period. Central finance "
 
 
-            "leading' mechanism for a 4-year pilot period. Central "
+            "provides 'reward-in-lieu-of-subsidy' support with a maximum reward cap of CNY 1.6 "
 
 
-            "finance provides 'reward-in-lieu-of-subsidy' support "
+            "billion per city cluster (aggregate maximum CNY 8.0 billion for all 5 clusters), "
 
 
-            "with a maximum reward cap of CNY 1.6 billion per city cluster "
+            "at approximately CNY 80,000 per credit point, with funds pre-allocated first and "
 
 
-            "(aggregate maximum CNY 8.0 billion for all 5 clusters), at "
+            "settled later. The pilot adopts a '1+N+X' model: '1' is the fuel cell vehicle "
 
 
-            "approximately CNY 80,000 per credit point, with funds pre-allocated "
+            "(FCV) general scenario (at least 8,000 vehicles deployed and at least 30 new "
 
 
-            "first and settled later. The pilot adopts a '1+N+X' model: '1' "
+            "hydrogen refuelling stations built per cluster); 'N' is at least 2 scenarios "
 
 
-            "is the fuel cell vehicle (FCV) general scenario (at least 8,000 "
+            "selected from green ammonia/methanol, hydrogen-based chemical feedstock "
 
 
-            "vehicles deployed and at least 30 new hydrogen refuelling stations "
+            "substitution, hydrogen metallurgy, and hydrogen co-firing; 'X' comprises "
 
 
-            "built per cluster); 'N' is at least 2 scenarios selected from "
+            "innovative application scenarios (rail transit, ships, mining trucks, forklifts, "
 
 
-            "green ammonia/methanol, hydrogen-based chemical feedstock "
+            "aircraft, backup power, etc.). Overall targets by 2030: end-use hydrogen average "
 
 
-            "substitution, hydrogen metallurgy, and hydrogen co-firing; 'X' "
+            "price reduced below CNY 25/kg (with advantageous regions targeting approximately "
 
 
-            "comprises innovative application scenarios (rail transit, ships, "
+            "CNY 15/kg); national FCV fleet doubled from 2025 levels, targeting 100,000 "
 
 
-            "mining trucks, forklifts, aircraft, backup power, etc.). Overall "
+            "vehicles. Application requirements: clean low-carbon hydrogen end-use price not "
 
 
-            "targets by 2030: end-use hydrogen average price reduced below "
+            "exceeding CNY 35/kg; average cumulative per-vehicle hydrogen driving mileage over "
 
 
-            "CNY 25/kg (with advantageous regions targeting approximately "
+            "30,000 km; at least 7 key components achieving scale application. Projects already "
 
 
-            "CNY 15/kg); national FCV fleet doubled from 2025 levels, "
+            "receiving ultra-long special government bonds or central budget investment support "
 
 
-            "targeting 100,000 vehicles. Application requirements: clean "
+            "may not apply. Application deadline: 15 April 2026.On 15 August 2026, the three "
 
 
-            "low-carbon hydrogen end-use price not exceeding CNY 35/kg; "
+            "ministries issued an approval notice (MIIT-MOF-NDRC Joint Energy Conservation "
 
 
-            "average cumulative per-vehicle hydrogen driving mileage over "
+            "Letter [2026] No. 266), approving in principle the pilot work plans of the "
 
 
-            "30,000 km; at least 7 key components achieving scale application. "
+            "Beijing-Tianjin-Hebei, Greater Bay Area, Northeast China (including eastern Inner "
 
 
-            "Projects already receiving ultra-long special government bonds "
+            "Mongolia)-Yangtze River Delta, Xinjiang-Chengdu-Chongqing Economic Rim and Yellow "
 
 
-            "or central budget investment support may not apply. Application "
+            "River Jiziwan-Central Plains city clusters; evaluation results serve as the basis "
 
 
-            "deadline: 15 April 2026."
+            "for central finance reward fund allocation, and funds will be deducted or "
+
+
+            "suspended where progress falls short of expectations or local reward funds are not "
+
+
+            "disbursed in time. On 14 October 2026, the general offices of the three ministries "
+
+
+            "issued the Administrative Measures for the Hydrogen Comprehensive Application "
+
+
+            "Pilot (MIIT-MOF-NDRC General Offices Joint Energy Conservation [2026] No. 39): the "
+
+
+            "pilot implementation period runs for 4 years from the date of cluster approval; "
+
+
+            "pilot products, equipment and projects must connect to the hydrogen comprehensive "
+
+
+            "application pilot management service platform and upload operating data including "
+
+
+            "vehicle hydrogen refuelling volumes, industrial project hydrogen consumption and "
+
+
+            "vehicle pure-hydrogen driving mileage; assessment and evaluation is divided into "
+
+
+            "annual, mid-term and acceptance evaluations, and a composite score below 60 is "
+
+
+            "deemed unqualified."
 
 
         ),
@@ -11319,12 +11352,23 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
+
+
         "Jurisdiction level": "Subnational",
 
 
         "Jurisdiction name": (
-            "Five city clusters to be selected through an open competition mechanism "
-            "(specific list subject to official announcement)"
+
+
+            "Beijing-Tianjin-Hebei, Greater Bay Area, Northeast China (including eastern Inner "
+
+
+            "Mongolia)-Yangtze River Delta, Xinjiang-Chengdu-Chongqing Economic Rim, and Yellow "
+
+
+            "River Jiziwan-Central Plains city clusters (5 clusters)"
+
+
         ),
 
 
@@ -11337,22 +11381,37 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "31/12/2030",
 
 
-        "Last revisions": "N/A",
+        "Last revisions": "14/10/2026",
 
 
         "Last revisions (Details)": (
 
 
-            "This instrument was just issued in March 2026 and is the original "
+            "On 15 August 2026, the three ministries issued the Notice on Approving 5 City "
 
 
-            "version. The application deadline is 15 April 2026. Supplementary "
+            "Clusters Including Beijing-Tianjin-Hebei to Conduct the Hydrogen Comprehensive "
 
 
-            "notices may be issued based on selection and implementation plan "
+            "Application Pilot (MIIT-MOF-NDRC Joint Energy Conservation Letter [2026] No. 266), "
 
 
-            "evaluation results."
+            "formally designating the 5 pilot city clusters. On 14 October 2026, the general "
+
+
+            "offices of the three ministries issued the Administrative Measures for the "
+
+
+            "Hydrogen Comprehensive Application Pilot (MIIT-MOF-NDRC General Offices Joint "
+
+
+            "Energy Conservation [2026] No. 39), establishing end-to-end rules for pilot "
+
+
+            "organisation and implementation, assessment and evaluation, credit-point "
+
+
+            "accounting, fund management and project supervision."
 
 
         ),
@@ -11364,31 +11423,25 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Administrating authorities": (
 
 
-            "Ministry of Industry and Information Technology (administers "
+            "Ministry of Industry and Information Technology (administers FCV promotion and "
 
 
-            "FCV promotion and application and hydrogen equipment "
+            "application and hydrogen equipment manufacturing industry development); Ministry "
 
 
-            "manufacturing industry development); Ministry of Finance "
+            "of Finance (administers reward-in-lieu-of-subsidy fund management and allocation); "
 
 
-            "(administers reward-in-lieu-of-subsidy fund management and "
+            "National Development and Reform Commission (administers hydrogen industry "
 
 
-            "allocation); National Development and Reform Commission "
+            "development planning and investment policy); provincial industry and information "
 
 
-            "(administers hydrogen industry development planning and "
+            "technology, finance and development and reform authorities; member city "
 
 
-            "investment policy); provincial industry and information "
-
-
-            "technology, finance and development and reform authorities; "
-
-
-            "member city governments of each pilot city cluster"
+            "governments of each pilot city cluster"
 
 
         ),
@@ -11403,58 +11456,46 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Asset (Details)": (
 
 
-            "Six pilot scenario categories involve the following assets: "
+            "Six pilot scenario categories involve the following assets: (1) fuel cell vehicles "
 
 
-            "(1) fuel cell vehicles (heavy-duty trucks, cold chain logistics "
+            "(heavy-duty trucks, cold chain logistics vehicles, buses, sanitation vehicles, "
 
 
-            "vehicles, buses, sanitation vehicles, etc.), deployment scale "
+            "etc.), deployment scale exceeding 8,000 vehicles per cluster; (2) green "
 
 
-            "exceeding 8,000 vehicles per cluster; (2) green ammonia/methanol "
+            "ammonia/methanol production facilities (renewable electricity hydrogen production "
 
 
-            "production facilities (renewable electricity hydrogen production "
+            "→ green ammonia/green methanol; coal-based ammonia/methanol projects disguised as "
 
 
-            "→ green ammonia/green methanol; coal-based ammonia/methanol "
+            "green projects are strictly prohibited); (3) hydrogen-based chemical feedstock "
 
 
-            "projects disguised as green projects are strictly prohibited); "
+            "substitution facilities (replacing fossil-fuel-derived hydrogen with green "
 
 
-            "(3) hydrogen-based chemical feedstock substitution facilities "
+            "hydrogen in refining and coal chemical processes); (4) hydrogen metallurgy "
 
 
-            "(replacing fossil-fuel-derived hydrogen with green hydrogen in "
+            "facilities (hydrogen-rich/pure hydrogen reducing agent substituting coke); (5) "
 
 
-            "refining and coal chemical processes); (4) hydrogen metallurgy "
+            "hydrogen co-firing facilities (hydrogen blended into natural gas pipeline networks "
 
 
-            "facilities (hydrogen-rich/pure hydrogen reducing agent "
+            "or industrial boilers/kilns); (6) innovative application assets (rail transit, "
 
 
-            "substituting coke); (5) hydrogen co-firing facilities (hydrogen "
+            "ships, mining trucks, forklifts, aircraft, backup power, combined heat and power, "
 
 
-            "blended into natural gas pipeline networks or industrial "
+            "energy storage). At least 30 new hydrogen refuelling stations must be built per "
 
 
-            "boilers/kilns); (6) innovative application assets (rail transit, "
-
-
-            "ships, mining trucks, forklifts, aircraft, backup power, combined "
-
-
-            "heat and power, energy storage). At least 30 new hydrogen "
-
-
-            "refuelling stations must be built per cluster. At least 7 key "
-
-
-            "components (stacks, membrane electrode assemblies, proton "
+            "cluster. At least 7 key components (stacks, membrane electrode assemblies, proton "
 
 
             "exchange membranes, etc.) must achieve scale application."
@@ -11466,22 +11507,19 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Asset (Other)": (
 
 
-            "Coal-based (coal gasification) ammonia/methanol projects "
+            "Coal-based (coal gasification) ammonia/methanol projects disguised as green "
 
 
-            "disguised as green ammonia/methanol are strictly prohibited. "
+            "ammonia/methanol are strictly prohibited. Clean low-carbon hydrogen must comply "
 
 
-            "Clean low-carbon hydrogen must comply with national renewable "
+            "with national renewable energy hydrogen production standards. Pilot city clusters "
 
 
-            "energy hydrogen production standards. Pilot city clusters must "
+            "must form hydrogen application networks characterised by 'geographic connectivity, "
 
 
-            "form hydrogen application networks characterised by 'geographic "
-
-
-            "connectivity, industrial synergy, and closed-loop ecosystems.'"
+            "industrial synergy, and closed-loop ecosystems.'"
 
 
         ),
@@ -11490,25 +11528,22 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Asset (Cut-off range)": (
 
 
-            "FCV deployment scale must exceed 8,000 vehicles per cluster. "
+            "FCV deployment scale must exceed 8,000 vehicles per cluster. At least 30 new "
 
 
-            "At least 30 new hydrogen refuelling stations per cluster. "
+            "hydrogen refuelling stations per cluster. Clean low-carbon hydrogen end-use price "
 
 
-            "Clean low-carbon hydrogen end-use price must not exceed "
+            "must not exceed CNY 35/kg (pilot target: below CNY 25/kg). Average cumulative "
 
 
-            "CNY 35/kg (pilot target: below CNY 25/kg). Average cumulative "
+            "per-vehicle hydrogen driving mileage must exceed 30,000 km. At least 7 key "
 
 
-            "per-vehicle hydrogen driving mileage must exceed 30,000 km. "
+            "components must achieve scale application. Maximum central fiscal reward per "
 
 
-            "At least 7 key components must achieve scale application. "
-
-
-            "Maximum central fiscal reward per cluster: CNY 1.6 billion."
+            "cluster: CNY 1.6 billion."
 
 
         ),
@@ -11520,91 +11555,73 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Agent (Detail)": (
 
 
-            "The lead city government of each pilot city cluster is the "
+            "The lead city government of each pilot city cluster is the application entity. "
 
 
-            "application entity. Project implementation entities are "
+            "Project implementation entities are enterprises: including hydrogen equipment "
 
 
-            "enterprises: including hydrogen equipment manufacturers (fuel "
+            "manufacturers (fuel cell systems, stacks, membrane electrode assemblies, etc.), "
 
 
-            "cell systems, stacks, membrane electrode assemblies, etc.), "
+            "hydrogen supply enterprises (hydrogen production, storage and transport, "
 
 
-            "hydrogen supply enterprises (hydrogen production, storage and "
+            "refuelling station operation), and hydrogen application enterprises (logistics and "
 
 
-            "transport, refuelling station operation), and hydrogen "
+            "transport companies, bus companies, steel enterprises, chemical enterprises, power "
 
 
-            "application enterprises (logistics and transport companies, "
+            "enterprises, etc.). Industry-university-research-application consortia may also "
 
 
-            "bus companies, steel enterprises, chemical enterprises, power "
+            "participate. Individual consumers are excluded (subsidies for individual FCV "
 
 
-            "enterprises, etc.). Industry-university-research-application "
-
-
-            "consortia may also participate. Individual consumers are "
-
-
-            "excluded (subsidies for individual FCV purchases are "
-
-
-            "implemented through other channels)."
+            "purchases are implemented through other channels)."
 
 
         ),
 
 
-        "Activity": "Research and development; Production, generation or transformation; Purchase or use",
+        "Activity": "Production, generation or transformation; Purchase or use",
 
 
         "Activity (Details)": (
 
 
-            "Pilot city clusters coordinate and promote demonstration "
+            "Pilot city clusters coordinate and promote demonstration application across the "
 
 
-            "application across the full hydrogen value chain of production, "
+            "full hydrogen value chain of production, storage, transport, refuelling and use. "
 
 
-            "storage, transport, refuelling and use. Hydrogen production: "
+            "Hydrogen production: electrolysis of water using renewable electricity (green "
 
 
-            "electrolysis of water using renewable electricity (green "
+            "hydrogen). Storage and transport: high-pressure gaseous, cryogenic liquid, "
 
 
-            "hydrogen). Storage and transport: high-pressure gaseous, "
+            "solid-state hydrogen storage and pipeline transport. Refuelling: construction of "
 
 
-            "cryogenic liquid, solid-state hydrogen storage and pipeline "
+            "hydrogen refuelling station networks. Application: large-scale FCV promotion "
 
 
-            "transport. Refuelling: construction of hydrogen refuelling "
+            "(heavy trucks, cold chain logistics, buses, etc.), green ammonia/methanol "
 
 
-            "station networks. Application: large-scale FCV promotion "
+            "production, chemical feedstock substitution, metallurgical reduction, hydrogen "
 
 
-            "(heavy trucks, cold chain logistics, buses, etc.), green "
+            "co-firing, and innovative scenarios (rail transit, ships, mining trucks, etc.). "
 
 
-            "ammonia/methanol production, chemical feedstock substitution, "
+            "Central finance provides rewards based on demonstration performance measured "
 
 
-            "metallurgical reduction, hydrogen co-firing, and innovative "
-
-
-            "scenarios (rail transit, ships, mining trucks, etc.). Central "
-
-
-            "finance provides rewards based on demonstration performance "
-
-
-            "measured through a credit-point system."
+            "through a credit-point system."
 
 
         ),
@@ -11619,31 +11636,25 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Details)": (
 
 
-            "Maximum central fiscal reward of CNY 1.6 billion per city "
+            "Maximum central fiscal reward of CNY 1.6 billion per city cluster (aggregate "
 
 
-            "cluster (aggregate maximum CNY 8.0 billion for 5 clusters). "
+            "maximum CNY 8.0 billion for 5 clusters). Approximately CNY 80,000 per credit "
 
 
-            "Approximately CNY 80,000 per credit point. Credit points are "
+            "point. Credit points are calculated based on FCV deployment volume, hydrogen "
 
 
-            "calculated based on FCV deployment volume, hydrogen driving "
+            "driving mileage, refuelling station construction and operation, key component "
 
 
-            "mileage, refuelling station construction and operation, key "
+            "scale application, and clean low-carbon hydrogen supply volume and price "
 
 
-            "component scale application, and clean low-carbon hydrogen "
+            "indicators. Reward funds are disbursed on a pre-allocate-first, settle-later "
 
 
-            "supply volume and price indicators. Reward funds are disbursed "
-
-
-            "on a pre-allocate-first, settle-later basis. Source: "
-
-
-            "GXB Lian Jie[2026] No. 59."
+            "basis. Source: GXB Lian Jie[2026] No. 59."
 
 
         ),
@@ -11652,49 +11663,106 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Requirement specification": (
 
 
-            "Application is by city cluster, requiring 'geographic "
+            "Application is by city cluster, requiring 'geographic connectivity, industrial "
 
 
-            "connectivity, industrial synergy, and closed-loop ecosystem.' "
+            "synergy, and closed-loop ecosystem.' Pilot cities voluntarily form groupings and "
 
 
-            "Pilot cities voluntarily form groupings and negotiate to "
+            "negotiate to designate a lead city. Five city clusters were selected through a "
 
 
-            "designate a lead city. Five city clusters will be selected "
+            "competitive 'unveiling and leading' mechanism. Applications must meet: FCV "
 
 
-            "through a competitive 'unveiling and leading' "
+            "deployment scale exceeding 8,000 vehicles; at least 30 new hydrogen refuelling "
 
 
-            "mechanism. Applications must meet: FCV deployment scale "
+            "stations; clean low-carbon hydrogen end-use price not exceeding CNY 35/kg; average "
 
 
-            "exceeding 8,000 vehicles; at least 30 new hydrogen refuelling "
+            "cumulative per-vehicle hydrogen driving mileage exceeding 30,000 km; at least 7 "
 
 
-            "stations; clean low-carbon hydrogen end-use price not exceeding "
+            "key components (stacks, membrane electrode assemblies, proton exchange membranes, "
 
 
-            "CNY 35/kg; average cumulative per-vehicle hydrogen driving "
+            "etc.) achieving scale application. Projects already receiving ultra-long special "
 
 
-            "mileage exceeding 30,000 km; at least 7 key components (stacks, "
+            "government bonds or central budget investment may not apply. Green "
 
 
-            "membrane electrode assemblies, proton exchange membranes, etc.) "
+            "ammonia/methanol projects must not be coal-based projects disguised as green "
 
 
-            "achieving scale application. Projects already receiving "
+            "projects.Reward credits are accounted annually: the fuel cell vehicle scenario is "
 
 
-            "ultra-long special government bonds or central budget investment "
+            "accounted by the number of vehicles promoted and actual hydrogen refuelling "
 
 
-            "may not apply. Green ammonia/methanol projects must not be "
+            "volumes for vehicles; the green ammonia/methanol, hydrogen-based chemical, "
 
 
-            "coal-based projects disguised as green projects."
+            "hydrogen metallurgy and hydrogen co-firing scenarios are accounted by the scale of "
+
+
+            "clean low-carbon hydrogen application (hydrogen consumption must correspond to "
+
+
+            "actual downstream product sales); innovative application scenarios are accounted "
+
+
+            "by promotion numbers and powertrain rated power (or renewable hydrogen production "
+
+
+            "scale); products must be produced, sold and used domestically. Reward funds follow "
+
+
+            "\"pre-allocation first, settlement later\": clusters failing the annual assessment "
+
+
+            "will have current-year funds suspended, and those passing the assessment but "
+
+
+            "failing to complete all annual tasks may have funds reduced as appropriate; "
+
+
+            "clusters failing the acceptance evaluation will not receive fourth-year funds and "
+
+
+            "may be ordered to return part or all disbursed funds as appropriate; funds "
+
+
+            "deducted or suspended in the first three years due to slow progress may be "
+
+
+            "replenished based on acceptance results. The three ministries have established a "
+
+
+            "dynamic adjustment mechanism for city clusters: clusters failing the mid-term "
+
+
+            "evaluation or failing the annual evaluation for two consecutive years may have "
+
+
+            "their plans adjusted, funds deducted or suspended, or pilot qualification "
+
+
+            "suspended or even cancelled as appropriate. Reward funds may not be used to "
+
+
+            "balance budgets, repay government debt or clear arrears owed to enterprises; "
+
+
+            "projects or products already supported by ultra-long special government bonds, "
+
+
+            "central budget investment or local government special bonds may not be included in "
+
+
+            "the scope of this pilot reward funds."
 
 
         ),
@@ -11706,94 +11774,136 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
 
 
-            "Credit-point-based evaluation system: credit points are "
+            "Credit-point-based evaluation system: credit points are comprehensively calculated "
 
 
-            "comprehensively calculated based on FCV deployment and "
+            "based on FCV deployment and application volume (with conversion factors for "
 
 
-            "application volume (with conversion factors for vehicle model, "
+            "vehicle model, tonnage, power rating, etc.), hydrogen driving mileage (cumulative "
 
 
-            "tonnage, power rating, etc.), hydrogen driving mileage "
+            "≥30,000 km per vehicle), number of hydrogen refuelling stations built and "
 
 
-            "(cumulative ≥30,000 km per vehicle), number of hydrogen "
+            "operated, scale application status of key components (at least 7 items including "
 
 
-            "refuelling stations built and operated, scale application "
+            "stacks, membrane electrode assemblies, proton exchange membranes, etc.), and clean "
 
 
-            "status of key components (at least 7 items including stacks, "
+            "low-carbon hydrogen supply volume and price indicators. Approximately CNY 80,000 "
 
 
-            "membrane electrode assemblies, proton exchange membranes, "
+            "per credit point; maximum CNY 1.6 billion per cluster. Pre-allocate first, settle "
 
 
-            "etc.), and clean low-carbon hydrogen supply volume and price "
+            "later: the difference is disbursed or recovered based on annual performance "
 
 
-            "indicators. Approximately CNY 80,000 per credit point; "
-
-
-            "maximum CNY 1.6 billion per cluster. Pre-allocate first, "
-
-
-            "settle later: the difference is disbursed or recovered based "
-
-
-            "on annual performance assessment results."
+            "assessment results."
 
 
         ),
 
 
-        "Public investment: Co-financing": (
+        "Subsidy: annual budget/ expenditure": (
 
 
-            "Allocated from central budget; city clusters and enterprises "
+            "Maximum CNY 8.0 billion in aggregate rewards for the 5 city clusters over the "
 
 
-            "co-invest"
+            "4-year pilot period (cap of CNY 1.6 billion per cluster), averaging approximately "
 
 
-        ),
+            "CNY 2.0 billion per year. Reward-in-lieu-of-subsidy, with funds pre-allocated "
 
 
-        "Public investment: Selection process": (
-
-
-            "City clusters apply voluntarily; central government organises "
-
-
-            "competitive evaluation by city cluster to select 5 pilot city clusters"
+            "first and settled later. Source: GXB Lian Jie [2026] No. 59."
 
 
         ),
 
 
-        "Public procurement: Tender process": "",
+        "Subsidy: Limit": (
 
 
-        "Public procurement: Award criteria tender process": "",
+            "Maximum central fiscal reward cap of CNY 1.6 billion per city cluster over the "
 
 
-        "Public procurement: Compliance monitoring": "",
+            "4-year pilot period; aggregate maximum CNY 8.0 billion for all 5 clusters. Source: "
 
 
-        "Public procurement: Compliance enforcement": "",
+            "GXB Lian Jie [2026] No. 59."
 
 
-        "Public procurement: Life-cycle costing": "",
+        ),
 
 
-        "Public investment/procurement: Annual expenditure": (
+        "Subsidy: Floor or ceiling": "N/A",
 
 
-            "Maximum CNY 8.0 billion (5 city clusters combined, total "
+        "Subsidy: distribution mechanism": (
 
 
-            "envelope over the 4-year pilot period)"
+            "City clusters apply voluntarily; the three ministries select the 5 pilot clusters "
+
+
+            "on merit through a competitive 'unveiling and leading' mechanism. Central fiscal "
+
+
+            "funds are pre-allocated first and settled later, with city clusters and "
+
+
+            "enterprises providing co-investment. Source: GXB Lian Jie [2026] No. 59; "
+
+
+            "MIIT-MOF-NDRC Joint Energy Conservation Letter [2026] No. 266."
+
+
+        ),
+
+
+        "Subsidy: Support duration": (
+
+
+            "4 years, counted from the date of approval of the city cluster pilot work plan. "
+
+
+            "Source: MIIT-MOF-NDRC Joint Energy Conservation Letter [2026] No. 266; GXB Ting "
+
+
+            "Lian Jie [2026] No. 39."
+
+
+        ),
+
+
+        "Subsidy: Enforcement Mechanism": (
+
+
+            "Pre-allocate first, settle later: city clusters failing the annual evaluation have "
+
+
+            "the current-year reward funds suspended; clusters failing the mid-term evaluation "
+
+
+            "or failing annual evaluations for two consecutive years are subject to plan "
+
+
+            "adjustment, reward reduction or suspension, or suspension/cancellation of pilot "
+
+
+            "qualification as appropriate; clusters failing the acceptance evaluation receive "
+
+
+            "no fourth-year reward funds and may be ordered to return part or all of disbursed "
+
+
+            "funds. Reward funds may not be used to balance budgets, repay government debt, or "
+
+
+            "clear arrears owed to enterprises. Source: GXB Ting Lian Jie [2026] No. 39."
 
 
         ),
@@ -11814,31 +11924,64 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": (
-
-
-            "Pollution control; Technological innovation; Industrial development; Energy security"
-
-
-        ),
+        "Mitigation co-benefits": "Pollution control; Technological innovation; Industrial development; Energy security",
 
 
         "Legal statute": (
 
 
-            "Notice on Conducting the Hydrogen Comprehensive Application "
+            "Notice on Conducting the Hydrogen Comprehensive Application Pilot (GXB Lian "
 
 
-            "Pilot (GXB Lian Jie[2026] No. 59); Hydrogen Industry Development "
+            "Jie[2026] No. 59); Hydrogen Industry Development Medium- and Long-Term Plan "
 
 
-            "Medium- and Long-Term Plan (2021-2035)"
+            "(2021-2035); Notice on Approving 5 City Clusters Including Beijing-Tianjin-Hebei "
+
+
+            "to Conduct the Hydrogen Comprehensive Application Pilot (MIIT-MOF-NDRC Joint "
+
+
+            "Energy Conservation Letter [2026] No. 266); Administrative Measures for the "
+
+
+            "Hydrogen Comprehensive Application Pilot (MIIT-MOF-NDRC General Offices Joint "
+
+
+            "Energy Conservation [2026] No. 39)"
 
 
         ),
 
 
-        "Legal document": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_d2957277c4684eb59c0c0de01af59434.html",
+        "Legal document": (
+
+
+            " "
+
+
+            "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_d2957277c4684eb59c0c0de01af59434.html"
+
+
+        ),
+
+
+        "Other weblinks": (
+
+
+            " "
+
+
+            "https://www.miit.gov.cn/jgsj/jns/gzdt/art/2026/art_0c5107aca7b4466e9ada0aea737d542f.html; "
+
+
+            "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_9ee64b35ab27492f86002a7a1053f0f9.html; "
+
+
+            "https://www.miit.gov.cn/jgsj/jns/nyjy/art/2026/art_164170020f8a4205a9f76ea3f6964751.html"
+
+
+        ),
 
 
     },

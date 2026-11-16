@@ -113,6 +113,7 @@ VALUE_ALIASES = {
     "清洁取暖补贴": "Clean heating subsidy",
     "回收处理奖补": "Recycling and treatment subsidy",
     "低排放机械购置补贴": "Low-emission machinery purchase subsidy",
+    "技术应用推广奖励（以奖代补）": "Technology deployment reward",
     "中央预算内投资": "Central budget investment",
     "政府投资基金": "Government investment fund",
     "政府资助研发与示范计划": "Government-funded RD&D programmes",

@@ -287,15 +287,16 @@ For every user-requested data-filling item, record the inclusion gate before fil
 - Source decision: primary legal basis is 财建〔2024〕57号 (财政部、工业和信息化部、交通运输部). The pilot was expanded in 2025 with a second cohort of counties.
 - Review flag: confirm whether the 2024 and 2025 cohorts should be tracked as phases or as one continuous instrument; confirm whether charging and battery-swapping infrastructure should be separate subschemes.
 
-## CHNPIVRDDI01S000 - 氢能综合应用试点
+## CHNSUBTDRI01S000 - 氢能综合应用试点
 
 - Requested item: 氢能综合应用试点 (Hydrogen comprehensive application pilot).
 - Decision: include as one national-level policy instrument.
-- Template: Government investment and procurement.
-- Classification: Public investment / Government-funded RD&D programmes for low-carbon energy technologies.
+- Template: Economic instruments.
+- Classification: Subsidy / Technology deployment reward (技术应用推广奖励（以奖代补）).
 - Rationale: 2026年3月 jointly launched by 工信部、财政部、国家发展改革委. Selects 5 city clusters for a 4-year pilot period, with central government funding up to 16亿元 per cluster. Covers 6 application scenarios: fuel cell vehicles (FCVs), green ammonia/methanol production, hydrogen chemicals, hydrogen metallurgy, hydrogen co-firing in power generation, and innovative applications. Mitigation relevance: direct — targets emission reductions across multiple hard-to-abate sectors (heavy transport, chemicals, steel, power) through hydrogen deployment.
+- Reclassification (2026-11-16): moved from Government I&C / Public investment / Government-funded RD&D programmes to Economic instruments / Subsidy / Technology deployment reward. The operating mechanism is a performance-based fiscal reward (以奖代补): funds are tiered against verified deployment outcomes (FCV promotion scale, hydrogen driving mileage, station operation, key component scale application, low-carbon hydrogen supply) and disbursed on a pre-allocate-first, settle-later basis — an unrequited payment to enterprises rather than government spending toward fixed capital or R&D. New approach TDR added under Subsidy in schema and classification docs.
 - Instrument boundary: one parent instrument; no subscheme split in this first pass. The 6 application scenarios are captured within the Description and Asset fields rather than as separate subschemes.
-- ID: CHNPIVRDDI01S000 = CHN + PIV + RDD + I01 + S000.
+- ID: CHNSUBTDRI01S000 = CHN + SUB + TDR + I01 + S000 (formerly CHNPIVRDDI01S000).
 - Source decision: primary legal basis is the 2026 joint notice from MIIT/MOF/NDRC establishing the pilot program. The program represents China's flagship hydrogen economy deployment initiative.
 - Review flag: confirm whether the 6 application scenarios warrant subscheme splitting given different technologies, sectors, and funding mechanisms; confirm whether the pilot nature (4-year fixed term) and the 5 city clusters imply future phase-based subscheme rows.
 

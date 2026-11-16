@@ -437,6 +437,7 @@ global_validation_rules:
         Clean heating subsidy: CHS
         Recycling and treatment subsidy: RTS
         Low-emission machinery purchase subsidy: MPS
+        Technology deployment reward: TDR
         GHG tax: GHT
         CIT incentive: CIT
         Vehicle purchase tax incentive: VPT
@@ -659,6 +660,7 @@ allowed_values:
       - Clean heating subsidy
       - Recycling and treatment subsidy
       - Low-emission machinery purchase subsidy
+      - Technology deployment reward
     Tax:
       - GHG tax
       - CIT incentive
@@ -786,6 +788,7 @@ allowed_values:
     - Clean heating subsidy
     - Recycling and treatment subsidy
     - Low-emission machinery purchase subsidy
+    - Technology deployment reward
     - GHG tax
     - CIT incentive
     - Vehicle purchase tax incentive
