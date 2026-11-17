@@ -10560,19 +10560,19 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPIVCBII01S000": {
+    "CHNSUBTDRI02S000": {
 
 
-        "Policy Instrument ID": "CHNPIVCBII01S000",
+        "Policy Instrument ID": "CHNSUBTDRI02S000",
 
 
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Public investment",
+        "Group": "Subsidy",
 
 
-        "Approach": "Central budget investment",
+        "Approach": "Technology deployment reward",
 
 
         "Emission sector": "Transport",
@@ -11090,59 +11090,53 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Public investment: Co-financing": (
+        "Subsidy: annual budget/ expenditure": (
 
-
-            "Central budget provides 70% of funding; local governments and "
-
-
-            "enterprises co-invest in construction and operation"
-
-
-        ),
-
-
-        "Public investment: Selection process": (
-
-
-            "Pilot counties submit applications; provincial-level recommendation; "
-
-
-            "determined through national competitive evaluation"
-
+            "Maximum cumulative reward of CNY 45 million per pilot county "
+            "over the 3-year demonstration period (advance disbursement of "
+            "at least 70%, then settlement); about 142 pilot counties in "
+            "2024-2025. Source: CJ [2024] No. 57 (Notice on Conducting the "
+            "County-Level Charging and Battery-Swapping Facility Pilot to "
+            "Fill Gaps)."
 
         ),
 
+        "Subsidy: Limit": (
 
-        "Public procurement: Tender process": "",
+            "Maximum cumulative central fiscal reward of CNY 45 million per "
+            "pilot county over the 3-year demonstration period; annual "
+            "rewards in three tiers (CNY 10 million / 12 million / 15 "
+            "million) determined by the charging pile power utilisation "
+            "rate assessment. Source: CJ [2024] No. 57."
 
+        ),
 
-        "Public procurement: Award criteria tender process": "",
+        "Subsidy: Floor or ceiling": "N/A",
 
+        "Subsidy: distribution mechanism": (
 
-        "Public procurement: Compliance monitoring": "",
+            "Pilot counties apply, with provincial-level recommendation; "
+            "the three ministries select the best through joint review. "
+            "Central finance pre-allocates 70% of reward funds, with local "
+            "governments and enterprises providing matching investment in "
+            "construction and operation. Source: CJ [2024] No. 57."
 
+        ),
 
-        "Public procurement: Compliance enforcement": "",
+        "Subsidy: Support duration": (
 
+            "3 years (2024-2026). Source: CJ [2024] No. 57."
 
-        "Public procurement: Life-cycle costing": "",
+        ),
 
+        "Subsidy: Enforcement Mechanism": (
 
-        "Public investment/procurement: Annual expenditure": (
-
-
-            "Up to approximately CNY 3.375 billion per annual cohort "
-
-
-            "(CNY 45 million × 75 counties). Total programme envelope "
-
-
-            "approximately CNY 9.045 billion over three years "
-
-
-            "(67 + 75 + 59 = 201 pilot counties × CNY 45 million)."
-
+            "Advance disbursement then settlement: after public "
+            "announcement, central finance first disburses no less than "
+            "70% of the reward funds, with final settlement based on "
+            "annual assessment results; reward funds are withheld or "
+            "recovered from pilot counties that fail to meet targets. "
+            "Source: CJ [2024] No. 57."
 
         ),
 
@@ -11193,7 +11187,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
     },
-
 
     "CHNSUBTDRI01S000": {
 
@@ -97527,6 +97520,665 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": (
             "https://www.cets.org.cn/ (National Carbon Market "
             "Information Network)"
+        ),
+    },
+
+
+    "CHNSUBTDRI03S000": {
+        "Policy Instrument ID": "CHNSUBTDRI03S000",
+        "Instrument / subscheme": "Instrument",
+        "Group": "Subsidy",
+        "Approach": "Technology deployment reward",
+        "Emission sector": "Industry",
+        "Sub-sector": "Manufacturing technological transformation (petrochemicals and chemicals, iron and steel, non-ferrous metals, building materials, machinery, etc.)",
+        "Domestic instrument name": "制造业新型技术改造城市试点",
+        "English instrument name": "Manufacturing New-Type Technological Transformation City Pilot",
+        "Policy Package": "Guiding Opinions on Accelerating the Transformation and Upgrading of Traditional Manufacturing Industries (MIIT Lian Gui [2023] No. 258)",
+        "Description": (
+            "The Ministry of Finance (MOF) and the Ministry of Industry and "
+            "Information Technology (MIIT) jointly issued the Notice on "
+            "Conducting the Manufacturing New-Type Technological "
+            "Transformation City Pilot (CJ [2024] No. 16, 21 March 2024), "
+            "organising a national city pilot programme to accelerate "
+            "technological transformation of traditional manufacturing "
+            "industries. Through competitive evaluation, 20 cities "
+            "(districts) were selected in the first batch (proposed list "
+            "publicly announced on 29 April 2024: Binhai New Area of "
+            "Tianjin, Tangshan, Shenyang, Dalian, Harbin, Suzhou, Jiaxing, "
+            "Ningbo, Hefei, Quanzhou, Xiamen, Weifang, Qingdao, Zhengzhou, "
+            "Wuhan, Changsha, Guangzhou, Shenzhen, Chengdu and Xi'an). On "
+            "25 March 2025, the General Office of MIIT and the General "
+            "Office of MOF issued the Notice on Conducting the Second "
+            "Batch of the Manufacturing New-Type Technological "
+            "Transformation City Pilot (MIIT Lian Gui Han [2025] No. 108), "
+            "launching second-batch applications and encouraging "
+            "traditional industries such as petrochemicals and chemicals, "
+            "iron and steel, non-ferrous metals and building materials to "
+            "apply. Central finance provides fixed-amount rewards to "
+            "selected cities, capped at CNY 300 million per city: 50% is "
+            "disbursed in the first year of the implementation period and "
+            "the remaining 50% after passing the end-of-period performance "
+            "assessment. The pilot combines point-line-area demonstration "
+            "approaches: at the point level, building smart factories and "
+            "renewing and upgrading outdated equipment; at the line level, "
+            "chain-leader enterprises mobilising 10 or more supporting "
+            "enterprises to carry out coordinated digital transformation "
+            "of industrial chains and supply chains; at the area level, "
+            "demonstration projects for digital and green transformation "
+            "of industrial clusters and parks. Green transformation covers "
+            "coordinated digital-green transformation, application of "
+            "green and low-carbon technologies, processes and equipment, "
+            "and green factory development. Applicant cities must select "
+            "about three leading industries; during the implementation "
+            "period, enterprises above designated size that have "
+            "undertaken digital technological transformation must account "
+            "for at least 80% of the total, and each city must have at "
+            "least one flagship project with an investment scale of over "
+            "CNY 500 million. Reward funds are used by selected cities to "
+            "support enterprise technology-transformation projects through "
+            "investment subsidies, loan interest subsidies and guarantee "
+            "fee subsidies; support for a single project may not exceed "
+            "20% of total project investment."
+        ),
+        "Objective": "Technological innovation; Industrial development; Green economy",
+        "Mitigation relevance": "Indirect",
+        "Jurisdiction level": "Subnational",
+        "Jurisdiction name": (
+            "First batch: 20 cities (districts) — Binhai New Area of "
+            "Tianjin, Tangshan, Shenyang, Dalian, Harbin, Suzhou, Jiaxing, "
+            "Ningbo, Hefei, Quanzhou, Xiamen, Weifang, Qingdao, Zhengzhou, "
+            "Wuhan, Changsha, Guangzhou, Shenzhen, Chengdu and Xi'an; the "
+            "second batch (2025) city list to be announced separately."
+        ),
+        "Adoption date": "21/03/2024",
+        "Start date": "21/03/2024",
+        "End date": "N/A",
+        "Last revisions": "25/03/2025",
+        "Last revisions (Details)": (
+            "On 25 March 2025, the General Office of MIIT and the General "
+            "Office of MOF issued the Notice on Conducting the Second "
+            "Batch of the Manufacturing New-Type Technological "
+            "Transformation City Pilot (MIIT Lian Gui Han [2025] No. 108, "
+            "published on 31 March 2025), launching the second round of "
+            "applications and encouraging traditional industries such as "
+            "petrochemicals and chemicals, iron and steel, non-ferrous "
+            "metals, building materials, machinery, food, light industry "
+            "and textiles to apply. Each province (autonomous region) may "
+            "recommend at most one prefecture-level city; each "
+            "municipality may recommend at most two districts (counties) "
+            "under its jurisdiction, with one designated as the lead "
+            "applicant. The second-batch city list is to be announced "
+            "separately."
+        ),
+        "Status": "In force",
+        "Administrating authorities": (
+            "Ministry of Finance (administers central fiscal reward "
+            "funding arrangements and disbursement); Ministry of Industry "
+            "and Information Technology (administers pilot selection, "
+            "implementation and performance assessment); provincial "
+            "finance, industry and information technology authorities "
+            "(organise applications and day-to-day supervision)"
+        ),
+        "Asset": "Industrial plants; Other machinery and equipment",
+        "Asset (Status)": "Existing",
+        "Asset (Details)": (
+            "Factory buildings and production equipment of existing "
+            "manufacturing enterprises in the pilot cities' key "
+            "industries: smart factory development (applying 5G, "
+            "industrial internet, artificial intelligence, CNC machine "
+            "tools, industrial robots and other intelligent manufacturing "
+            "equipment); renewal and upgrading of outdated equipment "
+            "(comprehensive retrofits of outdated installations in "
+            "petrochemical and chemical industries, phasing out backward "
+            "and inefficient equipment); digital and green infrastructure "
+            "of industrial clusters and parks (5G, data centres, "
+            "industrial internet, computing power, etc.)"
+        ),
+        "Asset (Other)": (
+            "Projects already receiving national fiscal funding may not "
+            "receive duplicate support; reward funds may not be used for "
+            "staff welfare, public operating expenses, construction of "
+            "government office buildings or balancing local budgets"
+        ),
+        "Asset (Cut-off range)": (
+            "Each city must have at least one flagship project with an "
+            "investment scale of over CNY 500 million; reward support for "
+            "a single project may not exceed 20% of total project "
+            "investment; during the implementation period, enterprises "
+            "above designated size that have undertaken digital "
+            "technological transformation must account for at least 80% "
+            "of the total"
+        ),
+        "Agent": "Firms; Governments",
+        "Agent (Detail)": (
+            "Selected city governments are the application and "
+            "implementation entities; the project implementing entities "
+            "are enterprises, including chain-leader enterprises, leading "
+            "enterprises and supporting enterprises. Applicant cities are "
+            "in principle prefecture-level or above (provincial capitals, "
+            "cities specifically designated in the state plan, "
+            "prefecture-level cities/prefectures/leagues, districts and "
+            "counties of municipalities, and the Xinjiang Production and "
+            "Construction Corps)"
+        ),
+        "Activity": "Production, generation or conversion; Purchase or use",
+        "Activity (Details)": (
+            "Enterprises implement digital, intelligent and green "
+            "transformation: renewing production equipment (CNC machine "
+            "tools, industrial robots, etc.), upgrading production "
+            "processes and phasing out backward and inefficient "
+            "equipment; chain-leader enterprises mobilise 10 or more "
+            "supporting enterprises to implement transformation "
+            "simultaneously; parks advance digital and green "
+            "infrastructure development and green factory creation as a "
+            "whole"
+        ),
+        "Intensity (Value)": "3",
+        "Intensity (Unit)": "CNY 100 million/city (fixed-amount reward cap)",
+        "Intensity (Details)": (
+            "Central finance provides a fixed-amount reward of up to CNY "
+            "300 million to each selected city; 50% is disbursed in the "
+            "first year, and the remaining 50% after the end-of-period "
+            "performance assessment is passed; support for a single "
+            "project may not exceed 20% of total project investment. "
+            "Source: CJ [2024] No. 16"
+        ),
+        "Requirement specification": (
+            "Applicant cities select about three leading industries as "
+            "the focus of technological transformation; during the "
+            "implementation period, enterprises above designated size "
+            "that have undertaken digital technological transformation "
+            "must account for at least 80% of the total; each industry "
+            "must include at least one chain-leader enterprise or leading "
+            "enterprise; each city must have at least one flagship "
+            "project with an investment scale of over CNY 500 million; "
+            "projects already receiving national fiscal funding may not "
+            "receive duplicate support"
+        ),
+        "Compliance calculation methodology I": "N/A",
+        "Compliance calculation methodology II": (
+            "End-of-period performance assessment: task completion "
+            "measured against the performance targets set in the pilot "
+            "implementation plan (coverage of digital technological "
+            "transformation among enterprises above designated size, "
+            "progress of flagship projects, etc.); the remaining 50% of "
+            "reward funds are disbursed after the assessment is passed"
+        ),
+        "Subsidy: annual budget/ expenditure": (
+            "First-batch reward cap totalling about CNY 6 billion (20 "
+            "cities, up to CNY 300 million per city, 50% disbursed in the "
+            "first year); second-batch funding to be arranged separately. "
+            "Source: CJ [2024] No. 16"
+        ),
+        "Subsidy: Limit": (
+            "Fixed-amount reward cap of CNY 300 million per selected "
+            "city; support for a single project may not exceed 20% of "
+            "total project investment. Source: CJ [2024] No. 16"
+        ),
+        "Subsidy: Floor or ceiling": "N/A",
+        "Subsidy: distribution mechanism": (
+            "Cities apply voluntarily with provincial-level "
+            "recommendation; MOF, together with MIIT, selects the best "
+            "through competitive evaluation; after reward funds are "
+            "disbursed to selected cities, local authorities support "
+            "enterprise technology-transformation projects through "
+            "investment subsidies, loan interest subsidies and guarantee "
+            "fee subsidies. Source: CJ [2024] No. 16"
+        ),
+        "Subsidy: Support duration": (
+            "Implementation period of 2-3 years (set in each city's pilot "
+            "implementation plan); 50% of reward funds disbursed in the "
+            "first year, and the remaining 50% after the end-of-period "
+            "performance assessment is passed. Source: CJ [2024] No. 16"
+        ),
+        "Subsidy: Enforcement Mechanism": (
+            "Fixed-amount reward with staged disbursement: 50% of reward "
+            "funds disbursed in the first year of the implementation "
+            "period, and the remaining 50% after the end-of-period "
+            "performance assessment is passed; cities with poor annual "
+            "performance evaluations face rectification orders, "
+            "suspension of pilot status, or withholding or recovery of "
+            "reward funds; funds are earmarked for designated uses and "
+            "may not be used for staff welfare, public operating "
+            "expenses, construction of government office buildings or "
+            "balancing local budgets. Source: CJ [2024] No. 16; MIIT "
+            "Lian Gui Han [2025] No. 108"
+        ),
+        "GHG emission coverage (absolute)": "N/A",
+        "GHG emission coverage (% domestic emissions)": "N/A",
+        "Economic sector": "C20; C23; C24; C28",
+        "GHGs affected": "CO2",
+        "Mitigation effects": "Positive",
+        "Mitigation co-benefits": "Energy conservation; Technological innovation; Pollution control",
+        "Legal statute": (
+            "Notice on Conducting the Manufacturing New-Type "
+            "Technological Transformation City Pilot (CJ [2024] No. 16)"
+        ),
+        "Legal document": "http://m.mof.gov.cn/czxw/202404/t20240402_3932086.htm",
+        "Other weblinks": "http://m.mof.gov.cn/czxw/202404/t20240429_3933820.htm; http://m.mof.gov.cn/czxw/202503/t20250331_3961056.htm",
+    },
+
+    "CHNSUBTDRI04S000": {
+        "Policy Instrument ID": "CHNSUBTDRI04S000",
+        "Instrument / subscheme": "Instrument",
+        "Group": "Subsidy",
+        "Approach": "Technology deployment reward",
+        "Emission sector": "Energy",
+        "Sub-sector": (
+            "Unconventional natural gas exploitation and utilisation "
+            "(coalbed methane [coal mine methane], shale gas, tight gas)"
+        ),
+        "Domestic instrument name": "煤层气（煤矿瓦斯）开发利用中央财政奖补",
+        "English instrument name": (
+            "Central Fiscal Reward for Coalbed Methane (Coal Mine "
+            "Methane) Development and Utilisation"
+        ),
+        "Policy Package": (
+            "Several Opinions on Accelerating Coalbed Methane (Coal Mine "
+            "Methane) Drainage and Utilisation (General Office of the "
+            "State Council, 2006)"
+        ),
+        "Description": (
+            "The Ministry of Finance issued the Measures for the Administration of the Clean"
+            "Energy Development Special Fund (CJ [2025] No. 35, adopted and effective on 3 March"
+            "2025, published on 12 March 2025), with an implementation period of 2025-2029,"
+            "providing central fiscal rewards for the exploitation and utilisation of"
+            "unconventional natural gas such as coalbed methane (coal mine methane), shale gas"
+            "and tight gas, replacing the Interim Measures for the Administration of the Clean"
+            "Energy Development Special Fund (CJ [2020] No. 190). The special fund is arranged"
+            "through the central general public budget to support clean energy development and"
+            "utilisation. Rewards for unconventional natural gas are distributed on a"
+            "more-increase-more-reward basis: where utilisation output increases over the"
+            "previous year, tiered rewards are granted by the rate of increase (the larger the"
+            "increase, the higher the allocation coefficient); where output decreases, rewards"
+            "are deducted by the rate of decrease; incremental output during the heating season"
+            "receives additional rewards under the more-winter-increase-more-reward principle."
+            "When calculating unconventional natural gas utilisation output, the weighting"
+            "coefficient for coalbed methane is raised from 1.2 to 1.5 (unconventional natural"
+            "gas utilisation output = coalbed methane utilisation output x 1.5 + shale gas"
+            "utilisation output + tight gas utilisation output x weight coefficient, where the"
+            "tight gas weight coefficient is 0.6 in 2025, 0.4 in 2026-2027 and 0.2 in 2028-2029)."
+            "Projects are divided into central projects (100% controlled by central enterprises,"
+            "applying for disbursement through the central enterprise) and local projects (all"
+            "other projects, applying for disbursement through provincial finance departments"
+            "based on project location). Reward funds are used by provinces and central"
+            "enterprises in a coordinated manner for work related to unconventional natural gas"
+            "exploitation and utilisation (technology upgrading, work safety, and emission"
+            "reduction and efficiency improvement). Unconventional natural gas extracted but not"
+            "actually utilised, and the portion used for grid-connected power generation that"
+            "already receives feed-in tariff subsidies, are excluded from the reward scope."
+            "Historical evolution of this instrument: in 2007 the Ministry of Finance issued the"
+            "Implementation Opinions on Subsidies for Coalbed Methane (Gas) Development and"
+            "Utilisation (CJ [2007] No. 114, 20 April 2007), establishing a fixed subsidy of CNY"
+            "0.2 per cubic metre; in 2016 the Notice on Subsidy Standards for Coalbed Methane"
+            "(Gas) Development and Utilisation during the 13th Five-Year Plan Period (CJ [2016]"
+            "No. 31, 14 February 2016) raised the standard to CNY 0.3 per cubic metre; in 2020"
+            "the Interim Measures for the Administration of the Clean Energy Development Special"
+            "Fund (CJ [2020] No. 190) consolidated the subsidy for unconventional natural gas and"
+            "introduced a floating range of CNY 0.3-0.6 per cubic metre; the 2025 No. 35 document"
+            "adopts tiered incremental rewards, shifting the subsidy from volume-based to"
+            "performance-based. Coal mine methane drainage and utilisation delivers multiple"
+            "benefits in energy supply growth, coal mine safety and greenhouse gas emission"
+            "reduction."
+        ),
+        "Objective": "Climate change mitigation; Energy security",
+        "Mitigation relevance": "Direct",
+        "Jurisdiction level": "National",
+        "Jurisdiction name": "N/A",
+        "Adoption date": "20/04/2007",
+        "Start date": "20/04/2007",
+        "End date": "31/12/2029",
+        "Last revisions": "03/03/2025",
+        "Last revisions (Details)": (
+            "On 3 March 2025, the Ministry of Finance issued the "
+            "Measures for the Administration of the Clean Energy "
+            "Development Special Fund (CJ [2025] No. 35), effective "
+            "from the date of issuance with an implementation period of "
+            "2025-2029 (extension by application through prescribed "
+            "procedures upon expiry); tiered more-increase-more-reward "
+            "incentives apply to unconventional natural gas "
+            "exploitation and utilisation, and the weighting "
+            "coefficient for coalbed methane is raised from 1.2 to 1.5; "
+            "the document replaces the interim measures CJ [2020] No. "
+            "190."
+        ),
+        "Status": "In force",
+        "Administrating authorities": (
+            "Ministry of Finance (administers special fund budget "
+            "formulation, overall arrangement, disbursement and "
+            "whole-process performance management); National Energy "
+            "Administration (responsible for project review, managing "
+            "jointly with the Ministry of Finance); provincial finance "
+            "departments (aggregated application and disbursement for "
+            "local projects); central enterprises (application and fund "
+            "coordination for central projects)"
+        ),
+        "Asset": "Mines; Pipelines",
+        "Asset (Status)": "Existing",
+        "Asset (Details)": (
+            "Exploitation and utilisation facilities for coalbed methane "
+            "(coal mine methane), shale gas and tight gas: surface CBM "
+            "wells and underground gas drainage systems, drainage "
+            "pumping stations, gathering and transmission pipelines, "
+            "purification and liquefaction units (CNG/LNG), and "
+            "utilisation units for residential gas and chemical "
+            "feedstock; gas-fired power generation does not enjoy this "
+            "reward (subject to the feed-in tariff policy under FG "
+            "Neng Yuan [2007] No. 721)."
+        ),
+        "Asset (Other)": (
+            "Unconventional natural gas extracted but not actually "
+            "utilised is excluded from the reward scope; the portion "
+            "used for grid-connected power generation that already "
+            "receives feed-in tariff subsidies is excluded from the "
+            "reward scope."
+        ),
+        "Asset (Cut-off range)": (
+            "Enterprises must install metering equipment capable of "
+            "accurately measuring drained, sold and self-used volumes; "
+            "reward amount = (sold volume + self-used volume - volume "
+            "used for power generation) x reward standard (fixed/"
+            "floating standard stage of 2016-2020)."
+        ),
+        "Agent": "Firms",
+        "Agent (Detail)": (
+            "Domestic enterprises engaged in the exploitation and "
+            "utilisation of coalbed methane (including gas), shale gas "
+            "and tight gas; central projects are projects 100% "
+            "controlled by central enterprises, applying for and "
+            "receiving reward funds through their central enterprise; "
+            "local projects (including state-owned, private and "
+            "joint-venture) apply for and receive funds through "
+            "provincial finance departments based on project location."
+        ),
+        "Activity": "Extraction, abstraction or harvesting; Production, generation or conversion",
+        "Activity (Details)": (
+            "Enterprises carry out surface and underground drainage of "
+            "unconventional natural gas, which is sold or self-used as "
+            "residential gas, chemical feedstock, boiler fuel or "
+            "vehicle fuel after gathering, purification and "
+            "liquefaction; enterprises must establish data statistics "
+            "ledgers and are responsible for the authenticity of "
+            "declared utilisation output data; project applications are "
+            "submitted by 10 March each year, provincial aggregated "
+            "submissions by 10 April, and review by the National Energy "
+            "Administration by 10 May."
+        ),
+        "Intensity (Value)": "N/A",
+        "Intensity (Unit)": "N/A",
+        "Intensity (Details)": (
+            "Fixed subsidy of CNY 0.3 per cubic metre in the 2016-2020 stage (floating CNY"
+            "0.3-0.6 per cubic metre after 2020); from 2025, tiered rewards graded by the rate of"
+            "increase in utilisation output: allocation coefficient 1.25 for an increase of 0-5%"
+            "(inclusive), 1.5 for 5-10% (inclusive), 1.75 for 10-20% (inclusive) and 2 for above"
+            "20%. Source: CJ [2007] No. 114; CJ [2016] No. 31; CJ [2025] No. 35"
+        ),
+        "Requirement specification": (
+            "Enterprises must install metering equipment capable of "
+            "accurate measurement, establish data statistics ledgers "
+            "and be responsible for the authenticity of declared data; "
+            "enterprises obtaining subsidies through fraud are "
+            "disqualified from applying and dealt with under the "
+            "Regulations on Penalties for Fiscal Illegal Acts (State "
+            "Council Order No. 427)."
+        ),
+        "Compliance calculation methodology I": (
+            "Subsidy amount = (sold volume + self-used volume - volume "
+            "used for power generation) x subsidy standard (fixed/"
+            "floating standard stage of 2007-2020)"
+        ),
+        "Compliance calculation methodology II": (
+            "Tiered more-increase-more-reward incentive: rewards are calculated in tiers based on"
+            "the rate of increase in utilisation output over the previous year, with allocation"
+            "coefficient 1.25 for an increase of 0-5% (inclusive), 1.5 for 5-10% (inclusive),"
+            "1.75 for 10-20% (inclusive) and 2 for above 20%; decreases are deducted by the rate"
+            "of decrease; incremental heating-season output receives additional rewards under the"
+            "more-winter-increase-more-reward principle; unconventional natural gas utilisation"
+            "output = coalbed methane utilisation output x 1.5 + shale gas utilisation output +"
+            "tight gas utilisation output x weight coefficient (0.6 in 2025, 0.4 in 2026-2027 and"
+            "0.2 in 2028-2029)."
+        ),
+        "Subsidy: annual budget/ expenditure": (
+            "On 31 October 2025, the Ministry of Finance issued the Notice on Advance Allocation"
+            "of the 2026 Clean Energy Development Special Fund Budget (CJ [2025] No. 379),"
+            "allocating CNY 3.027 billion (CNY 3,027.03 million) for 2026, covering 17 provinces"
+            "and the Xinjiang Production and Construction Corps, dedicated to supporting the"
+            "exploitation and utilisation of unconventional natural gas such as coalbed methane,"
+            "shale gas and tight gas; the 2025 total was CNY 3.186 billion. Source: CJ [2025] No."
+            "379 (as reported by China Electric Power News, 25 November 2025)"
+        ),
+        "Subsidy: Limit": (
+            "More-increase-more-reward: allocation coefficient 1.25 for an increase in"
+            "utilisation output of 0-5% (inclusive) over the previous year, 1.5 for 5-10%"
+            "(inclusive), 1.75 for 10-20% (inclusive) and 2 for above 20%; decreases are deducted"
+            "by the rate of decrease. Source: CJ [2025] No. 35"
+        ),
+        "Subsidy: Floor or ceiling": "N/A",
+        "Subsidy: distribution mechanism": (
+            "Special fund arranged through the central general public "
+            "budget; advance disbursement followed by settlement; "
+            "central projects (100% controlled by central enterprises) "
+            "apply and are disbursed through the central enterprise, "
+            "local projects apply and are disbursed through provincial "
+            "finance departments based on project location; reward "
+            "funds are used by provinces and central enterprises in a "
+            "coordinated manner for work related to unconventional "
+            "natural gas exploitation and utilisation. Source: CJ "
+            "[2025] No. 35"
+        ),
+        "Subsidy: Support duration": (
+            "Implementation period 2025-2029 (extension by application "
+            "through prescribed procedures upon expiry); annual "
+            "application timeline: project applications by 10 March, "
+            "provincial aggregated submissions by 10 April, review by "
+            "the National Energy Administration by 10 May, submission "
+            "of next-year forecast data by 20 August, and next-year "
+            "budget arrangement by 20 September. Source: CJ [2025] No. "
+            "35"
+        ),
+        "Subsidy: Enforcement Mechanism": (
+            "Advance disbursement followed by settlement; enterprises "
+            "obtaining subsidies through fraud are disqualified from "
+            "applying and dealt with under the Regulations on Penalties "
+            "for Fiscal Illegal Acts; extracted-but-unutilised volumes "
+            "and the portion already receiving feed-in tariff subsidies "
+            "for power generation are excluded from the reward scope; "
+            "the Ministry of Finance conducts whole-process performance "
+            "management. Source: CJ [2025] No. 35"
+        ),
+        "GHG emission coverage (absolute)": "N/A",
+        "GHG emission coverage (% domestic emissions)": "N/A",
+        "Economic sector": "B06",
+        "GHGs affected": "CO2; CH4",
+        "Mitigation effects": "Positive",
+        "Mitigation co-benefits": "Energy security; Pollution control; Industrial development",
+        "Legal statute": (
+            "Measures for the Administration of the Clean Energy "
+            "Development Special Fund (CJ [2025] No. 35)"
+        ),
+        "Legal document": "https://m.mof.gov.cn/czxw/202503/t20250312_3959765.htm",
+        "Other weblinks": (
+            "http://fgk.mof.gov.cn/ui/src/views/law_html/1907280185871319042.html;"
+            "https://www.gov.cn/zhengce/zhengceku/202503/content_7013509.htm;"
+            "http://www.mof.gov.cn/zcsjtsgb/gfxwj/201602/t20160214_3583417.htm;"
+            "http://www.mof.gov.cn/gkml/caizhengwengao/wg2025/wg202503/202505/P020250513318507070749.pdf"
+        ),
+    },
+    "CHNPIVRDDI07S000": {
+        "Policy Instrument ID": "CHNPIVRDDI07S000",
+        "Instrument / subscheme": "Instrument",
+        "Group": "Public investment",
+        "Approach": "Government-funded RD&D programmes",
+        "Emission sector": "Energy; Industry",
+        "Sub-sector": (
+            "Green and low-carbon advanced technologies (carbon "
+            "reduction at source, carbon reduction in processes, carbon "
+            "sequestration at the end point)"
+        ),
+        "Domestic instrument name": "绿色低碳先进技术示范工程",
+        "English instrument name": (
+            "Green and Low-carbon Advanced Technology Demonstration "
+            "Programme"
+        ),
+        "Policy Package": "Carbon peak and carbon neutrality 1+N policy system",
+        "Description": (
+            "The Green and Low-carbon Advanced Technology Demonstration "
+            "Programme is a national-level demonstration programme "
+            "launched in August 2023 by the National Development and "
+            "Reform Commission (NDRC) together with ten departments (FG "
+            "Huan Zi [2023] No. 1093). It selects advanced and "
+            "applicable green and low-carbon technologies for "
+            "engineering demonstration along three directions - carbon "
+            "reduction at source, carbon reduction in processes and "
+            "carbon sequestration at the end point - with the goal that "
+            "a first group of demonstration projects is implemented by "
+            "2025 and industrial-scale deployment of green and "
+            "low-carbon advanced technologies is driven by 2030. The "
+            "first batch project list was published in March 2024 (FG "
+            "Ban Huan Zi [2024] No. 272), with 47 projects (22 source "
+            "carbon reduction, 19 process carbon reduction and 6 "
+            "end-point carbon sequestration); the second batch list was "
+            "published in April 2025 (FG Ban Huan Zi [2025] No. 396), "
+            "with 101 projects. Listed projects receive support through "
+            "the central budget investment and other channels; support "
+            "for projects on the national list may not exceed 30% of "
+            "total project investment and in principle no more than CNY "
+            "100 million per project."
+        ),
+        "Objective": "Climate change mitigation; Technological innovation; Green economy",
+        "Mitigation relevance": "Direct",
+        "Jurisdiction level": "National",
+        "Adoption date": "04/08/2023",
+        "Start date": "04/08/2023",
+        "End date": "N/A",
+        "Last revisions": "16/04/2025",
+        "Last revisions (Details)": (
+            "On 30 March 2024, the Green and Low-carbon Advanced "
+            "Technology Demonstration Project List (First Batch) was "
+            "issued (FG Ban Huan Zi [2024] No. 272, 47 projects); on 16 "
+            "April 2025, the list (Second Batch) was issued (FG Ban "
+            "Huan Zi [2025] No. 396, 101 projects), and the 19th "
+            "project of the first batch, a power-hydrogen-power "
+            "empirical demonstration project based on pure-hydrogen gas "
+            "turbines, was removed from the list."
+        ),
+        "Status": "In force",
+        "Administrating authorities": (
+            "National Development and Reform Commission (lead "
+            "department); Ministry of Science and Technology, Ministry "
+            "of Industry and Information Technology, Ministry of "
+            "Finance, Ministry of Natural Resources, Ministry of "
+            "Housing and Urban-Rural Development, Ministry of "
+            "Transport, SASAC of the State Council, National Energy "
+            "Administration and Civil Aviation Administration of China "
+            "(joint implementing departments)"
+        ),
+        "Asset": "Power plants; Industrial plants; Electricity grid; Other machinery and equipment",
+        "Asset (Status)": "New",
+        "Asset (Details)": (
+            "Demonstration projects cover three directions: carbon "
+            "reduction at source (advanced demonstration of non-fossil "
+            "energy, clean and efficient development and utilisation of "
+            "fossil energy, advanced power grids and energy storage, "
+            "and green hydrogen carbon reduction); carbon reduction in "
+            "processes (carbon reduction in industry, buildings and "
+            "transport, and coordinated pollution and carbon "
+            "reduction); and carbon sequestration at the end point "
+            "(full-chain large-scale CCUS, carbon sequestration "
+            "technologies and ecological carbon sinks)."
+        ),
+        "Asset (Cut-off range)": (
+            "The first batch list comprises 47 projects (22 source "
+            "carbon reduction, 19 process carbon reduction and 6 "
+            "end-point carbon sequestration); the second batch "
+            "comprises 101 projects. Support for projects on the "
+            "national list may not exceed 30% of total project "
+            "investment and in principle no more than CNY 100 million "
+            "per project (Source: FG Ban Huan Zi [2025] No. 396)."
+        ),
+        "Agent": "Firms; Governments",
+        "Agent (Detail)": (
+            "Project entities (enterprises) apply; local development "
+            "and reform authorities review and recommend together with "
+            "relevant departments; central enterprises apply directly "
+            "to the NDRC."
+        ),
+        "Activity": "Financing and investment; Production, generation or conversion",
+        "Activity (Details)": (
+            "Implementation process: project entity application, local "
+            "review and recommendation, third-party agency evaluation, "
+            "review by departments and localities, public consultation, "
+            "and inclusion in the demonstration project list; the list "
+            "is dynamically managed, with slow-progress or "
+            "underperforming projects urged to rectify, and those still "
+            "failing requirements after rectification removed from the "
+            "list (the 19th project of the first batch, a "
+            "power-hydrogen-power empirical demonstration project based "
+            "on pure-hydrogen gas turbines, was removed in April "
+            "2025)."
+        ),
+        "Intensity (Value)": "N/A",
+        "Intensity (Unit)": "N/A",
+        "Intensity (Details)": (
+            "Support standard per project: for projects on the national "
+            "list, support may not exceed 30% of total project "
+            "investment and in principle no more than CNY 100 million "
+            "per project (Source: FG Ban Huan Zi [2025] No. 396). The "
+            "annual total of central budget investment is not "
+            "uniformly disclosed."
+        ),
+        "Requirement specification": (
+            "Applicant projects must conform to the three demonstration "
+            "directions set out in the implementation plan and "
+            "demonstrate advanced, demonstrative and scalable value; "
+            "listed projects must fulfil factor safeguards such as land "
+            "use, energy use and environmental assessment as required "
+            "and report implementation progress on a regular basis; "
+            "slow-progress or underperforming projects are urged to "
+            "rectify, and those still failing requirements after "
+            "rectification are removed from the list."
+        ),
+        "Public investment: Co-financing": (
+            "Yes. Demonstration projects are primarily "
+            "enterprise-invested; eligible projects receive support "
+            "through central budget investment channels, with support "
+            "not exceeding 30% of total project investment and in "
+            "principle no more than CNY 100 million per project "
+            "(Source: FG Ban Huan Zi [2025] No. 396); localities "
+            "provide support through budget investment and other "
+            "fiscal fund channels, and financial institutions and "
+            "social capital are encouraged to participate."
+        ),
+        "Public investment: Selection process": (
+            "Project entity application, review and recommendation by "
+            "local development and reform authorities (central "
+            "enterprises apply directly), evaluation by a third-party "
+            "agency organised by the NDRC, review by departments and "
+            "localities, public consultation, and inclusion in the "
+            "demonstration project list (dynamic management)."
+        ),
+        "Public investment/procurement: Annual expenditure": (
+            "Not publicly disclosed. The amount of central budget "
+            "investment support is not uniformly published."
+        ),
+        "Economic sector": "D35; C20; C24; F41; H49",
+        "GHGs affected": "CO2",
+        "Mitigation effect": "Positive",
+        "Mitigation co-benefits": "Technological innovation; Industrial development; Pollution control",
+        "Legal statute": (
+            "Notice on Issuing the Implementation Plan for the Green "
+            "and Low-carbon Advanced Technology Demonstration Programme "
+            "(FG Huan Zi [2023] No. 1093); Notice on Issuing the Green "
+            "and Low-carbon Advanced Technology Demonstration Project "
+            "List (First Batch) (FG Ban Huan Zi [2024] No. 272); Notice "
+            "on Issuing the Green and Low-carbon Advanced Technology "
+            "Demonstration Project List (Second Batch) (FG Ban Huan Zi "
+            "[2025] No. 396)"
+        ),
+        "Legal document": "https://www.gov.cn/zhengce/zhengceku/202308/content_6899582.htm",
+        "Other weblinks": (
+            "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202404/t20240416_1365681.html; "
+            "https://www.ndrc.gov.cn/xwdt/tzgg/202504/t20250428_1397462.html"
         ),
     },
 

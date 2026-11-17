@@ -274,16 +274,22 @@ For every user-requested data-filling item, record the inclusion gate before fil
 - Decision: exclude.
 - Reason: Primary objectives are food security, agricultural productivity, and farmland infrastructure (irrigation, drainage, field roads, land levelling). Any climate mitigation effect — theoretical soil carbon sequestration or water pumping energy efficiency — is too attenuated and incidental to qualify even as an indirect mitigation-relevant instrument. Including this would open the door to nearly any agricultural infrastructure program. No material, measurable impact on GHG emissions that can be attributed to the instrument's design.
 
-## CHNPIVCBII01S000 - 县域充换电设施补短板试点
+## CHNSUBTDRI02S000 - 县域充换电设施补短板试点
 
 - Requested item: 县域充换电设施补短板试点 (County-level charging and battery-swapping facility pilot to fill gaps).
 - Decision: include as one national-level policy instrument.
-- Template: Government investment and procurement.
-- Classification: Public investment / Central budget investment.
-- New approach: Central budget investment (CBI) added under the Public investment group.
-- Rationale: 财建〔2024〕57号, 2024–2026 pilot program. Central government provides grants to selected pilot counties (67 in 2024, 75 in 2025) to build EV charging and battery-swapping infrastructure, up to 4500万元 per county. Requires ≥120kW fast chargers and ≥99% availability, targeting township-level coverage (乡乡全覆盖). Mitigation relevance: direct — builds essential enabling infrastructure for EV adoption in underserved rural areas where private investment in charging has been insufficient.
+- Template: Economic instruments.
+- Classification: Subsidy / Technology deployment reward (技术应用推广奖励（以奖代补）).
+- Rationale: 财建〔2024〕57号, 2024–2026 pilot program. Central government provides reward funds to selected pilot counties (67 in 2024, 75 in 2025) to build EV charging and battery-swapping infrastructure, up to 4500万元 per county. Requires ≥120kW fast chargers and ≥99% availability, targeting township-level coverage (乡乡全覆盖). Mitigation relevance: direct — builds essential enabling infrastructure for EV adoption in underserved rural areas where private investment in charging has been insufficient.
+- Reclassification (2026-11-17): moved from Government I&C / Public investment / Central budget investment to Economic instruments / Subsidy / Technology deployment reward. The operating mechanism is a performance-based fiscal reward: central finance disburses reward funds to pilot counties on a pre-allocate-first, settle-later basis (≥70% advance, then settlement against annual assessment), with three annual reward tiers (1000万/1200万/1500万元) determined by a quantitative deployment/operational indicator (charging pile power utilisation rate) and tiered assessment by provincial NEV penetration — the same 以奖代补 mechanism as the hydrogen comprehensive application pilot (CHNSUBTDRI01S000), not central budget investment in government fixed capital.
+- Classification review (2026-11-17): user raised an OECD-definition argument for classifying this instrument as Public investment — public investment is government spending forming fixed capital (including transport and energy infrastructure); subsidies are unrequited payments from government to non-government units; public investment excludes lump-sum transfers; the 2025 implementation notice states central rewards are allocated by local governments to support public charging infrastructure construction, operation, distribution-grid upgrades and energy information management. Reviewed and confirmed Subsidy / Technology deployment reward:
+  - IFCMA lists performance-based subsidies as an explicit subsidy form; the pilot's tiered utilisation-rate settlement (先预拨后清算) matches it.
+  - Ownership test: charging facilities are built, owned and operated by charging operators (enterprises); 公共充电基础设施 means publicly accessible, not publicly owned. The reward funds are unrequited payments ultimately flowing to non-government units and form enterprise-owned assets — subsidies to firms, not government gross fixed capital formation.
+  - The reward is a lump-sum transfer payment (奖补资金 via the energy conservation and emission reduction subsidy fund channel), not the central budget investment project channel (中央预算内投资) that defines the dataset's Public investment approach.
+  - Consistency: same 以奖代补 mechanism as CHNSUBTDRI01S000 (hydrogen comprehensive application pilot) and CHNSUBTDRI03S000 (manufacturing new-type technological transformation city pilot).
+  - Noted hybrid element: distribution-grid upgrades and energy information management platforms carry some public-infrastructure character. Revisit if future evidence shows the funds predominantly form government-owned assets.
 - Instrument boundary: one parent instrument covering the national pilot program; no subscheme split. County-level implementation variation is operational, not structural.
-- ID: CHNPIVCBII01S000 = CHN + PIV + CBI + I01 + S000.
+- ID: CHNSUBTDRI02S000 = CHN + SUB + TDR + I02 + S000 (formerly CHNPIVCBII01S000).
 - Source decision: primary legal basis is 财建〔2024〕57号 (财政部、工业和信息化部、交通运输部). The pilot was expanded in 2025 with a second cohort of counties.
 - Review flag: confirm whether the 2024 and 2025 cohorts should be tracked as phases or as one continuous instrument; confirm whether charging and battery-swapping infrastructure should be separate subschemes.
 
@@ -884,3 +890,39 @@ For every user-requested data-filling item, record the inclusion gate before fil
 - Decision (14/10/2026): exclude for now — 不新增行，监控至正式版应用指南印发后再更新。
 - Reason: 征求意见稿尚未生效，不构成政策工具；数据集只收录已实施工具。准则体系已由 CHNVIIVIDI01S000 企业可持续披露准则覆盖：三级结构（基本准则/具体准则/应用指南）已记入描述，气候准则（财会〔2025〕34号）已记入最近修订（详情）。交叉引用行 CHNREPSIDI02S000（上市公司可持续发展报告指引）已在工具联动中衔接该体系，无需改动。
 - 正式印发后的动作：最小更新 CHNVIIVIDI01S000 — 最近修订（详情）补充应用指南印发信息，其他网页链接增加正式文本链接；届时评估是否需将气候准则及应用指南拆分为子方案。
+
+## CHNSUBTDRI03S000 - 制造业新型技术改造城市试点
+
+- Requested item: 关于开展制造业新型技术改造城市试点工作的通知（财建〔2024〕16号，2024-03-21 印发，财政部、工业和信息化部）。用户指示：纳入；货运枢纽补链强链提升行动不纳入。
+- Decision (17/11/2026): include as one national-level policy instrument.
+- Template: Economic instruments.
+- Classification: Subsidy / Technology deployment reward (技术应用推广奖励（以奖代补）).
+- Rationale: 中央财政对入选城市给予定额奖励，每个城市不超过 3 亿元，试点实施期第一年拨付 50%、实施期满考核评价通过后拨付其余 50%（先预拨后清算）；城市自愿申报、省级推荐、竞争性评审择优确定；试点采用点线面结合方式（智能工厂/产业链供应链协同数字化改造/产业集群园区数字化绿色化改造），实施期内累计开展数字化技术改造的规上企业占比须达 80% 以上。与氢能综合应用试点（CHNSUBTDRI01S000）、县域充换电设施补短板试点（CHNSUBTDRI02S000）同为以奖代补机制，属 TDR 路径。首批 20 个市（区）（2024-04-29 公示）；2025-03-31 两部门印发通知启动第二批申报。
+- Instrument boundary: one parent instrument covering the national pilot program; no subscheme split（首批/第二批作为阶段处理，最近修订记录第二批通知）。
+- ID: CHNSUBTDRI03S000 = CHN + SUB + TDR + I03 + S000.
+- Source decision: primary legal basis 财建〔2024〕16号（http://m.mof.gov.cn/czxw/202404/t20240402_3932086.htm）；政策包为 关于加快传统制造业转型升级的指导意见（工信部联规〔2023〕258号）。
+- Review flag: ①证据引文与首批 20 市名单来源（2024-04-29 公示链接）待核验补充；②"英文工具名称"译名待人工确认。第二批通知（工信厅联规函〔2025〕108号，2025-03-25 成文）已核验并记入最近修订与其他网页链接。
+
+## CHNPIVRDDI07S000 - 绿色低碳先进技术示范工程
+
+- Requested item: 绿色低碳先进技术示范工程实施方案（发改环资〔2023〕1093号，2023-08-04 国家发展改革委等十部门印发；用户确认纳入）。
+- Decision (17/11/2026): include as one national-level policy instrument.
+- Template: Government I&C.
+- Classification: Public investment / Government-funded RD&D programmes (政府资助研发与示范计划).
+- Rationale: 建立绿色低碳先进技术示范项目遴选体系（源头减碳/过程降碳/末端固碳 3 大类；项目申报→地方审核推荐→第三方机构评审→部门及地方复核→公开征求意见），首批 47 个项目清单（源头减碳22个、过程降碳19个、末端固碳6个）于 2024-03-30 印发（发改办环资〔2024〕272号，2024-04-16 官网公布）；资金通过统筹中央预算内投资等现有渠道支持，另有地方政府专项债券、碳减排支持工具、首台套重大技术装备保险补偿、用能用地要素保障。符合 RDD 定义（政府计划通过竞争性资助支持技术的研发与示范，资金通过公开征集建议书分配，按技术和商业标准评审）。其本身不是预算专项，故不入中央预算内投资路径（与 CHNPIVCBII02S000 节能降碳中央预算内投资专项互补：前者为示范项目遴选与支持协调计划，后者为资金渠道）。
+- Instrument boundary: one parent instrument covering the national demonstration programme; no subscheme split.
+- ID: CHNPIVRDDI07S000 = CHN + PIV + RDD + I07 + S000.
+- Source decision: primary legal basis 发改环资〔2023〕1093号（链接 https://www.gov.cn/zhengce/zhengceku/202308/content_6899582.htm）；第一批项目清单发改办环资〔2024〕272号（2024-03-30 成文，NDRC 官网链接 https://www.ndrc.gov.cn/xxgk/zcfb/tz/202404/t20240416_1365681.html）、第二批清单发改办环资〔2025〕396号（2025-04-16 成文，101 个项目，NDRC 官网链接 https://www.ndrc.gov.cn/xwdt/tzgg/202504/t20250428_1397462.html）记入最近修订与其他网页链接；最近修订=16/04/2025。
+- Review flag: ①首批清单文号与官网链接——已核验（发改办环资〔2024〕272号，47 个项目）；②第二批清单——已核验（发改办环资〔2025〕396号，101 个项目，同时第一批第19项"电-氢-电"实证示范项目调整退出清单）；③排放部门——用户确认改为"能源；工业"（2026-11-17），已更新草稿；④2026-11-17 补充核查：第三批清单截至当日尚未发布（第三批申报已启动、清单未印发），最近修订维持 16/04/2025；⑤支持标准（不超过总投资30%、单个项目原则上不超过1亿元）经 2026 年度申报指南等公开信息再次确认；⑥中央预算内投资对示范项目的年度支出总额未公开披露，字段维持"未公开披露"。
+
+## CHNSUBTDRI04S000 - 煤层气（煤矿瓦斯）开发利用中央财政奖补
+
+- Requested item: 清洁能源发展专项资金管理办法（财建〔2025〕35号，财政部 2025-03-03 制定、2025-03-12 印发，实施期限 2025—2029）。用户确认纳入，并建议以财建〔2025〕35号为现行依据、保留 2016 年文件作为历史政策依据。经核查：数据库中并无以财建〔2016〕31号为唯一依据的既有行（该工具此前从未入库），本条目为新增。
+- Decision (17/11/2026): include as one national-level policy instrument.
+- Template: Economic instruments.
+- Classification: Subsidy / Technology deployment reward (技术应用推广奖励（以奖代补）).
+- Rationale: 现行机制为对煤层气（煤矿瓦斯）、页岩气、致密气等非常规天然气开采利用给予"多增多补"梯级奖补（较上年开采利用量增幅越大奖补比例越高、降幅扣减、取暖季增量"冬增多补"），煤层气权重系数由 1.2 提高至 1.5，采取"先预拨、后清算"，中央企业项目/地方项目两条申报通道；资金用于技术升级、安全生产及减排增效等环节。TDR 定义范围含"或燃料"，机制要素（按推广规模分档、先预拨后清算）吻合；与低排放燃料补贴相比，该奖励针对开采利用活动按增幅分档核算而非燃料单价定额，且政策文件自身称"奖补"。历史演变：2016 年定额 0.3 元/m³（财建〔2016〕31号）→ 2020 年浮动 0.3—0.6 元/m³（财建〔2020〕190号暂行办法）→ 2025 年梯级增量奖补（财建〔2025〕35号，"量补"转"效补"）。减缓相关性=直接（瓦斯抽采利用避免 CH4 直排）。
+- Instrument boundary: one parent instrument covering the national reward programme; no subscheme split（中央项目/地方项目为拨付通道差异，非结构性拆分）。
+- ID: CHNSUBTDRI04S000 = CHN + SUB + TDR + I04 + S000.
+- Source decision: 法律文件名称取财建〔2025〕35号；财建〔2020〕190号、财建〔2016〕31号作为前身记入描述与最近修订（详情）；通过日期按最早前身日期惯例处理。
+- Review flag（2026-11-17 全部核验完毕）：①财建〔2016〕31号——已核验：《关于"十三五"期间煤层气（瓦斯）开发利用补贴标准的通知》，财政部 2016-02-14 印发，官网链接 http://www.mof.gov.cn/zcsjtsgb/gfxwj/201602/t20160214_3583417.htm；②更早前身——已核验：财建〔2007〕114号《关于煤层气（瓦斯）开发利用补贴的实施意见》，财政部 2007-04-20 印发，通过日期 20/04/2007 成立；③梯级奖补——已核验（财政部文告 2025 年第 3 期刊载 35 号文全文 http://www.mof.gov.cn/gkml/caizhengwengao/wg2025/wg202503/202505/P020250513318507070749.pdf）：增幅 0—5%（含）分配系数 1.25、5—10%（含）1.5、10—20%（含）1.75、20% 以上 2，较上年减少按降幅扣减；另据第十三条，非常规天然气开采利用量=煤层气×1.5+页岩气+致密气×权重系数（致密气权重系数 2025 年 0.6、2026—2027 年 0.4、2028—2029 年 0.2），草稿原公式缺致密气权重系数，已同步修正 CN/EN 描述与合规计算方法II；④35号官网链接——已核验（https://m.mof.gov.cn/czxw/202503/t20250312_3959765.htm）；⑤年度预算——已核验：财建〔2025〕379号（2025-10-31）提前下达 2026 年度专项资金 30.27 亿元（17 个省份及新疆生产建设兵团），2025 年度总额 31.86 亿元，已更新补贴：年度预算/支出字段（替代原安徽省单项数据）。
