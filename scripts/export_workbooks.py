@@ -66,7 +66,6 @@ LANG_CONFIG = {
             "Mitigation relevance",
             "Number of instruments",
             "IFCMA alignment status",
-            "IFCMA reference approach",
         ],
         "sheets": {
             "economic_instruments": "Economic instruments",
@@ -362,7 +361,7 @@ def _apply_status_formulas(ws, header_row: int, row_count: int) -> None:
       - Start date empty/N/A  =>  In force/生效 (no temporal boundary)
       - TODAY < Start date     =>  Scheduled/计划实施
       - End date empty/N/A
-        or TODAY < End date    =>  In force/生效
+        or TODAY <= End date   =>  In force/生效
       - Otherwise               =>  Ended/已终止
     """
     headers = [str(c.value or "") for c in ws[header_row]]
@@ -385,7 +384,7 @@ def _apply_status_formulas(ws, header_row: int, row_count: int) -> None:
             'IF(TODAY()<DATE(VALUE(RIGHT({r}{row},4)),VALUE(MID({r}{row},4,2)),VALUE(LEFT({r}{row},2))),"计划实施",'
             'IF({s}{row}="","生效",'
             'IF({s}{row}="N/A","生效",'
-            'IF(TODAY()<DATE(VALUE(RIGHT({s}{row},4)),VALUE(MID({s}{row},4,2)),VALUE(LEFT({s}{row},2))),"生效","已终止"))))))'
+            'IF(TODAY()<=DATE(VALUE(RIGHT({s}{row},4)),VALUE(MID({s}{row},4,2)),VALUE(LEFT({s}{row},2))),"生效","已终止"))))))'
         )
     else:
         formula_tmpl = (
@@ -394,7 +393,7 @@ def _apply_status_formulas(ws, header_row: int, row_count: int) -> None:
             'IF(TODAY()<DATE(VALUE(RIGHT({r}{row},4)),VALUE(MID({r}{row},4,2)),VALUE(LEFT({r}{row},2))),"Scheduled",'
             'IF({s}{row}="","In force",'
             'IF({s}{row}="N/A","In force",'
-            'IF(TODAY()<DATE(VALUE(RIGHT({s}{row},4)),VALUE(MID({s}{row},4,2)),VALUE(LEFT({s}{row},2))),"In force","Ended"))))))'
+            'IF(TODAY()<=DATE(VALUE(RIGHT({s}{row},4)),VALUE(MID({s}{row},4,2)),VALUE(LEFT({s}{row},2))),"In force","Ended"))))))'
         )
 
     for row_num in range(header_row + 1, header_row + row_count + 1):
@@ -732,9 +731,9 @@ def write_instruments_overview_sheet(wb, lang: str) -> None:
         2: get_column_letter(4),   # Approach
         3: get_column_letter(8),   # English instrument name
         4: get_column_letter(7),   # Domestic instrument name
-        5: get_column_letter(21),  # Status
-        6: get_column_letter(17),  # Start date
-        7: get_column_letter(18),  # End date
+        5: get_column_letter(20),  # Status
+        6: get_column_letter(16),  # Start date
+        7: get_column_letter(17),  # End date
         8: get_column_letter(12),  # Mitigation relevance
         10: get_column_letter(3),  # Group
         11: get_column_letter(5),  # Emission sector
@@ -992,6 +991,18 @@ def _set(ws, cell: str, value: str) -> None:
 # Autofit row heights the user set on the Approaches data rows (row 2..N;
 # None keeps the default height). CN and EN sort identically, so the position
 # list applies to both languages.
+APPROACHES_IFCMA_LEGEND_CN = [
+    "IFCMA 对应状态定义：",
+    "直接对应（Direct match）——CCPID 路径与 IFCMA 路径直接对应。",
+    "扩展路径（Extended approach）——CCPID 路径在 IFCMA 路径基础上扩展了机制；扩展不代表两者完全等同，而是具有可识别的共同机制基础。",
+    "CCPID 特有路径（CCPID-specific approach）——中国特有的路径，无直接对应的 IFCMA 路径。",
+]
+APPROACHES_IFCMA_LEGEND_EN = [
+    "IFCMA crosswalk status definitions:",
+    "Direct match — the CCPID approach corresponds directly to an IFCMA approach.",
+    "Extended approach — the CCPID approach extends an IFCMA approach with additional mechanisms; extended does not imply the two are fully equivalent, but that they share a recognisable common mechanism basis.",
+    "CCPID-specific approach — an approach specific to the CCPID with no direct IFCMA counterpart.",
+]
 APPROACHES_DATA_ROW_HEIGHTS = [
     85.5,
     99.75,
@@ -1122,6 +1133,9 @@ def write_approaches_sheet(wb, lang: str, csv_data: list[tuple[list[str], list[d
             approach = get_field(row, csv_headers, "Approach", "路径")
             if not approach:
                 continue
+            inst_type = get_field(row, csv_headers, "Instrument / subscheme", "工具/子方案")
+            if inst_type in ("Subscheme", "子方案"):
+                continue
             key = normalise_key(approach)
             # Normalize Chinese approach names to English for merging
             if lang == "en" and key in cn_to_en:
@@ -1169,12 +1183,20 @@ def write_approaches_sheet(wb, lang: str, csv_data: list[tuple[list[str], list[d
                     "; ".join(summary["relevance"]),
                     len(summary["ids"]),
                     classification.get("IFCMA alignment status", ""),
-                    classification.get("IFCMA reference approach", ""),
                 ]
             )
         data_row = ws.max_row
         if data_row - 2 < len(APPROACHES_DATA_ROW_HEIGHTS):
             ws.row_dimensions[data_row].height = APPROACHES_DATA_ROW_HEIGHTS[data_row - 2]
+
+    # IFCMA crosswalk legend below the data rows. Text goes in column A only:
+    # Summary formulas count Approaches!A:A (exact category match), B:B (exact
+    # group match), C:C (COUNTA) and F:F (sector wildcards), so no legend text
+    # must appear in those columns.
+    legend = APPROACHES_IFCMA_LEGEND_CN if lang == "cn" else APPROACHES_IFCMA_LEGEND_EN
+    ws.append([])
+    for line in legend:
+        ws.append([line])
 
     header_fill = PatternFill("solid", fgColor="FF0E5C46")
     for cell in ws[1]:
@@ -1184,7 +1206,7 @@ def write_approaches_sheet(wb, lang: str, csv_data: list[tuple[list[str], list[d
     for row in ws.iter_rows(min_row=2):
         for cell in row:
             cell.alignment = Alignment(wrap_text=True, vertical="top")
-    for index, width in enumerate([18, 22, 36, 14, 100, 28, 20, 24, 26, 34], start=1):
+    for index, width in enumerate([18, 22, 36, 14, 100, 28, 20, 24, 26], start=1):
         ws.column_dimensions[get_column_letter(index)].width = width
     ws.freeze_panes = "A2"
 

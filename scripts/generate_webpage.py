@@ -78,7 +78,7 @@ TEXT = {
     "cn": {
         "download_btn": "数据下载",
         "scope_labels": {"approaches": "路径数量：", "instruments": "工具数量：", "sectors": "覆盖部门："},
-        "scope_sectors": "能源；交通；建筑；工业；农业、林业和其他土地利用；废弃物",
+        "scope_sectors": "能源；工业；建筑；交通；农业、林业和其他土地利用；废弃物；跨部门",
         "cat_col": "类别",
         "group_col": "组别",
         "sector_col": "排放部门",
@@ -92,7 +92,7 @@ TEXT = {
     "en": {
         "download_btn": "Download Data",
         "scope_labels": {"approaches": "Number of approaches: ", "instruments": "Number of instruments: ", "sectors": "Sectors covered: "},
-        "scope_sectors": "Energy, Transport, Buildings, Industry, AFOLU, Waste",
+        "scope_sectors": "Energy, Industry, Buildings, Transport, AFOLU, Waste, Cross-sectoral",
         "cat_col": "Category",
         "group_col": "Group",
         "sector_col": "Emission Sector",

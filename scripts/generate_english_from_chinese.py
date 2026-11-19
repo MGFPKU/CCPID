@@ -397,7 +397,7 @@ COMMON = {
     ),
 
 
-    "Mitigation effects": "Positive",
+    "Mitigation effect": "Positive",
 
 
     "Mitigation co-benefits": "Air pollution",
@@ -521,7 +521,7 @@ _STRUCTURAL_TRANSLATIONS: dict[str, tuple[str, dict[str, str]]] = {
 
 
     ),
-    "管辖层级": ("Jurisdiction level", {"国家": "national", "省级": "subnational", "县级": "subnational", "城市级": "subnational"}),
+    "管辖层级": ("Jurisdiction level", {"国家": "National", "省级": "Sub-national", "县级": "Sub-national", "城市级": "Sub-national"}),
 
 
     "状态": (
@@ -655,10 +655,10 @@ _STRUCTURAL_TRANSLATIONS: dict[str, tuple[str, dict[str, str]]] = {
     "减缓效果": (
 
 
-        "Mitigation effects",
+        "Mitigation effect",
 
 
-        {"正向": "Positive", "N/A": "N/A"},
+        {"正向": "Positive", "未知": "Unknown", "N/A": "N/A"},
 
 
     ),
@@ -769,7 +769,7 @@ _CRITICAL_EN_FIELDS = {
     "Compliance monitoring",
 
 
-    "Mitigation effects",
+    "Mitigation effect",
 
 
 }
@@ -850,10 +850,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "01/02/2021",
 
 
-        "Last revisions": "01/05/2024",
+        "Last revision": "01/05/2024",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The Interim Regulations on the Administration of Carbon Emission "
@@ -1054,7 +1054,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "concealment or refusal to fulfil emission reporting obligations: fined CNY 10,000–30,000, and the"
             "falsely reported or concealed portion may be deducted from the next year’s allowances."
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": "Pollution control",
     },
 
@@ -1119,10 +1119,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "01/02/2021",
 
 
-        "Last revisions": "21/10/2024",
+        "Last revision": "21/10/2024",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The Ministry of Ecology and Environment issued the notice on total "
@@ -1253,7 +1253,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "carbon market rules."
         ),
         "Trading System: penalties for non-compliance": "Subject to the unified national carbon market penalty rules.",
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": "Pollution control",
     },
 
@@ -1318,10 +1318,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "26/03/2025",
 
 
-        "Last revisions": "26/03/2025",
+        "Last revision": "26/03/2025",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The Ministry of Ecology and Environment issued the work plan for "
@@ -1461,7 +1461,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "carbon market rules."
         ),
         "Trading System: penalties for non-compliance": "Subject to the unified national carbon market penalty rules.",
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": "Pollution control",
     },
 
@@ -1526,10 +1526,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "26/03/2025",
 
 
-        "Last revisions": "26/03/2025",
+        "Last revision": "26/03/2025",
 
 
-        "Last revisions (Details)": EXPANSION_REVISION,
+        "Last revision (Details)": EXPANSION_REVISION,
 
 
         "Asset (Details)": (
@@ -1654,7 +1654,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "carbon market rules."
         ),
         "Trading System: penalties for non-compliance": "Subject to the unified national carbon market penalty rules.",
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": "Pollution control",
     },
 
@@ -1719,10 +1719,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "26/03/2025",
 
 
-        "Last revisions": "26/03/2025",
+        "Last revision": "26/03/2025",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The Ministry of Ecology and Environment issued the work plan for "
@@ -1859,7 +1859,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "carbon market rules."
         ),
         "Trading System: penalties for non-compliance": "Subject to the unified national carbon market penalty rules.",
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": "Pollution control",
     },
 
@@ -1970,7 +1970,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -1985,10 +1985,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "2022",
+        "Last revision": "2022",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "In 2022, the Ministry of Natural Resources, National Forestry and "
@@ -2446,7 +2446,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -2582,7 +2582,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -2597,10 +2597,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "05/12/2024",
+        "Last revision": "05/12/2024",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 5 December 2024, the Ministry of Finance and the National Forestry "
@@ -3073,7 +3073,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -3210,7 +3210,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -3225,10 +3225,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "2021",
+        "Last revision": "2021",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The third-round policy (2021-2025) was jointly issued by the Ministry "
@@ -3626,7 +3626,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -3701,7 +3701,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Policy Package": "Grassland Ecological Protection Subsidy and Reward",
+        "Policy Package": "N/A",
 
 
         "Description": (
@@ -3750,7 +3750,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -3765,10 +3765,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "2021",
+        "Last revision": "2021",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The third-round policy (2021-2025) raised the national grazing-ban "
@@ -4064,7 +4064,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -4133,7 +4133,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Policy Package": "Grassland Ecological Protection Subsidy and Reward",
+        "Policy Package": "N/A",
 
 
         "Description": (
@@ -4188,7 +4188,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -4203,10 +4203,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "2021",
+        "Last revision": "2021",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The third-round policy (2021-2025) raised the national grass-livestock "
@@ -4526,7 +4526,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -4671,7 +4671,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -4686,10 +4686,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "2021",
+        "Last revision": "2021",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "In 2021, the General Office of the State Council issued the Several "
@@ -5132,7 +5132,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -5298,7 +5298,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -5313,10 +5313,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "23/07/2019",
+        "Last revision": "23/07/2019",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 23 July 2019, the General Office of the CPC Central Committee "
@@ -5870,7 +5870,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -6015,7 +6015,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -6030,10 +6030,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "31/12/2028",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "No subsequent amendment documents specifically revising 交办水〔2024〕"
@@ -6386,7 +6386,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -6552,7 +6552,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -6567,10 +6567,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "No subsequent amendment documents specifically revising 农办机〔2024〕"
@@ -7019,7 +7019,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -7113,10 +7113,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "31/12/2026",
 
 
-        "Last revisions": "20/03/2026",
+        "Last revision": "20/03/2026",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 27 August 2024, the general offices of MOT, MPS, MOF and MOFCOM jointly issued "
@@ -7280,7 +7280,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Energy security; Industrial development",
@@ -7398,10 +7398,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "31/12/2026",
 
 
-        "Last revisions": "30/12/2025",
+        "Last revision": "30/12/2025",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 15 August 2024, seven departments including MOFCOM issued the Notice on Further Improving Car Trade-in Work "
@@ -7655,7 +7655,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Energy security; Industrial development",
@@ -7776,10 +7776,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "31/12/2026",
 
 
-        "Last revisions": "30/12/2025",
+        "Last revision": "30/12/2025",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "No subsequent amendment specifically revising the car replacement provisions of 商消费函〔2024〕392号 has been identified."
@@ -8009,7 +8009,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Industrial development",
@@ -8124,10 +8124,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "31/12/2026",
 
 
-        "Last revisions": "01/05/2026",
+        "Last revision": "01/05/2026",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 24 September 2024, the general offices of MOT, NDRC and MOF jointly issued "
@@ -8363,7 +8363,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Energy security; Public health",
@@ -8426,7 +8426,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Northern winter clean heating subsidy",
 
 
-        "Policy Package": "N/A",
+        "Policy Package": "Clean Winter Heating Plan for Northern China; Air Pollution Prevention and Control Action Plan",
 
 
         "Description": (
@@ -8517,10 +8517,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "31/12/2030",
 
 
-        "Last revisions": "01/01/2026",
+        "Last revision": "01/01/2026",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The Ministry of Finance issued the Administrative Measures for "
@@ -9029,7 +9029,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Energy security; Industrial development",
@@ -9089,7 +9089,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Waste electrical and electronic equipment recycling and treatment reward/subsidy",
 
 
-        "Policy Package": "N/A",
+        "Policy Package": "14th Five-Year Plan for Circular Economy Development",
 
 
         "Description": (
@@ -9167,7 +9167,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Circular economy; Resource conservation",
+        "Objective": "Circular economy",
 
 
         "Mitigation relevance": "Indirect",
@@ -9186,10 +9186,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "31/12/2027",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "This instrument was established in 2024, replacing the former "
@@ -9716,7 +9716,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; HFCs",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Circular economy; Pollution control; Resource conservation",
@@ -9882,10 +9882,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "31/12/2026",
 
 
-        "Last revisions": "06/09/2024",
+        "Last revision": "06/09/2024",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 6 September 2024, the General Office of the Ministry of Agriculture "
@@ -10382,7 +10382,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Technological innovation",
@@ -10416,6 +10416,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
     "CHNPIVCBII06S000": {
+        "Mitigation effect": "Positive",
 
 
         "Policy Instrument ID": "CHNPIVCBII06S000",
@@ -10539,7 +10540,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-        "Jurisdiction level": "Subnational",
+        "Jurisdiction level": "Sub-national",
 
 
         "Jurisdiction name": (
@@ -10561,10 +10562,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "31/12/2026",
 
 
-        "Last revisions": "06/03/2026",
+        "Last revision": "06/03/2026",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 6 March 2026, the three ministries issued the 2026 pilot "
@@ -11156,7 +11157,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Jurisdiction level": "Subnational",
+        "Jurisdiction level": "Sub-national",
 
 
         "Jurisdiction name": (
@@ -11183,10 +11184,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "31/12/2030",
 
 
-        "Last revisions": "14/10/2026",
+        "Last revision": "14/10/2026",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 15 August 2026, the three ministries issued the Notice on Approving 5 City "
@@ -11722,7 +11723,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Technological innovation; Industrial development; Energy security",
@@ -11920,11 +11921,11 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Climate change mitigation; Pollution control; Ecological protection; Renewable energy development; Green consumption",
+        "Objective": "Climate change mitigation; Pollution control; Ecological protection; Non-fossil energy; Green consumption; Green finance",
 
 
         "Mitigation relevance": "Direct",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -11939,10 +11940,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
 
@@ -12502,7 +12503,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O; HFCs",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -12650,7 +12651,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -12665,10 +12666,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "No subsequent amendment documents specifically revising 商消费发〔2024〕"
@@ -13090,7 +13091,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -13193,7 +13194,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -13208,10 +13209,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "30/12/2017",
+        "Last revision": "30/12/2017",
 
 
-        "Last revisions (Details)": "On 30 December 2017, the State Council issued the Implementing Regulations for the Environmental Protection Tax Law (State Council Decree No. 693), effective alongside the Law on 1 January 2018",
+        "Last revision (Details)": "On 30 December 2017, the State Council issued the Implementing Regulations for the Environmental Protection Tax Law (State Council Decree No. 693), effective alongside the Law on 1 January 2018",
 
 
 
@@ -13285,7 +13286,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Unknown",
 
 
         "Mitigation co-benefits": "Pollution control",
@@ -13316,7 +13317,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -13558,7 +13559,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Pollution control; Energy security",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Objective": "Climate change mitigation; Energy efficiency",
@@ -13619,7 +13620,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "On 13 January 2015, the Ministry of Finance and the State Taxation "
             "Administration issued Cai Shui [2015] No. 11, raising the unit tax on "
             "gasoline, naphtha, solvent oil and lubricating oil to CNY 1.52 per litre, "
@@ -13649,7 +13650,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -13885,7 +13886,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Pollution control; Industrial development",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Objective": "Climate change mitigation; Energy efficiency; Green economy",
@@ -13937,7 +13938,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "On 1 August 2008, the Ministry of Finance and the State Taxation "
             "Administration issued Cai Shui [2008] No. 105 on adjusting passenger vehicle "
             "consumption tax policy, effective from 1 September 2008. Main adjustments: "
@@ -13966,7 +13967,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -14235,7 +14236,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Pollution control; Energy security; Industrial development",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Objective": "Climate change mitigation; Energy efficiency; Green economy",
@@ -14284,7 +14285,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "In May 2024, the Ministry of Industry and Information Technology, the "
             "Ministry of Finance and the State Taxation Administration jointly issued "
             "Announcement No. 10 of 2024, adjusting the technical requirements for "
@@ -14312,7 +14313,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Subscheme",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -14488,7 +14489,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Pollution control; Energy security; Industrial development",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Objective": "Climate change mitigation; Energy efficiency",
@@ -14531,7 +14532,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "Announcement No. 10 of 2024, issued in May 2024, updated the technical "
             "standards for new energy vehicles from 1 July 2024."
         ),
@@ -14554,7 +14555,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Subscheme",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -14742,7 +14743,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Pollution control; Energy security",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Objective": "Climate change mitigation; Energy efficiency",
@@ -14785,7 +14786,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "Announcement No. 10 of 2024, issued in May 2024, updated the combined-cycle "
             "fuel consumption technical standards for energy-saving vehicles from "
             "1 July 2024."
@@ -14809,7 +14810,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -15051,10 +15052,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Industrial development; Technological innovation; Circular economy",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
-        "Objective": "Circular economy; Resource conservation; Climate change mitigation",
+        "Objective": "Circular economy; Climate change mitigation",
 
 
         "Policy Package": "N/A",
@@ -15100,7 +15101,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "On 31 December 2021, the Ministry of Finance and the State Taxation "
             "Administration issued Announcement No. 40 of 2021, effective from 1 March "
             "2022, repealing and replacing the former Cai Shui [2015] No. 78. The new "
@@ -15128,7 +15129,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -15337,7 +15338,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Technological innovation; Ecological protection; Pollution control",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Objective": "Climate change mitigation; Pollution control",
@@ -15380,7 +15381,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "Announcement No. 10 of 2026 by the Ministry of Finance and the State "
             "Taxation Administration (the supporting transition announcement for the "
             "implementation of the 2026 VAT Law), Article 2, clarifies that from "
@@ -15409,7 +15410,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -15606,7 +15607,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Energy security; Industrial development; Technological innovation",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Objective": "Climate change mitigation; Energy security; Green economy",
@@ -15643,7 +15644,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "On 17 October 2025, the Ministry of Finance, the General Administration of "
             "Customs and the State Taxation Administration jointly issued Announcement "
             "No. 10 of 2025, effective from 1 November 2025. The new announcement "
@@ -15742,16 +15743,16 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Value)": "N/A",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
 
 
-        "Last revisions": "01/06/2018",
+        "Last revision": "01/06/2018",
 
 
-        "Last revisions (Details)": "The PBOC notice announced the expansion of MLF collateral eligibility; no later source-specific revision for this green-collateral expansion was identified in this fill.",
+        "Last revision (Details)": "The PBOC notice announced the expansion of MLF collateral eligibility; no later source-specific revision for this green-collateral expansion was identified in this fill.",
 
 
         "Legal document": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125437/125446/125873/3d10b70283e3479bb6b4b55a38a48399/index.html",
@@ -15763,7 +15764,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Energy security; Industrial development",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation relevance": "Indirect",
@@ -15897,16 +15898,16 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Value)": "1.75",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
 
 
-        "Last revisions": "15/01/2026",
+        "Last revision": "15/01/2026",
 
 
-        "Last revisions (Details)": "Revision sources record that the carbon emission reduction support tool has been extended to the end of 2027. The PBOC source dated 15 January 2026 also reports that support areas have been expanded and that annual operations should not exceed CNY 800 billion.",
+        "Last revision (Details)": "Revision sources record that the carbon emission reduction support tool has been extended to the end of 2027. The PBOC source dated 15 January 2026 also reports that support areas have been expanded and that annual operations should not exceed CNY 800 billion.",
 
 
         "Legal document": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2025092212552065420/index.html",
@@ -15918,10 +15919,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Pollution control; Energy security; Technological innovation; Industrial development",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
-        "Mitigation relevance": "Indirect",
+        "Mitigation relevance": "Direct",
 
 
         "Objective": "Green economy; Climate change mitigation",
@@ -16052,16 +16053,16 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Value)": "1.5",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
 
 
-        "Last revisions": "19/01/2026",
+        "Last revision": "19/01/2026",
 
 
-        "Last revisions (Details)": "The 2026 optimization notice took effect on 1 January 2026, expanded the policy scope, increased the interest subsidy to 1.5 percentage points, added handling banks, simplified the subsidy process, and states that provisions inconsistent with the 2024 notice follow the 2026 notice.",
+        "Last revision (Details)": "The 2026 optimization notice took effect on 1 January 2026, expanded the policy scope, increased the interest subsidy to 1.5 percentage points, added handling banks, simplified the subsidy process, and states that provisions inconsistent with the 2024 notice follow the 2026 notice.",
 
 
         "Legal document": "https://www.gov.cn/zhengce/zhengceku/202406/content_6959323.htm",
@@ -16073,7 +16074,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Energy security; Technological innovation; Industrial development",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation relevance": "Indirect",
@@ -16085,7 +16086,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055549.htm",
 
 
-        "Policy Package": "Large-scale equipment renewal and consumer goods trade-in policy",
+        "Policy Package": "Large-scale equipment renewal and consumer goods trade-in",
 
 
         "Requirement specification": "Loan funds must be used for eligible equipment renewal and technological transformation projects and cannot be used for debt repayment, investment, wealth management or other arbitrage activities. Borrowers, lending banks and fiscal authorities follow the application, verification, subsidy-disbursement and reporting procedures set out in the notices.",
@@ -16501,16 +16502,16 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Value)": "N/A",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
 
 
-        "Last revisions": "28/06/2022",
+        "Last revision": "28/06/2022",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The 2022 edition of the Administrative Measures for the China Clean "
@@ -16760,16 +16761,16 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Value)": "formula",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
 
 
-        "Last revisions": "27/01/2025",
+        "Last revision": "27/01/2025",
 
 
-        "Last revisions (Details)": "The 2025 NDRC/NEA notice establishes the sustainable price settlement mechanism alongside the reform that new energy feed-in electricity should fully enter electricity markets. Stock projects are connected to existing price policies, while incremental projects use market-based competitive determination of the mechanism electricity price.",
+        "Last revision (Details)": "The 2025 NDRC/NEA notice establishes the sustainable price settlement mechanism alongside the reform that new energy feed-in electricity should fully enter electricity markets. Stock projects are connected to existing price policies, while incremental projects use market-based competitive determination of the mechanism electricity price.",
 
 
         "Legal document": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202502/t20250209_1396066.html",
@@ -16781,13 +16782,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Energy security; Technological innovation; Industrial development",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation relevance": "Direct",
 
 
-        "Objective": "Renewable energy development; Green economy",
+        "Objective": "Non-fossil energy; Green economy",
 
 
         "Other weblinks": "N/A",
@@ -16915,16 +16916,16 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Value)": "100; 50",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
 
 
-        "Last revisions": "19/06/2023",
+        "Last revision": "19/06/2023",
 
 
-        "Last revisions (Details)": "The 2023 announcement extends and optimizes the policy through 31 December 2027. It provides full vehicle purchase tax exemption for eligible NEVs purchased in 2024-2025, capped at CNY 30,000 per new energy passenger vehicle, and a 50% reduction for eligible NEVs purchased in 2026-2027, capped at CNY 15,000 per new energy passenger vehicle.",
+        "Last revision (Details)": "The 2023 announcement extends and optimizes the policy through 31 December 2027. It provides full vehicle purchase tax exemption for eligible NEVs purchased in 2024-2025, capped at CNY 30,000 per new energy passenger vehicle, and a 50% reduction for eligible NEVs purchased in 2026-2027, capped at CNY 15,000 per new energy passenger vehicle.",
 
 
         "Legal document": "https://szs.mof.gov.cn/zhengcefabu/202306/t20230620_3891500.htm",
@@ -16936,7 +16937,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Pollution control; Energy security; Industrial development",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation relevance": "Direct",
@@ -16980,7 +16981,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Approach": "CIT incentive",
 
 
-        "Emission sector": "Industry; buildings",
+        "Emission sector": "Industry; Buildings",
 
 
         "Sub-sector": "Industrial energy efficiency; building energy efficiency",
@@ -17052,7 +17053,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Industrial development; Technological innovation; Energy security",
@@ -17085,7 +17086,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Approach": "CIT incentive",
 
 
-        "Emission sector": "Industry; waste",
+        "Emission sector": "Industry; Waste",
 
 
         "Sub-sector": "Wastewater treatment; waste treatment; biogas utilisation; carbon capture, utilisation and storage; energy-saving retrofit; seawater desalination",
@@ -17097,7 +17098,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Description": "Enterprises engaged in qualifying environmental protection, energy-saving and water-saving projects receive CIT exemption for the first three years and a 50% CIT reduction (at 12.5% effective rate) for the following three years, starting from the tax year in which the project obtains its first production or operating income. Projects must be listed in the Catalogue of Enterprise Income Tax Incentives for Environmental Protection, Energy-Saving and Water-Saving Projects (2021 Edition) (MOF/STA/NDRC/MEE Announcement [2021] No. 36, Annex 1). The 2021 catalogue expanded the scope to include carbon capture, utilisation and storage (CCUS), communication base station and data centre energy-saving projects, and other new categories.",
 
 
-        "Objective": "Pollution control; Energy efficiency; Resource conservation",
+        "Objective": "Pollution control; Energy efficiency; Circular economy",
 
 
         "Policy Package": "N/A",
@@ -17157,7 +17158,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Resource conservation; Circular economy; Technological innovation",
@@ -17262,7 +17263,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Resource conservation; Industrial development; Technological innovation",
@@ -17367,7 +17368,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Industrial development; Technological innovation",
@@ -17400,7 +17401,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Approach": "CIT incentive",
 
 
-        "Emission sector": "Industry; waste",
+        "Emission sector": "Industry; Waste",
 
 
         "Sub-sector": "Waste recovery and recycling; Recycled resource processing",
@@ -17412,7 +17413,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Description": "Enterprises that use resources specified in the Catalogue of Enterprise Income Tax Incentives for Comprehensive Resource Utilisation (2021 Edition) as their principal raw materials to produce products that are not restricted or prohibited by the state and comply with national and industry standards may include only 90% of the income from such products in their total income (i.e. 10% of product income is effectively excluded from taxable income). The 2021 edition catalogue (MOF/STA/NDRC/MEE Announcement [2021] No. 36, Annex 2) covers co-associated mineral resources, industrial residues and wastewater (liquids), waste gases, waste plastics, scrap metals, waste paper, waste glass, waste tyres, waste electrical and electronic products, agricultural and forestry residues, and carbon-source gases such as CO2 (newly added in 2021).",
 
 
-        "Objective": "Circular economy; Pollution control; Resource conservation",
+        "Objective": "Circular economy; Pollution control",
 
 
         "Policy Package": "N/A",
@@ -17472,7 +17473,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Circular economy; Resource conservation; Technological innovation",
@@ -17566,7 +17567,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -17581,10 +17582,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
 
@@ -17754,7 +17755,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Energy security",
@@ -17866,7 +17867,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -17881,10 +17882,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
 
@@ -18057,7 +18058,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Energy security",
@@ -18181,7 +18182,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Indirect",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -18196,10 +18197,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
 
@@ -18354,7 +18355,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Technological innovation; Pollution control",
@@ -18451,7 +18452,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -18466,10 +18467,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
 
@@ -18618,7 +18619,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Energy security",
@@ -18720,11 +18721,11 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Circular economy; Resource conservation; Climate change mitigation",
+        "Objective": "Circular economy; Climate change mitigation",
 
 
         "Mitigation relevance": "Direct",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -18739,10 +18740,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "31/12/2027",
 
 
-        "Last revisions": "01/11/2023",
+        "Last revision": "01/11/2023",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The policy period has been extended twice: Cai Shui [2018] No. 144 extended"
@@ -18909,7 +18910,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Industrial development",
@@ -19036,7 +19037,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -19051,10 +19052,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
 
@@ -19245,7 +19246,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Energy security; Pollution control",
@@ -19353,7 +19354,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Industrial development; Energy conservation",
+        "Objective": "Industrial development; Energy efficiency",
 
 
         "Administrating authorities": "National Development and Reform Commission; provincial pricing authorities",
@@ -19473,7 +19474,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Energy security",
@@ -19509,7 +19510,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "https://www.gov.cn/zhengce/zhengceku/202405/content_6951522.htm",
 
 
-        "Adoption date": "N/A",
+        "Adoption date": "01/06/2004",
 
 
         "Start date": "01/06/2004",
@@ -19518,10 +19519,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "29/05/2024",
+        "Last revision": "29/05/2024",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The State Council 2024-2025 Energy Conservation and Carbon Reduction Action Plan (Guo Fa [2024] "
@@ -19614,7 +19615,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy conservation; Pollution control",
+        "Objective": "Energy efficiency; Pollution control",
 
 
         "Administrating authorities": "National Development and Reform Commission; provincial pricing authorities",
@@ -19770,7 +19771,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control",
@@ -19806,10 +19807,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "In December 2013, the NDRC issued the Notice on Improving the Residential Increasing-Block "
@@ -19911,7 +19912,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy security; Renewable energy development",
+        "Objective": "Energy security; Non-fossil energy",
 
 
         "Administrating authorities": "National Development and Reform Commission; National Energy Administration",
@@ -20034,7 +20035,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Unknown",
 
 
         "Mitigation co-benefits": "Pollution control",
@@ -20079,10 +20080,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "27/01/2026",
+        "Last revision": "27/01/2026",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The NDRC and NEA issued the Notice on Improving the Generation-Side Capacity Pricing "
@@ -20334,7 +20335,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "unknown",
+        "Mitigation effect": "Unknown",
 
 
         "Mitigation co-benefits": "Energy security; Renewable energy development",
@@ -20367,10 +20368,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "27/01/2026",
+        "Last revision": "27/01/2026",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "Fa Gai Jia Ge [2026] No. 114 raised the coal-fired capacity pricing fixed-cost recovery "
@@ -20520,7 +20521,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "unknown",
+        "Mitigation effect": "Unknown",
 
 
         "Mitigation co-benefits": "Energy security; Renewable energy development",
@@ -20553,10 +20554,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Policy Package": "N/A",
@@ -20619,7 +20620,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy security; Renewable energy development",
+        "Objective": "Energy security; Non-fossil energy",
 
 
         "Administrating authorities": "National Development and Reform Commission; National Energy Administration",
@@ -20700,7 +20701,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control",
@@ -20733,10 +20734,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Policy Package": "N/A",
@@ -20802,7 +20803,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy security; Renewable energy development",
+        "Objective": "Energy security; Non-fossil energy",
 
 
         "Administrating authorities": "National Development and Reform Commission; National Energy Administration",
@@ -20889,7 +20890,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control",
@@ -20922,10 +20923,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Policy Package": "N/A",
@@ -20954,7 +20955,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "mechanism combining mandatory and voluntary consumption."
         ),
         "Objective": "Climate change mitigation",
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "The NDRC, NEA and other departments issued the Opinions on "
             "Promoting the High-Quality Development of the Renewable Energy "
             "Green Electricity Certificate Market, requiring improvements to "
@@ -21068,7 +21069,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "green electricity trading GECs; Source: National Energy "
             "Administration 2026 press release)."
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Pollution control; Energy security; Technological innovation"
         ),
@@ -21128,13 +21129,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Renewable energy development; Climate change mitigation",
+        "Objective": "Non-fossil energy; Climate change mitigation",
 
 
-        "Last revisions": "05/06/2026",
+        "Last revision": "05/06/2026",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 5 June 2026, the National Development and Reform Commission, together with the Ministry "
@@ -21410,7 +21411,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Entities failing to complete rectification on time are dealt with according to law and regulation,"
             "entered into adverse credit records and subject to joint disciplinary sanctions."
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": "Pollution control; Energy security",
     },
 
@@ -21455,13 +21456,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Renewable energy development; Climate change mitigation",
+        "Objective": "Non-fossil energy; Climate change mitigation",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Administrating authorities": (
@@ -21562,7 +21563,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Technological innovation",
@@ -21634,7 +21635,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "purchase, credit pooling and other methods."
         ),
         "Objective": "Energy efficiency; Industrial development",
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "On 7 November 2025, the Ministry of Industry and Information Technology"
             "issued a notice on 2026-2027 credit management matters, stipulating NEV"
             "credit ratios of 48% and 58% for 2026 and 2027 respectively, and clarifying"
@@ -21737,7 +21738,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "to cooperate with verification and other violations are dealt with in"
             "accordance with the measures."
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Pollution control; Energy security; Technological innovation; Industrial development"
         ),
@@ -21749,7 +21750,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Transport",
         "Sub-sector": "Road transport",
         "English instrument name": "Passenger vehicle corporate average fuel consumption credit subscheme",
-        "Policy Package": "Passenger vehicle CAFC and NEV dual-credit trading scheme",
+        "Policy Package": "N/A",
         "Description": (
             "The CAFC credit subscheme calculates positive/negative credits based on the"
             "difference between enterprise CAFC compliance values and actual values."
@@ -21758,7 +21759,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "NEV positive credits and other means in accordance with the measures."
         ),
         "Objective": "Energy efficiency",
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "On 7 November 2025, the Ministry of Industry and Information Technology"
             "issued a notice on 2026-2027 credit management matters, further adjusting"
             "the accounting multiplier for low-fuel-consumption passenger vehicles and"
@@ -21844,7 +21845,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "an adjustment plan and may be subject to restrictions on vehicle model"
             "notification, product filing or import management."
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": "Pollution control; Energy security; Technological innovation",
 
         "Intensity (Details)": (
@@ -21860,7 +21861,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Transport",
         "Sub-sector": "Road transport",
         "English instrument name": "Passenger vehicle new energy vehicle credit subscheme",
-        "Policy Package": "Passenger vehicle CAFC and NEV dual-credit trading scheme",
+        "Policy Package": "N/A",
         "Description": (
             "The NEV credit subscheme calculates positive/negative credits based on"
             "enterprise NEV model credits and production/import volumes. NEV positive"
@@ -21869,7 +21870,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "volume."
         ),
         "Objective": "Industrial development; Energy efficiency",
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "On 7 November 2025, the Ministry of Industry and Information Technology"
             "issued a notice on 2026-2027 credit management matters, setting NEV credit"
             "ratios at 48% for 2026 and 58% for 2027, and clarifying NEV model credit"
@@ -21955,7 +21956,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "an adjustment plan and may be subject to restrictions on vehicle model"
             "notification, product filing or import management."
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Pollution control; Energy security; Technological innovation; Industrial development"
         ),
@@ -22052,7 +22053,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy conservation; Pollution control",
+        "Objective": "Energy efficiency; Pollution control",
 
 
         "Administrating authorities": "Ministry of Finance; National Development and Reform Commission; State Administration for Market Regulation",
@@ -22178,13 +22179,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Energy conservation; Industrial development; Technological innovation",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Public procurement: Tender process": "Open tender",
@@ -22299,7 +22300,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Pollution control; Energy conservation; Circular economy",
+        "Objective": "Pollution control; Energy efficiency; Circular economy",
 
 
         "Administrating authorities": "Ministry of Finance; Ministry of Ecology and Environment; State Administration for Market Regulation",
@@ -22407,13 +22408,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Circular economy; Green consumption",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Public procurement: Tender process": "Open tender",
@@ -22534,7 +22535,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy conservation; Pollution control; Industrial development",
+        "Objective": "Energy efficiency; Pollution control; Industrial development; Electrification",
 
 
         "Administrating authorities": (
@@ -22696,13 +22697,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Energy security; Technological innovation; Industrial development",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Public procurement: Tender process": "Open tender",
@@ -22830,7 +22831,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Green economy; Energy conservation; Green consumption",
+        "Objective": "Green economy; Energy efficiency; Green consumption",
 
 
         "Administrating authorities": (
@@ -22995,13 +22996,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Energy conservation; Pollution control; Circular economy; Technological innovation",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "October 2022 Caiku [2022] No. 35: expanded from 6 cities to 48 cities. "
@@ -23137,7 +23138,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Climate change mitigation; Energy conservation; Pollution control; Circular economy",
+        "Objective": "Climate change mitigation; Energy efficiency; Pollution control; Circular economy",
 
 
         "Administrating authorities": (
@@ -23317,13 +23318,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Energy conservation; Technological innovation; Industrial development",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Public procurement: Tender process": "Open tender",
@@ -23413,7 +23414,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Mitigation relevance": "Direct",
-        "Jurisdiction level": "Subnational",
+        "Jurisdiction level": "Sub-national",
 
 
         "Jurisdiction name": (
@@ -23429,10 +23430,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "18/12/2025",
 
 
-        "End date": "N/A",
+        "End date": "31/12/2028",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
 
@@ -23613,7 +23614,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -23752,7 +23753,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Energy conservation; Climate change mitigation",
+        "Objective": "Energy efficiency; Climate change mitigation",
 
 
         "Mitigation relevance": "Direct",
@@ -23768,13 +23769,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "17/03/2024",
 
 
-        "End date": "N/A",
+        "End date": "18/09/2030",
 
 
-        "Last revisions": "19/09/2025",
+        "Last revision": "19/09/2025",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "Supersedes the Administrative Measures for the Energy Conservation and Carbon "
@@ -24259,7 +24260,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -24416,10 +24417,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "31/12/2030",
 
 
-        "Last revisions": "27/11/2025",
+        "Last revision": "27/11/2025",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "Supersedes the Administrative Measures for the Railway Project Central Budget "
@@ -24751,7 +24752,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -24938,10 +24939,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "31/12/2028",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
 
@@ -25345,7 +25346,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -25535,13 +25536,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "06/05/2024",
 
 
-        "End date": "N/A",
+        "End date": "20/05/2031",
 
 
-        "Last revisions": "21/05/2026",
+        "Last revision": "21/05/2026",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "Supersedes the Administrative Measures for the Ecological Protection and "
@@ -25948,7 +25949,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -26078,7 +26079,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "17/11/2015",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The programme was transferred from the Ministry of Science and Technology to the National Energy Administration "
@@ -26332,7 +26333,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Technological innovation; Industrial development; Energy security; Pollution control",
@@ -26468,7 +26469,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The programme was transferred from MOST to the National Energy Administration in 2024. In August 2024 "
@@ -26734,7 +26735,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Technological innovation; Industrial development; Energy security; Pollution control",
@@ -26867,7 +26868,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The programme was separated from the original Renewable Energy and Hydrogen Technology Key Special "
@@ -27136,7 +27137,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Technological innovation; Industrial development; Energy security; Pollution control",
@@ -27254,7 +27255,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "02/02/2021",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The programme was transferred from MOST (managed by the MIIT Industry Development Promotion "
@@ -27556,7 +27557,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Technological innovation; Energy security; Industrial development",
@@ -27701,7 +27702,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "31/12/2026",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The programme runs from 2022 to 2026, spanning the mid-to-late 14th FYP period. Following "
@@ -28012,7 +28013,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Resource conservation; Industrial development; Technological innovation",
@@ -28051,6 +28052,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     "CHNPARSEAI01S000": {
 
 
+        "Policy Package": "N/A",
+
+
         "Policy Instrument ID": "CHNPARSEAI01S000",
 
 
@@ -28087,13 +28091,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Planning Environmental Impact Assessment",
 
 
-        "Policy Package": (
-
-
-            "Environmental Impact Assessment Law of the People's Republic of China (2002, amended 2016 and 2018)"
-
-
-        ),
 
 
         "Description": (
@@ -28175,10 +28172,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "01/09/2003",
 
 
-        "Last revisions": "29/12/2018",
+        "Last revision": "29/12/2018",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "Adopted at the 30th Session of the Standing Committee of the 9th NPC on 28 October 2002, "
@@ -28480,7 +28477,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Ecological protection; Resource conservation; Public health",
@@ -28619,10 +28616,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "01/11/2010",
 
 
-        "Last revisions": "17/07/2025",
+        "Last revision": "17/07/2025",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "First established by the Interim Measures for Energy Conservation Assessment and Review "
@@ -28807,7 +28804,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Energy conservation; Energy security; Industrial development",
@@ -29195,7 +29192,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "These Measures were reviewed and approved at a meeting of the Standing "
             "Committee of the Political Bureau of the CPC Central Committee on 26 February "
             "2026, and issued by the General Office of the CPC Central Committee and the "
@@ -29308,7 +29305,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": "Pollution control; Resource conservation",
+        "Objective": "Pollution control; Circular economy",
 
 
         "Mitigation relevance": "Indirect",
@@ -29554,6 +29551,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     "CHNFRMEIAI01S000": {
 
 
+        "Policy Package": "N/A",
+
+
         "Policy Instrument ID": "CHNFRMEIAI01S000",
 
 
@@ -29575,13 +29575,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Environmental Impact Assessment System for Construction Projects",
 
 
-        "Policy Package": (
-
-
-            "Environmental Impact Assessment Law of the People's Republic of China (2002, amended 2016, 2018)"
-
-
-        ),
 
 
         "Description": (
@@ -29645,10 +29638,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "01/09/2003",
 
 
-        "Last revisions": "29/12/2018",
+        "Last revision": "29/12/2018",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "Amendment on 29 December 2018 at the 7th Session of the Standing Committee of the "
@@ -29842,7 +29835,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
 
 
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Ecological protection; Resource conservation",
@@ -29872,6 +29865,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     "CHNPAREPMI01S000": {
 
 
+        "Policy Package": "N/A",
+        "Mitigation effect": "Positive",
+
+
         "Approach": "Energy performance management framework for public institutions",
 
 
@@ -29884,10 +29881,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Energy Conservation in Public Institutions",
 
 
-        "Policy Package": (
-            "Public institution energy consumption statistics, survey and audit "
-            "(CHNREPESAI01S000); Green public procurement (CHNPPCGPPI01S000, etc.)"
-        ),
 
 
         "Description": (
@@ -29928,14 +29921,17 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "energy performance contracting models are promoted, and carbon emissions "
             "may be offset by purchasing green electricity, carbon allowances or China "
             "Certified Emission Reductions (CCER) (Guoguan Energy Conservation [2026] "
-            "No. 235)."
+            "No. 235).",
+
+
+            "It has horizontal links with other instruments, including the Public Institution Energy Consumption Statistics Survey and Audit (CHNREPESAI01S000) and green public procurement (CHNPPCGPPI01S000 and others)."
         ),
 
 
         "Objective": "Energy efficiency",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "Revised on 1 March 2017 pursuant to the State Council Decision on Amending "
             "and Abolishing Certain Administrative Regulations (State Council Decree "
             "No. 676). The revision was technical in nature; core provisions (target "
@@ -30387,7 +30383,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -30417,10 +30413,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions": "29/12/2023",
+        "Last revision": "29/12/2023",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "Revised on 29 December 2023 pursuant to the State Council Decision on "
@@ -30687,7 +30683,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -30951,10 +30947,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=787D750F63BE1E92FB45A618082D1326",
 
 
-        "Last revisions": "29/05/2020",
+        "Last revision": "29/05/2020",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "GB 18613-2020 Minimum Allowable Values of Energy Efficiency and "
@@ -31017,7 +31013,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -31272,10 +31268,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=09DFEC51BC2235CAC5AD05B4B2B321F2",
 
 
-        "Last revisions": "29/09/2024",
+        "Last revision": "29/09/2024",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "GB 30253-2024 Minimum Allowable Values of Energy Efficiency and "
@@ -31338,7 +31334,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -31596,10 +31592,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=79725E39A25E09B11C6736FC579D982F",
 
 
-        "Last revisions": "23/08/2024",
+        "Last revision": "23/08/2024",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "GB 30254-2024 Minimum Allowable Values of Energy Efficiency and "
@@ -31659,7 +31655,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -31719,7 +31715,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Objective": "Non-fossil energy; Climate change mitigation",
         "Mitigation relevance": "Direct",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
         "Adoption date": "05/06/2026",
         "Start date": "01/08/2026",
         "Administrating authorities": (
@@ -31811,7 +31807,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "support."
         ),
         "GHGs affected": "CO2",
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": "Pollution control; Technological innovation",
         "Legal statute": (
             "Implementation Measures for the Renewable Energy Consumption Minimum "
@@ -32105,7 +32101,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -32138,10 +32134,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions": "29/11/2023",
+        "Last revision": "29/11/2023",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 29 November 2023, the NDRC, SAMR, MIIT, MEE and NEA jointly issued "
@@ -32468,7 +32464,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -32516,7 +32512,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "First adopted on 13 September 2017 (Fa Gai Neng Yuan [2017] No. 1508). "
@@ -32969,7 +32965,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Mitigation effects": "Unknown",
+        "Mitigation effect": "Unknown",
 
 
         "Mitigation co-benefits": (
@@ -33020,7 +33016,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "First adopted on 16 January 2020 (Fa Gai Huan Zi [2020] No. 80). "
@@ -33405,7 +33401,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -33813,7 +33809,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -33849,7 +33845,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 30 April 2025, the Standardization Administration of China approved "
@@ -34242,7 +34238,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -34557,7 +34553,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -34899,7 +34895,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -34923,7 +34919,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 28 February 2025, GB 30720-2025 was published, consolidating and "
@@ -35211,7 +35207,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -35250,7 +35246,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 29 December 2022, GB 21518-2022 was published, replacing "
@@ -35556,7 +35552,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -35592,7 +35588,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 29 April 2024, GB 20052-2024 was published, replacing GB 20052-2020, "
@@ -35847,7 +35843,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -36138,7 +36134,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -36174,7 +36170,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 23 May 2023, GB 21520-2023 was published, replacing GB 21520-2015, "
@@ -36441,7 +36437,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -36477,7 +36473,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 29 September 2024, GB 36893-2024 was published, replacing "
@@ -36762,7 +36758,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -37053,7 +37049,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -37089,7 +37085,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 11 October 2021, GB 12021.9-2021 was published, replacing "
@@ -37374,7 +37370,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -37659,7 +37655,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -37959,7 +37955,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -38262,7 +38258,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -38547,7 +38543,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -38583,7 +38579,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 1 August 2025, GB 38448-2025 was published, replacing GB 38448-2019, "
@@ -38877,7 +38873,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -38913,7 +38909,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 1 August 2025, GB 38383-2025 was published, replacing GB 38383-2019, "
@@ -39207,7 +39203,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -39243,7 +39239,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 30 May 2025, GB 12021.2-2025 was published, replacing "
@@ -39528,7 +39524,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -39564,7 +39560,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 24 January 2025, GB 28380-2025 was published, replacing "
@@ -39846,7 +39842,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -39885,7 +39881,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 31 March 2026, GB 12021.4-2026 was published, replacing "
@@ -40155,7 +40151,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -40431,7 +40427,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -40719,7 +40715,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -40755,7 +40751,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 28 February 2025, GB 19762-2025 was published, replacing "
@@ -41022,7 +41018,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -41304,7 +41300,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -41577,7 +41573,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -41613,7 +41609,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 30 June 2025, GB 32028-2025 was published, replacing GB 32028-2015, "
@@ -41889,7 +41885,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -41925,7 +41921,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 31 October 2025, GB 29539-2025 was published, replacing "
@@ -42186,7 +42182,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -42480,7 +42476,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -42516,7 +42512,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 28 April 2014, GB 21521-2014 was published, replacing GB 21521-2008, "
@@ -42801,7 +42797,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -42837,7 +42833,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 24 January 2025, GB 20943-2025 was published, replacing "
@@ -43101,7 +43097,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -43137,7 +43133,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 31 March 2026, GB 28381-2026 was published, replacing "
@@ -43407,7 +43403,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -43548,7 +43544,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "to benchmark against Grade 1 energy efficiency and undertake "
             "technology upgrades."
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Energy conservation; Technological innovation; Industrial development"
         ),
@@ -43558,13 +43554,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Modules and Inverters"
         ),
         "Other weblinks": "N/A",
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
     },
 
 
 
     "CHNPRFMEEI30S000": {
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "First established on 18 December 2013 with GB 30255-2013 'Minimum Allowable",
             "Values of Energy Efficiency and Energy Efficiency Grades for",
             "Non-Directional Integrated LED Lamps for General Lighting', effective 1",
@@ -43685,7 +43681,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "benchmark against Grade 1 energy efficiency and undertake technology "
             "upgrades."
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Energy conservation; Industrial development"
         ),
@@ -43694,7 +43690,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Energy Efficiency Grades for Indoor Lighting LED Products"
         ),
         "Other weblinks": "N/A",
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "First issued on 18 December 2013 as GB 30255-2013 Minimum Allowable "
             "Values of Energy Efficiency and Energy Efficiency Grades for Non-Directional "
             "Self-Ballasted LED Lamps for General Lighting, effective 1 September 2014. "
@@ -43970,7 +43966,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -44006,7 +44002,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 29 December 2022, GB 19044-2022 was published, replacing "
@@ -44273,7 +44269,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -44312,7 +44308,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 29 December 2022, GB 17896-2022 was published, replacing "
@@ -44594,7 +44590,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -44894,7 +44890,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -44930,7 +44926,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 4 April 2019, GB 30255-2019 was published, replacing "
@@ -45221,7 +45217,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -45497,7 +45493,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -45533,7 +45529,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 10 December 2015, GB 20054-2015 was published, replacing "
@@ -45788,7 +45784,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -46070,7 +46066,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -46393,7 +46389,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 11 October 2021, GB 21454-2021 was published, replacing "
@@ -46423,7 +46419,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -46734,7 +46730,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 31 December 2019, GB 21455-2019 was published, replacing "
@@ -46764,7 +46760,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -47039,7 +47035,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -47335,7 +47331,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 4 April 2019, GB 19576-2019 was published, replacing GB 19576-2004, "
@@ -47365,7 +47361,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -47688,7 +47684,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 29 April 2024, GB 19577-2024 was published, consolidating and "
@@ -47724,7 +47720,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -48008,7 +48004,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 1 August 2025, GB 26969-2025 was published, replacing "
@@ -48032,7 +48028,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -48353,7 +48349,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 15 May 2015, GB 20665-2015 was published, replacing GB 20665-2006, "
@@ -48380,7 +48376,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -48658,7 +48654,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -48927,7 +48923,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -49235,7 +49231,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 29 May 2020, GB 24500-2020 was published, replacing GB 24500-2009, "
@@ -49259,7 +49255,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -49546,7 +49542,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -49839,7 +49835,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -50171,7 +50167,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -50509,7 +50505,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 29 September 2024, GB 26920-2024 was published, consolidating and "
@@ -50548,7 +50544,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -50644,7 +50640,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "GB 45246-2025 Norm of Energy Consumption per Unit Production of Main Wood-Based Panel Products",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -50652,7 +50648,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
     "CHNPRFEILI03S000": {
 
-        "Mitigation effects": "Positive",        "Compliance monitoring": (
+        "Mitigation effect": "Positive",        "Compliance monitoring": (
             "Supervisory inspections by government agencies; enterprise energy",
             "consumption data reporting"
         ),
@@ -50679,7 +50675,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
     "CHNPRFEILI04S000": {
 
-        "Mitigation effects": "Positive",        "Compliance monitoring": (
+        "Mitigation effect": "Positive",        "Compliance monitoring": (
             "Supervisory inspections by government agencies; enterprise energy",
             "consumption data reporting"
         ),
@@ -50705,7 +50701,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
     "CHNPRFEILI05S000": {
 
-        "Mitigation effects": "Positive",        "Compliance monitoring": (
+        "Mitigation effect": "Positive",        "Compliance monitoring": (
             "Supervisory inspections by government agencies; enterprise energy",
             "consumption data reporting"
         ),
@@ -50732,7 +50728,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
     "CHNPRFEILI06S000": {
 
-        "Mitigation effects": "Positive",        "Compliance monitoring": (
+        "Mitigation effect": "Positive",        "Compliance monitoring": (
             "Supervisory inspections by government agencies; enterprise energy",
             "consumption data reporting"
         ),
@@ -50758,7 +50754,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
     "CHNPRFEILI07S000": {
 
-        "Mitigation effects": "Positive",        "Compliance monitoring": (
+        "Mitigation effect": "Positive",        "Compliance monitoring": (
             "Supervisory inspections by government agencies; enterprise energy",
             "consumption data reporting"
         ),
@@ -50785,7 +50781,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
     "CHNPRFEILI08S000": {
 
-        "Mitigation effects": "Positive",        "Compliance monitoring": (
+        "Mitigation effect": "Positive",        "Compliance monitoring": (
             "Supervisory inspections by government agencies; enterprise energy",
             "consumption data reporting"
         ),
@@ -50811,7 +50807,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
     "CHNPRFEILI09S000": {
 
-        "Mitigation effects": "Positive",        "Compliance monitoring": (
+        "Mitigation effect": "Positive",        "Compliance monitoring": (
             "Supervisory inspections by government agencies; enterprise energy",
             "consumption data reporting"
         ),
@@ -50837,7 +50833,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
     "CHNPRFEILI10S000": {
 
-        "Mitigation effects": "Positive",        "Compliance monitoring": (
+        "Mitigation effect": "Positive",        "Compliance monitoring": (
             "Supervisory inspections by government agencies; enterprise energy",
             "consumption data reporting"
         ),
@@ -50863,7 +50859,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
     "CHNPRFEILI11S000": {
 
-        "Mitigation effects": "Positive",        "Compliance monitoring": (
+        "Mitigation effect": "Positive",        "Compliance monitoring": (
             "Supervisory inspections by government agencies; enterprise energy",
             "consumption data reporting"
         ),
@@ -50890,7 +50886,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
     "CHNPRFEILI12S000": {
 
-        "Mitigation effects": "Positive",        "Compliance monitoring": (
+        "Mitigation effect": "Positive",        "Compliance monitoring": (
             "Supervisory inspections by government agencies; enterprise energy",
             "consumption data reporting"
         ),
@@ -51172,10 +51168,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 29141-2012 (superseded): https://openstd.samr.gov.cn/bzgk/std/nd?no=2162",
 
 
-        "Last revisions (Details)": "On 28 May 2024, GB 29141-2024 was published, consolidating and replacing GB 29141-2012, GB 29437-2012 and GB 29441-2012, merging energy intensity limits for industrial sulfuric acid, dilute nitric acid and glacial acetic acid into a single standard, and updating energy intensity limits across all grades.",
+        "Last revision (Details)": "On 28 May 2024, GB 29141-2024 was published, consolidating and replacing GB 29141-2012, GB 29437-2012 and GB 29441-2012, merging energy intensity limits for industrial sulfuric acid, dilute nitric acid and glacial acetic acid into a single standard, and updating energy intensity limits across all grades.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -51418,10 +51414,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 21257-2014 (superseded): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 April 2024, GB 21257-2024 was published, replacing GB 21257-2014 and GB 30527-2014, deleting diaphragm process caustic soda facility energy intensity limits, adding chlorinated methanes product energy intensity limits, revising the statistical scope of caustic soda and PVC resin, and updating energy intensity limits across all grades.",
+        "Last revision (Details)": "On 29 April 2024, GB 21257-2024 was published, replacing GB 21257-2014 and GB 30527-2014, deleting diaphragm process caustic soda facility energy intensity limits, adding chlorinated methanes product energy intensity limits, revising the statistical scope of caustic soda and PVC resin, and updating energy intensity limits across all grades.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -51670,10 +51666,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 32051-2015 (superseded): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 April 2024, GB 32051-2024 was published, replacing GB 32051-2015, adding iron oxide pigment energy intensity limit requirements, and updating energy intensity limits for titanium dioxide across all grades.",
+        "Last revision (Details)": "On 29 April 2024, GB 32051-2024 was published, replacing GB 32051-2015, adding iron oxide pigment energy intensity limit requirements, and updating energy intensity limits for titanium dioxide across all grades.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -51946,10 +51942,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 30178-2013 (superseded, coal direct liquefaction-to-liquids); GB 30179-2013 (superseded, coal-to-synthetic natural gas); GB 30180-2013 (superseded, coal-to-olefins): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 April 2024, GB 30180-2024 was published, replacing GB 30178-2013, GB 30179-2013 and GB 30180-2013, separating feedstock energy from non-feedstock energy in statistical treatment, replacing the advanced value with the energy intensity limit grade system, and updating energy intensity limits across all grades.",
+        "Last revision (Details)": "On 29 April 2024, GB 30180-2024 was published, replacing GB 30178-2013, GB 30179-2013 and GB 30180-2013, separating feedstock energy from non-feedstock energy in statistical treatment, replacing the advanced value with the energy intensity limit grade system, and updating energy intensity limits across all grades.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -52216,10 +52212,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 32032-2015 (superseded); GB 32033-2015 (superseded); GB 32034-2015 (superseded): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 April 2024, GB 32032-2024 was published, replacing GB 32032-2015, GB 32033-2015 and GB 32034-2015, consolidating the three standards for gold mining, mineral processing and metallurgy, and gold refining into one, and updating energy intensity limits across all grades.",
+        "Last revision (Details)": "On 29 April 2024, GB 32032-2024 was published, replacing GB 32032-2015, GB 32033-2015 and GB 32034-2015, consolidating the three standards for gold mining, mineral processing and metallurgy, and gold refining into one, and updating energy intensity limits across all grades.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -52441,10 +52437,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 21345-2015 (superseded): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 April 2024, GB 21345-2024 was published, replacing GB 21345-2015, updating energy intensity limits across all grades, and further reducing comprehensive energy consumption per unit product and electric furnace power consumption limits.",
+        "Last revision (Details)": "On 29 April 2024, GB 21345-2024 was published, replacing GB 21345-2015, updating energy intensity limits across all grades, and further reducing comprehensive energy consumption per unit product and electric furnace power consumption limits.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -52672,10 +52668,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 29449-2012 (superseded); GB 29440-2012 (superseded): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 April 2024, GB 29449-2024 was published, replacing GB 29449-2012 and GB 29440-2012, consolidating the two standards for tyres and carbon black into one, reducing energy intensity limits for some tyre products by 20%-30%, and reducing carbon black energy consumption values per unit product by an expected 80% or more.",
+        "Last revision (Details)": "On 29 April 2024, GB 29449-2024 was published, replacing GB 29449-2012 and GB 29440-2012, consolidating the two standards for tyres and carbon black into one, reducing energy intensity limits for some tyre products by 20%-30%, and reducing carbon black energy consumption values per unit product by an expected 80% or more.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -52909,10 +52905,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 29994-2013 (superseded); GB 29995-2013 (superseded); GB 29996-2013 (superseded): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 April 2024, GB 29995-2024 was published, replacing GB 29994-2013, GB 29995-2013 and GB 29996-2013, amending the scope of application and the statistical scope and calculation method for energy consumption, and adding energy intensity limit grades.",
+        "Last revision (Details)": "On 29 April 2024, GB 29995-2024 was published, replacing GB 29994-2013, GB 29995-2013 and GB 29996-2013, amending the scope of application and the statistical scope and calculation method for energy consumption, and adding energy intensity limit grades.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -53158,10 +53154,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 31828-2015 (superseded); GB 31830-2015 (superseded): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 April 2024, GB 31830-2024 was published, replacing GB 31828-2015 and GB 31830-2015, consolidating the two energy intensity limit standards for TDI and MDI into one, updating energy intensity limits across all grades, and replacing the advanced value with the energy intensity limit grade system.",
+        "Last revision (Details)": "On 29 April 2024, GB 31830-2024 was published, replacing GB 31828-2015 and GB 31830-2015, consolidating the two energy intensity limit standards for TDI and MDI into one, updating energy intensity limits across all grades, and replacing the advanced value with the energy intensity limit grade system.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -53404,10 +53400,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 31335-2014 (superseded, iron ore open-pit mining); GB 31336-2014 (superseded, iron ore underground mining); GB 31337-2014 (superseded, iron ore dressing): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 April 2024, GB 31335-2024 was published, consolidating and replacing GB 31335-2014, GB 31336-2014 and GB 31337-2014, merging the three separate standards for iron ore open-pit mining, underground mining and dressing into one, introducing an energy intensity limit grade system, and updating energy intensity limits across all grades.",
+        "Last revision (Details)": "On 29 April 2024, GB 31335-2024 was published, consolidating and replacing GB 31335-2014, GB 31336-2014 and GB 31337-2014, merging the three separate standards for iron ore open-pit mining, underground mining and dressing into one, introducing an energy intensity limit grade system, and updating energy intensity limits across all grades.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -53659,10 +53655,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 31825-2015 (superseded): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 April 2024, GB 31825-2024 was published, replacing GB 31825-2015, replacing the advanced/access/minimum value system with Grade 1/2/3 energy intensity limit grades, adding intensity limits for dissolving wood pulp, dissolving non-wood pulp, paper tube board, grey board, decorative base paper, glassine paper, cigarette paper, thermal paper, medical packaging paper and other new product categories, and removing the energy conservation management and measures chapter.",
+        "Last revision (Details)": "On 29 April 2024, GB 31825-2024 was published, replacing GB 31825-2015, replacing the advanced/access/minimum value system with Grade 1/2/3 energy intensity limit grades, adding intensity limits for dissolving wood pulp, dissolving non-wood pulp, paper tube board, grey board, decorative base paper, glassine paper, cigarette paper, thermal paper, medical packaging paper and other new product categories, and removing the energy conservation management and measures chapter.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -53917,10 +53913,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 29140-2012 (superseded): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 April 2024, GB 29140-2024 was published, replacing GB 29140-2012, adding energy intensity limit requirements for the natural soda process, introducing the energy intensity limit grade system, revising the energy consumption statistical scope and calculation methods, and removing the energy conservation management and measures chapter.",
+        "Last revision (Details)": "On 29 April 2024, GB 29140-2024 was published, replacing GB 29140-2012, adding energy intensity limit requirements for the natural soda process, introducing the energy intensity limit grade system, revising the energy consumption statistical scope and calculation methods, and removing the energy conservation management and measures chapter.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -54157,10 +54153,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 30530-2014 (superseded, titled Norm of Energy Consumption per Unit Product of Dimethyl Cyclosiloxane): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 April 2024, GB 30530-2024 was published, replacing GB 30530-2014, changing the standard title from Norm of Energy Consumption per Unit Product of Dimethyl Cyclosiloxane to Norm of Energy Consumption per Unit Production of Dimethyl Siloxane, introducing the energy intensity limit grade system, updating energy intensity limits across all grades, and removing the energy conservation management and measures chapter.",
+        "Last revision (Details)": "On 29 April 2024, GB 30530-2024 was published, replacing GB 30530-2014, changing the standard title from Norm of Energy Consumption per Unit Product of Dimethyl Cyclosiloxane to Norm of Energy Consumption per Unit Production of Dimethyl Siloxane, introducing the energy intensity limit grade system, updating energy intensity limits across all grades, and removing the energy conservation management and measures chapter.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -54412,10 +54408,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 30251-2013 (superseded, petroleum refining); GB 30250-2013 (superseded, ethylene); GB 31533-2015 (superseded, PTA); GB 31534-2015 (superseded, PX); GB 31826-2015 (superseded, polypropylene); GB 32053-2015 (superseded, styrene): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 April 2024, GB 30251-2024 was published, consolidating and replacing six standards (GB 30251-2013 for petroleum refining, GB 30250-2013 for ethylene, GB 31533-2015 for PTA, GB 31534-2015 for PX, GB 31826-2015 for polypropylene, and GB 32053-2015 for styrene), adding energy intensity limit requirements for propylene oxide and phthalic anhydride, and for the first time consolidating energy intensity limits for refining and major petrochemical products into a single comprehensive standard.",
+        "Last revision (Details)": "On 29 April 2024, GB 30251-2024 was published, consolidating and replacing six standards (GB 30251-2013 for petroleum refining, GB 30250-2013 for ethylene, GB 31533-2015 for PTA, GB 31534-2015 for PX, GB 31826-2015 for polypropylene, and GB 32053-2015 for styrene), adding energy intensity limit requirements for propylene oxide and phthalic anhydride, and for the first time consolidating energy intensity limits for refining and major petrochemical products into a single comprehensive standard.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -54679,10 +54675,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 21343-2015 (superseded, calcium carbide); GB 30528-2014 (superseded, polyvinyl alcohol); GB 30529-2014 (superseded, vinyl acetate); GB 31824-2015 (superseded, 1,4-butanediol): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 27 November 2023, GB 21343-2023 was published, replacing GB 21343-2015, GB 30528-2014, GB 30529-2014 and GB 31824-2015, consolidating energy intensity limits for calcium carbide and four downstream products (vinyl acetate, polyvinyl alcohol, BDO, dicyandiamide and monocyanamide) into a single standard for the first time, and adding energy intensity limit requirements for dicyandiamide and monocyanamide.",
+        "Last revision (Details)": "On 27 November 2023, GB 21343-2023 was published, replacing GB 21343-2015, GB 30528-2014, GB 30529-2014 and GB 31824-2015, consolidating energy intensity limits for calcium carbide and four downstream products (vinyl acetate, polyvinyl alcohol, BDO, dicyandiamide and monocyanamide) into a single standard for the first time, and adding energy intensity limit requirements for dicyandiamide and monocyanamide.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -54940,10 +54936,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 21344-2015 (superseded, synthetic ammonia); GB 32035-2015 (superseded, urea); GB 31829-2015 (superseded, ammonium bicarbonate); GB 29138-2012 (superseded, monoammonium phosphate); GB 29139-2012 (superseded, diammonium phosphate); GB 29439-2012 (superseded, potassium sulphate): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 27 November 2023, GB 21344-2023 was published, consolidating and replacing six standards (GB 21344-2015 for synthetic ammonia, GB 32035-2015 for urea, GB 31829-2015 for ammonium bicarbonate, GB 29138-2012 for monoammonium phosphate, GB 29139-2012 for diammonium phosphate and GB 29439-2012 for potassium sulphate), consolidating energy intensity limits for the major fertilizer industry products into one, and updating energy intensity limits across all grades.",
+        "Last revision (Details)": "On 27 November 2023, GB 21344-2023 was published, consolidating and replacing six standards (GB 21344-2015 for synthetic ammonia, GB 32035-2015 for urea, GB 31829-2015 for ammonium bicarbonate, GB 29138-2012 for monoammonium phosphate, GB 29139-2012 for diammonium phosphate and GB 29439-2012 for potassium sulphate), consolidating energy intensity limits for the major fertilizer industry products into one, and updating energy intensity limits across all grades.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -55213,10 +55209,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 29145-2012 (superseded, roasted molybdenum concentrate); GB 29146-2012 (superseded, molybdenum concentrate); GB 31340-2014 (superseded, tungsten concentrate): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 27 November 2023, GB 29145-2023 was published, consolidating and replacing GB 29145-2012 (roasted molybdenum concentrate), GB 29146-2012 (molybdenum concentrate) and GB 31340-2014 (tungsten concentrate), consolidating the three energy intensity limit standards for tungsten concentrate, molybdenum concentrate and roasted molybdenum concentrate into one, and updating energy intensity limits across all grades.",
+        "Last revision (Details)": "On 27 November 2023, GB 29145-2023 was published, consolidating and replacing GB 29145-2012 (roasted molybdenum concentrate), GB 29146-2012 (molybdenum concentrate) and GB 31340-2014 (tungsten concentrate), consolidating the three energy intensity limit standards for tungsten concentrate, molybdenum concentrate and roasted molybdenum concentrate into one, and updating energy intensity limits across all grades.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -55474,10 +55470,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 29436.1-2012 (superseded, coal-to-methanol); GB 29436.2-2015 (superseded, natural gas-to-methanol); GB 29436.3-2015 (superseded, coke oven gas-to-methanol); GB 29436.4-2015 (superseded, dimethyl ether); GB 31535-2015 (superseded, ethylene-to-ethylene glycol); GB 32048-2015 (superseded, syngas-to-ethylene glycol): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 27 November 2023, GB 29436-2023 was published, consolidating and replacing six standards (GB 29436.1-2012, GB 29436.2-2015, GB 29436.3-2015, GB 29436.4-2015, GB 31535-2015 and GB 32048-2015), consolidating energy intensity limits for methanol (including non-coal routes via natural gas and coke oven gas), ethylene glycol and dimethyl ether into a single comprehensive standard, and adding energy intensity limit requirements for coal-to-ethylene glycol.",
+        "Last revision (Details)": "On 27 November 2023, GB 29436-2023 was published, consolidating and replacing six standards (GB 29436.1-2012, GB 29436.2-2015, GB 29436.3-2015, GB 29436.4-2015, GB 31535-2015 and GB 32048-2015), consolidating energy intensity limits for methanol (including non-coal routes via natural gas and coke oven gas), ethylene glycol and dimethyl ether into a single comprehensive standard, and adding energy intensity limit requirements for coal-to-ethylene glycol.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -55741,10 +55737,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 21252-2013 (superseded, architecture and sanitary ceramics); GB 30181-2013 (superseded, alumina grinding ball): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 27 November 2023, GB 21252-2023 was published, replacing GB 21252-2013 and GB 30181-2013, adding energy intensity limit requirements for ceramic panels, ceramic roof tiles, hollow ceramic panels and alumina grinding ball products, adding a product thickness correction coefficient, and replacing the minimum/access/advanced value system with the Grade 1/2/3 energy intensity limit grade system.",
+        "Last revision (Details)": "On 27 November 2023, GB 21252-2023 was published, replacing GB 21252-2013 and GB 30181-2013, adding energy intensity limit requirements for ceramic panels, ceramic roof tiles, hollow ceramic panels and alumina grinding ball products, adding a product thickness correction coefficient, and replacing the minimum/access/advanced value system with the Grade 1/2/3 energy intensity limit grade system.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -56011,10 +56007,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 21347-2012 (superseded, magnesium smelting); GB 31338-2014 (superseded, industrial silicon): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 8 September 2023, GB 21347-2023 was published, consolidating and replacing GB 21347-2012 (magnesium smelting) and GB 31338-2014 (industrial silicon), consolidating energy intensity limits for industrial silicon and magnesium into a single standard for the first time, adding energy intensity limit grades for industrial silicon classified by primary reducing agent type, and replacing the minimum/access/advanced value system with the Grade 1/2/3 energy intensity limit grade system.",
+        "Last revision (Details)": "On 8 September 2023, GB 21347-2023 was published, consolidating and replacing GB 21347-2012 (magnesium smelting) and GB 31338-2014 (industrial silicon), consolidating energy intensity limits for industrial silicon and magnesium into a single standard for the first time, adding energy intensity limit grades for industrial silicon classified by primary reducing agent type, and replacing the minimum/access/advanced value system with the Grade 1/2/3 energy intensity limit grade system.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -56302,10 +56298,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 25323-2010 (superseded, copper, nickel and cobalt); GB 21248-2014 (superseded, copper smelting); GB 21249-2014 (superseded, zinc smelting); GB 21250-2014 (superseded, lead smelting); GB 21251-2014 (superseded, nickel smelting); GB 21348-2014 (superseded, tin and antimony smelting); GB 21349-2014 (superseded, lead and bismuth smelting): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 23 May 2023, GB 25323-2023 was published, consolidating and replacing seven standards (GB 25323-2010 for copper, nickel and cobalt; GB 21248-2014 for copper smelting; GB 21249-2014 for zinc smelting; GB 21250-2014 for lead smelting; GB 21251-2014 for nickel smelting; GB 21348-2014 for tin and antimony smelting; and GB 21349-2014 for lead and bismuth smelting), consolidating energy intensity limits for nine non-ferrous heavy metals (copper, zinc, lead, nickel, tin, antimony, secondary lead, cobalt and bismuth) into a single comprehensive standard for the first time.",
+        "Last revision (Details)": "On 23 May 2023, GB 25323-2023 was published, consolidating and replacing seven standards (GB 25323-2010 for copper, nickel and cobalt; GB 21248-2014 for copper smelting; GB 21249-2014 for zinc smelting; GB 21250-2014 for lead smelting; GB 21251-2014 for nickel smelting; GB 21348-2014 for tin and antimony smelting; and GB 21349-2014 for lead and bismuth smelting), consolidating energy intensity limits for nine non-ferrous heavy metals (copper, zinc, lead, nickel, tin, antimony, secondary lead, cobalt and bismuth) into a single comprehensive standard for the first time.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -56587,10 +56583,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 21351-2014 (superseded, extruded profiles, rods and tubes); GB 25326-2010 (superseded, tubes and rods); GB 26756-2011 (superseded, wires); GB 31339-2014 (superseded, wire cables and conductors): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 23 May 2023, GB 21351-2023 was published, consolidating and replacing GB 21351-2014 (extruded profiles, rods and tubes), GB 25326-2010 (tubes and rods), GB 26756-2011 (wires) and GB 31339-2014 (wire cables and conductors), consolidating energy intensity limits for the full wrought aluminium and aluminium alloy processing chain (ingots, plates/strips/foils, tubes/rods/profiles, wires, forgings) into a single standard for the first time.",
+        "Last revision (Details)": "On 23 May 2023, GB 21351-2023 was published, consolidating and replacing GB 21351-2014 (extruded profiles, rods and tubes), GB 25326-2010 (tubes and rods), GB 26756-2011 (wires) and GB 31339-2014 (wire cables and conductors), consolidating energy intensity limits for the full wrought aluminium and aluminium alloy processing chain (ingots, plates/strips/foils, tubes/rods/profiles, wires, forgings) into a single standard for the first time.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -56878,10 +56874,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 21350-2013 (superseded, tubes); GB 29137-2012 (superseded, wires); GB 29442-2012 (superseded, plates, strips and foils); GB 29443-2012 (superseded, rods); GB 32046-2015 (superseded, electrical copper wire rod): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 23 May 2023, GB 21350-2023 was published, consolidating and replacing GB 21350-2013 (tubes), GB 29137-2012 (wires), GB 29442-2012 (plates, strips and foils), GB 29443-2012 (rods) and GB 32046-2015 (electrical copper wire rod), consolidating energy intensity limits for the full range of copper and copper alloy processed products (ingots, tubes/rods/wires, plates/strips/foils, electrical copper wire rod) into a single standard for the first time.",
+        "Last revision (Details)": "On 23 May 2023, GB 21350-2023 was published, consolidating and replacing GB 21350-2013 (tubes), GB 29137-2012 (wires), GB 29442-2012 (plates, strips and foils), GB 29443-2012 (rods) and GB 32046-2015 (electrical copper wire rod), consolidating energy intensity limits for the full range of copper and copper alloy processed products (ingots, tubes/rods/wires, plates/strips/foils, electrical copper wire rod) into a single standard for the first time.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -57148,10 +57144,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 29447-2012 (superseded, polysilicon); GB 29413-2012 (superseded, germanium): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 December 2022, GB 29447-2022 was published, consolidating and replacing GB 29447-2012 (polysilicon) and GB 29413-2012 (germanium), consolidating energy intensity limits for polysilicon and germanium into a single comprehensive standard, and replacing the minimum/access/advanced value system with the Grade 1/2/3 energy intensity limit grade system.",
+        "Last revision (Details)": "On 29 December 2022, GB 29447-2022 was published, consolidating and replacing GB 29447-2012 (polysilicon) and GB 29413-2012 (germanium), consolidating energy intensity limits for polysilicon and germanium into a single comprehensive standard, and replacing the minimum/access/advanced value system with the Grade 1/2/3 energy intensity limit grade system.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -57412,10 +57408,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 25324-2014 (superseded, prebaked anodes); GB 25325-2014 (superseded, cathode carbon): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 December 2022, GB 25324-2022 was published, replacing GB 25324-2014 and GB 25325-2014, consolidating the two energy intensity limit standards for prebaked anodes and cathode carbon products (graphitic cathode blocks, graphitised cathode blocks, cathode paste) for aluminium electrolysis into one, adding energy intensity limit requirements for graphitised cathode blocks, and replacing the minimum/access/advanced value system with the Grade 1/2/3 energy intensity limit grade system.",
+        "Last revision (Details)": "On 29 December 2022, GB 25324-2022 was published, replacing GB 25324-2014 and GB 25325-2014, consolidating the two energy intensity limit standards for prebaked anodes and cathode carbon products (graphitic cathode blocks, graphitised cathode blocks, cathode paste) for aluminium electrolysis into one, adding energy intensity limit requirements for graphitised cathode blocks, and replacing the minimum/access/advanced value system with the Grade 1/2/3 energy intensity limit grade system.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -57688,10 +57684,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 21341-2017 (superseded): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 December 2022, GB 21341-2022 was published, replacing GB 21341-2017, adding energy intensity limit requirements for ferroalloy types including low-carbon silicomanganese, replacing the minimum/access/advanced value system with the Grade 1/2/3 energy intensity limit grade system, and adjusting energy intensity limits across all grades to align with the dual carbon targets.",
+        "Last revision (Details)": "On 29 December 2022, GB 21341-2022 was published, replacing GB 21341-2017, adding energy intensity limit requirements for ferroalloy types including low-carbon silicomanganese, replacing the minimum/access/advanced value system with the Grade 1/2/3 energy intensity limit grade system, and adjusting energy intensity limits across all grades to align with the dual carbon targets.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -57961,10 +57957,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 29136-2012 (superseded, titanium sponge); GB 29448-2012 (superseded, titanium ingot): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 December 2022, GB 29448-2022 was published, consolidating and replacing GB 29136-2012 (titanium sponge) and GB 29448-2012 (titanium ingot), consolidating the two energy intensity limit standards for titanium sponge and titanium ingot into one for the first time; the energy intensity indicators for titanium ingot were lowered by approximately 50% on average (full implementation expected to save about 70,000 tce annually), and those for titanium sponge by approximately 13% on average (expected to save about 100,000 tce annually).",
+        "Last revision (Details)": "On 29 December 2022, GB 29448-2022 was published, consolidating and replacing GB 29136-2012 (titanium sponge) and GB 29448-2012 (titanium ingot), consolidating the two energy intensity limit standards for titanium sponge and titanium ingot into one for the first time; the energy intensity indicators for titanium ingot were lowered by approximately 50% on average (full implementation expected to save about 70,000 tce annually), and those for titanium sponge by approximately 13% on average (expected to save about 100,000 tce annually).",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -58243,10 +58239,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 21346-2013 (superseded, electrolytic aluminium); GB 25327-2017 (superseded, alumina): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 29 December 2022, GB 21346-2022 was published, consolidating and replacing GB 21346-2013 (electrolytic aluminium) and GB 25327-2017 (alumina), consolidating energy intensity limits for electrolytic aluminium and alumina into a single standard for the first time, updating the calculation methods for aluminium liquid AC power consumption and aluminium liquid comprehensive AC power consumption, expanding the energy consumption statistical scope for both products, and replacing the advanced/access/minimum value system with the Grade 1/2/3 energy intensity limit grade system.",
+        "Last revision (Details)": "On 29 December 2022, GB 21346-2022 was published, consolidating and replacing GB 21346-2013 (electrolytic aluminium) and GB 25327-2017 (alumina), consolidating energy intensity limits for electrolytic aluminium and alumina into a single standard for the first time, updating the calculation methods for aluminium liquid AC power consumption and aluminium liquid comprehensive AC power consumption, expanding the energy consumption statistical scope for both products, and replacing the advanced/access/minimum value system with the Grade 1/2/3 energy intensity limit grade system.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -58504,10 +58500,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 31823-2015 (superseded, container terminals); GB 31827-2015 (superseded, dry bulk terminals): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 11 October 2021, GB 31823-2021 was published, consolidating and replacing GB 31823-2015 (container terminals) and GB 31827-2015 (dry bulk terminals), adding energy intensity limit requirements for crude oil terminals, adding the terminal operation unit throughput energy intensity limit grade system, and removing the previous provisions on advanced energy consumption values and energy conservation management and technical measures.",
+        "Last revision (Details)": "On 11 October 2021, GB 31823-2021 was published, consolidating and replacing GB 31823-2015 (container terminals) and GB 31827-2015 (dry bulk terminals), adding energy intensity limit requirements for crude oil terminals, adding the terminal operation unit throughput energy intensity limit grade system, and removing the previous provisions on advanced energy consumption values and energy conservation management and technical measures.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -58753,10 +58749,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -59026,10 +59022,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -59323,10 +59319,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 16780-2012 (superseded): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 11 October 2021, GB 16780-2021 was published, replacing GB 16780-2012, replacing the minimum/access/advanced value system with the Grade 1/2/3 energy intensity limit grade system, tightening comparable clinker and cement comprehensive energy consumption limit indicators, and removing the energy conservation management and measures chapter.",
+        "Last revision (Details)": "On 11 October 2021, GB 16780-2021 was published, replacing GB 16780-2012, replacing the minimum/access/advanced value system with the Grade 1/2/3 energy intensity limit grade system, tightening comparable clinker and cement comprehensive energy consumption limit indicators, and removing the energy conservation management and measures chapter.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -59596,10 +59592,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 30526-2014 (superseded, sintered wall materials only): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 14 October 2019, GB 30526-2019 was published, replacing GB 30526-2014, adding energy intensity limit requirements for foam glass products, adding the energy intensity limit grade system, replacing the minimum/access/advanced value system with the Grade 1/2/3 system, and updating intensity limit indicators for sintered wall materials.",
+        "Last revision (Details)": "On 14 October 2019, GB 30526-2019 was published, replacing GB 30526-2014, adding energy intensity limit requirements for foam glass products, adding the energy intensity limit grade system, replacing the minimum/access/advanced value system with the Grade 1/2/3 system, and updating intensity limit indicators for sintered wall materials.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -59866,10 +59862,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -60139,10 +60135,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 21340-2013 (superseded, flat glass); GB 30252-2013 (superseded, photovoltaic rolled glass); GB 29451-2012 (superseded, cast stone): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Last revisions (Details)": "On 14 October 2019, GB 21340-2019 was published, consolidating and replacing GB 21340-2013 (flat glass), GB 30252-2013 (photovoltaic rolled glass) and GB 29451-2012 (cast stone), combining the energy intensity limits for flat glass and cast stone into a single standard and updating intensity limit indicators, and replacing the minimum/access/advanced value system with the Grade 1/2/3 energy intensity limit grade system.",
+        "Last revision (Details)": "On 14 October 2019, GB 21340-2019 was published, consolidating and replacing GB 21340-2013 (flat glass), GB 30252-2013 (photovoltaic rolled glass) and GB 29451-2012 (cast stone), combining the energy intensity limits for flat glass and cast stone into a single standard and updating intensity limit indicators, and replacing the minimum/access/advanced value system with the Grade 1/2/3 energy intensity limit grade system.",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -60400,10 +60396,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -60670,10 +60666,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -60931,10 +60927,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -61195,10 +61191,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -61301,7 +61297,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
 
@@ -61525,10 +61521,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -61622,7 +61618,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
 
@@ -61855,10 +61851,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -61961,10 +61957,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "01/11/2017",
+        "Last revision": "01/11/2017",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 1 November 2017, GB 21370-2017 was published replacing GB 21370-2008, introducing "
@@ -62224,7 +62220,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "GB 21370-2008 (superseded): https://openstd.samr.gov.cn/bzgk/std/nd?no=2142",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -62318,7 +62314,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
 
@@ -62533,10 +62529,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -62624,7 +62620,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
 
@@ -62845,10 +62841,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -62945,7 +62941,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
 
@@ -63175,10 +63171,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -63275,7 +63271,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
 
@@ -63493,10 +63489,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -63599,7 +63595,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
 
@@ -63829,10 +63825,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -63935,7 +63931,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
 
@@ -64165,10 +64161,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -64260,7 +64256,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "31/12/2025",
+        "Last revision": "31/12/2025",
 
 
 
@@ -64437,7 +64433,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "First issued on 31 December 2012 as GB 29435-2012 Norm of Energy Consumption "
@@ -64456,7 +64452,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -64559,7 +64555,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
 
@@ -64777,10 +64773,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -64890,7 +64886,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
 
@@ -65129,10 +65125,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
-        "Mitigation effects": "Positive"
+        "Mitigation effect": "Positive"
 
 
     },
@@ -65140,7 +65136,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
     "CHNPRFEILI68S000": {
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "First established on 31 December 2012 with GB 29447-2012 'Norm of Energy",
             "Consumption per Unit Product of Polysilicon Enterprises', effective 1",
             "October 2013. First revised in 2022 as GB 29447-2022, renamed 'Norm of",
@@ -65256,7 +65252,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "energy-saving technologies through energy conservation retrofit "
             "rewards and green factory designation."
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Energy conservation; Pollution control"
         ),
@@ -65265,7 +65261,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "of Polysilicon and Germanium"
         ),
         "Other weblinks": "N/A",
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "First issued on 31 December 2012 as GB 29447-2012 Norm of Energy "
             "Consumption per Unit Products of Polysilicon Enterprise, effective "
             "1 October 2013. First revised in 2022 (GB 29447-2022), renamed "
@@ -65380,7 +65376,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "energy-saving technologies through energy conservation retrofit "
             "rewards and green factory designation."
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Energy conservation; Pollution control"
         ),
@@ -65389,7 +65385,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "of Monocrystalline Silicon"
         ),
         "Other weblinks": "N/A",
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
     },
 
 
@@ -65397,7 +65393,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
     "CHNPRFEILI01S000": {
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Emission sector": "Industry",
         "Sub-sector": "Petroleum refining; Coal-to-coke; Coal-to-methanol; Coal-to-olefins; Coal-to-ethylene glycol; Caustic soda; Soda ash; Calcium carbide; Ethylene; Para-xylene; Yellow phosphorus; Synthetic ammonia; Monoammonium phosphate; Diammonium phosphate; Cement clinker; Flat glass; Architectural ceramics; Sanitary ceramics; Ironmaking; Steelmaking; Ferroalloy smelting; Copper smelting; Lead smelting; Zinc smelting; Electrolytic aluminium; Ethylene glycol; Urea; Titanium dioxide; Polyvinyl chloride; Purified terephthalic acid; Radial tyres; Industrial silicon; Tissue paper base / napkin base; Cotton / chemical fibre and blended woven fabrics; Knitted fabrics / yarn; Viscose staple fibre",
         "English instrument name": "Energy Efficiency Benchmark and Baseline Levels for Key Industrial Sectors",
@@ -65413,7 +65409,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Supporting policies include medium- and long-term loans, green credit, green bonds, climate investment and financing, tiered electricity pricing, industrial energy conservation supervision, environmental protection supervision and law enforcement, and tax incentives, driving energy conservation and carbon reduction in industry through tiered management and deadline-driven upgrading."
         ),
         "Objective": "Energy efficiency; Climate change mitigation; Industrial development",
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "First established on 15 November 2021 as the Energy Efficiency Benchmark and Baseline Levels for Key Areas in Energy-Intensive Industries (2021 Edition) (Fa Gai Chan Ye [2021] No. 1609, jointly issued by five departments, effective 1 January 2022), framed by the Several Opinions on Strictly Enforcing Energy Efficiency Constraints to Promote Energy Conservation and Carbon Reduction in Key Areas (Fa Gai Chan Ye [2021] No. 1464, issued 18 October 2021), covering 25 key sectors. "
             "Revised in 2023 into the Energy Efficiency Benchmark and Baseline Levels for Key Industrial Sectors (2023 Edition) (Fa Gai Chan Ye [2023] No. 723, issued 6 June 2023, published 4 July 2023), jointly issued by the same five departments, expanded to 36 key sectors with 11 newly added, setting two tiered deadlines for upgrade (end of 2025 and end of 2026), and simultaneously repealing the 2021 edition."
         ),
@@ -65719,7 +65715,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -65731,7 +65727,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 30 May 2025, GB 36980.1-2025 was published replacing GB/T 36980-2018, upgrading the "
@@ -66040,7 +66036,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -66052,7 +66048,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 30 May 2025, GB 36980.1-2025 was published bringing plug-in hybrid electric "
@@ -66352,13 +66348,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": "GB 19578-2024 Fuel Consumption Limits for Passenger Cars",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 28 November 2024, GB 19578-2024 was published replacing GB 19578-2021, tightening "
@@ -66655,7 +66651,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -66667,7 +66663,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 23 August 2024, GB 20997-2024 was published replacing GB 20997-2015, tightening "
@@ -66961,7 +66957,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -66973,7 +66969,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 29 September 2024, GB 30510-2024 was published replacing GB 30510-2018, with limits "
@@ -67294,7 +67290,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -67309,7 +67305,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 7 October 2017, the regulation was revised in accordance with the "
@@ -67399,9 +67395,12 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "greenhouse gas emissions by constraining fossil energy consumption and improving "
 
 
-            "energy efficiency."
+            "energy efficiency.",
 
 
+
+
+            "The core duty-bearers of the system are provincial governments (target decomposition, assessment and accountability); obligations on the enterprise side are transmitted through the target responsibilities of key energy-consuming units."
         ),
 
 
@@ -67438,9 +67437,12 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "entities whose annual comprehensive energy consumption reaches the prescribed "
 
 
-            "threshold must fulfil energy conservation target responsibilities."
+            "threshold must fulfil energy conservation target responsibilities.",
 
 
+
+
+            "The target assessment of provincial governments is the core obligation; the energy-saving target responsibilities of key energy-consuming units are the transmission of the system's obligations to enterprises. The government-side assessment is linked with the Comprehensive Performance Assessment for Carbon Peaking and Carbon Neutrality (CHNPARCPAI01S000)."
         ),
 
 
@@ -67660,7 +67662,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -67675,7 +67677,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 11 September 2021, the National Development and Reform Commission issued "
@@ -68112,7 +68114,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -68127,7 +68129,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Other weblinks": (
@@ -68556,7 +68558,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -68571,7 +68573,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 22 February 2018, the National Development and Reform Commission "
@@ -69183,7 +69185,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -69198,7 +69200,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 29 April 2026, the Ministry of Industry and Information "
@@ -69807,7 +69809,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -69822,7 +69824,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 17 October 2024, the Ministry of Industry and Information "
@@ -70446,7 +70448,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -70464,7 +70466,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 1 January 2018, the Ministry of Industry and Information "
@@ -70614,9 +70616,12 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "greenhouse gas emissions at source and serves as the core governance "
 
 
-            "institution for achieving the carbon peaking and carbon neutrality goals."
+            "institution for achieving the carbon peaking and carbon neutrality goals.",
 
 
+
+
+            "The core duty-bearers of the system are provincial governments (target decomposition, assessment and accountability); obligations on the enterprise side are transmitted through the target responsibilities of key emission units."
         ),
 
 
@@ -70653,9 +70658,12 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "whose annual greenhouse gas emissions reach the prescribed threshold must "
 
 
-            "fulfil carbon emission control target responsibilities."
+            "fulfil carbon emission control target responsibilities.",
 
 
+
+
+            "The target assessment of provincial governments is the core obligation; the carbon emission control target responsibilities of key emission units are the transmission of the system's obligations to enterprises. The government-side assessment is linked with the Comprehensive Performance Assessment for Carbon Peaking and Carbon Neutrality (CHNPARCPAI01S000)."
         ),
 
 
@@ -70875,7 +70883,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -70893,7 +70901,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Other weblinks": (
@@ -71436,7 +71444,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -71451,7 +71459,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 2 March 2019, the Decision of the State Council on Amending "
@@ -71997,7 +72005,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -72012,7 +72020,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The Energy Law of the People's Republic of China was adopted at "
@@ -72086,13 +72094,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Description": "The multi-user green power direct connection scheme is an electricity market governance system under which renewable energy generation such as wind power, solar power and biomass power is not connected to the public grid but supplies green electricity directly to multiple users through dedicated lines and transformer facilities, with clear tracing and allocation of the supplied electricity. The scheme is established under the Notice on Orderly Promoting the Development of Green Power Direct Connection (Fa Gai Neng Yuan [2025] No. 650) and the Notice on Orderly Promoting the Development of Multi-user Green Power Direct Connection (Fa Gai Neng Yuan [2026] No. 688). Projects are divided into grid-connected type (connected to the public grid as a whole) and off-grid type. Under the 'load-based sourcing' principle, a project's annual self-generated and self-consumed electricity must account for no less than 60% of total available generation and no less than 30% of total electricity consumption (no less than 35% before 2030); for grid-connected projects, annual electricity fed into the grid may in principle not exceed 20% of total available generation. The project participates in the electricity spot market as a whole (initially on a 'quantity-only, no-price' basis). An hourly green electricity tracing mechanism is established, and green electricity certificates corresponding to the project's self-generated and self-consumed electricity are issued, transferred and cancelled in accordance with relevant provisions. The project and its internal resources are exempted from electricity business licensing. Priority support is given to computing facilities, green hydrogen/ammonia/methanol and other emerging and future industries in developing green power direct connection.",
         "Objective": "Non-fossil energy",
         "Mitigation relevance": "Direct",
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
         "Jurisdiction name": "N/A",
         "Adoption date": "21/05/2025",
         "Start date": "21/05/2025",
         "End date": "N/A",
-        "Last revisions": "14/05/2026",
-        "Last revisions (Details)": "On 21 May 2025, the National Development and Reform Commission and the National Energy Administration issued the Notice on Orderly Promoting the Development of Green Power Direct Connection (Fa Gai Neng Yuan [2025] No. 650), establishing the single-user green power direct connection scheme, requiring that a project's annual self-generated and self-consumed new energy electricity account for no less than 60% of total generation and no less than 30% of total electricity consumption, rising from 2025 to no less than 35% by 2030. On 14 May 2026, the Notice on Orderly Promoting the Development of Multi-user Green Power Direct Connection (Fa Gai Neng Yuan [2026] No. 688) extended green power direct connection to the multi-user model: specifying grid-connected and off-grid project types; defining multi-user as multiple distinct legal person entities (excluding residential and agricultural users); capping grid-connected projects' annual grid-fed electricity in principle at no more than 20% of total available generation; requiring projects in principle to participate in electricity market trading as a whole, initially participating in the electricity spot market on a 'quantity-only, no-price' basis; establishing hourly matching of new energy generation and consumption and a green electricity tracing mechanism; giving priority support to computing facilities, green hydrogen/ammonia/methanol and other emerging and future industries; and exempting projects and their internal resources from electricity business licensing (unless otherwise provided).",
+        "Last revision": "14/05/2026",
+        "Last revision (Details)": "On 21 May 2025, the National Development and Reform Commission and the National Energy Administration issued the Notice on Orderly Promoting the Development of Green Power Direct Connection (Fa Gai Neng Yuan [2025] No. 650), establishing the single-user green power direct connection scheme, requiring that a project's annual self-generated and self-consumed new energy electricity account for no less than 60% of total generation and no less than 30% of total electricity consumption, rising from 2025 to no less than 35% by 2030. On 14 May 2026, the Notice on Orderly Promoting the Development of Multi-user Green Power Direct Connection (Fa Gai Neng Yuan [2026] No. 688) extended green power direct connection to the multi-user model: specifying grid-connected and off-grid project types; defining multi-user as multiple distinct legal person entities (excluding residential and agricultural users); capping grid-connected projects' annual grid-fed electricity in principle at no more than 20% of total available generation; requiring projects in principle to participate in electricity market trading as a whole, initially participating in the electricity spot market on a 'quantity-only, no-price' basis; establishing hourly matching of new energy generation and consumption and a green electricity tracing mechanism; giving priority support to computing facilities, green hydrogen/ammonia/methanol and other emerging and future industries; and exempting projects and their internal resources from electricity business licensing (unless otherwise provided).",
         "Administrating authorities": "National Development and Reform Commission; National Energy Administration; provincial energy authorities; regional offices of the National Energy Administration; grid enterprises; electricity market operators",
         "Asset": "Renewable energy generating units",
         "Asset (Status)": "New; Existing",
@@ -72119,7 +72127,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "D35",
         "GHGs affected": "CO2",
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": "Renewable energy development; Energy security; Industrial development",
         "Legal statute": "Notice on Orderly Promoting the Development of Multi-user Green Power Direct Connection (Fa Gai Neng Yuan [2026] No. 688); Notice on Orderly Promoting the Development of Green Power Direct Connection (Fa Gai Neng Yuan [2025] No. 650)",
         "Legal document": "https://www.ndrc.gov.cn/xwdt/tzgg/202605/t20260520_1405314.html",
@@ -72604,7 +72612,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -72619,7 +72627,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 1 September 2020, the amended Law on the Prevention and "
@@ -73189,7 +73197,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -73204,7 +73212,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 2 March 2019, package amendments were made in accordance with "
@@ -73888,7 +73896,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -73909,7 +73917,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "These measures are the first-time enactment, adopted at the MIIT "
@@ -74560,7 +74568,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Legal statute": (
@@ -74578,7 +74586,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 27 December 2023, NDRC issued the Industrial Structure "
@@ -74644,7 +74652,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "Mitigation co-benefits": "Industrial development; Pollution control; Technological innovation",
         "Compliance monitoring": "Information reporting; Internal audit; Supervision and inspection",
-        "Mitigation effects": "Positive",        "Asset (Status)": "New; Existing",
+        "Mitigation effect": "Positive",        "Asset (Status)": "New; Existing",
     },
 
 
@@ -75306,7 +75314,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Unknown",
+        "Mitigation effect": "Unknown",
 
 
         "Mitigation co-benefits": (
@@ -75396,7 +75404,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "First established on 5 May 2016 (GBF [2016] No. 34), with the "
@@ -75861,7 +75869,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Economic sector": "A02",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -76302,7 +76310,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Economic sector": "A01",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -76749,7 +76757,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "On 24 December 2021, the Wetland Protection Law of the People's "
@@ -76794,7 +76802,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -77436,7 +77444,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": (
@@ -77496,7 +77504,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "First adopted on 13 May 2016 (Guobanfa [2016] No. 31). On 12 September "
@@ -78252,7 +78260,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Unknown",
+        "Mitigation effect": "Unknown",
 
 
         "Mitigation co-benefits": (
@@ -78312,7 +78320,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "Pilot work was launched in 2017 by the former Ministry of Environmental "
@@ -79065,7 +79073,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Unknown",
+        "Mitigation effect": "Unknown",
 
 
         "Mitigation co-benefits": (
@@ -79128,7 +79136,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "First adopted on 10 November 2016 (Guobanfa [2016] No. 81), "
@@ -79728,7 +79736,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -80259,7 +80267,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The Regulations on Energy Conservation by Public Institutions were "
@@ -80304,7 +80312,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -80859,7 +80867,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Enterprise Environmental Information Disclosure System",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "System lineage: on 11 April 2007 the Measures on Open Environmental "
@@ -80928,7 +80936,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -81498,7 +81506,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "China Energy Label",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "First adopted on 13 August 2004 (NDRC and AQSIQ Order No. 17), "
@@ -81540,7 +81548,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -82131,7 +82139,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Light-duty Vehicle Energy Consumption Label",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "First adopted on 31 December 2008 (GB 22757-2008), effective "
@@ -82185,7 +82193,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -82218,7 +82226,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Greenhouse Gas Emissions Reporting and Verification System for Key Industries",
 
 
-        "Policy Package": "ETS",
+        "Policy Package": "N/A",
 
 
         "Description": "The Greenhouse Gas Emissions Reporting and Verification System for Key Industries was established under carbon emission trading management regulations and is administered by the Ministry of Ecology and Environment (formerly the National Development and Reform Commission). The system requires key emission entities with annual greenhouse gas emissions of 26,000 tonnes of CO2 equivalent or more to calculate and report their greenhouse gas emission data in accordance with unified technical guidelines, and to undergo verification by third-party bodies. The system covers electricity generation, iron and steel, cement, electrolytic aluminium, petrochemicals, chemicals, building materials (flat glass), non-ferrous metals (copper smelting), paper and civil aviation and other key emitting sectors. It comprises two interlinked components: (1) emission reporting — enterprises must compile annual greenhouse gas emission reports in accordance with sector-specific greenhouse gas emission accounting and reporting guidelines, covering fossil fuel combustion emissions, industrial process emissions, and indirect emissions from purchased electricity and heat, and submit them through the National Carbon Emission Trading Market Management Platform; (2) third-party verification — provincial ecology and environment authorities commission qualified independent third-party technical service bodies to verify enterprise emission reports, covering accounting methodology compliance, activity data accuracy, reasonableness of emission factors and correctness of emission calculations, and issue verification conclusions and reports. The system's origin dates to the 2014 Interim Measures for the Administration of Carbon Emission Trading (NDRC Order No. 17), which first established key emission entities' greenhouse gas emission reporting and verification obligations; the 2020 Measures for the Administration of Carbon Emission Trading (Trial) (MEE Order No. 19) further refined reporting and verification procedures and technical requirements; the 2024 Interim Regulations on the Administration of Carbon Emission Trading (State Council Order No. 775) elevated the emission reporting and verification system to the State Council administrative regulation level, specifying enterprise reporting obligations, third-party verifiers' legal status, data quality legal responsibilities and penalties for violations. Through emission reporting the system maps the greenhouse gas emission baseline of key industries, and through third-party verification ensures data quality, providing the data foundation for carbon emission allowance allocation and compliance surrender, national greenhouse gas inventory compilation and low-carbon development policy formulation. On 27 January 2026, the General Office of the Ministry of Ecology and Environment issued the Notice on Effectively Conducting the Work Related to the 2026 National Carbon Emission Trading Market (MEE General Office Climate Letter [2026] No. 32), bringing enterprises in the petrochemicals, chemicals, building materials (flat glass), non-ferrous metals (copper smelting), paper and civil aviation sectors, as well as iron and steel and cement enterprises not yet included in the national carbon market key emitting entities list, into the scope of 2025 greenhouse gas emission reporting management, and promoting monthly digitalised record-keeping of carbon emission statistics and accounting data, in preparation for the expansion of the national carbon market.",
@@ -82770,7 +82778,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Greenhouse Gas Emissions Reporting and Verification System for Key Industries",
 
 
-        "Last revisions (Details)": "System origin: on 10 December 2014 the Interim Measures for the Administration of Carbon Emission Trading (NDRC Order No. 17, effective 9 January 2015) first established key emission entities' greenhouse gas emission reporting and verification obligations. On 31 December 2020 the Measures for the Administration of Carbon Emission Trading (Trial) (MEE Order No. 19, effective 1 February 2021) further refined reporting and verification procedures, expanded covered sectors and specified technical requirements, accompanied by sector-specific greenhouse gas emission accounting and reporting guidelines. On 25 January 2024 the Interim Regulations on the Administration of Carbon Emission Trading (State Council Order No. 775, effective 1 May 2024) elevated the emission reporting and verification system to the State Council administrative regulation level, specifying enterprise reporting obligations, third-party verifiers' legal status and data quality primary responsibility, and substantially increasing penalties for violations. On 27 January 2026, the General Office of the Ministry of Ecology and Environment issued the Notice on Effectively Conducting the Work Related to the 2026 National Carbon Emission Trading Market (MEE General Office Climate Letter [2026] No. 32) as the current annual implementing document: organising key emitting entities in the electricity generation, iron and steel, cement and aluminium smelting sectors to submit 2025 greenhouse gas emission reports before 31 March 2026 (verification completed before 30 June for electricity generation and before 31 July for iron and steel, cement and aluminium), promoting monthly digitalised record-keeping of carbon emission statistics and accounting data; and bringing enterprises in the petrochemicals, chemicals, building materials (flat glass), non-ferrous metals (copper smelting), paper and civil aviation sectors, as well as iron and steel and cement enterprises not yet included in the carbon market list, into the scope of 2025 greenhouse gas emission reporting management, in preparation for the expansion of the national carbon market.",
+        "Last revision (Details)": "System origin: on 10 December 2014 the Interim Measures for the Administration of Carbon Emission Trading (NDRC Order No. 17, effective 9 January 2015) first established key emission entities' greenhouse gas emission reporting and verification obligations. On 31 December 2020 the Measures for the Administration of Carbon Emission Trading (Trial) (MEE Order No. 19, effective 1 February 2021) further refined reporting and verification procedures, expanded covered sectors and specified technical requirements, accompanied by sector-specific greenhouse gas emission accounting and reporting guidelines. On 25 January 2024 the Interim Regulations on the Administration of Carbon Emission Trading (State Council Order No. 775, effective 1 May 2024) elevated the emission reporting and verification system to the State Council administrative regulation level, specifying enterprise reporting obligations, third-party verifiers' legal status and data quality primary responsibility, and substantially increasing penalties for violations. On 27 January 2026, the General Office of the Ministry of Ecology and Environment issued the Notice on Effectively Conducting the Work Related to the 2026 National Carbon Emission Trading Market (MEE General Office Climate Letter [2026] No. 32) as the current annual implementing document: organising key emitting entities in the electricity generation, iron and steel, cement and aluminium smelting sectors to submit 2025 greenhouse gas emission reports before 31 March 2026 (verification completed before 30 June for electricity generation and before 31 July for iron and steel, cement and aluminium), promoting monthly digitalised record-keeping of carbon emission statistics and accounting data; and bringing enterprises in the petrochemicals, chemicals, building materials (flat glass), non-ferrous metals (copper smelting), paper and civil aviation sectors, as well as iron and steel and cement enterprises not yet included in the carbon market list, into the scope of 2025 greenhouse gas emission reporting management, in preparation for the expansion of the national carbon market.",
         "Last revision": "27/01/2026",
         "Last revision (Details)": "System origin: on 10 December 2014 the Interim Measures for the Administration of Carbon Emission Trading (NDRC Order No. 17, effective 9 January 2015) first established key emission entities' greenhouse gas emission reporting and verification obligations. On 31 December 2020 the Measures for the Administration of Carbon Emission Trading (Trial) (MEE Order No. 19, effective 1 February 2021) further refined reporting and verification procedures, expanded covered sectors and specified technical requirements, accompanied by sector-specific greenhouse gas emission accounting and reporting guidelines. On 25 January 2024 the Interim Regulations on the Administration of Carbon Emission Trading (State Council Order No. 775, effective 1 May 2024) elevated the emission reporting and verification system to the State Council administrative regulation level, specifying enterprise reporting obligations, third-party verifiers' legal status and data quality primary responsibility, and substantially increasing penalties for violations. On 27 January 2026, the General Office of the Ministry of Ecology and Environment issued the Notice on Effectively Conducting the Work Related to the 2026 National Carbon Emission Trading Market (MEE General Office Climate Letter [2026] No. 32) as the current annual implementing document: organising key emitting entities in the electricity generation, iron and steel, cement and aluminium smelting sectors to submit 2025 greenhouse gas emission reports before 31 March 2026 (verification completed before 30 June for electricity generation and before 31 July for iron and steel, cement and aluminium), promoting monthly digitalised record-keeping of carbon emission statistics and accounting data; and bringing enterprises in the petrochemicals, chemicals, building materials (flat glass), non-ferrous metals (copper smelting), paper and civil aviation sectors, as well as iron and steel and cement enterprises not yet included in the carbon market list, into the scope of 2025 greenhouse gas emission reporting management, in preparation for the expansion of the national carbon market.",
 
@@ -82787,7 +82795,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O; HFCs; PFCs; SF6",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -83318,7 +83326,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Green Loan Special Statistics System",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The system's origin dates to 4 July 2013, when the General Office of the "
@@ -83378,7 +83386,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -83861,7 +83869,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -84380,7 +84388,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Green Finance Evaluation Scheme for Banking Financial Institutions",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The system's origin dates to 27 July 2018, when the Notice of the "
@@ -84443,7 +84451,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -84965,7 +84973,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The catalogue's origin traces to 10 November 2017, the National Catalogue "
@@ -85049,7 +85057,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -85553,7 +85561,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "National Catalogue of Key Low-Carbon Technologies for Promotion",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The catalogue is released in batches. The first batch was issued by NDRC "
@@ -85622,7 +85630,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -86078,7 +86086,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Green Technology Promotion Catalogue",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The catalogue was first issued as the 2020 edition: Green Technology "
@@ -86126,7 +86134,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -86615,7 +86623,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The catalogue's origin traces to 13 October 2017, the National Catalogue "
@@ -86669,7 +86677,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -87143,7 +87151,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The catalogue is released in batches. The first batch was issued by the "
@@ -87191,7 +87199,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -87680,7 +87688,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The catalogue can be traced back to the Green Industry Guidance Catalogue "
@@ -87755,7 +87763,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -88181,7 +88189,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The catalogue can be traced back to the Green Bond Endorsed Project "
@@ -88241,7 +88249,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
     },
@@ -88412,7 +88420,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "GHGs affected": "CO2; CH4; N2O",
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
         "Mitigation co-benefits": "Energy conservation; Technological innovation; Pollution control; Industrial development",
 
@@ -88556,7 +88564,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "Other weblinks": "N/A",
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
     },
 
@@ -88733,7 +88741,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "GHGs affected": "CO2; CH4; N2O",
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
         "Mitigation co-benefits": "Energy conservation; Pollution control; Industrial development",
 
@@ -88879,7 +88887,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "Other weblinks": "https://www.miit.gov.cn/jgsj/jns/nyjy/art/2022/art_17b6f40586b84957b3503c78ce8584ac.html",
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
     },
 
@@ -89065,7 +89073,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "GHGs affected": "CO2; CH4; N2O",
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
         "Mitigation co-benefits": "Renewable energy development; Energy conservation; Energy security; Pollution control",
 
@@ -89231,7 +89239,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "Other weblinks": "https://www.miit.gov.cn/jgsj/jns/nyjy/art/2026/art_3ef4f0f5b8d54fab92e87517355fb0e1.html",
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
     },
 
@@ -89374,7 +89382,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "N/A (this instrument is an indirect technical guidance "
             "instrument with no direct GHG emission coverage share)"
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": "Pollution control; Resource conservation; Circular economy; Ecological protection; Food security",
         "Legal statute": (
             "Notice of the Ministry of Agriculture and Rural Affairs on "
@@ -89383,7 +89391,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Legal document": "https://www.gov.cn/zhengce/zhengceku/2018-12/31/content_5445929.htm",
         "Other weblinks": "https://www.moa.gov.cn/gk/zcjd/201904/t20190418_6184810.htm",
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
     },
 
 
@@ -89524,7 +89532,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "N/A (this instrument is an indirect technical guidance "
             "instrument with no direct GHG emission coverage share)"
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": "Industrial development; Technological innovation; Resource conservation; Circular economy; Pollution control",
         "Legal statute": (
             "Notice of Five Departments Including the Ministry of Industry "
@@ -89533,7 +89541,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Legal document": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_0e02aa4c9dfe40c0ae322af3c185eed6.html",
         "Other weblinks": "https://www.miit.gov.cn/jgsj/jns/lszz/art/2026/art_a240711299e045b284c4bff34f13450e.html",
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
     },
 
     "CHNVIIVBRI01S000": {
@@ -89654,7 +89662,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Legal document": "https://www.gov.cn/zhengce/zhengceku/202401/content_6929104.htm",
         "Other weblinks": "https://www.miit.gov.cn/jgsj/jns/gzdt/art/2026/art_ff0367abfedd4a4d86d56599878d2ff3.html; https://www.miit.gov.cn/jgsj/jns/lszz/art/2026/art_a0653c4d92d34dc98b17d9edfabf7fda.html",
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
     },
 
     "CHNVIIVCNI01S000": {
@@ -89907,7 +89915,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "GHGs affected": "CO2; CH4; N2O",
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
         "Mitigation co-benefits": "Public health; Industrial development; Pollution control",
 
@@ -89925,7 +89933,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "Other weblinks": "https://www.gov.cn/gongbao/content/2019/content_5430516.htm",
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
     },
 
@@ -90068,7 +90076,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Economic sector": "E38",
         "GHGs affected": "CO2; CH4",
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Resource conservation; Circular economy; Pollution control; Industrial development"
         ),
@@ -90085,7 +90093,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": (
             "https://gbc.ggj.gov.cn/xwzx/ggjxw/202305/t20230522_42974.htm"
         ),
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
     },
 
     # ── VLB: Voluntary certification and labelling scheme ──
@@ -90111,7 +90119,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Energy conservation; Pollution control; Technological innovation; Industrial development",
         "Legal statute": "Opinions of the General Office of the State Council on Deepening the Reform of the Management System for the Electronic and Electrical Appliances Industry (Guobanfa [2022] No. 31)",
         "Other weblinks": "https://www.ndrc.gov.cn/fggz/hjyzy/stwmjs/200507/t20050711_1159582_ext.html; https://www.ndrc.gov.cn/xxgk/zcfb/tz/201303/t20130319_964565.html",
-        "Last revisions (Details)": "The system traces back to the China Energy-Saving Product Certification Administrative Measures (State Economic and Trade Commission, 11 February 1999) which established the earliest national-level voluntary energy-saving product certification system. On 19 February 2013, the Interim Administrative Measures for Low-Carbon Product Certification (NDRC Climate [2013] No. 279, jointly issued by NDRC and CNCA) established the low-carbon product certification system. In 2016, the General Office of the State Council issued the Opinions on Establishing a Unified Green Product Standard, Certification and Labelling System (Guobanfa [2016] No. 86), incorporating energy-saving and low-carbon product certification into the unified green product labelling system framework. On 23 September 2022, the General Office of the State Council issued the Opinions on Deepening the Reform of the Management System for the Electronic and Electrical Appliances Industry (Guobanfa [2022] No. 31), formally integrating the energy-saving product certification system and the low-carbon product certification system into a unified Energy-Saving and Low-Carbon Product Certification system, with SAMR leading the development of certification rules and relevant departments jointly developing standards.",
+        "Last revision (Details)": "The system traces back to the China Energy-Saving Product Certification Administrative Measures (State Economic and Trade Commission, 11 February 1999) which established the earliest national-level voluntary energy-saving product certification system. On 19 February 2013, the Interim Administrative Measures for Low-Carbon Product Certification (NDRC Climate [2013] No. 279, jointly issued by NDRC and CNCA) established the low-carbon product certification system. In 2016, the General Office of the State Council issued the Opinions on Establishing a Unified Green Product Standard, Certification and Labelling System (Guobanfa [2016] No. 86), incorporating energy-saving and low-carbon product certification into the unified green product labelling system framework. On 23 September 2022, the General Office of the State Council issued the Opinions on Deepening the Reform of the Management System for the Electronic and Electrical Appliances Industry (Guobanfa [2022] No. 31), formally integrating the energy-saving product certification system and the low-carbon product certification system into a unified Energy-Saving and Low-Carbon Product Certification system, with SAMR leading the development of certification rules and relevant departments jointly developing standards.",
     },
     "CHNVIIVLBI02S000": {
         "Agent": "Firms",
@@ -90135,7 +90143,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Energy conservation; Resource conservation; Pollution control; Ecological protection",
         "Legal statute": "Notice of the Ministry of Housing and Urban-Rural Development on Issuing the Green Building Label Administrative Measures (Jian Biao Gui [2021] No. 1)",
         "Other weblinks": "N/A",
-        "Last revisions (Details)": "In 2019, GB/T 50378-2019 Green Building Evaluation Standard was revised (the original standard was first issued in 2006 and revised in 2014 and 2019 respectively), restructuring the evaluation indicator system around five core performance categories — safety and durability, health and comfort, convenience of living, resource conservation and environmental liveability — and further strengthening the content on building carbon emission calculation and renewable energy utilisation. In 2021, the Ministry of Housing and Urban-Rural Development issued the Green Building Label Administrative Measures (Jian Biao Gui [2021] No. 1), further standardising label recognition and award management.",
+        "Last revision (Details)": "In 2019, GB/T 50378-2019 Green Building Evaluation Standard was revised (the original standard was first issued in 2006 and revised in 2014 and 2019 respectively), restructuring the evaluation indicator system around five core performance categories — safety and durability, health and comfort, convenience of living, resource conservation and environmental liveability — and further strengthening the content on building carbon emission calculation and renewable energy utilisation. In 2021, the Ministry of Housing and Urban-Rural Development issued the Green Building Label Administrative Measures (Jian Biao Gui [2021] No. 1), further standardising label recognition and award management.",
     },
     "CHNVIIVBRI03S000": {
         "Agent": "Firms",
@@ -90158,12 +90166,12 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Energy conservation; Technological innovation; Industrial development; Pollution control",
         "Legal statute": "Notice on Issuing the Implementation Plan for the Energy Efficiency Top-Runner Programme (NDRC Environment and Resources [2014] No. 3001); Notice on Organising the 2026 Recommendation of Energy Efficiency and Carbon Efficiency Top-Runner Enterprises in Key Industries (MIIT Joint Notification [2026] No. 372)",
         "Other weblinks": "https://wap.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_277a824ef0ae478faf7dc2d4f14b5db6.html",
-        "Last revisions (Details)": "On 31 December 2014, the NDRC and other departments issued the Implementation Plan for the Energy Efficiency Top-Runner Programme (NDRC Environment and Resources [2014] No. 3001), establishing the top-runner system covering three categories: end-use energy-consuming products, high-energy-consuming industry enterprises and public institutions. The programme has been implemented since then, with multiple batches of key-industry energy efficiency top-runner enterprises and public institution top runners published. On 23 September 2022, the General Office of the State Council issued the Opinions on Deepening the Reform of the Management System for the Electronic and Electrical Appliances Industry (Guobanfa [2022] No. 31), abolishing the energy efficiency top-runner product selection system (end-use energy-consuming products track); the enterprise and public institution top-runner tracks continue. In 2023-2024, top-runner selection continued for key industries (MIIT Joint Notification [2023] No. 278, covering 37 sub-sectors) and public institutions (Guoguan Energy Conservation [2023] No. 282). On 30 July 2026, the General Offices of MIIT, NDRC and SAMR issued the Notice on Organising the 2026 Recommendation of Energy Efficiency and Carbon Efficiency Top-Runner Enterprises in Key Industries (MIIT Joint Notification [2026] No. 372), expanding the recommended scope of key-industry energy efficiency top-runner enterprises to 43 sub-sectors, establishing the carbon efficiency top-runner selection for the first time (electrolytic aluminium, cement clinker, synthetic ammonia, ethylene and methanol — five sub-sectors), and adding a green electricity consumption share requirement.",
+        "Last revision (Details)": "On 31 December 2014, the NDRC and other departments issued the Implementation Plan for the Energy Efficiency Top-Runner Programme (NDRC Environment and Resources [2014] No. 3001), establishing the top-runner system covering three categories: end-use energy-consuming products, high-energy-consuming industry enterprises and public institutions. The programme has been implemented since then, with multiple batches of key-industry energy efficiency top-runner enterprises and public institution top runners published. On 23 September 2022, the General Office of the State Council issued the Opinions on Deepening the Reform of the Management System for the Electronic and Electrical Appliances Industry (Guobanfa [2022] No. 31), abolishing the energy efficiency top-runner product selection system (end-use energy-consuming products track); the enterprise and public institution top-runner tracks continue. In 2023-2024, top-runner selection continued for key industries (MIIT Joint Notification [2023] No. 278, covering 37 sub-sectors) and public institutions (Guoguan Energy Conservation [2023] No. 282). On 30 July 2026, the General Offices of MIIT, NDRC and SAMR issued the Notice on Organising the 2026 Recommendation of Energy Efficiency and Carbon Efficiency Top-Runner Enterprises in Key Industries (MIIT Joint Notification [2026] No. 372), expanding the recommended scope of key-industry energy efficiency top-runner enterprises to 43 sub-sectors, establishing the carbon efficiency top-runner selection for the first time (electrolytic aluminium, cement clinker, synthetic ammonia, ethylene and methanol — five sub-sectors), and adding a green electricity consumption share requirement.",
     },
     "CHNVIIVBRI03S001": {
         "Emission sector": "Cross-sectoral; Industry",
         "English instrument name": "Energy Efficiency Top-Runner",
-        "Policy Package": "Energy Efficiency and Carbon Efficiency Top-Runner Programme",
+        "Policy Package": "N/A",
         "Description": "The Energy Efficiency Top-Runner is the voluntary benchmarking and designation mechanism implemented under the Energy Efficiency and Carbon Efficiency Top-Runner Programme since 2014. It periodically selects and publishes the top runners with the highest energy efficiency levels among enterprises in high-energy-consuming industries and public institutions, and uses their energy efficiency levels as industry benchmarks and catch-up targets to guide energy users in energy efficiency benchmarking and competition, thereby driving the continuous improvement of overall energy efficiency. The mechanism was established under the Implementation Plan for the Energy Efficiency Top-Runner Programme (NDRC Environment and Resources [2014] No. 3001) and originally covered three categories: end-use energy-consuming products, enterprises in high-energy-consuming industries and public institutions. In September 2022, the General Office of the State Council issued the Opinions on Deepening the Reform of the Management System for the Electronic and Electrical Appliances Industry (Guobanfa [2022] No. 31), abolishing the product selection track; the enterprise and public institution tracks continue. It now focuses on two categories: (1) High-energy-consuming industry top runners — enterprises whose unit product energy consumption reaches the industry advanced level, with the recommended scope expanded to 43 sub-sectors in the 2026 round, including steel, non-ferrous metals, building materials, petrochemicals, chemicals, textiles and paper-making; (2) Public institution top runners — state organs, schools, hospitals and other public institutions whose energy and resource utilisation efficiency reaches an advanced level. From the 2026 round, a green electricity consumption share requirement is added (not lower than the region's 2025 renewable electricity consumption responsibility weight and the green electricity consumption share for key energy-consuming industries), and in principle no more than 5 energy efficiency top-runner enterprises may be designated per industry. Top-runner lists are published following voluntary application, local recommendation, expert review and public notification, and are valid for approximately two years. Participation is voluntary, with no mandatory compliance obligations or penalties.",
         "Objective": "Energy efficiency",
         "Administrating authorities": "National Development and Reform Commission (Department of Resource Conservation and Environmental Protection); Ministry of Industry and Information Technology (Department of Energy Conservation and Comprehensive Utilisation); State Administration for Market Regulation (Department of Product Quality and Safety Supervision)",
@@ -90202,7 +90210,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Energy conservation; Technological innovation; Industrial development; Pollution control",
         "Legal statute": "Notice on Issuing the Implementation Plan for the Energy Efficiency Top-Runner Programme (NDRC Environment and Resources [2014] No. 3001); Notice on Organising the 2026 Recommendation of Energy Efficiency and Carbon Efficiency Top-Runner Enterprises in Key Industries (MIIT Joint Notification [2026] No. 372)",
         "Other weblinks": "https://wap.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_277a824ef0ae478faf7dc2d4f14b5db6.html",
-        "Last revisions (Details)": "On 31 December 2014, the NDRC and other departments issued the Implementation Plan for the Energy Efficiency Top-Runner Programme (NDRC Environment and Resources [2014] No. 3001), establishing the top-runner system covering three categories: end-use energy-consuming products, high-energy-consuming industry enterprises and public institutions. On 23 September 2022, the General Office of the State Council issued the Opinions on Deepening the Reform of the Management System for the Electronic and Electrical Appliances Industry (Guobanfa [2022] No. 31), abolishing the energy efficiency top-runner product selection track; the enterprise and public institution top-runner tracks continue. In 2023-2024, top-runner selection continued for key industries (MIIT Joint Notification [2023] No. 278, covering 37 sub-sectors) and public institutions (Guoguan Energy Conservation [2023] No. 282). On 30 July 2026, the General Offices of MIIT, NDRC and SAMR issued the Notice on Organising the 2026 Recommendation of Energy Efficiency and Carbon Efficiency Top-Runner Enterprises in Key Industries (MIIT Joint Notification [2026] No. 372), expanding the recommended scope of key-industry energy efficiency top-runner enterprises to 43 sub-sectors and adding a green electricity consumption share requirement.",
+        "Last revision (Details)": "On 31 December 2014, the NDRC and other departments issued the Implementation Plan for the Energy Efficiency Top-Runner Programme (NDRC Environment and Resources [2014] No. 3001), establishing the top-runner system covering three categories: end-use energy-consuming products, high-energy-consuming industry enterprises and public institutions. On 23 September 2022, the General Office of the State Council issued the Opinions on Deepening the Reform of the Management System for the Electronic and Electrical Appliances Industry (Guobanfa [2022] No. 31), abolishing the energy efficiency top-runner product selection track; the enterprise and public institution top-runner tracks continue. In 2023-2024, top-runner selection continued for key industries (MIIT Joint Notification [2023] No. 278, covering 37 sub-sectors) and public institutions (Guoguan Energy Conservation [2023] No. 282). On 30 July 2026, the General Offices of MIIT, NDRC and SAMR issued the Notice on Organising the 2026 Recommendation of Energy Efficiency and Carbon Efficiency Top-Runner Enterprises in Key Industries (MIIT Joint Notification [2026] No. 372), expanding the recommended scope of key-industry energy efficiency top-runner enterprises to 43 sub-sectors and adding a green electricity consumption share requirement.",
     },
     "CHNVIIVBRI03S002": {
         "Mitigation effect": "Positive",
@@ -90210,7 +90218,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Industry",
         "Sub-sector": "Electrolytic aluminium; Cement clinker; Synthetic ammonia; Ethylene; Methanol",
         "English instrument name": "Carbon Efficiency Top-Runner in Key Industries",
-        "Policy Package": "Energy Efficiency and Carbon Efficiency Top-Runner Programme",
+        "Policy Package": "N/A",
         "Description": "The Carbon Efficiency Top-Runner in Key Industries is a carbon-efficiency benchmarking and designation mechanism newly added under the Energy Efficiency and Carbon Efficiency Top-Runner Programme starting from the 2026 annual round. Based on the national standards or group standards for product carbon footprint accounting rules, it designates top-runner enterprises with leading carbon efficiency levels in five sub-sectors — electrolytic aluminium, cement clinker, synthetic ammonia, ethylene and methanol — and uses their product carbon emission intensity as industry benchmarks and catch-up targets, guiding industrial enterprises to undertake energy conservation and carbon reduction retrofits and lower their product carbon footprints. Applicant enterprises must be independent legal entities with annual energy consumption exceeding 10,000 tonnes of standard coal equivalent or annual carbon dioxide emissions exceeding 26,000 tonnes of CO2 equivalent; their unit product energy efficiency must reach or exceed Level 1 (advanced value) of the current mandatory national standards on energy consumption limits for their industry and the benchmark level of the Benchmark Levels and Baseline Levels of Energy Efficiency in Key Industrial Sectors (2023 Edition); their green electricity consumption share must be no lower than the region's 2025 renewable electricity consumption responsibility weight and the green electricity consumption share for key energy-consuming industries. Enterprises apply voluntarily; provincial industry and information technology, development and reform, and market regulation departments conduct preliminary review and recommend the best candidates; the Ministry of Industry and Information Technology, the National Development and Reform Commission and the State Administration for Market Regulation organise re-examination and finalise and publish the list following expert review. In principle, no more than 5 carbon efficiency top-runner enterprises may be designated per industry. Participation is voluntary, with no mandatory compliance obligations or penalties.",
         "Objective": "Climate change mitigation",
         "Administrating authorities": "Ministry of Industry and Information Technology (Department of Energy Conservation and Comprehensive Utilisation); National Development and Reform Commission (Department of Resource Conservation and Environmental Protection); State Administration for Market Regulation (Department of Metrology)",
@@ -90251,7 +90259,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Industrial development; Pollution control; Resource conservation; Circular economy; Public health",
         "Legal statute": "Opinions of the General Office of the State Council on Establishing a Unified Green Product Standard, Certification and Labelling System (Guobanfa [2016] No. 86)",
         "Other weblinks": "N/A",
-        "Last revisions (Details)": "In 2020, the State Administration for Market Regulation issued the Green Product Certification Catalogue, which was formally implemented after integration, further clarifying the scope of certified products and implementation rules.",
+        "Last revision (Details)": "In 2020, the State Administration for Market Regulation issued the Green Product Certification Catalogue, which was formally implemented after integration, further clarifying the scope of certified products and implementation rules.",
     },
     "CHNVIIVLBI06S000": {
         "Agent": "Firms",
@@ -90399,7 +90407,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "Emission sector": "Industry",
         "English instrument name": "Zero-Carbon Factory (Manufacturing Enterprise)",
-        "Policy Package": "Zero-Carbon Factory Label",
+        "Policy Package": "N/A",
         "Description": "The national zero-carbon factory construction and designation scheme for manufacturing enterprises (the manufacturing enterprise subscheme of the Zero-Carbon Factory Label system). Applicant entities must have independent legal personality, or be independent accounting units treated as legal persons; they must be above-designated-size industrial enterprises engaged in actual production, with annual comprehensive energy consumption of no less than 1,000 tonnes of standard coal equivalent (electricity converted by calorific equivalent), and already on the national green factory list. Their main product unit energy consumption must reach or exceed Level 1 (advanced value) of the mandatory national standards on energy consumption limits for the industry and the benchmark level of the Benchmark Levels and Baseline Levels of Energy Efficiency in Key Industrial Sectors; where no such standard or requirement exists, they must reach the industry-leading level. Core indicators are set at two tiers, basic requirement and target requirement: carbon emissions per unit energy consumption no higher than 1.8 → 0.2 tonnes of CO2 per tonne of standard coal equivalent; non-fossil energy consumption share no lower than 30% → 95%; physically verified non-fossil electricity consumption share no lower than 10% → 35% (applicable to applicants with annual electricity consumption above 5 million kWh). The target requirements for core indicators must be achieved within the construction period (no later than 2030); following evaluation and acceptance, the enterprise formally becomes a national zero-carbon factory. Participation is voluntary, with no mandatory compliance obligations or penalties.",
         "Objective": "Climate change mitigation; Industrial development",
         "Administrating authorities": "Ministry of Industry and Information Technology (Department of Energy Conservation and Comprehensive Utilisation); provincial industry and information technology authorities",
@@ -90424,7 +90432,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Industry",
         "Sub-sector": "Data centres (computing facilities)",
         "English instrument name": "Zero-Carbon Computing Facility",
-        "Policy Package": "Zero-Carbon Factory Label",
+        "Policy Package": "N/A",
         "Description": "The national zero-carbon factory construction and designation scheme for computing facilities (the computing facility subscheme of the Zero-Carbon Factory Label system). Applicant entities (computing facility owners) must have independent legal personality, with clear property rights, clear and complete physical boundaries, and independent power supply and distribution and cooling systems for the computing facility; the scale must be no less than 3,000 standard racks (this requirement does not apply to AI computing centres); power usage effectiveness (PUE) must reach Level 2 or above under GB 40879-2021 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Data Centres; and the facility must already be on the national green computing facility list (formerly the national green data centre list). Core indicators are set at two tiers, basic requirement and target requirement: carbon emissions per unit energy consumption no higher than 1.8 → 0.2 tonnes of CO2 per tonne of standard coal equivalent; non-fossil energy consumption share no lower than 30% → 95%; no basic requirement is set for the physically verified non-fossil electricity consumption share, while the target requirement is no lower than 35% (applicable to applicants with annual electricity consumption above 5 million kWh). The target requirements for core indicators must be achieved within the construction period (no later than 2030); following evaluation and acceptance, the facility formally becomes a national zero-carbon factory. Participation is voluntary, with no mandatory compliance obligations or penalties.",
         "Objective": "Climate change mitigation; Industrial development",
         "Administrating authorities": "Ministry of Industry and Information Technology (Department of Energy Conservation and Comprehensive Utilisation); provincial industry and information technology authorities",
@@ -90593,7 +90601,8 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "N/A (this instrument is an indirect voluntary tool with no "
             "direct GHG emission coverage share)"
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
+        "Mitigation relevance": "Indirect",
         "Mitigation co-benefits": (
             "Industrial development; Pollution control; Resource conservation; Circular economy"
         ),
@@ -90771,7 +90780,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Economic sector": "M72",
         "GHGs affected": "CO2; CH4; N2O",
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Energy conservation; Energy security; Industrial development; Technological innovation; Pollution control"
         ),
@@ -90787,7 +90796,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": (
             "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20632"
         ),
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "National Energy Conservation Awareness Week has been held annually "
             "since 1991, originally scheduled for October to November each year. "
             "It was moved to June from 2004 to address summer peak electricity "
@@ -90948,7 +90957,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Economic sector": "M72",
         "GHGs affected": "CO2; CH4; N2O",
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Energy conservation; Industrial development; Technological innovation; Pollution control; Public health"
         ),
@@ -90964,7 +90973,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": (
             "https://www.gov.cn/zwgk/2013-05/07/content_2397275.htm"
         ),
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
     },
 
     # ── PAC 05: Green Travel Awareness Month and Public Transit Awareness Week ──
@@ -91128,7 +91137,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Economic sector": "H49",
         "GHGs affected": "CO2; CH4; N2O",
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Energy conservation; Pollution control; Public health; Industrial development"
         ),
@@ -91149,7 +91158,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": (
             "https://www.gov.cn/xinwen/2019-08/23/content_5423683.htm"
         ),
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "The Public Transit Awareness Week was first established by the "
             "Ministry of Transport in 2013, initially as a one-week awareness "
             "and education campaign held from 16 to 22 September only. From "
@@ -91330,7 +91339,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "through the websites of the Ministry of Ecology and Environment "
             "and the co-issuing departments."
         ),
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "The Norms trace back to the Citizens' Ecological and "
             "Environmental Behaviour Code (Trial) of 4 June 2018 (MEE "
             "Announcement No. 12 of 2018, publicly released on 5 June "
@@ -91348,7 +91357,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "updating the reporting hotline to a broader expression of "
             "reporting channels."
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Compliance monitoring": "No compliance monitoring",
         "Compliance enforcement": "No compliance enforcement",
         "Compliance promotion": "Other incentives or support",
@@ -91730,7 +91739,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "N/A (this instrument is an indirect information disclosure "
             "tool with no direct GHG emission coverage share)"
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Industrial development; Technological innovation; Pollution control"
         ),
@@ -91920,7 +91929,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "N/A (this instrument is an indirect capacity building "
             "tool with no direct GHG emission coverage share)"
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Industrial development; Technological innovation"
         ),
@@ -92150,7 +92159,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "N/A (this instrument is an indirect capacity building "
             "tool with no direct GHG emission coverage share)"
         ),
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Industrial development; Technological innovation; Resource conservation"
         ),
@@ -92370,11 +92379,11 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Economic sector": "A01; A02; B05; B06; D35; F41",
         "GHGs affected": "CO2; CH4; SF6; HFCs",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Renewable energy development; Technological innovation; Ecological protection; Industrial development; Resource conservation; Pollution control; Energy security; Biodiversity conservation; Climate change adaptation"
         ),
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "On 13 June 2012, the National Development and Reform "
             "Commission issued the Interim Measures for the "
             "Administration of Voluntary GHG Emission Reduction "
@@ -92545,11 +92554,11 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "A02",
         "GHGs affected": "CO2",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Ecological protection; Biodiversity conservation; Resource conservation; Climate change adaptation"
         ),
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "N/A (revised draft issued for public consultation in "
             "June 2026, not yet formally revised)"
         ),
@@ -92690,7 +92699,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "D35",
         "GHGs affected": "CO2",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Renewable energy development; Technological innovation; Pollution control; Energy security"
         ),
@@ -92833,7 +92842,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "D35",
         "GHGs affected": "CO2",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Renewable energy development; Technological innovation; Pollution control; Energy security"
         ),
@@ -92985,11 +92994,11 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "A02",
         "GHGs affected": "CO2",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Ecological protection; Biodiversity conservation; Climate change adaptation; Pollution control; Resource conservation"
         ),
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
             "N/A (revised draft issued for public consultation in "
             "June 2026, not yet formally revised)"
         ),
@@ -93132,7 +93141,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "D35",
         "GHGs affected": "CO2",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Energy conservation; Technological innovation; Pollution control"
         ),
@@ -93282,7 +93291,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "B05",
         "GHGs affected": "CH4",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Energy security; Resource conservation; Technological innovation; Pollution control"
         ),
@@ -93437,7 +93446,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "B06",
         "GHGs affected": "CO2; CH4",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Energy security; Resource conservation; Pollution control"
         ),
@@ -93594,7 +93603,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "B06",
         "GHGs affected": "CO2; CH4",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Energy security; Resource conservation; Pollution control"
         ),
@@ -93757,7 +93766,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "B06",
         "GHGs affected": "CO2; CH4",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Energy security; Resource conservation; Pollution control"
         ),
@@ -93901,7 +93910,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "A02",
         "GHGs affected": "CO2",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Ecological protection; Biodiversity conservation; Pollution control; Industrial development; Climate change adaptation"
         ),
@@ -94039,7 +94048,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "A02",
         "GHGs affected": "CO2",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Ecological protection; Biodiversity conservation; Pollution control; Industrial development; Climate change adaptation"
         ),
@@ -94189,7 +94198,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "A02",
         "GHGs affected": "CO2",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Ecological protection; Pollution control; Industrial development; Climate change adaptation"
         ),
@@ -94346,7 +94355,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "A01",
         "GHGs affected": "CH4",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Pollution control; Resource conservation; Industrial development"
         ),
@@ -94504,7 +94513,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "A01",
         "GHGs affected": "CH4",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Pollution control; Resource conservation; Industrial development"
         ),
@@ -94680,7 +94689,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "F41",
         "GHGs affected": "CO2; HFCs",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Energy conservation; Industrial development; Technological innovation"
         ),
@@ -94845,7 +94854,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "D35",
         "GHGs affected": "CO2",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Renewable energy development; Technological innovation; Industrial development; Pollution control"
         ),
@@ -95009,7 +95018,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "D35",
         "GHGs affected": "SF6",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Resource conservation; "
             "Technological innovation; "
@@ -95183,7 +95192,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "D35",
         "GHGs affected": "CO2",
-        "Mitigation effects": "N/A",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": (
             "Renewable energy development; Energy security; Technological innovation; Pollution control"
         ),
@@ -95214,7 +95223,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Sub-sector": "Manufacturing technological transformation (petrochemicals and chemicals, iron and steel, non-ferrous metals, building materials, machinery, etc.)",
         "Domestic instrument name": "制造业新型技术改造城市试点",
         "English instrument name": "Manufacturing New-Type Technological Transformation City Pilot",
-        "Policy Package": "Guiding Opinions on Accelerating the Transformation and Upgrading of Traditional Manufacturing Industries (MIIT Lian Gui [2023] No. 258)",
+        "Policy Package": "N/A",
         "Description": (
             "The Ministry of Finance (MOF) and the Ministry of Industry and "
             "Information Technology (MIIT) jointly issued the Notice on "
@@ -95263,7 +95272,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Objective": "Technological innovation; Industrial development; Green economy",
         "Mitigation relevance": "Indirect",
-        "Jurisdiction level": "Subnational",
+        "Jurisdiction level": "Sub-national",
         "Jurisdiction name": (
             "First batch: 20 cities (districts) — Binhai New Area of "
             "Tianjin, Tangshan, Shenyang, Dalian, Harbin, Suzhou, Jiaxing, "
@@ -95274,8 +95283,8 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Adoption date": "21/03/2024",
         "Start date": "21/03/2024",
         "End date": "N/A",
-        "Last revisions": "25/03/2025",
-        "Last revisions (Details)": (
+        "Last revision": "25/03/2025",
+        "Last revision (Details)": (
             "On 25 March 2025, the General Office of MIIT and the General "
             "Office of MOF issued the Notice on Conducting the Second "
             "Batch of the Manufacturing New-Type Technological "
@@ -95428,7 +95437,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "C20; C23; C24; C28",
         "GHGs affected": "CO2",
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": "Energy conservation; Technological innovation; Pollution control",
         "Legal statute": (
             "Notice on Conducting the Manufacturing New-Type "
@@ -95439,6 +95448,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
     "CHNSUBTDRI04S000": {
+
+
+        "Policy Package": "N/A",
         "Policy Instrument ID": "CHNSUBTDRI04S000",
         "Instrument / subscheme": "Instrument",
         "Group": "Subsidies",
@@ -95452,11 +95464,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": (
             "Central Fiscal Reward for Coalbed Methane (Coal Mine "
             "Methane) Development and Utilisation"
-        ),
-        "Policy Package": (
-            "Several Opinions on Accelerating Coalbed Methane (Coal Mine "
-            "Methane) Drainage and Utilisation (General Office of the "
-            "State Council, 2006)"
         ),
         "Description": (
             "The Ministry of Finance issued the Measures for the Administration of the "
@@ -95513,8 +95520,8 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Adoption date": "20/04/2007",
         "Start date": "20/04/2007",
         "End date": "31/12/2029",
-        "Last revisions": "03/03/2025",
-        "Last revisions (Details)": (
+        "Last revision": "03/03/2025",
+        "Last revision (Details)": (
             "On 3 March 2025, the Ministry of Finance issued the "
             "Measures for the Administration of the Clean Energy "
             "Development Special Fund (CJ [2025] No. 35), effective "
@@ -95677,7 +95684,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "B06",
         "GHGs affected": "CO2; CH4",
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
         "Mitigation co-benefits": "Energy security; Pollution control; Industrial development",
         "Legal statute": (
             "Measures for the Administration of the Clean Energy "
@@ -95733,8 +95740,8 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Adoption date": "04/08/2023",
         "Start date": "04/08/2023",
         "End date": "N/A",
-        "Last revisions": "16/04/2025",
-        "Last revisions (Details)": (
+        "Last revision": "16/04/2025",
+        "Last revision (Details)": (
             "On 30 March 2024, the Green and Low-carbon Advanced "
             "Technology Demonstration Project List (First Batch) was "
             "issued (FG Ban Huan Zi [2024] No. 272, 47 projects); on 16 "
@@ -95969,7 +95976,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -95981,13 +95988,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "01/03/2026",
 
 
-        "End date": "N/A",
+        "End date": "28/02/2031",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Status": "in force",
@@ -96296,7 +96303,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Renewable energy development; Pollution control",
@@ -96340,6 +96347,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     "CHNTRADRMI01S000": {
 
 
+        "Policy Package": "N/A",
+
+
         "Policy Instrument ID": "CHNTRADRMI01S000",
 
 
@@ -96364,22 +96374,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Demand response market participation",
 
 
-        "Policy Package": (
-
-
-            "Measures for the Administration of Electricity Demand-side Management "
-
-
-            "(2023 Edition) (FG Yun Xing Gui [2023] No. 1283) — one of two "
-
-
-            "mechanisms under the same measures as the demand response compensation "
-
-
-            "instrument (CHNSUBDRCI01S000)"
-
-
-        ),
 
 
         "Description": (
@@ -96439,9 +96433,12 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "5% in provinces where the peak-valley difference rate exceeds 40%); by "
 
 
-            "2030 large-scale real-time response capability is formed."
+            "2030 large-scale real-time response capability is formed.",
 
 
+
+
+            "Demand response market participation is a CCPID-specific extension of trading mechanisms in the Chinese power market and does not correspond directly to IFCMA permit or certificate trading."
         ),
 
 
@@ -96451,7 +96448,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -96463,13 +96460,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "01/10/2023",
 
 
-        "End date": "N/A",
+        "End date": "30/09/2028",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Status": "in force",
@@ -96703,7 +96700,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Renewable energy development; Energy security",
@@ -96738,6 +96735,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     "CHNSUBDRCI01S000": {
 
 
+        "Policy Package": "N/A",
+
+
         "Policy Instrument ID": "CHNSUBDRCI01S000",
 
 
@@ -96762,22 +96762,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Demand response compensation",
 
 
-        "Policy Package": (
-
-
-            "Measures for the Administration of Electricity Demand-side Management "
-
-
-            "(2023 Edition) (FG Yun Xing Gui [2023] No. 1283) — one of two "
-
-
-            "mechanisms under the same measures as the demand response market "
-
-
-            "participation instrument (CHNTRADRMI01S000)"
-
-
-        ),
 
 
         "Description": (
@@ -96816,9 +96800,12 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "It runs in parallel with, and is mechanistically distinct from, the "
 
 
-            "market trading channel (CHNTRADRMI01S000)."
+            "market trading channel (CHNTRADRMI01S000).",
 
 
+
+
+            "The compensation funds are fiscal: Articles 19 and 47 of the Measures for the Administration of Electricity Demand-side Management (2023 Edition) provide that local governments may arrange fiscal funds to support participating users."
         ),
 
 
@@ -96828,7 +96815,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -96840,13 +96827,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "01/10/2023",
 
 
-        "End date": "N/A",
+        "End date": "30/09/2028",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Status": "in force",
@@ -97062,7 +97049,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Renewable energy development; Energy security",
@@ -97199,7 +97186,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -97214,10 +97201,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Status": "in force",
@@ -97421,7 +97408,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Renewable energy development; Energy conservation",
@@ -97540,7 +97527,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -97555,10 +97542,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Status": "in force",
@@ -97756,7 +97743,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Energy conservation; Pollution control",
@@ -97878,7 +97865,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -97893,10 +97880,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Status": "in force",
@@ -98067,7 +98054,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control",
@@ -98210,7 +98197,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -98225,10 +98212,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "In 2026 the Ministry of Agriculture and Rural Affairs and the Ministry "
@@ -98486,7 +98473,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Ecological protection; Food security",
@@ -98510,9 +98497,12 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Conservation Tillage on Black Soil in Northeast China (Nong Ban Ji "
 
 
-            "[2020] No. 3)"
+            "[2020] No. 3);",
 
 
+
+
+            "Action Plan for Conservation Tillage on Black Soil in Northeast China (2026–2030) (Nong Ban Ji [2026] No. 4)"
         ),
 
 
@@ -98635,7 +98625,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -98647,13 +98637,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "23/01/2025",
 
 
-        "End date": "N/A",
+        "End date": "22/01/2030",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Status": "in force",
@@ -98890,7 +98880,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Renewable energy development; Energy security",
@@ -99015,7 +99005,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -99030,10 +99020,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "01/12/2024",
+        "Last revision": "01/12/2024",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "GB 21522-2024, approved 1 December 2024 and printed 2 December 2024, "
@@ -99258,7 +99248,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CH4",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Energy security",
@@ -99299,6 +99289,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     "CHNPRFSCMI01S000": {
 
 
+        "Policy Package": "N/A",
+
+
         "Policy Instrument ID": "CHNPRFSCMI01S000",
 
 
@@ -99323,22 +99316,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Ship carbon intensity management",
 
 
-        "Policy Package": (
-
-
-            "Measures for the Administration of Ship Energy Consumption Data and "
-
-
-            "Carbon Intensity (Hai Wei Fang [2022] No. 164) — one of two instruments "
-
-
-            "under the same measures as the ship energy consumption data reporting "
-
-
-            "instrument (CHNREPSECI01S000)"
-
-
-        ),
 
 
         "Description": (
@@ -99401,7 +99378,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Direct",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -99413,13 +99390,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "22/12/2022",
 
 
-        "End date": "N/A",
+        "End date": "21/12/2027",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Status": "in force",
@@ -99617,7 +99594,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Energy conservation; Pollution control",
@@ -99760,7 +99737,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -99775,10 +99752,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "13/05/2025",
+        "Last revision": "13/05/2025",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "The 2021 amendment (MOT Order No. 31 of 2021) implemented the shore "
@@ -100018,7 +99995,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Public health",
@@ -100113,13 +100090,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "of the 2020-revised Solid Waste Law (repealed simultaneously with the "
 
 
-            "Code's entry into force). Article 499 makes classified deposit a "
-
-
-            "statutory duty implemented through government promotion and universal "
-
-
-            "participation; Article 500 requires local governments to establish "
+            "Code's entry into force). Article 499 establishes the household waste sorting system and principles, implemented through government promotion and universal participation; Article 500 requires local governments to establish "
 
 
             "sorted deposit, collection, transport and treatment systems; Article "
@@ -100152,7 +100123,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -100167,10 +100138,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Status": "in force",
@@ -100272,7 +100243,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "penalties for kitchen waste violations by entities are recorded in the "
 
 
-            "subscheme (Source: Ecological Environment Code Articles 1169 and 1174)."
+            "subscheme (Source: Ecological Environment Code Article 1174)."
 
 
         ),
@@ -100365,7 +100336,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CH4; CO2",
 
 
-        "Mitigation effects": "Unknown",
+        "Mitigation effect": "Unknown",
 
 
         "Mitigation co-benefits": "Resource conservation; Circular economy; Pollution control",
@@ -100454,7 +100425,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -100469,10 +100440,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "N/A",
+        "Last revision": "N/A",
 
 
-        "Last revisions (Details)": "N/A",
+        "Last revision (Details)": "N/A",
 
 
         "Status": "in force",
@@ -100631,7 +100602,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CH4; CO2",
 
 
-        "Mitigation effects": "Unknown",
+        "Mitigation effect": "Unknown",
 
 
         "Mitigation co-benefits": "Circular economy; Pollution control",
@@ -100768,7 +100739,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -100783,10 +100754,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
 
 
-        "Last revisions": "24/01/2025",
+        "Last revision": "24/01/2025",
 
 
-        "Last revisions (Details)": (
+        "Last revision (Details)": (
 
 
             "GB 17167-2025, published 24 January 2025, fully replaces GB 17167-2006 "
@@ -101008,7 +100979,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation co-benefits": "Energy conservation; Resource conservation",
@@ -101049,6 +101020,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     "CHNREPSECI01S000": {
 
 
+        "Policy Package": "N/A",
+
+
         "Policy Instrument ID": "CHNREPSECI01S000",
 
 
@@ -101073,22 +101047,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Ship energy consumption data reporting",
 
 
-        "Policy Package": (
-
-
-            "Measures for the Administration of Ship Energy Consumption Data and "
-
-
-            "Carbon Intensity (Hai Wei Fang [2022] No. 164) — one of two instruments "
-
-
-            "under the same measures as the ship carbon intensity management "
-
-
-            "instrument (CHNPRFSCMI01S000)"
-
-
-        ),
 
 
         "Description": (
@@ -101151,7 +101109,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Jurisdiction level": "national",
+        "Jurisdiction level": "National",
 
 
         "Jurisdiction name": "N/A",
@@ -101163,7 +101121,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "22/12/2022",
 
 
-        "End date": "N/A",
+        "End date": "21/12/2027",
 
 
         "Last revision": "N/A",
@@ -101472,8 +101430,8 @@ _ETS_PLAN_OVERRIDES: dict[str, dict[str, str]] = {
         ),
     },
     "CHNTRAETSI01S001": {
-        "Last revisions": "02/09/2026",
-        "Last revisions (Details)": (
+        "Last revision": "02/09/2026",
+        "Last revision (Details)": (
             "On 2 September 2026, the Ministry of Ecology and Environment "
             "issued the Plan for the Total Allowance Volume and Allocation of "
             "the National Carbon Emission Trading Market for the Power "
@@ -101536,8 +101494,8 @@ _ETS_PLAN_OVERRIDES: dict[str, dict[str, str]] = {
         ),
     },
     "CHNTRAETSI01S002": {
-        "Last revisions": "02/09/2026",
-        "Last revisions (Details)": (
+        "Last revision": "02/09/2026",
+        "Last revision (Details)": (
             "On 2 September 2026, the Ministry of Ecology and Environment "
             "issued the Plan for the Total Allowance Volume and Allocation of "
             "the National Carbon Emission Trading Market for the Power "
@@ -101566,8 +101524,8 @@ _ETS_PLAN_OVERRIDES: dict[str, dict[str, str]] = {
         ),
     },
     "CHNTRAETSI01S003": {
-        "Last revisions": "02/09/2026",
-        "Last revisions (Details)": (
+        "Last revision": "02/09/2026",
+        "Last revision (Details)": (
             "On 2 September 2026, the Ministry of Ecology and Environment "
             "issued the Plan for the Total Allowance Volume and Allocation of "
             "the National Carbon Emission Trading Market for the Power "
@@ -101596,8 +101554,8 @@ _ETS_PLAN_OVERRIDES: dict[str, dict[str, str]] = {
         ),
     },
     "CHNTRAETSI01S004": {
-        "Last revisions": "02/09/2026",
-        "Last revisions (Details)": (
+        "Last revision": "02/09/2026",
+        "Last revision (Details)": (
             "On 2 September 2026, the Ministry of Ecology and Environment "
             "issued the Plan for the Total Allowance Volume and Allocation of "
             "the National Carbon Emission Trading Market for the Power "
@@ -101652,6 +101610,28 @@ def load_cn_to_en_headers() -> dict[str, str]:
 
 
 
+# Legacy header names used before the 2026-11 P0-2 header unification; the
+# existing-English merge is keyed by header name, so old plural keys must be
+# migrated to the canonical names to avoid silently dropping values.
+
+
+_LEGACY_HEADER_ALIASES = {
+
+
+    "Mitigation effects": "Mitigation effect",
+
+
+    "Last revisions": "Last revision",
+
+
+    "Last revisions (Details)": "Last revision (Details)",
+
+
+}
+
+
+
+
 def load_existing_english_rows() -> dict[str, dict[str, str]]:
 
 
@@ -101664,19 +101644,31 @@ def load_existing_english_rows() -> dict[str, dict[str, str]]:
     with EN_OUTPUT.open("r", encoding="utf-8-sig", newline="") as handle:
 
 
-        return {
+        result: dict[str, dict[str, str]] = {}
 
 
-            row["Policy Instrument ID"]: row
+        for row in csv.DictReader(handle):
 
 
-            for row in csv.DictReader(handle)
+            if not row.get("Policy Instrument ID"):
 
 
-            if row.get("Policy Instrument ID")
+                continue
 
 
-        }
+            for legacy, canonical in _LEGACY_HEADER_ALIASES.items():
+
+
+                if legacy in row and canonical not in row:
+
+
+                    row[canonical] = row[legacy]
+
+
+            result[row["Policy Instrument ID"]] = row
+
+
+        return result
 
 
 
@@ -101730,7 +101722,7 @@ LANGUAGE_NEUTRAL_FIELDS = {
     "End date",
 
 
-    "Last revisions",
+    "Last revision",
 
 
     "Status",
@@ -101743,9 +101735,6 @@ LANGUAGE_NEUTRAL_FIELDS = {
 
 
     "GHGs affected",
-
-
-    "Mitigation effects",
 
 
     "Mitigation effect",
@@ -102081,7 +102070,7 @@ def translate_rows(force: bool = False) -> list[dict[str, str]]:
             # Also pass through values whose EN field name is in
 
 
-            # LANGUAGE_NEUTRAL_FIELDS (e.g. "Last revisions", "Adoption date")
+            # LANGUAGE_NEUTRAL_FIELDS (e.g. "Last revision", "Adoption date")
 
 
             # even when _is_language_neutral() returns False.
@@ -102177,7 +102166,7 @@ def translate_rows(force: bool = False) -> list[dict[str, str]]:
         if instrument_id in {"CHNTRAETSI01S002", "CHNTRAETSI01S003"}:
 
 
-            translated["Last revisions (Details)"] = EXPANSION_REVISION
+            translated["Last revision (Details)"] = EXPANSION_REVISION
 
 
 

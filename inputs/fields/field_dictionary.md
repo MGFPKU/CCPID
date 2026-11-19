@@ -27,7 +27,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial
+  - Entry type: Categorical
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -41,7 +41,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - taxes, subsidies, technology standards, etc
 - Notes:
-  - Entry type: Categorial
+  - Entry type: Categorical
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -55,7 +55,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - carbon tax, EV purchase subsidy, Bans and phase-outs of fossil fuel heating systems, etc
 - Notes:
-  - Entry type: Categorial
+  - Entry type: Categorical
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -69,7 +69,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial
+  - Entry type: Categorical
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -83,7 +83,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - Coal, solar power, wind power, hydrogen, nuclear power, steel, cement, automobile, battery, etc.
 - Notes:
-  - Entry type: Categorial
+  - Entry type: Categorical
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -171,7 +171,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (multiple choice)
+  - Entry type: Categorical (multiple choice)
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -186,7 +186,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial
+  - Entry type: Categorical
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -196,14 +196,14 @@ Source: `inputs/attribute definitions.xlsx`
 - Attribute type: Administrative information
 - Definition: Indicates at which jurisdiction level the instrument is applied.
 - Allowed values:
-  - supranational
-  - national
-  - subnational
-  - special economic zone (SEZ)
+  - National
+  - Sub-national
+  - Supra-national
+  - Special economic zone (SEZ)
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial
+  - Entry type: Categorical
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -232,6 +232,7 @@ Source: `inputs/attribute definitions.xlsx`
   - Not specified in source workbook.
 - Notes:
   - in the format of dd/mm/yyyy
+  - Precision convention: when the official source is precise only to the month, the first day of that month is used as the representative value (a precision convention, not a verified effective day); the evidence log records the source precision.
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -253,7 +254,7 @@ Source: `inputs/attribute definitions.xlsx`
 
 - Field name: End date
 - Attribute type: Administrative information
-- Definition: Indicates the date when the final requirement of the legal mandate takes effect
+- Definition: Indicates the last date on which the policy instrument remains in force, where applicable
 - Allowed values:
   - Not specified in source workbook.
 - Examples:
@@ -304,7 +305,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial
+  - Entry type: Categorical
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -332,7 +333,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (multiple choice), free for details
+  - Entry type: Categorical (multiple choice), free for details
   - refers to non-exhaustive list in [regulated asset]
 - Common mistakes:
   - Not specified in source workbook.
@@ -348,7 +349,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial
+  - Entry type: Categorical
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -407,7 +408,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (multiple choice), free for details
+  - Entry type: Categorical (multiple choice), free for details
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -435,7 +436,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (multiple choice), free for details
+  - Entry type: Categorical (multiple choice), free for details
   - refers to non-exhaustive list in [regulated activity]
 - Common mistakes:
   - Not specified in source workbook.
@@ -803,7 +804,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (single choice), free for details
+  - Entry type: Categorical (single choice), free for details
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -821,7 +822,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (multiple choice), free for details
+  - Entry type: Categorical (multiple choice), free for details
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -864,7 +865,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (single choice)
+  - Entry type: Categorical (single choice)
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -878,7 +879,7 @@ Source: `inputs/attribute definitions.xlsx`
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (single choice), free
+  - Entry type: Categorical (single choice), free
 for details
 - Common mistakes:
   - Not specified in source workbook.
@@ -896,7 +897,7 @@ for details
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (single choice), free
+  - Entry type: Categorical (single choice), free
 for details
 - Common mistakes:
   - Not specified in source workbook.
@@ -928,7 +929,7 @@ for details
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (single choice), free
+  - Entry type: Categorical (single choice), free
 for details
 - Common mistakes:
   - Not specified in source workbook.
@@ -947,7 +948,7 @@ for details
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (multiple choice), free
+  - Entry type: Categorical (multiple choice), free
 for details
 - Common mistakes:
   - Not specified in source workbook.
@@ -963,7 +964,7 @@ for details
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (single choice)
+  - Entry type: Categorical (single choice)
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -1007,7 +1008,7 @@ for details
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (single choice)
+  - Entry type: Categorical (single choice)
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -1038,7 +1039,7 @@ for details
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (single choice), free for details
+  - Entry type: Categorical (single choice), free for details
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -1063,12 +1064,12 @@ for details
 - Definition: Indicates how labels are assigned and designed.
 - Allowed values:
   - Binary (based on a single threshold value)
-  - Categorial
+  - Categorical
   - Continuously
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial
+  - Entry type: Categorical
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -1087,7 +1088,7 @@ for details
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (single choice), free for details
+  - Entry type: Categorical (single choice), free for details
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -1105,7 +1106,7 @@ for details
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (multiple choice), free for details
+  - Entry type: Categorical (multiple choice), free for details
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -1122,7 +1123,7 @@ for details
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (multiple choice), free for details
+  - Entry type: Categorical (multiple choice), free for details
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -1153,7 +1154,7 @@ for details
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial (single choice)
+  - Entry type: Categorical (single choice)
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -1245,7 +1246,7 @@ for details
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial
+  - Entry type: Categorical
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -1259,7 +1260,7 @@ for details
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial
+  - Entry type: Categorical
 - Common mistakes:
   - Not specified in source workbook.
 
@@ -1288,7 +1289,7 @@ for details
 - Examples:
   - Not specified in source workbook.
 - Notes:
-  - Entry type: Categorial
+  - Entry type: Categorical
 - Common mistakes:
   - Not specified in source workbook.
 

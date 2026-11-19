@@ -88,8 +88,8 @@ templates:
       - Adoption date
       - Start date
       - End date
-      - Last revisions
-      - Last revisions (Details)
+      - Last revision
+      - Last revision (Details)
       - Status
       - Administrating authorities
       - Asset
@@ -130,7 +130,7 @@ templates:
       - GHG emission coverage (% domestic emissions)
       - Economic sector
       - GHGs affected
-      - Mitigation effects
+      - Mitigation effect
       - Mitigation co-benefits
       - Legal statute
       - Legal document
@@ -155,8 +155,8 @@ templates:
       - Adoption date
       - Start date
       - End date
-      - Last revisions
-      - Last revisions (Details)
+      - Last revision
+      - Last revision (Details)
       - Status
       - Administrating authorities
       - Asset
@@ -184,7 +184,7 @@ templates:
       - GHG emission coverage (% domestic emissions)
       - Economic sector
       - GHGs affected
-      - Mitigation effects
+      - Mitigation effect
       - Mitigation co-benefits
       - Legal statute
       - Legal document
@@ -209,8 +209,8 @@ templates:
       - Adoption date
       - Start date
       - End date
-      - Last revisions
-      - Last revisions (Details)
+      - Last revision
+      - Last revision (Details)
       - Status
       - Administrating authorities
       - Asset
@@ -323,8 +323,8 @@ templates:
       - Adoption date
       - Start date
       - End date
-      - Last revisions
-      - Last revisions (Details)
+      - Last revision
+      - Last revision (Details)
       - Status
       - Administrating authorities
       - Asset
@@ -595,7 +595,8 @@ global_validation_rules:
       - "Dates must match dd/mm/yyyy when day and month are available."
       - "Start date should not be earlier than Adoption date unless legally justified in details."
       - "End date should not be earlier than Start date."
-      - "End date means the date when the final legal requirement of the mandate takes effect, not necessarily policy expiry."
+      - "End date means the last date on which the policy instrument remains in force, where applicable."
+      - "When an official source is precise only to the month, use the first day of that month as the representative date (a precision convention, not a verified day); record the precision in the evidence log."
   urls:
     type: uri
     fields:
@@ -661,7 +662,7 @@ global_validation_rules:
       - "Use subschemes only for differentiation within one instrument (different agents, standards, rates, phases, or compliance conditions). When the legal obligations or operating mechanisms differ between parts, split into separate instruments instead."
       - "Distinguish the government's own investment, procurement, and decision rules from regulatory obligations imposed on enterprises or projects. Whether the regulated entity is the government or a non-government agent determines the Government investment and consumption vs Regulatory category."
       - "Voluntary participation does not imply the Voluntary approaches category. Distinguish voluntary project development, voluntary purchase, and voluntary trading participation from voluntary trading systems, government-issued offset credits, and mandatory compliance arrangements; the binding test is the operating mechanism and the legal obligation."
-      - "For CCPID-specific groups or approaches, record their IFCMA correspondence (alignment status and reference approach) and the extension rationale to preserve international comparability."
+      - "For CCPID-specific groups or approaches, record their IFCMA correspondence (alignment status) and the extension rationale to preserve international comparability."
 
 allowed_values:
   Group:
@@ -992,10 +993,10 @@ allowed_values:
     - Direct
     - Indirect
   Jurisdiction level:
-    - supranational
-    - national
-    - subnational
-    - special economic zone (SEZ)
+    - Supra-national
+    - National
+    - Sub-national
+    - Special economic zone (SEZ)
   Status:
     - in force
     - scheduled
@@ -1094,7 +1095,7 @@ allowed_values:
     - Other, details:__
   "For labels: Type":
     - Binary (based on a single threshold value)
-    - Categorial
+    - Categorical
     - Continuously
   Incentives for Participation:
     - Financial
