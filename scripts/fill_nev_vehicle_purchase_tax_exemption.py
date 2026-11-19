@@ -23,7 +23,7 @@ from policy_id import generate_policy_id
 
 
 TEMPLATE = "Economic instruments"
-GROUP = "Tax"
+GROUP = "Taxes"
 APPROACH = "Vehicle purchase tax incentive"
 INSTRUMENT_ID = generate_policy_id("CHN", GROUP, APPROACH, 1)
 OLD_IDS: set[str] = {"CHNSUBVPSI01S000"}

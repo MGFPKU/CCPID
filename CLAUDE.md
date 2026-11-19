@@ -34,7 +34,7 @@ Group and approach codes are defined in `rules/schema.yaml` under `known_codes`.
 5. Run `scripts/validate_dataset.py` and review `logs/validation_report.md`
 6. Export Excel deliverables with `scripts/export_workbooks.py`
 
-**Ended instruments**: when an included instrument expires or is terminated, move its full row from the category CSV into `outputs/CCPID_{lang}_{category}_ended.csv`. The export pipeline appends these rows to the workbook's `Ended` / `已终止` sheet automatically, below the curated historical rows kept in the template. Superseded old-version standards (e.g. GB 32047-2015 replaced by GB 32047-2025) are an exception: delete the old-version row, keep one row for the current version with the earliest predecessor's adoption/start dates, and mention the replaced version in the description fields.
+**Ended instruments**: when an included instrument expires or is terminated, move its full row from the category CSV into `outputs/CCPID_{lang}_{category}_ended.csv`. The status flip to `已终止`/`ended` itself is applied automatically by `scripts/update_status_from_dates.py` (part of `run_pipeline.py`); only the row move remains a manual step. The export pipeline appends these rows to the workbook's `Ended` / `已终止` sheet automatically, below the curated historical rows kept in the template. Superseded old-version standards (e.g. GB 32047-2015 replaced by GB 32047-2025) are an exception: delete the old-version row, keep one row for the current version with the earliest predecessor's adoption/start dates, and mention the replaced version in the description fields.
 
 ## Key Commands
 
@@ -97,6 +97,11 @@ python scripts\export_workbooks.py --lang all
 python scripts\normalize_isic_economic_sector.py
 ```
 
+**Update statuses from dates (scheduled → in force, in force → ended; also runs automatically inside `run_pipeline.py`):**
+```powershell
+python scripts\update_status_from_dates.py
+```
+
 **Generate official source search queries (when a source is from a non-canonical URL):**
 ```powershell
 python scripts\suggest_official_source_queries.py "<document title>" --url "<candidate URL>" --document-number "<document number if known>"
@@ -125,8 +130,10 @@ DO NOT run multiple filling scripts that write `outputs/evidence_log.csv` in par
 - **N/A vs blank**: Use `N/A` both for structurally non-applicable fields and for true unknowns (where data is not found or not published). Chinese CSVs also use `N/A` (the pipeline auto-normalizes legacy `未指明` → `N/A`). Blank only during draft entry.
 - **Chinese first**: always fill the Chinese version first, generate English after human review confirms
 - **Instrument row unit**: treat the policy instrument (not the policy package) as the row unit
+- **Inclusion scope**: do not automatically include all green/environmental policies — inclusion requires a credible GHG-affecting pathway; where the mitigation pathway is distant or unverified, mark the record `needs_human_review=true` for verification instead of assuming an effect
 - **Official sources**: prefer primary legislation or official Chinese government sources
 - **Subscheme splitting**: split when rates, thresholds, covered assets, agents, exemptions, or phases differ (especially `New` vs `existing` assets)
+- **Mixed-mechanism policies**: classify by primary legal obligation or direct incentive mechanism (not by name, authority, funding, or objective); split documents with multiple independent mechanisms into separate instruments; voluntary participation does not imply the Voluntary approaches category; the regulated entity being the government decides Government I&C vs Regulatory; annotate CCPID-specific groups/approaches with their IFCMA crosswalk (full rules in `inputs/classification/classification structure.md` and `rules/schema.yaml`)
 - **Group/Approach are dependent**: approach must be valid for the selected group (mapping in `rules/schema.yaml`)
 - **Economic sector**: use ISIC Rev.4 division codes (e.g., `D35` for electricity, `C24` for basic metals). Run the ISIC normalizer after edits.
 - **Market operation data**: search operational disclosures before marking trading fields as `not found` — use the source ladder: official regulator stats → platform operator data → credible non-official sources

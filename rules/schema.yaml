@@ -69,7 +69,7 @@ row_types:
 
 templates:
   Economic instruments:
-    category: Economic
+    category: Economic instruments
     columns:
       - Policy Instrument ID
       - Instrument / subscheme
@@ -136,7 +136,7 @@ templates:
       - Legal document
       - Other weblinks
   Regulatory instruments:
-    category: Regulatory
+    category: Regulatory instruments
     columns:
       - Policy Instrument ID
       - Instrument / subscheme
@@ -246,7 +246,7 @@ templates:
       - Legal document
       - Other weblinks
   Information instruments:
-    category: Information
+    category: Information instruments
     columns:
       - Policy Instrument ID
       - Instrument / subscheme
@@ -304,7 +304,7 @@ templates:
       - Legal document
       - Other weblinks
   Voluntary approaches:
-    category: Voluntary
+    category: Voluntary approaches
     columns:
       - Policy Instrument ID
       - Instrument / subscheme
@@ -407,6 +407,23 @@ global_validation_rules:
       - "Instrument rows use S000; subscheme rows use S001, S002, etc. under the parent stem."
     known_codes:
       group:
+        Subsidies: SUB
+        Taxes: TAX
+        Trading systems: TRA
+        Labels: CEL
+        Framework standards: FRM
+        Performance standards: PRF
+        Technology standards: TEC
+        Public investment: PIV
+        Public procurement: PPC
+        Public appraisal rules: PAR
+        Administered prices: ADP
+        Reporting requirements: REP
+        Capacity building and public awareness: CBA
+        Voluntary information instruments: VII
+        Voluntary trading systems: VTS
+        Voluntary targets: VTG
+      # Legacy singular group names retained as CLI aliases (same codes):
         Subsidy: SUB
         Tax: TAX
         Trading scheme: TRA
@@ -414,12 +431,7 @@ global_validation_rules:
         Framework regulation: FRM
         Performance standard: PRF
         Technology standard: TEC
-        Public investment: PIV
-        Public procurement: PPC
-        Public appraisal rules: PAR
         Administered price: ADP
-        Reporting requirements: REP
-        Capacity building and public awareness: CBA
         Voluntary information instrument: VII
         Voluntary trading system: VTS
         Voluntary target: VTG
@@ -427,17 +439,21 @@ global_validation_rules:
         Carbon contract for difference: CCD
         Feebate: FEE
         "Concessional loans, loan guarantees and credit support": CLG
+        Central bank lending support: CBL
+        Interest subsidy: ITS
         Renewable electricity contract for difference: ECD
         Renewable electricity feed-in premium: FIP
         Renewable electricity feed-in tariff: FIT
         Subsidy for low-emissions fuels: LFF
         Vehicle purchase subsidy: VPS
+        Vehicle scrappage subsidy: VSS
         Ecosystem service payments: ESP
         Trade-in subsidy: TIS
         Clean heating subsidy: CHS
         Recycling and treatment subsidy: RTS
         Low-emission machinery purchase subsidy: MPS
         Technology deployment reward: TDR
+        Demand response compensation: DRC
         GHG tax: GHT
         CIT incentive: CIT
         Vehicle purchase tax incentive: VPT
@@ -456,6 +472,9 @@ global_validation_rules:
         Tradable energy efficiency obligations or certificates: EEO
         "Tradable performance standards": TPS
         "Tradable renewable electricity credits, quota or tradable performance standards": REC
+        Offset credits: OFC
+        Green electricity trading: GET
+        Demand response market participation: DRM
         Energy labels for buildings: ELB
         Energy labels for products and appliances: ELP
         Energy labels for vehicles: ELV
@@ -471,7 +490,7 @@ global_validation_rules:
         Capacity building programme: CBP
         Public awareness campaign: PAC
         Citizen code of conduct: COC
-        Professional certification: PCE
+        Occupational standards and skills development: OSS
         Education system integration: ESI
         Green standard system: GSS
         Sustainable finance taxonomy: SFT
@@ -480,7 +499,9 @@ global_validation_rules:
         Voluntary carbon market: VCM
         Voluntary certification and labelling scheme: VLB
         Voluntary information disclosure: VID
+        Voluntary benchmarking and recognition schemes: VBR
         Voluntary target: VTG
+        Voluntary capacity provision and grid-connection commitments: VCP
         Speed limits: SPD
         Energy performance management framework for public institutions: EPM
         Target responsibility system: TRS
@@ -490,11 +511,17 @@ global_validation_rules:
         Extended producer responsibility: EPR
         Industrial transition governance: ITG
         Renewable priority dispatch: RPD
+        Green power direct connection rules: GPC
+        Comprehensive building energy code: CBC
         Production scheduling mandate: PSM
         Ecosystem protection mandate: ECM
         Eco-environmental zoning: EEZ
         Eco-compensation: ECO
         Pollution discharge permitting: PDP
+        Distributed solar PV development and construction management: DPV
+        Port ship shore power requirements: SPP
+        Mandatory waste sorting: MWS
+        Energy metering requirements: EMR
         Building/envelope airtightness requirements: BAR
         EV fleet mandate: EFM
         EV sales mandate: ESM
@@ -502,15 +529,18 @@ global_validation_rules:
         Insulation requirements for buildings: INS
         Minimum Energy Performance Standards (MEPS) for buildings: MEB
         Minimum Energy Performance Standards (MEPS) for cooking systems: MEC
-        Minimum Energy Performance Standards (MEPS) for electric appliances: MEA
+        Minimum Energy Performance Standards (MEPS) for electric equipment: MEE
         Minimum Energy Performance Standards (MEPS) for lighting systems: MEL
         Minimum Energy Performance Standards (MEPS) for residential solar panels: MEP
         Minimum Energy Performance Standards (MEPS) for spatial cooling: MCS
-        Minimum Energy Performance Standards (MEPS) for spatial heating: MHS
+        Minimum Energy Performance Standards (MEPS) for heat pumps and water chillers: HPC
         Minimum Energy Performance Standards (MEPS) for water heating systems: MWH
         Minimum Energy Performance Standards (MEPS) for industrial thermal equipment: MIT
         Minimum Energy Performance Standards (MEPS) for refrigeration equipment: MRE
+        Non-electric renewable energy consumption obligations: RCP
         Energy intensity limit for industrial production: EIL
+        Methane emission limits: MTL
+        Ship carbon intensity management: SCM
         Solar factor requirements for windows: SFW
         Bans and phase-outs of fossil fuel based power generation plants: BFP
         Bans and phase-outs of fossil fuel extraction: BFE
@@ -530,12 +560,15 @@ global_validation_rules:
         Industrial differentiated electricity pricing: IDP
         Residential increasing-block tariff: RIT
         Capacity pricing mechanism: CPM
+        Time-of-use pricing: TOU
+        Two-part heat tariff: TPT
         Green public procurement: GPP
         Strategic environmental assessment: SEA
         Climate performance assessment and evaluation: CPA
         Environmental impact assessment: EIA
         Energy and carbon review for investment projects: ECR
-        Environmental compliance audit: ECA
+        Environmental auditing requirements: EAR
+        Ship energy consumption reporting: SEC
   blank_values:
     allowed_when_unknown:
       - ""
@@ -621,47 +654,59 @@ global_validation_rules:
     rules:
       - "Split public investment and public procurement into separate rows when they are legally or operationally distinct."
       - "Allow one Government I&C row to contain both public investment and public procurement fields when the same instrument genuinely includes both."
+  mixed_mechanism_rules:
+    rules:
+      - "Determine the main classification of an instrument by its primary legal obligation or direct incentive mechanism. Do not classify solely by policy name, competent authority, funding source, or policy objective."
+      - "When one policy document contains multiple measures with independent operating mechanisms, record the document as a policy package and split the measures into separate instruments. Do not force the whole document into one approach."
+      - "Use subschemes only for differentiation within one instrument (different agents, standards, rates, phases, or compliance conditions). When the legal obligations or operating mechanisms differ between parts, split into separate instruments instead."
+      - "Distinguish the government's own investment, procurement, and decision rules from regulatory obligations imposed on enterprises or projects. Whether the regulated entity is the government or a non-government agent determines the Government investment and consumption vs Regulatory category."
+      - "Voluntary participation does not imply the Voluntary approaches category. Distinguish voluntary project development, voluntary purchase, and voluntary trading participation from voluntary trading systems, government-issued offset credits, and mandatory compliance arrangements; the binding test is the operating mechanism and the legal obligation."
+      - "For CCPID-specific groups or approaches, record their IFCMA correspondence (alignment status and reference approach) and the extension rationale to preserve international comparability."
 
 allowed_values:
   Group:
-    Economic:
-      - Subsidy
-      - Tax
-      - Trading scheme
-      - Administered price
-    Information:
-      - Comparative energy efficiency label
+    Economic instruments:
+      - Subsidies
+      - Taxes
+      - Trading systems
+      - Administered prices
+    Information instruments:
+      - Labels
       - Reporting requirements
       - Capacity building and public awareness
-    Regulatory:
-      - Framework regulation
-      - Performance standard
-      - Technology standard
+    Regulatory instruments:
+      - Framework standards
+      - Performance standards
+      - Technology standards
     Government investment and consumption:
       - Public investment
       - Public procurement
       - Public appraisal rules
-    Voluntary:
-      - Voluntary information instrument
-      - Voluntary trading system
-      - Voluntary target
+    Voluntary approaches:
+      - Voluntary information instruments
+      - Voluntary trading systems
+      - Voluntary targets
   Group_Approach_dependencies:
-    Subsidy:
+    Subsidies:
       - Carbon contract for difference
       - Feebate
       - Concessional loans, loan guarantees and credit support
+      - Central bank lending support
+      - Interest subsidy
       - Renewable electricity contract for difference
       - Renewable electricity feed-in premium
       - Renewable electricity feed-in tariff
       - Subsidy for low-emissions fuels
       - Vehicle purchase subsidy
+      - Vehicle scrappage subsidy
       - Ecosystem service payments
       - Trade-in subsidy
       - Clean heating subsidy
       - Recycling and treatment subsidy
       - Low-emission machinery purchase subsidy
       - Technology deployment reward
-    Tax:
+      - Demand response compensation
+    Taxes:
       - GHG tax
       - CIT incentive
       - Vehicle purchase tax incentive
@@ -676,21 +721,25 @@ allowed_values:
       - Consumption tax incentive
       - Parafiscal levy exemption
       - Urban land use tax incentive
-    Trading scheme:
+    Trading systems:
       - Emissions trading system
       - Tradable energy efficiency obligations or certificates
       - Tradable performance standards
       - Tradable renewable electricity credits, quota or tradable performance standards
-    Administered price:
+      - Offset credits
+      - Green electricity trading
+      - Demand response market participation
+    Administered prices:
       - Industrial differentiated electricity pricing
-      - Residential increasing-block pricing
+      - Residential increasing-block tariff
       - Capacity pricing mechanism
-    Comparative energy efficiency label:
+      - Time-of-use pricing
+      - Two-part heat tariff
+    Labels:
       - Energy labels for buildings
       - Energy labels for products and appliances
       - Energy labels for vehicles
-    Framework regulation:
-      - Energy performance management framework for public institutions
+    Framework standards:
       - Target responsibility system
       - Enterprise energy management obligation
       - Capacity replacement
@@ -698,13 +747,21 @@ allowed_values:
       - Extended producer responsibility
       - Industrial transition governance
       - Renewable priority dispatch
+      - Green power direct connection rules
+      - Comprehensive building energy code
       - Production scheduling mandate
       - Eco-environmental zoning
       - Eco-compensation
       - Ecosystem protection mandate
       - Pollution discharge permitting
+      - Distributed solar PV development and construction management
+      - Port ship shore power requirements
+      - Mandatory waste sorting
+      - Energy metering requirements
       - Green finance governance framework
-    Performance standard:
+      - Environmental impact assessment
+      - Energy and carbon review for investment projects
+    Performance standards:
       - Building/envelope airtightness requirements
       - EV fleet mandate
       - EV sales mandate
@@ -712,18 +769,22 @@ allowed_values:
       - Insulation requirements for buildings
       - Minimum Energy Performance Standards (MEPS) for buildings
       - Minimum Energy Performance Standards (MEPS) for cooking systems
-      - Minimum Energy Performance Standards (MEPS) for electric appliances
+      - Minimum Energy Performance Standards (MEPS) for electric equipment
       - Minimum Energy Performance Standards (MEPS) for lighting systems
       - Minimum Energy Performance Standards (MEPS) for residential solar panels
       - Minimum Energy Performance Standards (MEPS) for spatial cooling
-      - Minimum Energy Performance Standards (MEPS) for spatial heating
+      - Minimum Energy Performance Standards (MEPS) for heat pumps and water chillers
       - Minimum Energy Performance Standards (MEPS) for water heating systems
       - Minimum Energy Performance Standards (MEPS) for industrial thermal equipment
       - Minimum Energy Performance Standards (MEPS) for refrigeration equipment
+      - Minimum Energy Performance Standards (MEPS) for electric motors
+      - Non-electric renewable energy consumption obligations
       - Energy intensity limit for industrial production
+      - Methane emission limits
+      - Ship carbon intensity management
       - Solar factor requirements for windows
       - Speed limits
-    Technology standard:
+    Technology standards:
       - Bans and phase-outs of fossil fuel based power generation plants
       - Bans and phase-outs of fossil fuel extraction
       - Bans and phase-outs of fossil fuel heating systems
@@ -735,25 +796,24 @@ allowed_values:
       - Biofuel quotas for land transport fuels
       - Biofuel quotas for maritime fuels
       - Bans and phase-outs of plastic products
-      - Minimum Energy Performance Standards (MEPS) for electric motors
     Public investment:
-      - Government-funded RD&D programmes for low-carbon technologies
-      - Low-carbon infrastructure investment
-      - Ecosystem restoration investment
+      - Government-funded RD&D programmes
+      - Central budget investment
+      - Government investment fund
     Public procurement:
       - Green public procurement
     Public appraisal rules:
       - Strategic environmental assessment
       - Climate performance assessment and evaluation
-      - Environmental impact assessment
-      - Energy and carbon review for investment projects
-      - Environmental compliance audit
+      - Energy performance management framework for public institutions
     Reporting requirements:
       - Energy statistics and audit
       - Sustainability information disclosure
       - Greenhouse gas emissions reporting
       - Green finance statistics
       - Green finance performance evaluation
+      - Environmental auditing requirements
+      - Ship energy consumption reporting
     Capacity building and public awareness:
       - Technology promotion catalogue
       - Industry guidance catalogue
@@ -761,34 +821,40 @@ allowed_values:
       - Capacity building programme
       - Public awareness campaign
       - Citizen code of conduct
-      - Professional certification
+      - Occupational standards and skills development
       - Education system integration
       - Green standard system
-    Voluntary information instrument:
+    Voluntary information instruments:
       - Sustainable finance taxonomy
       - Voluntary carbon neutrality methodology
       - Voluntary procurement guidance
       - Voluntary certification and labelling scheme
       - Voluntary information disclosure
-    Voluntary trading system:
+      - Voluntary benchmarking and recognition schemes
+    Voluntary trading systems:
       - Voluntary carbon market
-    Voluntary target:
+    Voluntary targets:
       - Voluntary target
+      - Voluntary capacity provision and grid-connection commitments
   Approach:
+    - Carbon contract for difference
     - Feebate
     - Concessional loans, loan guarantees and credit support
+    - Central bank lending support
+    - Interest subsidy
     - Renewable electricity contract for difference
     - Renewable electricity feed-in premium
     - Renewable electricity feed-in tariff
     - Subsidy for low-emissions fuels
     - Vehicle purchase subsidy
+    - Vehicle scrappage subsidy
     - Ecosystem service payments
-    - Ecosystem restoration investment
     - Trade-in subsidy
     - Clean heating subsidy
     - Recycling and treatment subsidy
     - Low-emission machinery purchase subsidy
     - Technology deployment reward
+    - Demand response compensation
     - GHG tax
     - CIT incentive
     - Vehicle purchase tax incentive
@@ -807,6 +873,11 @@ allowed_values:
     - Tradable energy efficiency obligations or certificates
     - Tradable performance standards
     - Tradable renewable electricity credits, quota or tradable performance standards
+    - Offset credits
+    - Green electricity trading
+    - Demand response market participation
+    - Time-of-use pricing
+    - Two-part heat tariff
     - Energy labels for buildings
     - Energy labels for products and appliances
     - Energy labels for vehicles
@@ -822,20 +893,24 @@ allowed_values:
     - Capacity building programme
     - Public awareness campaign
     - Citizen code of conduct
-    - Professional certification
+    - Occupational standards and skills development
     - Education system integration
-    - Standard-setting programme
+    - Green standard system
     - Sustainable finance taxonomy
     - Voluntary carbon neutrality methodology
     - Voluntary procurement guidance
     - Voluntary carbon market
     - Voluntary certification and labelling scheme
     - Voluntary information disclosure
+    - Voluntary benchmarking and recognition schemes
     - Voluntary target
+    - Voluntary capacity provision and grid-connection commitments
     - Speed limits
     - Energy performance management framework for public institutions
     - Target responsibility system
     - Enterprise energy management obligation
+    - Green power direct connection rules
+    - Comprehensive building energy code
     - Building/envelope airtightness requirements
     - EV fleet mandate
     - EV sales mandate
@@ -843,15 +918,18 @@ allowed_values:
     - Insulation requirements for buildings
     - Minimum Energy Performance Standards (MEPS) for buildings
     - Minimum Energy Performance Standards (MEPS) for cooking systems
-    - Minimum Energy Performance Standards (MEPS) for electric appliances
+    - Minimum Energy Performance Standards (MEPS) for electric equipment
     - Minimum Energy Performance Standards (MEPS) for lighting systems
     - Minimum Energy Performance Standards (MEPS) for residential solar panels
     - Minimum Energy Performance Standards (MEPS) for spatial cooling
-    - Minimum Energy Performance Standards (MEPS) for spatial heating
+    - Minimum Energy Performance Standards (MEPS) for heat pumps and water chillers
     - Minimum Energy Performance Standards (MEPS) for water heating systems
     - Minimum Energy Performance Standards (MEPS) for industrial thermal equipment
     - Minimum Energy Performance Standards (MEPS) for refrigeration equipment
+    - Non-electric renewable energy consumption obligations
     - Energy intensity limit for industrial production
+    - Methane emission limits
+    - Ship carbon intensity management
     - Solar factor requirements for windows
     - Bans and phase-outs of fossil fuel based power generation plants
     - Bans and phase-outs of fossil fuel extraction
@@ -865,14 +943,20 @@ allowed_values:
     - Biofuel quotas for maritime fuels
     - Bans and phase-outs of plastic products
     - Minimum Energy Performance Standards (MEPS) for electric motors
-    - Government-funded RD&D programmes for low-carbon technologies
+    - Government-funded RD&D programmes
+    - Central budget investment
+    - Government investment fund
     - Green public procurement
-    - Low-carbon infrastructure investment
     - Strategic environmental assessment
     - Climate performance assessment and evaluation
     - Environmental impact assessment
     - Energy and carbon review for investment projects
-    - Environmental compliance audit
+    - Environmental auditing requirements
+    - Distributed solar PV development and construction management
+    - Port ship shore power requirements
+    - Mandatory waste sorting
+    - Energy metering requirements
+    - Ship energy consumption reporting
   Instrument / subscheme:
     - Instrument
     - Subscheme

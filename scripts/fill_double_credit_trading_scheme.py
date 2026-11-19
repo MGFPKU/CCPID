@@ -130,7 +130,7 @@ COMMON_CN = {
 }
 
 COMMON_EN = {
-    "Group": "Trading scheme",
+    "Group": "Trading systems",
     "Approach": "Tradable performance standards",
     "Emission sector": "Transport",
     "Sub-sector": "Road transport",

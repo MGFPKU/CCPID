@@ -57,19 +57,19 @@ ROW_METADATA_FIELDS = [
 ]
 
 INSTRUMENT_SPECIFIC_FIELD_PREFIXES = {
-    "Tax": (
+    "Taxes": (
         "Subsidy:",
         "Trading System:",
         "补贴：",
         "交易系统：",
     ),
-    "Subsidy": (
+    "Subsidies": (
         "Tax and Tax Incentive:",
         "Trading System:",
         "税收及激励：",
         "交易系统：",
     ),
-    "Trading scheme": (
+    "Trading systems": (
         "Tax and Tax Incentive:",
         "Subsidy:",
         "税收及激励：",
@@ -89,7 +89,7 @@ INSTRUMENT_SPECIFIC_FIELD_PREFIXES = {
         "税收及激励：",
         "补贴：",
     ),
-    "Administered price": (
+    "Administered prices": (
         "Tax and Tax Incentive:",
         "Subsidy:",
         "Trading System:",

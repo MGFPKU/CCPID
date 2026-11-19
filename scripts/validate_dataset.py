@@ -95,9 +95,9 @@ VALID_STATUSES = {"in force", "scheduled", "ended", "non-existent", "生效", "�
 VALUE_ALIASES = {
     "工具": "Instrument",
     "子方案": "Subscheme",
-    "交易机制": "Trading scheme",
-    "补贴": "Subsidy",
-    "税收": "Tax",
+    "交易机制": "Trading systems",
+    "补贴": "Subsidies",
+    "税收": "Taxes",
     "排放交易体系（ets）": "Emissions trading system",
     "排放交易体系(ets)": "Emissions trading system",
     "可交易绩效标准": "Tradable performance standards",
@@ -136,23 +136,43 @@ VALUE_ALIASES = {
     "消费税优惠": "Consumption tax incentive",
     "政府性基金减免": "Parafiscal levy exemption",
     "城镇土地使用税优惠": "Urban land use tax incentive",
+    "抵销信用": "Offset credits",
+    "环境审计要求": "Environmental auditing requirements",
+    "自愿性对标与认定计划": "Voluntary benchmarking and recognition schemes",
+    "绿电直连交易规则": "Green power direct connection rules",
+    "绿色电力交易": "Green electricity trading",
+    "需求响应市场参与": "Demand response market participation",
+    "需求响应补偿": "Demand response compensation",
+    "分时电价": "Time-of-use pricing",
+    "两部制热价": "Two-part heat tariff",
+    "居民阶梯电价": "Residential increasing-block tariff",
+    "居民阶梯电价/气价": "Residential increasing-block tariff",
+    "甲烷排放限值": "Methane emission limits",
+    "船舶碳强度管理": "Ship carbon intensity management",
+    "船舶能耗数据报告": "Ship energy consumption reporting",
+    "港口船舶岸电要求": "Port ship shore power requirements",
+    "生活垃圾强制分类": "Mandatory waste sorting",
+    "能源计量要求": "Energy metering requirements",
+    "分布式光伏开发建设管理": "Distributed solar PV development and construction management",
+    "非电力可再生能源消费比重义务": "Non-electric renewable energy consumption obligations",
+    "建筑节能综合规范": "Comprehensive building energy code",
     "已终止": "ended",
 }
 
 INSTRUMENT_SPECIFIC_FIELD_PREFIXES = {
-    "Tax": (
+    "Taxes": (
         "Subsidy:",
         "Trading System:",
         "补贴：",
         "交易系统：",
     ),
-    "Subsidy": (
+    "Subsidies": (
         "Tax and Tax Incentive:",
         "Trading System:",
         "税收及激励：",
         "交易系统：",
     ),
-    "Trading scheme": (
+    "Trading systems": (
         "Tax and Tax Incentive:",
         "Subsidy:",
         "税收及激励：",

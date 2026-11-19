@@ -23,7 +23,7 @@ from policy_id import generate_policy_id
 
 
 TEMPLATE = "Economic instruments"
-GROUP = "Subsidy"
+GROUP = "Subsidies"
 APPROACH = "Renewable electricity contract for difference"
 INSTRUMENT_ID = generate_policy_id("CHN", GROUP, APPROACH, 1)
 OLD_IDS: set[str] = set()

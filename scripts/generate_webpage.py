@@ -24,6 +24,7 @@ from datetime import date
 from pathlib import Path
 
 from export_workbooks import (
+    CATEGORY_BY_SHEET,
     LANG_CONFIG,
     SUMMARY_LAYOUT,
     append_unique,
@@ -58,9 +59,9 @@ INSTRUMENT_LABEL = {"cn": "工具", "en": "Instrument"}
 
 # Cross-table header display labels; the SUMMARY_LAYOUT values stay untouched
 # because they double as match keys for counts and Excel COUNTIFS formulas.
-CROSS_CAT_LABELS = {
-    "en": {"Government investment and consumption": "Government I&C"},
-}
+# With the unified (plural) naming pass, the layout values are already the
+# display names, so no overrides are needed.
+CROSS_CAT_LABELS = {}
 
 # Matrix row display labels (the Excel left-table vocabulary); SUMMARY_LAYOUT
 # matrix_groups values stay untouched as they are the Approaches!B match keys.
@@ -70,11 +71,6 @@ MATRIX_GROUP_LABELS = {
         "报告与披露要求": "报告要求",
         "自愿性信息工具": "自愿信息工具",
         "自愿交易体系": "自愿交易机制",
-    },
-    "en": {
-        "Public appraisal rules": "Public appraisal rule",
-        "Comparative energy efficiency label": "Label",
-        "Reporting requirements": "Reporting requirement",
     },
 }
 
@@ -223,7 +219,8 @@ def compute_stats(data: dict, lang: str) -> dict:
 
     instruments = []
     for file_key, (headers, rows) in data.items():
-        category = file_sheets[file_key]
+        sheet_label = file_sheets[file_key]
+        category = CATEGORY_BY_SHEET.get(lang, {}).get(sheet_label, sheet_label)
         for row in rows:
             if (get_field(row, headers, "Instrument / subscheme", "工具/子方案") or "").strip() != instrument_label:
                 continue

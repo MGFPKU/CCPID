@@ -45,6 +45,8 @@ def main() -> int:
     if not args.skip_isic:
         steps.append(([str(SCRIPTS / "normalize_isic_economic_sector.py")], "ISIC economic sector normalization", False))
 
+    steps.append(([str(SCRIPTS / "update_status_from_dates.py")], "Update statuses from dates", False))
+
     steps.append(([str(SCRIPTS / "export_workbooks.py"), "--lang", "all"], "Export Excel workbooks", False))
 
     validate_args = [str(SCRIPTS / "validate_dataset.py")]

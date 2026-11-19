@@ -199,7 +199,7 @@ TEMPLATE = "Economic instruments"
 COMMON = {
 
 
-    "Group": "Trading scheme",
+    "Group": "Trading systems",
 
 
     "Approach": "Emissions trading system",
@@ -221,7 +221,6 @@ COMMON = {
     "End date": "N/A",
 
 
-    "Status": "in force",
 
 
     "Asset": "Greenhouse gas emissions",
@@ -461,13 +460,13 @@ _STRUCTURAL_TRANSLATIONS: dict[str, tuple[str, dict[str, str]]] = {
         {
 
 
-            "税收": "Tax",
+            "税收": "Taxes",
 
 
-            "补贴": "Subsidy",
+            "补贴": "Subsidies",
 
 
-            "交易机制": "Trading scheme",
+            "交易机制": "Trading systems",
 
 
             "信息和教育": "Information and education",
@@ -476,28 +475,28 @@ _STRUCTURAL_TRANSLATIONS: dict[str, tuple[str, dict[str, str]]] = {
             "自愿行动": "Voluntary approaches",
 
 
-            "自愿性信息工具": "Voluntary information instrument",
-            "自愿交易体系": "Voluntary trading system",
-            "自愿性目标": "Voluntary target",
+            "自愿性信息工具": "Voluntary information instruments",
+            "自愿交易体系": "Voluntary trading systems",
+            "自愿性目标": "Voluntary targets",
 
 
-            "行政定价": "Administered price",
+            "行政定价": "Administered prices",
 
 
             "监管改革": "Regulatory reform",
 
 
-            "框架性规制": "Framework regulation",
+            "框架性规制": "Framework standards",
 
 
-            "绩效标准": "Performance standard",
+            "绩效标准": "Performance standards",
 
 
-            "技术标准": "Technology standard",
+            "技术标准": "Technology standards",
             "能效标准": "Energy efficiency standard",
 
 
-            "比较性能效标签": "Comparative energy efficiency label",
+            "比较性能效标签": "Labels",
 
 
             "报告与披露要求": "Reporting requirements",
@@ -571,7 +570,7 @@ _STRUCTURAL_TRANSLATIONS: dict[str, tuple[str, dict[str, str]]] = {
 
 
             "车辆能效标签": "Energy labels for vehicles",
-            "电器最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+            "电气设备最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
             "能源统计与审计": "Energy statistics and audit",
@@ -604,7 +603,7 @@ _STRUCTURAL_TRANSLATIONS: dict[str, tuple[str, dict[str, str]]] = {
             "能力建设计划": "Capacity building programme",
             "公众宣传教育活动": "Public awareness campaign",
             "公民行为规范": "Citizen code of conduct",
-            "职业资格认证": "Professional certification",
+            "职业标准与技能开发": "Occupational standards and skills development",
             "教育体系建设": "Education system integration",
             "绿色标准体系": "Green standard system",
 
@@ -616,6 +615,25 @@ _STRUCTURAL_TRANSLATIONS: dict[str, tuple[str, dict[str, str]]] = {
             "自愿性目标": "Voluntary target",
 
 
+            "抵销信用": "Offset credits",
+            "环境审计要求": "Environmental auditing requirements",
+            "自愿性对标与认定计划": "Voluntary benchmarking and recognition schemes",
+            "绿电直连交易规则": "Green power direct connection rules",
+            "非电力可再生能源消费比重义务": "Non-electric renewable energy consumption obligations",
+            "建筑节能综合规范": "Comprehensive building energy code",
+            "环境影响评价": "Environmental impact assessment",
+            "投资项目节能减排评价": "Energy and carbon review for investment projects",
+            "公共机构能源绩效管理框架": "Energy performance management framework for public institutions",
+            "电动机最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards (MEPS) for electric motors",
+            "中央预算内投资": "Central budget investment",
+            "可交易可再生能源证书/配额/RPS": "Tradable renewable electricity credits, quota or tradable performance standards",
+            "气候绩效评估考核": "Climate performance assessment and evaluation",
+            "政府投资基金": "Government investment fund",
+            "央行借贷支持": "Central bank lending support",
+            "贷款利息补贴": "Interest subsidy",
+            "车辆报废更新补贴": "Vehicle scrappage subsidy",
+            "自愿调峰能力与并网承诺": "Voluntary capacity provision and grid-connection commitments",
+            "热泵和冷水机组最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards (MEPS) for heat pumps and water chillers",
         },
 
 
@@ -1855,7 +1873,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Ecosystem service payments",
@@ -2015,7 +2033,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": (
@@ -2480,7 +2497,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Ecosystem service payments",
@@ -2625,7 +2642,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": (
@@ -3106,7 +3122,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Ecosystem service payments",
@@ -3260,7 +3276,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": (
@@ -3659,7 +3674,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Subscheme",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Ecosystem service payments",
@@ -3774,7 +3789,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": (
@@ -4092,7 +4106,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Subscheme",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Ecosystem service payments",
@@ -4213,7 +4227,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": (
@@ -4555,7 +4568,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Ecosystem service payments",
@@ -4715,7 +4728,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": (
@@ -5168,7 +5180,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Ecosystem service payments",
@@ -5364,7 +5376,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": (
@@ -5913,7 +5924,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Trade-in subsidy",
@@ -6034,7 +6045,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": (
@@ -6427,7 +6437,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Trade-in subsidy",
@@ -6575,7 +6585,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": (
@@ -7061,7 +7070,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Vehicle purchase subsidy",
@@ -7082,43 +7091,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Policy Package": "Large-scale equipment renewal and consumer goods trade-in",
 
 
-        "Description": (
-
-
-            "Pursuant to the State Council Action Plan for Promoting Large-scale Equipment Renewal and Consumer Goods Trade-in "
-
-
-            "(国发〔2024〕7号) and the NDRC/MOF Several Measures on Strengthening Support for Large-scale Equipment Renewal and Consumer Goods Trade-in "
-
-
-            "(发改环资〔2024〕1104号), the Ministry of Transport and the Ministry of Finance issued the Notice on Implementing the Scrapping and Renewal of Old Operating Trucks "
-
-
-            "(交规划发〔2024〕90号), providing differentiated subsidies for China III and below emission-standard operating diesel trucks: "
-
-
-            "for scrap-only of old operating diesel trucks, medium trucks receive 10,000–25,000 yuan/vehicle and heavy trucks receive 12,000–45,000 yuan/vehicle "
-
-
-            "(graded by remaining years before mandatory retirement); "
-
-
-            "for scrap-and-renewal with a new China VI diesel or new energy truck, a new-purchase subsidy is added on top of the scrap subsidy "
-
-
-            "(China VI diesel: 25,000–65,000 yuan/vehicle; new energy: 35,000–95,000 yuan/vehicle, graded by vehicle type and axle count); "
-
-
-            "for purchase-only of new energy urban cold-chain distribution trucks, 35,000 yuan/vehicle. "
-
-
-            "Funding is shared between central and local governments at an overall 9:1 ratio. "
-
-
-            "Implementation period: 31 July 2024 to 31 December 2024."
-
-
-        ),
+        "Description": "Pursuant to the State Council Action Plan for Promoting Large-scale Equipment Renewal and Consumer Goods Trade-in (国发〔2024〕7号), the Ministry of Transport, together with the Ministry of Finance in 2024 and with the NDRC in 2025-2026, issued the Notice on Implementing the Scrapping and Renewal of Old Operating Trucks (交规划发〔2024〕90号) in July 2024, the 2025 notice (交规划发〔2025〕17号) in March 2025, and the 2026 notice (交规划发〔2026〕36号) in March 2026, implementing the scrapping and renewal subsidy for old operating trucks for three consecutive years. This instrument records the purchase-side subsidies: (1) scrap-and-purchase of a China VI or new energy truck receives a new-purchase subsidy stacked on the scrap subsidy (see subscheme S001); (2) purchase-only of a new energy urban cold-chain distribution truck receives 35,000 yuan/vehicle (see subscheme S002). The scrap-only subsidy for old operating diesel trucks is recorded separately under Vehicle scrappage subsidy (CHNSUBVSSI01S000). The 2026 notice prioritises renewal with electric trucks. Funding is shared between central and local governments at an overall 9:1 ratio (2024-2025); from 2026, funds are arranged directly to localities through ultra-long special treasury bonds, with local governments covering any excess. Current implementation period: 1 January 2026 to 31 December 2026.",
 
 
         "Objective": "Green economy; Climate change mitigation; Energy efficiency",
@@ -7158,7 +7131,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -7185,46 +7157,16 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Asset": "Road vehicles",
 
 
-        "Asset (Status)": "Existing",
+        "Asset (Status)": "New",
 
 
-        "Asset (Details)": (
-
-
-            "China III and below emission-standard operating diesel trucks (medium and heavy). "
-
-
-            "Vehicles must hold valid road transport permits. "
-
-
-            "Scrapped vehicles must be dismantled at qualified end-of-life vehicle recycling and dismantling enterprises. "
-
-
-            "Newly purchased trucks must be China VI diesel trucks or new energy trucks listed in the national new energy vehicle catalogue. "
-
-
-            "Purchase-only of new energy urban cold-chain distribution trucks is also covered."
-
-
-        ),
+        "Asset (Details)": "Newly purchased trucks must be China VI diesel trucks or new energy trucks listed in the national new energy vehicle catalogue. Purchase-only of new energy urban cold-chain distribution trucks is also covered. Scrapped vehicles must be dismantled at qualified end-of-life vehicle recycling and dismantling enterprises (scrap subsidy recorded under CHNSUBVSSI01S000).",
 
 
         "Asset (Other)": "N/A",
 
 
-        "Asset (Cut-off range)": (
-
-
-            "China III and below emission-standard operating diesel trucks. "
-
-
-            "Scrap subsidy graded by remaining years before mandatory retirement (1–<2 years; 2–<4 years; ≥4 years). "
-
-
-            "New-purchase subsidy graded by vehicle type (medium / heavy 2-axle / 3-axle / 4+-axle) and fuel type (China VI diesel / new energy)."
-
-
-        ),
+        "Asset (Cut-off range)": "New-purchase subsidy graded by vehicle type (medium / heavy 2-axle / 3-axle / 4+-axle) and fuel type (China VI diesel / new energy). Purchase-only new energy urban cold-chain distribution trucks receive a uniform subsidy.",
 
 
         "Agent": "Firms",
@@ -7242,115 +7184,34 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Activity": "Disposal, collection or sorting (post-consumer); Purchase or use",
+        "Activity": "Purchase or use",
 
 
-        "Activity (Details)": (
+        "Activity (Details)": "For scrap-and-purchase, enterprises purchase eligible new trucks (China VI diesel or new energy) and obtain motor vehicle registration certificates. For purchase-only of new energy urban cold-chain distribution trucks, applications are made directly with new-vehicle documentation. Subsidy applications are submitted to the local transport authority with the above documentation.",
 
 
-            "Freight enterprises deliver eligible old trucks to qualified end-of-life vehicle recycling and dismantling enterprises for dismantling, "
-
-
-            "obtaining end-of-life vehicle recycling certificates and vehicle deregistration certificates. "
-
-
-            "For scrap-and-renewal, they additionally purchase eligible new trucks (China VI diesel or new energy) "
-
-
-            "and obtain motor vehicle registration certificates. "
-
-
-            "Subsidy applications are submitted to the local transport authority with the above documentation."
-
-
-        ),
-
-
-        "Intensity (Value)": "1.0-9.5",
+        "Intensity (Value)": "3.5-9.5",
 
 
         "Intensity (Unit)": "10,000 yuan/vehicle",
 
 
-        "Intensity (Details)": (
+        "Intensity (Details)": "Scrap-and-purchase new-purchase subsidy: China VI diesel — medium 25,000, heavy 2-axle 40,000, 3-axle 55,000, 4+-axle 65,000 yuan/vehicle; new energy — medium 35,000, heavy 2-axle 70,000, 3-axle 85,000, 4+-axle 95,000 yuan/vehicle. Purchase-only new energy urban cold-chain distribution truck: 35,000 yuan/vehicle. Scrap subsidy recorded under CHNSUBVSSI01S000. Source: 交规划发〔2024〕90号.",
 
 
-            "Scrap-only: medium trucks 10,000 yuan/vehicle (1–<2 years remaining), 18,000 yuan/vehicle (2–<4 years), 25,000 yuan/vehicle (≥4 years); "
-
-
-            "heavy trucks 12,000 yuan/vehicle (1–<2 years), 35,000 yuan/vehicle (2–<4 years), 45,000 yuan/vehicle (≥4 years). "
-
-
-            "Scrap-and-renewal additional new-purchase subsidy: China VI diesel — medium 25,000, heavy 2-axle 40,000, 3-axle 55,000, 4+-axle 65,000 yuan/vehicle; "
-
-
-            "new energy — medium 35,000, heavy 2-axle 70,000, 3-axle 85,000, 4+-axle 95,000 yuan/vehicle. "
-
-
-            "Purchase-only new energy cold-chain distribution truck: 35,000 yuan/vehicle. Source: 交规划发〔2024〕90号."
-
-
-        ),
-
-
-        "Requirement specification": (
-
-
-            "Applicants must submit subsidy applications to the local transport authority with end-of-life vehicle recycling certificates, "
-
-
-            "vehicle deregistration certificates, new vehicle registration certificates (for scrap-and-renewal), and road transport operating permits. "
-
-
-            "Scrapped vehicles must be dismantled at qualified end-of-life vehicle recycling enterprises. "
-
-
-            "New trucks must meet China VI standards or be listed in the new energy vehicle catalogue. "
-
-
-            "Subsidy funds shall not be used for balancing local budgets, repaying local debts or 'three guarantees' expenditures."
-
-
-        ),
+        "Requirement specification": "Applicants must submit subsidy applications to the local transport authority with new vehicle registration certificates and road transport operating permits (for scrap-and-purchase, additionally end-of-life vehicle recycling certificates and vehicle deregistration certificates). New trucks must meet China VI standards or be listed in the new energy vehicle catalogue. Subsidy funds shall not be used for balancing local budgets, repaying local debts or 'three guarantees' expenditures. Provincial governments are the primary responsible entities for fund management.",
 
 
         "Compliance calculation methodology I": "N/A",
 
 
-        "Compliance calculation methodology II": (
-
-
-            "Scrap-only subsidy calculated by vehicle type (medium/heavy) and remaining years before mandatory retirement (1–<2 / 2–<4 / ≥4). "
-
-
-            "Scrap-and-renewal total subsidy = scrap subsidy + new-purchase subsidy. "
-
-
-            "New-purchase subsidy calculated by axle count and fuel type (China VI diesel / new energy). "
-
-
-            "Purchase-only cold-chain distribution truck subsidy at uniform 35,000 yuan/vehicle."
-
-
-        ),
+        "Compliance calculation methodology II": "New-purchase subsidy calculated by axle count and fuel type (China VI diesel / new energy). Purchase-only cold-chain distribution truck subsidy at uniform 35,000 yuan/vehicle. Scrap-and-purchase total subsidy = scrap subsidy (see CHNSUBVSSI01S000) + new-purchase subsidy. Vehicle emission standards are determined by the motor vehicle registration certificate or factory certificate. Subsidy applications are reviewed by local transport authorities, publicly announced, and disbursed by finance departments.",
 
 
         "Subsidy: annual budget/ expenditure": "N/A",
 
 
-        "Subsidy: Limit": (
-
-
-            "Scrap-only: medium trucks 10,000–25,000 yuan/vehicle; heavy trucks 12,000–45,000 yuan/vehicle. "
-
-
-            "Scrap-and-renewal total: medium trucks max 60,000 yuan/vehicle; heavy 4+-axle max 140,000 yuan/vehicle. "
-
-
-            "Purchase-only new energy cold-chain distribution truck: 35,000 yuan/vehicle."
-
-
-        ),
+        "Subsidy: Limit": "Scrap-and-purchase total: medium trucks max 60,000 yuan/vehicle; heavy 4+-axle max 140,000 yuan/vehicle (scrap max 45,000 + new energy new-purchase max 95,000). Purchase-only new energy cold-chain distribution truck: 35,000 yuan/vehicle.",
 
 
         "Subsidy: Floor or ceiling": "N/A",
@@ -7458,7 +7319,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Vehicle purchase subsidy",
@@ -7555,7 +7416,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -7837,7 +7697,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Vehicle purchase subsidy",
@@ -7928,7 +7788,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -8183,7 +8042,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Vehicle purchase subsidy",
@@ -8286,7 +8145,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -8550,7 +8408,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Clean heating subsidy",
@@ -8704,7 +8562,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -9214,7 +9071,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Recycling and treatment subsidy",
@@ -9353,7 +9210,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -9899,7 +9755,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Low-emission machinery purchase subsidy",
@@ -10050,7 +9906,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -10560,19 +10415,19 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNSUBTDRI02S000": {
+    "CHNPIVCBII06S000": {
 
 
-        "Policy Instrument ID": "CHNSUBTDRI02S000",
+        "Policy Instrument ID": "CHNPIVCBII06S000",
 
 
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Public investment",
 
 
-        "Approach": "Technology deployment reward",
+        "Approach": "Central budget investment",
 
 
         "Emission sector": "Transport",
@@ -10736,7 +10591,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -11090,55 +10944,11 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Subsidy: annual budget/ expenditure": (
 
-            "Maximum cumulative reward of CNY 45 million per pilot county "
-            "over the 3-year demonstration period (advance disbursement of "
-            "at least 70%, then settlement); about 142 pilot counties in "
-            "2024-2025. Source: CJ [2024] No. 57 (Notice on Conducting the "
-            "County-Level Charging and Battery-Swapping Facility Pilot to "
-            "Fill Gaps)."
 
-        ),
 
-        "Subsidy: Limit": (
 
-            "Maximum cumulative central fiscal reward of CNY 45 million per "
-            "pilot county over the 3-year demonstration period; annual "
-            "rewards in three tiers (CNY 10 million / 12 million / 15 "
-            "million) determined by the charging pile power utilisation "
-            "rate assessment. Source: CJ [2024] No. 57."
 
-        ),
-
-        "Subsidy: Floor or ceiling": "N/A",
-
-        "Subsidy: distribution mechanism": (
-
-            "Pilot counties apply, with provincial-level recommendation; "
-            "the three ministries select the best through joint review. "
-            "Central finance pre-allocates 70% of reward funds, with local "
-            "governments and enterprises providing matching investment in "
-            "construction and operation. Source: CJ [2024] No. 57."
-
-        ),
-
-        "Subsidy: Support duration": (
-
-            "3 years (2024-2026). Source: CJ [2024] No. 57."
-
-        ),
-
-        "Subsidy: Enforcement Mechanism": (
-
-            "Advance disbursement then settlement: after public "
-            "announcement, central finance first disburses no less than "
-            "70% of the reward funds, with final settlement based on "
-            "annual assessment results; reward funds are withheld or "
-            "recovered from pilot counties that fail to meet targets. "
-            "Source: CJ [2024] No. 57."
-
-        ),
 
 
         "GHG emission coverage (absolute)": "N/A",
@@ -11153,7 +10963,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Technological innovation; Industrial development",
@@ -11197,7 +11006,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Technology deployment reward",
@@ -11410,7 +11219,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -12137,7 +11945,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions (Details)": "N/A",
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": (
@@ -12740,7 +12547,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Approach": "Trade-in subsidy",
@@ -12882,7 +12689,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": (
@@ -13359,7 +13165,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Approach": "Environmental pollution tax",
@@ -13408,7 +13214,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions (Details)": "On 30 December 2017, the State Council issued the Implementing Regulations for the Environmental Protection Tax Law (State Council Decree No. 693), effective alongside the Law on 1 January 2018",
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": "State Taxation Administration; Ministry of Ecology and Environment",
@@ -13505,7 +13310,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Energy",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Instrument / subscheme": "Instrument",
@@ -13517,7 +13322,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Jurisdiction name": "N/A",
 
 
-        "Status": "in force",
 
 
         "Sub-sector": "Road transport; Aviation; Water transport; Industry",
@@ -13839,7 +13643,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Transport",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Instrument / subscheme": "Instrument",
@@ -13851,7 +13655,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Jurisdiction name": "N/A",
 
 
-        "Status": "in force",
 
 
         "Sub-sector": "Road transport; passenger cars",
@@ -14157,7 +13960,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Transport",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Instrument / subscheme": "Instrument",
@@ -14169,7 +13972,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Jurisdiction name": "N/A",
 
 
-        "Status": "in force",
 
 
         "Sub-sector": "Road transport; passenger cars; commercial vehicles",
@@ -14504,7 +14306,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Transport",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Instrument / subscheme": "Subscheme",
@@ -14516,7 +14318,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Jurisdiction name": "N/A",
 
 
-        "Status": "in force",
 
 
         "Sub-sector": "Commercial vehicles",
@@ -14747,7 +14548,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Transport",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Instrument / subscheme": "Subscheme",
@@ -14759,7 +14560,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Jurisdiction name": "N/A",
 
 
-        "Status": "in force",
 
 
         "Sub-sector": "Road transport; passenger cars; commercial vehicles",
@@ -15003,7 +14803,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Industry; Waste",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Instrument / subscheme": "Instrument",
@@ -15015,7 +14815,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Jurisdiction name": "N/A",
 
 
-        "Status": "in force",
 
 
         "Sub-sector": "Waste recovery and recycling; construction and building materials",
@@ -15323,7 +15122,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "AFOLU",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Instrument / subscheme": "Instrument",
@@ -15335,7 +15134,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Jurisdiction name": "N/A",
 
 
-        "Status": "in force",
 
 
         "Sub-sector": "Agricultural fertilisers; crop cultivation",
@@ -15605,7 +15403,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Energy",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Instrument / subscheme": "Instrument",
@@ -15617,7 +15415,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Jurisdiction name": "N/A",
 
 
-        "Status": "in force",
 
 
         "Sub-sector": "Offshore wind power; renewable electricity",
@@ -15858,7 +15655,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNSUBCLGI01S000": {
+    "CHNSUBCBLI01S000": {
 
 
         "Activity": "Collateral acceptance and credit support",
@@ -15879,7 +15676,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Agent (Detail)": "Financial institutions participating in MLF operations, especially commercial banks holding or originating eligible green finance assets.",
 
 
-        "Approach": "Concessional loans, loan guarantees and credit support",
+        "Approach": "Central bank lending support",
 
 
         "Asset": "Green financial bonds; Green loans",
@@ -15930,7 +15727,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Instrument / subscheme": "Instrument",
@@ -15987,7 +15784,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "01/06/2018",
 
 
-        "Status": "in force",
 
 
         "Sub-sector": "Green finance; green credit; green bonds",
@@ -16086,7 +15882,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Instrument / subscheme": "Instrument",
@@ -16143,7 +15939,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "08/11/2021",
 
 
-        "Status": "in force",
 
 
         "Sub-sector": "Green finance; green credit; carbon-reduction projects",
@@ -16170,7 +15965,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNSUBCLGI03S000": {
+    "CHNSUBITSI01S000": {
 
 
         "Activity": "Equipment renewal loan financing and fiscal interest subsidy",
@@ -16191,7 +15986,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Agent (Detail)": "Operating entities that take bank loans for eligible equipment renewal or technological transformation projects.",
 
 
-        "Approach": "Concessional loans, loan guarantees and credit support",
+        "Approach": "Interest subsidy",
 
 
         "Asset": "Equipment renewal fixed-asset loans; Technology innovation loans",
@@ -16242,7 +16037,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Instrument / subscheme": "Instrument",
@@ -16299,7 +16094,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "07/03/2024",
 
 
-        "Status": "in force",
 
 
         "Sub-sector": "Equipment renewal; green finance; technological transformation",
@@ -16326,10 +16120,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNSUBCLGI04S000": {
+    "CHNPIVGIFI02S000": {
 
 
-        "Policy Instrument ID": "CHNSUBCLGI04S000",
+        "Policy Instrument ID": "CHNPIVGIFI02S000",
 
 
         "Activity": "Investment; Purchase or use",
@@ -16449,7 +16243,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Approach": "Concessional loans, loan guarantees and credit support",
+        "Approach": "Government investment fund",
 
 
         "Asset": (
@@ -16636,7 +16430,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "carbon peaking and carbon neutrality that generate climate change benefits, "
 
 
-            "as well as pollution prevention and control and ecological protection projects."
+            "as well as pollution prevention and control and ecological protection projects. The fund's four modes of use are grants, debt investment (concessional loans), equity investment, and financing guarantees."
 
 
         ),
@@ -16668,7 +16462,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O; HFCs",
 
 
-        "Group": "Subsidy",
+        "Group": "Public investment",
 
 
         "Instrument / subscheme": "Instrument",
@@ -16770,7 +16564,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Technological innovation; Industrial development; Pollution control; Ecological protection",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effect": "Positive",
 
 
         "Mitigation relevance": "Direct",
@@ -16839,52 +16633,21 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "14/09/2010",
 
 
-        "Status": "in force",
 
 
         "Sub-sector": "Cross-sector (multi-domain projects including climate mitigation and adaptation)",
 
 
-        "Subsidy: Enforcement Mechanism": (
+        "Public investment: Selection process": "(1) Grants: applicants submit grant applications, the Fund Management Centre conducts preliminary review, and the Fund Policy Steering Committee deliberates and decides before disbursement. (2) Remunerated use: enterprises submit applications (including feasibility reports, funding plans, repayment plans, benefit assessments and risk analyses); the Fund Management Centre conducts preliminary review and the review committee evaluates; upon approval, contracts are signed and funds disbursed. Fund recovery is achieved through contractual repayment schedules (principal plus interest).",
 
 
-            "(i) Grants: applicant submits grant application, CDM Fund Management Center "
 
 
-            "conducts initial review, Fund Policy Steering Committee deliberates and "
 
 
-            "decides, and funds are disbursed upon approval. (ii) Repayable support: "
 
 
-            "enterprise submits application (including feasibility study, funding plan, "
-
-
-            "repayment plan, benefit assessment and risk analysis), CDM Fund Management "
-
-
-            "Center conducts initial review, review committee assesses and approves, "
-
-
-            "contracts are signed and funds are disbursed. Fund recovery is achieved "
-
-
-            "through the contractual repayment schedule (principal plus interest)."
-
-
-        ),
-
-
-        "Subsidy: Floor or ceiling": "N/A",
-
-
-        "Subsidy: Limit": "N/A",
-
-
-        "Subsidy: Support duration": "N/A",
-
-
-        "Subsidy: annual budget/ expenditure": (
+        "Public investment/procurement: Annual expenditure": (
 
 
             "Not publicly disclosed. Annual new grant and repayable support commitments "
@@ -16902,12 +16665,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Subsidy: distribution mechanism": "N/A",
-        "Mitigation effects": "Positive",
-        "Mitigation co-benefits": (
-            "Technological innovation; Industrial development; Pollution control; Ecological protection"
-        ),
-
+        
 
     },
 
@@ -16987,7 +16745,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Group": "Subsidy",
+        "Group": "Subsidies",
 
 
         "Instrument / subscheme": "Instrument",
@@ -17044,7 +16802,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "01/06/2025",
 
 
-        "Status": "in force",
 
 
         "Sub-sector": "Renewable electricity; wind power; solar power; new energy power generation",
@@ -17143,7 +16900,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Instrument / subscheme": "Instrument",
@@ -17200,7 +16957,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "01/09/2014",
 
 
-        "Status": "in force",
 
 
         "Sub-sector": "Road transport; passenger cars; new energy vehicles",
@@ -17755,7 +17511,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Approach": "Urban land use tax incentive",
@@ -17831,7 +17587,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions (Details)": "N/A",
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": "State Taxation Administration",
@@ -18053,7 +17808,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Approach": "Urban land use tax incentive",
@@ -18132,7 +17887,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions (Details)": "N/A",
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": "State Taxation Administration; Ministry of Finance",
@@ -18360,7 +18114,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Approach": "Consumption tax incentive",
@@ -18448,7 +18202,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions (Details)": "N/A",
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": "Ministry of Finance; State Taxation Administration",
@@ -18643,7 +18396,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Approach": "Consumption tax incentive",
@@ -18719,7 +18472,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions (Details)": "N/A",
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": "Ministry of Finance; State Taxation Administration",
@@ -18914,7 +18666,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Approach": "Consumption tax incentive",
@@ -19008,7 +18760,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": "Ministry of Finance; State Taxation Administration",
@@ -19218,7 +18969,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Tax",
+        "Group": "Taxes",
 
 
         "Approach": "Parafiscal levy exemption",
@@ -19306,7 +19057,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions (Details)": "N/A",
 
 
-        "Status": "in force",
 
 
         "Administrating authorities": "Ministry of Finance; National Development and Reform Commission",
@@ -21668,10 +21418,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-    "CHNTRARECI03S000": {
+    "CHNTRARECI04S000": {
 
 
-        "Policy Instrument ID": "CHNTRARECI03S000",
+        "Policy Instrument ID": "CHNTRARECI04S000",
 
 
         "Approach": "Tradable renewable electricity credits, quota or tradable performance standards",
@@ -21680,51 +21430,28 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Energy",
 
 
-        "Sub-sector": "Electricity; renewable energy",
+        "Sub-sector": "Electricity",
 
 
-        "English instrument name": "Minimum renewable energy consumption proportion targets for key energy-using industries",
+        "English instrument name": (
+            "Minimum renewable electricity consumption proportion targets for key "
+            "energy-using industries"
+        ),
 
 
         "Description": (
-
-
-            "Minimum renewable energy consumption proportion targets are set for key energy-using "
-
-
-            "industries, divided into electricity minimum proportion targets and non-electricity minimum "
-
-
-            "proportion targets (covering renewable heating/cooling, renewable hydrogen/ammonia production, "
-
-
-            "biomass fuels and other non-electric applications). Enterprises in key energy-using industries "
-
-
-            "may meet electricity minimum targets through self-consumption of renewable electricity, green "
-
-
-            "certificate transactions, and transfers of excess consumption amounts, and meet non-electricity "
-
-
-            "minimum targets through renewable heating/cooling, renewable hydrogen/ammonia, biomass-integrated "
-
-
-            "fuel utilisation and other means. Non-compliant enterprises are ordered to make up the shortfall "
-
-
-            "within a prescribed period through green certificate trading or other means; those still "
-
-
-            "non-compliant after the deadline are subject to interview, public disclosure, adverse credit "
-
-
-            "record entry and enhanced supervision. Enterprises exceeding targets receive public commendation "
-
-
-            "and priority policy support. Effective 1 August 2026 (NDRC Order No. 42)."
-
-
+            "Minimum renewable electricity consumption proportion targets are set for "
+            "key energy-using industries. Enterprises in key energy-using industries "
+            "may meet the electricity minimum proportion targets through "
+            "self-consumption of renewable electricity, green certificate transactions, "
+            "and transfers of excess consumption amounts; renewable electricity "
+            "consumption by enterprises is accounted for using green electricity "
+            "certificates as vouchers. Non-compliant enterprises are ordered to make up "
+            "the shortfall within a prescribed period through green certificate trading "
+            "or other means; those still non-compliant after the deadline are subject "
+            "to interview, public disclosure, adverse credit record entry and enhanced "
+            "supervision. Enterprises exceeding targets receive public commendation and "
+            "priority policy support. Effective 1 August 2026 (NDRC Order No. 42)."
         ),
 
 
@@ -21756,125 +21483,58 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Asset (Details)": (
-
-
-            "Minimum renewable energy consumption proportion targets for key energy-using industries, "
-
-
-            "comprising electricity minimum proportion targets and non-electricity minimum proportion "
-
-
-            "targets (renewable heating/cooling, hydrogen/ammonia production, biomass-integrated fuel "
-
-
-            "utilisation, etc.)."
-
-
+            "Minimum renewable electricity consumption proportion targets for key "
+            "energy-using industries, accounted through green certificates, covering "
+            "renewable electricity consumption achieved by enterprises through "
+            "self-generation for own use, green certificate/green electricity trading "
+            "and transfers of excess consumption amounts."
         ),
 
 
         "Agent (Detail)": (
-
-
-            "Enterprises in key energy-using industries bear responsibility for meeting the minimum "
-
-
-            "renewable energy consumption proportion targets."
-
-
+            "Enterprises in key energy-using industries bear responsibility for meeting "
+            "the minimum renewable electricity consumption proportion targets."
         ),
 
 
         "Activity (Details)": (
-
-
-            "Self-consumption of renewable electricity, green certificate and green electricity "
-
-
-            "trading, excess consumption amount transfers. Renewable energy non-electric consumption "
-
-
-            "(heating/cooling, hydrogen/ammonia production, biomass-integrated fuel utilisation, etc.)."
-
-
+            "Self-consumption of renewable electricity, green certificate and green "
+            "electricity trading, excess consumption amount transfers."
         ),
 
 
         "Compliance calculation methodology I": (
-
-
-            "Key-industry renewable energy consumption minimum proportion assessment — the enterprise "
-
-
-            "renewable energy non-electricity consumption proportion = (renewable energy non-electric "
-
-
-            "consumption volume + renewable energy non-electric output produced by the enterprise) / "
-
-
-            "total enterprise non-electric energy consumption. Non-electric consumption covers renewable "
-
-
-            "heating/cooling, hydrogen/ammonia production, biomass-integrated fuel utilisation, etc. "
-
-
-            "Detailed calculation rules are set out in Annex 1 of the measures. Electricity consumption "
-
-
-            "proportions are accounted for using green certificates as vouchers."
-
-
+            "Key-industry renewable electricity consumption minimum proportion "
+            "assessment — the enterprise renewable electricity consumption proportion = "
+            "(renewable electricity consumption volume + renewable electricity output "
+            "produced by the enterprise) / total enterprise electricity consumption. "
+            "Electricity consumption proportions are accounted for using green "
+            "certificates as vouchers. Detailed calculation rules are set out in Annex "
+            "1 of the measures."
         ),
 
 
         "Compliance calculation methodology II": (
-
-
-            "Key-industry renewable energy consumption minimum proportion targets are calculated and "
-
-
-            "issued annually by the energy authority of the State Council in conjunction with relevant "
-
-
-            "departments. Provincial relevant authorities, together with relevant departments, formulate "
-
-
-            "implementation plans and decompose targets to key energy-using industry enterprises."
-
-
+            "Key-industry renewable electricity consumption minimum proportion targets "
+            "are calculated and issued annually by the energy authority of the State "
+            "Council in conjunction with relevant departments. Provincial relevant "
+            "authorities, together with relevant departments, formulate implementation "
+            "plans and decompose targets to key energy-using industry enterprises."
         ),
 
 
         "Requirement specification": (
-
-
-            "Enterprises in key energy-using industries must meet the sectoral minimum renewable energy "
-
-
-            "consumption proportion targets (electricity proportion and non-electricity proportion). "
-
-
-            "Renewable electricity consumption by enterprises is accounted for using green electricity "
-
-
-            "certificates as vouchers. Enterprises failing to meet minimum proportion targets are ordered "
-
-
-            "to make up the shortfall within a prescribed period through green certificate trading or "
-
-
-            "other means; those still non-compliant after the deadline are subject to interview, public "
-
-
-            "disclosure, adverse credit record entry and enhanced supervision by provincial energy "
-
-
-            "authorities together with relevant departments. Enterprises exceeding targets receive "
-
-
-            "public commendation and priority policy support."
-
-
+            "Enterprises in key energy-using industries must meet the sectoral minimum "
+            "renewable electricity consumption proportion targets. Renewable "
+            "electricity consumption by enterprises is accounted for using green "
+            "electricity certificates as vouchers. Enterprises failing to meet minimum "
+            "proportion targets are ordered to make up the shortfall within a "
+            "prescribed period through green certificate trading or other means; those "
+            "still non-compliant after the deadline are subject to interview, public "
+            "disclosure, adverse credit record entry and enhanced supervision by "
+            "provincial energy authorities together with relevant departments. "
+            "Enterprises exceeding targets receive public commendation and priority "
+            "policy support."
         ),
 
 
@@ -21909,38 +21569,40 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Intensity (Value)": (
-            "Annual minimum renewable energy consumption proportion targets for key energy-using industries;"
-            "specific minimum proportion values are determined by relevant departments by industry"
-            "classification."
+            "Annual minimum renewable electricity consumption proportion targets for "
+            "key energy-using industries; specific minimum proportion values are "
+            "determined by relevant departments by industry classification."
         ),
-        "Intensity (Unit)": "Annual renewable energy consumption proportion (%)",
+        "Intensity (Unit)": "Annual renewable electricity consumption proportion (%)",
         "Trading System: Type": (
-            "Renewable electricity consumption quota / RPS mechanism — minimum proportion targets for key"
-            "energy-using industries"
+            "Renewable electricity consumption quota / RPS mechanism — minimum "
+            "proportion targets for key energy-using industries"
         ),
         "Trading System: cap": (
-            "Annual minimum renewable energy consumption proportion targets for key energy-using industries; not"
-            "a GHG emissions cap."
+            "Annual minimum renewable electricity consumption proportion targets for "
+            "key energy-using industries; not a GHG emissions cap."
         ),
         "Trading System: allowance mechanism": (
-            "The energy authority of the State Council, together with relevant departments, determines and issues"
-            "annual minimum renewable energy consumption proportion targets for key energy-using industries."
-            "Provincial relevant authorities, together with relevant departments, decompose and allocate targets"
-            "to enterprises in key energy-using industries."
+            "The energy authority of the State Council, together with relevant "
+            "departments, determines and issues annual minimum renewable electricity "
+            "consumption proportion targets for key energy-using industries. Provincial "
+            "relevant authorities, together with relevant departments, decompose and "
+            "allocate targets to enterprises in key energy-using industries."
         ),
         "Trading System: Free Allowance": (
-            "N/A; this system allocates renewable energy consumption minimum proportion targets, not free"
-            "emission allowances."
+            "N/A; this system allocates renewable electricity consumption minimum "
+            "proportion targets, not free emission allowances."
         ),
         "Trading System: Offset use allowed": (
-            "N/A; GECs and excess consumption amounts are used to fulfil renewable energy consumption proportion"
-            "targets, not as GHG emission offsets."
+            "N/A; GECs and excess consumption amounts are used to fulfil renewable "
+            "electricity consumption proportion targets, not as GHG emission offsets."
         ),
         "Trading System: penalties for non-compliance": (
-            "Enterprises failing to meet minimum proportion targets are ordered by provincial relevant"
-            "authorities to rectify within a prescribed period. Enterprises failing to complete rectification on"
-            "time are dealt with according to law and regulation, entered into adverse credit records and subject"
-            "to joint disciplinary sanctions."
+            "Enterprises failing to meet minimum proportion targets are ordered by "
+            "provincial relevant authorities to rectify within a prescribed period. "
+            "Enterprises failing to complete rectification on time are dealt with "
+            "according to law and regulation, entered into adverse credit records and "
+            "subject to joint disciplinary sanctions."
         ),
 
         "Agent": "Firms",
@@ -21948,13 +21610,11 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Activity": "Purchase or use; Production, generation or conversion",
 
         "Intensity (Details)": (
-            "Electricity minimum proportion targets are accounted through green certificates, "
-            "covering renewable electricity consumption achieved by enterprises through "
-            "self-generation for own use, green certificate/green electricity trading and "
-            "transfers of excess consumption amounts. Non-electricity minimum proportion "
-            "targets cover renewable heating/cooling, hydrogen/ammonia production, "
-            "biomass-integrated fuel utilisation and other non-electricity uses "
-            "(Source: NDRC Order No. 42 of 2026)."
+            "Electricity minimum proportion targets are accounted through green "
+            "certificates, covering renewable electricity consumption achieved by "
+            "enterprises through self-generation for own use, green certificate/green "
+            "electricity trading and transfers of excess consumption amounts (Source: "
+            "NDRC Order No. 42 of 2026)."
         ),
     },
 
@@ -23775,7 +23435,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions": "N/A",
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -24154,7 +23813,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -24715,13 +24373,19 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "metropolitan regions, covering both passenger and freight railways, and both new "
 
 
-            "construction and upgrading/expansion projects. As a low-carbon mode of public "
+            "construction and upgrading/expansion projects. Rail transport has "
 
 
-            "transport, railways indirectly reduce transport-sector greenhouse gas emissions by "
+            "significantly lower carbon emissions per unit of turnover than road transport; "
 
 
-            "promoting modal shift of passenger and freight transport from road and aviation to rail."
+            "trunk railways indirectly reduce transport-sector greenhouse gas emissions by "
+
+
+            "shifting bulk freight from road to rail, and intercity railways by shifting "
+
+
+            "passengers from road and civil aviation to rail (modal shift)."
 
 
         ),
@@ -24773,7 +24437,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -25235,10 +24898,16 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "mode (carbon emissions per tonne-kilometre approximately one-fifth of road "
 
 
-            "transport), and indirectly reduces transport-sector greenhouse gas emissions "
+            "transport); inland waterway and lock infrastructure indirectly reduce "
 
 
-            "by promoting modal shift of freight from road to water."
+            "transport-sector greenhouse gas emissions by shifting bulk freight from road "
+
+
+            "to water (modal shift), while the Yangtze River vessel shore power receiving "
+
+
+            "facilities directly reduce vessels' at-berth emissions."
 
 
         ),
@@ -25275,7 +24944,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions (Details)": "N/A",
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -25900,7 +25568,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -26429,7 +26096,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -26820,7 +26486,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -27220,7 +26885,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -27611,7 +27275,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -28056,7 +27719,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -28546,7 +28208,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -28858,16 +28519,16 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-    "CHNPARECRI01S000": {
+    "CHNFRMECRI01S000": {
 
 
-        "Policy Instrument ID": "CHNPARECRI01S000",
+        "Policy Instrument ID": "CHNFRMECRI01S000",
 
 
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Public appraisal rules",
+        "Group": "Framework standards",
 
 
         "Approach": "Energy and carbon review for investment projects",
@@ -28991,7 +28652,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -29147,7 +28807,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
 
 
         "Mitigation co-benefits": "Energy conservation; Energy security; Industrial development",
@@ -29291,7 +28951,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Objective": "Climate change mitigation; Energy security; Green economy",
 
 
-        "Mitigation relevance": "Indirect",
+        "Mitigation relevance": "Direct",
         "Jurisdiction level": "National",
 
 
@@ -29301,7 +28961,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "12/04/2026",
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -29431,20 +29090,71 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Requirement specification": (
-
-
-            "All 5 core indicators must be met; no more than 3 of the 9 supporting indicators "
-
-
-            "may be unmet. If any single core indicator is not met, or if 3 or more supporting "
-
-
+            "1) Provincial Party committees and governments bear overall responsibility "
+            "for carbon peak and carbon neutrality target and task performance within "
+            "their administrative areas under Party–government co-accountability and "
+            "dual responsibility; 2) the state sets five control indicators — total "
+            "carbon emissions, carbon emission intensity reduction, total coal "
+            "consumption, total oil consumption and non-fossil energy consumption share "
+            "— and supporting indicators covering energy consumption per unit of GDP "
+            "reduction, clean electricity share, industrial energy and carbon "
+            "reduction, carbon emission replacement and energy conservation and carbon "
+            "reduction review for “two-high” projects, green and low-carbon transition "
+            "in urban–rural construction, green and low-carbon transition in transport, "
+            "carbon emission intensity reduction in public institutions, carbon "
+            "emission control targets for sectors covered by the national carbon "
+            "emission trading market and forest stock growth; 3) evaluation and "
+            "assessment is conducted annually and implemented in the year following the "
+            "assessment year, through four steps: local self-assessment, departmental "
+            "evaluation, on-site verification and comprehensive determination; 4) "
+            "assessment results are reported to the CPC Central Committee and the State "
+            "Council for approval before being fed back to provincial Party committees "
+            "and governments, copied to the Central Commission for Discipline "
+            "Inspection and the National Commission of Supervision, and serve as a key "
+            "input to comprehensive evaluation, selection and appointment, and "
+            "oversight of leadership teams and leading cadres.All 5 core indicators "
+            "must be met; fewer than 3 of the 9 supporting indicators may be unmet. If "
+            "any single core indicator is not met, or if 3 or more supporting "
             "indicators are not met, the assessment result shall be unsatisfactory. "
-
-
-            "Any failure in a core indicator directly results in an unsatisfactory rating."
-
-
+            "Data falsification directly results in an unsatisfactory rating.Monitoring "
+            "and early warning: The National Development and Reform Commission, "
+            "together with relevant departments, has established a carbon peak and "
+            "carbon neutrality monitoring and early warning mechanism for dynamic "
+            "monitoring of key indicators such as carbon emission volume and intensity "
+            "across regions. Provincial Party committees and governments conduct annual "
+            "carbon peak and carbon neutrality self-assessments and submit "
+            "self-assessment reports to the CPC Central Committee and the State Council "
+            "on time. Relevant departments evaluate national annual progress on the "
+            "indicators they are each responsible for, issuing a “met” or “not met” "
+            "rating for each provincial-level single indicator and analysing causes and "
+            "proposing improvement recommendations for unmet indicators. The National "
+            "Development and Reform Commission, together with relevant departments, "
+            "conducts on-site spot checks and commissions third-party verification to "
+            "examine work progress, task implementation, target performance and data "
+            "authenticity.Rectification and accountability: After assessment results "
+            "are approved by the CPC Central Committee and the State Council, the "
+            "Organisation Department of the CPC Central Committee and the National "
+            "Development and Reform Commission feed them back to provincial Party "
+            "committees and governments and copy them to the Central Commission for "
+            "Discipline Inspection and the National Commission of Supervision. "
+            "Provinces rated Unsatisfactory are required to submit a written report to "
+            "the CPC Central Committee and the State Council within 30 working days "
+            "setting out corrective measures and completion deadlines; those failing to "
+            "rectify as required are subject to regulatory interview of the provincial "
+            "Party committee and government. Provinces rated Satisfactory but with some "
+            "indicators not met are issued notification reminders within a defined "
+            "scope. Where fraudulent practices, false reporting, data tampering or "
+            "document fabrication cause material distortion or misrepresentation of "
+            "results, the province’s assessment result is directly determined as "
+            "Unsatisfactory and the responsible entities and individuals are subject to "
+            "severe accountability.Incentives and support: Provinces rated Excellent or "
+            "achieving outstanding performance in individual areas are issued "
+            "commendations and their good practices and experiences are summarised and "
+            "promoted. Regions achieving notable carbon peak and carbon neutrality "
+            "performance receive favourable treatment in carbon emission indicator "
+            "allocation, fiscal transfer payments and major project planning. Entities "
+            "and individuals with outstanding performance are granted commendations and "
+            "awards in accordance with regulations."
         ),
 
 
@@ -29454,10 +29164,13 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
 
 
-        "Mitigation co-benefits": "Energy security; Industrial development; Pollution control",
+        "Mitigation co-benefits": (
+            "Energy conservation; Pollution control; Technological innovation; "
+            "Industrial development; Energy security; Renewable energy development; "
+            "Ecological protection"
+        ),
 
 
         "Legal statute": (
@@ -29496,19 +29209,19 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-    "CHNPARECAI01S000": {
+    "CHNREPEARI01S000": {
 
 
-        "Policy Instrument ID": "CHNPARECAI01S000",
+        "Policy Instrument ID": "CHNREPEARI01S000",
 
 
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Public appraisal rules",
+        "Group": "Reporting requirements",
 
 
-        "Approach": "Environmental compliance audit",
+        "Approach": "Environmental auditing requirements",
 
 
         "Emission sector": "Industry",
@@ -29517,7 +29230,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Domestic instrument name": "清洁生产审核制度",
 
 
-        "English instrument name": "Environmental Compliance Audit System",
+        "English instrument name": "Cleaner Production Audit System",
 
 
         "Policy Package": (
@@ -29608,46 +29321,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Start date": "01/01/2003",
 
 
-        "Last revisions": "01/07/2016",
 
 
-        "Last revisions (Details)": (
 
 
-            "First established through the mandatory cleaner production audit system under the "
-
-
-            "Cleaner Production Promotion Law of the People's Republic of China (Presidential "
-
-
-            "Order No. 72) on 29 June 2002, effective 1 January 2003. Implementation rules were "
-
-
-            "issued by the former State Environmental Protection Administration via the Interim "
-
-
-            "Measures for Cleaner Production Audit (Order No. 16) on 16 August 2004. The Cleaner "
-
-
-            "Production Promotion Law was amended on 29 February 2012. On 16 May 2016, the National "
-
-
-            "Development and Reform Commission and the Ministry of Environmental Protection jointly "
-
-
-            "issued the Cleaner Production Audit Measures (Order No. 38), effective 1 July 2016, "
-
-
-            "repealing the 2004 Order No. 16 and expanding the scope of toxic and hazardous "
-
-
-            "substances and mandatory audit requirements."
-
-
-        ),
-
-
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -29836,7 +29513,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
 
 
         "Mitigation co-benefits": "Pollution control; Resource conservation; Energy conservation",
@@ -29875,16 +29551,16 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-    "CHNPAREIAI01S000": {
+    "CHNFRMEIAI01S000": {
 
 
-        "Policy Instrument ID": "CHNPAREIAI01S000",
+        "Policy Instrument ID": "CHNFRMEIAI01S000",
 
 
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Public appraisal rules",
+        "Group": "Framework standards",
 
 
         "Approach": "Environmental impact assessment",
@@ -30005,7 +29681,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -30167,7 +29842,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2; CH4; N2O",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
 
 
         "Mitigation co-benefits": "Pollution control; Ecological protection; Resource conservation",
@@ -30194,7 +29869,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNFRMEPMI01S000": {
+    "CHNPAREPMI01S000": {
 
 
         "Approach": "Energy performance management framework for public institutions",
@@ -30209,81 +29884,51 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "English instrument name": "Energy Conservation in Public Institutions",
 
 
-        "Policy Package": "'15th Five-Year' Work Programme for Energy Conservation and Carbon Reduction in Public Institutions (Guoguan Energy Conservation [2026] No. 161)",
+        "Policy Package": (
+            "Public institution energy consumption statistics, survey and audit "
+            "(CHNREPESAI01S000); Green public procurement (CHNPPCGPPI01S000, etc.)"
+        ),
 
 
         "Description": (
-
-
-            "The Regulation on Energy Conservation in Public Institutions (State Council "
-
-
-            "Decree No. 531, 2008; revised 2017) establishes a systematic energy consumption "
-
-
-            "management framework for state organs, public institutions and social organisations "
-
-
-            "funded by public finance. It requires public institutions to implement an energy "
-
-
-            "conservation target responsibility and performance evaluation system, formulate "
-
-
-            "energy conservation plans and annual implementation plans, operate within energy "
-
-
-            "consumption quotas, establish energy metering, statistics and reporting systems, "
-
-
-            "conduct periodic energy audits, and give procurement preference to energy-efficient "
-
-
-            "products. The framework covers approximately 1.7 million public institutions with "
-
-
-            "a total building floor area of approximately 10 billion m². The 14th Five-Year "
-
-
-            "Plan for Public Institution Energy and Resource Conservation set 2025 targets of "
-
-
-            "5% reduction in energy consumption per unit building area, 6% reduction in per "
-
-
-            "capita comprehensive energy consumption, and 7% reduction in carbon emissions per "
-
-
-            "unit building area compared with 2020 levels. The '15th Five-Year' Work Programme for "
-
-
-            "Energy Conservation and Carbon Reduction in Public Institutions (Guoguan Energy "
-
-
-            "Conservation [2026] No. 161, issued on 29 July 2026) sets 2030 targets against a 2025 "
-
-
-            "baseline of carbon emissions and energy and resource consumption: within the statistical "
-
-
-            "scope, an 8.5% reduction in carbon emissions per unit building area, a 5% reduction in "
-
-
-            "energy consumption per unit building area, and a 3% reduction in per capita water "
-
-
-            "consumption for public institutions; the share of coal in total energy consumption of "
-
-
-            "public institutions nationwide shall be kept within 5%, and the share of electricity in "
-
-
-            "total energy consumption shall reach 65%; total carbon emissions of public institutions "
-
-
-            "shall peak as early as possible before 2030."
-
-
+            "The Regulation on Energy Conservation in Public Institutions (State "
+            "Council Decree No. 531, 2008; revised 2017) establishes a systematic "
+            "energy consumption management framework for state organs, public "
+            "institutions and social organisations funded by public finance. It "
+            "requires public institutions to implement an energy conservation target "
+            "responsibility and performance evaluation system, formulate energy "
+            "conservation plans and annual implementation plans, operate within energy "
+            "consumption quotas, establish energy metering, statistics and reporting "
+            "systems, conduct periodic energy audits, and give procurement preference "
+            "to energy-efficient products. The framework covers approximately 1.7 "
+            "million public institutions with a total building floor area of "
+            "approximately 10 billion m². The 14th Five-Year Plan for Public "
+            "Institution Energy and Resource Conservation set 2025 targets of 5% "
+            "reduction in energy consumption per unit building area, 6% reduction in "
+            "per capita comprehensive energy consumption, and 7% reduction in carbon "
+            "emissions per unit building area compared with 2020 levels. The '15th "
+            "Five-Year' Work Programme for Energy Conservation and Carbon Reduction in "
+            "Public Institutions (Guoguan Energy Conservation [2026] No. 161, issued on "
+            "29 July 2026) sets 2030 targets against a 2025 baseline of carbon "
+            "emissions and energy and resource consumption: within the statistical "
+            "scope, an 8.5% reduction in carbon emissions per unit building area, a 5% "
+            "reduction in energy consumption per unit building area, and a 3% reduction "
+            "in per capita water consumption for public institutions; the share of coal "
+            "in total energy consumption of public institutions nationwide shall be "
+            "kept within 5%, and the share of electricity in total energy consumption "
+            "shall reach 65%; total carbon emissions of public institutions shall peak "
+            "as early as possible before 2030.For venue-type public institutions, with "
+            "2025 as the base year, carbon emissions per unit building area are to fall "
+            "by 8.5%, per capita energy consumption by 5% (venues use a per capita "
+            "energy consumption indicator, differing from the per-unit-building-area "
+            "indicator for public institutions overall) and per capita water "
+            "consumption by 3% by 2030, with total carbon emissions peaking as early as "
+            "possible before 2030; new venues must strictly meet green building "
+            "standards of two-star level or above; energy-cost trusteeship and other "
+            "energy performance contracting models are promoted, and carbon emissions "
+            "may be offset by purchasing green electricity, carbon allowances or China "
+            "Certified Emission Reductions (CCER) (Guoguan Energy Conservation [2026] "
+            "No. 235)."
         ),
 
 
@@ -30291,23 +29936,21 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Last revisions (Details)": (
-
-
-            "Revised on 1 March 2017 pursuant to the State Council Decision on Amending and "
-
-
-            "Abolishing Certain Administrative Regulations (State Council Decree No. 676). "
-
-
-            "The revision was technical in nature; core provisions (target responsibility system, "
-
-
-            "energy audit, quota management) originate from the 2008 regulation and were not "
-
-
-            "substantively amended."
-
-
+            "Revised on 1 March 2017 pursuant to the State Council Decision on Amending "
+            "and Abolishing Certain Administrative Regulations (State Council Decree "
+            "No. 676). The revision was technical in nature; core provisions (target "
+            "responsibility system, energy audit, quota management) originate from the "
+            "2008 regulation and were not substantively amended. On 9 October 2026, the "
+            "National Government Offices Administration, the Ministry of Culture and "
+            "Tourism, the General Administration of Sport, the National Cultural "
+            "Heritage Administration and the China Association for Science and "
+            "Technology jointly issued the Notice on Promoting Higher-Level and "
+            "Higher-Quality Energy Conservation and Carbon Reduction in Venue-Type "
+            "Public Institutions (Guoguan Energy Conservation [2026] No. 235), refining "
+            "the 15th Five-Year energy conservation and carbon reduction targets for "
+            "venue-type public institutions such as museums, libraries, cultural "
+            "centres, art galleries, gymnasiums, science and technology museums and "
+            "exhibition halls."
         ),
 
 
@@ -30405,144 +30048,61 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Requirement specification": (
-
-
-            "1) Energy conservation target responsibility and performance evaluation system — "
-
-
-            "target achievement is included in the performance appraisal of the head of each "
-
-
-            "public institution; 2) Five-year energy conservation plans and annual implementation "
-
-
-            "plans filed with the government offices administration authority at the corresponding "
-
-
-            "level; 3) Energy consumption quota management — exceeding the quota requires an "
-
-
-            "explanation; 4) Energy metering, statistics and reporting by energy type and system; "
-
-
-            "5) Energy audit conducted every five years (covering seven audit items); energy "
-
-
-            "conservation retrofits must be preceded by an energy audit and investment return "
-
-
-            "analysis; 6) Priority procurement of products on the energy-efficient product "
-
-
-            "government procurement list; 7) Designation of energy management posts with "
-
-
-            "post-specific responsibility; 8) Training and certification for operators of "
-
-
-            "key energy-using systems and equipment; 9) Public disclosure and information "
-
-
-            "sharing on energy conservation performance."
-
-
-        ),
-
-
-        "Compliance monitoring": "Inspections or audits conducted by government authorities or third parties",
-
-
-        "Compliance monitoring details": (
-
-
-            "Government offices administration authorities conduct supervision and inspection "
-
-
-            "of public institution energy conservation, covering: formulation and implementation "
-
-
-            "of annual energy conservation targets and plans; energy metering, statistics and "
-
-
-            "reporting; compliance with energy consumption quotas; conduct of energy audits; "
-
-
-            "establishment of energy management posts and personnel training; compliance with "
-
-
-            "energy-efficient product government procurement requirements. Inspections may take "
-
-
-            "the form of on-site inspections, desk reviews or assessments commissioned to "
-
-
-            "professional bodies."
-
-
-        ),
-
-
-        "Compliance enforcement": "Compliance order",
-
-
-        "Compliance enforcement details": (
-
-
-            "Where a public institution violates the Regulation, the government offices "
-
-
-            "administration authority at the corresponding level, together with relevant "
-
-
-            "departments, shall order rectification within a specified period. Failure to "
-
-
-            "rectify within the period shall result in a public criticism circular; responsible "
-
-
-            "supervisors and other directly liable personnel shall be subject to administrative "
-
-
-            "discipline in accordance with law. Where energy waste is caused, the government "
-
-
-            "offices administration authority shall issue an energy conservation rectification "
-
-
-            "notice; in serious cases, the relevant authorities shall impose administrative "
-
-
-            "discipline on directly responsible supervisors and other directly liable personnel."
-
-
-        ),
-
-
-        "Compliance promotion": "Other incentives or support",
-
-
-        "Compliance promotion": (
-
-
-            "Units and individuals achieving outstanding results in public institution energy "
-
-
-            "conservation shall be commended and rewarded in accordance with state provisions "
-
-
-            "(Article 9 of the Regulation). Any unit or individual has the right to report "
-
-
-            "energy waste by public institutions, and the relevant department shall promptly "
-
-
+            "1) Energy conservation target responsibility and performance evaluation "
+            "system — target achievement is included in the performance appraisal of "
+            "the head of each public institution; 2) Five-year energy conservation "
+            "plans and annual implementation plans filed with the government offices "
+            "administration authority at the corresponding level; 3) Energy consumption "
+            "quota management — exceeding the quota requires an explanation; 4) Energy "
+            "metering, statistics and reporting by energy type and system; 5) Energy "
+            "audit conducted every five years (covering seven audit items); energy "
+            "conservation retrofits must be preceded by an energy audit and investment "
+            "return analysis; 6) Priority procurement of products on the "
+            "energy-efficient product government procurement list; 7) Designation of "
+            "energy management posts with post-specific responsibility; 8) Training and "
+            "certification for operators of key energy-using systems and equipment; 9) "
+            "Public disclosure and information sharing on energy conservation "
+            "performance.10) Supervision and inspection: government offices "
+            "administration authorities conduct supervision and inspection of public "
+            "institution energy conservation, covering formulation and implementation "
+            "of annual energy conservation targets and plans; energy metering, "
+            "statistics and reporting; compliance with energy consumption quotas; "
+            "conduct of energy audits; establishment of energy management posts and "
+            "personnel training; compliance with energy-efficient product government "
+            "procurement requirements. Inspections may take the form of on-site "
+            "inspections, desk reviews or assessments commissioned to professional "
+            "bodies. 11) Handling of violations: where a public institution violates "
+            "the Regulation, the government offices administration authority at the "
+            "corresponding level, together with relevant departments, shall order "
+            "rectification within a specified period; failure to rectify within the "
+            "period shall result in a public criticism circular, and responsible "
+            "supervisors and other directly liable personnel shall be subject to "
+            "administrative discipline in accordance with law; where energy waste is "
+            "caused, the government offices administration authority shall issue an "
+            "energy conservation rectification notice, and in serious cases the "
+            "relevant authorities shall impose administrative discipline on directly "
+            "responsible supervisors and other directly liable personnel. 12) "
+            "Incentives and public supervision: units and individuals achieving "
+            "outstanding results in public institution energy conservation shall be "
+            "commended and rewarded in accordance with state provisions (Article 9 of "
+            "the Regulation); any unit or individual has the right to report energy "
+            "waste by public institutions, and the relevant department shall promptly "
             "investigate and handle such reports (Article 38 of the Regulation)."
-
-
         ),
 
 
-        "Mitigation effects": "Positive",
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         "Mitigation co-benefits": "Energy conservation; Industrial development",
@@ -30552,27 +30112,18 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Legal statute": (
-
-
-            "Regulation on Energy Conservation in Public Institutions (State Council Decree "
-
-
-            "No. 531, adopted on 1 August 2008, effective 1 October 2008; revised by State "
-
-
-            "Council Decree No. 676 on 1 March 2017); '15th Five-Year' Work Programme for "
-
-
-            "Energy Conservation and Carbon Reduction in Public Institutions (Guoguan Energy "
-
-
-            "Conservation [2026] No. 161)"
-
-
+            "Regulation on Energy Conservation in Public Institutions (State Council "
+            "Decree No. 531, adopted on 1 August 2008, effective 1 October 2008; "
+            "revised by State Council Decree No. 676 on 1 March 2017); '15th Five-Year' "
+            "Work Programme for Energy Conservation and Carbon Reduction in Public "
+            "Institutions (Guoguan Energy Conservation [2026] No. 161); Notice on "
+            "Promoting Higher-Level and Higher-Quality Energy Conservation and Carbon "
+            "Reduction in Venue-Type Public Institutions (Guoguan Energy Conservation "
+            "[2026] No. 235)"
         ),
 
 
-        "Other weblinks": "https://www.ggj.gov.cn/tzgg/202607/t20260731_49588.htm",
+        "Other weblinks": "https://www.ggj.gov.cn/tzgg/202607/t20260731_49588.htm; https://www.ggj.gov.cn/tzgg/202610/t20261022_49845.htm",
 
 
     },
@@ -31169,7 +30720,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNTECMEMI01S000": {
+    "CHNPRFMEMI01S000": {
 
 
         "Approach": "Minimum Energy Performance Standards (MEPS) for electric motors",
@@ -31496,7 +31047,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNTECMEMI02S000": {
+    "CHNPRFMEMI02S000": {
 
 
         "Approach": "Minimum Energy Performance Standards (MEPS) for electric motors",
@@ -31817,7 +31368,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNTECMEMI03S000": {
+    "CHNPRFMEMI03S000": {
 
 
         "Approach": "Minimum Energy Performance Standards (MEPS) for electric motors",
@@ -32138,6 +31689,137 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
+    },
+
+    "CHNPRFRCPI01S000": {
+        "Policy Instrument ID": "CHNPRFRCPI01S000",
+        "Instrument / subscheme": "Instrument",
+        "Group": "Performance standards",
+        "Approach": "Non-electric renewable energy consumption obligations",
+        "Emission sector": "Cross-sectoral",
+        "Sub-sector": "Renewable heating/cooling; Renewable hydrogen/ammonia; Biomass fuels",
+        "Domestic instrument name": "重点用能行业非电力可再生能源消费最低比重目标",
+        "English instrument name": (
+            "Minimum non-electric renewable energy consumption proportion targets for "
+            "key energy-using industries"
+        ),
+        "Description": (
+            "Minimum non-electric renewable energy consumption proportion targets are "
+            "set for key energy-using industries, covering renewable heating/cooling, "
+            "renewable hydrogen/ammonia production, biomass fuels and other "
+            "non-electric applications. Enterprises in key energy-using industries may "
+            "meet the non-electricity minimum proportion targets through renewable "
+            "heating/cooling, hydrogen/ammonia production, biomass-integrated fuel "
+            "utilisation and other means. Non-compliant enterprises are ordered to make "
+            "up the shortfall within a prescribed period; those still non-compliant "
+            "after the deadline are subject to interview, public disclosure, adverse "
+            "credit record entry and enhanced supervision. Enterprises exceeding "
+            "targets receive public commendation and priority policy support. Effective "
+            "1 August 2026 (NDRC Order No. 42)."
+        ),
+        "Objective": "Non-fossil energy; Climate change mitigation",
+        "Mitigation relevance": "Direct",
+        "Jurisdiction level": "national",
+        "Adoption date": "05/06/2026",
+        "Start date": "01/08/2026",
+        "Administrating authorities": (
+            "National Development and Reform Commission; Ministry of Industry and "
+            "Information Technology; Ministry of Housing and Urban-Rural Development; "
+            "Ministry of Transport; National Energy Administration"
+        ),
+        "Asset": (
+            "Minimum non-electric renewable energy consumption proportion targets for "
+            "key energy-using industries"
+        ),
+        "Asset (Status)": "New; Existing",
+        "Asset (Details)": (
+            "Minimum non-electric renewable energy consumption proportion targets for "
+            "key energy-using industries, covering renewable heating/cooling, "
+            "hydrogen/ammonia production, biomass-integrated fuel utilisation and other "
+            "non-electric applications."
+        ),
+        "Agent": "Firms",
+        "Agent (Detail)": (
+            "Enterprises in key energy-using industries bear responsibility for meeting "
+            "the minimum non-electric renewable energy consumption proportion targets."
+        ),
+        "Activity": "Purchase or use; Production, generation or conversion",
+        "Activity (Details)": (
+            "Renewable energy non-electric consumption (heating/cooling, "
+            "hydrogen/ammonia production, biomass-integrated fuel utilisation, etc.)."
+        ),
+        "Intensity (Value)": (
+            "Annual minimum non-electric renewable energy consumption proportion "
+            "targets for key energy-using industries; specific minimum proportion "
+            "values are determined by relevant departments by industry classification."
+        ),
+        "Intensity (Unit)": "Annual non-electric renewable energy consumption proportion (%)",
+        "Intensity (Details)": (
+            "Non-electricity minimum proportion targets cover renewable "
+            "heating/cooling, hydrogen/ammonia production, biomass-integrated fuel "
+            "utilisation and other non-electricity uses (Source: NDRC Order No. 42 of "
+            "2026)."
+        ),
+        "Requirement specification": (
+            "Enterprises in key energy-using industries must meet the sectoral minimum "
+            "non-electric renewable energy consumption proportion targets. Enterprises "
+            "failing to meet minimum proportion targets are ordered to make up the "
+            "shortfall within a prescribed period; those still non-compliant after the "
+            "deadline are subject to interview, public disclosure, adverse credit "
+            "record entry and enhanced supervision by provincial energy authorities "
+            "together with relevant departments. Enterprises exceeding targets receive "
+            "public commendation and priority policy support."
+        ),
+        "Compliance calculation methodology I": (
+            "Key-industry non-electric renewable energy consumption minimum proportion "
+            "assessment — the enterprise renewable energy non-electricity consumption "
+            "proportion = (renewable energy non-electric consumption volume + renewable "
+            "energy non-electric output produced by the enterprise) / total enterprise "
+            "non-electric energy consumption. Non-electric consumption covers renewable "
+            "heating/cooling, hydrogen/ammonia production, biomass-integrated fuel "
+            "utilisation, etc. Detailed calculation rules are set out in Annex 1 of the "
+            "measures."
+        ),
+        "Compliance calculation methodology II": (
+            "Key-industry non-electric renewable energy consumption minimum proportion "
+            "targets are calculated and issued annually by the energy authority of the "
+            "State Council in conjunction with relevant departments. Provincial "
+            "relevant authorities, together with relevant departments, formulate "
+            "implementation plans and decompose targets to key energy-using industry "
+            "enterprises."
+        ),
+        "Compliance monitoring": "Inspections or audits conducted by government authorities or third parties",
+        "Compliance monitoring details": (
+            "Provincial energy authorities, together with relevant departments, "
+            "supervise and inspect compliance by key energy-using industry enterprises "
+            "with non-electric renewable energy consumption proportion targets, "
+            "ordering enterprises failing to meet targets to rectify within a "
+            "prescribed period and tracking supervision."
+        ),
+        "Compliance enforcement": "Compliance order",
+        "Compliance enforcement details": (
+            "Enterprises failing to meet minimum proportion targets are ordered to make "
+            "up the shortfall within a prescribed period; those still non-compliant "
+            "after the deadline are subject to interview and public disclosure by "
+            "provincial energy authorities together with relevant departments, entered "
+            "into adverse credit records and subject to enhanced supervision."
+        ),
+        "Compliance promotion": "Public commendation; Priority policy support",
+        "Compliance promotion detail": (
+            "Enterprises exceeding non-electric renewable energy consumption minimum "
+            "proportion targets receive public commendation and priority policy "
+            "support."
+        ),
+        "GHGs affected": "CO2",
+        "Mitigation effects": "Positive",
+        "Mitigation co-benefits": "Pollution control; Technological innovation",
+        "Legal statute": (
+            "Implementation Measures for the Renewable Energy Consumption Minimum "
+            "Proportion Target and Renewable Electricity Consumption Responsibility "
+            "Weight System (NDRC Order No. 42)"
+        ),
+        "Legal document": "https://www.ndrc.gov.cn/xxgk/zcfb/fzggwl/202606/t20260612_1405837.html",
+        "Other weblinks": "https://www.ndrc.gov.cn/xxgk/zcfb/fzggwl/202606/t20260612_1405837.html",
     },
 
 
@@ -33287,7 +32969,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation relevance": "Indirect",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "Unknown",
 
 
         "Mitigation co-benefits": (
@@ -33380,10 +33062,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEBI01S000": {
+    "CHNFRMCBCI01S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for buildings",
+        "Approach": "Comprehensive building energy code",
 
 
         "Emission sector": "Buildings",
@@ -33414,65 +33096,30 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
         "Description": (
-
-
             "GB 55015-2021 General Code for Energy Efficiency and Renewable Energy "
-
-
             "Application in Buildings (MOHURD Announcement No. 173 of 2021) is a "
-
-
             "mandatory construction code in its entirety, applicable to the energy "
-
-
             "efficiency design, construction, acceptance and operation management of "
-
-
             "new, expanded and renovated civil and industrial buildings, and to the "
-
-
             "design, construction, acceptance and operation management of renewable "
-
-
-            "energy building application systems. The code replaces mandatory provisions "
-
-
-            "in multiple existing building energy efficiency standards and serves as "
-
-
-            "the technical regulation for the building energy efficiency sector — all "
-
-
-            "new buildings must comply with its provisions to pass construction drawing "
-
-
-            "review and completion acceptance. The code covers building envelope thermal "
-
-
-            "performance, HVAC system energy efficiency, lighting power density, "
-
-
-            "domestic hot water system efficiency, whole-building energy consumption "
-
-
-            "limits and carbon emission calculations, and minimum requirements for "
-
-
-            "renewable energy systems. The code requires average design energy "
-
-
-            "consumption of new residential and public buildings to decrease by 30% "
-
-
-            "and 20% respectively from the 2016 baseline, and carbon emission intensity "
-
-
-            "of new buildings to decrease by at least 7 kgCO₂/(m²·a) on average. "
-
-
-            "Effective from 1 April 2022."
-
-
+            "energy building application systems. The code replaces mandatory "
+            "provisions in multiple existing building energy efficiency standards and "
+            "serves as the technical regulation for the building energy efficiency "
+            "sector — all new buildings must comply with its provisions to pass "
+            "construction drawing review and completion acceptance. The code covers "
+            "building envelope thermal performance, HVAC system energy efficiency, "
+            "lighting power density, domestic hot water system efficiency, "
+            "whole-building energy consumption limits and carbon emission calculations, "
+            "and minimum requirements for renewable energy systems. The code requires "
+            "average design energy consumption of new residential and public buildings "
+            "to decrease by 30% and 20% respectively from the 2016 baseline, and carbon "
+            "emission intensity of new buildings to decrease by at least 7 kgCO₂/(m²·a) "
+            "on average. Effective from 1 April 2022. This code is a mandatory "
+            "construction code in its entirety and a comprehensive building energy "
+            "technical regulation covering energy efficiency design, construction, "
+            "acceptance, operation management and renewable energy building "
+            "applications, combining the attributes of both framework regulation and "
+            "performance standards."
         ),
 
 
@@ -35300,10 +34947,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI01S000": {
+    "CHNPRFMEEI01S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Industry",
@@ -35621,10 +35268,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI02S000": {
+    "CHNPRFMEEI02S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Industry",
@@ -35963,10 +35610,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI03S000": {
+    "CHNPRFMEEI03S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Buildings",
@@ -36227,10 +35874,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI04S000": {
+    "CHNPRFMEEI04S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Buildings",
@@ -36545,10 +36192,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI05S000": {
+    "CHNPRFMEEI05S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Buildings",
@@ -36851,10 +36498,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI06S000": {
+    "CHNPRFMEEI06S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Industry",
@@ -37142,10 +36789,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI07S000": {
+    "CHNPRFMEEI07S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Buildings",
@@ -37463,10 +37110,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI08S000": {
+    "CHNPRFMEEI08S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Buildings",
@@ -37754,10 +37401,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI09S000": {
+    "CHNPRFMEEI09S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Buildings",
@@ -38039,10 +37686,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI10S000": {
+    "CHNPRFMEEI10S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Industry",
@@ -38339,10 +37986,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI11S000": {
+    "CHNPRFMEEI11S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Industry",
@@ -38642,10 +38289,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI12S000": {
+    "CHNPRFMEEI12S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Buildings",
@@ -38957,10 +38604,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI13S000": {
+    "CHNPRFMEEI13S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Buildings",
@@ -39287,10 +38934,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI14S000": {
+    "CHNPRFMEEI14S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Buildings",
@@ -39620,10 +39267,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI15S000": {
+    "CHNPRFMEEI15S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Buildings",
@@ -39938,10 +39585,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI16S000": {
+    "CHNPRFMEEI16S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Buildings",
@@ -40259,10 +39906,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI17S000": {
+    "CHNPRFMEEI17S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Industry",
@@ -40535,10 +40182,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI18S000": {
+    "CHNPRFMEEI18S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Industry",
@@ -40814,10 +40461,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI19S000": {
+    "CHNPRFMEEI19S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Industry",
@@ -41129,10 +40776,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI20S000": {
+    "CHNPRFMEEI20S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Industry",
@@ -41402,10 +41049,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI21S000": {
+    "CHNPRFMEEI21S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Industry",
@@ -41687,10 +41334,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI22S000": {
+    "CHNPRFMEEI22S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Buildings",
@@ -41984,10 +41631,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI23S000": {
+    "CHNPRFMEEI23S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Buildings",
@@ -42302,10 +41949,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI24S000": {
+    "CHNPRFMEEI24S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Buildings",
@@ -42566,10 +42213,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI25S000": {
+    "CHNPRFMEEI25S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Buildings",
@@ -42890,10 +42537,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI26S000": {
+    "CHNPRFMEEI26S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Industry",
@@ -43211,10 +42858,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI27S000": {
+    "CHNPRFMEEI27S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Industry",
@@ -43508,10 +43155,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
 
 
-    "CHNPRFMEAI28S000": {
+    "CHNPRFMEEI28S000": {
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
 
 
         "Emission sector": "Industry",
@@ -43789,8 +43436,8 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-    "CHNPRFMEAI29S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+    "CHNPRFMEEI29S000": {
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
         "Emission sector": "Industry",
         "Sub-sector": "Solar photovoltaic",
         "English instrument name": (
@@ -43916,7 +43563,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-    "CHNPRFMEAI30S000": {
+    "CHNPRFMEEI30S000": {
         "Last revisions (Details)": (
             "First established on 18 December 2013 with GB 30255-2013 'Minimum Allowable",
             "Values of Energy Efficiency and Energy Efficiency Grades for",
@@ -43931,7 +43578,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "efficiency assessment. Old standard has a 25-month transition period, with",
             "mandatory implementation of the new standard starting 1 September 2027."
         ),
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric appliances",
+        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
         "Emission sector": "Industry; Buildings",
         "Sub-sector": "Lighting; Commercial buildings; Residential buildings; Public buildings",
         "English instrument name": (
@@ -47730,7 +47377,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     # ===== MHS — Spatial Heating MEPS =====
 
 
-    "CHNPRFMHSI01S000": {
+    "CHNPRFHPCI01S000": {
         "Compliance enforcement": "Compliance requirements; Testing",
         "Compliance enforcement details": (
             "Those who produce or sell heat pump and solar water heater products that do",
@@ -47741,7 +47388,10 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Approach": "Minimum Energy Performance Standards (MEPS) for spatial heating",
+        "Approach": (
+            "Minimum Energy Performance Standards (MEPS) for heat pumps and water "
+            "chillers"
+        ),
 
 
         "Emission sector": "Buildings; Industry",
@@ -61569,7 +61219,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Performance standard",
+        "Group": "Performance standards",
 
 
         "Approach": "Energy intensity limit for industrial production",
@@ -61654,7 +61304,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions": "N/A",
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -61897,7 +61546,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Performance standard",
+        "Group": "Performance standards",
 
 
         "Approach": "Energy intensity limit for industrial production",
@@ -61976,7 +61625,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions": "N/A",
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -62228,7 +61876,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Performance standard",
+        "Group": "Performance standards",
 
 
         "Approach": "Energy intensity limit for industrial production",
@@ -62337,7 +61985,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -62595,7 +62242,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Performance standard",
+        "Group": "Performance standards",
 
 
         "Approach": "Energy intensity limit for industrial production",
@@ -62674,7 +62321,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions": "N/A",
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -62908,7 +62554,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Performance standard",
+        "Group": "Performance standards",
 
 
         "Approach": "Energy intensity limit for industrial production",
@@ -62981,7 +62627,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions": "N/A",
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -63221,7 +62866,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Performance standard",
+        "Group": "Performance standards",
 
 
         "Approach": "Energy intensity limit for industrial production",
@@ -63303,7 +62948,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions": "N/A",
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -63552,7 +63196,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Performance standard",
+        "Group": "Performance standards",
 
 
         "Approach": "Energy intensity limit for industrial production",
@@ -63634,7 +63278,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions": "N/A",
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -63871,7 +63514,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Performance standard",
+        "Group": "Performance standards",
 
 
         "Approach": "Energy intensity limit for industrial production",
@@ -63959,7 +63602,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions": "N/A",
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -64208,7 +63850,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Performance standard",
+        "Group": "Performance standards",
 
 
         "Approach": "Energy intensity limit for industrial production",
@@ -64296,7 +63938,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions": "N/A",
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -64536,356 +64177,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-    "CHNPRFEILI62S000": {
-
-
-        "Policy Instrument ID": "CHNPRFEILI62S000",
-
-
-        "Instrument / subscheme": "Instrument",
-
-
-        "Group": "Performance standard",
-
-
-        "Approach": "Energy intensity limit for industrial production",
-
-
-        "Emission sector": "Industry",
-
-
-        "Sub-sector": "Metal building materials",
-
-
-        "English instrument name": "Norm of Energy Consumption per Unit Production of Aluminium-Plastic Composite Panel",
-
-
-        "Policy Package": "N/A",
-
-
-        "Description": (
-
-
-            "GB 30185-2013 Norm of Energy Consumption per Unit Production of Aluminium-Plastic "
-
-
-            "Composite Panel is a mandatory national standard, published on 31 December 2013 and "
-
-
-            "effective 1 December 2014. GB 30185-2025 Norm of Energy Consumption per Unit Production "
-
-
-            "of Aluminium (Plastic) Composite Panel was published on 28 February 2025 to replace this "
-
-
-            "standard, expanding the scope to include aluminium-plastic composite panels, non-combustible "
-
-
-            "aluminium composite panels and decorative aluminium veneer, effective 1 March 2026. The "
-
-
-            "standard applies to the calculation and assessment of energy consumption per unit product "
-
-
-            "for enterprises producing aluminium-plastic composite panels using aluminium alloy sheet "
-
-
-            "as face and back panels with polyethylene (PE) or other core materials through cleaning, "
-
-
-            "chemical treatment and polymer film thermal lamination processes, as well as to the energy "
-
-
-            "consumption control of new, expansion and renovation projects. Energy intensity limits are "
-
-
-            "classified into three grades (Grade 1 is the most stringent, i.e. most advanced). Grade 3 "
-
-
-            "is the minimum limit (mandatory for existing firms), Grade 2 is the access limit "
-
-
-            "(mandatory for new, expansion and renovation projects), and Grade 1 is the advanced value. "
-
-
-            "This is the first mandatory energy intensity limit standard for the aluminium-plastic "
-
-
-            "composite panel industry."
-
-
-        ),
-
-
-        "Objective": "Energy efficiency",
-
-
-        "Mitigation relevance": "Direct",
-        "Jurisdiction level": "National",
-
-
-        "Jurisdiction name": "N/A",
-
-
-        "Adoption date": "31/12/2013",
-
-
-        "Start date": "01/12/2014",
-
-
-        "End date": "N/A",
-
-
-        "Last revisions": "28/02/2025",
-
-
-        "Last revisions (Details)": (
-
-
-            "On 28 February 2025, GB 30185-2025 Norm of Energy Consumption per Unit Production of "
-
-
-            "Aluminium (Plastic) Composite Panel was published replacing GB 30185-2013, expanding "
-
-
-            "the standard's title and scope to cover aluminium-plastic composite panels, "
-
-
-            "non-combustible aluminium composite panels and decorative aluminium veneer, effective "
-
-
-            "1 March 2026."
-
-
-        ),
-
-
-        "Status": "In force",
-
-
-        "Administrating authorities": (
-
-
-            "State Administration for Market Regulation; "
-
-
-            "Standardization Administration of China"
-
-
-        ),
-
-
-        "Asset": "Aluminium-plastic composite panel production line",
-
-
-        "Asset (Status)": "New; existing",
-
-
-        "Asset (Details)": (
-
-
-            "Production lines producing aluminium-plastic composite panels using aluminium alloy "
-
-
-            "coiled sheet (face and back panels) and polyethylene (PE) or flame-retardant "
-
-
-            "polyethylene core material, through aluminium coil cleaning and chemical treatment, "
-
-
-            "polymer adhesive film preparation, thermal lamination (continuous high-temperature "
-
-
-            "high-pressure lamination), cooling, shearing and packaging. Products include ordinary "
-
-
-            "aluminium-plastic panels and fire-resistant aluminium-plastic panels (Class B1), with "
-
-
-            "total thickness typically 3-6 mm, used in building curtain walls, interior decoration, "
-
-
-            "signage and advertising applications."
-
-
-        ),
-
-
-        "Asset (Other)": "N/A",
-
-
-        "Asset (Cut-off range)": "N/A",
-
-
-        "Agent": "Firms",
-
-
-        "Agent (Detail)": "Enterprises operating aluminium-plastic composite panel production lines within China.",
-
-
-        "Activity": "Production",
-
-
-        "Activity (Details)": (
-
-
-            "Operational activities of aluminium-plastic composite panel production lines. Existing "
-
-
-            "firms must meet Grade 3 (minimum) intensity limits; new, expansion and renovation "
-
-
-            "projects must meet Grade 2 (access) intensity limits."
-
-
-        ),
-
-
-        "Intensity (Value)": "3 grades",
-
-
-        "Intensity (Unit)": "Energy intensity limit grade",
-
-
-        "Intensity (Details)": (
-
-
-            "Energy intensity limits are classified into three grades (Grade 1 is the most stringent, "
-
-
-            "i.e. most advanced). Grade 3 is the minimum limit (mandatory for existing firms), Grade 2 "
-
-
-            "is the access limit (mandatory for new, expansion and renovation projects), and Grade 1 is "
-
-
-            "the advanced value. Measured in kgce of comprehensive energy per thousand square metres "
-
-
-            "(kgce/1,000 m²) or kgce/t. Aluminium-plastic composite panel (per 1,000 m², including "
-
-
-            "cleaning + chemical conversion + lamination + coating full process): Grade 3 ≤ 350, "
-
-
-            "Grade 2 ≤ 290, Grade 1 ≤ 240."
-
-
-        ),
-
-
-        "Requirement specification": (
-
-
-            "1) Existing aluminium-plastic composite panel producers must meet Grade 3 (minimum) "
-
-
-            "intensity limits to continue operating; non-compliant firms must undergo retrofits or "
-
-
-            "be phased out within a prescribed period. 2) New, expansion and renovation projects must "
-
-
-            "meet Grade 2 (access) intensity limits before commencing production. 3) Grade 1 advanced "
-
-
-            "values serve as energy efficiency benchmarks to guide the industry."
-
-
-        ),
-
-
-        "Compliance calculation methodology I": "N/A",
-
-
-        "Compliance calculation methodology II": "N/A",
-
-
-        "Compliance monitoring": (
-
-
-            "Inspections or audits conducted by government authorities or third parties; Energy consumption "
-
-
-            "data reporting by firms"
-
-
-        ),
-
-
-        "Compliance monitoring details": (
-
-
-            "Market regulatory authorities conduct supervision inspections on aluminium-plastic "
-
-
-            "composite panel producers' compliance with energy intensity limit standards; firms must "
-
-
-            "submit annual energy consumption data and undergo energy conservation supervision."
-
-
-        ),
-
-
-        "Compliance enforcement": "Compliance order; Fines; Differentiated electricity pricing; Phase-out and closure",
-
-
-        "Compliance enforcement details": (
-
-
-            "For aluminium-plastic composite panel producers that do not meet the mandatory energy "
-
-
-            "intensity limit standard, relevant authorities shall order rectification within a "
-
-
-            "prescribed period; those failing to complete rectification or still not meeting the "
-
-
-            "standard after rectification shall be subject to differentiated electricity pricing "
-
-
-            "and lawfully phased out and closed."
-
-
-        ),
-
-
-        "Compliance promotion": "Other incentives or support",
-
-
-        "Compliance promotion": (
-
-
-            "The state encourages aluminium-plastic composite panel producers to benchmark against "
-
-
-            "Grade 1 advanced values and undertake energy conservation and carbon reduction retrofits, "
-
-
-            "guiding and supporting uptake of advanced production capacity through energy conservation "
-
-
-            "reviews and green factory designation."
-
-
-        ),
-
-
-        "Mitigation co-benefits": "Energy conservation",
-
-
-        "Legal statute": "GB 30185-2013 Norm of Energy Consumption per Unit Production of Aluminium-Plastic Composite Panel",
-
-
-        "Other weblinks": "GB 30185-2013 (previous edition): https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=560D51C1E285DC30D8E67E5B5CFB6C0F",
-
-
-        "Mitigation effects": "Positive"
-
-
-    },
 
 
 
@@ -64900,7 +64191,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Performance standard",
+        "Group": "Performance standards",
 
 
         "Approach": "Energy intensity limit for industrial production",
@@ -64972,7 +64263,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions": "31/12/2025",
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -65184,7 +64474,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Performance standard",
+        "Group": "Performance standards",
 
 
         "Approach": "Energy intensity limit for industrial production",
@@ -65272,7 +64562,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions": "N/A",
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -65500,672 +64789,11 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-    "CHNPRFEILI65S000": {
 
 
-        "Policy Instrument ID": "CHNPRFEILI65S000",
 
 
-        "Instrument / subscheme": "Instrument",
 
-
-        "Group": "Performance standard",
-
-
-        "Approach": "Energy intensity limit for industrial production",
-
-
-        "Emission sector": "Industry",
-
-
-        "Sub-sector": "Coal mining",
-
-
-        "English instrument name": "Norm of Energy Consumption per Unit Production of Coal Underground Mining",
-
-
-        "Policy Package": "N/A",
-
-
-        "Description": (
-
-
-            "GB 29444-2012 Norm of Energy Consumption per Unit Production of Coal Underground Mining "
-
-
-            "is a mandatory national standard, published on 31 December 2012 and effective 1 October "
-
-
-            "2013. It applies to the calculation and assessment of energy consumption per unit product "
-
-
-            "for enterprises mining coal resources through vertical shaft, inclined shaft and adit "
-
-
-            "underground mining methods, as well as to the energy consumption control of new, expansion "
-
-
-            "and renovation mines. Energy intensity limits are classified into three grades (Grade 1 is "
-
-
-            "the most stringent, i.e. most advanced). Grade 3 is the minimum limit (mandatory for "
-
-
-            "existing firms), Grade 2 is the access limit (mandatory for new, expansion and renovation "
-
-
-            "projects), and Grade 1 is the advanced value. This is the first mandatory energy intensity "
-
-
-            "limit standard for coal underground mining. The standard does not apply to surface mining "
-
-
-            "or coal preparation plants."
-
-
-        ),
-
-
-        "Objective": "Energy efficiency",
-
-
-        "Mitigation relevance": "Direct",
-        "Jurisdiction level": "National",
-
-
-        "Jurisdiction name": "N/A",
-
-
-        "Adoption date": "31/12/2012",
-
-
-        "Start date": "01/10/2013",
-
-
-        "End date": "N/A",
-
-
-        "Last revisions": "N/A",
-
-
-        "Status": "In force",
-
-
-        "Administrating authorities": (
-
-
-            "State Administration for Market Regulation; "
-
-
-            "Standardization Administration of China"
-
-
-        ),
-
-
-        "Asset": "Coal underground mining operation",
-
-
-        "Asset (Status)": "New; existing",
-
-
-        "Asset (Details)": (
-
-
-            "Coal mines developed using vertical shaft, inclined shaft and adit underground mining "
-
-
-            "methods, including the mining system (fully mechanised longwall, fully mechanised "
-
-
-            "roadheading, drilling and blasting, etc.), hoisting and transport system (main shaft "
-
-
-            "hoisting, auxiliary shaft hoisting, underground transport, etc.), ventilation system "
-
-
-            "(main fans, etc.), drainage system (main pumps, etc.), compressed air system (air "
-
-
-            "compressors, etc.), gas drainage system and surface production system (raw coal "
-
-
-            "screening, crushing, storage and loading). Mineable seams include thin, medium-thick "
-
-
-            "and thick seams, using longwall retreating, inclined longwall, top-coal caving and "
-
-
-            "other mining methods."
-
-
-        ),
-
-
-        "Asset (Other)": "N/A",
-
-
-        "Asset (Cut-off range)": "N/A",
-
-
-        "Agent": "Firms",
-
-
-        "Agent (Detail)": "Enterprises operating coal underground mining operations within China.",
-
-
-        "Activity": "Production",
-
-
-        "Activity (Details)": (
-
-
-            "Operational activities of coal underground mining operations, including underground "
-
-
-            "mining and roadheading, transport and hoisting, ventilation, drainage, gas drainage "
-
-
-            "and other main production links plus surface auxiliary production systems. Existing "
-
-
-            "firms must meet Grade 3 (minimum) intensity limits; new, expansion and renovation "
-
-
-            "mines must meet Grade 2 (access) intensity limits."
-
-
-        ),
-
-
-        "Intensity (Value)": "3 grades",
-
-
-        "Intensity (Unit)": "Energy intensity limit grade",
-
-
-        "Intensity (Details)": (
-
-
-            "Energy intensity limits are classified into three grades (Grade 1 is the most stringent, "
-
-
-            "i.e. most advanced). Grade 3 is the minimum limit (mandatory for existing firms), Grade 2 "
-
-
-            "is the access limit (mandatory for new, expansion and renovation projects), and Grade 1 is "
-
-
-            "the advanced value. Measured in kgce of comprehensive energy per tonne of raw coal "
-
-
-            "(kgce/t raw coal), with adjustment factors applied for mining depth, gas emission "
-
-
-            "classification and water inflow conditions. Underground mining (comprehensive energy, "
-
-
-            "kgce/t): Grade 3 ≤ 3.5, Grade 2 ≤ 2.8, Grade 1 ≤ 2.2."
-
-
-        ),
-
-
-        "Requirement specification": (
-
-
-            "1) Existing coal underground mining enterprises must meet Grade 3 (minimum) intensity "
-
-
-            "limits to continue operating; non-compliant firms must undergo retrofits or be phased "
-
-
-            "out within a prescribed period. 2) New, expansion and renovation mines must meet Grade 2 "
-
-
-            "(access) intensity limits before commencing production. 3) Grade 1 advanced values serve "
-
-
-            "as energy efficiency benchmarks to guide the industry."
-
-
-        ),
-
-
-        "Compliance calculation methodology I": "N/A",
-
-
-        "Compliance calculation methodology II": "N/A",
-
-
-        "Compliance monitoring": (
-
-
-            "Inspections or audits conducted by government authorities or third parties; Energy consumption "
-
-
-            "data reporting by firms"
-
-
-        ),
-
-
-        "Compliance monitoring details": (
-
-
-            "Market regulatory authorities and coal industry authorities conduct supervision "
-
-
-            "inspections on coal underground mining enterprises' compliance with energy intensity "
-
-
-            "limit standards; firms must submit annual energy consumption data and undergo energy "
-
-
-            "conservation supervision."
-
-
-        ),
-
-
-        "Compliance enforcement": "Compliance order; Fines; Differentiated electricity pricing; Phase-out and closure",
-
-
-        "Compliance enforcement details": (
-
-
-            "For coal underground mining enterprises that do not meet the mandatory energy intensity "
-
-
-            "limit standard, relevant authorities shall order rectification within a prescribed "
-
-
-            "period; those failing to complete rectification or still not meeting the standard after "
-
-
-            "rectification shall be subject to differentiated electricity pricing and lawfully phased "
-
-
-            "out and closed."
-
-
-        ),
-
-
-        "Compliance promotion": "Other incentives or support",
-
-
-        "Compliance promotion": (
-
-
-            "The state encourages coal underground mining enterprises to benchmark against Grade 1 "
-
-
-            "advanced values and undertake energy conservation and carbon reduction retrofits, "
-
-
-            "promoting efficient mining and roadheading equipment, intelligent mining systems, gas "
-
-
-            "drainage and utilisation, and waste heat recovery technologies, guiding and supporting "
-
-
-            "uptake of advanced production capacity through energy conservation reviews and green "
-
-
-            "mine designation."
-
-
-        ),
-
-
-        "Mitigation co-benefits": "Energy conservation",
-
-
-        "Legal statute": "GB 29444-2012 Norm of Energy Consumption per Unit Production of Coal Underground Mining",
-
-
-        "Other weblinks": "N/A",
-
-
-        "Last revisions (Details)": "N/A",
-
-
-        "Mitigation effects": "Positive"
-
-
-    },
-
-
-
-
-
-    "CHNPRFEILI66S000": {
-
-
-        "Policy Instrument ID": "CHNPRFEILI66S000",
-
-
-        "Instrument / subscheme": "Instrument",
-
-
-        "Group": "Performance standard",
-
-
-        "Approach": "Energy intensity limit for industrial production",
-
-
-        "Emission sector": "Industry",
-
-
-        "Sub-sector": "Coal mining",
-
-
-        "English instrument name": "Norm of Energy Consumption per Unit Production of Coal Surface Mining",
-
-
-        "Policy Package": "N/A",
-
-
-        "Description": (
-
-
-            "GB 29445-2012 Norm of Energy Consumption per Unit Production of Coal Surface Mining "
-
-
-            "is a mandatory national standard, published on 31 December 2012 and effective 1 October "
-
-
-            "2013. It applies to the calculation and assessment of energy consumption per unit product "
-
-
-            "for enterprises mining coal resources using surface (open-pit) mining methods, including "
-
-
-            "the main process steps of overburden removal, coal extraction, transport and spoil "
-
-
-            "disposal, as well as to the energy consumption control of new, expansion and renovation "
-
-
-            "surface mines. Energy intensity limits are classified into three grades (Grade 1 is the "
-
-
-            "most stringent, i.e. most advanced). Grade 3 is the minimum limit (mandatory for existing "
-
-
-            "firms), Grade 2 is the access limit (mandatory for new, expansion and renovation projects), "
-
-
-            "and Grade 1 is the advanced value. This is the first mandatory energy intensity limit "
-
-
-            "standard for coal surface mining. The standard does not apply to underground mining or "
-
-
-            "coal preparation plants."
-
-
-        ),
-
-
-        "Objective": "Energy efficiency",
-
-
-        "Mitigation relevance": "Direct",
-        "Jurisdiction level": "National",
-
-
-        "Jurisdiction name": "N/A",
-
-
-        "Adoption date": "31/12/2012",
-
-
-        "Start date": "01/10/2013",
-
-
-        "End date": "N/A",
-
-
-        "Last revisions": "N/A",
-
-
-        "Status": "In force",
-
-
-        "Administrating authorities": (
-
-
-            "State Administration for Market Regulation; "
-
-
-            "Standardization Administration of China"
-
-
-        ),
-
-
-        "Asset": "Coal surface mining operation",
-
-
-        "Asset (Status)": "New; existing",
-
-
-        "Asset (Details)": (
-
-
-            "Coal mines using surface mining methods such as shovel-truck, dragline and bucket-wheel-"
-
-
-            "conveyor systems, including the overburden removal system (drilling and blasting or "
-
-
-            "ripping - loading - hauling - dumping), coal extraction system (drilling and blasting or "
-
-
-            "ripping - loading - hauling), surface crushing station, coal stockpile and maintenance "
-
-
-            "and auxiliary facilities. Mineable seams include near-horizontal seams, gently inclined "
-
-
-            "seams and other coal seam conditions suitable for surface mining. Production covers the "
-
-
-            "full process of overburden removal, coal extraction, transport and spoil disposal."
-
-
-        ),
-
-
-        "Asset (Other)": "N/A",
-
-
-        "Asset (Cut-off range)": "N/A",
-
-
-        "Agent": "Firms",
-
-
-        "Agent (Detail)": "Enterprises operating coal surface mining operations within China.",
-
-
-        "Activity": "Production",
-
-
-        "Activity (Details)": (
-
-
-            "Operational activities of coal surface mining operations, including overburden removal, "
-
-
-            "coal extraction, transport and spoil disposal and other main production links plus surface "
-
-
-            "auxiliary production systems. Existing firms must meet Grade 3 (minimum) intensity limits; "
-
-
-            "new, expansion and renovation surface mines must meet Grade 2 (access) intensity limits."
-
-
-        ),
-
-
-        "Intensity (Value)": "3 grades",
-
-
-        "Intensity (Unit)": "Energy intensity limit grade",
-
-
-        "Intensity (Details)": (
-
-
-            "Energy intensity limits are classified into three grades (Grade 1 is the most stringent, "
-
-
-            "i.e. most advanced). Grade 3 is the minimum limit (mandatory for existing firms), Grade 2 "
-
-
-            "is the access limit (mandatory for new, expansion and renovation projects), and Grade 1 is "
-
-
-            "the advanced value. Measured in kgce of comprehensive energy per tonne of raw coal "
-
-
-            "(kgce/t raw coal), with adjustment factors applied for stripping ratio, haul distance "
-
-
-            "and lift height conditions. Surface mining (comprehensive energy, kgce/t): "
-
-
-            "Grade 3 ≤ 1.5, Grade 2 ≤ 1.2, Grade 1 ≤ 0.9."
-
-
-        ),
-
-
-        "Requirement specification": (
-
-
-            "1) Existing coal surface mining enterprises must meet Grade 3 (minimum) intensity "
-
-
-            "limits to continue operating; non-compliant firms must undergo retrofits or be phased "
-
-
-            "out within a prescribed period. 2) New, expansion and renovation surface mines must meet "
-
-
-            "Grade 2 (access) intensity limits before commencing production. 3) Grade 1 advanced "
-
-
-            "values serve as energy efficiency benchmarks to guide the industry."
-
-
-        ),
-
-
-        "Compliance calculation methodology I": "N/A",
-
-
-        "Compliance calculation methodology II": "N/A",
-
-
-        "Compliance monitoring": (
-
-
-            "Inspections or audits conducted by government authorities or third parties; Energy consumption "
-
-
-            "data reporting by firms"
-
-
-        ),
-
-
-        "Compliance monitoring details": (
-
-
-            "Market regulatory authorities and coal industry authorities conduct supervision "
-
-
-            "inspections on coal surface mining enterprises' compliance with energy intensity limit "
-
-
-            "standards; firms must submit annual energy consumption data and undergo energy "
-
-
-            "conservation supervision."
-
-
-        ),
-
-
-        "Compliance enforcement": "Compliance order; Fines; Differentiated electricity pricing; Phase-out and closure",
-
-
-        "Compliance enforcement details": (
-
-
-            "For coal surface mining enterprises that do not meet the mandatory energy intensity "
-
-
-            "limit standard, relevant authorities shall order rectification within a prescribed "
-
-
-            "period; those failing to complete rectification or still not meeting the standard after "
-
-
-            "rectification shall be subject to differentiated electricity pricing and lawfully phased "
-
-
-            "out and closed."
-
-
-        ),
-
-
-        "Compliance promotion": "Other incentives or support",
-
-
-        "Compliance promotion": (
-
-
-            "The state encourages coal surface mining enterprises to benchmark against Grade 1 "
-
-
-            "advanced values and undertake energy conservation and carbon reduction retrofits, "
-
-
-            "promoting large-scale efficient mining and hauling equipment, continuous transport "
-
-
-            "systems and intelligent mining technologies, guiding and supporting uptake of advanced "
-
-
-            "production capacity through energy conservation reviews and green mine designation."
-
-
-        ),
-
-
-        "Mitigation co-benefits": "Energy conservation",
-
-
-        "Legal statute": "GB 29445-2012 Norm of Energy Consumption per Unit Production of Coal Surface Mining",
-
-
-        "Other weblinks": "N/A",
-
-
-        "Last revisions (Details)": "N/A",
-
-
-        "Mitigation effects": "Positive"
-
-
-    },
 
 
 
@@ -66180,7 +64808,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument / subscheme": "Instrument",
 
 
-        "Group": "Performance standard",
+        "Group": "Performance standards",
 
 
         "Approach": "Energy intensity limit for industrial production",
@@ -66265,7 +64893,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions": "N/A",
 
 
-        "Status": "In force",
 
 
         "Administrating authorities": (
@@ -69099,475 +67726,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-    "CHNFRMTRSI03S000": {
-
-
-        "Policy Instrument ID": "CHNFRMTRSI03S000",
-
-
-        "Approach": "Target responsibility system",
-
-
-        "Emission sector": "Cross-sectoral",
-
-
-        "Sub-sector": "N/A",
-
-
-        "English instrument name": "Comprehensive Carbon Peak and Carbon Neutrality Evaluation and Assessment System",
-
-
-        "Policy Package": "N/A",
-
-
-        "Description": (
-
-
-            "The comprehensive carbon peak and carbon neutrality evaluation and assessment "
-
-
-            "system is a Party–government co-accountability governance institution that "
-
-
-            "conducts annual evaluation and assessment of provincial Party committees and "
-
-
-            "governments on their performance in meeting carbon peak and carbon neutrality "
-
-
-            "targets and tasks. The system establishes a “5+9” evaluation and assessment "
-
-
-            "indicator framework comprising five control indicators — total carbon emissions, "
-
-
-            "carbon emission intensity reduction, total coal consumption, total oil "
-
-
-            "consumption and non-fossil energy consumption share — and nine supporting "
-
-
-            "indicators covering energy conservation, industry, urban–rural construction, "
-
-
-            "transport, public institutions, carbon emission trading and forest carbon sinks. "
-
-
-            "Assessment results are graded as excellent, satisfactory or unsatisfactory and "
-
-
-            "serve as a key input to comprehensive evaluation, selection and appointment, "
-
-
-            "and oversight of leadership teams and leading cadres."
-
-
-        ),
-
-
-        "Objective": "Climate change mitigation",
-
-
-        "Administrating authorities": (
-
-
-            "Organisation Department of the CPC Central Committee; National Development "
-
-
-            "and Reform Commission; State Council; provincial people’s governments"
-
-
-        ),
-
-
-        "Agent": "Governments",
-
-
-        "Agent (Detail)": (
-
-
-            "Provincial, autonomous region and directly-administered municipality Party "
-
-
-            "committees and governments bear overall responsibility for carbon peak and "
-
-
-            "carbon neutrality target and task performance within their administrative "
-
-
-            "areas under the principle of Party–government co-accountability and dual "
-
-
-            "responsibility. The Organisation Department of the CPC Central Committee "
-
-
-            "provides overall guidance; the National Development and Reform Commission "
-
-
-            "leads implementation of evaluation and assessment together with relevant "
-
-
-            "departments."
-
-
-        ),
-
-
-        "Activity": "Production, generation or conversion",
-
-
-        "Activity (Details)": (
-
-
-            "Greenhouse gas emitting activities including fossil fuel combustion and "
-
-
-            "industrial processes, as well as carbon-emitting and carbon-absorbing "
-
-
-            "activities in energy consumption, urban–rural construction, transport, "
-
-
-            "public institution operations and forest carbon sinks. Provincial Party "
-
-
-            "committees and governments must ensure that the five control indicators "
-
-
-            "and nine supporting indicators set by the state — covering total carbon "
-
-
-            "emissions, intensity and related dimensions — are met, and drive the "
-
-
-            "comprehensive green transformation of economic and social development."
-
-
-        ),
-
-
-        "Intensity (Value)": "Binding targets, set annually",
-
-
-        "Intensity (Unit)": (
-
-
-            "Five control indicators + nine supporting indicators; "
-
-
-            "grading: Excellent, Satisfactory, Unsatisfactory"
-
-
-        ),
-
-
-        "Intensity (Details)": (
-
-
-            "During the 15th Five-Year Plan period, the target is to reduce carbon "
-
-
-            "emission intensity by more than 65% from the 2005 level by 2030, achieve "
-
-
-            "a non-fossil energy consumption share of approximately 25%, and reach "
-
-
-            "peak total coal consumption and total oil consumption. All control "
-
-
-            "indicators and all supporting indicators met = Excellent; one or more "
-
-
-            "control indicators not met, or three or more supporting indicators not "
-
-
-            "met = Unsatisfactory; remaining cases = Satisfactory."
-
-
-        ),
-
-
-        "Requirement specification": (
-
-
-            "1) Provincial Party committees and governments bear overall responsibility "
-
-
-            "for carbon peak and carbon neutrality target and task performance within "
-
-
-            "their administrative areas under Party–government co-accountability and "
-
-
-            "dual responsibility; 2) the state sets five control indicators — total "
-
-
-            "carbon emissions, carbon emission intensity reduction, total coal "
-
-
-            "consumption, total oil consumption and non-fossil energy consumption "
-
-
-            "share — and supporting indicators covering energy consumption per unit of "
-
-
-            "GDP reduction, clean electricity share, industrial energy and carbon "
-
-
-            "reduction, carbon emission replacement and energy conservation and carbon "
-
-
-            "reduction review for “two-high” projects, green and low-carbon transition "
-
-
-            "in urban–rural construction, green and low-carbon transition in transport, "
-
-
-            "carbon emission intensity reduction in public institutions, carbon emission "
-
-
-            "control targets for sectors covered by the national carbon emission trading "
-
-
-            "market and forest stock growth; 3) evaluation and assessment is conducted "
-
-
-            "annually and implemented in the year following the assessment year, through "
-
-
-            "four steps: local self-assessment, departmental evaluation, on-site "
-
-
-            "verification and comprehensive determination; 4) assessment results are "
-
-
-            "reported to the CPC Central Committee and the State Council for approval "
-
-
-            "before being fed back to provincial Party committees and governments, "
-
-
-            "copied to the Central Commission for Discipline Inspection and the National "
-
-
-            "Commission of Supervision, and serve as a key input to comprehensive "
-
-
-            "evaluation, selection and appointment, and oversight of leadership teams "
-
-
-            "and leading cadres."
-
-
-        ),
-
-
-        "Compliance calculation methodology I": "N/A",
-
-
-        "Compliance calculation methodology II": "N/A",
-
-
-        "Compliance monitoring": (
-
-
-            "Target responsibility assessment; Monitoring and early warning"
-
-
-        ),
-
-
-        "Compliance monitoring details": (
-
-
-            "The National Development and Reform Commission, together with relevant "
-
-
-            "departments, has established a carbon peak and carbon neutrality monitoring "
-
-
-            "and early warning mechanism for dynamic monitoring of key indicators such "
-
-
-            "as carbon emission volume and intensity across regions. Provincial Party "
-
-
-            "committees and governments conduct annual carbon peak and carbon neutrality "
-
-
-            "self-assessments and submit self-assessment reports to the CPC Central "
-
-
-            "Committee and the State Council on time. Relevant departments evaluate "
-
-
-            "national annual progress on the indicators they are each responsible for, "
-
-
-            "issuing a “met” or “not met” rating for each provincial-level single "
-
-
-            "indicator and analysing causes and proposing improvement recommendations "
-
-
-            "for unmet indicators. The National Development and Reform Commission, "
-
-
-            "together with relevant departments, conducts on-site spot checks and "
-
-
-            "commissions third-party verification to examine work progress, task "
-
-
-            "implementation, target performance and data authenticity."
-
-
-        ),
-
-
-        "Compliance enforcement": (
-
-
-            "Target accountability assessment; Regulatory interview"
-
-
-        ),
-
-
-        "Compliance enforcement details": (
-
-
-            "After assessment results are approved by the CPC Central Committee and "
-
-
-            "the State Council, the Organisation Department of the CPC Central "
-
-
-            "Committee and the National Development and Reform Commission feed them "
-
-
-            "back to provincial Party committees and governments and copy them to the "
-
-
-            "Central Commission for Discipline Inspection and the National Commission "
-
-
-            "of Supervision. Provinces rated Unsatisfactory are required to submit a "
-
-
-            "written report to the CPC Central Committee and the State Council within "
-
-
-            "30 working days setting out corrective measures and completion deadlines; "
-
-
-            "those failing to rectify as required are subject to regulatory interview "
-
-
-            "of the provincial Party committee and government. Provinces rated "
-
-
-            "Satisfactory but with some indicators not met are issued notification "
-
-
-            "reminders within a defined scope. Where fraudulent practices, false "
-
-
-            "reporting, data tampering or document fabrication cause material distortion "
-
-
-            "or misrepresentation of results, the province’s assessment result is "
-
-
-            "directly determined as Unsatisfactory and the responsible entities and "
-
-
-            "individuals are subject to severe accountability."
-
-
-        ),
-
-
-        "Compliance promotion": "Other incentive or support",
-
-
-        "Compliance promotion": (
-
-
-            "Provinces rated Excellent or achieving outstanding performance in "
-
-
-            "individual areas are issued commendations and their good practices "
-
-
-            "and experiences are summarised and promoted. Regions achieving notable "
-
-
-            "carbon peak and carbon neutrality performance receive favourable "
-
-
-            "treatment in carbon emission indicator allocation, fiscal transfer "
-
-
-            "payments and major project planning. Entities and individuals with "
-
-
-            "outstanding performance are granted commendations and awards in "
-
-
-            "accordance with regulations."
-
-
-        ),
-
-
-        "Mitigation co-benefits": (
-
-
-            "Energy conservation; Pollution control; Technological innovation; Industrial development; Energy security; Renewable energy development; Ecological protection"
-
-
-        ),
-
-
-        "Mitigation effects": "Positive",
-
-
-        "Legal statute": (
-
-
-            "Notice of the General Office of the CPC Central Committee and the "
-
-
-            "General Office of the State Council on Issuing the Comprehensive "
-
-
-            "Evaluation and Assessment Measures for Carbon Peak and Carbon Neutrality"
-
-
-        ),
-
-
-        "Last revisions (Details)": "N/A",
-
-
-        "Other weblinks": (
-
-
-            "NDRC Responsible Official Q&A on the Comprehensive Evaluation and "
-
-
-            "Assessment Measures for Carbon Peak and Carbon Neutrality: "
-
-
-            "https://www.ndrc.gov.cn/xxgk/jd/jd/202604/t20260423_1404856_ext.html"
-
-
-        ),
-
-
-    },
 
 
     "CHNFRMTRSI04S000": {
@@ -73914,12 +72072,12 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
 
 
-    "CHNFRMRPDI02S000": {
+    "CHNFRMGPCI01S000": {
 
-        "Policy Instrument ID": "CHNFRMRPDI02S000",
+        "Policy Instrument ID": "CHNFRMGPCI01S000",
         "Instrument / subscheme": "Instrument",
-        "Group": "Framework regulation",
-        "Approach": "Renewable priority dispatch",
+        "Group": "Framework standards",
+        "Approach": "Green power direct connection rules",
         "Emission sector": "Energy",
         "Sub-sector": "Electricity",
         "Domestic instrument name": "多用户绿电直连制度",
@@ -73935,7 +72093,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "End date": "N/A",
         "Last revisions": "14/05/2026",
         "Last revisions (Details)": "On 21 May 2025, the National Development and Reform Commission and the National Energy Administration issued the Notice on Orderly Promoting the Development of Green Power Direct Connection (Fa Gai Neng Yuan [2025] No. 650), establishing the single-user green power direct connection scheme, requiring that a project's annual self-generated and self-consumed new energy electricity account for no less than 60% of total generation and no less than 30% of total electricity consumption, rising from 2025 to no less than 35% by 2030. On 14 May 2026, the Notice on Orderly Promoting the Development of Multi-user Green Power Direct Connection (Fa Gai Neng Yuan [2026] No. 688) extended green power direct connection to the multi-user model: specifying grid-connected and off-grid project types; defining multi-user as multiple distinct legal person entities (excluding residential and agricultural users); capping grid-connected projects' annual grid-fed electricity in principle at no more than 20% of total available generation; requiring projects in principle to participate in electricity market trading as a whole, initially participating in the electricity spot market on a 'quantity-only, no-price' basis; establishing hourly matching of new energy generation and consumption and a green electricity tracing mechanism; giving priority support to computing facilities, green hydrogen/ammonia/methanol and other emerging and future industries; and exempting projects and their internal resources from electricity business licensing (unless otherwise provided).",
-        "Status": "in force",
         "Administrating authorities": "National Development and Reform Commission; National Energy Administration; provincial energy authorities; regional offices of the National Energy Administration; grid enterprises; electricity market operators",
         "Asset": "Renewable energy generating units",
         "Asset (Status)": "New; Existing",
@@ -77149,7 +75306,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "Unknown",
 
 
         "Mitigation co-benefits": (
@@ -80095,7 +78252,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "Unknown",
 
 
         "Mitigation co-benefits": (
@@ -80908,7 +79065,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHGs affected": "CO2",
 
 
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "Unknown",
 
 
         "Mitigation co-benefits": (
@@ -89610,7 +87767,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     "CHNVIISFTI01S000": {
 
 
-        "Group": "Voluntary information instrument",
+        "Group": "Voluntary information instruments",
 
 
         "Approach": "Sustainable finance taxonomy",
@@ -89721,13 +87878,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
 
 
-        "Objective": (
-
-
-            "Green economy"
-
-
-        ),
+        "Objective": "Green economy; Green finance",
 
 
         "Administrating authorities": (
@@ -91385,38 +89536,40 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revisions (Details)": "N/A",
     },
 
-    "CHNCBACBPI01S000": {
-        "Group": "Capacity building and public awareness",
-        "Approach": "Capacity building programme",
+    "CHNVIIVBRI01S000": {
+        "Group": "Voluntary information instruments",
+        "Approach": "Voluntary benchmarking and recognition schemes",
         "Emission sector": "Industry",
         "Sub-sector": "N/A",
         "English instrument name": "Green Factory Gradient Cultivation and Management",
         "Policy Package": "N/A",
         "Description": (
-            "The Green Factory Gradient Cultivation and Management, "
-            "issued by the Ministry of Industry and "
-            "Information Technology, is a capacity-building information "
-            "instrument that organises and implements tiered evaluation, "
-            "dynamic management and progressive cultivation for "
-            "manufacturing enterprises, aiming to guide enterprises to "
-            "continuously improve their green and low-carbon performance "
-            "through a three-tier (national-provincial-municipal) green "
-            "factory cultivation mechanism. A green factory is defined as "
-            "an enterprise that achieves land intensification, raw "
-            "material non-toxicity, clean production, waste "
-            "resource utilisation and low-carbon energy use. The Measures "
-            "establish a gradient cultivation mechanism along two "
-            "dimensions: vertically, a national-provincial-municipal "
-            "three-tier linked green factory cultivation mechanism; "
-            "horizontally, green industrial parks and green supply chain "
-            "management enterprises drive the creation of green factories "
-            "within parks and along supply chains. The Measures comprise "
-            "six chapters and 27 articles covering cultivation "
-            "requirements, creation procedures, dynamic management and "
-            "supporting mechanisms. To date, 8,336 national-level green "
-            "factories have been cumulatively cultivated, accounting for "
-            "22% of the total output value of above-designated-size "
-            "manufacturing."
+            "The Green Factory Gradient Cultivation and Management, issued by the "
+            "Ministry of Industry and Information Technology, is a voluntary "
+            "benchmarking and recognition instrument that organises and implements "
+            "tiered evaluation, dynamic management and progressive cultivation for "
+            "manufacturing enterprises, aiming to guide enterprises to continuously "
+            "improve their green and low-carbon performance through a three-tier "
+            "(national-provincial-municipal) green factory cultivation mechanism. A "
+            "green factory is defined as an enterprise that achieves land "
+            "intensification, raw material non-toxicity, clean production, waste "
+            "resource utilisation and low-carbon energy use. The Measures establish a "
+            "gradient cultivation mechanism along two dimensions: vertically, a "
+            "national-provincial-municipal three-tier linked green factory cultivation "
+            "mechanism; horizontally, green industrial parks and green supply chain "
+            "management enterprises drive the creation of green factories within parks "
+            "and along supply chains. The Measures comprise six chapters and 27 "
+            "articles covering cultivation requirements, creation procedures, dynamic "
+            "management and supporting mechanisms. To date, 8,336 national-level green "
+            "factories have been cumulatively cultivated, accounting for 22% of the "
+            "total output value of above-designated-size manufacturing.The 2026 annual "
+            "recommendation notice (MIIT Office Energy Conservation Letter [2026] No. "
+            "461) renames the former national green supply chain management enterprises "
+            "as green supply chain leading enterprises (the existing green supply chain "
+            "management enterprise list will no longer be retained) and introduces new "
+            "evaluation requirements for green supply chain leading enterprises and "
+            "green industrial parks; green factories benchmark against the General "
+            "Rules for Green Factory Evaluation (GB/T 36132-2025)."
         ),
                 "Objective": (
             "Industrial development; Green economy"
@@ -91427,27 +89580,24 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset": "Green factories (manufacturing production facilities)",
         "Asset (Details)": (
-            "The object defined and covered by this instrument is "
-            "evaluated and recognised green factories, i.e., "
-            "manufacturing enterprise production facilities that achieve "
-            "land intensification, raw material non-toxicity, clean "
-            "production, waste resource utilisation and low-carbon "
-            "energy use. It covers three tiers: national, provincial "
-            "and municipal. The instrument is of a cultivation and "
-            "management nature and does not directly regulate physical "
-            "emission assets."
+            "The object defined and covered by this instrument is evaluated and "
+            "recognised green factories, i.e., manufacturing enterprise production "
+            "facilities that achieve land intensification, raw material non-toxicity, "
+            "clean production, waste resource utilisation and low-carbon energy use. It "
+            "covers three tiers: national, provincial and municipal. The instrument is "
+            "a voluntary benchmarking and recognition programme of a cultivation and "
+            "management nature and does not directly regulate physical emission assets."
         ),
         "Agent": "Firms",
         "Agent (Detail)": (
-            "Manufacturing enterprises (voluntarily applying for green "
-            "factory evaluation and recognition); third-party evaluation "
-            "agencies (commissioned to conduct green factory evaluations); "
-            "industry and information technology authorities at all "
-            "levels (organising recommendation and dynamic management); "
-            "green industrial parks and green supply chain management "
-            "enterprises (horizontal driving). Enterprise participation "
-            "is voluntary; enterprises apply independently through the "
-            "management platform, with no mandatory obligations."
+            "Manufacturing enterprises (voluntarily applying for green factory "
+            "evaluation and recognition); third-party evaluation agencies (commissioned "
+            "to conduct green factory evaluations); industry and information technology "
+            "authorities at all levels (organising recommendation and dynamic "
+            "management); green industrial parks and green supply chain leading "
+            "enterprises (horizontal driving). Enterprise participation is voluntary; "
+            "enterprises apply independently through the management platform, with no "
+            "mandatory obligations."
         ),
         "Activity": "Production",
         "Activity (Details)": (
@@ -91483,87 +89633,33 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "enterprise participation is voluntary, with no mandatory "
             "compliance obligations or penalties."
         ),
-        "Instrument linkage": (
-            "Connects with standards such as the General Principles "
-            "for Green Factory Evaluation (GB/T 36132-2025) and the "
-            "General Principles for Green Industrial Park Evaluation; "
-            "forms synergies with policies on green supply chain "
-            "management, green design product recognition, green public "
-            "procurement and green finance, making green factories "
-            "priority targets for relevant support policies."
-        ),
-        "Responsibility information capturing": (
-            "The Ministry of Industry and Information Technology "
-            "(Department of Energy Conservation and Comprehensive "
-            "Utilisation) is responsible for formulating the management "
-            "measures, organising the selection, recognition and "
-            "dynamic management of national-level green factories; "
-            "provincial and municipal industry and information "
-            "technology authorities are responsible for the cultivation, "
-            "recommendation and day-to-day management of green factories "
-            "in their jurisdictions."
-        ),
-        "Information transmission": (
-            "The Ministry of Industry and Information Technology "
-            "publicly issues the Measures, annual recommendation "
-            "notices and green factory lists via notice and government "
-            "portal (public release by government); enterprises apply "
-            "online and submit dynamic management forms through the "
-            "Industrial Energy Conservation and Green Development "
-            "Management Platform (https://green.miit.gov.cn)."
-        ),
-        "Frequency of information provision": (
-            "Provincial recommendations to the national level by 31 "
-            "July each year; recognised enterprises submit dynamic "
-            "management forms by 15 April each year; annual release "
-            "of green factory recommendation notices and lists."
-        ),
-        "Public availability of information": (
-            "Yes (public). Green factory lists and the management "
-            "measures are publicly available through the MIIT portal."
-        ),
-        "Details on capacity building, training/education, information campaigns and award schemes": (
-            "The Ministry of Industry and Information Technology "
-            "organised the development, revision and awareness training "
-            "of green factory evaluation standards; industry and "
-            "information technology authorities at all levels organised "
-            "green factory experience exchange and benchmark promotion; "
-            "the Enterprise Green Code system was promoted to "
-            "implement tiered display and classified management of "
-            "green factories; green factories were made priority "
-            "targets for support policies on technological "
-            "transformation, green finance and government procurement."
-        ),
-        "Compliance monitoring": "No compliance monitoring",
-        "Compliance enforcement": "No compliance enforcement",
-        "Compliance promotion": "Other incentives or support",
         "GHG emission coverage (absolute)": (
-            "N/A (this instrument is a capacity building programme; it "
-            "indirectly supports industrial GHG emission reductions by "
-            "guiding enterprises to establish green factories to improve "
-            "energy efficiency and reduce emissions, and has no directly "
-            "quantifiable emission coverage)"
+            "N/A (this instrument is a voluntary benchmarking and recognition "
+            "programme; it indirectly supports industrial GHG emission reductions by "
+            "guiding enterprises to establish green factories to improve energy "
+            "efficiency and reduce emissions, and has no directly quantifiable emission "
+            "coverage)"
         ),
         "GHG emission coverage (% domestic emissions)": (
-            "N/A (this instrument is an indirect capacity building "
+            "N/A (this instrument is an indirect voluntary benchmarking and recognition "
             "instrument with no direct GHG emission coverage share)"
         ),
-        "Mitigation effects": "Positive",
         "Mitigation co-benefits": "Industrial development; Resource conservation; Pollution control; Circular economy",
         "Legal statute": (
-            "Notice of the Ministry of Industry and Information "
-            "Technology on Issuing the Interim Measures for Green "
-            "Factory Gradient Cultivation and Management "
-            "(G.X.B.J. [2024] No. 13)"
+            "Notice of the Ministry of Industry and Information Technology on Issuing "
+            "the Interim Measures for Green Factory Gradient Cultivation and Management "
+            "(G.X.B.J. [2024] No. 13); Notice on Conducting the 2026 Annual Green "
+            "Factory Recommendation and Dynamic Management (MIIT Office Energy "
+            "Conservation Letter [2026] No. 461)"
         ),
         "Legal document": "https://www.gov.cn/zhengce/zhengceku/202401/content_6929104.htm",
-        "Other weblinks": "https://www.miit.gov.cn/jgsj/jns/gzdt/art/2026/art_ff0367abfedd4a4d86d56599878d2ff3.html",
+        "Other weblinks": "https://www.miit.gov.cn/jgsj/jns/gzdt/art/2026/art_ff0367abfedd4a4d86d56599878d2ff3.html; https://www.miit.gov.cn/jgsj/jns/lszz/art/2026/art_a0653c4d92d34dc98b17d9edfabf7fda.html",
         "Last revisions (Details)": "N/A",
     },
 
     "CHNVIIVCNI01S000": {
 
-        "Group": "Voluntary information instrument",
+        "Group": "Voluntary information instruments",
 
         "Approach": "Voluntary carbon neutrality methodology",
 
@@ -91663,7 +89759,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         ),
 
-        "Agent": "Enterprises / Organisations",
+        "Agent": "Firms",
 
         "Agent (Detail)": (
 
@@ -92023,7 +90119,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Buildings",
         "English instrument name": "Green Building Label",
         "Description": "The Green Building Evaluation Label is a voluntary building evaluation and labelling system established and managed by the housing and urban-rural development authorities. Based on the national green building evaluation standards, building projects are comprehensively assessed across five performance categories — safety and durability, health and comfort, convenience of living, resource conservation and environmental liveability — over their full life cycle, and awarded a star-rated green building label. Labels are divided into four grades: Basic, One-Star, Two-Star and Three-Star, with Three-Star being the highest. The evaluation covers land conservation and outdoor environment, energy conservation and energy utilisation, water conservation and water resource utilisation, material conservation and material resource utilisation, indoor environmental quality, and operations management, among which the energy conservation and energy utilisation indicators directly produce positive climate change mitigation effects. The Green Building Label system began in 2007, implemented by the Ministry of Housing and Urban-Rural Development under the Green Building Evaluation Label Administrative Measures (Jian Ke [2007] No. 206), with evaluation and certification conducted according to the national standard GB/T 50378 Green Building Evaluation Standard. Project owners voluntarily apply; there are no mandatory compliance obligations or penalties.",
-        "Objective": "Energy conservation; Climate change mitigation",
+        "Objective": "Energy efficiency; Climate change mitigation",
         "Administrating authorities": "Ministry of Housing and Urban-Rural Development (Department of Standard Quota); provincial-level, autonomous-region and municipal housing and urban-rural development authorities",
         "Asset": "Buildings (green building evaluation objects)",
         "Asset (Details)": "The objects defined and covered by this instrument are various types of civil buildings, including residential buildings and public buildings. Evaluation applies to building clusters, individual buildings or areas within buildings. The evaluation phases are divided into design evaluation and operation evaluation: design evaluation is conducted after the construction drawing design documents have passed review, and operation evaluation is conducted after the building has been completed and put into use for one year or more. Evaluation is based on GB/T 50378 Green Building Evaluation Standard, and green building labels of Basic, One-Star, Two-Star or Three-Star are awarded according to the comprehensive score.",
@@ -92041,7 +90137,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "N/A",
         "Last revisions (Details)": "In 2019, GB/T 50378-2019 Green Building Evaluation Standard was revised (the original standard was first issued in 2006 and revised in 2014 and 2019 respectively), restructuring the evaluation indicator system around five core performance categories — safety and durability, health and comfort, convenience of living, resource conservation and environmental liveability — and further strengthening the content on building carbon emission calculation and renewable energy utilisation. In 2021, the Ministry of Housing and Urban-Rural Development issued the Green Building Label Administrative Measures (Jian Biao Gui [2021] No. 1), further standardising label recognition and award management.",
     },
-    "CHNVIIVLBI04S000": {
+    "CHNVIIVBRI03S000": {
         "Agent": "Firms",
         "Emission sector": "Cross-sectoral; Industry",
         "English instrument name": "Energy Efficiency and Carbon Efficiency Top-Runner Programme",
@@ -92064,7 +90160,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Other weblinks": "https://wap.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_277a824ef0ae478faf7dc2d4f14b5db6.html",
         "Last revisions (Details)": "On 31 December 2014, the NDRC and other departments issued the Implementation Plan for the Energy Efficiency Top-Runner Programme (NDRC Environment and Resources [2014] No. 3001), establishing the top-runner system covering three categories: end-use energy-consuming products, high-energy-consuming industry enterprises and public institutions. The programme has been implemented since then, with multiple batches of key-industry energy efficiency top-runner enterprises and public institution top runners published. On 23 September 2022, the General Office of the State Council issued the Opinions on Deepening the Reform of the Management System for the Electronic and Electrical Appliances Industry (Guobanfa [2022] No. 31), abolishing the energy efficiency top-runner product selection system (end-use energy-consuming products track); the enterprise and public institution top-runner tracks continue. In 2023-2024, top-runner selection continued for key industries (MIIT Joint Notification [2023] No. 278, covering 37 sub-sectors) and public institutions (Guoguan Energy Conservation [2023] No. 282). On 30 July 2026, the General Offices of MIIT, NDRC and SAMR issued the Notice on Organising the 2026 Recommendation of Energy Efficiency and Carbon Efficiency Top-Runner Enterprises in Key Industries (MIIT Joint Notification [2026] No. 372), expanding the recommended scope of key-industry energy efficiency top-runner enterprises to 43 sub-sectors, establishing the carbon efficiency top-runner selection for the first time (electrolytic aluminium, cement clinker, synthetic ammonia, ethylene and methanol — five sub-sectors), and adding a green electricity consumption share requirement.",
     },
-    "CHNVIIVLBI04S001": {
+    "CHNVIIVBRI03S001": {
         "Emission sector": "Cross-sectoral; Industry",
         "English instrument name": "Energy Efficiency Top-Runner",
         "Policy Package": "Energy Efficiency and Carbon Efficiency Top-Runner Programme",
@@ -92076,19 +90172,39 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Agent": "Firms",
         "Agent (Detail)": "Enterprises in high-energy-consuming industries and public institutions. Enterprises may voluntarily apply for top-runner status, submitting unit product energy consumption data, and be selected following preliminary review, expert review and public notification. Public institutions may voluntarily apply for public institution top-runner status. The end-use energy-consuming product top-runner selection was abolished in September 2022. Participation is voluntary, with no mandatory compliance obligations.",
         "Activity": "Registration, licensing or other administrative tasks",
-        "Activity (Details)": "The activity regulated and guided by this subscheme is the voluntary application, selection and publication process for energy efficiency top runners among high-energy-consuming industry enterprises and public institutions. Enterprises or public institutions voluntarily submit application materials (unit product energy consumption data or per-unit-floor-area energy consumption indicators); following local recommendation, expert review and public notification, the competent government authorities publish the top-runner list. The list is valid for approximately two years, after which re-selection takes place. Participation is voluntary.",
+        "Activity (Details)": (
+            "The activity regulated and guided by this instrument is the voluntary "
+            "application, selection and publication process for energy efficiency top "
+            "runners among high-energy-consuming industry enterprises and public "
+            "institutions. Enterprises or public institutions voluntarily submit "
+            "application materials (unit product energy consumption data or "
+            "per-unit-floor-area energy consumption indicators); following local "
+            "recommendation, expert review and public notification, the competent "
+            "government authorities publish the top-runner list. The list is valid for "
+            "approximately two years, after which re-selection takes place. The end-use "
+            "energy-consuming product top-runner selection was abolished in September "
+            "2022 (Guobanfa [2022] No. 31). Participation is voluntary."
+        ),
         "Requirement specification": "1) The unit product energy consumption of high-energy-consuming industry enterprises must reach the industry advanced level; 2) Public institutions must reach the advanced level of energy and resource consumption for the corresponding category of public institutions; 3) Selection is through voluntary enterprise/public institution application, local recommendation, expert review and public notification; 4) The top-runner list is valid for approximately two years, after which re-selection takes place; 5) From the 2026 round, in principle no more than 5 energy efficiency top-runner enterprises may be designated per industry; 6) Participation is voluntary.",
         "Incentives for Participation": "Selected top-runner enterprises and public institutions receive national and local media publicity and promotion, enhancing brand image and industry influence; they receive priority recommendation for inclusion in relevant demonstration lists; some localities provide commendation and financial awards to top-runner enterprises and public institutions; public institution top runners are incorporated into evaluation systems such as the establishment of resource-conserving institutions.",
         "Monitoring": "Selected top-runner enterprises and public institutions are subject to dynamic management during the validity period; if the enterprise unit product energy consumption or public institution energy consumption no longer meets the top-runner requirements, the top-runner qualification is revoked. The competent authorities organise third-party bodies to conduct supervisory inspections.",
         "Sanctions for non-compliance": "N/A (voluntary programme; no non-compliance sanctions. Those that no longer meet the top-runner conditions or are found to have engaged in falsification shall have their top-runner qualification revoked and be publicly announced.)",
-        "GHG emission coverage (absolute)": "N/A (this subscheme is a voluntary benchmarking mechanism; the amount of GHG emissions covered depends on the scale and extent of voluntary enterprise and public institution participation and energy efficiency improvement, and there is no directly quantifiable fixed coverage amount)",
-        "GHG emission coverage (% domestic emissions)": "N/A (this subscheme is a voluntary tool; the share of GHG emissions covered depends on voluntary uptake)",
+        "GHG emission coverage (absolute)": (
+            "N/A (this instrument is a voluntary benchmarking programme; the amount of "
+            "GHG emissions covered depends on the scale and extent of voluntary "
+            "enterprise and public institution participation and energy efficiency "
+            "improvement, and there is no directly quantifiable fixed coverage amount)"
+        ),
+        "GHG emission coverage (% domestic emissions)": (
+            "N/A (this instrument is a voluntary tool; the share of GHG emissions "
+            "covered depends on voluntary uptake)"
+        ),
         "Mitigation co-benefits": "Energy conservation; Technological innovation; Industrial development; Pollution control",
         "Legal statute": "Notice on Issuing the Implementation Plan for the Energy Efficiency Top-Runner Programme (NDRC Environment and Resources [2014] No. 3001); Notice on Organising the 2026 Recommendation of Energy Efficiency and Carbon Efficiency Top-Runner Enterprises in Key Industries (MIIT Joint Notification [2026] No. 372)",
         "Other weblinks": "https://wap.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_277a824ef0ae478faf7dc2d4f14b5db6.html",
         "Last revisions (Details)": "On 31 December 2014, the NDRC and other departments issued the Implementation Plan for the Energy Efficiency Top-Runner Programme (NDRC Environment and Resources [2014] No. 3001), establishing the top-runner system covering three categories: end-use energy-consuming products, high-energy-consuming industry enterprises and public institutions. On 23 September 2022, the General Office of the State Council issued the Opinions on Deepening the Reform of the Management System for the Electronic and Electrical Appliances Industry (Guobanfa [2022] No. 31), abolishing the energy efficiency top-runner product selection track; the enterprise and public institution top-runner tracks continue. In 2023-2024, top-runner selection continued for key industries (MIIT Joint Notification [2023] No. 278, covering 37 sub-sectors) and public institutions (Guoguan Energy Conservation [2023] No. 282). On 30 July 2026, the General Offices of MIIT, NDRC and SAMR issued the Notice on Organising the 2026 Recommendation of Energy Efficiency and Carbon Efficiency Top-Runner Enterprises in Key Industries (MIIT Joint Notification [2026] No. 372), expanding the recommended scope of key-industry energy efficiency top-runner enterprises to 43 sub-sectors and adding a green electricity consumption share requirement.",
     },
-    "CHNVIIVLBI04S002": {
+    "CHNVIIVBRI03S002": {
         "Mitigation effect": "Positive",
 
         "Emission sector": "Industry",
@@ -92143,7 +90259,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Emission sector": "Buildings",
         "English instrument name": "Nearly Zero Energy Building Label",
         "Description": "The Nearly Zero Energy Building Label is a voluntary evaluation system for assessing and labelling building projects that meet the nearly zero energy building technical standards. Based on the national standard GB/T 51350-2019 Technical Standard for Nearly Zero Energy Buildings, it comprehensively assesses the indoor environmental parameters and energy efficiency indicators of buildings, awarding corresponding labels to ultra-low energy buildings, nearly zero energy buildings and zero energy buildings that meet the standards. Labels are divided into three grades: ultra-low energy building (energy saving rate of 82%-85% or above), nearly zero energy building (energy saving rate of 86%-90% or above) and zero energy building (annual renewable energy generation greater than or equal to the building's own annual final energy consumption). Assessment indicators include building energy efficiency indicators (building envelope energy saving rate, comprehensive building energy saving rate, renewable energy utilisation rate) and indoor environmental parameters (temperature, humidity, fresh air volume, noise, etc.), verified through building energy simulation calculations and on-site testing. The system was promoted and established by the housing and urban-rural development authorities and the building energy conservation associations, and formally came into operation after the implementation of the national standard GB/T 51350-2019 in 2019. Project owners voluntarily apply; there are no mandatory compliance obligations or penalties.",
-        "Objective": "Energy conservation; Climate change mitigation",
+        "Objective": "Energy efficiency; Climate change mitigation",
         "Administrating authorities": "Ministry of Housing and Urban-Rural Development (Department of Standard Quota); China Association of Building Energy Efficiency and other authorised assessment bodies",
         "Asset": "Buildings (nearly zero energy building evaluation objects)",
         "Asset (Details)": "The object defined and covered by this instrument is the various types of new, renovated and expanded civil buildings, including residential buildings and public buildings. Evaluation is based on GB/T 51350-2019 Technical Standard for Nearly Zero Energy Buildings, and buildings are classified as ultra-low energy, nearly zero energy or zero energy according to indicators such as building envelope energy saving rate, comprehensive building energy saving rate and renewable energy utilisation rate. Evaluation applies to both the design phase and the operation phase.",
@@ -92165,7 +90281,36 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "Emission sector": "Cross-sectoral",
         "English instrument name": "Product Carbon Footprint Label",
-        "Description": "The Product Carbon Footprint Label Certification is a voluntary product carbon footprint labelling and certification system jointly established and implemented by the State Administration for Market Regulation and other departments. Based on product carbon footprint accounting standards and certification specifications, the full-life-cycle GHG emissions of products — from raw material acquisition, manufacturing, distribution and transport, use and consumption to disposal and recycling — are quantified, verified and labelled, conveying product carbon emission information to consumers and purchasers through a unified carbon footprint label and guiding low-carbon consumption and low-carbon production. The system was established under the Notice on Launching the Pilot Programme for Product Carbon Footprint Label Certification (Guoshijian Ren Zhengfa [2024] No. 85) jointly issued by the State Administration for Market Regulation, the Ministry of Ecology and Environment, the National Development and Reform Commission and the Ministry of Industry and Information Technology in August 2024. The pilot covers 11 priority product categories — lithium batteries, photovoltaic products, steel, textiles, electronic and electrical appliances, tyres, cement, electrolytic aluminium, urea, ammonium phosphate and wood products — with a pilot period of three years. The certification and labelling system covers two labelling forms: carbon footprint quantification labels and carbon footprint grade labels. Enterprises voluntarily apply for certification; there are no mandatory compliance obligations or penalties.",
+        "Description": (
+            "The Product Carbon Footprint Label Certification is a voluntary product "
+            "carbon footprint labelling and certification system jointly established "
+            "and implemented by the State Administration for Market Regulation and "
+            "other departments. Based on product carbon footprint accounting standards "
+            "and certification specifications, the full-life-cycle GHG emissions of "
+            "products — from raw material acquisition, manufacturing, distribution and "
+            "transport, use and consumption to disposal and recycling — are quantified, "
+            "verified and labelled, conveying product carbon emission information to "
+            "consumers and purchasers through a unified carbon footprint label and "
+            "guiding low-carbon consumption and low-carbon production. The system was "
+            "established under the Notice on Launching the Pilot Programme for Product "
+            "Carbon Footprint Label Certification (Guoshijian Ren Zhengfa [2024] No. "
+            "85) jointly issued by the State Administration for Market Regulation, the "
+            "Ministry of Ecology and Environment, the National Development and Reform "
+            "Commission and the Ministry of Industry and Information Technology in "
+            "August 2024. The pilot covers 11 priority product categories — lithium "
+            "batteries, photovoltaic products, steel, textiles, electronic and "
+            "electrical appliances, tyres, cement, electrolytic aluminium, urea, "
+            "ammonium phosphate and wood products — with a pilot period of three years. "
+            "The certification and labelling system covers two labelling forms: carbon "
+            "footprint quantification labels and carbon footprint grade labels. "
+            "Enterprises voluntarily apply for certification; there are no mandatory "
+            "compliance obligations or penalties.The Implementation Plan for "
+            "Accelerating the Establishment of a Carbon Emissions Dual-Control Work "
+            "System in the Industry and Information Technology Sector (October 2026) "
+            "sets a target of formulating and implementing approximately 400 carbon "
+            "footprint accounting rules and standards for key industrial products by "
+            "2030."
+        ),
         "Objective": "Climate change mitigation; Green consumption",
         "Administrating authorities": "State Administration for Market Regulation (Department of Certification Supervision); Ministry of Ecology and Environment; National Development and Reform Commission; Ministry of Industry and Information Technology",
         "Asset": "Products (carbon footprint label certification objects)",
@@ -92189,7 +90334,49 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
         "Emission sector": "Industry",
         "English instrument name": "Zero-Carbon Factory Label",
-        "Description": "The Zero-Carbon Factory Label is a national-level voluntary factory evaluation, designation and labelling system established by the Ministry of Industry and Information Technology, founded on the Guiding Opinions on the Construction of Zero-Carbon Factories (MIIT Joint Energy Conservation [2026] No. 13) and the Notice of the General Office of the Ministry of Industry and Information Technology on Organising the Construction of National Zero-Carbon Factories (MIIT Office Energy Conservation Letter [2026] No. 334, dated 13 July 2026). A zero-carbon factory (including zero-carbon computing facilities) refers to a manufacturing enterprise or computing facility that, through emission reduction measures such as technological innovation, structural adjustment and management optimisation, continuously reduces carbon dioxide emissions within its boundary and gradually moves towards near-zero emissions. The system follows the implementation path of 'voluntary application, provincial recommendation, expert review, construction management, and evaluation and acceptance': applicant entities voluntarily submit application materials through the Industrial Energy Conservation and Green Development Management Platform (green.miit.gov.cn); provincial industry and information technology authorities review and recommend; the Ministry of Industry and Information Technology organises expert review and publishes the national zero-carbon factory construction list. During the construction period (no later than 2030), annual targets for core indicators are met year by year; once the target requirements are achieved, acceptance inspection is organised under the principle of 'accepting each mature batch'; those passing acceptance formally become national zero-carbon factories. Those that still fail to pass acceptance upon expiry of the construction period are removed from the construction list; after passing acceptance, the achievement of core indicators must be disclosed annually on a continuous basis. Core indicators are set at two tiers, 'basic requirement → target requirement': carbon emissions per unit energy consumption no higher than 1.8 → 0.2 tonnes of CO2 per tonne of standard coal equivalent; non-fossil energy consumption share no lower than 30% → 95%; physically verified non-fossil electricity consumption share no lower than 10% → 35% (applicable to applicants with annual electricity consumption above 5 million kWh; no basic requirement is set for computing facilities). Participation is voluntary, with no mandatory compliance obligations or penalties.",
+        "Description": (
+            "The Zero-Carbon Factory Label is a national-level voluntary factory "
+            "evaluation, designation and labelling system established by the Ministry "
+            "of Industry and Information Technology, founded on the Guiding Opinions on "
+            "the Construction of Zero-Carbon Factories (MIIT Joint Energy Conservation "
+            "[2026] No. 13) and the Notice of the General Office of the Ministry of "
+            "Industry and Information Technology on Organising the Construction of "
+            "National Zero-Carbon Factories (MIIT Office Energy Conservation Letter "
+            "[2026] No. 334, dated 13 July 2026). A zero-carbon factory (including "
+            "zero-carbon computing facilities) refers to a manufacturing enterprise or "
+            "computing facility that, through emission reduction measures such as "
+            "technological innovation, structural adjustment and management "
+            "optimisation, continuously reduces carbon dioxide emissions within its "
+            "boundary and gradually moves towards near-zero emissions. The system "
+            "follows the implementation path of 'voluntary application, provincial "
+            "recommendation, expert review, construction management, and evaluation and "
+            "acceptance': applicant entities voluntarily submit application materials "
+            "through the Industrial Energy Conservation and Green Development "
+            "Management Platform (green.miit.gov.cn); provincial industry and "
+            "information technology authorities review and recommend; the Ministry of "
+            "Industry and Information Technology organises expert review and publishes "
+            "the national zero-carbon factory construction list. During the "
+            "construction period (no later than 2030), annual targets for core "
+            "indicators are met year by year; once the target requirements are "
+            "achieved, acceptance inspection is organised under the principle of "
+            "'accepting each mature batch'; those passing acceptance formally become "
+            "national zero-carbon factories. Those that still fail to pass acceptance "
+            "upon expiry of the construction period are removed from the construction "
+            "list; after passing acceptance, the achievement of core indicators must be "
+            "disclosed annually on a continuous basis. Core indicators are set at two "
+            "tiers, 'basic requirement → target requirement': carbon emissions per unit "
+            "energy consumption no higher than 1.8 → 0.2 tonnes of CO2 per tonne of "
+            "standard coal equivalent; non-fossil energy consumption share no lower "
+            "than 30% → 95%; physically verified non-fossil electricity consumption "
+            "share no lower than 10% → 35% (applicable to applicants with annual "
+            "electricity consumption above 5 million kWh; no basic requirement is set "
+            "for computing facilities). Participation is voluntary, with no mandatory "
+            "compliance obligations or penalties.The Implementation Plan for "
+            "Accelerating the Establishment of a Carbon Emissions Dual-Control Work "
+            "System in the Industry and Information Technology Sector (October 2026) "
+            "sets a target of building approximately 500 national zero-carbon factories "
+            "and zero-carbon computing facilities by 2030."
+        ),
         "Objective": "Climate change mitigation; Industrial development",
         "Administrating authorities": "Ministry of Industry and Information Technology (Department of Energy Conservation and Comprehensive Utilisation, lead); provincial industry and information technology authorities (review, recommendation and follow-up management)",
         "Asset": "Manufacturing enterprises; computing facilities (national zero-carbon factory designation and evaluation objects)",
@@ -92259,7 +90446,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
 
     # ── VPG: Voluntary procurement guidance ──
     "CHNVIIVPGI01S000": {
-        "Group": "Voluntary information instrument",
+        "Group": "Voluntary information instruments",
         "Approach": "Voluntary procurement guidance",
         "Emission sector": "Cross-sectoral",
         "English instrument name": "Enterprise Green Procurement Guide",
@@ -93312,7 +91499,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Instrument linkage": (
             "Provides the standards foundation for the application-layer "
             "instruments of the green manufacturing system, including the Green "
-            "Factory Gradient Cultivation and Management (CHNCBACBPI01S000), "
+            "Factory Gradient Cultivation and Management (CHNVIIVBRI01S000), "
             "eco-design product evaluation, green industrial park evaluation and "
             "green supply chain management evaluation. Complements and interfaces "
             "with national energy consumption quota standards (GB series), "
@@ -93568,7 +91755,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             " (preparation guidance)"
         ),
     },
-    "CHNCBAPCEI01S000": {
+    "CHNCBAOSSI01S000": {
         "Emission sector": "Cross-sectoral",
         "English instrument name": "National Occupational Standard for Carbon Emission Administrators",
         "Description": (
@@ -93979,9 +92166,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Other weblinks": "N/A",
     },
-    "CHNVTSVCMI01S000": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S000": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "AFOLU; Energy; Transport; Industry; Buildings",
         "Sub-sector": (
             "Forestry carbon sink; Renewable energy generation; "
@@ -94074,10 +92261,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (project owners and trading participants); "
-            "Financial institutions; Validation and verification bodies"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Emission reduction project owners: legally established "
             "legal persons and other organisations within China that "
@@ -94128,29 +92312,33 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "8.8441 million tonnes with turnover of CNY 626 million."
         ),
         "Requirement specification": (
-            "1) Emission reduction projects must be genuine, unique "
-            "and additional, fall within the scope supported by "
-            "methodologies published by MEE, have commenced "
-            "construction after 8 November 2012, and have emission "
-            "reductions generated after 22 September 2020 and within "
-            "5 years prior to the date of the registration "
-            "application; 2) Projects subject to statutory emission "
-            "reduction obligations or already included under quota "
-            "management in the carbon emissions trading market may "
-            "not apply for CCER project registration; 3) Project "
-            "owners may not engage the same body to undertake both "
-            "project validation and emission reduction verification; "
-            "4) All trading must be conducted through the unified "
-            "trading system of the Beijing Green Exchange; 5) Key "
-            "emitting entities may use CCERs to offset no more than "
-            "5% of the carbon emission allowances required to be "
-            "surrendered; 6) Trading methods include listed agreement, "
-            "block agreement and one-way bidding; 7) Project owners "
-            "providing false materials face a fine of CNY 10,000-"
-            "100,000; fraudulent conduct leads to revocation of "
-            "registration and a three-year ban on re-application; "
-            "validation and verification bodies in breach face fines "
-            "of CNY 50,000-200,000."
+            "1) Emission reduction projects must be genuine, unique and additional, "
+            "fall within the scope supported by methodologies published by MEE, have "
+            "commenced construction after 8 November 2012, and have emission reductions "
+            "generated after 22 September 2020 and within 5 years prior to the date of "
+            "the registration application; 2) Projects subject to statutory emission "
+            "reduction obligations or already included under quota management in the "
+            "carbon emissions trading market may not apply for CCER project "
+            "registration; 3) Project owners may not engage the same body to undertake "
+            "both project validation and emission reduction verification; 4) All "
+            "trading must be conducted through the unified trading system of the "
+            "Beijing Green Exchange; 5) Key emitting entities may use CCERs to offset "
+            "no more than 5% of the carbon emission allowances required to be "
+            "surrendered; 6) Trading methods include listed agreement, block agreement "
+            "and one-way bidding; 7) Project owners providing false materials face a "
+            "fine of CNY 10,000-100,000; fraudulent conduct leads to revocation of "
+            "registration and a three-year ban on re-application; validation and "
+            "verification bodies in breach face fines of CNY 50,000-200,000.Supervision "
+            "and management: MEE is responsible for overall regulation and supervision "
+            "of project owners; market regulation authorities are responsible for "
+            "day-to-day oversight of validation and verification activities; the "
+            "registry operator reviews project registration and emission reduction "
+            "issuance (review within 15 working days); the trading platform operator "
+            "conducts real-time monitoring of CCER trading behaviour; validation and "
+            "verification bodies are included under certification body management (must "
+            "meet qualification requirements including at least 10 full-time "
+            "professionals). MEE and SAMR have established information sharing and "
+            "coordination mechanisms; public supervision is encouraged."
         ),
         "Compliance calculation methodology I": (
             "Emission reductions = Baseline emissions - Project "
@@ -94167,49 +92355,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "N/A (each methodology prescribes only one calculation "
             "method)"
         ),
-        "Incentives for Participation": (
-            "Emission reduction project owners may earn carbon "
-            "revenue through the issuance and sale of CCERs; the "
-            "2025 CCER average trading price was CNY 70.76/tCO2 "
-            "(CNY 81.58/t for solar thermal projects and "
-            "CNY 69.27/t for offshore wind power) (Source: CBEEX), "
-            "providing an additional income source for renewable "
-            "energy, forestry carbon sink and other projects; "
-            "buyers may offset carbon emission allowance surrender "
-            "obligations or achieve carbon neutrality declarations "
-            "by purchasing CCERs, reducing compliance costs; the "
-            "first batch of CCERs commenced trading on 7 March 2025, "
-            "with first-day trading volume of 748,800 tonnes, "
-            "turnover of CNY 60.2418 million and an average price of "
-            "CNY 80.45/tCO2."
-        ),
-        "Monitoring": (
-            "MEE is responsible for overall regulation and "
-            "supervision of project owners; market regulation "
-            "authorities are responsible for day-to-day oversight "
-            "of validation and verification activities; the registry "
-            "operator reviews project registration and emission "
-            "reduction issuance (review within 15 working days); the "
-            "trading platform operator conducts real-time monitoring "
-            "of CCER trading behaviour; validation and verification "
-            "bodies are included under certification body management "
-            "(must meet qualification requirements including at least "
-            "10 full-time professionals). MEE and SAMR have "
-            "established information sharing and coordination "
-            "mechanisms; public supervision is encouraged."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials or tampering "
-            "with data: fine of CNY 10,000-100,000; intentional "
-            "fraudulent conduct leads to revocation of project "
-            "registration and a three-year ban on the owner's CCER "
-            "project registration applications. Validation and "
-            "verification bodies issuing false reports or in breach: "
-            "fine of CNY 50,000-200,000, with revocation of approval "
-            "documents in serious cases. Trading participants "
-            "manipulating the market: public reprimand and fine of "
-            "CNY 10,000-100,000."
-        ),
         "GHG emission coverage (absolute)": (
             "By end-2025, cumulative registered emission reductions "
             "of 17.7637 million tCO2e; cumulative trading volume of "
@@ -94225,7 +92370,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Economic sector": "A01; A02; B05; B06; D35; F41",
         "GHGs affected": "CO2; CH4; SF6; HFCs",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Renewable energy development; Technological innovation; Ecological protection; Industrial development; Resource conservation; Pollution control; Energy security; Biodiversity conservation; Climate change adaptation"
         ),
@@ -94268,9 +92413,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Information Network)"
         ),
     },
-    "CHNVTSVCMI01S001": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S001": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "AFOLU",
         "Sub-sector": "Forestry carbon sink",
         "Domestic instrument name": (
@@ -94326,10 +92471,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (afforestation project owners, forestry "
-            "operating entities)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Legal persons or other organisations legally "
             "established within China that own or manage "
@@ -94364,16 +92506,17 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "CNY 70.76/tCO2 (Source: Beijing Green Exchange)."
         ),
         "Requirement specification": (
-            "1) The afforestation land must be planned afforestation "
-            "land that does not meet the forest definition and must "
-            "have been non-forested for at least 3 consecutive years "
-            "before the project start; 2) Project activities must "
-            "not lead to a decrease in the carbon stock of the "
-            "original ecosystem; 3) The project crediting period is "
-            "20-40 years; 4) Carbon pool accounting must use the "
-            "models and parameters prescribed by the methodology; "
-            "5) The project must have commenced construction after "
-            "8 November 2012."
+            "1) The afforestation land must be planned afforestation land that does not "
+            "meet the forest definition and must have been non-forested for at least 3 "
+            "consecutive years before the project start; 2) Project activities must not "
+            "lead to a decrease in the carbon stock of the original ecosystem; 3) The "
+            "project crediting period is 20-40 years; 4) Carbon pool accounting must "
+            "use the models and parameters prescribed by the methodology; 5) The "
+            "project must have commenced construction after 8 November 2012.Supervision "
+            "and management: Project owners carry out periodic carbon sink monitoring "
+            "as prescribed by the methodology (including fixed-plot surveys); "
+            "validation and verification bodies are responsible for project validation "
+            "and emission reduction verification; MEE exercises overall supervision."
         ),
         "Compliance calculation methodology I": (
             "Net carbon sink = Change in project carbon sink - "
@@ -94395,28 +92538,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the issuance "
-            "and sale of CCERs; afforestation carbon sink projects "
-            "also deliver ecological protection benefits and may "
-            "receive additional market recognition through local "
-            "innovative mechanisms such as forestry carbon tickets."
-        ),
-        "Monitoring": (
-            "Project owners carry out periodic carbon sink monitoring "
-            "as prescribed by the methodology (including fixed-plot "
-            "surveys); validation and verification bodies are "
-            "responsible for project validation and emission "
-            "reduction verification; MEE exercises overall "
-            "supervision."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale and "
             "voluntary development conditions)"
@@ -94424,7 +92545,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "A02",
         "GHGs affected": "CO2",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Ecological protection; Biodiversity conservation; Resource conservation; Climate change adaptation"
         ),
@@ -94448,9 +92569,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "consultation)"
         ),
     },
-    "CHNVTSVCMI01S002": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S002": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "Energy",
         "Sub-sector": "Renewable energy generation",
         "Domestic instrument name": (
@@ -94500,9 +92621,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (solar thermal power project owners)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Legal persons or other organisations legally "
             "established within China that invest in, construct and "
@@ -94537,14 +92656,17 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "CNY 70.76/tCO2 (Source: Beijing Green Exchange)."
         ),
         "Requirement specification": (
-            "1) The project must be a stand-alone solar thermal power "
-            "project or the solar thermal power component of an "
-            "integrated wind-solar-thermal project; 2) The project "
-            "must be a new or expanded project; 3) Project emission "
-            "reduction accounting must use the grid emission factor "
-            "for grid-connected power generation baseline prescribed "
-            "by the methodology; 4) The project must have commenced "
-            "construction after 8 November 2012."
+            "1) The project must be a stand-alone solar thermal power project or the "
+            "solar thermal power component of an integrated wind-solar-thermal project; "
+            "2) The project must be a new or expanded project; 3) Project emission "
+            "reduction accounting must use the grid emission factor for grid-connected "
+            "power generation baseline prescribed by the methodology; 4) The project "
+            "must have commenced construction after 8 November 2012.Supervision and "
+            "management: Project owners monitor parameters including electricity "
+            "generation, on-grid electricity and auxiliary fuel consumption as "
+            "prescribed by the methodology; validation and verification bodies are "
+            "responsible for project validation and emission reduction verification; "
+            "MEE exercises overall supervision."
         ),
         "Compliance calculation methodology I": (
             "Emission reductions = Baseline emissions - Project "
@@ -94561,28 +92683,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the issuance "
-            "and sale of CCERs (2025 average price CNY 81.58/tCO2); "
-            "CCER revenue provides an additional income stream for "
-            "solar thermal power projects, improving project "
-            "economics."
-        ),
-        "Monitoring": (
-            "Project owners monitor parameters including electricity "
-            "generation, on-grid electricity and auxiliary fuel "
-            "consumption as prescribed by the methodology; validation "
-            "and verification bodies are responsible for project "
-            "validation and emission reduction verification; MEE "
-            "exercises overall supervision."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale and "
             "voluntary development conditions)"
@@ -94590,7 +92690,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "D35",
         "GHGs affected": "CO2",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Renewable energy development; Technological innovation; Pollution control; Energy security"
         ),
@@ -94610,9 +92710,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "https://www.cbeex.com.cn/ (Beijing Green Exchange)"
         ),
     },
-    "CHNVTSVCMI01S003": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S003": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "Energy",
         "Sub-sector": "Renewable energy generation",
         "Domestic instrument name": (
@@ -94666,9 +92766,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (offshore wind power project owners)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Legal persons or other organisations legally "
             "established within China that invest in, construct and "
@@ -94704,13 +92802,16 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "relaunch (Source: Beijing Green Exchange)."
         ),
         "Requirement specification": (
-            "1) The project must be an offshore grid-connected wind "
-            "power project (excluding intertidal and onshore wind "
-            "power); 2) The project must be a new project; 3) "
-            "Project emission reduction accounting must use the "
-            "grid emission factor for grid-connected power generation "
-            "baseline prescribed by the methodology; 4) The project "
-            "must have commenced construction after 8 November 2012."
+            "1) The project must be an offshore grid-connected wind power project "
+            "(excluding intertidal and onshore wind power); 2) The project must be a "
+            "new project; 3) Project emission reduction accounting must use the grid "
+            "emission factor for grid-connected power generation baseline prescribed by "
+            "the methodology; 4) The project must have commenced construction after 8 "
+            "November 2012.Supervision and management: Project owners monitor "
+            "parameters including electricity generation and on-grid electricity as "
+            "prescribed by the methodology; validation and verification bodies are "
+            "responsible for project validation and emission reduction verification; "
+            "MEE exercises overall supervision."
         ),
         "Compliance calculation methodology I": (
             "Emission reductions = Baseline emissions - Project "
@@ -94725,29 +92826,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the issuance "
-            "and sale of CCERs (2025 average price CNY 69.27/tCO2); "
-            "CCER revenue provides an additional income stream for "
-            "offshore wind power projects; the first transaction "
-            "after the CCER market relaunch was for an offshore wind "
-            "power project (7 March 2025)."
-        ),
-        "Monitoring": (
-            "Project owners monitor parameters including electricity "
-            "generation and on-grid electricity as prescribed by the "
-            "methodology; validation and verification bodies are "
-            "responsible for project validation and emission "
-            "reduction verification; MEE exercises overall "
-            "supervision."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale and "
             "voluntary development conditions)"
@@ -94755,7 +92833,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "D35",
         "GHGs affected": "CO2",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Renewable energy development; Technological innovation; Pollution control; Energy security"
         ),
@@ -94773,9 +92851,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "https://www.cbeex.com.cn/ (Beijing Green Exchange)"
         ),
     },
-    "CHNVTSVCMI01S004": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S004": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "AFOLU",
         "Sub-sector": "Marine carbon sink (blue carbon)",
         "Domestic instrument name": (
@@ -94831,10 +92909,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (mangrove project owners, coastal "
-            "ecological restoration implementing entities)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Legal persons or other organisations legally "
             "established within China that own or manage coastal "
@@ -94869,16 +92944,18 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "CNY 70.76/tCO2 (Source: Beijing Green Exchange)."
         ),
         "Requirement specification": (
-            "1) The project land must be in an intertidal or "
-            "supratidal zone suitable for mangrove growth and must "
-            "be suitable land with no mangrove cover before the "
-            "project start; 2) Project activities must not lead to "
-            "a decrease in the carbon stock of the original "
-            "ecosystem; 3) The project crediting period is 20-40 "
-            "years; 4) Carbon pool accounting must use the models "
-            "and parameters prescribed by the methodology; 5) The "
-            "project must have commenced construction after 8 "
-            "November 2012."
+            "1) The project land must be in an intertidal or supratidal zone suitable "
+            "for mangrove growth and must be suitable land with no mangrove cover "
+            "before the project start; 2) Project activities must not lead to a "
+            "decrease in the carbon stock of the original ecosystem; 3) The project "
+            "crediting period is 20-40 years; 4) Carbon pool accounting must use the "
+            "models and parameters prescribed by the methodology; 5) The project must "
+            "have commenced construction after 8 November 2012.Supervision and "
+            "management: Project owners carry out periodic mangrove carbon sink "
+            "monitoring as prescribed by the methodology (including fixed-plot "
+            "surveys); validation and verification bodies are responsible for project "
+            "validation and emission reduction verification; MEE exercises overall "
+            "supervision."
         ),
         "Compliance calculation methodology I": (
             "Net carbon sink = Change in project carbon sink - "
@@ -94901,28 +92978,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the issuance "
-            "and sale of CCERs; mangrove carbon sink projects also "
-            "deliver multiple ecological benefits including coastal "
-            "protection and biodiversity conservation, commanding "
-            "high market value and social recognition."
-        ),
-        "Monitoring": (
-            "Project owners carry out periodic mangrove carbon sink "
-            "monitoring as prescribed by the methodology (including "
-            "fixed-plot surveys); validation and verification bodies "
-            "are responsible for project validation and emission "
-            "reduction verification; MEE exercises overall "
-            "supervision."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale and "
             "voluntary development conditions)"
@@ -94930,7 +92985,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "A02",
         "GHGs affected": "CO2",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Ecological protection; Biodiversity conservation; Climate change adaptation; Pollution control; Resource conservation"
         ),
@@ -94954,9 +93009,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "consultation)"
         ),
     },
-    "CHNVTSVCMI01S005": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S005": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "Transport",
         "Sub-sector": "Road tunnel energy saving",
         "Domestic instrument name": (
@@ -95005,10 +93060,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (road tunnel operation and management "
-            "entities)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Legal persons or other organisations legally "
             "established within China that operate and manage "
@@ -95046,16 +93098,18 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Exchange)."
         ),
         "Requirement specification": (
-            "1) The project must be an energy saving retrofit of "
-            "the lighting system of an existing road tunnel and "
-            "the retrofitted system must meet the minimum "
-            "illuminance requirements of relevant road tunnel "
-            "lighting design standards; 2) The baseline energy "
-            "consumption level must be based on actual monitored "
-            "data before the retrofit; 3) Emission reduction "
-            "accounting must use the grid emission factor "
-            "prescribed by the methodology; 4) The project must "
-            "have commenced construction after 8 November 2012."
+            "1) The project must be an energy saving retrofit of the lighting system of "
+            "an existing road tunnel and the retrofitted system must meet the minimum "
+            "illuminance requirements of relevant road tunnel lighting design "
+            "standards; 2) The baseline energy consumption level must be based on "
+            "actual monitored data before the retrofit; 3) Emission reduction "
+            "accounting must use the grid emission factor prescribed by the "
+            "methodology; 4) The project must have commenced construction after 8 "
+            "November 2012.Supervision and management: Project owners continuously "
+            "monitor electricity consumption of the lighting system as prescribed by "
+            "the methodology; validation and verification bodies are responsible for "
+            "project validation and emission reduction verification; MEE exercises "
+            "overall supervision."
         ),
         "Compliance calculation methodology I": (
             "Emission reductions = Baseline emissions - Project "
@@ -95071,28 +93125,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the "
-            "issuance and sale of CCERs; the lighting energy "
-            "saving itself reduces tunnel operating electricity "
-            "costs, delivering dual economic benefits from energy "
-            "saving and carbon revenue."
-        ),
-        "Monitoring": (
-            "Project owners continuously monitor electricity "
-            "consumption of the lighting system as prescribed by "
-            "the methodology; validation and verification bodies "
-            "are responsible for project validation and emission "
-            "reduction verification; MEE exercises overall "
-            "supervision."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale and "
             "voluntary development conditions)"
@@ -95100,7 +93132,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "D35",
         "GHGs affected": "CO2",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Energy conservation; Technological innovation; Pollution control"
         ),
@@ -95119,9 +93151,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Information Network)"
         ),
     },
-    "CHNVTSVCMI01S006": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S006": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "Industry",
         "Sub-sector": "Coal mine gas utilisation",
         "Domestic instrument name": (
@@ -95173,10 +93205,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (coal mine enterprises, gas utilisation "
-            "project owners)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Legal persons or other organisations legally "
             "established within China that operate coal mines "
@@ -95215,17 +93244,19 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "CNY 70.76/tCO2 (Source: Beijing Green Exchange)."
         ),
         "Requirement specification": (
-            "1) The project must target coal mine gas with "
-            "methane concentration below 8% and/or coal mine "
-            "ventilation air methane (VAM); 2) The project must "
-            "use oxidative destruction or energy utilisation "
-            "technology, and the methane destruction rate must "
-            "meet the minimum threshold prescribed by the "
-            "methodology; 3) Emission reduction accounting must "
-            "use the methane GWP (28) and default oxidation "
-            "efficiency values prescribed by the methodology; "
-            "4) The project must have commenced construction "
-            "after 8 November 2012."
+            "1) The project must target coal mine gas with methane concentration below "
+            "8% and/or coal mine ventilation air methane (VAM); 2) The project must use "
+            "oxidative destruction or energy utilisation technology, and the methane "
+            "destruction rate must meet the minimum threshold prescribed by the "
+            "methodology; 3) Emission reduction accounting must use the methane GWP "
+            "(28) and default oxidation efficiency values prescribed by the "
+            "methodology; 4) The project must have commenced construction after 8 "
+            "November 2012.Supervision and management: Project owners continuously "
+            "monitor parameters including the quantity of low-concentration CMM and VAM "
+            "collected, methane concentration, oxidation efficiency or energy output as "
+            "prescribed by the methodology; validation and verification bodies are "
+            "responsible for project validation and emission reduction verification; "
+            "MEE exercises overall supervision."
         ),
         "Compliance calculation methodology I": (
             "Emission reductions (tCO2e) = (Baseline CH4 "
@@ -95244,33 +93275,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the "
-            "issuance and sale of CCERs; the thermal energy or "
-            "electricity generated from gas recovery and "
-            "utilisation may be used on-site by the coal mine "
-            "or sold to the grid, generating additional revenue. "
-            "With a GWP 28 times that of CO2, methane reduction "
-            "projects generate far more CCERs than CO2 reduction "
-            "projects of equivalent scale."
-        ),
-        "Monitoring": (
-            "Project owners continuously monitor parameters "
-            "including the quantity of low-concentration CMM "
-            "and VAM collected, methane concentration, oxidation "
-            "efficiency or energy output as prescribed by the "
-            "methodology; validation and verification bodies are "
-            "responsible for project validation and emission "
-            "reduction verification; MEE exercises overall "
-            "supervision."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale and "
             "voluntary development conditions)"
@@ -95278,7 +93282,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "B05",
         "GHGs affected": "CH4",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Energy security; Resource conservation; Technological innovation; Pollution control"
         ),
@@ -95298,9 +93302,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Information Network)"
         ),
     },
-    "CHNVTSVCMI01S007": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S007": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "Energy",
         "Sub-sector": "Oil and gas associated gas recovery",
         "Domestic instrument name": (
@@ -95361,10 +93365,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (oilfield development enterprises / "
-            "associated gas recovery project owners)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Legal persons or other organisations legally "
             "established within China that own or manage "
@@ -95401,19 +93402,22 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Exchange)."
         ),
         "Requirement specification": (
-            "1) The associated gas recovered must come from an "
-            "offshore oilfield and be used to produce pipeline "
-            "natural gas, LNG, CNG or LPG products; 2) No subsea "
-            "gas pipeline existed between the production "
-            "facility and onshore before project approval; "
-            "3) Project monitoring data must be connected to "
-            "the national carbon market management platform "
-            "(cets.org.cn); 4) The crediting period is a fixed "
-            "7 years (renewable); 5) Emission reductions = "
-            "baseline emissions - project emissions - project "
-            "leakage, adopting conservative values; 6) The "
-            "project must comply with national laws, regulations "
-            "and industry development policies."
+            "1) The associated gas recovered must come from an offshore oilfield and be "
+            "used to produce pipeline natural gas, LNG, CNG or LPG products; 2) No "
+            "subsea gas pipeline existed between the production facility and onshore "
+            "before project approval; 3) Project monitoring data must be connected to "
+            "the national carbon market management platform (cets.org.cn); 4) The "
+            "crediting period is a fixed 7 years (renewable); 5) Emission reductions = "
+            "baseline emissions - project emissions - project leakage, adopting "
+            "conservative values; 6) The project must comply with national laws, "
+            "regulations and industry development policies.Supervision and management: "
+            "Project owners continuously monitor parameters including associated gas "
+            "recovery volume, product output, fuel consumption and electricity "
+            "consumption as prescribed by the methodology; monitoring data must be "
+            "connected to the national carbon market management platform and uploaded "
+            "every minute; provincial and prefecture-level ecology and environment "
+            "authorities, together with energy authorities, conduct supervision and "
+            "inspection."
         ),
         "Compliance calculation methodology I": (
             "Emission reductions = Baseline emissions - Project "
@@ -95426,31 +93430,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the "
-            "issuance and sale of CCERs; associated gas recovery "
-            "products (natural gas, LNG, CNG, LPG, etc.) may be "
-            "sold externally, generating additional revenue."
-        ),
-        "Monitoring": (
-            "Project owners continuously monitor parameters "
-            "including associated gas recovery volume, product "
-            "output, fuel consumption and electricity "
-            "consumption as prescribed by the methodology; "
-            "monitoring data must be connected to the national "
-            "carbon market management platform and uploaded "
-            "every minute; provincial and prefecture-level "
-            "ecology and environment authorities, together with "
-            "energy authorities, conduct supervision and "
-            "inspection."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale "
             "and voluntary development conditions)"
@@ -95458,7 +93437,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "B06",
         "GHGs affected": "CO2; CH4",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Energy security; Resource conservation; Pollution control"
         ),
@@ -95479,9 +93458,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
     },
 
-    "CHNVTSVCMI01S008": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S008": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "Energy",
         "Sub-sector": "Oil and gas associated gas recovery",
         "Domestic instrument name": (
@@ -95540,10 +93519,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (natural gas exploration and "
-            "development enterprises / project owners)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Legal persons or other organisations legally "
             "established within China that engage in onshore "
@@ -95581,19 +93557,22 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Green Exchange)."
         ),
         "Requirement specification": (
-            "1) Applies to the well test and blowdown phase of "
-            "conventional gas wells, shale gas wells and tight "
-            "gas wells (excluding coalbed methane wells); "
-            "2) The blowdown gas must be recovered and processed "
-            "into pipeline natural gas, CNG or LNG products; "
-            "3) The credited recovery time for a single "
-            "conventional well must not exceed 7 days, and for "
-            "a single tight gas / shale gas well must not exceed "
-            "21 days; 4) The crediting period is a maximum of "
-            "10 years; 5) Monitoring data must be connected to "
-            "the national carbon market management platform and "
-            "uploaded every minute; 6) Additionality is exempted "
-            "from demonstration."
+            "1) Applies to the well test and blowdown phase of conventional gas wells, "
+            "shale gas wells and tight gas wells (excluding coalbed methane wells); 2) "
+            "The blowdown gas must be recovered and processed into pipeline natural "
+            "gas, CNG or LNG products; 3) The credited recovery time for a single "
+            "conventional well must not exceed 7 days, and for a single tight gas / "
+            "shale gas well must not exceed 21 days; 4) The crediting period is a "
+            "maximum of 10 years; 5) Monitoring data must be connected to the national "
+            "carbon market management platform and uploaded every minute; 6) "
+            "Additionality is exempted from demonstration.Supervision and management: "
+            "Project owners continuously monitor parameters including gas flow rate, "
+            "composition, recovered product output and fuel consumption as prescribed "
+            "by the methodology; metering devices must be within their valid "
+            "calibration period and calibrated annually; monitoring data must be "
+            "connected to the national carbon market management platform and uploaded "
+            "every minute; data must be retained for at least 10 years after the last "
+            "tranche of emission reductions is registered."
         ),
         "Compliance calculation methodology I": (
             "Emission reductions = Emissions from combustion of "
@@ -95608,32 +93587,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the "
-            "issuance and sale of CCERs; well test and blowdown "
-            "gas recovery products (natural gas, CNG, LNG, etc.) "
-            "may be sold externally, generating additional "
-            "revenue."
-        ),
-        "Monitoring": (
-            "Project owners continuously monitor parameters "
-            "including gas flow rate, composition, recovered "
-            "product output and fuel consumption as prescribed "
-            "by the methodology; metering devices must be within "
-            "their valid calibration period and calibrated "
-            "annually; monitoring data must be connected to the "
-            "national carbon market management platform and "
-            "uploaded every minute; data must be retained for at "
-            "least 10 years after the last tranche of emission "
-            "reductions is registered."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale "
             "and voluntary development conditions)"
@@ -95641,7 +93594,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "B06",
         "GHGs affected": "CO2; CH4",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Energy security; Resource conservation; Pollution control"
         ),
@@ -95662,9 +93615,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
     },
 
-    "CHNVTSVCMI01S009": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S009": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "Energy",
         "Sub-sector": "Oil and gas associated gas recovery",
         "Domestic instrument name": (
@@ -95724,10 +93677,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (oilfield development enterprises / "
-            "associated gas recovery project owners)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Legal persons or other organisations legally "
             "established within China that own or manage "
@@ -95767,18 +93717,22 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Green Exchange)."
         ),
         "Requirement specification": (
-            "1) The total design capacity of the associated "
-            "gas processing system within the same station must "
-            "be less than 30,000 m3/day; 2) Associated gas must "
-            "be recovered and processed into pipeline natural "
-            "gas, CNG, LNG, LPG, stabilised light hydrocarbons "
-            "or mixed hydrocarbons; 3) The crediting period is "
-            "a maximum of 10 years; 4) Monitoring data must be "
-            "connected to the national carbon market management "
-            "platform; 5) Multiple projects within the same "
-            "province may be combined in a single application "
-            "to reduce development costs; 6) Additionality is "
-            "exempted from demonstration."
+            "1) The total design capacity of the associated gas processing system "
+            "within the same station must be less than 30,000 m3/day; 2) Associated gas "
+            "must be recovered and processed into pipeline natural gas, CNG, LNG, LPG, "
+            "stabilised light hydrocarbons or mixed hydrocarbons; 3) The crediting "
+            "period is a maximum of 10 years; 4) Monitoring data must be connected to "
+            "the national carbon market management platform; 5) Multiple projects "
+            "within the same province may be combined in a single application to reduce "
+            "development costs; 6) Additionality is exempted from "
+            "demonstration.Supervision and management: Project owners continuously "
+            "monitor parameters including associated gas flow rate, temperature, "
+            "pressure, composition, recovered product quality, purchased fossil fuel "
+            "and electricity consumption as prescribed by the methodology; monitoring "
+            "data must be connected to the national carbon market management platform; "
+            "metering equipment must be calibrated by a statutory metrological "
+            "verification institution and calibrated annually by a CNAS-accredited "
+            "body."
         ),
         "Compliance calculation methodology I": (
             "Emission reductions = Baseline emissions - Project "
@@ -95794,35 +93748,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the "
-            "issuance and sale of CCERs; associated gas recovery "
-            "products may be sold externally, generating "
-            "additional revenue. Taking a Heilongjiang project "
-            "processing 15,000 m3/day of associated gas as an "
-            "example, the project rate of return may increase "
-            "from approximately 5% to approximately 8.5% with "
-            "CCER revenue."
-        ),
-        "Monitoring": (
-            "Project owners continuously monitor parameters "
-            "including associated gas flow rate, temperature, "
-            "pressure, composition, recovered product quality, "
-            "purchased fossil fuel and electricity consumption "
-            "as prescribed by the methodology; monitoring data "
-            "must be connected to the national carbon market "
-            "management platform; metering equipment must be "
-            "calibrated by a statutory metrological verification "
-            "institution and calibrated annually by a CNAS-"
-            "accredited body."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale "
             "and voluntary development conditions; existing "
@@ -95832,7 +93757,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "B06",
         "GHGs affected": "CO2; CH4",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Energy security; Resource conservation; Pollution control"
         ),
@@ -95853,9 +93778,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
     },
 
-    "CHNVTSVCMI01S010": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S010": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "AFOLU",
         "Sub-sector": "Marine carbon sink (blue carbon)",
         "Domestic instrument name": (
@@ -95909,10 +93834,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (project owners / ecological "
-            "restoration implementing entities)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Legal persons or other organisations legally "
             "established within China that own or manage "
@@ -95948,14 +93870,16 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "of CNY 70.76/tCO2 (Source: Beijing Green Exchange)."
         ),
         "Requirement specification": (
-            "1) Projects must implement salt marsh vegetation "
-            "restoration in eligible coastal areas; 2) Project "
-            "land tenure and emission reduction ownership must "
-            "be clearly defined; 3) The crediting period is a "
-            "minimum of 20 years and a maximum of 40 years; "
-            "4) Multiple projects within the same province may "
-            "be combined in a single application; 5) "
-            "Additionality is exempted from demonstration."
+            "1) Projects must implement salt marsh vegetation restoration in eligible "
+            "coastal areas; 2) Project land tenure and emission reduction ownership "
+            "must be clearly defined; 3) The crediting period is a minimum of 20 years "
+            "and a maximum of 40 years; 4) Multiple projects within the same province "
+            "may be combined in a single application; 5) Additionality is exempted from "
+            "demonstration.Supervision and management: Project owners monitor and "
+            "account for changes in each carbon pool at the monitoring frequency and "
+            "using the methods prescribed by the methodology; provincial and "
+            "prefecture-level ecology and environment authorities, together with "
+            "natural resources authorities, conduct supervision and inspection."
         ),
         "Compliance calculation methodology I": (
             "Net carbon sink = Change in project carbon stock - "
@@ -95970,29 +93894,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the "
-            "issuance and sale of CCERs; coastal salt marsh "
-            "vegetation restoration also delivers multiple "
-            "ecological benefits including coastal protection, "
-            "biodiversity conservation and water purification."
-        ),
-        "Monitoring": (
-            "Project owners monitor and account for changes "
-            "in each carbon pool at the monitoring frequency "
-            "and using the methods prescribed by the "
-            "methodology; provincial and prefecture-level "
-            "ecology and environment authorities, together "
-            "with natural resources authorities, conduct "
-            "supervision and inspection."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale "
             "and voluntary development conditions)"
@@ -96000,7 +93901,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "A02",
         "GHGs affected": "CO2",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Ecological protection; Biodiversity conservation; Pollution control; Industrial development; Climate change adaptation"
         ),
@@ -96021,9 +93922,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
     },
 
-    "CHNVTSVCMI01S011": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S011": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "AFOLU",
         "Sub-sector": "Marine carbon sink (blue carbon)",
         "Domestic instrument name": (
@@ -96074,10 +93975,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (project owners / marine ecological "
-            "restoration implementing entities)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Legal persons or other organisations legally "
             "established within China that own or manage "
@@ -96112,14 +94010,16 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "CNY 70.76/tCO2 (Source: Beijing Green Exchange)."
         ),
         "Requirement specification": (
-            "1) Projects must implement seagrass bed vegetation "
-            "restoration in eligible sea areas; 2) Project "
-            "boundary and emission reduction ownership must be "
-            "clearly defined; 3) The crediting period is a "
-            "minimum of 20 years and a maximum of 40 years; "
-            "4) Multiple projects within the same province may "
-            "be combined in a single application; 5) "
-            "Additionality is exempted from demonstration."
+            "1) Projects must implement seagrass bed vegetation restoration in eligible "
+            "sea areas; 2) Project boundary and emission reduction ownership must be "
+            "clearly defined; 3) The crediting period is a minimum of 20 years and a "
+            "maximum of 40 years; 4) Multiple projects within the same province may be "
+            "combined in a single application; 5) Additionality is exempted from "
+            "demonstration.Supervision and management: Project owners monitor and "
+            "account for changes in each carbon pool at the monitoring frequency and "
+            "using the methods prescribed by the methodology; provincial and "
+            "prefecture-level ecology and environment authorities, together with "
+            "natural resources authorities, conduct supervision and inspection."
         ),
         "Compliance calculation methodology I": (
             "Net carbon sink = Change in project carbon stock - "
@@ -96132,30 +94032,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the "
-            "issuance and sale of CCERs; seagrass bed "
-            "vegetation restoration also delivers multiple "
-            "ecological benefits including marine biodiversity "
-            "conservation, water purification and coastal "
-            "protection."
-        ),
-        "Monitoring": (
-            "Project owners monitor and account for changes "
-            "in each carbon pool at the monitoring frequency "
-            "and using the methods prescribed by the "
-            "methodology; provincial and prefecture-level "
-            "ecology and environment authorities, together "
-            "with natural resources authorities, conduct "
-            "supervision and inspection."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale "
             "and voluntary development conditions)"
@@ -96163,7 +94039,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "A02",
         "GHGs affected": "CO2",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Ecological protection; Biodiversity conservation; Pollution control; Industrial development; Climate change adaptation"
         ),
@@ -96184,9 +94060,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
     },
 
-    "CHNVTSVCMI01S012": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S012": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "AFOLU",
         "Sub-sector": "Check dam carbon sink",
         "Domestic instrument name": (
@@ -96245,10 +94121,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises / collective organisations (check dam "
-            "owners or their authorised entities)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Check dam owners or their authorised legal "
             "entities. Multiple check dams (check dam systems) "
@@ -96283,17 +94156,18 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "(Source: Beijing Green Exchange)."
         ),
         "Requirement specification": (
-            "1) Check dams must be built to the SL/T804 "
-            "standard, with intact dam bodies and clearly "
-            "defined ownership; 2) The crediting period is a "
-            "minimum of 10 years and a maximum of 40 years; "
-            "3) Default values for measurement parameters "
-            "are used to reduce development costs; 4) The "
-            "non-permanence risk discount rate is 1%; "
-            "5) Multiple check dams within the same county-"
-            "level administrative area may be combined in a "
-            "single application; 6) Additionality is exempted "
-            "from demonstration."
+            "1) Check dams must be built to the SL/T804 standard, with intact dam "
+            "bodies and clearly defined ownership; 2) The crediting period is a minimum "
+            "of 10 years and a maximum of 40 years; 3) Default values for measurement "
+            "parameters are used to reduce development costs; 4) The non-permanence "
+            "risk discount rate is 1%; 5) Multiple check dams within the same "
+            "county-level administrative area may be combined in a single application; "
+            "6) Additionality is exempted from demonstration.Supervision and "
+            "management: Project owners establish an internal data quality assurance "
+            "and management system; soil samples must be tested by a CMA-accredited "
+            "third-party metrological technical institution; provincial and "
+            "prefecture-level ecology and environment authorities, together with water "
+            "administration authorities, conduct supervision and inspection."
         ),
         "Compliance calculation methodology I": (
             "Project emission reductions = (Project removals - "
@@ -96308,30 +94182,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the "
-            "issuance and sale of CCERs; check dams also "
-            "deliver multiple ecological and social benefits "
-            "including soil and water conservation, flood "
-            "control and sediment reduction, and increased "
-            "arable land."
-        ),
-        "Monitoring": (
-            "Project owners establish an internal data quality "
-            "assurance and management system; soil samples "
-            "must be tested by a CMA-accredited third-party "
-            "metrological technical institution; provincial "
-            "and prefecture-level ecology and environment "
-            "authorities, together with water administration "
-            "authorities, conduct supervision and inspection."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale "
             "and voluntary development conditions)"
@@ -96339,7 +94189,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "A02",
         "GHGs affected": "CO2",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Ecological protection; Pollution control; Industrial development; Climate change adaptation"
         ),
@@ -96359,9 +94209,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
     },
 
-    "CHNVTSVCMI01S013": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S013": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "AFOLU",
         "Sub-sector": "Agricultural waste biogas utilisation",
         "Domestic instrument name": (
@@ -96420,10 +94270,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (large-scale pig farm operators / "
-            "project owners)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Legal persons or other organisations legally "
             "established within China that operate large-scale "
@@ -96462,17 +94309,20 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Green Exchange)."
         ),
         "Requirement specification": (
-            "1) The pig farm must have an annual slaughter "
-            "output of 500 head or more and construct an on-"
-            "site anaerobic digestion reactor; 2) Biogas must "
-            "be recovered and utilised for power generation, "
-            "gas supply or biomethane production; 3) Digestate "
-            "must be applied to farmland; 4) Not applicable "
-            "to mixed-feedstock treatment projects; 5) The "
-            "crediting period is a fixed 7 years (renewable); "
-            "6) Monitoring data must be connected to the "
-            "national carbon market management platform; "
-            "7) Additionality is exempted from demonstration."
+            "1) The pig farm must have an annual slaughter output of 500 head or more "
+            "and construct an on-site anaerobic digestion reactor; 2) Biogas must be "
+            "recovered and utilised for power generation, gas supply or biomethane "
+            "production; 3) Digestate must be applied to farmland; 4) Not applicable to "
+            "mixed-feedstock treatment projects; 5) The crediting period is a fixed 7 "
+            "years (renewable); 6) Monitoring data must be connected to the national "
+            "carbon market management platform; 7) Additionality is exempted from "
+            "demonstration.Supervision and management: Project owners continuously "
+            "monitor eight key parameters including monthly average pig inventory, "
+            "biogas production, methane volume concentration, power generation / gas "
+            "supply volume and grid import electricity; monitoring data must be "
+            "connected to the national carbon market management platform and uploaded "
+            "hourly; annual data missing or interrupted for more than 20 days renders "
+            "that month's data questionable."
         ),
         "Compliance calculation methodology I": (
             "Emission reductions = Baseline methane emissions - "
@@ -96489,32 +94339,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the "
-            "issuance and sale of CCERs; biogas power "
-            "generation, gas supply or biomethane sales "
-            "generate additional revenue; farmland application "
-            "of digestate can substitute for chemical "
-            "fertilisers, reducing agricultural input costs."
-        ),
-        "Monitoring": (
-            "Project owners continuously monitor eight key "
-            "parameters including monthly average pig "
-            "inventory, biogas production, methane volume "
-            "concentration, power generation / gas supply "
-            "volume and grid import electricity; monitoring "
-            "data must be connected to the national carbon "
-            "market management platform and uploaded hourly; "
-            "annual data missing or interrupted for more than "
-            "20 days renders that month's data questionable."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale "
             "and voluntary development conditions)"
@@ -96522,7 +94346,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "A01",
         "GHGs affected": "CH4",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Pollution control; Resource conservation; Industrial development"
         ),
@@ -96544,9 +94368,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
     },
 
-    "CHNVTSVCMI01S014": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S014": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "AFOLU",
         "Sub-sector": "Agricultural waste biogas utilisation",
         "Domestic instrument name": (
@@ -96604,10 +94428,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (centralised agricultural waste "
-            "treatment project owners)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Legal persons or other organisations legally "
             "established within China that operate centralised "
@@ -96647,18 +94468,19 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "CNY 70.76/tCO2 (Source: Beijing Green Exchange)."
         ),
         "Requirement specification": (
-            "1) Must treat agricultural wastes including "
-            "livestock manure, crop straw and vegetable "
-            "residues; 2) Must install anaerobic digestion "
-            "reactors and recover and utilise biogas; "
-            "3) Digestate must be applied to farmland; "
-            "4) Project owners must sign cooperation "
-            "agreements with livestock/poultry farmers and "
-            "crop farmers; 5) The crediting period is a "
-            "fixed 7 years (renewable); 6) Monitoring data "
-            "must be connected to the national carbon market "
-            "management platform; 7) Additionality is "
-            "exempted from demonstration."
+            "1) Must treat agricultural wastes including livestock manure, crop straw "
+            "and vegetable residues; 2) Must install anaerobic digestion reactors and "
+            "recover and utilise biogas; 3) Digestate must be applied to farmland; 4) "
+            "Project owners must sign cooperation agreements with livestock/poultry "
+            "farmers and crop farmers; 5) The crediting period is a fixed 7 years "
+            "(renewable); 6) Monitoring data must be connected to the national carbon "
+            "market management platform; 7) Additionality is exempted from "
+            "demonstration.Supervision and management: Project owners continuously "
+            "monitor key parameters including feedstock input, biogas production, "
+            "methane volume concentration, power generation / gas supply volume, "
+            "transport vehicle round-trip distance and mass of waste transported; "
+            "monitoring data must be connected to the national carbon market management "
+            "platform and uploaded hourly."
         ),
         "Compliance calculation methodology I": (
             "Emission reductions = Baseline methane emissions - "
@@ -96675,31 +94497,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the "
-            "issuance and sale of CCERs; biogas power "
-            "generation, gas supply or biomethane sales "
-            "generate additional revenue; farmland application "
-            "of digestate can substitute for chemical "
-            "fertilisers."
-        ),
-        "Monitoring": (
-            "Project owners continuously monitor key "
-            "parameters including feedstock input, biogas "
-            "production, methane volume concentration, power "
-            "generation / gas supply volume, transport vehicle "
-            "round-trip distance and mass of waste transported; "
-            "monitoring data must be connected to the national "
-            "carbon market management platform and uploaded "
-            "hourly."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale "
             "and voluntary development conditions)"
@@ -96707,7 +94504,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "A01",
         "GHGs affected": "CH4",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Pollution control; Resource conservation; Industrial development"
         ),
@@ -96729,9 +94526,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
     },
 
-    "CHNVTSVCMI01S015": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S015": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "Buildings",
         "Sub-sector": "Building energy efficiency retrofit",
         "Domestic instrument name": (
@@ -96804,10 +94601,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises / institutions (building owners or "
-            "their authorised legal entities)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Owners of existing public buildings or their "
             "authorised legal entities that may voluntarily "
@@ -96846,24 +94640,23 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Green Exchange)."
         ),
         "Requirement specification": (
-            "1) The building must have a consistent use "
-            "function during the baseline period and the "
-            "crediting period; 2) Must include at least one "
-            "measure from each of envelope retrofitting and "
-            "HVAC system retrofitting; 3) The baseline period "
-            "must have continuous stable operation for 24 "
-            "months with monthly operating hours of no less "
-            "than 160 hours; 4) Fossil-fuel-based systems "
-            "such as gas-fired combined cooling, heating and "
-            "power and coal-fired boilers are excluded; "
-            "5) Continuous monitoring and metering devices "
-            "must be installed and connected to the national "
-            "carbon market management platform; 6) The "
-            "crediting period is a maximum of 10 years; "
-            "7) Multiple buildings within the same province "
-            "may be bundled, with an annual emission reduction "
-            "cap of 60,000 tCO2e; 8) Additionality is exempted "
-            "from demonstration."
+            "1) The building must have a consistent use function during the baseline "
+            "period and the crediting period; 2) Must include at least one measure from "
+            "each of envelope retrofitting and HVAC system retrofitting; 3) The "
+            "baseline period must have continuous stable operation for 24 months with "
+            "monthly operating hours of no less than 160 hours; 4) Fossil-fuel-based "
+            "systems such as gas-fired combined cooling, heating and power and "
+            "coal-fired boilers are excluded; 5) Continuous monitoring and metering "
+            "devices must be installed and connected to the national carbon market "
+            "management platform; 6) The crediting period is a maximum of 10 years; 7) "
+            "Multiple buildings within the same province may be bundled, with an annual "
+            "emission reduction cap of 60,000 tCO2e; 8) Additionality is exempted from "
+            "demonstration.Supervision and management: Project owners continuously "
+            "monitor building energy consumption data; electricity meters, heat meters "
+            "and other devices must be calibrated annually by a CNAS-accredited body; "
+            "energy consumption data is uploaded every minute to the national carbon "
+            "market management platform; all data must be retained for at least 10 "
+            "years after the last tranche of emission reductions is registered."
         ),
         "Compliance calculation methodology I": (
             "Emission reductions = Baseline period emissions - "
@@ -96879,31 +94672,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the "
-            "issuance and sale of CCERs; building energy "
-            "efficiency improvements directly reduce operating "
-            "energy costs; the rate of return for most "
-            "projects may increase by 3%-8%."
-        ),
-        "Monitoring": (
-            "Project owners continuously monitor building "
-            "energy consumption data; electricity meters, "
-            "heat meters and other devices must be calibrated "
-            "annually by a CNAS-accredited body; energy "
-            "consumption data is uploaded every minute to "
-            "the national carbon market management platform; "
-            "all data must be retained for at least 10 years "
-            "after the last tranche of emission reductions "
-            "is registered."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on retrofit scale "
             "and voluntary development conditions; estimated "
@@ -96912,7 +94680,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "F41",
         "GHGs affected": "CO2; HFCs",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Energy conservation; Industrial development; Technological innovation"
         ),
@@ -96934,9 +94702,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
     },
 
-    "CHNVTSVCMI01S016": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S016": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "Energy",
         "Sub-sector": "Renewable energy electrolytic hydrogen production",
         "Domestic instrument name": (
@@ -96974,7 +94742,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "2030 the annual emission reductions from eligible "
             "projects could reach 60 million tCO2."
         ),
-        "Objective": "Climate change mitigation",
+        "Objective": "Climate change mitigation; Non-fossil energy",
         "Administrating authorities": (
             "Ministry of Ecology and Environment (Department of "
             "Climate Change); National Energy Administration"
@@ -97001,10 +94769,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (renewable energy hydrogen production "
-            "project owners)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Legal persons or other organisations legally "
             "established within China that own their own "
@@ -97042,19 +94807,21 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Green Exchange)."
         ),
         "Requirement specification": (
-            "1) Applies only to new-build projects (excluding "
-            "retrofit, expansion or modification); 2) The "
-            "project's own wind/solar PV farm must be under "
-            "the same legal person as the hydrogen production "
-            "facility; 3) The project's own renewable energy "
-            "power plant and end-use hydrogen products must "
-            "not participate in other voluntary emission "
-            "reduction mechanisms; 4) The crediting period is "
-            "a fixed 7 years (renewable); 5) Emissions from "
-            "grid-imported electricity consumed are not "
-            "counted as project emissions, which are directly "
-            "taken as zero; 6) Additionality is exempted from "
-            "demonstration."
+            "1) Applies only to new-build projects (excluding retrofit, expansion or "
+            "modification); 2) The project's own wind/solar PV farm must be under the "
+            "same legal person as the hydrogen production facility; 3) The project's "
+            "own renewable energy power plant and end-use hydrogen products must not "
+            "participate in other voluntary emission reduction mechanisms; 4) The "
+            "crediting period is a fixed 7 years (renewable); 5) Emissions from "
+            "grid-imported electricity consumed are not counted as project emissions, "
+            "which are directly taken as zero; 6) Additionality is exempted from "
+            "demonstration.Supervision and management: Project owners continuously "
+            "monitor parameters including hydrogen production, renewable energy power "
+            "generation and purchased electricity consumption as prescribed by the "
+            "methodology; monitoring data must be connected to the national carbon "
+            "market management platform; provincial and prefecture-level ecology and "
+            "environment authorities, together with energy authorities, conduct "
+            "supervision and inspection."
         ),
         "Compliance calculation methodology I": (
             "Emission reductions = Baseline emissions - Project "
@@ -97071,33 +94838,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the "
-            "issuance and sale of CCERs, unlocking the green "
-            "value monetisation channel for green hydrogen; "
-            "it is estimated that by 2030 the annual emission "
-            "reductions from eligible projects could reach "
-            "60 million tCO2, potentially generating billions "
-            "of CNY in green revenue annually."
-        ),
-        "Monitoring": (
-            "Project owners continuously monitor parameters "
-            "including hydrogen production, renewable energy "
-            "power generation and purchased electricity "
-            "consumption as prescribed by the methodology; "
-            "monitoring data must be connected to the national "
-            "carbon market management platform; provincial "
-            "and prefecture-level ecology and environment "
-            "authorities, together with energy authorities, "
-            "conduct supervision and inspection."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale "
             "and voluntary development conditions)"
@@ -97105,7 +94845,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "D35",
         "GHGs affected": "CO2",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Renewable energy development; Technological innovation; Industrial development; Pollution control"
         ),
@@ -97127,9 +94867,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
     },
 
-    "CHNVTSVCMI01S017": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S017": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "Energy",
         "Sub-sector": "SF6 recovery and purification from electrical equipment",
         "Domestic instrument name": (
@@ -97189,10 +94929,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (electrical equipment owners or "
-            "their authorised entities)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Owners of SF6 electrical equipment (including "
             "legal entities performing the owner's functions) "
@@ -97230,22 +94967,23 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Green Exchange)."
         ),
         "Requirement specification": (
-            "1) Must be for the recovery and purification "
-            "of SF6 electrical equipment at 66 kV and above "
-            "during maintenance and decommissioning; 2) The "
-            "recovered and purified SF6 must meet the GB/T "
-            "12022 standard and be reused; 3) The crediting "
-            "period is a minimum of 10 years; 4) Emission "
-            "reductions are accounted for every 5 years or "
-            "less; a single piece of equipment may apply for "
-            "maintenance-related emission reductions only "
-            "once during the crediting period; 5) Dual cross-"
-            "validation using weighing scales and mass flow "
-            "meters must be employed, with conservative "
-            "values adopted; 6) Monitoring data must be "
-            "connected to the national carbon market "
-            "management platform; 7) Additionality is "
-            "exempted from demonstration."
+            "1) Must be for the recovery and purification of SF6 electrical equipment "
+            "at 66 kV and above during maintenance and decommissioning; 2) The "
+            "recovered and purified SF6 must meet the GB/T 12022 standard and be "
+            "reused; 3) The crediting period is a minimum of 10 years; 4) Emission "
+            "reductions are accounted for every 5 years or less; a single piece of "
+            "equipment may apply for maintenance-related emission reductions only once "
+            "during the crediting period; 5) Dual cross-validation using weighing "
+            "scales and mass flow meters must be employed, with conservative values "
+            "adopted; 6) Monitoring data must be connected to the national carbon "
+            "market management platform; 7) Additionality is exempted from "
+            "demonstration.Supervision and management: Project owners must establish an "
+            "internal data quality assurance and management system; metering devices "
+            "must be within their valid calibration period and calibrated annually; "
+            "monitoring data is uploaded every minute to the national carbon market "
+            "management platform; all data must be retained for at least 10 years after "
+            "the last tranche of emission reductions is registered. Conservative "
+            "treatment is required for uncalibrated or delayed-calibration situations."
         ),
         "Compliance calculation methodology I": (
             "Emission reductions = (Baseline vented quantity - "
@@ -97262,34 +95000,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the "
-            "issuance and sale of CCERs; reuse of recovered "
-            "and purified SF6 can substitute for purchasing "
-            "new gas, reducing material costs. It is estimated "
-            "that the annual emission reduction potential is "
-            "3.2 million tCO2e, potentially growing to 6 "
-            "million tCO2e by 2030."
-        ),
-        "Monitoring": (
-            "Project owners must establish an internal data "
-            "quality assurance and management system; metering "
-            "devices must be within their valid calibration "
-            "period and calibrated annually; monitoring data "
-            "is uploaded every minute to the national carbon "
-            "market management platform; all data must be "
-            "retained for at least 10 years after the last "
-            "tranche of emission reductions is registered. "
-            "Conservative treatment is required for "
-            "uncalibrated or delayed-calibration situations."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale "
             "and voluntary development conditions; annual "
@@ -97299,7 +95009,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "D35",
         "GHGs affected": "SF6",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Resource conservation; "
             "Technological innovation; "
@@ -97323,9 +95033,9 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
     },
 
-    "CHNVTSVCMI01S018": {
-        "Group": "Voluntary trading system",
-        "Approach": "Voluntary carbon market",
+    "CHNTRAOFCI01S018": {
+        "Group": "Trading systems",
+        "Approach": "Offset credits",
         "Emission sector": "Energy",
         "Sub-sector": "Medium-deep geothermal heating",
         "Domestic instrument name": (
@@ -97392,10 +95102,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
         "Asset (Other)": "N/A",
         "Asset (Cut-off range)": "N/A",
-        "Agent": (
-            "Enterprises (geothermal heating project owners "
-            "or their authorised entities)"
-        ),
+        "Agent": "Firms",
         "Agent (Detail)": (
             "Owners of medium-deep geothermal downhole heat "
             "exchange heating technology application projects "
@@ -97433,20 +95140,22 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Green Exchange)."
         ),
         "Requirement specification": (
-            "1) Must use downhole heat exchange technology to "
-            "develop medium-deep geothermal energy for "
-            "building heating on a metered and charged basis; "
-            "2) Must use heat pump units and plate heat "
-            "exchangers to extract thermal energy, with "
-            "primary and secondary heat supply distribution "
-            "networks; 3) Where heat supply networks are shared "
-            "with other heat sources, independent continuous "
-            "monitoring systems must be in place; 4) The "
-            "crediting period is a maximum of 10 years; "
-            "5) Monitoring data must be connected to the "
-            "national carbon market management platform and "
-            "uploaded every minute; 6) Additionality is "
-            "exempted from demonstration."
+            "1) Must use downhole heat exchange technology to develop medium-deep "
+            "geothermal energy for building heating on a metered and charged basis; 2) "
+            "Must use heat pump units and plate heat exchangers to extract thermal "
+            "energy, with primary and secondary heat supply distribution networks; 3) "
+            "Where heat supply networks are shared with other heat sources, independent "
+            "continuous monitoring systems must be in place; 4) The crediting period is "
+            "a maximum of 10 years; 5) Monitoring data must be connected to the "
+            "national carbon market management platform and uploaded every minute; 6) "
+            "Additionality is exempted from demonstration.Supervision and management: "
+            "Project owners continuously monitor parameters including heat supply, "
+            "operation and maintenance electricity consumption and natural gas "
+            "consumption as prescribed by the methodology; monitoring data is uploaded "
+            "every minute to the national carbon market management platform; metering "
+            "devices must be within their valid calibration period and calibrated "
+            "annually; all data must be retained for at least 10 years after the last "
+            "tranche of emission reductions is registered."
         ),
         "Compliance calculation methodology I": (
             "Emission reductions = Emissions from a natural "
@@ -97467,34 +95176,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Compliance calculation methodology II": (
             "N/A (only one calculation method prescribed)"
         ),
-        "Incentives for Participation": (
-            "Project owners earn carbon revenue through the "
-            "issuance and sale of CCERs; based on typical "
-            "demonstration project calculations, each million "
-            "m2 of downhole heat exchange technology "
-            "application area can generate CCER revenue of "
-            "approximately CNY 1-1.5 million per year."
-        ),
-        "Monitoring": (
-            "Project owners continuously monitor parameters "
-            "including heat supply, operation and maintenance "
-            "electricity consumption and natural gas "
-            "consumption as prescribed by the methodology; "
-            "monitoring data is uploaded every minute to the "
-            "national carbon market management platform; "
-            "metering devices must be within their valid "
-            "calibration period and calibrated annually; all "
-            "data must be retained for at least 10 years "
-            "after the last tranche of emission reductions "
-            "is registered."
-        ),
-        "Sanctions for non-compliance": (
-            "Project owners providing false materials: fine of "
-            "CNY 10,000-100,000, revocation of registration and "
-            "a three-year ban on re-application; validation and "
-            "verification bodies in breach: fine of CNY 50,000-"
-            "200,000."
-        ),
         "GHG emission coverage (absolute)": (
             "N/A (emission reductions depend on project scale "
             "and voluntary development conditions)"
@@ -97502,7 +95183,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "GHG emission coverage (% domestic emissions)": "N/A",
         "Economic sector": "D35",
         "GHGs affected": "CO2",
-        "Mitigation effects": "Positive",
+        "Mitigation effects": "N/A",
         "Mitigation co-benefits": (
             "Renewable energy development; Energy security; Technological innovation; Pollution control"
         ),
@@ -97527,7 +95208,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     "CHNSUBTDRI03S000": {
         "Policy Instrument ID": "CHNSUBTDRI03S000",
         "Instrument / subscheme": "Instrument",
-        "Group": "Subsidy",
+        "Group": "Subsidies",
         "Approach": "Technology deployment reward",
         "Emission sector": "Industry",
         "Sub-sector": "Manufacturing technological transformation (petrochemicals and chemicals, iron and steel, non-ferrous metals, building materials, machinery, etc.)",
@@ -97610,7 +95291,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "applicant. The second-batch city list is to be announced "
             "separately."
         ),
-        "Status": "In force",
         "Administrating authorities": (
             "Ministry of Finance (administers central fiscal reward "
             "funding arrangements and disbursement); Ministry of Industry "
@@ -97761,7 +95441,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     "CHNSUBTDRI04S000": {
         "Policy Instrument ID": "CHNSUBTDRI04S000",
         "Instrument / subscheme": "Instrument",
-        "Group": "Subsidy",
+        "Group": "Subsidies",
         "Approach": "Technology deployment reward",
         "Emission sector": "Energy",
         "Sub-sector": (
@@ -97779,47 +95459,52 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "State Council, 2006)"
         ),
         "Description": (
-            "The Ministry of Finance issued the Measures for the Administration of the Clean"
-            "Energy Development Special Fund (CJ [2025] No. 35, adopted and effective on 3 March"
-            "2025, published on 12 March 2025), with an implementation period of 2025-2029,"
-            "providing central fiscal rewards for the exploitation and utilisation of"
-            "unconventional natural gas such as coalbed methane (coal mine methane), shale gas"
-            "and tight gas, replacing the Interim Measures for the Administration of the Clean"
-            "Energy Development Special Fund (CJ [2020] No. 190). The special fund is arranged"
-            "through the central general public budget to support clean energy development and"
-            "utilisation. Rewards for unconventional natural gas are distributed on a"
-            "more-increase-more-reward basis: where utilisation output increases over the"
-            "previous year, tiered rewards are granted by the rate of increase (the larger the"
-            "increase, the higher the allocation coefficient); where output decreases, rewards"
-            "are deducted by the rate of decrease; incremental output during the heating season"
-            "receives additional rewards under the more-winter-increase-more-reward principle."
-            "When calculating unconventional natural gas utilisation output, the weighting"
-            "coefficient for coalbed methane is raised from 1.2 to 1.5 (unconventional natural"
-            "gas utilisation output = coalbed methane utilisation output x 1.5 + shale gas"
-            "utilisation output + tight gas utilisation output x weight coefficient, where the"
-            "tight gas weight coefficient is 0.6 in 2025, 0.4 in 2026-2027 and 0.2 in 2028-2029)."
-            "Projects are divided into central projects (100% controlled by central enterprises,"
-            "applying for disbursement through the central enterprise) and local projects (all"
-            "other projects, applying for disbursement through provincial finance departments"
-            "based on project location). Reward funds are used by provinces and central"
-            "enterprises in a coordinated manner for work related to unconventional natural gas"
-            "exploitation and utilisation (technology upgrading, work safety, and emission"
-            "reduction and efficiency improvement). Unconventional natural gas extracted but not"
-            "actually utilised, and the portion used for grid-connected power generation that"
-            "already receives feed-in tariff subsidies, are excluded from the reward scope."
-            "Historical evolution of this instrument: in 2007 the Ministry of Finance issued the"
-            "Implementation Opinions on Subsidies for Coalbed Methane (Gas) Development and"
-            "Utilisation (CJ [2007] No. 114, 20 April 2007), establishing a fixed subsidy of CNY"
-            "0.2 per cubic metre; in 2016 the Notice on Subsidy Standards for Coalbed Methane"
-            "(Gas) Development and Utilisation during the 13th Five-Year Plan Period (CJ [2016]"
-            "No. 31, 14 February 2016) raised the standard to CNY 0.3 per cubic metre; in 2020"
-            "the Interim Measures for the Administration of the Clean Energy Development Special"
-            "Fund (CJ [2020] No. 190) consolidated the subsidy for unconventional natural gas and"
-            "introduced a floating range of CNY 0.3-0.6 per cubic metre; the 2025 No. 35 document"
-            "adopts tiered incremental rewards, shifting the subsidy from volume-based to"
-            "performance-based. Coal mine methane drainage and utilisation delivers multiple"
-            "benefits in energy supply growth, coal mine safety and greenhouse gas emission"
-            "reduction."
+            "The Ministry of Finance issued the Measures for the Administration of the "
+            "Clean Energy Development Special Fund (CJ [2025] No. 35, adopted and "
+            "effective on 3 March 2025, published on 12 March 2025), with an "
+            "implementation period of 2025-2029, providing central fiscal rewards for "
+            "the exploitation and utilisation of unconventional natural gas such as "
+            "coalbed methane (coal mine methane), shale gas and tight gas, replacing "
+            "the Interim Measures for the Administration of the Clean Energy "
+            "Development Special Fund (CJ [2020] No. 190). The special fund is arranged "
+            "through the central general public budget to support clean energy "
+            "development and utilisation. Rewards for unconventional natural gas are "
+            "distributed on a more-increase-more-reward basis: where utilisation output "
+            "increases over the previous year, tiered rewards are granted by the rate "
+            "of increase (the larger the increase, the higher the allocation "
+            "coefficient); where output decreases, rewards are deducted by the rate of "
+            "decrease; incremental output during the heating season receives additional "
+            "rewards under the more-winter-increase-more-reward principle. When "
+            "calculating unconventional natural gas utilisation output, the weighting "
+            "coefficient for coalbed methane is raised from 1.2 to 1.5 (unconventional "
+            "natural gas utilisation output = coalbed methane utilisation output x 1.5 "
+            "+ shale gas utilisation output + tight gas utilisation output x weight "
+            "coefficient, where the tight gas weight coefficient is 0.6 in 2025, 0.4 in "
+            "2026-2027 and 0.2 in 2028-2029). Projects are divided into central "
+            "projects (100% controlled by central enterprises, applying for "
+            "disbursement through the central enterprise) and local projects (all other "
+            "projects, applying for disbursement through provincial finance departments "
+            "based on project location). Reward funds are used by provinces and central "
+            "enterprises in a coordinated manner for work related to unconventional "
+            "natural gas exploitation and utilisation (technology upgrading, work "
+            "safety, and emission reduction and efficiency improvement). Unconventional "
+            "natural gas extracted but not actually utilised, and the portion used for "
+            "grid-connected power generation that already receives feed-in tariff "
+            "subsidies, are excluded from the reward scope. Historical evolution of "
+            "this instrument: in 2007 the Ministry of Finance issued the Implementation "
+            "Opinions on Subsidies for Coalbed Methane (Gas) Development and "
+            "Utilisation (CJ [2007] No. 114, 20 April 2007), establishing a fixed "
+            "subsidy of CNY 0.2 per cubic metre; in 2016 the Notice on Subsidy "
+            "Standards for Coalbed Methane (Gas) Development and Utilisation during the "
+            "13th Five-Year Plan Period (CJ [2016] No. 31, 14 February 2016) raised the "
+            "standard to CNY 0.3 per cubic metre; in 2020 the Interim Measures for the "
+            "Administration of the Clean Energy Development Special Fund (CJ [2020] No. "
+            "190) consolidated the subsidy for unconventional natural gas and "
+            "introduced a floating range of CNY 0.3-0.6 per cubic metre; the 2025 No. "
+            "35 document adopts tiered incremental rewards, shifting the subsidy from "
+            "volume-based to performance-based. Coal mine methane drainage and "
+            "utilisation delivers multiple benefits in energy supply growth, coal mine "
+            "safety and greenhouse gas emission reduction."
         ),
         "Objective": "Climate change mitigation; Energy security",
         "Mitigation relevance": "Direct",
@@ -97842,7 +95527,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "the document replaces the interim measures CJ [2020] No. "
             "190."
         ),
-        "Status": "In force",
         "Administrating authorities": (
             "Ministry of Finance (administers special fund budget "
             "formulation, overall arrangement, disbursement and "
@@ -97907,11 +95591,12 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Intensity (Value)": "N/A",
         "Intensity (Unit)": "N/A",
         "Intensity (Details)": (
-            "Fixed subsidy of CNY 0.3 per cubic metre in the 2016-2020 stage (floating CNY"
-            "0.3-0.6 per cubic metre after 2020); from 2025, tiered rewards graded by the rate of"
-            "increase in utilisation output: allocation coefficient 1.25 for an increase of 0-5%"
-            "(inclusive), 1.5 for 5-10% (inclusive), 1.75 for 10-20% (inclusive) and 2 for above"
-            "20%. Source: CJ [2007] No. 114; CJ [2016] No. 31; CJ [2025] No. 35"
+            "Fixed subsidy of CNY 0.3 per cubic metre in the 2016-2020 stage (floating "
+            "CNY 0.3-0.6 per cubic metre after 2020); from 2025, tiered rewards graded "
+            "by the rate of increase in utilisation output: allocation coefficient 1.25 "
+            "for an increase of 0-5% (inclusive), 1.5 for 5-10% (inclusive), 1.75 for "
+            "10-20% (inclusive) and 2 for above 20%. Source: CJ [2007] No. 114; CJ "
+            "[2016] No. 31; CJ [2025] No. 35"
         ),
         "Requirement specification": (
             "Enterprises must install metering equipment capable of "
@@ -97928,30 +95613,32 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "floating standard stage of 2007-2020)"
         ),
         "Compliance calculation methodology II": (
-            "Tiered more-increase-more-reward incentive: rewards are calculated in tiers based on"
-            "the rate of increase in utilisation output over the previous year, with allocation"
-            "coefficient 1.25 for an increase of 0-5% (inclusive), 1.5 for 5-10% (inclusive),"
-            "1.75 for 10-20% (inclusive) and 2 for above 20%; decreases are deducted by the rate"
-            "of decrease; incremental heating-season output receives additional rewards under the"
-            "more-winter-increase-more-reward principle; unconventional natural gas utilisation"
-            "output = coalbed methane utilisation output x 1.5 + shale gas utilisation output +"
-            "tight gas utilisation output x weight coefficient (0.6 in 2025, 0.4 in 2026-2027 and"
-            "0.2 in 2028-2029)."
+            "Tiered more-increase-more-reward incentive: rewards are calculated in "
+            "tiers based on the rate of increase in utilisation output over the "
+            "previous year, with allocation coefficient 1.25 for an increase of 0-5% "
+            "(inclusive), 1.5 for 5-10% (inclusive), 1.75 for 10-20% (inclusive) and 2 "
+            "for above 20%; decreases are deducted by the rate of decrease; incremental "
+            "heating-season output receives additional rewards under the "
+            "more-winter-increase-more-reward principle; unconventional natural gas "
+            "utilisation output = coalbed methane utilisation output x 1.5 + shale gas "
+            "utilisation output + tight gas utilisation output x weight coefficient "
+            "(0.6 in 2025, 0.4 in 2026-2027 and 0.2 in 2028-2029)."
         ),
         "Subsidy: annual budget/ expenditure": (
-            "On 31 October 2025, the Ministry of Finance issued the Notice on Advance Allocation"
-            "of the 2026 Clean Energy Development Special Fund Budget (CJ [2025] No. 379),"
-            "allocating CNY 3.027 billion (CNY 3,027.03 million) for 2026, covering 17 provinces"
-            "and the Xinjiang Production and Construction Corps, dedicated to supporting the"
-            "exploitation and utilisation of unconventional natural gas such as coalbed methane,"
-            "shale gas and tight gas; the 2025 total was CNY 3.186 billion. Source: CJ [2025] No."
-            "379 (as reported by China Electric Power News, 25 November 2025)"
+            "On 31 October 2025, the Ministry of Finance issued the Notice on Advance "
+            "Allocation of the 2026 Clean Energy Development Special Fund Budget (CJ "
+            "[2025] No. 379), allocating CNY 3.027 billion (CNY 3,027.03 million) for "
+            "2026, covering 17 provinces and the Xinjiang Production and Construction "
+            "Corps, dedicated to supporting the exploitation and utilisation of "
+            "unconventional natural gas such as coalbed methane, shale gas and tight "
+            "gas; the 2025 total was CNY 3.186 billion. Source: CJ [2025] No. 379 (as "
+            "reported by China Electric Power News, 25 November 2025)"
         ),
         "Subsidy: Limit": (
-            "More-increase-more-reward: allocation coefficient 1.25 for an increase in"
-            "utilisation output of 0-5% (inclusive) over the previous year, 1.5 for 5-10%"
-            "(inclusive), 1.75 for 10-20% (inclusive) and 2 for above 20%; decreases are deducted"
-            "by the rate of decrease. Source: CJ [2025] No. 35"
+            "More-increase-more-reward: allocation coefficient 1.25 for an increase in "
+            "utilisation output of 0-5% (inclusive) over the previous year, 1.5 for "
+            "5-10% (inclusive), 1.75 for 10-20% (inclusive) and 2 for above 20%; "
+            "decreases are deducted by the rate of decrease. Source: CJ [2025] No. 35"
         ),
         "Subsidy: Floor or ceiling": "N/A",
         "Subsidy: distribution mechanism": (
@@ -97997,12 +95684,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "Development Special Fund (CJ [2025] No. 35)"
         ),
         "Legal document": "https://m.mof.gov.cn/czxw/202503/t20250312_3959765.htm",
-        "Other weblinks": (
-            "http://fgk.mof.gov.cn/ui/src/views/law_html/1907280185871319042.html;"
-            "https://www.gov.cn/zhengce/zhengceku/202503/content_7013509.htm;"
-            "http://www.mof.gov.cn/zcsjtsgb/gfxwj/201602/t20160214_3583417.htm;"
-            "http://www.mof.gov.cn/gkml/caizhengwengao/wg2025/wg202503/202505/P020250513318507070749.pdf"
-        ),
+        "Other weblinks": "http://fgk.mof.gov.cn/ui/src/views/law_html/1907280185871319042.html; https://www.gov.cn/zhengce/zhengceku/202503/content_7013509.htm; http://www.mof.gov.cn/zcsjtsgb/gfxwj/201602/t20160214_3583417.htm; http://www.mof.gov.cn/gkml/caizhengwengao/wg2025/wg202503/202505/P020250513318507070749.pdf",
     },
     "CHNPIVRDDI07S000": {
         "Policy Instrument ID": "CHNPIVRDDI07S000",
@@ -98062,7 +95744,6 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
             "empirical demonstration project based on pure-hydrogen gas "
             "turbines, was removed from the list."
         ),
-        "Status": "In force",
         "Administrating authorities": (
             "National Development and Reform Commission (lead "
             "department); Ministry of Science and Technology, Ministry "
@@ -98182,6 +95863,5580 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         ),
     },
 
+
+    "CHNTRAGETI01S000": {
+
+
+        "Policy Instrument ID": "CHNTRAGETI01S000",
+
+
+        "Instrument / subscheme": "Instrument",
+
+
+        "Group": "Trading systems",
+
+
+        "Approach": "Green electricity trading",
+
+
+        "Emission sector": "Energy",
+
+
+        "Sub-sector": "Electricity",
+
+
+        "Domestic instrument name": "绿色电力交易机制",
+
+
+        "English instrument name": "Green electricity trading",
+
+
+        "Policy Package": "N/A",
+
+
+        "Description": (
+
+
+            "Green electricity trading is a market mechanism under which electricity "
+
+
+            "generated by eligible renewable energy projects is traded in an "
+
+
+            "organised manner in the electricity market, with its green "
+
+
+            "environmental value certified through Green Electricity Certificates "
+
+
+            "(GECs) and priced and transferred together with the physical "
+
+
+            "electricity. The current rules are established by the Basic Rules for "
+
+
+            "the Medium- and Long-Term Electricity Market (FG Neng Yuan Gui [2025] "
+
+
+            "No. 1656, completed 17 December 2025, effective 1 March 2026, valid for "
+
+
+            "5 years): the subject of green electricity trading is renewable "
+
+
+            "electricity plus its green environmental value, following the principle "
+
+
+            "that the certificate moves with the electricity; the transaction price "
+
+
+            "must separately identify the electricity-energy price and the green "
+
+
+            "environmental value (GEC) price, and the environmental-value portion is "
+
+
+            "excluded from time-of-use pricing and other surcharges; multi-year "
+
+
+            "green power purchase agreements are encouraged; virtual power plants "
+
+
+            "may aggregate distributed renewables for green electricity trading. "
+
+
+            "Green electricity trading runs in parallel with standalone GEC trading "
+
+
+            "and is one of the main compliance pathways for meeting the renewable "
+
+
+            "electricity consumption responsibility weights and the minimum "
+
+
+            "renewable electricity consumption proportion targets for key "
+
+
+            "energy-using industries."
+
+
+        ),
+
+
+        "Objective": "Non-fossil energy; Climate change mitigation",
+
+
+        "Mitigation relevance": "Direct",
+
+
+        "Jurisdiction level": "national",
+
+
+        "Jurisdiction name": "N/A",
+
+
+        "Adoption date": "17/12/2025",
+
+
+        "Start date": "01/03/2026",
+
+
+        "End date": "N/A",
+
+
+        "Last revisions": "N/A",
+
+
+        "Last revisions (Details)": "N/A",
+
+
+        "Status": "in force",
+
+
+        "Administrating authorities": (
+
+
+            "National Development and Reform Commission; National Energy "
+
+
+            "Administration; power exchange institutions; operator of the national "
+
+
+            "GEC issuance and trading system"
+
+
+        ),
+
+
+        "Asset": "Green electricity (renewable electricity and its green environmental value)",
+
+
+        "Asset (Status)": "New; existing",
+
+
+        "Asset (Details)": (
+
+
+            "Grid-connected electricity from eligible wind, solar and biomass "
+
+
+            "renewable energy generation projects, whose green environmental value "
+
+
+            "is transferred with the electricity on the basis of GECs issued by the "
+
+
+            "National Energy Administration. Virtual power plants may aggregate "
+
+
+            "distributed renewables to participate in green electricity trading."
+
+
+        ),
+
+
+        "Asset (Other)": "N/A",
+
+
+        "Asset (Cut-off range)": "N/A",
+
+
+        "Agent": "Firms",
+
+
+        "Agent (Detail)": (
+
+
+            "Renewable electricity generators, electricity retailers and electricity "
+
+
+            "users participating in green electricity trading. Retail companies must "
+
+
+            "establish agency relationships with users in advance before trading "
+
+
+            "green electricity on their behalf."
+
+
+        ),
+
+
+        "Activity": "Purchase or use; Production, generation or conversion",
+
+
+        "Activity (Details)": (
+
+
+            "Renewable generators sell green electricity through the market and "
+
+
+            "transfer GECs with the electricity; electricity users and retailers "
+
+
+            "purchase green electricity through bilateral negotiation or centralised "
+
+
+            "bidding, with the green environmental value transferred together with "
+
+
+            "the electricity."
+
+
+        ),
+
+
+        "Intensity (Value)": "N/A",
+
+
+        "Intensity (Unit)": "N/A",
+
+
+        "Intensity (Details)": (
+
+
+            "Green electricity trading prices are formed by the market and must "
+
+
+            "separately identify the electricity-energy price and the green "
+
+
+            "environmental value (GEC) price; the environmental-value portion is "
+
+
+            "excluded from time-of-use pricing and other surcharges (Source: FG Neng "
+
+
+            "Yuan Gui [2025] No. 1656)."
+
+
+        ),
+
+
+        "Requirement specification": (
+
+
+            "Green electricity trading follows the principle that the certificate "
+
+
+            "moves with the electricity: GECs corresponding to traded electricity "
+
+
+            "are transferred with the electricity and may not be traded separately. "
+
+
+            "Market participants must trade in accordance with market registration "
+
+
+            "and information disclosure rules; multi-year green power purchase "
+
+
+            "agreements are encouraged; retail companies must establish agency "
+
+
+            "relationships with users in advance."
+
+
+        ),
+
+
+        "Compliance calculation methodology I": (
+
+
+            "Traded green electricity volumes and GECs are matched and cancelled "
+
+
+            "following the certificate-moves-with-electricity principle; transaction "
+
+
+            "prices separately state the electricity-energy price and the green "
+
+
+            "environmental value (GEC) price."
+
+
+        ),
+
+
+        "Compliance calculation methodology II": "N/A",
+
+
+        "Subsidy: annual budget/ expenditure": "N/A",
+
+
+        "Subsidy: Limit": "N/A",
+
+
+        "Subsidy: Floor or ceiling": "N/A",
+
+
+        "Subsidy: distribution mechanism": "N/A",
+
+
+        "Subsidy: Support duration": "N/A",
+
+
+        "Subsidy: Enforcement Mechanism": "N/A",
+
+
+        "Trading System: Type": (
+
+
+            "Green electricity trading — a trading variety of the medium- and "
+
+
+            "long-term electricity market"
+
+
+        ),
+
+
+        "Trading System: cap": (
+
+
+            "N/A; the scale of green electricity trading is determined by the market "
+
+
+            "and is not a greenhouse gas emissions cap."
+
+
+        ),
+
+
+        "Trading System: allowance mechanism": (
+
+
+            "N/A; green electricity trading does not allocate allowances; the traded "
+
+
+            "subject is electricity plus its green environmental value."
+
+
+        ),
+
+
+        "Trading System: Free Allowance": "N/A",
+
+
+        "Trading System: Offset use allowed": (
+
+
+            "N/A; GECs certify the green environmental value of renewable "
+
+
+            "electricity and are not greenhouse gas emission offsets."
+
+
+        ),
+
+
+        "Trading System: Linkages": (
+
+
+            "Linked with the green electricity certificate system "
+
+
+            "(CHNTRARECI02S000), the renewable electricity consumption "
+
+
+            "responsibility weights system (CHNTRARECI01S000) and the minimum "
+
+
+            "renewable electricity consumption proportion targets for key "
+
+
+            "energy-using industries (CHNTRARECI04S000): green electricity purchases "
+
+
+            "and GEC consumption are main compliance pathways for meeting the "
+
+
+            "responsibility weights and minimum proportion targets."
+
+
+        ),
+
+
+        "Trading System: market stabilisation mechanism": "N/A",
+
+
+        "Trading System: revenue (annual)": "N/A",
+
+
+        "Trading System: Volume": "N/A",
+
+
+        "Trading System: penalties for non-compliance": (
+
+
+            "Handled in accordance with the market supervision and management "
+
+
+            "provisions of the Basic Rules for the Medium- and Long-Term Electricity "
+
+
+            "Market (specific penalties are enforced under trading rules and by "
+
+
+            "energy regulators)."
+
+
+        ),
+
+
+        "GHG emission coverage (absolute)": "N/A",
+
+
+        "GHG emission coverage (% domestic emissions)": "N/A",
+
+
+        "Economic sector": "D35",
+
+
+        "GHGs affected": "CO2",
+
+
+        "Mitigation effects": "positive",
+
+
+        "Mitigation co-benefits": "Renewable energy development; Pollution control",
+
+
+        "Legal statute": (
+
+
+            "Notice of the National Development and Reform Commission and the "
+
+
+            "National Energy Administration on Printing and Issuing the Basic Rules "
+
+
+            "for the Medium- and Long-Term Electricity Market (FG Neng Yuan Gui "
+
+
+            "[2025] No. 1656)"
+
+
+        ),
+
+
+        "Legal document": "https://www.gov.cn/zhengce/zhengceku/202512/content_7053608.htm",
+
+
+        "Other weblinks": (
+
+
+            "https://www.gov.cn/gongbao/2026/issue_12626/202603/content_7063195.html;"
+
+
+            " https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20581"
+
+
+        ),
+
+
+    },
+
+    "CHNTRADRMI01S000": {
+
+
+        "Policy Instrument ID": "CHNTRADRMI01S000",
+
+
+        "Instrument / subscheme": "Instrument",
+
+
+        "Group": "Trading systems",
+
+
+        "Approach": "Demand response market participation",
+
+
+        "Emission sector": "Energy",
+
+
+        "Sub-sector": "Electricity",
+
+
+        "Domestic instrument name": "需求响应市场化参与机制",
+
+
+        "English instrument name": "Demand response market participation",
+
+
+        "Policy Package": (
+
+
+            "Measures for the Administration of Electricity Demand-side Management "
+
+
+            "(2023 Edition) (FG Yun Xing Gui [2023] No. 1283) — one of two "
+
+
+            "mechanisms under the same measures as the demand response compensation "
+
+
+            "instrument (CHNSUBDRCI01S000)"
+
+
+        ),
+
+
+        "Description": (
+
+
+            "Demand response market participation is a set of rules enabling "
+
+
+            "electricity users and aggregators to participate in wholesale "
+
+
+            "electricity market trading as adjustable demand-side resources, "
+
+
+            "established by Articles 16 and 20 of the Measures for the "
+
+
+            "Administration of Electricity Demand-side Management (2023 Edition) (FG "
+
+
+            "Yun Xing Gui [2023] No. 1283, completed 15 September 2023, effective 1 "
+
+
+            "October 2023, valid for 5 years): demand response participants are "
+
+
+            "supported to take part in energy market and ancillary services market "
+
+
+            "operations on a regular basis and in capacity market trading or "
+
+
+            "capacity compensation, earning revenues under market rules; provincial "
+
+
+            "power load management centres organise demand response trading. "
+
+
+            "Participants are various commercial electricity users; new-type energy "
+
+
+            "storage, distributed generation, electric vehicles and air-conditioning "
+
+
+            "loads are encouraged to participate after aggregation through load "
+
+
+            "aggregators, electricity retailers, virtual power plant operators and "
+
+
+            "integrated energy service providers. Targets: by 2025 each province's "
+
+
+            "demand response capability reaches 3%–5% of maximum load (no less than "
+
+
+            "5% in provinces where the peak-valley difference rate exceeds 40%); by "
+
+
+            "2030 large-scale real-time response capability is formed."
+
+
+        ),
+
+
+        "Objective": "Energy security; Climate change mitigation",
+
+
+        "Mitigation relevance": "Indirect",
+
+
+        "Jurisdiction level": "national",
+
+
+        "Jurisdiction name": "N/A",
+
+
+        "Adoption date": "15/09/2023",
+
+
+        "Start date": "01/10/2023",
+
+
+        "End date": "N/A",
+
+
+        "Last revisions": "N/A",
+
+
+        "Last revisions (Details)": "N/A",
+
+
+        "Status": "in force",
+
+
+        "Administrating authorities": (
+
+
+            "National Development and Reform Commission; National Energy "
+
+
+            "Administration; provincial power administration departments; provincial "
+
+
+            "power load management centres; power exchange institutions"
+
+
+        ),
+
+
+        "Asset": "Adjustable electricity loads (demand response resources)",
+
+
+        "Asset (Status)": "Existing",
+
+
+        "Asset (Details)": (
+
+
+            "Flexible loads of various commercial electricity users, including "
+
+
+            "adjustable resources such as new-type energy storage, distributed "
+
+
+            "generation, EV charging loads and air-conditioning loads, participating "
+
+
+            "in markets after aggregation by load aggregators, electricity "
+
+
+            "retailers, virtual power plant operators and integrated energy service "
+
+
+            "providers."
+
+
+        ),
+
+
+        "Asset (Other)": "N/A",
+
+
+        "Asset (Cut-off range)": "N/A",
+
+
+        "Agent": "Firms",
+
+
+        "Agent (Detail)": (
+
+
+            "Commercial electricity users providing demand response, as well as load "
+
+
+            "aggregators, electricity retailers, virtual power plant operators and "
+
+
+            "integrated energy service providers that aggregate and manage "
+
+
+            "demand-side resources."
+
+
+        ),
+
+
+        "Activity": "Purchase or use",
+
+
+        "Activity (Details)": (
+
+
+            "Voluntary load reduction or load shifting by electricity users in "
+
+
+            "response to market signals and dispatch instructions, earning revenues "
+
+
+            "under market rules."
+
+
+        ),
+
+
+        "Intensity (Value)": "N/A",
+
+
+        "Intensity (Unit)": "N/A",
+
+
+        "Intensity (Details)": (
+
+
+            "By 2025 provincial demand response capability reaches 3%–5% of maximum "
+
+
+            "load (no less than 5% where the peak-valley difference rate exceeds "
+
+
+            "40%); by 2030 large-scale real-time response capability is formed "
+
+
+            "(Source: FG Yun Xing Gui [2023] No. 1283)."
+
+
+        ),
+
+
+        "Requirement specification": (
+
+
+            "Demand response participants must meet market access conditions and "
+
+
+            "capacity thresholds; provincial power load management centres organise "
+
+
+            "demand response trading; participants settle according to market rules."
+
+
+        ),
+
+
+        "Compliance calculation methodology I": (
+
+
+            "Demand response volume is measured and settled according to the load "
+
+
+            "reduction or shifting verified by metering data under market settlement "
+
+
+            "rules."
+
+
+        ),
+
+
+        "Compliance calculation methodology II": "N/A",
+
+
+        "Subsidy: annual budget/ expenditure": "N/A",
+
+
+        "Subsidy: Limit": "N/A",
+
+
+        "Subsidy: Floor or ceiling": "N/A",
+
+
+        "Subsidy: distribution mechanism": "N/A",
+
+
+        "Subsidy: Support duration": "N/A",
+
+
+        "Subsidy: Enforcement Mechanism": "N/A",
+
+
+        "Trading System: Type": (
+
+
+            "Demand response market participation — trading in the energy market, "
+
+
+            "ancillary services market and capacity market"
+
+
+        ),
+
+
+        "Trading System: cap": "N/A; market-based demand response has no emissions cap.",
+
+
+        "Trading System: allowance mechanism": "N/A",
+
+
+        "Trading System: Free Allowance": "N/A",
+
+
+        "Trading System: Offset use allowed": "N/A",
+
+
+        "Trading System: Linkages": (
+
+
+            "Linked with time-of-use pricing (CHNADPTOUI01S000) and demand response "
+
+
+            "compensation (CHNSUBDRCI01S000) under the demand-side management "
+
+
+            "framework."
+
+
+        ),
+
+
+        "Trading System: market stabilisation mechanism": "N/A",
+
+
+        "Trading System: revenue (annual)": "N/A",
+
+
+        "Trading System: Volume": "N/A",
+
+
+        "Trading System: penalties for non-compliance": "N/A",
+
+
+        "GHG emission coverage (absolute)": "N/A",
+
+
+        "GHG emission coverage (% domestic emissions)": "N/A",
+
+
+        "Economic sector": "D35",
+
+
+        "GHGs affected": "CO2",
+
+
+        "Mitigation effects": "positive",
+
+
+        "Mitigation co-benefits": "Renewable energy development; Energy security",
+
+
+        "Legal statute": (
+
+
+            "Notice of the National Development and Reform Commission and Other "
+
+
+            "Departments on Printing and Issuing the Measures for the Administration "
+
+
+            "of Electricity Demand-side Management (2023 Edition) (FG Yun Xing Gui "
+
+
+            "[2023] No. 1283)"
+
+
+        ),
+
+
+        "Legal document": "https://www.gov.cn/zhengce/zhengceku/202310/content_6907311.htm",
+
+
+        "Other weblinks": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20274",
+
+
+    },
+
+    "CHNSUBDRCI01S000": {
+
+
+        "Policy Instrument ID": "CHNSUBDRCI01S000",
+
+
+        "Instrument / subscheme": "Instrument",
+
+
+        "Group": "Subsidies",
+
+
+        "Approach": "Demand response compensation",
+
+
+        "Emission sector": "Energy",
+
+
+        "Sub-sector": "Electricity",
+
+
+        "Domestic instrument name": "需求响应经济激励（补偿）机制",
+
+
+        "English instrument name": "Demand response compensation",
+
+
+        "Policy Package": (
+
+
+            "Measures for the Administration of Electricity Demand-side Management "
+
+
+            "(2023 Edition) (FG Yun Xing Gui [2023] No. 1283) — one of two "
+
+
+            "mechanisms under the same measures as the demand response market "
+
+
+            "participation instrument (CHNTRADRMI01S000)"
+
+
+        ),
+
+
+        "Description": (
+
+
+            "Demand response compensation is the economic incentive channel for "
+
+
+            "electricity demand response established under the principle that the "
+
+
+            "provider profits and the beneficiary bears the cost, set out in "
+
+
+            "Articles 19 and 47 of the Measures for the Administration of "
+
+
+            "Electricity Demand-side Management (2023 Edition) (FG Yun Xing Gui "
+
+
+            "[2023] No. 1283, completed 15 September 2023, effective 1 October 2023, "
+
+
+            "valid for 5 years): electricity users are guided to voluntarily reduce "
+
+
+            "or shift peak load, in coordination with price policies such as "
+
+
+            "critical-peak pricing, demand response pricing and interruptible load "
+
+
+            "pricing; localities may arrange funds to support participating users. "
+
+
+            "It runs in parallel with, and is mechanistically distinct from, the "
+
+
+            "market trading channel (CHNTRADRMI01S000)."
+
+
+        ),
+
+
+        "Objective": "Energy security; Climate change mitigation",
+
+
+        "Mitigation relevance": "Indirect",
+
+
+        "Jurisdiction level": "national",
+
+
+        "Jurisdiction name": "N/A",
+
+
+        "Adoption date": "15/09/2023",
+
+
+        "Start date": "01/10/2023",
+
+
+        "End date": "N/A",
+
+
+        "Last revisions": "N/A",
+
+
+        "Last revisions (Details)": "N/A",
+
+
+        "Status": "in force",
+
+
+        "Administrating authorities": (
+
+
+            "National Development and Reform Commission; National Energy "
+
+
+            "Administration; provincial power administration departments; provincial "
+
+
+            "power load management centres"
+
+
+        ),
+
+
+        "Asset": "Adjustable electricity loads (demand response resources)",
+
+
+        "Asset (Status)": "Existing",
+
+
+        "Asset (Details)": (
+
+
+            "Flexible loads of various commercial electricity users, participating "
+
+
+            "in demand response after aggregation by load aggregators, electricity "
+
+
+            "retailers, virtual power plant operators and integrated energy service "
+
+
+            "providers."
+
+
+        ),
+
+
+        "Asset (Other)": "N/A",
+
+
+        "Asset (Cut-off range)": "N/A",
+
+
+        "Agent": "Firms",
+
+
+        "Agent (Detail)": (
+
+
+            "Electricity users participating in demand response and receiving "
+
+
+            "compensation, together with their aggregation service providers."
+
+
+        ),
+
+
+        "Activity": "Purchase or use",
+
+
+        "Activity (Details)": (
+
+
+            "Electricity users reduce or shift load under dispatch instructions and "
+
+
+            "receive economic compensation."
+
+
+        ),
+
+
+        "Intensity (Value)": "N/A",
+
+
+        "Intensity (Unit)": "N/A",
+
+
+        "Intensity (Details)": (
+
+
+            "Demand response prices are linked with the market; compensation levels "
+
+
+            "are set under the provider-profits, beneficiary-bears principle "
+
+
+            "(Source: FG Yun Xing Gui [2023] No. 1283, Articles 19 and 47)."
+
+
+        ),
+
+
+        "Requirement specification": (
+
+
+            "A demand response pricing mechanism linked with the market is "
+
+
+            "established under the provider-profits, beneficiary-bears principle, "
+
+
+            "implemented in coordination with price policies such as critical-peak "
+
+
+            "pricing, demand response pricing and interruptible load pricing."
+
+
+        ),
+
+
+        "Compliance calculation methodology I": (
+
+
+            "Compensation is settled based on verified response load volumes and "
+
+
+            "response effectiveness."
+
+
+        ),
+
+
+        "Compliance calculation methodology II": "N/A",
+
+
+        "Subsidy: annual budget/ expenditure": (
+
+
+            "N/A; borne by the beneficiary (grid companies, generators, etc.) under "
+
+
+            "the beneficiary-bears-the-cost principle, with localities able to "
+
+
+            "arrange financial support; specific amounts are not uniformly "
+
+
+            "published."
+
+
+        ),
+
+
+        "Subsidy: Limit": "N/A",
+
+
+        "Subsidy: Floor or ceiling": "N/A",
+
+
+        "Subsidy: distribution mechanism": (
+
+
+            "Compensation is settled based on response load volumes and response "
+
+
+            "effectiveness; demand response prices are linked with the market and "
+
+
+            "localities may arrange financial support."
+
+
+        ),
+
+
+        "Subsidy: Support duration": (
+
+
+            "N/A; follows the validity period of the Measures for the Administration "
+
+
+            "of Electricity Demand-side Management (2023 Edition) (to 30 September "
+
+
+            "2028)."
+
+
+        ),
+
+
+        "Subsidy: Enforcement Mechanism": (
+
+
+            "Organised and implemented by provincial power load management centres "
+
+
+            "and other bodies; compensation funds are provided under the "
+
+
+            "provider-profits, beneficiary-bears principle."
+
+
+        ),
+
+
+        "GHG emission coverage (absolute)": "N/A",
+
+
+        "GHG emission coverage (% domestic emissions)": "N/A",
+
+
+        "Economic sector": "D35",
+
+
+        "GHGs affected": "CO2",
+
+
+        "Mitigation effects": "positive",
+
+
+        "Mitigation co-benefits": "Renewable energy development; Energy security",
+
+
+        "Legal statute": (
+
+
+            "Notice of the National Development and Reform Commission and Other "
+
+
+            "Departments on Printing and Issuing the Measures for the Administration "
+
+
+            "of Electricity Demand-side Management (2023 Edition) (FG Yun Xing Gui "
+
+
+            "[2023] No. 1283)"
+
+
+        ),
+
+
+        "Legal document": "https://www.gov.cn/zhengce/zhengceku/202310/content_6907311.htm",
+
+
+        "Other weblinks": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20274",
+
+
+    },
+
+    "CHNADPTOUI01S000": {
+
+
+        "Policy Instrument ID": "CHNADPTOUI01S000",
+
+
+        "Instrument / subscheme": "Instrument",
+
+
+        "Group": "Administered prices",
+
+
+        "Approach": "Time-of-use pricing",
+
+
+        "Emission sector": "Energy",
+
+
+        "Sub-sector": "Electricity",
+
+
+        "Domestic instrument name": "分时电价机制",
+
+
+        "English instrument name": "Time-of-use pricing",
+
+
+        "Policy Package": "N/A",
+
+
+        "Description": (
+
+
+            "Time-of-use (TOU) pricing is a mechanism whereby the government sets "
+
+
+            "electricity prices that vary by time of day, established by the Notice "
+
+
+            "of the National Development and Reform Commission on Further Improving "
+
+
+            "the Time-of-Use Pricing Mechanism (FG Jia Ge [2021] No. 1093, completed "
+
+
+            "26 July 2021, effective from the date of publication): each province "
+
+
+            "determines peak and valley periods (plus critical-peak, and optionally "
+
+
+            "deep-valley, high/low-flow and seasonal periods) and price ratios to "
+
+
+            "guide electricity demand away from peak hours. Where the system's "
+
+
+            "maximum peak-valley difference rate exceeds 40%, the peak-to-valley "
+
+
+            "price ratio is in principle no less than 4:1; elsewhere no less than "
+
+
+            "3:1. Critical-peak prices apply in periods when the system's maximum "
+
+
+            "load reaches or exceeds 95% of the maximum load of the preceding two "
+
+
+            "years, with a surcharge of at least 20% on top of the peak price. The "
+
+
+            "scope covers industrial and commercial users (excluding "
+
+
+            "electrified-rail traction; residential application is decided "
+
+
+            "provincially). Grid companies account TOU revenue separately. From "
+
+
+            "March 2026 (when the Basic Rules for the Medium- and Long-Term "
+
+
+            "Electricity Market took effect), entities directly trading in the "
+
+
+            "market are no longer subject to administratively set TOU price levels "
+
+
+            "and periods; administrative TOU pricing applies mainly to users "
+
+
+            "purchasing electricity through grid companies as agents."
+
+
+        ),
+
+
+        "Objective": "Energy efficiency; Climate change mitigation",
+
+
+        "Mitigation relevance": "Indirect",
+
+
+        "Jurisdiction level": "national",
+
+
+        "Jurisdiction name": "N/A",
+
+
+        "Adoption date": "26/07/2021",
+
+
+        "Start date": "29/07/2021",
+
+
+        "End date": "N/A",
+
+
+        "Last revisions": "N/A",
+
+
+        "Last revisions (Details)": "N/A",
+
+
+        "Status": "in force",
+
+
+        "Administrating authorities": (
+
+
+            "National Development and Reform Commission; provincial price "
+
+
+            "authorities; grid companies"
+
+
+        ),
+
+
+        "Asset": "Industrial and commercial electricity consumption (time-of-use pricing)",
+
+
+        "Asset (Status)": "Existing",
+
+
+        "Asset (Details)": (
+
+
+            "Electricity consumption by industrial and commercial users (excluding "
+
+
+            "electrified-rail traction; residential application is decided "
+
+
+            "provincially). From March 2026 (when the Basic Rules for the Medium- "
+
+
+            "and Long-Term Electricity Market took effect), entities directly "
+
+
+            "trading in the market are no longer subject to administrative TOU "
+
+
+            "pricing, which applies mainly to users purchasing electricity through "
+
+
+            "grid companies as agents."
+
+
+        ),
+
+
+        "Asset (Other)": "N/A",
+
+
+        "Asset (Cut-off range)": (
+
+
+            "Peak-to-valley price ratio of no less than 4:1 where the system's "
+
+
+            "maximum peak-valley difference rate exceeds 40%; no less than 3:1 "
+
+
+            "elsewhere."
+
+
+        ),
+
+
+        "Agent": "Firms",
+
+
+        "Agent (Detail)": (
+
+
+            "Industrial and commercial electricity users subject to TOU pricing "
+
+
+            "(residential users subject to provincial decisions)."
+
+
+        ),
+
+
+        "Activity": "Purchase or use",
+
+
+        "Activity (Details)": (
+
+
+            "Electricity consumption by industrial and commercial users across peak, "
+
+
+            "flat, valley and critical-peak periods."
+
+
+        ),
+
+
+        "Intensity (Value)": "4:1; 3:1",
+
+
+        "Intensity (Unit)": "Peak-to-valley price ratio",
+
+
+        "Intensity (Details)": (
+
+
+            "Peak-to-valley price ratio of no less than 4:1 where the system's "
+
+
+            "maximum peak-valley difference rate exceeds 40%, and no less than 3:1 "
+
+
+            "elsewhere. Critical-peak prices apply when maximum load reaches or "
+
+
+            "exceeds 95% of the preceding two years' maximum, with a surcharge of at "
+
+
+            "least 20% on top of the peak price (Source: FG Jia Ge [2021] No. 1093)."
+
+
+        ),
+
+
+        "Requirement specification": (
+
+
+            "Provinces determine peak/valley period divisions and price ratios, "
+
+
+            "which are filed for the record before implementation; grid companies "
+
+
+            "must account TOU revenue separately and report implementation as "
+
+
+            "required."
+
+
+        ),
+
+
+        "Compliance calculation methodology I": (
+
+
+            "Grid companies calculate electricity charges by consumption period: "
+
+
+            "peak volume × peak price + flat volume × flat price + valley volume × "
+
+
+            "valley price (+ critical-peak volume × critical-peak price)."
+
+
+        ),
+
+
+        "Compliance calculation methodology II": (
+
+
+            "Provincial price authorities determine peak/valley periods and price "
+
+
+            "ratios based on system load characteristics, renewable energy "
+
+
+            "integration needs and other factors."
+
+
+        ),
+
+
+        "Subsidy: annual budget/ expenditure": "N/A",
+
+
+        "Subsidy: Limit": "N/A",
+
+
+        "Subsidy: Floor or ceiling": "N/A",
+
+
+        "Subsidy: distribution mechanism": "N/A",
+
+
+        "Subsidy: Support duration": "N/A",
+
+
+        "Subsidy: Enforcement Mechanism": "N/A",
+
+
+        "GHG emission coverage (absolute)": "N/A",
+
+
+        "GHG emission coverage (% domestic emissions)": "N/A",
+
+
+        "Economic sector": "D35",
+
+
+        "GHGs affected": "CO2",
+
+
+        "Mitigation effects": "positive",
+
+
+        "Mitigation co-benefits": "Renewable energy development; Energy conservation",
+
+
+        "Legal statute": (
+
+
+            "Notice of the National Development and Reform Commission on Further "
+
+
+            "Improving the Time-of-Use Pricing Mechanism (FG Jia Ge [2021] No. 1093)"
+
+
+        ),
+
+
+        "Legal document": "https://www.gov.cn/zhengce/zhengceku/2021-07/29/content_5628297.htm",
+
+
+        "Other weblinks": "https://www.ndrc.gov.cn/xwdt/tzgg/202107/t20210729_1292068.html",
+
+
+    },
+
+    "CHNADPTPTI01S000": {
+
+
+        "Policy Instrument ID": "CHNADPTPTI01S000",
+
+
+        "Instrument / subscheme": "Instrument",
+
+
+        "Group": "Administered prices",
+
+
+        "Approach": "Two-part heat tariff",
+
+
+        "Emission sector": "Buildings",
+
+
+        "Sub-sector": "District heating",
+
+
+        "Domestic instrument name": "城市供热两部制热价制度",
+
+
+        "English instrument name": "Two-part heat tariff",
+
+
+        "Policy Package": "N/A",
+
+
+        "Description": (
+
+
+            "The two-part urban heat tariff is a pricing system under which heat "
+
+
+            "prices comprise a basic heat price and a metered heat price, "
+
+
+            "established by the Interim Measures for the Administration of Urban "
+
+
+            "Heat Prices (FG Jia Ge [2007] No. 1195, jointly issued by the National "
+
+
+            "Development and Reform Commission and the Ministry of Construction on 3 "
+
+
+            "June 2007, effective 1 October 2007): the basic heat price covers fixed "
+
+
+            "costs such as depreciation, maintenance and management, set at 30%–60% "
+
+
+            "of the total heat price; the metered heat price covers variable costs "
+
+
+            "such as fuel, water, electricity and wages and is charged per metered "
+
+
+            "heat consumption. New buildings must be fitted with heat metering and "
+
+
+            "control devices, and existing buildings are retrofitted where feasible. "
+
+
+            "Urban heat supply is government-priced, with public hearings required "
+
+
+            "for residential price adjustments; supplier profits are capped at a "
+
+
+            "cost-profit rate of no more than 3% (or a return on equity of the "
+
+
+            "5-year government bond yield plus 2–3 percentage points). The document "
+
+
+            "remained the current national framework as of November 2026, with local "
+
+
+            "heat suppliers setting two-part tariffs under it."
+
+
+        ),
+
+
+        "Objective": "Energy efficiency; Climate change mitigation",
+
+
+        "Mitigation relevance": "Indirect",
+
+
+        "Jurisdiction level": "national",
+
+
+        "Jurisdiction name": "N/A",
+
+
+        "Adoption date": "03/06/2007",
+
+
+        "Start date": "01/10/2007",
+
+
+        "End date": "N/A",
+
+
+        "Last revisions": "N/A",
+
+
+        "Last revisions (Details)": "N/A",
+
+
+        "Status": "in force",
+
+
+        "Administrating authorities": (
+
+
+            "National Development and Reform Commission; Ministry of Housing and "
+
+
+            "Urban-Rural Development; urban heat supply administrative departments; "
+
+
+            "urban price authorities"
+
+
+        ),
+
+
+        "Asset": "Urban district heating",
+
+
+        "Asset (Status)": "New; existing",
+
+
+        "Asset (Details)": (
+
+
+            "Heat supply capacity of urban district heating systems and metered heat "
+
+
+            "consumption. New buildings must be fitted with heat metering and "
+
+
+            "control devices; existing buildings are retrofitted where feasible."
+
+
+        ),
+
+
+        "Asset (Other)": "N/A",
+
+
+        "Asset (Cut-off range)": (
+
+
+            "Basic heat price set at 30%–60% of the total heat price; supplier "
+
+
+            "profit capped at a cost-profit rate of no more than 3%."
+
+
+        ),
+
+
+        "Agent": "Households; Firms",
+
+
+        "Agent (Detail)": (
+
+
+            "Urban heat users (residential and non-residential) billed under the "
+
+
+            "two-part tariff; heat supply enterprises subject to government pricing."
+
+
+        ),
+
+
+        "Activity": "Purchase or use",
+
+
+        "Activity (Details)": (
+
+
+            "Consumption of district heating billed by a basic charge plus a charge "
+
+
+            "per metered heat."
+
+
+        ),
+
+
+        "Intensity (Value)": "30%-60%; 3%",
+
+
+        "Intensity (Unit)": (
+
+
+            "Basic heat price share of the total heat price (%); cost-profit rate "
+
+
+            "cap for heat suppliers (%)"
+
+
+        ),
+
+
+        "Intensity (Details)": (
+
+
+            "The basic heat price is set at 30%–60% of the total heat price, "
+
+
+            "covering fixed costs such as depreciation, maintenance and management; "
+
+
+            "the metered heat price is charged per actual heat consumption, covering "
+
+
+            "variable costs such as fuel, water, electricity and wages; supplier "
+
+
+            "profits are capped at a cost-profit rate of no more than 3% (Source: FG "
+
+
+            "Jia Ge [2007] No. 1195)."
+
+
+        ),
+
+
+        "Requirement specification": (
+
+
+            "Urban heat supply gradually adopts the two-part tariff; new buildings "
+
+
+            "must be fitted with heat metering and control devices; public hearings "
+
+
+            "are required for residential heat price adjustments; adjustments must "
+
+
+            "fully consider social affordability."
+
+
+        ),
+
+
+        "Compliance calculation methodology I": (
+
+
+            "User heat charge = basic heat price × apportioned floor area (or "
+
+
+            "capacity) + metered heat price × actual heat consumption."
+
+
+        ),
+
+
+        "Compliance calculation methodology II": (
+
+
+            "Heat supply enterprises calculate the basic and metered heat prices by "
+
+
+            "cost composition for approval by urban price authorities."
+
+
+        ),
+
+
+        "Subsidy: annual budget/ expenditure": "N/A",
+
+
+        "Subsidy: Limit": "N/A",
+
+
+        "Subsidy: Floor or ceiling": "N/A",
+
+
+        "Subsidy: distribution mechanism": "N/A",
+
+
+        "Subsidy: Support duration": "N/A",
+
+
+        "Subsidy: Enforcement Mechanism": "N/A",
+
+
+        "GHG emission coverage (absolute)": "N/A",
+
+
+        "GHG emission coverage (% domestic emissions)": "N/A",
+
+
+        "Economic sector": "D35",
+
+
+        "GHGs affected": "CO2",
+
+
+        "Mitigation effects": "positive",
+
+
+        "Mitigation co-benefits": "Energy conservation; Pollution control",
+
+
+        "Legal statute": (
+
+
+            "Notice of the National Development and Reform Commission and the "
+
+
+            "Ministry of Construction on Printing and Issuing the Interim Measures "
+
+
+            "for the Administration of Urban Heat Prices (FG Jia Ge [2007] No. 1195)"
+
+
+        ),
+
+
+        "Legal document": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20052",
+
+
+        "Other weblinks": (
+
+
+            "https://www.bjhr.gov.cn/zt/xzzfxxgs/ztqzfbm/bjhrcsglw/cgwzfyj/202607/t20"
+
+
+            "260715_4764940.html"
+
+
+        ),
+
+
+    },
+
+    "CHNADPRITI02S000": {
+
+
+        "Policy Instrument ID": "CHNADPRITI02S000",
+
+
+        "Instrument / subscheme": "Instrument",
+
+
+        "Group": "Administered prices",
+
+
+        "Approach": "Residential increasing-block tariff",
+
+
+        "Emission sector": "Buildings",
+
+
+        "Sub-sector": "Residential gas consumption",
+
+
+        "Domestic instrument name": "居民生活用气阶梯价格制度",
+
+
+        "English instrument name": "Residential increasing-block gas tariff",
+
+
+        "Policy Package": "N/A",
+
+
+        "Description": (
+
+
+            "For urban residents with one-household-one-meter gas connections, "
+
+
+            "residential pipeline natural gas is billed under a three-tier "
+
+
+            "increasing-block tariff, established by the Guiding Opinions of the "
+
+
+            "National Development and Reform Commission on Establishing a Sound "
+
+
+            "Residential Gas Increasing-Block Pricing System (FG Jia Ge [2014] No. "
+
+
+            "467, issued 20 March 2014): Tier 1 covers around 80% of residential "
+
+
+            "households' average monthly gas consumption and safeguards basic living "
+
+
+            "needs; Tier 2 covers around 80%–95% of households' average monthly "
+
+
+            "consumption, reflecting reasonable demand for improved living "
+
+
+            "standards; Tier 3 covers consumption above Tier 2 and reflects resource "
+
+
+            "scarcity. The tier price ratio is in principle 1:1.2:1.5. Provinces "
+
+
+            "determine tier volumes and specific prices locally, with all "
+
+
+            "gas-connected cities required to establish the system by end-2015. The "
+
+
+            "document remained the current national framework as of November 2026."
+
+
+        ),
+
+
+        "Objective": "Energy efficiency; Pollution control",
+
+
+        "Mitigation relevance": "Indirect",
+
+
+        "Jurisdiction level": "national",
+
+
+        "Jurisdiction name": "N/A",
+
+
+        "Adoption date": "20/03/2014",
+
+
+        "Start date": "20/03/2014",
+
+
+        "End date": "N/A",
+
+
+        "Last revisions": "N/A",
+
+
+        "Last revisions (Details)": "N/A",
+
+
+        "Status": "in force",
+
+
+        "Administrating authorities": (
+
+
+            "National Development and Reform Commission; provincial price "
+
+
+            "authorities; urban gas enterprises"
+
+
+        ),
+
+
+        "Asset": "Residential pipeline natural gas",
+
+
+        "Asset (Status)": "Existing",
+
+
+        "Asset (Details)": (
+
+
+            "Pipeline natural gas for urban resident households with "
+
+
+            "one-household-one-meter connections. Schools, aged-care and welfare "
+
+
+            "institutions and other non-residential users on residential gas prices "
+
+
+            "pay the average of Tier 1 and Tier 2 prices; low-income groups receive "
+
+
+            "price concessions."
+
+
+        ),
+
+
+        "Asset (Other)": "N/A",
+
+
+        "Asset (Cut-off range)": (
+
+
+            "Tier 1 covers around 80% of residential households' average monthly gas "
+
+
+            "consumption; Tier 2 covers around 80%–95%; Tier 3 covers the remainder."
+
+
+        ),
+
+
+        "Agent": "Households",
+
+
+        "Agent (Detail)": "Urban resident households with one-household-one-meter gas connections.",
+
+
+        "Activity": "Purchase or use",
+
+
+        "Activity (Details)": "Residential daily gas consumption, including cooking and water heating.",
+
+
+        "Intensity (Value)": "1:1.2:1.5",
+
+
+        "Intensity (Unit)": "Tier gas price ratio (Tier 1 : Tier 2 : Tier 3)",
+
+
+        "Intensity (Details)": (
+
+
+            "The tier price ratio is in principle 1:1.2:1.5. Tier 1 prices are set "
+
+
+            "on the principle of basically compensating gas supply costs; Tier 3 "
+
+
+            "prices reflect resource scarcity (Source: FG Jia Ge [2014] No. 467)."
+
+
+        ),
+
+
+        "Requirement specification": (
+
+
+            "Provincial price authorities formulate tier volumes and price schemes, "
+
+
+            "to be implemented after approval following hearings and other "
+
+
+            "procedures; gas enterprises read meters monthly and bill by cumulative "
+
+
+            "consumption in tiers."
+
+
+        ),
+
+
+        "Compliance calculation methodology I": (
+
+
+            "Gas enterprises calculate charges by cumulative monthly consumption per "
+
+
+            "household in tiers: Tier 1 volume × Tier 1 price + Tier 2 volume × Tier "
+
+
+            "2 price + Tier 3 volume × Tier 3 price."
+
+
+        ),
+
+
+        "Compliance calculation methodology II": (
+
+
+            "Provincial price authorities determine tier volumes and prices based on "
+
+
+            "local residential gas consumption, for implementation after approval by "
+
+
+            "provincial governments."
+
+
+        ),
+
+
+        "Subsidy: annual budget/ expenditure": "N/A",
+
+
+        "Subsidy: Limit": "N/A",
+
+
+        "Subsidy: Floor or ceiling": "N/A",
+
+
+        "Subsidy: distribution mechanism": "N/A",
+
+
+        "Subsidy: Support duration": "N/A",
+
+
+        "Subsidy: Enforcement Mechanism": "N/A",
+
+
+        "GHG emission coverage (absolute)": "N/A",
+
+
+        "GHG emission coverage (% domestic emissions)": "N/A",
+
+
+        "Economic sector": "D35",
+
+
+        "GHGs affected": "CO2",
+
+
+        "Mitigation effects": "positive",
+
+
+        "Mitigation co-benefits": "Pollution control",
+
+
+        "Legal statute": (
+
+
+            "Guiding Opinions of the National Development and Reform Commission on "
+
+
+            "Establishing a Sound Residential Gas Increasing-Block Pricing System "
+
+
+            "(FG Jia Ge [2014] No. 467)"
+
+
+        ),
+
+
+        "Legal document": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/201403/t20140321_964071_ext.html",
+
+
+        "Other weblinks": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=19796",
+
+
+    },
+
+    "CHNSUBESPI06S000": {
+
+
+        "Policy Instrument ID": "CHNSUBESPI06S000",
+
+
+        "Instrument / subscheme": "Instrument",
+
+
+        "Group": "Subsidies",
+
+
+        "Approach": "Ecosystem service payments",
+
+
+        "Emission sector": "AFOLU",
+
+
+        "Sub-sector": "Cropland",
+
+
+        "Domestic instrument name": "东北黑土地保护性耕作作业补助",
+
+
+        "English instrument name": "Conservation tillage subsidy for black soil protection in Northeast China",
+
+
+        "Policy Package": "N/A",
+
+
+        "Description": (
+
+
+            "The Northeast black soil conservation tillage operation subsidy is a "
+
+
+            "central-government per-mu operation subsidy for straw-cover "
+
+
+            "no/minimum-tillage seeding in Liaoning, Jilin, Heilongjiang and four "
+
+
+            "eastern Inner Mongolia leagues/cities, established by the Action Plan "
+
+
+            "for Conservation Tillage on Black Soil in Northeast China (2020–2025) "
+
+
+            "(Nong Ji Fa [2020] No. 2, jointly issued by the Ministry of Agriculture "
+
+
+            "and Rural Affairs and the Ministry of Finance; completed 25 February "
+
+
+            "2020, published 18 March 2020) and its companion Implementation "
+
+
+            "Guidance (Nong Ban Ji [2020] No. 3). Beneficiaries are agricultural "
+
+
+            "machinery operators, machinery cooperatives and other operation service "
+
+
+            "organisations carrying out conservation tillage, and land operators "
+
+
+            "using their own no-till seeders. Central funds flow through the big "
+
+
+            "special item plus task list channel under the agricultural resources "
+
+
+            "and ecological protection subsidy funds (cropland quality improvement "
+
+
+            "direction), following the principle of subsidising after operations and "
+
+
+            "disbursing after public disclosure; machinery must carry monitoring "
+
+
+            "devices. 2026 provincial rates: partial cover CNY 30–50/mu, heavy cover "
+
+
+            "CNY 55–80/mu, plus CNY 15–25/mu for stacked deep-loosening, strip-till, "
+
+
+            "harrow-mixing and pipe-laying operations. The 2025 action target was "
+
+
+            "140 million mu. In 2026 the Ministry of Agriculture and Rural Affairs "
+
+
+            "and the Ministry of Finance issued the Action Plan for Conservation "
+
+
+            "Tillage on Black Soil in Northeast China (2026–2030) (Nong Ban Ji "
+
+
+            "[2026] No. 4), continuing the operation subsidy mechanism (issue date "
+
+
+            "to be verified)."
+
+
+        ),
+
+
+        "Objective": "Natural resource protection; Climate change mitigation",
+
+
+        "Mitigation relevance": "Indirect",
+
+
+        "Jurisdiction level": "national",
+
+
+        "Jurisdiction name": "N/A",
+
+
+        "Adoption date": "25/02/2020",
+
+
+        "Start date": "18/03/2020",
+
+
+        "End date": "N/A",
+
+
+        "Last revisions": "N/A",
+
+
+        "Last revisions (Details)": (
+
+
+            "In 2026 the Ministry of Agriculture and Rural Affairs and the Ministry "
+
+
+            "of Finance issued the Action Plan for Conservation Tillage on Black "
+
+
+            "Soil in Northeast China (2026–2030) (Nong Ban Ji [2026] No. 4), "
+
+
+            "continuing and deepening the operation subsidy mechanism; the specific "
+
+
+            "issue date is to be verified."
+
+
+        ),
+
+
+        "Status": "in force",
+
+
+        "Administrating authorities": (
+
+
+            "Ministry of Agriculture and Rural Affairs; Ministry of Finance; "
+
+
+            "provincial agriculture and finance departments"
+
+
+        ),
+
+
+        "Asset": "Black soil cropland in Northeast China",
+
+
+        "Asset (Status)": "Existing",
+
+
+        "Asset (Details)": (
+
+
+            "Cropland under straw-cover no/minimum-tillage seeding in Liaoning, "
+
+
+            "Jilin, Heilongjiang and four eastern Inner Mongolia leagues/cities. The "
+
+
+            "2025 action target was 140 million mu."
+
+
+        ),
+
+
+        "Asset (Other)": "N/A",
+
+
+        "Asset (Cut-off range)": (
+
+
+            "Subsidised operation areas are verified under annual task lists; "
+
+
+            "machinery must carry monitoring devices and operation areas are "
+
+
+            "verified through monitoring."
+
+
+        ),
+
+
+        "Agent": "Households; Firms",
+
+
+        "Agent (Detail)": (
+
+
+            "Agricultural machinery operators, machinery cooperatives and other "
+
+
+            "operation service organisations carrying out conservation tillage, and "
+
+
+            "land operators using their own no-till seeders."
+
+
+        ),
+
+
+        "Activity": "Production; Conservation, protection or storage",
+
+
+        "Activity (Details)": (
+
+
+            "Straw-cover no/minimum-tillage seeding, deep loosening, strip tillage, "
+
+
+            "harrow mixing and pipe laying conservation tillage operations."
+
+
+        ),
+
+
+        "Intensity (Value)": "30-50; 55-80; 15-25",
+
+
+        "Intensity (Unit)": "CNY/mu",
+
+
+        "Intensity (Details)": (
+
+
+            "2026 provincial subsidy rates: partial cover CNY 30–50/mu; heavy cover "
+
+
+            "CNY 55–80/mu; an additional CNY 15–25/mu for stacked deep-loosening, "
+
+
+            "strip-till, harrow-mixing and pipe-laying operations (Source: 2026 "
+
+
+            "provincial implementation plans of Liaoning, Jilin and Heilongjiang)."
+
+
+        ),
+
+
+        "Requirement specification": (
+
+
+            "Subsidies follow the principle of subsidising after operations and "
+
+
+            "disbursing after public disclosure; machinery must carry monitoring "
+
+
+            "devices; operation areas are disclosed and disbursed after monitoring "
+
+
+            "verification."
+
+
+        ),
+
+
+        "Compliance calculation methodology I": (
+
+
+            "Subsidy amount = verified operation area × subsidy rate for the "
+
+
+            "corresponding operation type."
+
+
+        ),
+
+
+        "Compliance calculation methodology II": (
+
+
+            "Operation areas are determined by machinery monitoring data and "
+
+
+            "disbursed after village-level public disclosure without objection."
+
+
+        ),
+
+
+        "Subsidy: annual budget/ expenditure": (
+
+
+            "N/A; central funds flow through the big special item plus task list "
+
+
+            "channel under the agricultural resources and ecological protection "
+
+
+            "subsidy funds (cropland quality improvement direction); annual totals "
+
+
+            "are not uniformly published."
+
+
+        ),
+
+
+        "Subsidy: Limit": (
+
+
+            "Operation subsidy rates: partial cover CNY 30–50/mu, heavy cover CNY "
+
+
+            "55–80/mu, and CNY 15–25/mu for stacked deep-loosening, strip-till, "
+
+
+            "harrow-mixing and pipe-laying operations (Source: 2026 provincial "
+
+
+            "implementation plans)."
+
+
+        ),
+
+
+        "Subsidy: Floor or ceiling": "CNY 30–50/mu (partial cover); CNY 55–80/mu (heavy cover)",
+
+
+        "Subsidy: distribution mechanism": (
+
+
+            "Subsidise after operations, disburse after public disclosure; central "
+
+
+            "funds reach provinces through the big special item plus task list "
+
+
+            "channel and are decomposed to counties."
+
+
+        ),
+
+
+        "Subsidy: Support duration": "Action plan 2020–2025; continued for 2026–2030 (Nong Ban Ji [2026] No. 4).",
+
+
+        "Subsidy: Enforcement Mechanism": (
+
+
+            "Machinery must carry monitoring devices; operation areas are verified "
+
+
+            "through monitoring and village-level public disclosure before "
+
+
+            "disbursement; fraudulent claims are handled in accordance with the law."
+
+
+        ),
+
+
+        "GHG emission coverage (absolute)": "N/A",
+
+
+        "GHG emission coverage (% domestic emissions)": "N/A",
+
+
+        "Economic sector": "A01",
+
+
+        "GHGs affected": "CO2",
+
+
+        "Mitigation effects": "positive",
+
+
+        "Mitigation co-benefits": "Ecological protection; Food security",
+
+
+        "Legal statute": (
+
+
+            "Notice of the Ministry of Agriculture and Rural Affairs and the "
+
+
+            "Ministry of Finance on Printing and Issuing the Action Plan for "
+
+
+            "Conservation Tillage on Black Soil in Northeast China (2020–2025) (Nong "
+
+
+            "Ji Fa [2020] No. 2); Implementation Guidance for the Action Plan for "
+
+
+            "Conservation Tillage on Black Soil in Northeast China (Nong Ban Ji "
+
+
+            "[2020] No. 3)"
+
+
+        ),
+
+
+        "Legal document": "https://www.moa.gov.cn/govpublic/NYJXHGLS/202003/t20200318_6339304.htm",
+
+
+        "Other weblinks": "https://www.gov.cn/zhengce/zhengceku/2020-03/18/content_5492795.htm",
+
+
+    },
+
+    "CHNFRMDPVI01S000": {
+
+
+        "Policy Instrument ID": "CHNFRMDPVI01S000",
+
+
+        "Instrument / subscheme": "Instrument",
+
+
+        "Group": "Framework standards",
+
+
+        "Approach": "Distributed solar PV development and construction management",
+
+
+        "Emission sector": "Energy",
+
+
+        "Sub-sector": "Electricity",
+
+
+        "Domestic instrument name": "分布式光伏发电开发建设管理办法",
+
+
+        "English instrument name": "Distributed solar PV development and construction management",
+
+
+        "Policy Package": "N/A",
+
+
+        "Description": (
+
+
+            "The distributed solar PV development and construction management "
+
+
+            "measures are the national development and construction management "
+
+
+            "regime for user-side PV projects connected to the distribution network, "
+
+
+            "established by the Measures for the Administration of the Development "
+
+
+            "and Construction of Distributed Solar PV Power Generation (Guo Neng Fa "
+
+
+            "Xin Neng Gui [2025] No. 7, issued by the National Energy "
+
+
+            "Administration; completed 17 January 2025, published and effective 23 "
+
+
+            "January 2025, valid for 5 years), which repeal the 2013 interim "
+
+
+            "measures (Guo Neng Xin Neng [2013] No. 433). Projects fall into four "
+
+
+            "categories: natural-person household (≤380V), non-natural-person "
+
+
+            "household (≤10/20kV, ≤6MW), general industrial and commercial "
+
+
+            "(≤10/20kV, ≤6MW in principle) and large industrial and commercial "
+
+
+            "(35/110kV, ≤20/50MW). There are three grid-connection modes — full "
+
+
+            "feed-in, full self-consumption, and self-consumption with surplus fed "
+
+
+            "into the grid — with large industrial and commercial projects in "
+
+
+            "principle fully self-consumed. Filing follows the investor-files "
+
+
+            "principle and capacity is measured on the AC side; grid companies must "
+
+
+            "reply to connection intents within 2 working days and to connection "
+
+
+            "schemes within 10/20 working days; new projects must meet "
+
+
+            "observability, measurability, controllability and adjustability "
+
+
+            "requirements; GECs are issued for all generation (tradable for grid-fed "
+
+
+            "volumes). Concentrated development disguised as distributed PV is "
+
+
+            "prohibited."
+
+
+        ),
+
+
+        "Objective": "Non-fossil energy",
+
+
+        "Mitigation relevance": "Direct",
+
+
+        "Jurisdiction level": "national",
+
+
+        "Jurisdiction name": "N/A",
+
+
+        "Adoption date": "17/01/2025",
+
+
+        "Start date": "23/01/2025",
+
+
+        "End date": "N/A",
+
+
+        "Last revisions": "N/A",
+
+
+        "Last revisions (Details)": "N/A",
+
+
+        "Status": "in force",
+
+
+        "Administrating authorities": (
+
+
+            "National Energy Administration; provincial energy authorities; NEA "
+
+
+            "regional offices; grid companies"
+
+
+        ),
+
+
+        "Asset": "Distributed solar PV generation projects",
+
+
+        "Asset (Status)": "New; existing",
+
+
+        "Asset (Details)": (
+
+
+            "Four categories of distributed solar PV projects: natural-person "
+
+
+            "household (≤380V), non-natural-person household (≤10/20kV, ≤6MW), "
+
+
+            "general industrial and commercial (≤10/20kV, ≤6MW in principle) and "
+
+
+            "large industrial and commercial (35/110kV, ≤20/50MW). Projects filed "
+
+
+            "before 23 January 2025 and grid-connected by 1 May 2025 remain under "
+
+
+            "the old regime."
+
+
+        ),
+
+
+        "Asset (Other)": "N/A",
+
+
+        "Asset (Cut-off range)": (
+
+
+            "Voltage level and capacity caps by category: household ≤380V; "
+
+
+            "non-natural-person household ≤10/20kV and ≤6MW; general industrial and "
+
+
+            "commercial ≤10/20kV and ≤6MW in principle; large industrial and "
+
+
+            "commercial 35/110kV and ≤20/50MW."
+
+
+        ),
+
+
+        "Agent": "Firms; Households",
+
+
+        "Agent (Detail)": (
+
+
+            "Project investors (whoever invests, files); household projects may be "
+
+
+            "filed through grid companies; natural-person household projects are "
+
+
+            "filed by natural persons."
+
+
+        ),
+
+
+        "Activity": "New construction; Operation",
+
+
+        "Activity (Details)": (
+
+
+            "Filing, design, construction, grid connection and operation management "
+
+
+            "of distributed solar PV projects. New projects must meet observability, "
+
+
+            "measurability, controllability and adjustability requirements."
+
+
+        ),
+
+
+        "Intensity (Value)": "2; 10; 20",
+
+
+        "Intensity (Unit)": "Working days (connection-intent reply; connection-scheme reply)",
+
+
+        "Intensity (Details)": (
+
+
+            "Grid companies must reply to connection intents within 2 working days "
+
+
+            "and to connection schemes within 10 working days (20 working days for "
+
+
+            "larger projects) (Source: Guo Neng Fa Xin Neng Gui [2025] No. 7)."
+
+
+        ),
+
+
+        "Requirement specification": (
+
+
+            "1) Filing follows the investor-files principle; 2) capacity is measured "
+
+
+            "on the AC side; 3) grid companies reply to connection intents within 2 "
+
+
+            "working days and to connection schemes within 10/20 working days; 4) "
+
+
+            "new projects must meet observability, measurability, controllability "
+
+
+            "and adjustability requirements; 5) concentrated development disguised "
+
+
+            "as distributed PV is prohibited; 6) large industrial and commercial "
+
+
+            "projects are in principle fully self-consumed, with surplus feed-in "
+
+
+            "allowed only in areas with continuous spot-market operation."
+
+
+        ),
+
+
+        "Compliance calculation methodology I": "N/A",
+
+
+        "Compliance calculation methodology II": "N/A",
+
+
+        "Compliance monitoring": "Supervision and inspection; information reporting",
+
+
+        "Compliance monitoring details": (
+
+
+            "County-level energy authorities publish quarterly local distributed PV "
+
+
+            "connection and absorption information; grid companies regularly issue "
+
+
+            "distribution-network hosting-capacity warnings; provincial energy "
+
+
+            "authorities and NEA regional offices strengthen supervision and "
+
+
+            "inspection."
+
+
+        ),
+
+
+        "Compliance enforcement": "Ordered rectification; revocation of filing",
+
+
+        "Compliance enforcement details": (
+
+
+            "Concentrated development disguised as distributed PV, false filing and "
+
+
+            "irregular grid connection are subject to rectification orders by energy "
+
+
+            "authorities; serious cases have their filing revoked and are handled in "
+
+
+            "accordance with the law."
+
+
+        ),
+
+
+        "Compliance promotion": "GEC issuance; filing facilitation",
+
+
+        "Compliance promotion detail": (
+
+
+            "GECs are issued for all distributed PV generation (tradable for "
+
+
+            "grid-fed volumes), providing green environmental value revenues; "
+
+
+            "household projects may be filed through grid companies."
+
+
+        ),
+
+
+        "GHG emission coverage (absolute)": "N/A",
+
+
+        "GHG emission coverage (% domestic emissions)": "N/A",
+
+
+        "Economic sector": "D35",
+
+
+        "GHGs affected": "CO2",
+
+
+        "Mitigation effects": "Positive",
+
+
+        "Mitigation co-benefits": "Renewable energy development; Energy security",
+
+
+        "Legal statute": (
+
+
+            "Notice of the National Energy Administration on Printing and Issuing "
+
+
+            "the Measures for the Administration of the Development and Construction "
+
+
+            "of Distributed Solar PV Power Generation (Guo Neng Fa Xin Neng Gui "
+
+
+            "[2025] No. 7)"
+
+
+        ),
+
+
+        "Legal document": "https://www.gov.cn/zhengce/zhengceku/202502/content_7004206.htm",
+
+
+        "Other weblinks": "https://www.nea.gov.cn/20250123/d38e5436b4d04159863ddbc10a6ede10/c.html",
+
+
+    },
+
+    "CHNPRFMTLI01S000": {
+
+
+        "Policy Instrument ID": "CHNPRFMTLI01S000",
+
+
+        "Instrument / subscheme": "Instrument",
+
+
+        "Group": "Performance standards",
+
+
+        "Approach": "Methane emission limits",
+
+
+        "Emission sector": "Industry",
+
+
+        "Sub-sector": "Coal mining (coal mine methane)",
+
+
+        "Domestic instrument name": "煤层气（煤矿瓦斯）排放标准",
+
+
+        "English instrument name": "Coal mine methane emission standard",
+
+
+        "Policy Package": "N/A",
+
+
+        "Description": (
+
+
+            "The coal mine methane (CMM) emission standard (GB 21522-2024) is a "
+
+
+            "mandatory national standard governing CMM drainage, emission control "
+
+
+            "and monitoring, jointly issued by the Ministry of Ecology and "
+
+
+            "Environment and the State Administration for Market Regulation (MEE "
+
+
+            "Announcement No. 29 of 2024; approved 1 December 2024, printed 2 "
+
+
+            "December 2024), replacing GB 21522-2008. Core limits: CMM with a "
+
+
+            "methane volume concentration of at least 8% (24-hour mean) AND a "
+
+
+            "drainage pure volume of at least 10 m³/min is prohibited from emission; "
+
+
+            "gas below 8% or below 10 m³/min is not subject to mandatory "
+
+
+            "requirements, and comprehensive utilisation of 2%–8% gas is encouraged; "
+
+
+            "high-concentration gas that cannot be utilised must be destroyed. New "
+
+
+            "monitoring points at vent pipes and return-air shafts are added, with "
+
+
+            "an exemption allowing venting before reporting in emergencies such as "
+
+
+            "safety accidents. New underground coal mines and surface CMM "
+
+
+            "development systems comply from 1 April 2025; existing facilities from "
+
+
+            "1 April 2027. According to official MEE estimates, implementation "
+
+
+            "reduces emissions by about 50 million tonnes CO2e per year."
+
+
+        ),
+
+
+        "Objective": "Climate change mitigation; Pollution control",
+
+
+        "Mitigation relevance": "Direct",
+
+
+        "Jurisdiction level": "national",
+
+
+        "Jurisdiction name": "N/A",
+
+
+        "Adoption date": "02/04/2008",
+
+
+        "Start date": "01/07/2008",
+
+
+        "End date": "N/A",
+
+
+        "Last revisions": "01/12/2024",
+
+
+        "Last revisions (Details)": (
+
+
+            "GB 21522-2024, approved 1 December 2024 and printed 2 December 2024, "
+
+
+            "replaces GB 21522-2008: the prohibited-emission threshold is lowered "
+
+
+            "from a 30% methane volume concentration to 8% (24-hour mean), and a "
+
+
+            "drainage pure volume of at least 10 m³/min is added; new underground "
+
+
+            "coal mines and surface CMM development systems comply from 1 April "
+
+
+            "2025, existing facilities from 1 April 2027."
+
+
+        ),
+
+
+        "Status": "in force",
+
+
+        "Administrating authorities": (
+
+
+            "Ministry of Ecology and Environment; State Administration for Market "
+
+
+            "Regulation; provincial ecology and environment authorities"
+
+
+        ),
+
+
+        "Asset": "Coal mine gas drainage and emission facilities",
+
+
+        "Asset (Status)": "New; existing",
+
+
+        "Asset (Details)": (
+
+
+            "Drainage systems of underground coal mines and surface CMM development "
+
+
+            "systems, including emission and monitoring points at vent pipes and "
+
+
+            "return-air shafts. New facilities comply from 1 April 2025; existing "
+
+
+            "facilities from 1 April 2027."
+
+
+        ),
+
+
+        "Asset (Other)": "N/A",
+
+
+        "Asset (Cut-off range)": (
+
+
+            "CMM with methane volume concentration ≥8% (24-hour mean) and drainage "
+
+
+            "pure volume ≥10 m³/min is prohibited from emission."
+
+
+        ),
+
+
+        "Agent": "Firms",
+
+
+        "Agent (Detail)": "Underground coal mine operators and surface CMM development system operators.",
+
+
+        "Activity": "Production",
+
+
+        "Activity (Details)": (
+
+
+            "Coal mine gas drainage, emission control and monitoring; destruction of "
+
+
+            "high-concentration gas that cannot be utilised; monitoring at vent "
+
+
+            "pipes and return-air shafts."
+
+
+        ),
+
+
+        "Intensity (Value)": "8; 10",
+
+
+        "Intensity (Unit)": "Methane volume concentration ≥8% (24-hour mean); drainage pure volume ≥10 m³/min",
+
+
+        "Intensity (Details)": (
+
+
+            "CMM with a methane volume concentration of at least 8% and a drainage "
+
+
+            "pure volume of at least 10 m³/min is prohibited from emission; gas "
+
+
+            "below 8% or below 10 m³/min is not subject to mandatory requirements "
+
+
+            "(Source: GB 21522-2024)."
+
+
+        ),
+
+
+        "Requirement specification": (
+
+
+            "Emission of CMM with methane volume concentration ≥8% (24-hour mean) "
+
+
+            "and drainage pure volume ≥10 m³/min is prohibited; high-concentration "
+
+
+            "gas that cannot be utilised must be destroyed; comprehensive "
+
+
+            "utilisation of 2%–8% gas is encouraged; monitoring points must be "
+
+
+            "installed as required and data retained; venting before reporting is "
+
+
+            "allowed in emergencies such as safety accidents."
+
+
+        ),
+
+
+        "Compliance calculation methodology I": (
+
+
+            "Methane volume concentration of drained gas is assessed on a 24-hour "
+
+
+            "mean basis; drainage pure volume is converted from drainage flow rate "
+
+
+            "and methane concentration."
+
+
+        ),
+
+
+        "Compliance calculation methodology II": "N/A",
+
+
+        "Compliance monitoring": "Monitoring points; self-monitoring by enterprises; supervisory monitoring",
+
+
+        "Compliance monitoring details": (
+
+
+            "Monitoring points are installed at vent pipes, return-air shafts and "
+
+
+            "other locations; enterprises monitor as required and retain data; "
+
+
+            "ecology and environment authorities conduct supervisory monitoring."
+
+
+        ),
+
+
+        "Compliance enforcement": "Administrative penalties",
+
+
+        "Compliance enforcement details": (
+
+
+            "Violations of the emission standard are penalised by ecology and "
+
+
+            "environment authorities in accordance with the law (under the Air "
+
+
+            "Pollution Prevention and Control Law and relevant provisions of the "
+
+
+            "Ecological Environment Code)."
+
+
+        ),
+
+
+        "Compliance promotion": "N/A",
+
+
+        "Compliance promotion detail": "N/A",
+
+
+        "GHG emission coverage (absolute)": "N/A",
+
+
+        "GHG emission coverage (% domestic emissions)": "N/A",
+
+
+        "Economic sector": "B05",
+
+
+        "GHGs affected": "CH4",
+
+
+        "Mitigation effects": "Positive",
+
+
+        "Mitigation co-benefits": "Pollution control; Energy security",
+
+
+        "Legal statute": (
+
+
+            "Coal Mine Methane Emission Standard (GB 21522-2024, MEE Announcement "
+
+
+            "No. 29 of 2024)"
+
+
+        ),
+
+
+        "Legal document": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202412/t20241211_1098416.html",
+
+
+        "Other weblinks": (
+
+
+            "https://www.mee.gov.cn/ywgz/fgbz/bz/bzjd/202412/t20241212_1098485.shtml;"
+
+
+            " https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=469F9F1F1C24E64B1F8"
+
+
+            "4B3C32D0AFF2B"
+
+
+        ),
+
+
+    },
+
+    "CHNPRFSCMI01S000": {
+
+
+        "Policy Instrument ID": "CHNPRFSCMI01S000",
+
+
+        "Instrument / subscheme": "Instrument",
+
+
+        "Group": "Performance standards",
+
+
+        "Approach": "Ship carbon intensity management",
+
+
+        "Emission sector": "Transport",
+
+
+        "Sub-sector": "Water transport (international voyages)",
+
+
+        "Domestic instrument name": "船舶碳强度管理",
+
+
+        "English instrument name": "Ship carbon intensity management",
+
+
+        "Policy Package": (
+
+
+            "Measures for the Administration of Ship Energy Consumption Data and "
+
+
+            "Carbon Intensity (Hai Wei Fang [2022] No. 164) — one of two instruments "
+
+
+            "under the same measures as the ship energy consumption data reporting "
+
+
+            "instrument (CHNREPSECI01S000)"
+
+
+        ),
+
+
+        "Description": (
+
+
+            "Ship carbon intensity management is a performance standard requiring "
+
+
+            "Chinese-flagged ships on international voyages to meet annual "
+
+
+            "operational carbon intensity indicator (CII) rating requirements, "
+
+
+            "aligned with MARPOL Annex VI obligations, established by the Measures "
+
+
+            "for the Administration of Ship Energy Consumption Data and Carbon "
+
+
+            "Intensity (Hai Wei Fang [2022] No. 164, issued by the China Maritime "
+
+
+            "Safety Administration on 22 November 2022, effective 22 December 2022, "
+
+
+            "valid for 5 years). Covered ships calculate their attained annual "
+
+
+            "operational CII each year and are rated A–E against required values "
+
+
+            "with annual reduction factors: ships rated E (or D for three "
+
+
+            "consecutive years) must add a corrective action plan to their Ship "
+
+
+            "Energy Efficiency Management Plan (SEEMP) by 30 April of the following "
+
+
+            "year; compliant ships obtain a Statement of Compliance (SOC) kept for 5 "
+
+
+            "years; A/B-rated ships enjoy reduced inspection frequency. Shanghai MSA "
+
+
+            "is the authorised bureau for national statistics and CII implementation "
+
+
+            "for Chinese-flagged ships on international voyages."
+
+
+        ),
+
+
+        "Objective": "Climate change mitigation",
+
+
+        "Mitigation relevance": "Direct",
+
+
+        "Jurisdiction level": "national",
+
+
+        "Jurisdiction name": "N/A",
+
+
+        "Adoption date": "22/11/2022",
+
+
+        "Start date": "22/12/2022",
+
+
+        "End date": "N/A",
+
+
+        "Last revisions": "N/A",
+
+
+        "Last revisions (Details)": "N/A",
+
+
+        "Status": "in force",
+
+
+        "Administrating authorities": (
+
+
+            "China Maritime Safety Administration; Shanghai Maritime Safety "
+
+
+            "Administration (authorised bureau)"
+
+
+        ),
+
+
+        "Asset": "Chinese-flagged ships on international voyages",
+
+
+        "Asset (Status)": "Existing",
+
+
+        "Asset (Details)": (
+
+
+            "Chinese-flagged ships on international voyages (aligned with MARPOL "
+
+
+            "Annex VI CII requirements; military ships, fishing vessels and sport "
+
+
+            "craft excluded)."
+
+
+        ),
+
+
+        "Asset (Other)": "N/A",
+
+
+        "Asset (Cut-off range)": "N/A",
+
+
+        "Agent": "Firms",
+
+
+        "Agent (Detail)": (
+
+
+            "Shipping companies (ship owners, operators or managers) responsible for "
+
+
+            "CII calculation, reporting and corrective actions."
+
+
+        ),
+
+
+        "Activity": "Operation",
+
+
+        "Activity (Details)": (
+
+
+            "Operation of ships on international voyages, including annual CII "
+
+
+            "calculation, rating and SEEMP corrective actions."
+
+
+        ),
+
+
+        "Intensity (Value)": "A-E",
+
+
+        "Intensity (Unit)": "Annual operational carbon intensity rating grade",
+
+
+        "Intensity (Details)": (
+
+
+            "Attained annual operational CII is rated A–E against required values "
+
+
+            "with annual reduction factors; ships rated E (or D for three "
+
+
+            "consecutive years) must add a corrective action plan to their SEEMP "
+
+
+            "(Source: Hai Wei Fang [2022] No. 164)."
+
+
+        ),
+
+
+        "Requirement specification": (
+
+
+            "Ships calculate and rate their attained annual operational CII each "
+
+
+            "year; ships rated E or rated D for three consecutive years must add a "
+
+
+            "corrective action plan to their SEEMP by 30 April of the following "
+
+
+            "year; SOCs are obtained and kept for 5 years."
+
+
+        ),
+
+
+        "Compliance calculation methodology I": (
+
+
+            "Attained annual operational CII is calculated following MARPOL Annex VI "
+
+
+            "carbon intensity calculation methods and the ship energy consumption "
+
+
+            "data reporting requirements."
+
+
+        ),
+
+
+        "Compliance calculation methodology II": "N/A",
+
+
+        "Compliance monitoring": "Information reporting; supervision and inspection",
+
+
+        "Compliance monitoring details": (
+
+
+            "Ships report carbon intensity data through the MSA One-Stop Online "
+
+
+            "platform; MSA authorities implement supervision and inspection, with "
+
+
+            "A/B-rated ships enjoying reduced inspection frequency."
+
+
+        ),
+
+
+        "Compliance enforcement": "Administrative penalties",
+
+
+        "Compliance enforcement details": (
+
+
+            "Failure to calculate or report carbon intensity as required, or failure "
+
+
+            "to include a corrective action plan in the SEEMP, is handled by MSA "
+
+
+            "authorities in accordance with the law."
+
+
+        ),
+
+
+        "Compliance promotion": "Reduced inspection frequency",
+
+
+        "Compliance promotion detail": (
+
+
+            "A/B-rated ships enjoy reduced inspection frequency, incentivising "
+
+
+            "continuous energy-efficiency improvement."
+
+
+        ),
+
+
+        "GHG emission coverage (absolute)": "N/A",
+
+
+        "GHG emission coverage (% domestic emissions)": "N/A",
+
+
+        "Economic sector": "H50",
+
+
+        "GHGs affected": "CO2",
+
+
+        "Mitigation effects": "Positive",
+
+
+        "Mitigation co-benefits": "Energy conservation; Pollution control",
+
+
+        "Legal statute": (
+
+
+            "Notice of the China Maritime Safety Administration on Printing and "
+
+
+            "Issuing the Measures for the Administration of Ship Energy Consumption "
+
+
+            "Data and Carbon Intensity (Hai Wei Fang [2022] No. 164)"
+
+
+        ),
+
+
+        "Legal document": (
+
+
+            "https://www.msa.gov.cn/msacncms_wap/pages/content.jhtml?articleId=E40C89"
+
+
+            "8D11DD41E48D9772062C28D65B"
+
+
+        ),
+
+
+        "Other weblinks": "https://www.zj.gov.cn/art/2022/12/14/art_1229700666_2451225.html",
+
+
+    },
+
+    "CHNFRMSPPI01S000": {
+
+
+        "Policy Instrument ID": "CHNFRMSPPI01S000",
+
+
+        "Instrument / subscheme": "Instrument",
+
+
+        "Group": "Framework standards",
+
+
+        "Approach": "Port ship shore power requirements",
+
+
+        "Emission sector": "Transport",
+
+
+        "Sub-sector": "Ports; water transport",
+
+
+        "Domestic instrument name": "港口和船舶岸电管理办法",
+
+
+        "English instrument name": "Port and ship shore power management",
+
+
+        "Policy Package": "N/A",
+
+
+        "Description": (
+
+
+            "The port and ship shore power management measures are a regulatory "
+
+
+            "framework requiring port infrastructure to be equipped with shore power "
+
+
+            "facilities and mandating ships with receiving equipment to use shore "
+
+
+            "power while berthed. The original measures were issued as MOT Order No. "
+
+
+            "45 of 2019 (passed 4 December 2019, effective 1 February 2020); the "
+
+
+            "2021 amendment (Order No. 31 of 2021) implemented Yangtze River "
+
+
+            "Protection Law requirements; the current text is the Decision of the "
+
+
+            "Ministry of Transport on Amending the Port and Ship Shore Power "
+
+
+            "Management Measures (MOT Order No. 2 of 2025, passed 8 May 2025, "
+
+
+            "published and effective 13 May 2025), which extends the regime to "
+
+
+            "coastal ports and adds the Marine Environment Protection Law as a legal "
+
+
+            "basis. Core requirements: berths with shore-power supply capability "
+
+
+            "must provide shore power; ships fitted with receiving equipment "
+
+
+            "(liquid-cargo carriers excepted) berthing more than 3 hours at coastal "
+
+
+            "ports or more than 2 hours at inland ports must use shore power unless "
+
+
+            "a valid alternative measure is applied; port operators and water "
+
+
+            "transport operators in the Yangtze basin and coastal ports must "
+
+
+            "implement government-issued construction/retrofit plans. Penalties are "
+
+
+            "tiered by generator capacity: ≤2,000 kW — CNY 10,000–20,000 (serious: "
+
+
+            "100,000–200,000); 2,000–8,000 kW — CNY 20,000–50,000 (200,000–300,000); "
+
+
+            ">8,000 kW — CNY 50,000–100,000 (300,000–500,000)."
+
+
+        ),
+
+
+        "Objective": "Pollution control; Climate change mitigation",
+
+
+        "Mitigation relevance": "Indirect",
+
+
+        "Jurisdiction level": "national",
+
+
+        "Jurisdiction name": "N/A",
+
+
+        "Adoption date": "04/12/2019",
+
+
+        "Start date": "01/02/2020",
+
+
+        "End date": "N/A",
+
+
+        "Last revisions": "13/05/2025",
+
+
+        "Last revisions (Details)": (
+
+
+            "The 2021 amendment (MOT Order No. 31 of 2021) implemented the shore "
+
+
+            "power requirements of the Yangtze River Protection Law; the Decision of "
+
+
+            "the Ministry of Transport on Amending the Port and Ship Shore Power "
+
+
+            "Management Measures (MOT Order No. 2 of 2025), published 13 May 2025, "
+
+
+            "extended the regime to coastal ports and added the Marine Environment "
+
+
+            "Protection Law as a legal basis."
+
+
+        ),
+
+
+        "Status": "in force",
+
+
+        "Administrating authorities": (
+
+
+            "Ministry of Transport; maritime safety administrations; port "
+
+
+            "administrative authorities"
+
+
+        ),
+
+
+        "Asset": "Port shore power facilities; ship shore power receiving equipment",
+
+
+        "Asset (Status)": "New; existing",
+
+
+        "Asset (Details)": (
+
+
+            "Shore power supply facilities at ports and ships fitted with receiving "
+
+
+            "equipment (liquid-cargo carriers excepted). Yangtze basin and coastal "
+
+
+            "ports must provide shore power facilities under government "
+
+
+            "construction/retrofit plans."
+
+
+        ),
+
+
+        "Asset (Other)": "N/A",
+
+
+        "Asset (Cut-off range)": (
+
+
+            "Ships fitted with receiving equipment berthing more than 3 hours at "
+
+
+            "coastal ports or more than 2 hours at inland ports must use shore "
+
+
+            "power."
+
+
+        ),
+
+
+        "Agent": "Firms",
+
+
+        "Agent (Detail)": (
+
+
+            "Port operators providing shore power and ship operators using shore "
+
+
+            "power while berthed."
+
+
+        ),
+
+
+        "Activity": "Purchase or use",
+
+
+        "Activity (Details)": (
+
+
+            "Use of shore power by ships during berthing; provision of shore power "
+
+
+            "services by port operators."
+
+
+        ),
+
+
+        "Intensity (Value)": "3; 2",
+
+
+        "Intensity (Unit)": (
+
+
+            "Hours (berthing more than 3 hours at coastal ports; more than 2 hours "
+
+
+            "at inland ports requires shore power use)"
+
+
+        ),
+
+
+        "Intensity (Details)": (
+
+
+            "Ships fitted with receiving equipment berthing more than 3 hours at "
+
+
+            "coastal ports or more than 2 hours at inland ports must use shore "
+
+
+            "power, unless a valid alternative measure is applied (Source: MOT Order "
+
+
+            "No. 2 of 2025)."
+
+
+        ),
+
+
+        "Requirement specification": (
+
+
+            "Berths with shore-power supply capability must provide shore power; "
+
+
+            "ships meeting the berthing duration thresholds and fitted with "
+
+
+            "receiving equipment must use shore power; port operators and water "
+
+
+            "transport operators implement shore power construction/retrofit plans; "
+
+
+            "education may replace penalties for first-time minor violations."
+
+
+        ),
+
+
+        "Compliance calculation methodology I": "N/A",
+
+
+        "Compliance calculation methodology II": "N/A",
+
+
+        "Compliance monitoring": "Supervision and inspection",
+
+
+        "Compliance monitoring details": (
+
+
+            "Maritime safety administrations and port administrative authorities "
+
+
+            "supervise and inspect shore power facility construction and use within "
+
+
+            "their respective responsibilities."
+
+
+        ),
+
+
+        "Compliance enforcement": "Administrative penalties",
+
+
+        "Compliance enforcement details": (
+
+
+            "Failure to provide or use shore power as required is penalised by "
+
+
+            "generator capacity tiers: ≤2,000 kW — CNY 10,000–20,000 (serious: "
+
+
+            "100,000–200,000); 2,000–8,000 kW — CNY 20,000–50,000 (200,000–300,000); "
+
+
+            ">8,000 kW — CNY 50,000–100,000 (300,000–500,000). Education may replace "
+
+
+            "penalties for first-time minor violations."
+
+
+        ),
+
+
+        "Compliance promotion": "Alternative measures; education",
+
+
+        "Compliance promotion detail": (
+
+
+            "Valid alternative measures may replace shore power use; first-time "
+
+
+            "minor violations are handled mainly through education."
+
+
+        ),
+
+
+        "GHG emission coverage (absolute)": "N/A",
+
+
+        "GHG emission coverage (% domestic emissions)": "N/A",
+
+
+        "Economic sector": "H52",
+
+
+        "GHGs affected": "CO2",
+
+
+        "Mitigation effects": "Positive",
+
+
+        "Mitigation co-benefits": "Pollution control; Public health",
+
+
+        "Legal statute": (
+
+
+            "Port and Ship Shore Power Management Measures (MOT Order No. 45 of "
+
+
+            "2019, as amended by Order No. 31 of 2021 and Order No. 2 of 2025)"
+
+
+        ),
+
+
+        "Legal document": "http://law.mot.gov.cn/showLaw.action?law.id=4098",
+
+
+        "Other weblinks": (
+
+
+            "https://www.gov.cn/zhengce/zhengceku/2019-12/26/content_5464208.htm; "
+
+
+            "https://jtyst.fujian.gov.cn/fzgkj/xxgk/zhzf/202603/t20260316_7110931.htm"
+
+
+            "l"
+
+
+        ),
+
+
+    },
+
+    "CHNFRMMWSI01S000": {
+
+
+        "Policy Instrument ID": "CHNFRMMWSI01S000",
+
+
+        "Instrument / subscheme": "Instrument",
+
+
+        "Group": "Framework standards",
+
+
+        "Approach": "Mandatory waste sorting",
+
+
+        "Emission sector": "Waste",
+
+
+        "Sub-sector": "Household waste",
+
+
+        "Domestic instrument name": "生活垃圾强制分类制度",
+
+
+        "English instrument name": "Mandatory household waste sorting",
+
+
+        "Policy Package": "N/A",
+
+
+        "Description": (
+
+
+            "Mandatory household waste sorting is a regulatory framework mandating "
+
+
+            "source-separated deposit, collection, transport and treatment of "
+
+
+            "household waste, established by Chapter 21 (Articles 499–515) of Part "
+
+
+            "VI of Book II of the Ecological Environment Code of the People's "
+
+
+            "Republic of China (Presidential Order No. 70; adopted by the Fourth "
+
+
+            "Session of the 14th National People's Congress on 12 March 2026, "
+
+
+            "effective 15 August 2026), replacing the household waste sorting regime "
+
+
+            "of the 2020-revised Solid Waste Law (repealed simultaneously with the "
+
+
+            "Code's entry into force). Article 499 makes classified deposit a "
+
+
+            "statutory duty implemented through government promotion and universal "
+
+
+            "participation; Article 500 requires local governments to establish "
+
+
+            "sorted deposit, collection, transport and treatment systems; Article "
+
+
+            "506 requires entities, households and individuals to reduce waste at "
+
+
+            "source and deposit it in a sorted manner, prohibits dumping and "
+
+
+            "burning, and requires sorted waste to be collected, transported and "
+
+
+            "treated separately; Article 515 provides for classified pricing and "
+
+
+            "metered charging of waste treatment fees (polluter pays). Individuals "
+
+
+            "dumping waste in violation are fined CNY 100–1,000."
+
+
+        ),
+
+
+        "Objective": "Circular economy; Pollution control",
+
+
+        "Mitigation relevance": "Indirect",
+
+
+        "Jurisdiction level": "national",
+
+
+        "Jurisdiction name": "N/A",
+
+
+        "Adoption date": "12/03/2026",
+
+
+        "Start date": "15/08/2026",
+
+
+        "End date": "N/A",
+
+
+        "Last revisions": "N/A",
+
+
+        "Last revisions (Details)": "N/A",
+
+
+        "Status": "in force",
+
+
+        "Administrating authorities": (
+
+
+            "Housing and urban-rural development authorities; ecology and "
+
+
+            "environment authorities; local people's governments at or above county "
+
+
+            "level"
+
+
+        ),
+
+
+        "Asset": "Household waste",
+
+
+        "Asset (Status)": "Existing",
+
+
+        "Asset (Details)": (
+
+
+            "Solid waste generated in the daily life of entities, households and "
+
+
+            "individuals (kitchen waste requirements are recorded in the subscheme "
+
+
+            "CHNFRMMWSI01S001)."
+
+
+        ),
+
+
+        "Asset (Other)": "N/A",
+
+
+        "Asset (Cut-off range)": "N/A",
+
+
+        "Agent": "Households; Firms; Government",
+
+
+        "Agent (Detail)": (
+
+
+            "Household waste generators (entities, households and individuals) bear "
+
+
+            "source-reduction and sorted-deposit obligations; collection, transport "
+
+
+            "and treatment enterprises bear sorted collection, transport and "
+
+
+            "treatment obligations; local governments are responsible for system "
+
+
+            "construction."
+
+
+        ),
+
+
+        "Activity": "Collection or sorting after use",
+
+
+        "Activity (Details)": (
+
+
+            "Sorted deposit, collection, transport and treatment of household waste; "
+
+
+            "source reduction."
+
+
+        ),
+
+
+        "Intensity (Value)": "100-1000",
+
+
+        "Intensity (Unit)": "CNY (fine for individuals dumping waste in violation)",
+
+
+        "Intensity (Details)": (
+
+
+            "Individuals dumping waste in violation are fined CNY 100–1,000; "
+
+
+            "penalties for kitchen waste violations by entities are recorded in the "
+
+
+            "subscheme (Source: Ecological Environment Code Articles 1169 and 1174)."
+
+
+        ),
+
+
+        "Requirement specification": (
+
+
+            "Entities, households and individuals must reduce waste at source and "
+
+
+            "deposit it in a sorted manner; dumping and burning are prohibited; "
+
+
+            "sorted waste must be collected, transported and treated separately; "
+
+
+            "household waste treatment fees are charged by classified pricing and "
+
+
+            "metered charging."
+
+
+        ),
+
+
+        "Compliance calculation methodology I": "N/A",
+
+
+        "Compliance calculation methodology II": "N/A",
+
+
+        "Compliance monitoring": "Supervision and inspection",
+
+
+        "Compliance monitoring details": (
+
+
+            "Housing and urban-rural development and ecology and environment "
+
+
+            "authorities supervise sorted deposit, collection, transport and "
+
+
+            "treatment within their respective responsibilities."
+
+
+        ),
+
+
+        "Compliance enforcement": "Administrative penalties",
+
+
+        "Compliance enforcement details": (
+
+
+            "Individuals dumping waste in violation are fined CNY 100–1,000 "
+
+
+            "(Ecological Environment Code Article 1169)."
+
+
+        ),
+
+
+        "Compliance promotion": "Publicity and education",
+
+
+        "Compliance promotion detail": (
+
+
+            "Implementation through government promotion and universal "
+
+
+            "participation, with publicity and education on household waste sorting."
+
+
+        ),
+
+
+        "GHG emission coverage (absolute)": "N/A",
+
+
+        "GHG emission coverage (% domestic emissions)": "N/A",
+
+
+        "Economic sector": "E38",
+
+
+        "GHGs affected": "CH4; CO2",
+
+
+        "Mitigation effects": "Unknown",
+
+
+        "Mitigation co-benefits": "Resource conservation; Circular economy; Pollution control",
+
+
+        "Legal statute": (
+
+
+            "Ecological Environment Code of the People's Republic of China "
+
+
+            "(Presidential Order No. 70), Articles 499–515"
+
+
+        ),
+
+
+        "Legal document": "http://www.npc.gov.cn/npc/c2/kgfb/202603/t20260312_453175.html",
+
+
+        "Other weblinks": "https://www.ss.gov.cn/fssscgj/gkmlpt/content/7/7198/post_7198290.html",
+
+
+    },
+
+    "CHNFRMMWSI01S001": {
+
+
+        "Policy Instrument ID": "CHNFRMMWSI01S001",
+
+
+        "Instrument / subscheme": "Subscheme",
+
+
+        "Group": "Framework standards",
+
+
+        "Approach": "Mandatory waste sorting",
+
+
+        "Emission sector": "Waste",
+
+
+        "Sub-sector": "Kitchen waste",
+
+
+        "Domestic instrument name": "生活垃圾强制分类制度—厨余垃圾子方案",
+
+
+        "English instrument name": "Mandatory household waste sorting — kitchen waste subscheme",
+
+
+        "Policy Package": "N/A",
+
+
+        "Description": (
+
+
+            "The kitchen waste subscheme requires kitchen waste producers and "
+
+
+            "handlers to hand kitchen waste over to qualified units for harmless "
+
+
+            "treatment, established by Article 514 of the Ecological Environment "
+
+
+            "Code: kitchen waste producers and handlers must hand kitchen waste to "
+
+
+            "units with the required qualifications for harmless treatment; feeding "
+
+
+            "untreated kitchen waste to livestock is prohibited. Entities violating "
+
+
+            "the requirements are fined CNY 100,000–1,000,000 (Article 1174)."
+
+
+        ),
+
+
+        "Objective": "Circular economy; Pollution control",
+
+
+        "Mitigation relevance": "Indirect",
+
+
+        "Jurisdiction level": "national",
+
+
+        "Jurisdiction name": "N/A",
+
+
+        "Adoption date": "12/03/2026",
+
+
+        "Start date": "15/08/2026",
+
+
+        "End date": "N/A",
+
+
+        "Last revisions": "N/A",
+
+
+        "Last revisions (Details)": "N/A",
+
+
+        "Status": "in force",
+
+
+        "Administrating authorities": (
+
+
+            "Housing and urban-rural development authorities; ecology and "
+
+
+            "environment authorities"
+
+
+        ),
+
+
+        "Asset": "Kitchen waste",
+
+
+        "Asset (Status)": "Existing",
+
+
+        "Asset (Details)": (
+
+
+            "Kitchen waste generated by households, catering businesses and "
+
+
+            "institutional canteens, subject to handover for harmless treatment."
+
+
+        ),
+
+
+        "Asset (Other)": "N/A",
+
+
+        "Asset (Cut-off range)": "N/A",
+
+
+        "Agent": "Households; Firms",
+
+
+        "Agent (Detail)": (
+
+
+            "Kitchen waste producers and handlers (households, catering businesses, "
+
+
+            "institutional canteens and other entities)."
+
+
+        ),
+
+
+        "Activity": "Disposal after use",
+
+
+        "Activity (Details)": (
+
+
+            "Handover of kitchen waste to qualified units for harmless treatment; "
+
+
+            "prohibition on feeding untreated kitchen waste to livestock."
+
+
+        ),
+
+
+        "Intensity (Value)": "100000-1000000",
+
+
+        "Intensity (Unit)": "CNY (fine range for entities violating kitchen waste management requirements)",
+
+
+        "Intensity (Details)": (
+
+
+            "Entities violating kitchen waste management requirements are fined CNY "
+
+
+            "100,000–1,000,000 (Source: Ecological Environment Code Article 1174)."
+
+
+        ),
+
+
+        "Requirement specification": (
+
+
+            "Kitchen waste producers and handlers must hand kitchen waste to units "
+
+
+            "with the required qualifications for harmless treatment; feeding "
+
+
+            "untreated kitchen waste to livestock is prohibited."
+
+
+        ),
+
+
+        "Compliance calculation methodology I": "N/A",
+
+
+        "Compliance calculation methodology II": "N/A",
+
+
+        "Compliance monitoring": "Supervision and inspection",
+
+
+        "Compliance monitoring details": (
+
+
+            "Relevant authorities supervise the collection, transport and treatment "
+
+
+            "of kitchen waste within their responsibilities."
+
+
+        ),
+
+
+        "Compliance enforcement": "Administrative penalties",
+
+
+        "Compliance enforcement details": (
+
+
+            "Entities violating kitchen waste management requirements are fined CNY "
+
+
+            "100,000–1,000,000 (Ecological Environment Code Article 1174)."
+
+
+        ),
+
+
+        "Compliance promotion": "N/A",
+
+
+        "Compliance promotion detail": "N/A",
+
+
+        "GHG emission coverage (absolute)": "N/A",
+
+
+        "GHG emission coverage (% domestic emissions)": "N/A",
+
+
+        "Economic sector": "E38",
+
+
+        "GHGs affected": "CH4; CO2",
+
+
+        "Mitigation effects": "Unknown",
+
+
+        "Mitigation co-benefits": "Circular economy; Pollution control",
+
+
+        "Legal statute": (
+
+
+            "Ecological Environment Code of the People's Republic of China "
+
+
+            "(Presidential Order No. 70), Articles 514 and 1174"
+
+
+        ),
+
+
+        "Legal document": "http://www.npc.gov.cn/npc/c2/kgfb/202603/t20260312_453175.html",
+
+
+        "Other weblinks": "https://www.ss.gov.cn/fssscgj/gkmlpt/content/7/7198/post_7198290.html",
+
+
+    },
+
+    "CHNFRMEMRI01S000": {
+
+
+        "Policy Instrument ID": "CHNFRMEMRI01S000",
+
+
+        "Instrument / subscheme": "Instrument",
+
+
+        "Group": "Framework standards",
+
+
+        "Approach": "Energy metering requirements",
+
+
+        "Emission sector": "Cross-sectoral",
+
+
+        "Sub-sector": "N/A",
+
+
+        "Domestic instrument name": "用能单位能源计量器具配备和管理通则",
+
+
+        "English instrument name": (
+
+
+            "General rules for equipping and managing energy measuring instruments "
+
+
+            "of energy-using organizations"
+
+
+        ),
+
+
+        "Policy Package": "N/A",
+
+
+        "Description": (
+
+
+            "The general rules for equipping and managing energy measuring "
+
+
+            "instruments of energy-using organisations (GB 17167-2025) are a "
+
+
+            "mandatory national standard establishing compulsory metering-instrument "
+
+
+            "equipping and management requirements for all independently accounted "
+
+
+            "energy-using organisations, issued by the State Administration for "
+
+
+            "Market Regulation and the Standardization Administration of China "
+
+
+            "(National Standard Announcement No. 1 of 2025; published 24 January "
+
+
+            "2025, effective 1 February 2026), replacing GB 17167-2006. All clauses "
+
+
+            "of the 2025 edition are mandatory (only 5 clauses in the 2006 edition). "
+
+
+            "The scope covers all independently accounted energy-using organisations "
+
+
+            "— enterprises, public institutions, government organs and social "
+
+
+            "organisations, not limited to key energy-using units. Equipping rates: "
+
+
+            "level 1 (in/out of the energy-using organisation) 100% for all energy "
+
+
+            "types (recoverable waste energy raised from 90% to 100%); level 2 "
+
+
+            "(principal sub-units) 100% for electricity, coal, refined oil and "
+
+
+            "natural gas; level 3 (principal energy-using equipment) 95% for "
+
+
+            "electricity and refined oil, 90% for coal and natural gas. The standard "
+
+
+            "is an independent mandatory metering obligation and provides metering "
+
+
+            "support for instruments such as the key energy-using unit energy "
+
+
+            "management system."
+
+
+        ),
+
+
+        "Objective": "Energy efficiency",
+
+
+        "Mitigation relevance": "Indirect",
+
+
+        "Jurisdiction level": "national",
+
+
+        "Jurisdiction name": "N/A",
+
+
+        "Adoption date": "02/06/2006",
+
+
+        "Start date": "01/01/2007",
+
+
+        "End date": "N/A",
+
+
+        "Last revisions": "24/01/2025",
+
+
+        "Last revisions (Details)": (
+
+
+            "GB 17167-2025, published 24 January 2025, fully replaces GB 17167-2006 "
+
+
+            "and takes effect on 1 February 2026: all clauses are mandatory; the "
+
+
+            "scope is expanded from administrative organs to government organs, "
+
+
+            "covering more public institutions; the equipping rate for recoverable "
+
+
+            "waste energy is raised from 90% to 100%."
+
+
+        ),
+
+
+        "Status": "in force",
+
+
+        "Administrating authorities": (
+
+
+            "State Administration for Market Regulation (Standardization "
+
+
+            "Administration of China); market regulation authorities; metrology "
+
+
+            "authorities"
+
+
+        ),
+
+
+        "Asset": "Energy measuring instruments",
+
+
+        "Asset (Status)": "Existing",
+
+
+        "Asset (Details)": (
+
+
+            "Measuring instruments and metering data management systems used by "
+
+
+            "energy-using organisations to measure coal, electricity, refined oil, "
+
+
+            "natural gas and other energy."
+
+
+        ),
+
+
+        "Asset (Other)": "N/A",
+
+
+        "Asset (Cut-off range)": (
+
+
+            "Level 1 equipping rate 100% (including recoverable waste energy); level "
+
+
+            "2 100% for electricity/coal/refined oil/natural gas; level 3 95% for "
+
+
+            "electricity and refined oil, 90% for coal and natural gas."
+
+
+        ),
+
+
+        "Agent": "Firms; Government",
+
+
+        "Agent (Detail)": (
+
+
+            "All independently accounted energy-using organisations: enterprises, "
+
+
+            "public institutions, government organs and social organisations."
+
+
+        ),
+
+
+        "Activity": "Measurement, monitoring and verification",
+
+
+        "Activity (Details)": (
+
+
+            "Equipping, verification (calibration), use, maintenance and metering "
+
+
+            "data management of energy measuring instruments."
+
+
+        ),
+
+
+        "Intensity (Value)": "100; 95; 90",
+
+
+        "Intensity (Unit)": "% (metering instrument equipping rates by level)",
+
+
+        "Intensity (Details)": (
+
+
+            "Level 1 (in/out of the organisation) 100% for all energy types "
+
+
+            "(including recoverable waste energy); level 2 (principal sub-units) "
+
+
+            "100% for electricity, coal, refined oil and natural gas; level 3 "
+
+
+            "(principal energy-using equipment) 95% for electricity and refined oil, "
+
+
+            "90% for coal and natural gas (Source: GB 17167-2025)."
+
+
+        ),
+
+
+        "Requirement specification": (
+
+
+            "Energy-using organisations must equip energy measuring instruments in "
+
+
+            "line with the equipping rates, establish metering management systems "
+
+
+            "and metering personnel, and ensure accurate and reliable metering data; "
+
+
+            "measuring instruments must be legally verified or calibrated."
+
+
+        ),
+
+
+        "Compliance calculation methodology I": (
+
+
+            "Equipping rate = (number of measuring instruments actually equipped / "
+
+
+            "number required) × 100%, calculated separately by energy type and "
+
+
+            "metering level."
+
+
+        ),
+
+
+        "Compliance calculation methodology II": "N/A",
+
+
+        "Compliance monitoring": "Supervision and inspection; metrological verification",
+
+
+        "Compliance monitoring details": (
+
+
+            "Market regulation authorities supervise and inspect the equipping and "
+
+
+            "use of energy measuring instruments; instruments must be legally "
+
+
+            "verified."
+
+
+        ),
+
+
+        "Compliance enforcement": "Administrative penalties",
+
+
+        "Compliance enforcement details": (
+
+
+            "Failure to equip or use energy measuring instruments as required is "
+
+
+            "handled by market regulation authorities in accordance with the law."
+
+
+        ),
+
+
+        "Compliance promotion": "N/A",
+
+
+        "Compliance promotion detail": "N/A",
+
+
+        "GHG emission coverage (absolute)": "N/A",
+
+
+        "GHG emission coverage (% domestic emissions)": "N/A",
+
+
+        "Economic sector": "N/A",
+
+
+        "GHGs affected": "CO2",
+
+
+        "Mitigation effects": "Positive",
+
+
+        "Mitigation co-benefits": "Energy conservation; Resource conservation",
+
+
+        "Legal statute": (
+
+
+            "General Rules for Equipping and Managing Energy Measuring Instruments "
+
+
+            "of Energy-Using Organizations (GB 17167-2025, National Standard "
+
+
+            "Announcement No. 1 of 2025)"
+
+
+        ),
+
+
+        "Legal document": (
+
+
+            "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=2D9CE8D164C7157B2082"
+
+
+            "3329A97D0750"
+
+
+        ),
+
+
+        "Other weblinks": "https://www.spc.org.cn/online/2d9ce8d164c7157b20823329a97d0750.html",
+
+
+    },
+
+    "CHNREPSECI01S000": {
+
+
+        "Policy Instrument ID": "CHNREPSECI01S000",
+
+
+        "Instrument / subscheme": "Instrument",
+
+
+        "Group": "Reporting requirements",
+
+
+        "Approach": "Ship energy consumption reporting",
+
+
+        "Emission sector": "Transport",
+
+
+        "Sub-sector": "Water transport",
+
+
+        "Domestic instrument name": "船舶能耗数据报告",
+
+
+        "English instrument name": "Ship energy consumption data reporting",
+
+
+        "Policy Package": (
+
+
+            "Measures for the Administration of Ship Energy Consumption Data and "
+
+
+            "Carbon Intensity (Hai Wei Fang [2022] No. 164) — one of two instruments "
+
+
+            "under the same measures as the ship carbon intensity management "
+
+
+            "instrument (CHNPRFSCMI01S000)"
+
+
+        ),
+
+
+        "Description": (
+
+
+            "Ship energy consumption data reporting is an information instrument "
+
+
+            "requiring shipping companies to collect and report ship energy "
+
+
+            "consumption data to maritime authorities on a regular basis, "
+
+
+            "established by the Measures for the Administration of Ship Energy "
+
+
+            "Consumption Data and Carbon Intensity (Hai Wei Fang [2022] No. 164, "
+
+
+            "issued by the China Maritime Safety Administration on 22 November 2022, "
+
+
+            "effective 22 December 2022, valid for 5 years), repealing Hai Wei Fang "
+
+
+            "[2018] No. 476. It applies to all Chinese ships of 400 GT and above and "
+
+
+            "foreign ships calling Chinese ports (military ships, fishing vessels "
+
+
+            "and sport craft excluded): domestic seagoing ships report per-voyage "
+
+
+            "data before departure (monthly reporting by the 10th for fixed short "
+
+
+            "routes); inland ships report annually by 1 April; international ships "
+
+
+            "report per voyage before port clearance, with Chinese international "
+
+
+            "ships of 5,000 GT and above filing annual data by 31 March. Records are "
+
+
+            "kept for at least 2 years and reported through the MSA One-Stop Online "
+
+
+            "platform."
+
+
+        ),
+
+
+        "Objective": "Information disclosure; Climate change mitigation",
+
+
+        "Mitigation relevance": "Indirect",
+
+
+        "Jurisdiction level": "national",
+
+
+        "Jurisdiction name": "N/A",
+
+
+        "Adoption date": "22/11/2022",
+
+
+        "Start date": "22/12/2022",
+
+
+        "End date": "N/A",
+
+
+        "Last revision": "N/A",
+
+
+        "Last revision (Details)": "N/A",
+
+
+        "Status": "in force",
+
+
+        "Administrating authorities": (
+
+
+            "China Maritime Safety Administration; Shanghai Maritime Safety "
+
+
+            "Administration (national statistics)"
+
+
+        ),
+
+
+        "Asset": "Ship energy consumption data",
+
+
+        "Asset (Status)": "Existing",
+
+
+        "Asset (Details)": (
+
+
+            "Fuel consumption, distance sailed, transport work and other energy "
+
+
+            "consumption data of Chinese ships of 400 GT and above and foreign ships "
+
+
+            "calling Chinese ports (military ships, fishing vessels and sport craft "
+
+
+            "excluded)."
+
+
+        ),
+
+
+        "Asset (Other)": "N/A",
+
+
+        "Asset (Cut-off range)": "N/A",
+
+
+        "Agent": "Firms",
+
+
+        "Agent (Detail)": (
+
+
+            "Shipping companies (ship owners, operators or managers) responsible for "
+
+
+            "collecting, recording and reporting ship energy consumption data."
+
+
+        ),
+
+
+        "Activity": "Operation",
+
+
+        "Activity (Details)": (
+
+
+            "Collection and reporting of energy consumption data during ship "
+
+
+            "navigation and operation."
+
+
+        ),
+
+
+        "Intensity (Value)": "N/A",
+
+
+        "Intensity (Unit)": "N/A",
+
+
+        "Intensity (Details)": (
+
+
+            "Reporting thresholds: all ships of 400 GT and above; Chinese "
+
+
+            "international ships of 5,000 GT and above additionally file annual data "
+
+
+            "(Source: Hai Wei Fang [2022] No. 164)."
+
+
+        ),
+
+
+        "Requirement specification": (
+
+
+            "Shipping companies report ship energy consumption data through the MSA "
+
+
+            "One-Stop Online platform within the prescribed time limits; records are "
+
+
+            "kept for at least 2 years; data must be truthful, accurate and "
+
+
+            "complete."
+
+
+        ),
+
+
+        "Compliance calculation methodology I": (
+
+
+            "Ship energy consumption data are collected and calculated following the "
+
+
+            "technical requirements supporting the measures."
+
+
+        ),
+
+
+        "Compliance calculation methodology II": "N/A",
+
+
+        "Instrument linkage": (
+
+
+            "Provides the data basis for the ship carbon intensity management "
+
+
+            "instrument (CHNPRFSCMI01S000): attained annual operational CII values "
+
+
+            "and ratings are calculated from data reported under this instrument; "
+
+
+            "aligned with MARPOL Annex VI ship energy consumption data collection "
+
+
+            "obligations."
+
+
+        ),
+
+
+        "Responsibility information capturing": (
+
+
+            "Shipping companies (ship owners, operators or managers) are responsible "
+
+
+            "for collecting, recording and reporting ship energy consumption data."
+
+
+        ),
+
+
+        "Information transmission": "Reported online through the MSA One-Stop Online platform.",
+
+
+        "Frequency of information provision": (
+
+
+            "Domestic seagoing ships report per voyage before departure (monthly by "
+
+
+            "the 10th for fixed short routes); inland ships report annually by 1 "
+
+
+            "April; international ships report per voyage before port clearance; "
+
+
+            "Chinese international ships of 5,000 GT and above file annual data by "
+
+
+            "31 March."
+
+
+        ),
+
+
+        "Public availability of information": (
+
+
+            "Partial. Ship energy consumption data mainly serve statistics, analysis "
+
+
+            "and supervision by maritime authorities; aggregated statistics are "
+
+
+            "published by Shanghai MSA and others as required."
+
+
+        ),
+
+
+        "For labels: Type": "N/A",
+
+
+        "Compliance monitoring": "Supervision and inspection; data verification",
+
+
+        "Compliance enforcement": "Administrative penalties",
+
+
+        "Compliance promotion": "Carbon intensity rating linkage",
+
+
+        "Details on capacity building, training/education, information campaigns and award schemes": "N/A",
+
+
+        "GHG emission coverage (absolute)": "N/A",
+
+
+        "GHG emission coverage (% domestic emissions)": "N/A",
+
+
+        "Economic sector": "H50",
+
+
+        "GHGs affected": "CO2",
+
+
+        "Mitigation effect": "Positive",
+
+
+        "Mitigation co-benefits": "Energy conservation",
+
+
+        "Legal statute": (
+
+
+            "Notice of the China Maritime Safety Administration on Printing and "
+
+
+            "Issuing the Measures for the Administration of Ship Energy Consumption "
+
+
+            "Data and Carbon Intensity (Hai Wei Fang [2022] No. 164)"
+
+
+        ),
+
+
+        "Legal document": (
+
+
+            "https://www.msa.gov.cn/msacncms_wap/pages/content.jhtml?articleId=E40C89"
+
+
+            "8D11DD41E48D9772062C28D65B"
+
+
+        ),
+
+
+        "Other weblinks": "https://www.zj.gov.cn/art/2022/12/14/art_1229700666_2451225.html",
+
+
+    },
 }
 
 
@@ -99565,6 +102820,5 @@ if __name__ == "__main__":
 
 
     raise SystemExit(main())
-
 
 

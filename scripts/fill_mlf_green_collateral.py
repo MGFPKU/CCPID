@@ -24,7 +24,7 @@ from policy_id import generate_policy_id
 
 TEMPLATE = "Economic instruments"
 OLD_IDS = {"CHNSUBCSUI01S000", "CHNSUBCRSI01S000"}
-GROUP = "Subsidy"
+GROUP = "Subsidies"
 APPROACH = "Concessional loans, loan guarantees and credit support"
 INSTRUMENT_ID = generate_policy_id("CHN", GROUP, APPROACH, 1)
 SOURCE_URL = (
