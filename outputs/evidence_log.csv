@@ -401,7 +401,7 @@ CHNTRARECI02S000,Asset (Other),N/A,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t
 CHNTRARECI02S000,Asset (Cut-off range),Agricultural electricity consumption and separately metered heating electricity are exempt from assessment against the consumption responsibility weights.,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,Notice on Establishing and Improving the Renewable Electricity Consumption Guarantee Mechanism,"The 2019 notice establishes the renewable electricity consumption guarantee mechanism, issues total and non-hydro consumption responsibility weights by provincial administrative region, requires obligated market entities to complete consumption amounts, and allows actual consumption, purchased excess consumption amounts, or voluntary green certificate purchases to count toward compliance.",0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:40:33
 CHNTRARECI02S000,Agent,Firms,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,Notice on Establishing and Improving the Renewable Electricity Consumption Guarantee Mechanism,"The 2019 notice establishes the renewable electricity consumption guarantee mechanism, issues total and non-hydro consumption responsibility weights by provincial administrative region, requires obligated market entities to complete consumption amounts, and allows actual consumption, purchased excess consumption amounts, or voluntary green certificate purchases to count toward compliance.",0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:40:33
 CHNTRARECI02S000,Agent (Detail),"Grid enterprises, independent electricity retailers, retailers with distribution-network operating rights, power users purchasing through the wholesale electricity market, and enterprises with captive power plants; provincial energy authorities are responsible for implementation in their administrative regions, and grid enterprises organise implementation in their service areas.",https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,Notice on Establishing and Improving the Renewable Electricity Consumption Guarantee Mechanism,"The 2019 notice establishes the renewable electricity consumption guarantee mechanism, issues total and non-hydro consumption responsibility weights by provincial administrative region, requires obligated market entities to complete consumption amounts, and allows actual consumption, purchased excess consumption amounts, or voluntary green certificate purchases to count toward compliance.",0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:40:33
-CHNTRARECI02S000,Activity,"Purchase or use; Sale; Production, generation or transformation",https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,Notice on Establishing and Improving the Renewable Electricity Consumption Guarantee Mechanism,"The 2019 notice establishes the renewable electricity consumption guarantee mechanism, issues total and non-hydro consumption responsibility weights by provincial administrative region, requires obligated market entities to complete consumption amounts, and allows actual consumption, purchased excess consumption amounts, or voluntary green certificate purchases to count toward compliance.",0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:40:33
+CHNTRARECI02S000,Activity,"Sales or purchase; Use; Production, generation or conversion",https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,Notice on Establishing and Improving the Renewable Electricity Consumption Guarantee Mechanism,"The 2019 notice establishes the renewable electricity consumption guarantee mechanism, issues total and non-hydro consumption responsibility weights by provincial administrative region, requires obligated market entities to complete consumption amounts, and allows actual consumption, purchased excess consumption amounts, or voluntary green certificate purchases to count toward compliance.",0.82,true,裁决依据：review/blank_field_backfill_20261124.md 后续校验修复,2026-11-24T17:59:22
 CHNTRARECI02S000,Activity (Details),"Electricity supply, retailing and use, captive power plant electricity use, renewable electricity consumption, renewable electricity transactions, transfers or trading of excess consumption amounts, green certificate purchases, and monitoring and accounting of consumption amounts.",https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,Notice on Establishing and Improving the Renewable Electricity Consumption Guarantee Mechanism,"The 2019 notice establishes the renewable electricity consumption guarantee mechanism, issues total and non-hydro consumption responsibility weights by provincial administrative region, requires obligated market entities to complete consumption amounts, and allows actual consumption, purchased excess consumption amounts, or voluntary green certificate purchases to count toward compliance.",0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:40:33
 CHNTRARECI02S000,Intensity (Value),Annual provincial minimum and incentive renewable electricity consumption responsibility weights; obligated-entity consumption amounts are determined by annual electricity sales or use multiplied by the allocated regional weight.,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,Notice on Establishing and Improving the Renewable Electricity Consumption Guarantee Mechanism,"The 2019 notice establishes the renewable electricity consumption guarantee mechanism, issues total and non-hydro consumption responsibility weights by provincial administrative region, requires obligated market entities to complete consumption amounts, and allows actual consumption, purchased excess consumption amounts, or voluntary green certificate purchases to count toward compliance.",0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:40:33
 CHNTRARECI02S000,Intensity (Unit),Annual renewable electricity share of electricity consumption (%),https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,Notice on Establishing and Improving the Renewable Electricity Consumption Guarantee Mechanism,"The 2019 notice establishes the renewable electricity consumption guarantee mechanism, issues total and non-hydro consumption responsibility weights by provincial administrative region, requires obligated market entities to complete consumption amounts, and allows actual consumption, purchased excess consumption amounts, or voluntary green certificate purchases to count toward compliance.",0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:40:33
@@ -454,13 +454,13 @@ CHNTRARECI02S000,受规制资产（其他）,N/A,https://www.ndrc.gov.cn/xxgk/zc
 CHNTRARECI02S000,受规制资产（阈值范围）,农业用电和专用计量的供暖电量免于消纳责任权重考核。,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,关于建立健全可再生能源电力消纳保障机制的通知,2019年通知建立可再生能源电力消纳保障机制，按省级行政区域下达总量和非水电消纳责任权重，要求承担消纳责任的市场主体完成消纳量，并可通过实际消纳、购买超额消纳量或自愿认购绿证等量计入消纳量。,0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:45:34
 CHNTRARECI02S000,受规制主体,企业,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,关于建立健全可再生能源电力消纳保障机制的通知,2019年通知建立可再生能源电力消纳保障机制，按省级行政区域下达总量和非水电消纳责任权重，要求承担消纳责任的市场主体完成消纳量，并可通过实际消纳、购买超额消纳量或自愿认购绿证等量计入消纳量。,0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:45:34
 CHNTRARECI02S000,受规制主体（详情）,各类直接向电力用户供/售电的电网企业、独立售电公司、拥有配电网运营权的售电公司、通过电力批发市场购电的电力用户和拥有自备电厂的企业；省级能源主管部门承担本行政区域落实责任，电网企业承担经营区组织责任。,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,关于建立健全可再生能源电力消纳保障机制的通知,2019年通知建立可再生能源电力消纳保障机制，按省级行政区域下达总量和非水电消纳责任权重，要求承担消纳责任的市场主体完成消纳量，并可通过实际消纳、购买超额消纳量或自愿认购绿证等量计入消纳量。,0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:45:34
-CHNTRARECI02S000,受规制活动,购买或使用；销售；生产、发电或转化,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,关于建立健全可再生能源电力消纳保障机制的通知,2019年通知建立可再生能源电力消纳保障机制，按省级行政区域下达总量和非水电消纳责任权重，要求承担消纳责任的市场主体完成消纳量，并可通过实际消纳、购买超额消纳量或自愿认购绿证等量计入消纳量。,0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:45:34
+CHNTRARECI02S000,受规制活动,销售或购买；使用；生产、发电或转化,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,关于建立健全可再生能源电力消纳保障机制的通知,2019年通知建立可再生能源电力消纳保障机制，按省级行政区域下达总量和非水电消纳责任权重，要求承担消纳责任的市场主体完成消纳量，并可通过实际消纳、购买超额消纳量或自愿认购绿证等量计入消纳量。,0.82,true,裁决依据：review/blank_field_backfill_20261124.md 后续校验修复,2026-11-24T17:59:22
 CHNTRARECI02S000,受规制活动（详情）,供电、售电、用电、自备电厂用电、可再生能源电力消纳、可再生能源电力相关交易、超额消纳量转让或交易、绿证认购和消纳量监测核算。,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,关于建立健全可再生能源电力消纳保障机制的通知,2019年通知建立可再生能源电力消纳保障机制，按省级行政区域下达总量和非水电消纳责任权重，要求承担消纳责任的市场主体完成消纳量，并可通过实际消纳、购买超额消纳量或自愿认购绿证等量计入消纳量。,0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:45:34
 CHNTRARECI02S000,强度（数值）,各省级行政区域年度最低和激励性可再生能源电力消纳责任权重；责任主体消纳量按年售电量或年用电量乘以所在区域分配权重确定。,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,关于建立健全可再生能源电力消纳保障机制的通知,2019年通知建立可再生能源电力消纳保障机制，按省级行政区域下达总量和非水电消纳责任权重，要求承担消纳责任的市场主体完成消纳量，并可通过实际消纳、购买超额消纳量或自愿认购绿证等量计入消纳量。,0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:45:34
 CHNTRARECI02S000,强度（单位）,年度可再生能源电量占电力消费比重（%）,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,关于建立健全可再生能源电力消纳保障机制的通知,2019年通知建立可再生能源电力消纳保障机制，按省级行政区域下达总量和非水电消纳责任权重，要求承担消纳责任的市场主体完成消纳量，并可通过实际消纳、购买超额消纳量或自愿认购绿证等量计入消纳量。,0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:45:34
 CHNTRARECI02S000,强度（详情）,2019年通知规定按年度、按省级行政区域下达总量消纳责任权重和非水电消纳责任权重，并在省级实施方案中向市场主体分配消纳量；市场主体以实际消纳可再生能源电量为主，也可购买超额消纳量或认购绿证完成消纳量（来源：2019年消纳保障机制通知）。,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,关于建立健全可再生能源电力消纳保障机制的通知,2019年通知建立可再生能源电力消纳保障机制，按省级行政区域下达总量和非水电消纳责任权重，要求承担消纳责任的市场主体完成消纳量，并可通过实际消纳、购买超额消纳量或自愿认购绿证等量计入消纳量。,0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:45:34
 CHNTRARECI02S000,要求说明,各省级行政区域须达到国家下达的最低可再生能源电力消纳责任权重，并可设定激励性权重；承担消纳责任的市场主体须完成电网企业或省级实施方案分配的消纳量，参与电力市场交易时应承诺履行消纳责任。,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,关于建立健全可再生能源电力消纳保障机制的通知,2019年通知建立可再生能源电力消纳保障机制，按省级行政区域下达总量和非水电消纳责任权重，要求承担消纳责任的市场主体完成消纳量，并可通过实际消纳、购买超额消纳量或自愿认购绿证等量计入消纳量。,0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:45:34
-CHNTRARECI02S000,合规计算方法I,分两个层面核算：省级层面以本省级行政区域实际消纳的可再生能源物理电量为主、以省级绿证账户购买省外绿证为辅，对照年度总量消纳责任权重和非水电消纳责任权重考核评估；市场主体层面由省级能源主管部门会同有关部门将权重和绿色电力消费比例分解落实到重点用能行业和重点用能单位，并由电网企业报送本经营区及重点用能行业、重点用能单位完成情况。,https://www.ndrc.gov.cn/xwdt/tzgg/202507/t20250711_1399143.html,关于2025年可再生能源电力消纳责任权重及有关事项的通知,通知第三条规定，各省可再生能源电力消纳责任权重完成情况核算，以本省级行政区域实际消纳的物理电量为主、以省级绿证账户购买省外的绿证为辅；重点用能行业绿色电力消费比例完成情况核算以绿证为主。第四、五条要求分解落实到重点用能行业和重点用能单位，并由电网企业报送完成情况。,0.94,false,,2026-06-12T16:46:25
+CHNTRARECI02S000,合规计算方法I,省级可再生能源电力消纳责任权重核算——以本省区实际消纳的可再生能源电量（物理电量）为基数，跨省绿证交易纳入受端省核算、扣减售出省核算。计算公式及原则见办法附件2。,https://www.ndrc.gov.cn/xwdt/tzgg/202507/t20250711_1399143.html,关于2025年可再生能源电力消纳责任权重及有关事项的通知,通知第三条规定，各省可再生能源电力消纳责任权重完成情况核算，以本省级行政区域实际消纳的物理电量为主、以省级绿证账户购买省外的绿证为辅；重点用能行业绿色电力消费比例完成情况核算以绿证为主。第四、五条要求分解落实到重点用能行业和重点用能单位，并由电网企业报送完成情况。,0.94,false,裁决依据：review/blank_field_backfill_20261124.md 后续校验修复,2026-11-24T17:59:22
 CHNTRARECI02S000,合规计算方法II,消纳责任权重完成情况以本省级行政区域实际消纳的可再生能源物理电量加省级绿证账户购买省外绿证对应电量核算；重点用能行业绿色电力消费比例完成情况以绿证为主核算。2025年消纳责任权重当年完成，不再转移至2026年。,https://www.ndrc.gov.cn/xwdt/tzgg/202507/t20250711_1399143.html,关于2025年可再生能源电力消纳责任权重及有关事项的通知,通知第三条规定，各省可再生能源电力消纳责任权重完成情况核算，以本省级行政区域实际消纳的物理电量为主、以省级绿证账户购买省外的绿证为辅；重点用能行业绿色电力消费比例完成情况核算以绿证为主。第四、五条要求分解落实到重点用能行业和重点用能单位，并由电网企业报送完成情况。,0.94,false,,2026-06-12T16:46:25
 CHNTRARECI02S000,交易系统：类型,可再生能源电力消纳量配额/RPS机制,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,关于建立健全可再生能源电力消纳保障机制的通知,2019年通知建立可再生能源电力消纳保障机制，按省级行政区域下达总量和非水电消纳责任权重，要求承担消纳责任的市场主体完成消纳量，并可通过实际消纳、购买超额消纳量或自愿认购绿证等量计入消纳量。,0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:45:34
 CHNTRARECI02S000,交易系统：总量上限,年度消纳责任权重按省级行政区域下达；不是温室气体排放总量上限。,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201905/t20190515_962446.html,关于建立健全可再生能源电力消纳保障机制的通知,2019年通知建立可再生能源电力消纳保障机制，按省级行政区域下达总量和非水电消纳责任权重，要求承担消纳责任的市场主体完成消纳量，并可通过实际消纳、购买超额消纳量或自愿认购绿证等量计入消纳量。,0.82,true,Verify the latest annual formal responsibility-weight notice and any official annual excess-consumption transfer/trading volume or value before final publication.,2026-06-12T15:45:34
@@ -1810,106 +1810,106 @@ CHNSUBTISI03S000,减缓协同效益,空气污染；能源供应安全；产业�
 CHNSUBTISI03S000,法律文件名称,关于促进家电以旧换新进一步释放消费潜力的通知（商消费发〔2024〕18号）；推动大规模设备更新和消费品以旧换新行动方案（国发〔2024〕7号）,,,,,true,,2026-06-16T14:01:49
 CHNSUBTISI03S000,法律文件链接,https://www.gov.cn/zhengce/zhengceku/202404/content_6943188.htm,,,,,true,,2026-06-16T14:01:49
 CHNSUBTISI03S000,其他网页链接,https://www.gov.cn/zhengce/content/202403/content_6939136.htm,,,,,true,,2026-06-16T14:01:49
-CHNSUBVPSI01S000,工具/子方案,工具,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,组别,补贴,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,方法,低碳车辆购置补贴,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,排放行业,交通,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,子行业,道路货运；公路运输,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,本国工具名称,老旧营运货车报废更新补贴,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,英文工具名称,Old operating truck scrapping and renewal subsidy,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,政策包,大规模设备更新和消费品以旧换新,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,描述,交通运输部、国家发展改革委（2024年联合财政部，2025-2026年联合国家发展改革委）依据国务院推动大规模设备更新和消费品以旧换新行动方案（国发〔2024〕7号），于2024年7月印发交规划发〔2024〕90号通知，2025年3月印发交规划发〔2025〕17号通知，2026年3月印发交规划发〔2026〕36号通知，连续三年实施老旧营运货车报废更新补贴。对国三及以下（2024年）、国三和国四（2025-2026年）排放标准营运柴油货车实施差别化补贴：仅提前报废老旧营运柴油货车的，中型货车补贴1.0-2.5万元/辆，重型货车补贴1.2-4.5万元/辆（按提前报废年限分档）；报废并新购国六排放标准或新能源货车的，在报废补贴基础上叠加新购补贴；仅新购新能源城市冷链配送货车的，补贴3.5万元/辆。2026年明确优先支持更新为电动货车。资金由中央和地方按总体9:1比例共担（2024-2025年），2026年由超长期特别国债直接向地方安排，地方超额部分自行统筹。现行实施期限为2026年1月1日至2026年12月31日。,,,,,false,,2026-06-16T15:27:59
-CHNSUBVPSI01S000,目标,绿色经济；减缓气候变化；能源效率,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,减缓相关性,直接,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,管辖层级,国家,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,管辖地名称,N/A,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,通过日期,30/07/2024,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,生效日期,31/07/2024,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,终止日期,31/12/2026,,,,,false,,2026-06-16T15:27:59
-CHNSUBVPSI01S000,最近修订,20/03/2026,,,,,false,,2026-06-16T15:27:59
-CHNSUBVPSI01S000,最近修订（详情）,交通运输部、国家发展改革委于2026年3月20日联合印发关于2026年实施老旧营运货车报废更新的通知（交规划发〔2026〕36号），将政策延续至2026年全年（1月1日至12月31日），明确优先支持更新为电动货车，补贴范围覆盖国三、国四排放标准营运货车。补贴标准延续差异化分档。资金来源为超长期特别国债。,,,,,false,,2026-06-16T15:27:59
-CHNSUBVPSI01S000,状态,生效,,,,,false,,2026-06-16T15:27:59
-CHNSUBVPSI01S000,管理机构,交通运输部（主管营运货车资质审核和报废更新资格认定）；财政部（主管补贴资金管理和拨付）；公安部（主管车辆注销登记）；商务部（主管报废机动车回收拆解管理）；省级交通运输、财政、公安和商务主管部门,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,受规制资产,道路车辆,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,受规制资产（状态）,既有,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,受规制资产（详情）,国三及以下排放标准营运柴油货车（中型和重型）。车辆须为取得有效道路运输证的营运类柴油货车。报废车辆须在具有资质的报废机动车回收拆解企业进行拆解。新购货车须为符合国六排放标准的柴油货车或纳入国家新能源车型目录的新能源货车。仅新购新能源城市冷链配送货车也纳入补贴范围。,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,受规制资产（其他）,N/A,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,受规制资产（阈值范围）,国三及以下排放标准营运柴油货车。报废补贴按提前报废年限分三档（满1年不足2年；满2年不足4年；满4年以上）。新购补贴按车型（中型/重型2轴/3轴/4轴及以上）和燃料类型（国六柴油/新能源）分档。,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,受规制主体,企业,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,受规制主体（详情）,持有有效道路运输经营许可证的货运企业（车辆所有人）。包括从事道路普通货运和道路货物专用运输的国有和民营货运企业。,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,受规制活动,处置、收集或分类（消费后）；购买或使用,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,受规制活动（详情）,货运企业将符合报废条件的国三及以下排放标准营运柴油货车送至具有资质的报废机动车回收拆解企业进行拆解，取得报废机动车回收证明和车辆注销证明。选择报废并新购的，另行购买符合补贴条件的新货车（国六柴油或新能源）并取得机动车登记证书和行驶证。凭上述证明材料向当地交通运输主管部门提出补贴申请。仅新购新能源城市冷链配送货车的，直接凭新购车辆证明申请。,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,强度（数值）,1.0-9.5,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,强度（单位）,万元/辆,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,强度（详情）,仅提前报废：中型货车1.0万元/辆（满1年不足2年）、1.8万元/辆（满2年不足4年）、2.5万元/辆（满4年以上）；重型货车1.2万元/辆（满1年不足2年）、3.5万元/辆（满2年不足4年）、4.5万元/辆（满4年以上）。报废并新购叠加：新购国六柴油货车-中型2.5万元/辆、重型2轴4.0万元/辆、重型3轴5.5万元/辆、重型4轴及以上6.5万元/辆；新购新能源货车-中型3.5万元/辆、重型2轴7.0万元/辆、重型3轴8.5万元/辆、重型4轴及以上9.5万元/辆。仅新购新能源城市冷链配送货车：3.5万元/辆。来源：交规划发〔2024〕90号。,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,要求说明,申请人须向当地交通运输主管部门提交补贴申请，附报废机动车回收证明、机动车注销证明、新购机动车登记证书和行驶证（如报废并新购）、道路运输经营许可证等材料。报废车辆须在具有资质的报废机动车回收拆解企业拆解。新购货车须符合国六排放标准或纳入新能源车型目录。补贴资金不得用于平衡地方预算、偿还地方债务或地方'三保'支出。省级人民政府为资金管理第一责任主体。,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,合规计算方法I,N/A,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,合规计算方法II,仅报废补贴按车型（中型/重型）和提前报废年限（1-2年/2-4年/4年以上）分档计算。报废并新购总补贴=报废补贴+新购补贴。新购补贴按车型轴数和燃料类型（国六柴油/新能源）分档计算。仅新购新能源城市冷链配送货车按统一标准3.5万元/辆计算。车辆排放标准以机动车登记证书或出厂合格证载明信息为准。补贴申请由当地交通运输主管部门审核、公示后由财政部门拨付。,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,补贴：年度预算/支出,N/A,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,补贴：限额,仅报废：中型货车1.0-2.5万元/辆，重型货车1.2-4.5万元/辆。报废并新购：总补贴（报废+新购）中型货车最高6.0万元/辆，重型4轴及以上最高14.0万元/辆（报废最高4.5万元+新能源新购最高9.5万元）。仅新购新能源冷链配送货车3.5万元/辆。,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,补贴：下限或上限,N/A,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,补贴：分配机制,中央财政通过转移支付方式拨付补贴资金至省级财政。第一批拨付2024年中央补贴资金的60%，后续根据实际发放情况拨付余款。货运企业向当地交通运输主管部门提出申请，经审核、公示无异议后，由财政部门将补贴资金拨付至企业账户。中央和地方按总体9:1比例共担（东部85:15、中部90:10、西部95:5）。,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,补贴：支持期限,2024年7月31日至2024年12月31日。报废更新和新购须在政策有效期内完成，并在规定期限内提交申请。,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,补贴：执行机制,交通运输主管部门负责车辆报废更新资格审核。公安部门负责车辆注销登记核实。商务部门负责报废机动车回收拆解监督管理。对提交虚假材料、骗取补贴资金的，追回已拨付补贴，并依法依规严肃处理，构成犯罪的依法追究刑事责任。省级交通运输、财政、公安和商务主管部门负责组织抽查和监督管理。实行按月报送绩效目标实现情况。,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,温室气体排放覆盖（绝对量）,N/A,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,温室气体排放覆盖（占国内排放百分比）,N/A,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,经济行业,H49,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,受影响的温室气体,CO2,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,减缓效果,正向,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,减缓协同效益,空气污染；能源供应安全；产业发展,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,法律文件名称,关于实施老旧营运货车报废更新的通知（交规划发〔2024〕90号）；关于实施老旧营运货车报废更新的通知（交规划发〔2025〕17号）；关于2026年实施老旧营运货车报废更新的通知（交规划发〔2026〕36号）；推动大规模设备更新和消费品以旧换新行动方案（国发〔2024〕7号）；关于加力支持大规模设备更新和消费品以旧换新的若干措施（发改环资〔2024〕1104号）,,,,,false,,2026-06-16T15:27:59
-CHNSUBVPSI01S000,法律文件链接,https://app.www.gov.cn/govdata/gov/202408/02/517908/article.html,,,,,false,,2026-06-16T15:09:56
-CHNSUBVPSI01S000,其他网页链接,https://www.gov.cn/zhengce/zhengceku/202503/content_7014455.htm; https://www.gov.cn/zhengce/zhengceku/202604/content_7067530; https://www.mot.gov.cn/xinwen/jiaotongyaowen/202605/t20260514_4205425.html; https://www.gov.cn/zhengce/content/202403/content_6939136.htm; https://www.ndrc.gov.cn/xxgk/zcfb/tz/202404/t20240409_1364672.html,,,,,false,,2026-06-16T15:27:59
-CHNSUBVPSI02S000,工具/子方案,工具,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,组别,补贴,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,方法,低碳车辆购置补贴,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,排放行业,交通,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,子行业,道路客运；个人交通,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,本国工具名称,汽车报废更新补贴,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,英文工具名称,Car scrapping and renewal subsidy,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,政策包,大规模设备更新和消费品以旧换新,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,描述,商务部、财政部等7部门（2024年）至8部门（2025-2026年）依据国务院推动大规模设备更新和消费品以旧换新行动方案（国发〔2024〕7号），连续三年实施汽车报废更新补贴。2024年4月印发汽车以旧换新补贴实施细则（商消费函〔2024〕75号），2024年8月提高补贴标准（商消费函〔2024〕392号），2025年1月延续并扩围（商办消费函〔2025〕8号），2025年12月印发2026年实施细则（商办消费函2025年第467号）。对个人消费者报废符合条件的旧乘用车并购买新能源乘用车或2.0升及以下排量燃油乘用车的，给予一次性定额（2024-2025年）或比例制（2026年）补贴。2026年标准：新能源乘用车补贴销售价格的12%（最高2万元/辆），燃油乘用车补贴销售价格的10%（最高1.5万元/辆）。补贴资金由中央和地方财政按比例分担。现行实施期限为2026年1月1日至2026年12月31日。,,,,,false,,2026-06-16T15:28:38
-CHNSUBVPSI02S000,目标,绿色经济；减缓气候变化；能源效率,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,减缓相关性,直接,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,管辖层级,国家,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,管辖地名称,N/A,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,通过日期,24/04/2024,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,生效日期,24/04/2024,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,终止日期,31/12/2026,,,,,false,,2026-06-16T15:28:38
-CHNSUBVPSI02S000,最近修订,30/12/2025,,,,,false,,2026-06-16T15:28:38
-CHNSUBVPSI02S000,最近修订（详情）,商务部等8部门办公厅于2025年12月30日联合印发2026年汽车以旧换新补贴实施细则（商办消费函2025年第467号），将政策延续至2026年全年。2026年补贴标准调整为按新车销售价格比例计算：报废旧车并购买新能源乘用车补贴销售价格的12%（最高2万元）；报废燃油旧车并购买2.0L及以下燃油乘用车补贴销售价格的10%（最高1.5万元）。此前2025年1月商办消费函〔2025〕8号延续了2024年的定额补贴标准（新能源2万元、燃油1.5万元）并扩大了旧车范围。,,,,,false,,2026-06-16T15:28:38
-CHNSUBVPSI02S000,状态,生效,,,,,false,,2026-06-16T15:28:38
-CHNSUBVPSI02S000,管理机构,商务部（主管汽车以旧换新政策统筹和汽车流通行业管理）；财政部（主管补贴资金管理和拨付）；工业和信息化部（主管新能源汽车车型目录）；公安部（主管车辆注册登记和注销）；省级商务、财政、工业和信息化、公安主管部门,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,受规制资产,道路车辆,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,受规制资产（状态）,既有,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,受规制资产（详情）,报废旧车范围：国三及以下排放标准燃油乘用车；2018年4月30日（含当日）前注册登记的新能源乘用车。新购车辆范围：纳入工业和信息化部减免车辆购置税的新能源汽车车型目录的新能源乘用车；2.0升及以下排量燃油乘用车。报废旧车须在具有资质的报废机动车回收拆解企业拆解。新购车辆须为乘用车（不包括商用车）。,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,受规制资产（其他）,N/A,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,受规制资产（阈值范围）,报废旧车：国三及以下排放标准燃油乘用车，或2018年4月30日前注册登记的新能源乘用车。新购燃油乘用车排量不超过2.0升。,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,受规制主体,家庭,,,,,false,,2026-06-16T16:31:43
-CHNSUBVPSI02S000,受规制主体（详情）,个人消费者（自然人），须为报废旧车和新购车辆的所有人，且报废旧车与新购车辆的所有人须为同一人。不包括企业和机构。,,,,,false,,2026-06-16T16:31:43
-CHNSUBVPSI02S000,受规制活动,处置、收集或分类（消费后）；购买或使用,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,受规制活动（详情）,个人消费者将符合条件的旧乘用车送至具有资质的报废机动车回收拆解企业进行拆解注销，并购买符合条件的新乘用车（新能源乘用车或2.0升及以下排量燃油乘用车）。报废旧车和购买新车须在规定期限内完成。通过全国汽车流通信息管理系统网站或'汽车以旧换新'小程序提交补贴申请。,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,强度（数值）,10%-12% of sales price,,,,,false,,2026-06-16T15:28:38
-CHNSUBVPSI02S000,强度（单位）,% of new vehicle sales price,,,,,false,,2026-06-16T15:28:38
-CHNSUBVPSI02S000,强度（详情）,2026年标准（商办消费函2025年第467号）：报废旧车并购买新能源乘用车，补贴新车销售价格的12%，最高2.0万元/辆；报废国三及以下燃油乘用车并购买2.0升及以下排量燃油乘用车，补贴新车销售价格的10%，最高1.5万元/辆。2024-2025年标准为固定金额制：新能源2.0万元/辆、燃油1.5万元/辆。每位个人消费者只能选择享受一次报废更新或一次置换更新补贴。,,,,,false,,2026-06-16T15:28:38
-CHNSUBVPSI02S000,要求说明,申请人须为个人消费者，报废机动车所有人与新购机动车所有人须为同一人。报废旧车须在具有资质的报废机动车回收拆解企业拆解并取得报废机动车回收证明和机动车注销证明。新购车辆须取得机动车登记证书和行驶证。通过全国汽车流通信息管理系统网站或'汽车以旧换新'小程序提交补贴申请，上传身份证明、报废回收证明、注销证明、新购车辆发票和登记证书等材料。补贴申请材料应自2024年4月24日至2024年12月31日期间取得。,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,合规计算方法I,N/A,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,合规计算方法II,2026年补贴金额按新车销售价格×对应补贴比例计算，且不超过各车型最高补贴上限。2024-2025年按固定金额制计算。补贴以新购车辆为单位，每人每辆旧车对应一辆新车的补贴。,,,,,false,,2026-06-16T15:28:38
-CHNSUBVPSI02S000,补贴：年度预算/支出,N/A,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,补贴：限额,新能源乘用车：销售价格的12%，最高2.0万元/辆；2.0L及以下燃油乘用车：销售价格的10%，最高1.5万元/辆（2026年标准）。2024-2025年为固定金额：新能源2.0万元/辆、燃油1.5万元/辆。,,,,,false,,2026-06-16T15:28:38
-CHNSUBVPSI02S000,补贴：下限或上限,N/A,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,补贴：分配机制,中央财政安排补贴资金，通过转移支付方式拨付至省级财政。个人消费者通过全国汽车流通信息管理系统网站或'汽车以旧换新'小程序在线提交申请，经地方商务主管部门审核、公示无异议后，由财政部门将补贴资金拨付至消费者个人银行账户。中央和地方按比例分担。,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,补贴：支持期限,2024年4月24日至2024年12月31日。报废旧车和新购车辆的证明材料须在此期间取得。补贴申请须在规定期限内提交。,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,补贴：执行机制,商务主管部门负责申请审核和补贴发放管理。公安部门负责车辆注销和注册登记信息核验。工业和信息化部门负责新能源车型目录核验。对提供虚假信息、恶意套取补贴的，追回已拨付补贴，并依法依规追究责任，纳入个人信用记录。各地不得要求将报废汽车交售给指定企业。,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,温室气体排放覆盖（绝对量）,N/A,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,温室气体排放覆盖（占国内排放百分比）,N/A,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,经济行业,H49,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,受影响的温室气体,CO2,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,减缓效果,正向,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,减缓协同效益,空气污染；能源供应安全；消费增长,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,法律文件名称,汽车以旧换新补贴实施细则（商消费函〔2024〕75号）；关于进一步做好汽车以旧换新有关工作的通知（商消费函〔2024〕392号）；关于做好2025年汽车以旧换新工作的通知（商办消费函〔2025〕8号）；2026年汽车以旧换新补贴实施细则（商办消费函2025年第467号）；推动大规模设备更新和消费品以旧换新行动方案（国发〔2024〕7号）,,,,,false,,2026-06-16T15:28:38
-CHNSUBVPSI02S000,法律文件链接,http://www.mofcom.gov.cn/zfxxgk/fdzdgknr/ztfl/gnmygl/art/2024/art_00ec662a1a234fa6878308334ad0d728.html,,,,,false,,2026-06-16T15:10:10
-CHNSUBVPSI02S000,其他网页链接,https://www.mofcom.gov.cn/zfxxgk/gkml/art/2024/art_d4224d2ebd8b4120875bc99963538fbe.html; https://www.gov.cn/zhengce/zhengceku/202501/content_6999564.htm; https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=104379; https://www.gov.cn/zhengce/content/202403/content_6939136.htm,,,,,false,,2026-06-16T15:28:38
+CHNSUBTISI04S000,工具/子方案,工具,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,组别,补贴,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,方法,低碳车辆购置补贴,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,排放行业,交通,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,子行业,道路货运；公路运输,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,本国工具名称,老旧营运货车报废更新补贴,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,英文工具名称,Old operating truck scrapping and renewal subsidy,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,政策包,大规模设备更新和消费品以旧换新,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,描述,交通运输部、国家发展改革委（2024年联合财政部，2025-2026年联合国家发展改革委）依据国务院推动大规模设备更新和消费品以旧换新行动方案（国发〔2024〕7号），于2024年7月印发交规划发〔2024〕90号通知，2025年3月印发交规划发〔2025〕17号通知，2026年3月印发交规划发〔2026〕36号通知，连续三年实施老旧营运货车报废更新补贴。对国三及以下（2024年）、国三和国四（2025-2026年）排放标准营运柴油货车实施差别化补贴：仅提前报废老旧营运柴油货车的，中型货车补贴1.0-2.5万元/辆，重型货车补贴1.2-4.5万元/辆（按提前报废年限分档）；报废并新购国六排放标准或新能源货车的，在报废补贴基础上叠加新购补贴；仅新购新能源城市冷链配送货车的，补贴3.5万元/辆。2026年明确优先支持更新为电动货车。资金由中央和地方按总体9:1比例共担（2024-2025年），2026年由超长期特别国债直接向地方安排，地方超额部分自行统筹。现行实施期限为2026年1月1日至2026年12月31日。,,,,,false,,2026-06-16T15:27:59
+CHNSUBTISI04S000,目标,绿色经济；减缓气候变化；能源效率,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,减缓相关性,直接,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,管辖层级,国家,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,管辖地名称,N/A,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,通过日期,30/07/2024,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,生效日期,31/07/2024,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,终止日期,31/12/2026,,,,,false,,2026-06-16T15:27:59
+CHNSUBTISI04S000,最近修订,20/03/2026,,,,,false,,2026-06-16T15:27:59
+CHNSUBTISI04S000,最近修订（详情）,交通运输部、国家发展改革委于2026年3月20日联合印发关于2026年实施老旧营运货车报废更新的通知（交规划发〔2026〕36号），将政策延续至2026年全年（1月1日至12月31日），明确优先支持更新为电动货车，补贴范围覆盖国三、国四排放标准营运货车。补贴标准延续差异化分档。资金来源为超长期特别国债。,,,,,false,,2026-06-16T15:27:59
+CHNSUBTISI04S000,状态,生效,,,,,false,,2026-06-16T15:27:59
+CHNSUBTISI04S000,管理机构,交通运输部（主管营运货车资质审核和报废更新资格认定）；财政部（主管补贴资金管理和拨付）；公安部（主管车辆注销登记）；商务部（主管报废机动车回收拆解管理）；省级交通运输、财政、公安和商务主管部门,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,受规制资产,道路车辆,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,受规制资产（状态）,既有,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,受规制资产（详情）,国三及以下排放标准营运柴油货车（中型和重型）。车辆须为取得有效道路运输证的营运类柴油货车。报废车辆须在具有资质的报废机动车回收拆解企业进行拆解。新购货车须为符合国六排放标准的柴油货车或纳入国家新能源车型目录的新能源货车。仅新购新能源城市冷链配送货车也纳入补贴范围。,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,受规制资产（其他）,N/A,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,受规制资产（阈值范围）,国三及以下排放标准营运柴油货车。报废补贴按提前报废年限分三档（满1年不足2年；满2年不足4年；满4年以上）。新购补贴按车型（中型/重型2轴/3轴/4轴及以上）和燃料类型（国六柴油/新能源）分档。,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,受规制主体,企业,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,受规制主体（详情）,持有有效道路运输经营许可证的货运企业（车辆所有人）。包括从事道路普通货运和道路货物专用运输的国有和民营货运企业。,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,受规制活动,处置、收集或分类（消费后）；购买或使用,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,受规制活动（详情）,货运企业将符合报废条件的国三及以下排放标准营运柴油货车送至具有资质的报废机动车回收拆解企业进行拆解，取得报废机动车回收证明和车辆注销证明。选择报废并新购的，另行购买符合补贴条件的新货车（国六柴油或新能源）并取得机动车登记证书和行驶证。凭上述证明材料向当地交通运输主管部门提出补贴申请。仅新购新能源城市冷链配送货车的，直接凭新购车辆证明申请。,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,强度（数值）,1.0-9.5,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,强度（单位）,万元/辆,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,强度（详情）,仅提前报废：中型货车1.0万元/辆（满1年不足2年）、1.8万元/辆（满2年不足4年）、2.5万元/辆（满4年以上）；重型货车1.2万元/辆（满1年不足2年）、3.5万元/辆（满2年不足4年）、4.5万元/辆（满4年以上）。报废并新购叠加：新购国六柴油货车-中型2.5万元/辆、重型2轴4.0万元/辆、重型3轴5.5万元/辆、重型4轴及以上6.5万元/辆；新购新能源货车-中型3.5万元/辆、重型2轴7.0万元/辆、重型3轴8.5万元/辆、重型4轴及以上9.5万元/辆。仅新购新能源城市冷链配送货车：3.5万元/辆。来源：交规划发〔2024〕90号。,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,要求说明,申请人须向当地交通运输主管部门提交补贴申请，附报废机动车回收证明、机动车注销证明、新购机动车登记证书和行驶证（如报废并新购）、道路运输经营许可证等材料。报废车辆须在具有资质的报废机动车回收拆解企业拆解。新购货车须符合国六排放标准或纳入新能源车型目录。补贴资金不得用于平衡地方预算、偿还地方债务或地方'三保'支出。省级人民政府为资金管理第一责任主体。,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,合规计算方法I,N/A,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,合规计算方法II,仅报废补贴按车型（中型/重型）和提前报废年限（1-2年/2-4年/4年以上）分档计算。报废并新购总补贴=报废补贴+新购补贴。新购补贴按车型轴数和燃料类型（国六柴油/新能源）分档计算。仅新购新能源城市冷链配送货车按统一标准3.5万元/辆计算。车辆排放标准以机动车登记证书或出厂合格证载明信息为准。补贴申请由当地交通运输主管部门审核、公示后由财政部门拨付。,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,补贴：年度预算/支出,N/A,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,补贴：限额,仅报废：中型货车1.0-2.5万元/辆，重型货车1.2-4.5万元/辆。报废并新购：总补贴（报废+新购）中型货车最高6.0万元/辆，重型4轴及以上最高14.0万元/辆（报废最高4.5万元+新能源新购最高9.5万元）。仅新购新能源冷链配送货车3.5万元/辆。,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,补贴：下限或上限,N/A,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,补贴：分配机制,中央财政通过转移支付方式拨付补贴资金至省级财政。第一批拨付2024年中央补贴资金的60%，后续根据实际发放情况拨付余款。货运企业向当地交通运输主管部门提出申请，经审核、公示无异议后，由财政部门将补贴资金拨付至企业账户。中央和地方按总体9:1比例共担（东部85:15、中部90:10、西部95:5）。,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,补贴：支持期限,2024年7月31日至2024年12月31日。报废更新和新购须在政策有效期内完成，并在规定期限内提交申请。,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,补贴：执行机制,交通运输主管部门负责车辆报废更新资格审核。公安部门负责车辆注销登记核实。商务部门负责报废机动车回收拆解监督管理。对提交虚假材料、骗取补贴资金的，追回已拨付补贴，并依法依规严肃处理，构成犯罪的依法追究刑事责任。省级交通运输、财政、公安和商务主管部门负责组织抽查和监督管理。实行按月报送绩效目标实现情况。,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,温室气体排放覆盖（绝对量）,N/A,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,温室气体排放覆盖（占国内排放百分比）,N/A,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,经济行业,H49,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,受影响的温室气体,CO2,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,减缓效果,正向,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,减缓协同效益,空气污染；能源供应安全；产业发展,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,法律文件名称,关于实施老旧营运货车报废更新的通知（交规划发〔2024〕90号）；关于实施老旧营运货车报废更新的通知（交规划发〔2025〕17号）；关于2026年实施老旧营运货车报废更新的通知（交规划发〔2026〕36号）；推动大规模设备更新和消费品以旧换新行动方案（国发〔2024〕7号）；关于加力支持大规模设备更新和消费品以旧换新的若干措施（发改环资〔2024〕1104号）,,,,,false,,2026-06-16T15:27:59
+CHNSUBTISI04S000,法律文件链接,https://app.www.gov.cn/govdata/gov/202408/02/517908/article.html,,,,,false,,2026-06-16T15:09:56
+CHNSUBTISI04S000,其他网页链接,https://www.gov.cn/zhengce/zhengceku/202503/content_7014455.htm; https://www.gov.cn/zhengce/zhengceku/202604/content_7067530; https://www.mot.gov.cn/xinwen/jiaotongyaowen/202605/t20260514_4205425.html; https://www.gov.cn/zhengce/content/202403/content_6939136.htm; https://www.ndrc.gov.cn/xxgk/zcfb/tz/202404/t20240409_1364672.html,,,,,false,,2026-06-16T15:27:59
+CHNSUBTISI05S000,工具/子方案,工具,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,组别,补贴,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,方法,低碳车辆购置补贴,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,排放行业,交通,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,子行业,道路客运；个人交通,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,本国工具名称,汽车报废更新补贴,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,英文工具名称,Car scrapping and renewal subsidy,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,政策包,大规模设备更新和消费品以旧换新,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,描述,商务部、财政部等7部门（2024年）至8部门（2025-2026年）依据国务院推动大规模设备更新和消费品以旧换新行动方案（国发〔2024〕7号），连续三年实施汽车报废更新补贴。2024年4月印发汽车以旧换新补贴实施细则（商消费函〔2024〕75号），2024年8月提高补贴标准（商消费函〔2024〕392号），2025年1月延续并扩围（商办消费函〔2025〕8号），2025年12月印发2026年实施细则（商办消费函2025年第467号）。对个人消费者报废符合条件的旧乘用车并购买新能源乘用车或2.0升及以下排量燃油乘用车的，给予一次性定额（2024-2025年）或比例制（2026年）补贴。2026年标准：新能源乘用车补贴销售价格的12%（最高2万元/辆），燃油乘用车补贴销售价格的10%（最高1.5万元/辆）。补贴资金由中央和地方财政按比例分担。现行实施期限为2026年1月1日至2026年12月31日。,,,,,false,,2026-06-16T15:28:38
+CHNSUBTISI05S000,目标,绿色经济；减缓气候变化；能源效率,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,减缓相关性,直接,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,管辖层级,国家,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,管辖地名称,N/A,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,通过日期,24/04/2024,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,生效日期,24/04/2024,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,终止日期,31/12/2026,,,,,false,,2026-06-16T15:28:38
+CHNSUBTISI05S000,最近修订,30/12/2025,,,,,false,,2026-06-16T15:28:38
+CHNSUBTISI05S000,最近修订（详情）,商务部等8部门办公厅于2025年12月30日联合印发2026年汽车以旧换新补贴实施细则（商办消费函2025年第467号），将政策延续至2026年全年。2026年补贴标准调整为按新车销售价格比例计算：报废旧车并购买新能源乘用车补贴销售价格的12%（最高2万元）；报废燃油旧车并购买2.0L及以下燃油乘用车补贴销售价格的10%（最高1.5万元）。此前2025年1月商办消费函〔2025〕8号延续了2024年的定额补贴标准（新能源2万元、燃油1.5万元）并扩大了旧车范围。,,,,,false,,2026-06-16T15:28:38
+CHNSUBTISI05S000,状态,生效,,,,,false,,2026-06-16T15:28:38
+CHNSUBTISI05S000,管理机构,商务部（主管汽车以旧换新政策统筹和汽车流通行业管理）；财政部（主管补贴资金管理和拨付）；工业和信息化部（主管新能源汽车车型目录）；公安部（主管车辆注册登记和注销）；省级商务、财政、工业和信息化、公安主管部门,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,受规制资产,道路车辆,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,受规制资产（状态）,既有,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,受规制资产（详情）,报废旧车范围：国三及以下排放标准燃油乘用车；2018年4月30日（含当日）前注册登记的新能源乘用车。新购车辆范围：纳入工业和信息化部减免车辆购置税的新能源汽车车型目录的新能源乘用车；2.0升及以下排量燃油乘用车。报废旧车须在具有资质的报废机动车回收拆解企业拆解。新购车辆须为乘用车（不包括商用车）。,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,受规制资产（其他）,N/A,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,受规制资产（阈值范围）,报废旧车：国三及以下排放标准燃油乘用车，或2018年4月30日前注册登记的新能源乘用车。新购燃油乘用车排量不超过2.0升。,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,受规制主体,家庭,,,,,false,,2026-06-16T16:31:43
+CHNSUBTISI05S000,受规制主体（详情）,个人消费者（自然人），须为报废旧车和新购车辆的所有人，且报废旧车与新购车辆的所有人须为同一人。不包括企业和机构。,,,,,false,,2026-06-16T16:31:43
+CHNSUBTISI05S000,受规制活动,处置、收集或分类（消费后）；购买或使用,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,受规制活动（详情）,个人消费者将符合条件的旧乘用车送至具有资质的报废机动车回收拆解企业进行拆解注销，并购买符合条件的新乘用车（新能源乘用车或2.0升及以下排量燃油乘用车）。报废旧车和购买新车须在规定期限内完成。通过全国汽车流通信息管理系统网站或'汽车以旧换新'小程序提交补贴申请。,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,强度（数值）,10%-12% of sales price,,,,,false,,2026-06-16T15:28:38
+CHNSUBTISI05S000,强度（单位）,% of new vehicle sales price,,,,,false,,2026-06-16T15:28:38
+CHNSUBTISI05S000,强度（详情）,2026年标准（商办消费函2025年第467号）：报废旧车并购买新能源乘用车，补贴新车销售价格的12%，最高2.0万元/辆；报废国三及以下燃油乘用车并购买2.0升及以下排量燃油乘用车，补贴新车销售价格的10%，最高1.5万元/辆。2024-2025年标准为固定金额制：新能源2.0万元/辆、燃油1.5万元/辆。每位个人消费者只能选择享受一次报废更新或一次置换更新补贴。,,,,,false,,2026-06-16T15:28:38
+CHNSUBTISI05S000,要求说明,申请人须为个人消费者，报废机动车所有人与新购机动车所有人须为同一人。报废旧车须在具有资质的报废机动车回收拆解企业拆解并取得报废机动车回收证明和机动车注销证明。新购车辆须取得机动车登记证书和行驶证。通过全国汽车流通信息管理系统网站或'汽车以旧换新'小程序提交补贴申请，上传身份证明、报废回收证明、注销证明、新购车辆发票和登记证书等材料。补贴申请材料应自2024年4月24日至2024年12月31日期间取得。,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,合规计算方法I,N/A,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,合规计算方法II,2026年补贴金额按新车销售价格×对应补贴比例计算，且不超过各车型最高补贴上限。2024-2025年按固定金额制计算。补贴以新购车辆为单位，每人每辆旧车对应一辆新车的补贴。,,,,,false,,2026-06-16T15:28:38
+CHNSUBTISI05S000,补贴：年度预算/支出,N/A,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,补贴：限额,新能源乘用车：销售价格的12%，最高2.0万元/辆；2.0L及以下燃油乘用车：销售价格的10%，最高1.5万元/辆（2026年标准）。2024-2025年为固定金额：新能源2.0万元/辆、燃油1.5万元/辆。,,,,,false,,2026-06-16T15:28:38
+CHNSUBTISI05S000,补贴：下限或上限,N/A,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,补贴：分配机制,中央财政安排补贴资金，通过转移支付方式拨付至省级财政。个人消费者通过全国汽车流通信息管理系统网站或'汽车以旧换新'小程序在线提交申请，经地方商务主管部门审核、公示无异议后，由财政部门将补贴资金拨付至消费者个人银行账户。中央和地方按比例分担。,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,补贴：支持期限,2024年4月24日至2024年12月31日。报废旧车和新购车辆的证明材料须在此期间取得。补贴申请须在规定期限内提交。,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,补贴：执行机制,商务主管部门负责申请审核和补贴发放管理。公安部门负责车辆注销和注册登记信息核验。工业和信息化部门负责新能源车型目录核验。对提供虚假信息、恶意套取补贴的，追回已拨付补贴，并依法依规追究责任，纳入个人信用记录。各地不得要求将报废汽车交售给指定企业。,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,温室气体排放覆盖（绝对量）,N/A,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,温室气体排放覆盖（占国内排放百分比）,N/A,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,经济行业,H49,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,受影响的温室气体,CO2,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,减缓效果,正向,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,减缓协同效益,空气污染；能源供应安全；消费增长,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,法律文件名称,汽车以旧换新补贴实施细则（商消费函〔2024〕75号）；关于进一步做好汽车以旧换新有关工作的通知（商消费函〔2024〕392号）；关于做好2025年汽车以旧换新工作的通知（商办消费函〔2025〕8号）；2026年汽车以旧换新补贴实施细则（商办消费函2025年第467号）；推动大规模设备更新和消费品以旧换新行动方案（国发〔2024〕7号）,,,,,false,,2026-06-16T15:28:38
+CHNSUBTISI05S000,法律文件链接,http://www.mofcom.gov.cn/zfxxgk/fdzdgknr/ztfl/gnmygl/art/2024/art_00ec662a1a234fa6878308334ad0d728.html,,,,,false,,2026-06-16T15:10:10
+CHNSUBTISI05S000,其他网页链接,https://www.mofcom.gov.cn/zfxxgk/gkml/art/2024/art_d4224d2ebd8b4120875bc99963538fbe.html; https://www.gov.cn/zhengce/zhengceku/202501/content_6999564.htm; https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=104379; https://www.gov.cn/zhengce/content/202403/content_6939136.htm,,,,,false,,2026-06-16T15:28:38
 CHNSUBVPSI03S000,工具/子方案,工具,,,,,false,,2026-06-16T15:10:42
 CHNSUBVPSI03S000,组别,补贴,,,,,false,,2026-06-16T15:10:42
 CHNSUBVPSI03S000,方法,低碳车辆购置补贴,,,,,false,,2026-06-16T15:10:42
@@ -1960,56 +1960,56 @@ CHNSUBVPSI03S000,减缓协同效益,空气污染；消费增长,,,,,false,,2026-
 CHNSUBVPSI03S000,法律文件名称,关于进一步做好汽车以旧换新有关工作的通知（商消费函〔2024〕392号）；关于做好2025年汽车以旧换新工作的通知（商办消费函〔2025〕8号）；2026年汽车以旧换新补贴实施细则（商办消费函2025年第467号）；推动大规模设备更新和消费品以旧换新行动方案（国发〔2024〕7号）,,,,,false,,2026-06-16T15:29:46
 CHNSUBVPSI03S000,法律文件链接,https://www.mofcom.gov.cn/zfxxgk/gkml/art/2024/art_d4224d2ebd8b4120875bc99963538fbe.html,,,,,false,,2026-06-16T15:10:42
 CHNSUBVPSI03S000,其他网页链接,https://www.mofcom.gov.cn/zfxxgk/gkml/art/2024/art_d4224d2ebd8b4120875bc99963538fbe.html; https://www.gov.cn/zhengce/zhengceku/202501/content_6999564.htm; https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=104379; https://www.gov.cn/zhengce/content/202403/content_6939136.htm,,,,,false,,2026-06-16T15:29:46
-CHNSUBVPSI04S000,工具/子方案,工具,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,组别,补贴,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,方法,低碳车辆购置补贴,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,排放行业,交通,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,子行业,城市公共交通,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,本国工具名称,新能源城市公交车及动力电池更新补贴,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,英文工具名称,New energy city bus and power battery renewal subsidy,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,政策包,大规模设备更新和消费品以旧换新,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,描述,交通运输部、财政部（2024年）和交通运输部办公厅、国家发展改革委办公厅（2025-2026年联合财政部办公厅）依据国务院推动大规模设备更新和消费品以旧换新行动方案（国发〔2024〕7号），连续三年实施新能源城市公交车及动力电池更新补贴。2024年7月印发交运函〔2024〕390号，2025年2月印发交办运〔2025〕4号，2026年5月印发交办运〔2026〕28号。对城市公交企业更新车龄8年及以上的新能源城市公交车及更换动力电池给予定额补贴：更新新能源城市公交车每辆平均补贴8万元（2024-2026年持续）；更换动力电池每辆补贴4.2万元，且不高于新购动力电池价格的50%。车龄门槛逐年放宽：2024年覆盖2016年底前注册车辆，2025年扩至2017年底前，2026年进一步扩至2018年底前。资金由中央和地方按比例分担（东部85:15、中部90:10、西部95:5），2025-2026年由超长期特别国债支持。现行实施期限为2026年1月1日至2026年12月31日。,,,,,false,,2026-06-16T15:30:53
-CHNSUBVPSI04S000,目标,绿色经济；减缓气候变化；能源效率,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,减缓相关性,直接,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,管辖层级,国家,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,管辖地名称,N/A,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,通过日期,29/07/2024,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,生效日期,29/07/2024,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,终止日期,31/12/2026,,,,,false,,2026-06-16T15:30:53
-CHNSUBVPSI04S000,最近修订,01/05/2026,,,,,false,,2026-06-16T15:30:53
-CHNSUBVPSI04S000,最近修订（详情）,交通运输部办公厅、国家发展改革委办公厅于2026年5月1日联合印发2026年新能源城市公交车及动力电池更新补贴实施细则（交办运〔2026〕28号），将政策延续至2026年全年。更新新能源城市公交车每辆平均补贴8万元，更换动力电池每辆补贴4.2万元（不高于新购电池价格的50%）。车龄门槛进一步放宽至2018年12月31日前注册登记的车辆。此前2025年2月交办运〔2025〕4号已延续该政策，并将车龄门槛从2016年放宽至2017年。,,,,,false,,2026-06-16T15:30:53
-CHNSUBVPSI04S000,状态,生效,,,,,false,,2026-06-16T15:30:53
-CHNSUBVPSI04S000,管理机构,交通运输部（主管城市公交行业管理和车辆更新资格审核）；财政部（主管补贴资金管理和拨付）；国家发展改革委（主管投资政策和特别国债资金统筹）；省级交通运输、财政和发展改革主管部门,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,受规制资产,道路车辆；电池,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,受规制资产（状态）,既有,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,受规制资产（详情）,更新新能源城市公交车：车龄8年及以上（2026年标准为2018年12月31日前注册登记，2025年为2017年12月31日前，2024年为2016年12月31日前）的城市公交车。新购公交车须为纯电动、插电式混合动力或氢燃料电池车辆，使用性质须为公交客运。更换动力电池：2026年12月31日前超出质保期或不满足安全运营条件的新能源城市公交车动力电池，更换后的电池须为2024年1月1日后生产，质保年限不低于5年，满足GB 38031—2020标准。,,,,,false,,2026-06-16T15:30:53
-CHNSUBVPSI04S000,受规制资产（其他）,N/A,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,受规制资产（阈值范围）,公交车车龄须≥8年，即2018年12月31日前（含）注册登记（2026年标准）。2025年为2017年12月31日前，2024年为2016年12月31日前。新购公交车须纳入新能源汽车车型目录。动力电池更换补贴金额不高于新购动力电池价格的50%。,,,,,false,,2026-06-16T15:30:53
-CHNSUBVPSI04S000,受规制主体,企业,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,受规制主体（详情）,依法取得城市公共汽电车线路运营权的城市公交企业。包括国有和民营城市公交运营企业。申请人须为公交车辆的登记所有人和运营人。,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,受规制活动,处置、收集或分类（消费后）；购买或使用,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,受规制活动（详情）,城市公交企业报废注销车龄8年及以上的旧公交车（不限定燃油或新能源），购买符合条件的新能源城市公交车，或对在用公交车更换全套动力电池。报废旧车须在具有资质的报废机动车回收拆解企业拆解并取得报废回收证明和注销证明。新购车辆须取得机动车登记证书和行驶证。动力电池更换须由具备资质的电池生产或更换企业实施，并出具更换验收证明。,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,强度（数值）,4.2-8.0,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,强度（单位）,万元/辆,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,强度（详情）,更新新能源城市公交车：每辆平均补贴8万元，各地可在此框架内根据资金安排制定本地具体标准。更换动力电池：每辆车补贴4.2万元，且补贴金额原则上不高于新购动力电池价格的50%。来源：交运函〔2024〕390号。,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,要求说明,申请人须向当地交通运输主管部门提交补贴申请，附报废机动车回收证明、机动车注销证明（如报废更新）、新购车辆机动车登记证书和行驶证（如购新）、动力电池更换验收证明（如更换电池）、公交线路运营权证明等材料。报废旧车须在具有资质的报废机动车回收拆解企业拆解。新购公交车须符合新能源车型要求，动力电池须满足GB 38031—2020标准。相关证明材料须在2024年7月1日至2024年12月31日期间取得。申请截止日期为2025年1月20日（可补正至2025年2月10日）。,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,合规计算方法I,N/A,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,合规计算方法II,更新公交车补贴按实际更新车辆数×各地确定的单车补贴标准计算。更换动力电池补贴按实际更换电池车辆数×4.2万元/辆计算，且不高于新购动力电池价格的50%。各地可在国家框架内制定本地具体补贴标准。省级交通运输部门于2025年2月28日前通过'城乡道路客运燃料消耗信息申报与补贴管理系统'汇总填报更新数据。,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,补贴：年度预算/支出,N/A,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,补贴：限额,更新公交车：每辆平均补贴8万元（各地可在此框架内自行制定本地标准）。更换动力电池：每辆车补贴4.2万元，且不高于新购动力电池价格的50%。各地不得要求将报废公交车和报废动力电池交售给指定企业。,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,补贴：下限或上限,N/A,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,补贴：分配机制,财政部通过转移支付方式预拨60%补助资金至省级财政。城市公交企业向当地交通运输主管部门提出申请，经审核、公示无异议后，由财政部门将补贴资金拨付至企业账户。中央和地方按比例分担：东部省份85:15、中部省份90:10、西部省份95:5。后续根据省级交通部门在'城乡道路客运燃料消耗信息申报与补贴管理系统'汇总填报的实际发放数据拨付余款。,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,补贴：支持期限,2026年1月1日至2026年12月31日（现行周期）。2024年为7月29日至12月31日，2025年为1月1日至12月31日。相关证明材料须在当年度内取得，补贴申请截止日期按各年度实施细则执行。,,,,,false,,2026-06-16T15:30:53
-CHNSUBVPSI04S000,补贴：执行机制,交通运输主管部门负责车辆更新和电池更换资格审核。财政部门负责补贴资金管理和拨付。发展改革部门负责特别国债资金统筹。对提交虚假材料、骗取补贴资金的，追回已拨付补贴，并依法依规严肃处理。各地不得要求将报废公交车和报废动力电池交售给指定企业，不得另行设定具有地域性、技术产品指向性的补贴目录或企业名单。建立绩效管理和监督机制。,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,温室气体排放覆盖（绝对量）,N/A,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,温室气体排放覆盖（占国内排放百分比）,N/A,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,经济行业,H49,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,受影响的温室气体,CO2,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,减缓效果,正向,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,减缓协同效益,空气污染；能源供应安全；公共服务改善,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,法律文件名称,新能源城市公交车及动力电池更新补贴实施细则（交运函〔2024〕390号）；2025年新能源城市公交车及动力电池更新补贴实施细则（交办运〔2025〕4号）；2026年新能源城市公交车及动力电池更新补贴实施细则（交办运〔2026〕28号）；推动大规模设备更新和消费品以旧换新行动方案（国发〔2024〕7号）；关于加力支持大规模设备更新和消费品以旧换新的若干措施（发改环资〔2024〕1104号）,,,,,false,,2026-06-16T15:30:53
-CHNSUBVPSI04S000,法律文件链接,https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202410/t20241031_1394144_ext.html,,,,,false,,2026-06-16T15:10:42
-CHNSUBVPSI04S000,其他网页链接,https://xxgk.mot.gov.cn/2020/jigou/ysfws/202409/t20240925_4156949.html; https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=103251; https://www.gov.cn/zhengce/content/202403/content_6939136.htm; https://www.ndrc.gov.cn/xxgk/zcfb/tz/202404/t20240409_1364672.html,,,,,false,,2026-06-16T15:30:53
+CHNSUBTISI06S000,工具/子方案,工具,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,组别,补贴,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,方法,低碳车辆购置补贴,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,排放行业,交通,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,子行业,城市公共交通,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,本国工具名称,新能源城市公交车及动力电池更新补贴,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,英文工具名称,New energy city bus and power battery renewal subsidy,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,政策包,大规模设备更新和消费品以旧换新,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,描述,交通运输部、财政部（2024年）和交通运输部办公厅、国家发展改革委办公厅（2025-2026年联合财政部办公厅）依据国务院推动大规模设备更新和消费品以旧换新行动方案（国发〔2024〕7号），连续三年实施新能源城市公交车及动力电池更新补贴。2024年7月印发交运函〔2024〕390号，2025年2月印发交办运〔2025〕4号，2026年5月印发交办运〔2026〕28号。对城市公交企业更新车龄8年及以上的新能源城市公交车及更换动力电池给予定额补贴：更新新能源城市公交车每辆平均补贴8万元（2024-2026年持续）；更换动力电池每辆补贴4.2万元，且不高于新购动力电池价格的50%。车龄门槛逐年放宽：2024年覆盖2016年底前注册车辆，2025年扩至2017年底前，2026年进一步扩至2018年底前。资金由中央和地方按比例分担（东部85:15、中部90:10、西部95:5），2025-2026年由超长期特别国债支持。现行实施期限为2026年1月1日至2026年12月31日。,,,,,false,,2026-06-16T15:30:53
+CHNSUBTISI06S000,目标,绿色经济；减缓气候变化；能源效率,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,减缓相关性,直接,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,管辖层级,国家,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,管辖地名称,N/A,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,通过日期,29/07/2024,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,生效日期,29/07/2024,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,终止日期,31/12/2026,,,,,false,,2026-06-16T15:30:53
+CHNSUBTISI06S000,最近修订,01/05/2026,,,,,false,,2026-06-16T15:30:53
+CHNSUBTISI06S000,最近修订（详情）,交通运输部办公厅、国家发展改革委办公厅于2026年5月1日联合印发2026年新能源城市公交车及动力电池更新补贴实施细则（交办运〔2026〕28号），将政策延续至2026年全年。更新新能源城市公交车每辆平均补贴8万元，更换动力电池每辆补贴4.2万元（不高于新购电池价格的50%）。车龄门槛进一步放宽至2018年12月31日前注册登记的车辆。此前2025年2月交办运〔2025〕4号已延续该政策，并将车龄门槛从2016年放宽至2017年。,,,,,false,,2026-06-16T15:30:53
+CHNSUBTISI06S000,状态,生效,,,,,false,,2026-06-16T15:30:53
+CHNSUBTISI06S000,管理机构,交通运输部（主管城市公交行业管理和车辆更新资格审核）；财政部（主管补贴资金管理和拨付）；国家发展改革委（主管投资政策和特别国债资金统筹）；省级交通运输、财政和发展改革主管部门,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,受规制资产,道路车辆；电池,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,受规制资产（状态）,既有,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,受规制资产（详情）,更新新能源城市公交车：车龄8年及以上（2026年标准为2018年12月31日前注册登记，2025年为2017年12月31日前，2024年为2016年12月31日前）的城市公交车。新购公交车须为纯电动、插电式混合动力或氢燃料电池车辆，使用性质须为公交客运。更换动力电池：2026年12月31日前超出质保期或不满足安全运营条件的新能源城市公交车动力电池，更换后的电池须为2024年1月1日后生产，质保年限不低于5年，满足GB 38031—2020标准。,,,,,false,,2026-06-16T15:30:53
+CHNSUBTISI06S000,受规制资产（其他）,N/A,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,受规制资产（阈值范围）,公交车车龄须≥8年，即2018年12月31日前（含）注册登记（2026年标准）。2025年为2017年12月31日前，2024年为2016年12月31日前。新购公交车须纳入新能源汽车车型目录。动力电池更换补贴金额不高于新购动力电池价格的50%。,,,,,false,,2026-06-16T15:30:53
+CHNSUBTISI06S000,受规制主体,企业,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,受规制主体（详情）,依法取得城市公共汽电车线路运营权的城市公交企业。包括国有和民营城市公交运营企业。申请人须为公交车辆的登记所有人和运营人。,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,受规制活动,处置、收集或分类（消费后）；购买或使用,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,受规制活动（详情）,城市公交企业报废注销车龄8年及以上的旧公交车（不限定燃油或新能源），购买符合条件的新能源城市公交车，或对在用公交车更换全套动力电池。报废旧车须在具有资质的报废机动车回收拆解企业拆解并取得报废回收证明和注销证明。新购车辆须取得机动车登记证书和行驶证。动力电池更换须由具备资质的电池生产或更换企业实施，并出具更换验收证明。,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,强度（数值）,4.2-8.0,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,强度（单位）,万元/辆,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,强度（详情）,更新新能源城市公交车：每辆平均补贴8万元，各地可在此框架内根据资金安排制定本地具体标准。更换动力电池：每辆车补贴4.2万元，且补贴金额原则上不高于新购动力电池价格的50%。来源：交运函〔2024〕390号。,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,要求说明,申请人须向当地交通运输主管部门提交补贴申请，附报废机动车回收证明、机动车注销证明（如报废更新）、新购车辆机动车登记证书和行驶证（如购新）、动力电池更换验收证明（如更换电池）、公交线路运营权证明等材料。报废旧车须在具有资质的报废机动车回收拆解企业拆解。新购公交车须符合新能源车型要求，动力电池须满足GB 38031—2020标准。相关证明材料须在2024年7月1日至2024年12月31日期间取得。申请截止日期为2025年1月20日（可补正至2025年2月10日）。,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,合规计算方法I,N/A,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,合规计算方法II,更新公交车补贴按实际更新车辆数×各地确定的单车补贴标准计算。更换动力电池补贴按实际更换电池车辆数×4.2万元/辆计算，且不高于新购动力电池价格的50%。各地可在国家框架内制定本地具体补贴标准。省级交通运输部门于2025年2月28日前通过'城乡道路客运燃料消耗信息申报与补贴管理系统'汇总填报更新数据。,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,补贴：年度预算/支出,N/A,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,补贴：限额,更新公交车：每辆平均补贴8万元（各地可在此框架内自行制定本地标准）。更换动力电池：每辆车补贴4.2万元，且不高于新购动力电池价格的50%。各地不得要求将报废公交车和报废动力电池交售给指定企业。,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,补贴：下限或上限,N/A,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,补贴：分配机制,财政部通过转移支付方式预拨60%补助资金至省级财政。城市公交企业向当地交通运输主管部门提出申请，经审核、公示无异议后，由财政部门将补贴资金拨付至企业账户。中央和地方按比例分担：东部省份85:15、中部省份90:10、西部省份95:5。后续根据省级交通部门在'城乡道路客运燃料消耗信息申报与补贴管理系统'汇总填报的实际发放数据拨付余款。,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,补贴：支持期限,2026年1月1日至2026年12月31日（现行周期）。2024年为7月29日至12月31日，2025年为1月1日至12月31日。相关证明材料须在当年度内取得，补贴申请截止日期按各年度实施细则执行。,,,,,false,,2026-06-16T15:30:53
+CHNSUBTISI06S000,补贴：执行机制,交通运输主管部门负责车辆更新和电池更换资格审核。财政部门负责补贴资金管理和拨付。发展改革部门负责特别国债资金统筹。对提交虚假材料、骗取补贴资金的，追回已拨付补贴，并依法依规严肃处理。各地不得要求将报废公交车和报废动力电池交售给指定企业，不得另行设定具有地域性、技术产品指向性的补贴目录或企业名单。建立绩效管理和监督机制。,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,温室气体排放覆盖（绝对量）,N/A,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,温室气体排放覆盖（占国内排放百分比）,N/A,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,经济行业,H49,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,受影响的温室气体,CO2,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,减缓效果,正向,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,减缓协同效益,空气污染；能源供应安全；公共服务改善,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,法律文件名称,新能源城市公交车及动力电池更新补贴实施细则（交运函〔2024〕390号）；2025年新能源城市公交车及动力电池更新补贴实施细则（交办运〔2025〕4号）；2026年新能源城市公交车及动力电池更新补贴实施细则（交办运〔2026〕28号）；推动大规模设备更新和消费品以旧换新行动方案（国发〔2024〕7号）；关于加力支持大规模设备更新和消费品以旧换新的若干措施（发改环资〔2024〕1104号）,,,,,false,,2026-06-16T15:30:53
+CHNSUBTISI06S000,法律文件链接,https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202410/t20241031_1394144_ext.html,,,,,false,,2026-06-16T15:10:42
+CHNSUBTISI06S000,其他网页链接,https://xxgk.mot.gov.cn/2020/jigou/ysfws/202409/t20240925_4156949.html; https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=103251; https://www.gov.cn/zhengce/content/202403/content_6939136.htm; https://www.ndrc.gov.cn/xxgk/zcfb/tz/202404/t20240409_1364672.html,,,,,false,,2026-06-16T15:30:53
 CHNSUBCHSI01S000,工具/子方案,工具,,,,,false,,2026-06-16T17:43:58
 CHNSUBCHSI01S000,组别,补贴,,,,,false,,2026-06-16T17:43:58
 CHNSUBCHSI01S000,方法,清洁取暖补贴,,,,,false,,2026-06-16T17:43:58
@@ -2291,7 +2291,7 @@ CHNTAXFETI01S000,强度（详情）,汽油、石脑油、溶剂油、润滑油�
 CHNTAXFETI01S000,要求说明,成品油消费税在生产、委托加工和进口环节从量定额征收。纳税人需按照规定进行成品油消费税纳税申报，使用增值税发票管理新系统开具成品油发票（增值税专用发票或普通发票），并在发票备注栏注明成品油种类。成品油生产企业须取得相关生产许可资质。航空煤油继续暂缓征收消费税，但需按规定进行免税申报。,https://szs.mof.gov.cn/zhengcefabu/201501/t20150112_1178908.htm,财税〔2015〕11号,,0.9,true,,2026-06-17T14:31:38
 CHNTAXFETI01S000,合规计算方法I,应纳税额 = 应税成品油数量（升）× 适用单位税额（元/升）。生产环节按实际产量计算，进口环节按海关核定的数量计算。,https://szs.mof.gov.cn/zhengcefabu/201501/t20150112_1178908.htm,财税〔2015〕11号,,0.9,true,,2026-06-17T14:31:38
 CHNTAXFETI01S000,合规计算方法II,吨升换算标准依据消费税暂行条例实施细则第十条：汽油1吨=1388升，柴油1吨=1176升，航空煤油1吨=1246升，石脑油1吨=1385升，燃料油1吨=1015升，润滑油1吨=1126升。,https://szs.mof.gov.cn/zhengcefabu/201501/t20150112_1178908.htm,财税〔2015〕11号,,0.9,true,,2026-06-17T14:31:38
-CHNTAXFETI01S000,税收及激励：年度收入,约1.6万亿元（2024年）,https://szs.mof.gov.cn/zhengcefabu/201501/t20150112_1178908.htm,财税〔2015〕11号,,0.9,true,,2026-06-17T14:31:38
+CHNTAXFETI01S000,税收及激励：年度收入,约1.6万亿元（2024年；来源：财政部年度财政收入数据）,https://szs.mof.gov.cn/zhengcefabu/201501/t20150112_1178908.htm,财税〔2015〕11号,,0.9,true,裁决依据：review/blank_field_backfill_20261124.md（回填并补来源标注）,2026-06-17T14:31:38
 CHNTAXFETI01S000,税收及激励：专项资金,成品油消费税收入纳入一般公共预算管理，未明确指定专项资金。部分收入通过转移支付方式用于公路养护、交通运输基础设施建设和农村公路建设。,https://szs.mof.gov.cn/zhengcefabu/201501/t20150112_1178908.htm,财税〔2015〕11号,,0.9,true,,2026-06-17T14:31:38
 CHNTAXFETI01S000,税收及激励：年度收入减免,N/A,https://szs.mof.gov.cn/zhengcefabu/201501/t20150112_1178908.htm,财税〔2015〕11号,,0.9,true,,2026-06-17T14:31:38
 CHNTAXFETI01S000,温室气体排放覆盖（绝对量）,N/A,https://szs.mof.gov.cn/zhengcefabu/201501/t20150112_1178908.htm,财税〔2015〕11号,,0.9,true,,2026-06-17T14:31:38
@@ -2338,7 +2338,7 @@ CHNTAXDVTI01S000,强度（详情）,按排量差别化：≤1.0L 1%; 1.0-1.5L 3%
 CHNTAXDVTI01S000,要求说明,汽车消费税在生产、委托加工和进口环节按从价定率方式征收。应纳税额=应税汽车销售额（不含增值税）×适用税率。纳税人须按规定进行消费税纳税申报。进口汽车由海关代征消费税。新能源汽车（纯电动、燃料电池等）不属于消费税征税范围，不征消费税。,https://fgk.chinatax.gov.cn/zcfgk/c102416/c5203314/content.html,财税〔2008〕105号,,0.9,true,,2026-06-17T14:34:43
 CHNTAXDVTI01S000,合规计算方法I,应纳税额 = 应税汽车不含增值税销售额 × 适用差别化税率（按排量确定）。税率按气缸容量（排量）分为7档：1%-40%。,https://fgk.chinatax.gov.cn/zcfgk/c102416/c5203314/content.html,财税〔2008〕105号,,0.9,true,,2026-06-17T14:34:43
 CHNTAXDVTI01S000,合规计算方法II,N/A,https://fgk.chinatax.gov.cn/zcfgk/c102416/c5203314/content.html,财税〔2008〕105号,,0.9,true,,2026-06-17T14:34:43
-CHNTAXDVTI01S000,税收及激励：年度收入,约1000亿元（2024年估计）,https://fgk.chinatax.gov.cn/zcfgk/c102416/c5203314/content.html,财税〔2008〕105号,,0.9,true,,2026-06-17T14:34:43
+CHNTAXDVTI01S000,税收及激励：年度收入,约1000亿元（2024年估计；来源：财政部年度财政收入数据）,https://fgk.chinatax.gov.cn/zcfgk/c102416/c5203314/content.html,财税〔2008〕105号,,0.9,true,裁决依据：review/blank_field_backfill_20261124.md（回填并补来源标注）,2026-06-17T14:34:43
 CHNTAXDVTI01S000,税收及激励：专项资金,汽车消费税收入纳入一般公共预算管理，未明确指定专项资金。,https://fgk.chinatax.gov.cn/zcfgk/c102416/c5203314/content.html,财税〔2008〕105号,,0.9,true,,2026-06-17T14:34:43
 CHNTAXDVTI01S000,税收及激励：年度收入减免,N/A,https://fgk.chinatax.gov.cn/zcfgk/c102416/c5203314/content.html,财税〔2008〕105号,,0.9,true,,2026-06-17T14:34:43
 CHNTAXDVTI01S000,温室气体排放覆盖（绝对量）,N/A,https://fgk.chinatax.gov.cn/zcfgk/c102416/c5203314/content.html,财税〔2008〕105号,,0.9,true,,2026-06-17T14:34:43
@@ -2715,7 +2715,7 @@ CHNTAXEPTI01S000,强度（详情）,来源：中华人民共和国环境保护�
 CHNTAXEPTI01S000,要求说明,不适用,https://www.gov.cn/zhengce/2016-12/25/content_5152763.htm,中华人民共和国环境保护税法,全面修订环境保护税数据：纠正目标字段（移除减缓气候变化，改为法律原文目标）；修复排放行业及减缓相关性等字段中的英文；补充实施条例作为最近修订,0.9,true,,2026-06-17T15:59:24
 CHNTAXEPTI01S000,合规计算方法I,大气污染物应纳税额 = 污染当量数 × 具体适用税额；污染当量数 = 排放量（千克）÷ 污染当量值（千克）。水污染物应纳税额 = 污染当量数 × 具体适用税额（其中第一类水污染物按前五项计征，其他类水污染物按前三项计征）。固体废物应纳税额 = 固体废物排放量（吨）× 具体适用税额,https://www.gov.cn/zhengce/2016-12/25/content_5152763.htm,中华人民共和国环境保护税法,全面修订环境保护税数据：纠正目标字段（移除减缓气候变化，改为法律原文目标）；修复排放行业及减缓相关性等字段中的英文；补充实施条例作为最近修订,0.9,true,,2026-06-17T15:59:24
 CHNTAXEPTI01S000,合规计算方法II,工业噪声应纳税额 = 超过国家规定标准的分贝数对应的具体适用税额（超标1-3分贝每月350元，超标4-6分贝每月700元，超标7-9分贝每月1400元，超标10-12分贝每月2800元，超标13-15分贝每月5600元，超标16分贝以上每月11200元）。一个单位边界上有多处噪声超标的，按最高一处超标声级计算；沿边界长度超过100米的，按两处噪声超标计算,https://www.gov.cn/zhengce/2016-12/25/content_5152763.htm,中华人民共和国环境保护税法,全面修订环境保护税数据：纠正目标字段（移除减缓气候变化，改为法律原文目标）；修复排放行业及减缓相关性等字段中的英文；补充实施条例作为最近修订,0.9,true,,2026-06-17T15:59:24
-CHNTAXEPTI01S000,税收及激励：年度收入,约200亿元（2023年）,https://www.gov.cn/zhengce/2016-12/25/content_5152763.htm,中华人民共和国环境保护税法,全面修订环境保护税数据：纠正目标字段（移除减缓气候变化，改为法律原文目标）；修复排放行业及减缓相关性等字段中的英文；补充实施条例作为最近修订,0.9,true,,2026-06-17T15:59:24
+CHNTAXEPTI01S000,税收及激励：年度收入,约200亿元（2023年；来源：国家税务总局环境保护税征收入库统计）,https://www.gov.cn/zhengce/2016-12/25/content_5152763.htm,中华人民共和国环境保护税法,全面修订环境保护税数据：纠正目标字段（移除减缓气候变化，改为法律原文目标）；修复排放行业及减缓相关性等字段中的英文；补充实施条例作为最近修订,0.9,true,裁决依据：review/blank_field_backfill_20261124.md（回填并补来源标注）,2026-06-17T15:59:24
 CHNTAXEPTI01S000,税收及激励：专项资金,全部作为地方收入，纳入一般公共预算管理,https://www.gov.cn/zhengce/2016-12/25/content_5152763.htm,中华人民共和国环境保护税法,全面修订环境保护税数据：纠正目标字段（移除减缓气候变化，改为法律原文目标）；修复排放行业及减缓相关性等字段中的英文；补充实施条例作为最近修订,0.9,true,,2026-06-17T15:59:24
 CHNTAXEPTI01S000,税收及激励：年度收入减免,不适用,https://www.gov.cn/zhengce/2016-12/25/content_5152763.htm,中华人民共和国环境保护税法,全面修订环境保护税数据：纠正目标字段（移除减缓气候变化，改为法律原文目标）；修复排放行业及减缓相关性等字段中的英文；补充实施条例作为最近修订,0.9,true,,2026-06-17T15:59:24
 CHNTAXEPTI01S000,温室气体排放覆盖（绝对量）,未找到,https://www.gov.cn/zhengce/2016-12/25/content_5152763.htm,中华人民共和国环境保护税法,全面修订环境保护税数据：纠正目标字段（移除减缓气候变化，改为法律原文目标）；修复排放行业及减缓相关性等字段中的英文；补充实施条例作为最近修订,0.9,true,,2026-06-17T15:59:24
@@ -3689,8 +3689,8 @@ CHNTRATPSI01S000,目标,电气化,https://www.gov.cn/zhengce/2022-11/27/content_
 CHNTRATPSI01S000,Objective,Electrification,https://www.gov.cn/zhengce/2022-11/27/content_5722693.htm,乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法,《乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法》,0.8,true,"Objective term ""Electrification"" backfilled from instrument name / legal document title during Objective vocabulary rework (2026-09). Verify against document text.",2026-09-16T11:02:57
 CHNTRATPSI01S002,目标,电气化,https://www.gov.cn/zhengce/2022-11/27/content_5722693.htm,乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法,《乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法》,0.8,true,"Objective term ""电气化"" backfilled from instrument name / legal document title during Objective vocabulary rework (2026-09). Verify against document text.",2026-09-16T11:02:57
 CHNTRATPSI01S002,Objective,Electrification,https://www.gov.cn/zhengce/2022-11/27/content_5722693.htm,乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法,《乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法》,0.8,true,"Objective term ""Electrification"" backfilled from instrument name / legal document title during Objective vocabulary rework (2026-09). Verify against document text.",2026-09-16T11:02:57
-CHNSUBVPSI04S000,目标,电气化,https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202410/t20241031_1394144_ext.html,新能源城市公交车及动力电池更新补贴实施细则（交运函〔2024〕390号）,《新能源城市公交车及动力电池更新补贴实施细则（交运函〔2024〕390号）》,0.8,true,"Objective term ""电气化"" backfilled from instrument name / legal document title during Objective vocabulary rework (2026-09). Verify against document text.",2026-09-16T11:02:57
-CHNSUBVPSI04S000,Objective,Electrification,https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202410/t20241031_1394144_ext.html,新能源城市公交车及动力电池更新补贴实施细则（交运函〔2024〕390号）,《新能源城市公交车及动力电池更新补贴实施细则（交运函〔2024〕390号）》,0.8,true,"Objective term ""Electrification"" backfilled from instrument name / legal document title during Objective vocabulary rework (2026-09). Verify against document text.",2026-09-16T11:02:57
+CHNSUBTISI06S000,目标,电气化,https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202410/t20241031_1394144_ext.html,新能源城市公交车及动力电池更新补贴实施细则（交运函〔2024〕390号）,《新能源城市公交车及动力电池更新补贴实施细则（交运函〔2024〕390号）》,0.8,true,"Objective term ""电气化"" backfilled from instrument name / legal document title during Objective vocabulary rework (2026-09). Verify against document text.",2026-09-16T11:02:57
+CHNSUBTISI06S000,Objective,Electrification,https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202410/t20241031_1394144_ext.html,新能源城市公交车及动力电池更新补贴实施细则（交运函〔2024〕390号）,《新能源城市公交车及动力电池更新补贴实施细则（交运函〔2024〕390号）》,0.8,true,"Objective term ""Electrification"" backfilled from instrument name / legal document title during Objective vocabulary rework (2026-09). Verify against document text.",2026-09-16T11:02:57
 CHNTAXVOTI01S001,目标,电气化,https://guangdong.chinatax.gov.cn/gdsw/zjfg/2025-10/11/content_a027bb417fc0413aa2dbf4222e5e6f4b.shtml,中华人民共和国车船税法第四条,《中华人民共和国车船税法第四条》,0.8,true,"Objective term ""电气化"" backfilled from instrument name / legal document title during Objective vocabulary rework (2026-09). Verify against document text.",2026-09-16T11:02:57
 CHNTAXVOTI01S001,Objective,Electrification,https://guangdong.chinatax.gov.cn/gdsw/zjfg/2025-10/11/content_a027bb417fc0413aa2dbf4222e5e6f4b.shtml,中华人民共和国车船税法第四条,《中华人民共和国车船税法第四条》,0.8,true,"Objective term ""Electrification"" backfilled from instrument name / legal document title during Objective vocabulary rework (2026-09). Verify against document text.",2026-09-16T11:02:57
 CHNTAXVPTI01S000,目标,电气化,https://szs.mof.gov.cn/zhengcefabu/202306/t20230620_3891500.htm,财政部 税务总局 工业和信息化部关于延续和优化新能源汽车车辆购置税减免政策的公告,《财政部 税务总局 工业和信息化部关于延续和优化新能源汽车车辆购置税减免政策的公告》,0.8,true,"Objective term ""电气化"" backfilled from instrument name / legal document title during Objective vocabulary rework (2026-09). Verify against document text.",2026-09-16T11:02:57
@@ -3950,8 +3950,7 @@ CHNFRMEEZI01S000,减缓效果,未知,N/A,CCPID_Final_Recommendations_Comprehensi
 CHNPIVCBII03S000,描述,描述聚焦可信低碳运输替代效应（外部复审建议）,https://www.gov.cn/gongbao/2026/issue_12526/202601/content_7056484.html,铁路专项中央预算内投资管理办法（发改基础规〔2025〕1516号）,描述细化：铁路单位周转量碳排放显著低于公路；干线铁路促进大宗货运公路转铁路、城际铁路促进客运公路/民航转铁路（可信模式转换路径）,0.8,false,裁决依据：review/final_review_decisions_20261118.md 四,2026-11-18T14:00:00
 CHNPIVCBII04S000,描述,描述聚焦可信低碳运输替代效应（外部复审建议）,https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202403/t20240326_1365287_ext.html,水运中央预算内投资专项管理办法（发改基础规〔2024〕306号）,描述细化：航道、船闸等基础设施促进大宗货运公路转水运（模式转换），长江船舶受电设施直接降低靠港排放,0.8,false,裁决依据：review/final_review_decisions_20261118.md 四,2026-11-18T14:01:00
 CHNTRAGETI01S000,描述,绿电交易：证随电走、电能量价格与绿证价格分列,https://www.gov.cn/zhengce/zhengceku/202512/content_7053608.htm,电力中长期市场基本规则（发改能源规〔2025〕1656号）,绿电交易标的为可再生能源发电电量及其绿色环境价值，实行证随电走；交易价格须分别明确电能量价格和绿色环境价值（绿证）价格，绿色环境价值部分不参与分时电价等加价；成文17/12/2025，施行01/03/2026，有效期5年。,0.8,false,裁决依据：review/final_review_decisions_20261118.md 三,2026-11-18T16:45:00
-CHNTRADRMI01S000,描述,需求响应市场参与：电能量/辅助服务/容量市场交易（第16条、第20条）,https://www.gov.cn/zhengce/zhengceku/202310/content_6907311.htm,电力需求侧管理办法（2023年版）（发改运行规〔2023〕1283号）,第16条支持需求响应主体参与电能量市场、辅助服务市场常态化运行及容量市场交易或容量补偿；第20条由省级电力负荷管理中心组织需求响应交易；成文15/09/2023，施行01/10/2023，有效期5年。,0.8,false,裁决依据：review/final_review_decisions_20261118.md 三,2026-11-18T16:45:00
-CHNSUBDRCI01S000,描述,需求响应补偿：谁提供谁获利、谁受益谁承担（第19条、第47条）,https://www.gov.cn/zhengce/zhengceku/202310/content_6907311.htm,电力需求侧管理办法（2023年版）（发改运行规〔2023〕1283号）,第19条按谁提供、谁获利，谁受益、谁承担原则建立与市场衔接的需求响应价格机制；第47条配合尖峰电价、需求响应电价、可中断负荷电价等电价政策，地方可安排资金支持。,0.8,false,裁决依据：review/final_review_decisions_20261118.md 三,2026-11-18T16:45:00
+CHNFRMDRMI01S000,描述,需求响应市场参与：电能量/辅助服务/容量市场交易（第16条、第20条）,https://www.gov.cn/zhengce/zhengceku/202310/content_6907311.htm,电力需求侧管理办法（2023年版）（发改运行规〔2023〕1283号）,第16条支持需求响应主体参与电能量市场、辅助服务市场常态化运行及容量市场交易或容量补偿；第20条由省级电力负荷管理中心组织需求响应交易；成文15/09/2023，施行01/10/2023，有效期5年。,0.8,false,裁决依据：review/final_review_decisions_20261118.md 三,2026-11-18T16:45:00
 CHNADPTOUI01S000,强度（详情）,峰谷电价比例≥4:1（峰谷差率>40%）/≥3:1；尖峰加价≥20%,https://www.gov.cn/zhengce/zhengceku/2021-07/29/content_5628297.htm,国家发展改革委关于进一步完善分时电价机制的通知（发改价格〔2021〕1093号）,系统最大峰谷差率超过40%的地区峰谷电价比例原则上不低于4:1，其他地区原则上不低于3:1；尖峰电价在最大负荷达到或超过前两年最大负荷95%的时段执行，加价幅度不低于高峰电价基础上的20%。,0.8,false,裁决依据：review/final_review_decisions_20261118.md 三,2026-11-18T16:45:00
 CHNADPTPTI01S000,强度（详情）,基本热价占总热价30%-60%；成本利润率上限3%,https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20052,城市供热价格管理暂行办法（发改价格〔2007〕1195号）,基本热价按照总热价的30%-60%确定，覆盖折旧、维修、管理等固定成本；计量热价按实际用热量收取；供热企业利润按成本利润率不超过3%核定；2006年（原文2007年）6月3日印发、10月1日施行；2026年地方文件仍引用现行有效。,0.8,false,裁决依据：review/final_review_decisions_20261118.md 三,2026-11-18T16:45:00
 CHNADPRITI02S000,强度（详情）,三档气价比价1:1.2:1.5；第一档覆盖约80%家庭,https://www.ndrc.gov.cn/xxgk/zcfb/tz/201403/t20140321_964071_ext.html,国家发展改革委关于建立健全居民生活用气阶梯价格制度的指导意见（发改价格〔2014〕467号）,第一档覆盖80%左右居民家庭用气户均用气量；第二档覆盖80%-95%；各档比价关系原则上为1:1.2:1.5；2014年3月20日印发，要求2015年底前所有已通气城市建立制度。,0.8,false,裁决依据：review/final_review_decisions_20261118.md 三,2026-11-18T16:45:00
@@ -3965,8 +3964,6 @@ CHNFRMMWSI01S001,强度（详情）,单位违反厨余垃圾管理规定处10万
 CHNFRMEMRI01S000,强度（详情）,一级配备率100%；二级100%；三级电力/成品油95%、煤炭/天然气90%,https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=2D9CE8D164C7157B20823329A97D0750,用能单位能源计量器具配备和管理通则GB 17167-2025（国家标准公告2025年第1号）,全文条款强制性；适用于所有独立核算用能单位；一级（进出用能单位）100%（余能由90%提至100%）；二级电力/煤炭/成品油/天然气100%；三级电力/成品油95%、煤炭/天然气90%；发布24/01/2025，施行01/02/2026；代替GB 17167-2006（02/06/2006发布、01/01/2007实施）。,0.8,true,裁决依据：review/final_review_decisions_20261118.md 三；逐条配备率表建议以标准文本复核,2026-11-18T16:45:00
 CHNREPSECI01S000,描述,船舶能耗数据分船型分频次报告；海事一网通办平台报送,https://www.msa.gov.cn/msacncms_wap/pages/content.jhtml?articleId=E40C898D11DD41E48D9772062C28D65B,船舶能耗数据和碳强度管理办法（海危防〔2022〕164号）,适用400总吨及以上船舶；国内航行海船每航次出港前报告（固定短航线每月10日前）；内河船每年4月1日前年报；国际航行船每航次报告，5000总吨及以上中国籍国际航行船每年3月31日前年报；记录保存不少于2年；废止海危防〔2018〕476号；发布22/11/2022，施行22/12/2022。,0.8,false,裁决依据：review/final_review_decisions_20261118.md 三,2026-11-18T16:45:00
 CHNADPCPMI01S000,减缓效果,未知,,,2026-11-19裁决：母工具减缓效果不沿用子方案判断，正向→未知（P1-11）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-11,2026-11-19T15:01:18
-CHNSUBDRCI01S000,政策包,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
-CHNSUBDRCI01S000,描述,需求响应补偿是政府按“谁提供、谁获利，谁受益、谁承担”原则建立的电力需求响应经济激励渠道，依据《电力需求侧管理办法（2023年版）》（发改运行规〔2023〕1283号，2023年9月15日成文，2023年10月1日起施行，有效期5年）第19条、第47条建立：引导电力用户自愿削峰填谷，配合尖峰电价、需求响应电价、可中断负荷电价等电价政策实施，地方可安排资金对参与需求响应的用户给予支持。与市场化交易渠道（CHNTRADRMI01S000）并列、机制不同。补偿资金来源为财政资金：《电力需求侧管理办法（2023年版）》第19条、第47条规定地方可安排财政资金对参与用户给予支持。,,,2026-11-19裁决：描述补充补偿资金财政来源依据（P1-9）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-9,2026-11-19T15:01:18
 CHNSUBECDI01S000,政策包,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
 CHNSUBESPI03S001,政策包,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
 CHNSUBESPI03S002,政策包,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
@@ -3992,8 +3989,8 @@ CHNTAXVOTI01S000,政策包,N/A,,,2026-11-19裁决：政策包字段清理，仅�
 CHNTAXVOTI01S001,政策包,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
 CHNTAXVOTI01S002,政策包,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
 CHNTAXVPTI01S000,政策包,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
-CHNTRADRMI01S000,政策包,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
-CHNTRADRMI01S000,描述,需求响应市场参与是允许电力用户和聚合商作为可调节需求侧资源参与电力批发市场交易的规则体系，依据《电力需求侧管理办法（2023年版）》（发改运行规〔2023〕1283号，2023年9月15日成文，2023年10月1日起施行，有效期5年）第16条、第20条建立：支持需求响应主体参与电能量市场、辅助服务市场常态化运行及容量市场交易或容量补偿，按市场规则获取收益；由省级电力负荷管理中心组织需求响应交易。参与主体为各类经营性电力用户，鼓励新型储能、分布式电源、电动汽车、空调负荷等通过负荷聚合商、售电公司、虚拟电厂运营商、综合能源服务商等整合后参与。目标：2025年各省需求响应能力达到最大负荷的3%-5%（峰谷差率超过40%的省份不低于5%），2030年形成规模化实时响应能力。需求响应市场参与为CCPID对中国电力市场交易机制的扩展（CCPID特有路径），不直接对应IFCMA的许可证或证书交易。,,,2026-11-19裁决：描述补充 CCPID 特有路径说明（P1-9）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-9,2026-11-19T15:01:18
+CHNFRMDRMI01S000,政策包,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
+CHNFRMDRMI01S000,描述,需求响应市场参与是允许电力用户和聚合商作为可调节需求侧资源参与电力批发市场交易的规则体系，依据《电力需求侧管理办法（2023年版）》（发改运行规〔2023〕1283号，2023年9月15日成文，2023年10月1日起施行，有效期5年）第16条、第20条建立：支持需求响应主体参与电能量市场、辅助服务市场常态化运行及容量市场交易或容量补偿，按市场规则获取收益；由省级电力负荷管理中心组织需求响应交易。参与主体为各类经营性电力用户，鼓励新型储能、分布式电源、电动汽车、空调负荷等通过负荷聚合商、售电公司、虚拟电厂运营商、综合能源服务商等整合后参与。目标：2025年各省需求响应能力达到最大负荷的3%-5%（峰谷差率超过40%的省份不低于5%），2030年形成规模化实时响应能力。需求响应市场参与为CCPID对中国电力市场交易机制的扩展（CCPID特有路径），不直接对应IFCMA的许可证或证书交易。,,,2026-11-19裁决：描述补充 CCPID 特有路径说明（P1-9）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-9,2026-11-19T15:01:18
 CHNTRATPSI01S001,政策包,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
 CHNTRATPSI01S002,政策包,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
 CHNFRMEIAI01S000,政策包,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
@@ -4033,9 +4030,6 @@ CHNADPTPTI01S000,Mitigation effect,Positive,,,2026-11-19裁决：Mitigation effe
 CHNSUBCBLI01S000,Mitigation effect,Positive,,,2026-11-19裁决：Mitigation effect 取值按中文规范化为 Positive/Unknown（P0-3）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P0-3,2026-11-19T15:01:18
 CHNSUBCHSI01S000,Policy Package,Clean Winter Heating Plan for Northern China; Air Pollution Prevention and Control Action Plan,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
 CHNSUBCLGI02S000,Mitigation effect,Positive,,,2026-11-19裁决：Mitigation effect 取值按中文规范化为 Positive/Unknown（P0-3）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P0-3,2026-11-19T15:01:18
-CHNSUBDRCI01S000,Policy Package,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
-CHNSUBDRCI01S000,Description,"Demand response compensation is the economic incentive channel for electricity demand response established under the principle that the provider profits and the beneficiary bears the cost, set out in Articles 19 and 47 of the Measures for the Administration of Electricity Demand-side Management (2023 Edition) (FG Yun Xing Gui [2023] No. 1283, completed 15 September 2023, effective 1 October 2023, valid for 5 years): electricity users are guided to voluntarily reduce or shift peak load, in coordination with price policies such as critical-peak pricing, demand response pricing and interruptible load pricing; localities may arrange funds to support participating users. It runs in parallel with, and is mechanistically distinct from, the market trading channel (CHNTRADRMI01S000). The compensation funds are fiscal: Articles 19 and 47 of the Measures for the Administration of Electricity Demand-side Management (2023 Edition) provide that local governments may arrange fiscal funds to support participating users.",,,2026-11-19裁决：描述补充补偿资金财政来源依据（P1-9）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-9,2026-11-19T15:01:18
-CHNSUBDRCI01S000,Mitigation effect,Positive,,,2026-11-19裁决：Mitigation effect 取值按中文规范化为 Positive/Unknown（P0-3）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P0-3,2026-11-19T15:01:18
 CHNSUBECDI01S000,Objective,Non-fossil energy; Green economy,,,2026-11-19裁决：Objective 按中文受控词表修正漂移值（编辑检查3）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md 编辑检查3,2026-11-19T15:01:18
 CHNSUBECDI01S000,Mitigation effect,Positive,,,2026-11-19裁决：Mitigation effect 取值按中文规范化为 Positive/Unknown（P0-3）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P0-3,2026-11-19T15:01:18
 CHNSUBESPI03S001,Policy Package,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
@@ -4076,9 +4070,9 @@ CHNTAXVOTI01S000,Mitigation effect,Positive,,,2026-11-19裁决：Mitigation effe
 CHNTAXVOTI01S001,Mitigation effect,Positive,,,2026-11-19裁决：Mitigation effect 取值按中文规范化为 Positive/Unknown（P0-3）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P0-3,2026-11-19T15:01:18
 CHNTAXVOTI01S002,Mitigation effect,Positive,,,2026-11-19裁决：Mitigation effect 取值按中文规范化为 Positive/Unknown（P0-3）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P0-3,2026-11-19T15:01:18
 CHNTAXVPTI01S000,Mitigation effect,Positive,,,2026-11-19裁决：Mitigation effect 取值按中文规范化为 Positive/Unknown（P0-3）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P0-3,2026-11-19T15:01:18
-CHNTRADRMI01S000,Policy Package,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
-CHNTRADRMI01S000,Description,"Demand response market participation is a set of rules enabling electricity users and aggregators to participate in wholesale electricity market trading as adjustable demand-side resources, established by Articles 16 and 20 of the Measures for the Administration of Electricity Demand-side Management (2023 Edition) (FG Yun Xing Gui [2023] No. 1283, completed 15 September 2023, effective 1 October 2023, valid for 5 years): demand response participants are supported to take part in energy market and ancillary services market operations on a regular basis and in capacity market trading or capacity compensation, earning revenues under market rules; provincial power load management centres organise demand response trading. Participants are various commercial electricity users; new-type energy storage, distributed generation, electric vehicles and air-conditioning loads are encouraged to participate after aggregation through load aggregators, electricity retailers, virtual power plant operators and integrated energy service providers. Targets: by 2025 each province's demand response capability reaches 3%–5% of maximum load (no less than 5% in provinces where the peak-valley difference rate exceeds 40%); by 2030 large-scale real-time response capability is formed. Demand response market participation is a CCPID-specific extension of trading mechanisms in the Chinese power market and does not correspond directly to IFCMA permit or certificate trading.",,,2026-11-19裁决：描述补充 CCPID 特有路径说明（P1-9）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-9,2026-11-19T15:01:18
-CHNTRADRMI01S000,Mitigation effect,Positive,,,2026-11-19裁决：Mitigation effect 取值按中文规范化为 Positive/Unknown（P0-3）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P0-3,2026-11-19T15:01:18
+CHNFRMDRMI01S000,Policy Package,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
+CHNFRMDRMI01S000,Description,"Demand response market participation is a set of rules enabling electricity users and aggregators to participate in wholesale electricity market trading as adjustable demand-side resources, established by Articles 16 and 20 of the Measures for the Administration of Electricity Demand-side Management (2023 Edition) (FG Yun Xing Gui [2023] No. 1283, completed 15 September 2023, effective 1 October 2023, valid for 5 years): demand response participants are supported to take part in energy market and ancillary services market operations on a regular basis and in capacity market trading or capacity compensation, earning revenues under market rules; provincial power load management centres organise demand response trading. Participants are various commercial electricity users; new-type energy storage, distributed generation, electric vehicles and air-conditioning loads are encouraged to participate after aggregation through load aggregators, electricity retailers, virtual power plant operators and integrated energy service providers. Targets: by 2025 each province's demand response capability reaches 3%–5% of maximum load (no less than 5% in provinces where the peak-valley difference rate exceeds 40%); by 2030 large-scale real-time response capability is formed. Demand response market participation is a CCPID-specific extension of trading mechanisms in the Chinese power market and does not correspond directly to IFCMA permit or certificate trading.",,,2026-11-19裁决：描述补充 CCPID 特有路径说明（P1-9）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-9,2026-11-19T15:01:18
+CHNFRMDRMI01S000,Mitigation effect,Positive,,,2026-11-19裁决：Mitigation effect 取值按中文规范化为 Positive/Unknown（P0-3）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P0-3,2026-11-19T15:01:18
 CHNTRAGETI01S000,Mitigation effect,Positive,,,2026-11-19裁决：Mitigation effect 取值按中文规范化为 Positive/Unknown（P0-3）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P0-3,2026-11-19T15:01:18
 CHNTRAOFCI01S000,Mitigation effect,Positive,,,2026-11-19裁决：Mitigation effect 取值按中文规范化为 Positive/Unknown（P0-3）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P0-3,2026-11-19T15:01:18
 CHNTRAOFCI01S001,Mitigation effect,Positive,,,2026-11-19裁决：Mitigation effect 取值按中文规范化为 Positive/Unknown（P0-3）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P0-3,2026-11-19T15:01:18
@@ -4135,8 +4129,7 @@ CHNVIIVLBI11S001,Policy Package,N/A,,,2026-11-19裁决：政策包字段清理�
 CHNVIIVLBI11S002,Policy Package,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
 CHNTAXVATI01S000,Policy Package,N/A,,,2026-11-19裁决：政策包字段清理，仅保留真实上位政策包（P1-8）,0.9,false,裁决依据：review/further_revision_decisions_20261119.md P1-8,2026-11-19T15:01:18
 CHNTRAGETI01S000,End date,28/02/2031,,,2026-11-19裁决：依据电力中长期市场基本规则（发改能源规〔2025〕1656号）2026-03-01生效、有效期5年，终止日期核定为28/02/2031。,0.9,false,裁决依据：review/revision_suggestions_decisions_20261119.md 条目2,2026-11-19T17:17:20
-CHNTRADRMI01S000,End date,30/09/2028,,,2026-11-19裁决：依据电力需求侧管理办法（2023年版）2023-10-01生效、有效期5年，终止日期核定为30/09/2028。,0.9,false,裁决依据：review/revision_suggestions_decisions_20261119.md 条目2,2026-11-19T17:17:20
-CHNSUBDRCI01S000,End date,30/09/2028,,,2026-11-19裁决：依据电力需求侧管理办法（2023年版）2023-10-01生效、有效期5年，终止日期核定为30/09/2028。,0.9,false,裁决依据：review/revision_suggestions_decisions_20261119.md 条目2,2026-11-19T17:17:20
+CHNFRMDRMI01S000,End date,30/09/2028,,,2026-11-19裁决：依据电力需求侧管理办法（2023年版）2023-10-01生效、有效期5年，终止日期核定为30/09/2028。,0.9,false,裁决依据：review/revision_suggestions_decisions_20261119.md 条目2,2026-11-19T17:17:20
 CHNFRMDPVI01S000,End date,22/01/2030,,,2026-11-19裁决：依据分布式光伏发电开发建设管理办法（国能发新能规〔2025〕7号）2025-01-23生效、有效期5年，终止日期核定为22/01/2030。,0.9,false,裁决依据：review/revision_suggestions_decisions_20261119.md 条目2,2026-11-19T17:17:20
 CHNPRFSCMI01S000,End date,21/12/2027,,,2026-11-19裁决：依据船舶能耗数据和碳强度管理办法（海危防〔2022〕164号）2022-12-22生效、有效期5年，终止日期核定为21/12/2027。,0.9,false,裁决依据：review/revision_suggestions_decisions_20261119.md 条目2,2026-11-19T17:17:20
 CHNREPSECI01S000,End date,21/12/2027,,,2026-11-19裁决：依据船舶能耗数据和碳强度管理办法（海危防〔2022〕164号）2022-12-22生效、有效期5年，终止日期核定为21/12/2027。,0.9,false,裁决依据：review/revision_suggestions_decisions_20261119.md 条目2,2026-11-19T17:17:20
@@ -4146,3 +4139,11 @@ CHNPIVCBII05S000,End date,20/05/2031,,,2026-11-19裁决：依据生态保护修�
 CHNADPIDPI01S000,Adoption date,01/06/2004,,,2026-11-19裁决：英文侧与中文侧01/06/2004对齐；官方来源仅精确到月份，以该月首日为代表值（精度处理惯例，非已核实生效日）。,0.9,false,裁决依据：review/revision_suggestions_decisions_20261119.md 条目5,2026-11-19T17:17:20
 CHNSUBCLGI02S000,Mitigation relevance,Direct,,,2026-11-19裁决：人民银行创设碳减排支持工具以碳减排为明确政策目的，减缓相关性由间接改为直接。,0.9,false,裁决依据：review/revision_suggestions_decisions_20261119.md 条目3A,2026-11-19T17:17:20
 CHNVIIVPGI01S000,Mitigation relevance,Indirect,,,2026-11-19裁决：企业绿色采购指南目标为绿色消费与资源节约，且与路径定义（通常为间接）不一致，减缓相关性由直接改为间接。,0.9,false,裁决依据：review/revision_suggestions_decisions_20261119.md 条目3B,2026-11-19T17:17:20
+CHNFRMDPVI01S000,描述,"路径""分布式光伏开发建设管理""为CCPID特有路径，最接近IFCMA框架性标准中的电力市场规制类示例（如可再生能源优先调度），但该制度规制项目开发建设环节，而非可再生能源电力的调度和消纳。",,,2026-11-24裁决：描述补充 CCPID 特有路径 IFCMA 对照说明（第4项）,0.9,false,裁决依据：review/revision_suggestions_response_20261124.md 条目4,2026-11-24T16:41:59
+CHNFRMDPVI01S000,Description,"The approach 'Distributed solar PV project development and grid-integration rules' is CCPID-specific; its closest IFCMA counterpart is the electricity market regulation type under Framework standards (e.g. renewable priority dispatch), but the regime governs project development and construction rather than the dispatch and consumption of renewable electricity.",,,2026-11-24裁决：描述补充 CCPID 特有路径 IFCMA 对照说明（第4项）,0.9,false,裁决依据：review/revision_suggestions_response_20261124.md 条目4,2026-11-24T16:41:59
+CHNSUBTISI04S000,方法,以旧换新补贴,,,,0.9,false,裁决依据：review/revision_suggestions_response_20261124.md 条目1,2026-11-24T16:41:59
+CHNSUBVPSI05S000,方法,低碳车辆购置补贴,,,,0.9,false,裁决依据：review/revision_suggestions_response_20261124.md 条目1,2026-11-24T16:41:59
+CHNSUBTISI05S000,方法,以旧换新补贴,,,,0.9,false,裁决依据：review/revision_suggestions_response_20261124.md 条目1,2026-11-24T16:41:59
+CHNSUBTISI06S000,方法,以旧换新补贴,,,,0.9,false,裁决依据：review/revision_suggestions_response_20261124.md 条目1,2026-11-24T16:41:59
+CHNFRMDRMI01S000,方法,需求响应市场参与规则,,,,0.9,false,裁决依据：review/revision_suggestions_response_20261124.md 条目3,2026-11-24T16:41:59
+CHNSUBDRCI01S000,状态,删除（误建：国家层面未设需求响应财政补偿制度）,,,,0.9,false,裁决依据：review/revision_suggestions_response_20261124.md 条目3,2026-11-24T16:41:59

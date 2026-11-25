@@ -731,6 +731,8 @@ def validate_rows(
 
         if path.name.startswith("CCPID_en"):
             for field in row:
+                if field == "Domestic instrument name":
+                    continue  # CJK-exempt by design (passed through from the CN CSV)
                 value = str(row.get(field, ""))
                 if CJK_PATTERN.search(value):
                     add(
@@ -746,12 +748,17 @@ def validate_rows(
             intensity_detail_key = find_field(row, INTENSITY_DETAIL_FIELDS)
             intensity_value = normalise_value(row.get(intensity_value_key)) if intensity_value_key else ""
             intensity_detail = normalise_value(row.get(intensity_detail_key)) if intensity_detail_key else ""
-            if intensity_value and intensity_value != "未找到" and "来源" not in intensity_detail:
+            if (
+                intensity_value
+                and intensity_value != "未找到"
+                and "来源" not in intensity_detail
+                and "source:" not in intensity_detail.lower()
+            ):
                 add(
                     path,
                     row_number,
                     "intensity source detail missing",
-                    "When an intensity value is filled in Chinese output, add date/period and source in Intensity (Details).",
+                    "When an intensity value is filled in, add date/period and source in Intensity (Details).",
                     "warning",
                 )
 

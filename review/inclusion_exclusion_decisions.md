@@ -181,28 +181,50 @@ For every user-requested data-filling item, record the inclusion gate before fil
 - Source decision: key legal basis 商消费发〔2024〕18号 (商务部等13部门通知). Also linked to 国发〔2024〕7号 and related MOFCOM/MOF implementation circulars.
 - Review flag: confirm whether energy efficiency grade requirements and subsidy rate differences across appliance categories warrant subscheme splitting.
 
-## CHNSUBVPSI01S000 - 老旧营运货车报废更新补贴
+## CHNSUBTISI04S000 - 老旧营运货车报废并新购补贴
 
-- Requested item: 老旧营运货车报废更新补贴 (Old operating truck scrapping and renewal subsidy).
-- Decision: include as one national-level policy instrument.
+- Requested item: 老旧营运货车报废更新补贴的报废并新购通道（交规划发〔2024〕90号、〔2025〕17号、〔2026〕36号）。
+- Decision (24/11/2026, 按 revision suggestions.docx 条目1 修正): include as one national-level policy instrument, reclassified from Vehicle purchase subsidy to Trade-in subsidy; supersedes the former CHNSUBVPSI01S000 structure (见 review/revision_suggestions_response_20261124.md 条目1).
 - Template: Economic instruments.
-- Classification: Subsidy / Vehicle purchase subsidy.
-- Rationale: Part of China's 大规模设备更新和消费品以旧换新 (Large-scale equipment renewal and consumer goods trade-in) initiative. Provides subsidies to freight companies for scrapping old China III and below diesel trucks and purchasing new China VI diesel or new energy trucks. Mitigation relevance: direct — the policy explicitly targets replacement of high-emission, low-efficiency old diesel trucks with modern fuel-efficient or zero-emission vehicles.
-- Instrument boundary: one parent instrument covering both maritime and inland waterway operating ships; no subscheme split. The three subsidy scenarios (scrap-only, scrap+renewal, new NEV cold-chain van only) are differentiated within the same instrument row.
-- ID: CHNSUBVPSI01S000 = CHN + SUB + VPS + I01 + S000.
-- Source decision: Legal basis is 交规划发〔2024〕90号 (交通运输部、财政部, 2024-07-30). Supporting: 国发〔2024〕7号, 发改环资〔2024〕1104号, 交办运〔2024〕44号. URL: https://app.www.gov.cn/govdata/gov/202408/02/517908/article.html.
-- Review flag: confirm whether scrap-only and scrap+renewal should be split as subschemes given different subsidy rates.
+- Classification: Subsidy / Trade-in subsidy（以旧换新补贴）.
+- Rationale: 补贴以报废旧车为前提条件并叠加新购补贴（2024年报废国三及以下、2025-2026年报废国三和国四排放标准营运柴油货车，并新购国六或新能源货车，按吨位/轴数/燃料类型分档 2.5-9.5 万元/辆）。报废+新购同时促进旧资产退出与低碳替代，符合 IFCMA Trade-in subsidy 定义（以淘汰旧资产并购置低碳替代品为条件的财政支付），而非单纯的 Vehicle purchase subsidy。
+- Instrument boundary (final structure, 24/11/2026): 与 CHNSUBVSSI01S000（仅报废通道）、CHNSUBVPSI05S000（仅新购通道）三分机制；父工具不再包含无报废条件的新购补贴子方案（原 CHNSUBVPSI01S001/S002 删除）。
+- ID: CHNSUBTISI04S000 = CHN + SUB + TIS + I04 + S000.
+- Source decision: 交规划发〔2024〕90号（交通运输部、财政部，2024-07-30）；交规划发〔2025〕17号（2025-03）；交规划发〔2026〕36号（2026-03）。支持性文件：国发〔2024〕7号、发改环资〔2024〕1104号、交办运〔2024〕44号。URL: https://app.www.gov.cn/govdata/gov/202408/02/517908/article.html.
 
-## CHNSUBVPSI02S000 - 汽车报废更新补贴
+## CHNSUBVPSI05S000 - 新能源城市冷链配送货车购置补贴
+
+- Requested item: 仅新购新能源城市冷链配送货车通道（原 CHNSUBVPSI01S001）。
+- Decision (24/11/2026, 按 revision suggestions.docx 条目1 修正): include as a standalone national-level policy instrument, split from the former CHNSUBVPSI01S000 parent.
+- Template: Economic instruments.
+- Classification: Subsidy / 低碳车辆购置补贴（Vehicle purchase subsidy）.
+- Rationale: 无需报废旧车、仅新购新能源城市冷链配送货车即获 3.5 万元/辆补贴。其补贴条件（无报废前提）与报废并新购通道不同，按一工具一机制原则独立成工具。
+- Instrument boundary: one parent instrument; no subscheme split.
+- ID: CHNSUBVPSI05S000 = CHN + SUB + VPS + I05 + S000.
+- Source decision: 同 CHNSUBTISI04S000（交规划发〔2024〕90号 / 〔2025〕17号 / 〔2026〕36号）。
+
+## CHNSUBVSSI01S000 - 老旧营运货车提前报废补贴
+
+- Requested item: 老旧营运货车报废更新补贴的仅提前报废通道（交规划发〔2024〕90号、〔2025〕17号、〔2026〕36号）。
+- Decision (24/11/2026, 按 revision suggestions.docx 条目1 修正): include as one national-level policy instrument, split by mechanism from the purchase-side instruments CHNSUBTISI04S000 / CHNSUBVPSI05S000.
+- Template: Economic instruments.
+- Classification: Subsidy / Vehicle scrappage subsidy（车辆报废更新补贴）.
+- Rationale: 报废通道以报废为前提、不以购置替代车辆为支付条件（中型1.0-2.5万元/辆、重型1.2-4.5万元/辆，按提前报废年限分档），是独立于购置环节的激励机制；IFCMA 低碳车辆购置补贴（VPS）定义明确"仅报废不置换的计划另行归入车辆报废更新补贴"，故单列为车辆报废更新补贴路径。与船舶（CHNSUBTISI01S000）、农机（CHNSUBTISI02S000）的以旧换新单工具不冲突：其"仅报废"支付为更新费率的变体（新建同型补贴标准的50%），货车报废费率则为独立费率表。
+- Instrument boundary: one parent instrument row; no subscheme split (rate bands recorded in the description).
+- ID: CHNSUBVSSI01S000 = CHN + SUB + VSS + I01 + S000.
+- Source decision: same as CHNSUBTISI04S000 (交规划发〔2024〕90号 / 〔2025〕17号 / 〔2026〕36号).
+- Cross-reference: 报废并新购场景的购置补贴另见以旧换新补贴（CHNSUBTISI04S000）；仅新购（无需报废）场景另见 CHNSUBVPSI05S000；三行描述互注。
+
+## CHNSUBTISI05S000 - 汽车报废更新补贴
 
 - Requested item: 汽车报废更新补贴 (Car scrapping and renewal subsidy).
-- Decision: include as one national-level policy instrument.
+- Decision (24/11/2026, 按 revision suggestions.docx 条目1 修正): include as one national-level policy instrument, reclassified from Vehicle purchase subsidy to Trade-in subsidy.
 - Template: Economic instruments.
-- Classification: Subsidy / Vehicle purchase subsidy.
-- Rationale: Part of the same 大规模设备更新和消费品以旧换新 initiative. Provides subsidies to individual consumers for scrapping old China III and below fuel passenger cars or pre-2018 NEVs and purchasing new NEVs or fuel-efficient ICE vehicles. Mitigation relevance: direct — explicitly targets high-emission old vehicles for replacement with NEVs or fuel-efficient ICEs, reducing transport sector emissions.
-- Instrument boundary: one parent instrument; no subscheme split. The updated rates (商消费函〔2024〕392号) doubled from the original (商消费函〔2024〕75号): NEV subsidy raised from 1万 to 2万; ICE subsidy raised from 0.7万 to 1.5万.
-- ID: CHNSUBVPSI02S000 = CHN + SUB + VPS + I02 + S000.
-- Source decision: Primary legal basis is 商消费函〔2024〕75号 (商务部等7部门, 2024-04-24). Rate updated by 商消费函〔2024〕392号 (2024-08-15). URLs: http://www.mofcom.gov.cn/zfxxgk/fdzdgknr/ztfl/gnmygl/art/2024/art_00ec662a1a234fa6878308334ad0d728.html and https://www.mofcom.gov.cn/zfxxgk/gkml/art/2024/art_d4224d2ebd8b4120875bc99963538fbe.html.
+- Classification: Subsidy / Trade-in subsidy（以旧换新补贴）.
+- Rationale: Part of the same 大规模设备更新和消费品以旧换新 initiative. Provides subsidies to individual consumers for scrapping old China III and below fuel passenger cars or pre-2018 NEVs and purchasing new NEVs or fuel-efficient ICE vehicles — 报废旧车是获得补贴的前提条件，同时促进旧车退出与低碳新车替代，符合 IFCMA Trade-in subsidy 定义。Mitigation relevance: direct — explicitly targets high-emission old vehicles for replacement with NEVs or fuel-efficient ICEs, reducing transport sector emissions. 与仅出售旧车不报废的汽车置换更新补贴（CHNSUBVPSI03S000，维持 VPS）区分。
+- Instrument boundary: one parent instrument; no subscheme split. 费率沿革：商消费函〔2024〕75号（NEV 1万、燃油 0.7万）→ 商消费函〔2024〕392号（NEV 2万、燃油 1.5万）→ 商办消费函〔2025〕8号（2025年延续定额并扩大旧车范围）→ 商办消费函2025年第467号（2026年改为按新车销售价格比例：NEV 12%、上限2万元/辆；燃油 10%、上限1.5万元/辆）。
+- ID: CHNSUBTISI05S000 = CHN + SUB + TIS + I05 + S000.
+- Source decision: Primary legal basis is 商消费函〔2024〕75号 (商务部等7部门, 2024-04-24). Rate updated by 商消费函〔2024〕392号 (2024-08-15); continued by 商办消费函〔2025〕8号 (2025-01); 2026 rules 商办消费函2025年第467号 (2025-12-30). URLs: http://www.mofcom.gov.cn/zfxxgk/fdzdgknr/ztfl/gnmygl/art/2024/art_00ec662a1a234fa6878308334ad0d728.html and https://www.mofcom.gov.cn/zfxxgk/gkml/art/2024/art_d4224d2ebd8b4120875bc99963538fbe.html.
 - Review flag: confirm whether NEV and ICE subsidy tiers should be tracked as subschemes.
 
 ## CHNSUBVPSI03S000 - 汽车置换更新补贴
@@ -216,17 +238,18 @@ For every user-requested data-filling item, record the inclusion gate before fil
 - ID: CHNSUBVPSI03S000 = CHN + SUB + VPS + I03 + S000.
 - Source decision: Legal basis is 商消费函〔2024〕392号 (商务部等7部门, 2024-08-15), which established the national framework and required provinces to set their own subsidy standards. URL: https://www.mofcom.gov.cn/zfxxgk/gkml/art/2024/art_d4224d2ebd8b4120875bc99963538fbe.html.
 - Review flag: confirm that provincial variation does not warrant subscheme splitting; confirm whether a central funding mechanism exists.
+- Note (24/11/2026): revision suggestions.docx 条目1 确认本工具维持 Vehicle purchase subsidy——仅出售旧车（非报废/永久退出）不满足以旧换新前提，不必归入 Trade-in subsidy。
 
-## CHNSUBVPSI04S000 - 新能源城市公交车及动力电池更新补贴
+## CHNSUBTISI06S000 - 新能源城市公交车及动力电池更新补贴
 
 - Requested item: 新能源城市公交车及动力电池更新补贴 (New energy city bus and power battery renewal subsidy).
-- Decision: include as one national-level policy instrument.
+- Decision (24/11/2026, 按 revision suggestions.docx 条目1 及用户指令「公交车一并修正」): include as one national-level policy instrument, reclassified from Vehicle purchase subsidy to Trade-in subsidy.
 - Template: Economic instruments.
-- Classification: Subsidy / Vehicle purchase subsidy.
-- Rationale: Part of the same 大规模设备更新和消费品以旧换新 initiative. Provides subsidies to city bus operators for replacing old (8-year+) buses with new energy buses and/or replacing power batteries. Mitigation relevance: direct — explicitly promotes zero-emission public transport and battery renewal to maintain NEV fleet performance.
-- Instrument boundary: one parent instrument; no subscheme split. The bus renewal (8万/vehicle) and battery replacement (4.2万/vehicle) are two components of the same instrument.
-- ID: CHNSUBVPSI04S000 = CHN + SUB + VPS + I04 + S000.
-- Source decision: Primary legal basis is 交运函〔2024〕390号 (交通运输部、财政部, 2024-07-29). Supplemented by 交办运〔2024〕49号 (2024-09-24, 3 departments). URL: https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202410/t20241031_1394144_ext.html. Supplement URL: https://xxgk.mot.gov.cn/2020/jigou/ysfws/202409/t20240925_4156949.html.
+- Classification: Subsidy / Trade-in subsidy（以旧换新补贴）.
+- Rationale: Part of the same 大规模设备更新和消费品以旧换新 initiative. Provides subsidies to city bus operators for scrapping old (8-year+) buses and purchasing new energy buses, and/or replacing power batteries — 以报废旧公交车或更换动力电池为前提，同时促进旧资产退出与低碳替代，符合以旧换新机制。Mitigation relevance: direct — explicitly promotes zero-emission public transport and battery renewal to maintain NEV fleet performance.
+- Instrument boundary: one parent instrument; no subscheme split. The bus renewal (8万/vehicle) and battery replacement (4.2万/vehicle, capped at 50% of new battery price) are two components of the same instrument. 2026年规则（交办运〔2026〕28号）将车龄阈值放宽至2018年底前注册（2024年：2016年底前；2025年：2017年底前）。
+- ID: CHNSUBTISI06S000 = CHN + SUB + TIS + I06 + S000.
+- Source decision: Primary legal basis is 交运函〔2024〕390号 (交通运输部、财政部, 2024-07-29). Continued by 交办运〔2025〕4号 (2025-02) and 交办运〔2026〕28号 (2026-05). URL: https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202410/t20241031_1394144_ext.html.
 - Review flag: confirm whether bus renewal and battery replacement should be separate subschemes given different rates and conditions.
 
 ## CHNSUBCHSI01S000 - 北方地区冬季清洁取暖补贴
@@ -722,8 +745,8 @@ For every user-requested data-filling item, record the inclusion gate before fil
 
 - Requested item: 工业重点行业领域设备更新和技术改造指南 (MIIT 工信厅规〔2024〕33号, 23/05/2024, advisory).
 - Decision: exclude as a standalone instrument; retain as a supporting reference.
-- Reason: This guide operationalises the large-scale equipment renewal (大规模设备更新) action plan already captured by the equipment-renewal loan subsidy (CHNSUBCLGI03S000) and trade-in subsidies (CHNSUBTISI01S000, CHNSUBTISI02S000, CHNSUBVPSI01-04S000). The guide tells firms HOW to implement equipment renewal; its behavioural effect flows through those subsidy instruments, not independently. Coding it separately would double-count the same equipment-renewal effect.
-- Existing rows it relates to: CHNSUBCLGI03S000, CHNSUBTISI01S000, CHNSUBTISI02S000, CHNSUBVPSI01-04S000.
+- Reason: This guide operationalises the large-scale equipment renewal (大规模设备更新) action plan already captured by the equipment-renewal loan subsidy (CHNSUBCLGI03S000) and trade-in / vehicle subsidies (CHNSUBTISI01S000-TISI06S000, CHNSUBVSSI01S000, CHNSUBVPSI03S000, CHNSUBVPSI05S000). The guide tells firms HOW to implement equipment renewal; its behavioural effect flows through those subsidy instruments, not independently. Coding it separately would double-count the same equipment-renewal effect.
+- Existing rows it relates to: CHNSUBCLGI03S000, CHNSUBTISI01S000-TISI06S000, CHNSUBVSSI01S000, CHNSUBVPSI03S000, CHNSUBVPSI05S000.
 
 ## 绿色建造技术导则（试行） — EXCLUDE (supporting reference)
 

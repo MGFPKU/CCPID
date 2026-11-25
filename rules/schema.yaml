@@ -474,7 +474,7 @@ global_validation_rules:
         "Tradable renewable electricity credits, quota or tradable performance standards": REC
         Offset credits: OFC
         Green electricity trading: GET
-        Demand response market participation: DRM
+        Demand response market participation rules: DRM
         Energy labels for buildings: ELB
         Energy labels for products and appliances: ELP
         Energy labels for vehicles: ELV
@@ -729,7 +729,6 @@ allowed_values:
       - Tradable renewable electricity credits, quota or tradable performance standards
       - Offset credits
       - Green electricity trading
-      - Demand response market participation
     Administered prices:
       - Industrial differentiated electricity pricing
       - Residential increasing-block tariff
@@ -749,13 +748,14 @@ allowed_values:
       - Industrial transition governance
       - Renewable priority dispatch
       - Green power direct connection rules
+      - Demand response market participation rules
       - Comprehensive building energy code
       - Production scheduling mandate
       - Eco-environmental zoning
       - Eco-compensation
       - Ecosystem protection mandate
       - Pollution discharge permitting
-      - Distributed solar PV development and construction management
+      - Distributed solar PV project development and grid-integration rules
       - Port ship shore power requirements
       - Mandatory waste sorting
       - Energy metering requirements
@@ -876,7 +876,6 @@ allowed_values:
     - Tradable renewable electricity credits, quota or tradable performance standards
     - Offset credits
     - Green electricity trading
-    - Demand response market participation
     - Time-of-use pricing
     - Two-part heat tariff
     - Energy labels for buildings
@@ -911,6 +910,7 @@ allowed_values:
     - Target responsibility system
     - Enterprise energy management obligation
     - Green power direct connection rules
+    - Demand response market participation rules
     - Comprehensive building energy code
     - Building/envelope airtightness requirements
     - EV fleet mandate
@@ -953,7 +953,7 @@ allowed_values:
     - Environmental impact assessment
     - Energy and carbon review for investment projects
     - Environmental auditing requirements
-    - Distributed solar PV development and construction management
+    - Distributed solar PV project development and grid-integration rules
     - Port ship shore power requirements
     - Mandatory waste sorting
     - Energy metering requirements
