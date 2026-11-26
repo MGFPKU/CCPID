@@ -14,7 +14,8 @@
 | Renewable electricity feed-in premium | 可再生电力上网溢价补贴（FiP） | 本补贴包括所有在市场价格之上，对每单位并网可再生电力提供长期额外奖励的政策机制。该机制有固定溢价和浮动溢价两种形式：固定溢价是预先确定的额外补贴金额；浮动溢价则是在市场价格超过某一阈值时向下调整的可变补贴。 |
 | Renewable electricity feed-in tariff | 可再生电力上网电价补贴（FiT） | 本补贴包括所有针对可再生能源生产者每单位发电并上网电量提供长期稳定支付的政策机制。该机制使受益方免受市场价格影响，从而降低收入风险。它可以通过按预定价格开放申请的方式分配，也可以通过竞争性招标拍卖分配。 |
 | Concessional loans, loan guarantees and credit support | 优惠贷款、贷款担保和信用支持 | 包括政府或公共机构通过降低融资成本、改善信贷可得性或缓释贷款与担保品风险来支持与气候相关资产或活动的金融支持机制，包括优惠贷款、贷款担保和其他信用支持机制。 |
-| Central bank lending support | 央行借贷支持 | 中央银行通过调整货币政策工具支持绿色低碳融资的机制，例如扩大央行借贷便利的合格担保品范围，将绿色债券和其他气候相关资产纳入其中。与优惠贷款、贷款担保和信用支持的区别在于，支持通过央行货币政策操作而非财政补贴或政府信用工具实现。（CCPID特有路径，不属于IFCMA典型类型学。） |
+| Central bank green collateral framework | 央行绿色抵押品框架 | 中央银行通过调整央行借贷便利的合格担保品范围支持绿色低碳融资的机制，例如将绿色金融债券和优质绿色贷款纳入中期借贷便利合格担保品，提高其流动性和融资支持价值。（CCPID特有路径，不属于IFCMA典型类型学。） |
+| Central bank targeted relending | 央行定向再贷款 | 中央银行通过定向再贷款向发放气候相关贷款的金融机构提供低成本资金的机制，例如碳减排支持工具的“先贷后借”安排。支持通过央行货币政策操作而非财政补贴或政府信用工具实现。（CCPID特有路径，不属于IFCMA典型类型学。） |
 | Interest subsidy | 贷款利息补贴 | 政府为符合条件的与气候相关投资贷款承担部分利息支出的财政支付机制，降低借款人的实际融资成本。与优惠贷款和贷款担保的区别在于，政府补贴的是商业贷款机构发放贷款的利息，而非直接放贷或提供还款担保。 |
 | Renewable electricity contract for difference | 可再生电力差价合约（CfD） | 本补贴包括所有通过保证可再生电力每单位发电量获得固定或指数化价格来提供价格稳定性的政策机制；当市场价格低于约定执行价格时，对发电企业进行补偿；当市场价格高于约定执行价格时，要求发电企业返还差额。 |
 | Subsidy for low-emissions fuels | 低排放燃料补贴 | 包括直接补贴低排放燃料消费或生产的任何补贴，例如生物燃料、氢或氨。本类别不包括针对使用这些燃料的资产、生产活动或消费活动提供的补贴。 |
@@ -231,7 +232,8 @@
 | Carbon contract for difference | 碳差价合约（CCfD） | CCD |
 | Feebate | 奖惩费机制 | FEE |
 | Concessional loans, loan guarantees and credit support | 优惠贷款、贷款担保和信用支持 | CLG |
-| Central bank lending support | 央行借贷支持 | CBL |
+| Central bank green collateral framework | 央行绿色抵押品框架 | CGF |
+| Central bank targeted relending | 央行定向再贷款 | CTR |
 | Interest subsidy | 贷款利息补贴 | ITS |
 | Renewable electricity contract for difference | 可再生电力差价合约（CfD） | ECD |
 | Renewable electricity feed-in premium | 可再生电力上网溢价补贴（FiP） | FIP |

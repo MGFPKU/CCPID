@@ -439,7 +439,8 @@ global_validation_rules:
         Carbon contract for difference: CCD
         Feebate: FEE
         "Concessional loans, loan guarantees and credit support": CLG
-        Central bank lending support: CBL
+        Central bank green collateral framework: CGF
+        Central bank targeted relending: CTR
         Interest subsidy: ITS
         Renewable electricity contract for difference: ECD
         Renewable electricity feed-in premium: FIP
@@ -691,7 +692,8 @@ allowed_values:
       - Carbon contract for difference
       - Feebate
       - Concessional loans, loan guarantees and credit support
-      - Central bank lending support
+      - Central bank green collateral framework
+      - Central bank targeted relending
       - Interest subsidy
       - Renewable electricity contract for difference
       - Renewable electricity feed-in premium
@@ -839,7 +841,8 @@ allowed_values:
     - Carbon contract for difference
     - Feebate
     - Concessional loans, loan guarantees and credit support
-    - Central bank lending support
+    - Central bank green collateral framework
+    - Central bank targeted relending
     - Interest subsidy
     - Renewable electricity contract for difference
     - Renewable electricity feed-in premium

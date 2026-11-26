@@ -200,7 +200,7 @@ _STRUCTURAL_TRANSLATIONS: dict[str, tuple[str, dict[str, str]]] = {
     "状态": ("Status", {"生效": "in force", "已终止": "ended", "已通过": "adopted", "计划实施": "scheduled", "不存在": "non-existent"}),
     "减缓相关性": ("Mitigation relevance", {"直接": "Direct", "间接": "Indirect", "不适用": "N/A"}),
     "管辖地名称": ("Jurisdiction name", {"N/A": "N/A"}),
-    "路径": ("Approach", {"单位产品能源消耗限额": "Energy intensity limit for industrial production", "产品和电器能效标签": "Energy labels for products and appliances", "建筑能效标签": "Energy labels for buildings", "车辆能效标签": "Energy labels for vehicles", "电器最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards for Electric Appliances (MEPS)", "能源统计与审计": "Energy statistics and audit", "可持续信息披露": "Sustainability information disclosure", "温室气体排放报告": "Greenhouse gas emissions reporting", "绿色金融统计": "Green finance statistics", "绿色金融业绩评价": "Green finance performance evaluation", "绿色金融治理框架": "Green finance governance framework", "技术推广目录": "Technology promotion catalogue", "产业指导目录": "Industry guidance catalogue", "可持续金融分类目录": "Sustainable finance taxonomy", "技术指南": "Technical guidance", "能力建设计划": "Capacity building programme", "公众宣传教育活动": "Public awareness campaign", "公民行为规范": "Citizen code of conduct", "职业标准与技能开发": "Occupational standards and skills development", "教育体系建设": "Education system integration", "绿色标准体系": "Green standard system", "自愿碳中和方法": "Voluntary carbon neutrality methodology", "自愿性采购指南": "Voluntary procurement guidance", "自愿性认证标识": "Voluntary certification and labelling scheme", "自愿碳市场": "Voluntary carbon market", "自愿性信息披露": "Voluntary information disclosure", "自愿性目标": "Voluntary target", "碳抵消信用": "Offset credits", "环境审计要求": "Environmental auditing requirements", "自愿性对标与认定计划": "Voluntary benchmarking and recognition schemes", "绿电直连交易规则": "Green power direct connection rules", "非电力可再生能源消费比重义务": "Non-electric renewable energy consumption obligations", "建筑节能综合规范": "Comprehensive building energy code", "环境影响评价": "Environmental impact assessment", "投资项目节能减排评价": "Energy and carbon review for investment projects", "公共机构能源绩效管理框架": "Energy performance management framework for public institutions", "电动机最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards (MEPS) for electric motors", "中央预算内投资": "Central budget investment", "可交易可再生能源证书/配额/RPS": "Tradable renewable electricity credits, quota or tradable performance standards", "气候绩效评估考核": "Climate performance assessment and evaluation", "政府投资基金": "Government investment fund", "央行借贷支持": "Central bank lending support", "贷款利息补贴": "Interest subsidy", "车辆报废补贴": "Vehicle scrappage subsidy", "自愿调峰能力与并网承诺": "Voluntary capacity provision and grid-connection commitments", "热泵和冷水机组最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards (MEPS) for heat pumps and water chillers"}),
+    "路径": ("Approach", {"单位产品能源消耗限额": "Energy intensity limit for industrial production", "产品和电器能效标签": "Energy labels for products and appliances", "建筑能效标签": "Energy labels for buildings", "车辆能效标签": "Energy labels for vehicles", "电器最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards for Electric Appliances (MEPS)", "能源统计与审计": "Energy statistics and audit", "可持续信息披露": "Sustainability information disclosure", "温室气体排放报告": "Greenhouse gas emissions reporting", "绿色金融统计": "Green finance statistics", "绿色金融业绩评价": "Green finance performance evaluation", "绿色金融治理框架": "Green finance governance framework", "技术推广目录": "Technology promotion catalogue", "产业指导目录": "Industry guidance catalogue", "可持续金融分类目录": "Sustainable finance taxonomy", "技术指南": "Technical guidance", "能力建设计划": "Capacity building programme", "公众宣传教育活动": "Public awareness campaign", "公民行为规范": "Citizen code of conduct", "职业标准与技能开发": "Occupational standards and skills development", "教育体系建设": "Education system integration", "绿色标准体系": "Green standard system", "自愿碳中和方法": "Voluntary carbon neutrality methodology", "自愿性采购指南": "Voluntary procurement guidance", "自愿性认证标识": "Voluntary certification and labelling scheme", "自愿碳市场": "Voluntary carbon market", "自愿性信息披露": "Voluntary information disclosure", "自愿性目标": "Voluntary target", "碳抵消信用": "Offset credits", "环境审计要求": "Environmental auditing requirements", "自愿性对标与认定计划": "Voluntary benchmarking and recognition schemes", "绿电直连交易规则": "Green power direct connection rules", "非电力可再生能源消费比重义务": "Non-electric renewable energy consumption obligations", "建筑节能综合规范": "Comprehensive building energy code", "环境影响评价": "Environmental impact assessment", "投资项目节能减排评价": "Energy and carbon review for investment projects", "公共机构能源绩效管理框架": "Energy performance management framework for public institutions", "电动机最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards (MEPS) for electric motors", "中央预算内投资": "Central budget investment", "可交易可再生能源证书/配额/RPS": "Tradable renewable electricity credits, quota or tradable performance standards", "气候绩效评估考核": "Climate performance assessment and evaluation", "政府投资基金": "Government investment fund", "央行绿色抵押品框架": "Central bank green collateral framework", "央行定向再贷款": "Central bank targeted relending", "贷款利息补贴": "Interest subsidy", "车辆报废补贴": "Vehicle scrappage subsidy", "自愿调峰能力与并网承诺": "Voluntary capacity provision and grid-connection commitments", "热泵和冷水机组最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards (MEPS) for heat pumps and water chillers"}),
     "受规制资产（状态）": ("Asset (Status)", {"新建": "New", "既有": "Existing", "新建；既有": "New; Existing", "N/A": "N/A"}),
     "减缓效果": ("Mitigation effect", {"正向": "Positive", "未知": "Unknown", "N/A": "N/A"}),
 }
@@ -1890,14 +1890,14 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Tax and Tax Incentive: earmarked revenue": "N/A",
         "Last revision (Details)": "On 17 October 2025, the Ministry of Finance, the General Administration of Customs and the State Taxation Administration jointly issued Announcement No. 10 of 2025, effective from 1 November 2025. The new announcement narrowed the 50% VAT immediate-refund policy from all wind power generation (Cai Shui [2015] No. 74) to offshore wind power generation only; onshore wind power no longer enjoys the preference. Cai Shui [2015] No. 74 was repealed on the same day.",
     },
-    "CHNSUBCBLI01S000": {
+    "CHNSUBCGFI01S000": {
         "Activity": "Collateral acceptance and credit support",
         "Activity (Details)": "Acceptance of green financial bonds and green loans as eligible collateral for central-bank medium-term lending facility operations.",
         "Administrating authorities": "People's Bank of China",
         "Adoption date": "01/06/2018",
         "Agent": "Firms",
         "Agent (Detail)": "Financial institutions participating in MLF operations, especially commercial banks holding or originating eligible green finance assets.",
-        "Approach": "Central bank lending support",
+        "Approach": "Central bank green collateral framework",
         "Asset": "Green financial bonds; Green loans",
         "Asset (Cut-off range)": "Green financial bonds must be rated no lower than AA; green loans must be high-quality.",
         "Asset (Details)": "Eligible collateral in PBOC MLF operations: green financial bonds rated AA or above and high-quality green loans.",
@@ -1941,14 +1941,14 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Subsidy: annual budget/ expenditure": "N/A",
         "Subsidy: distribution mechanism": "Collateral eligibility in PBOC MLF operations; support is accessed through eligible financial institutions' MLF borrowing and pledged collateral.",
     },
-    "CHNSUBCLGI02S000": {
+    "CHNSUBCTRI01S000": {
         "Activity": "Carbon-reduction loan provision and relending support",
         "Activity (Details)": "Financial institutions issue qualified carbon-reduction loans, then apply for PBOC low-cost funds against those loans under a lend-first-borrow-later mechanism.",
         "Administrating authorities": "People's Bank of China",
         "Adoption date": "08/11/2021",
         "Agent": "Firms",
         "Agent (Detail)": "Eligible financial institutions that issue carbon-reduction loans and enterprises receiving loans for qualified carbon-reduction projects.",
-        "Approach": "Concessional loans, loan guarantees and credit support",
+        "Approach": "Central bank targeted relending",
         "Asset": "Carbon-reduction loans",
         "Asset (Cut-off range)": "PBOC funding support equals 60% of the principal of qualified carbon-reduction loans.",
         "Asset (Details)": "Qualified loans issued by eligible financial institutions to enterprises in key carbon-reduction areas, including clean energy, energy conservation and environmental protection, and carbon-reduction technologies.",
@@ -9860,7 +9860,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "Notice of the State Administration for Market Regulation and Other Departments on Launching the Pilot Programme for Product Carbon Footprint Label Certification (Guoshijian Ren Zhengfa [2024] No. 85)",
         "Other weblinks": "N/A",
     },
-    "CHNVIIVLBI11S000": {
+    "CHNVIIVBRI05S000": {
         "Mitigation effect": "Positive",
         "Emission sector": "Industry",
         "English instrument name": "Zero-Carbon Factory Label",
@@ -9882,7 +9882,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Technological innovation; Industrial development; Energy conservation; Renewable energy development",
         "Legal statute": "Notice of the General Office of the Ministry of Industry and Information Technology on Organising the Construction of National Zero-Carbon Factories (MIIT Office Energy Conservation Letter [2026] No. 334); Guiding Opinions on the Construction of Zero-Carbon Factories (MIIT Joint Energy Conservation [2026] No. 13)",
     },
-    "CHNVIIVLBI11S001": {
+    "CHNVIIVBRI05S001": {
         "Mitigation effect": "Positive",
         "Emission sector": "Industry",
         "English instrument name": "Zero-Carbon Factory (Manufacturing Enterprise)",
@@ -9905,7 +9905,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Mitigation co-benefits": "Technological innovation; Industrial development; Energy conservation",
         "Legal statute": "Notice of the General Office of the Ministry of Industry and Information Technology on Organising the Construction of National Zero-Carbon Factories (MIIT Office Energy Conservation Letter [2026] No. 334); Guiding Opinions on the Construction of Zero-Carbon Factories (MIIT Joint Energy Conservation [2026] No. 13)",
     },
-    "CHNVIIVLBI11S002": {
+    "CHNVIIVBRI05S002": {
         "Mitigation effect": "Positive",
         "Emission sector": "Industry",
         "Sub-sector": "Data centres (computing facilities)",
