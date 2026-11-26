@@ -153,7 +153,6 @@ VALUE_ALIASES = {
     "港口船舶岸电要求": "Port ship shore power requirements",
     "生活垃圾强制分类": "Mandatory waste sorting",
     "能源计量要求": "Energy metering requirements",
-    "分布式光伏开发建设管理": "Distributed solar PV development and construction management",
     "非电力可再生能源消费比重义务": "Non-electric renewable energy consumption obligations",
     "建筑节能综合规范": "Comprehensive building energy code",
     "已终止": "ended",

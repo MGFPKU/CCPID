@@ -518,7 +518,6 @@ global_validation_rules:
         Eco-environmental zoning: EEZ
         Eco-compensation: ECO
         Pollution discharge permitting: PDP
-        Distributed solar PV development and construction management: DPV
         Port ship shore power requirements: SPP
         Mandatory waste sorting: MWS
         Energy metering requirements: EMR
@@ -755,7 +754,6 @@ allowed_values:
       - Eco-compensation
       - Ecosystem protection mandate
       - Pollution discharge permitting
-      - Distributed solar PV project development and grid-integration rules
       - Port ship shore power requirements
       - Mandatory waste sorting
       - Energy metering requirements
@@ -953,7 +951,6 @@ allowed_values:
     - Environmental impact assessment
     - Energy and carbon review for investment projects
     - Environmental auditing requirements
-    - Distributed solar PV project development and grid-integration rules
     - Port ship shore power requirements
     - Mandatory waste sorting
     - Energy metering requirements
