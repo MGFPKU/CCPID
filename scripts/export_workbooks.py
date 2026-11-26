@@ -37,7 +37,7 @@ LANG_CONFIG = {
         "overview_sheet": "工具总览",
         "summary_sheet": "概览",
         "cover_sheet": "封面",
-        "approaches_headers": ["类别", "组别", "路径", "缩写", "定义", "排放部门", "减缓相关性", "工具数量"],
+        "approaches_headers": ["类别", "组别", "路径", "缩写", "定义", "排放部门", "减缓相关性", "工具数量", "IFCMA对应状态"],
         "sheets": {
             "economic_instruments": "经济工具",
             "regulatory_instruments": "规制工具",
@@ -1003,6 +1003,17 @@ APPROACHES_IFCMA_LEGEND_EN = [
     "Extended approach — the CCPID approach extends an IFCMA approach with additional mechanisms; extended does not imply the two are fully equivalent, but that they share a recognisable common mechanism basis.",
     "CCPID-specific approach — an approach specific to the CCPID with no direct IFCMA counterpart.",
 ]
+IFCMA_STATUS_CN = {
+    "Direct match": "直接对应",
+    "Extended approach": "扩展路径",
+    "CCPID-specific approach": "CCPID 特有路径",
+}
+
+
+def ifcma_status_cn(classification: dict[str, str], en_lookup: dict[str, dict[str, str]]) -> str:
+    en_name = classification.get("路径_en", "")
+    status = en_lookup.get(normalise_key(en_name), {}).get("IFCMA alignment status", "")
+    return IFCMA_STATUS_CN.get(status, status)
 APPROACHES_DATA_ROW_HEIGHTS = [
     85.5,
     99.75,
@@ -1110,6 +1121,7 @@ def write_approaches_sheet(wb, lang: str, csv_data: list[tuple[list[str], list[d
 
     ws.append(config["approaches_headers"])
     lookup = load_chinese_approaches() if lang == "cn" else load_english_approaches()
+    en_lookup = load_english_approaches() if lang == "cn" else None
     summaries: dict[str, dict[str, object]] = {}
 
     # Build CN→EN approach name mapping so Chinese-named instruments
@@ -1169,6 +1181,7 @@ def write_approaches_sheet(wb, lang: str, csv_data: list[tuple[list[str], list[d
                     "；".join(summary["sectors"]),
                     "；".join(summary["relevance"]),
                     len(summary["ids"]),
+                    ifcma_status_cn(classification, en_lookup),
                 ]
             )
         else:
