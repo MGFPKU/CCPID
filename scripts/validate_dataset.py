@@ -136,7 +136,7 @@ VALUE_ALIASES = {
     "消费税优惠": "Consumption tax incentive",
     "政府性基金减免": "Parafiscal levy exemption",
     "城镇土地使用税优惠": "Urban land use tax incentive",
-    "抵销信用": "Offset credits",
+    "碳抵消信用": "Offset credits",
     "环境审计要求": "Environmental auditing requirements",
     "自愿性对标与认定计划": "Voluntary benchmarking and recognition schemes",
     "绿电直连交易规则": "Green power direct connection rules",
