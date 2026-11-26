@@ -141,7 +141,7 @@ VALUE_ALIASES = {
     "自愿性对标与认定计划": "Voluntary benchmarking and recognition schemes",
     "绿电直连交易规则": "Green power direct connection rules",
     "绿色电力交易": "Green electricity trading",
-    "需求响应市场参与": "Demand response market participation",
+    "需求响应市场参与": "Electricity market participation rules",
     "需求响应补偿": "Demand response compensation",
     "分时电价": "Time-of-use pricing",
     "两部制热价": "Two-part heat tariff",
