@@ -1,4 +1,4 @@
-instrument_id,field_name,field_value,source_url,source_title,evidence_quote,confidence_score,needs_human_review,review_note,updated_at
+﻿instrument_id,field_name,field_value,source_url,source_title,evidence_quote,confidence_score,needs_human_review,review_note,updated_at
 CHNTRAETSI01S000,Instrument / subscheme,Instrument,https://www.mee.gov.cn/xxgk2018/xxgk/xxgk02/202101/t20210105_816131.html,碳排放权交易管理办法（试行）,本办法自2021年2月1日起施行。,0.78,true,"Needs review for current sector coverage, 2024 regulation implementation details, offset rules, and allocation/free allowance fields.",2026-06-11T15:32:29
 CHNTRAETSI01S000,Group,Trading systems,https://www.mee.gov.cn/xxgk2018/xxgk/xxgk02/202101/t20210105_816131.html,碳排放权交易管理办法（试行）,本办法自2021年2月1日起施行。,0.78,true,"Needs review for current sector coverage, 2024 regulation implementation details, offset rules, and allocation/free allowance fields.",2026-06-11T15:32:29
 CHNTRAETSI01S000,Approach,Emissions trading system,https://www.mee.gov.cn/xxgk2018/xxgk/xxgk02/202101/t20210105_816131.html,碳排放权交易管理办法（试行）,本办法自2021年2月1日起施行。,0.78,true,"Needs review for current sector coverage, 2024 regulation implementation details, offset rules, and allocation/free allowance fields.",2026-06-11T15:32:29
@@ -4162,3 +4162,5 @@ CHNFRMDRMI01S000,本国工具名称,电力市场需求响应参与规则,,,,0.9,
 CHNFRMDRMI01S000,英文工具名称,Electricity Market Participation Rules for Demand Response,,,,0.9,false,裁决依据：用户指示（2026-11-26）工具中英文名更名,2026-11-26T16:11:15
 CHNTRAOFCI01S000,方法,碳抵消信用,,,,0.9,false,裁决依据：用户指示（2026-11-26）路径中文名更名,2026-11-26T16:22:54
 CHNPRFMEEI01S000,方法,电器最低能源绩效标准（MEPS）,,,,0.9,false,裁决依据：用户指示（2026-11-26）路径中英文名更名,2026-11-26T16:43:12
+CHNPRFMELI04S000,法律文件名称,GB 30255-2026 室内照明用LED产品能效限定值及能效等级,,,,0.9,false,裁决依据：用户指示（2026-11-26）合并GB 30255重复行：MELI04更新至2026版（含描述、受规制资产、强度等字段同步更新）,2026-11-26T16:59:32
+CHNPRFMEEI30S000,政策工具ID,删除,,,,0.9,false,裁决依据：用户指示（2026-11-26）CHNPRFMEEI30S000与CHNPRFMELI04S000为同一标准GB 30255的不同版本重复录入，删除电器路径行，保留照明系统路径行,2026-11-26T16:59:32
