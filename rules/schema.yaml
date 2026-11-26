@@ -528,7 +528,7 @@ global_validation_rules:
         Insulation requirements for buildings: INS
         Minimum Energy Performance Standards (MEPS) for buildings: MEB
         Minimum Energy Performance Standards (MEPS) for cooking systems: MEC
-        Minimum Energy Performance Standards (MEPS) for electric equipment: MEE
+        Minimum Energy Performance Standards for Electric Appliances (MEPS): MEE
         Minimum Energy Performance Standards (MEPS) for lighting systems: MEL
         Minimum Energy Performance Standards (MEPS) for residential solar panels: MEP
         Minimum Energy Performance Standards (MEPS) for spatial cooling: MCS
@@ -768,7 +768,7 @@ allowed_values:
       - Insulation requirements for buildings
       - Minimum Energy Performance Standards (MEPS) for buildings
       - Minimum Energy Performance Standards (MEPS) for cooking systems
-      - Minimum Energy Performance Standards (MEPS) for electric equipment
+      - Minimum Energy Performance Standards for Electric Appliances (MEPS)
       - Minimum Energy Performance Standards (MEPS) for lighting systems
       - Minimum Energy Performance Standards (MEPS) for residential solar panels
       - Minimum Energy Performance Standards (MEPS) for spatial cooling
@@ -917,7 +917,7 @@ allowed_values:
     - Insulation requirements for buildings
     - Minimum Energy Performance Standards (MEPS) for buildings
     - Minimum Energy Performance Standards (MEPS) for cooking systems
-    - Minimum Energy Performance Standards (MEPS) for electric equipment
+    - Minimum Energy Performance Standards for Electric Appliances (MEPS)
     - Minimum Energy Performance Standards (MEPS) for lighting systems
     - Minimum Energy Performance Standards (MEPS) for residential solar panels
     - Minimum Energy Performance Standards (MEPS) for spatial cooling

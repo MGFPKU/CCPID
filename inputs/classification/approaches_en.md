@@ -99,7 +99,7 @@
 | Regulatory instruments | Performance standards | Insulation requirements for buildings | Refer to the minimum thermal performance standards that building materials must meet to reduce heat transfer and improve energy efficiency. | Extended approach |
 | Regulatory instruments | Performance standards | Minimum Energy Performance Standards (MEPS) for buildings | A MEPS sets a baseline level of energy efficiency that buildings must achieve before they can be constructed, sold, or rented. In particular, they mandate a maximum level of energy consumption by a building. | Direct match |
 | Regulatory instruments | Performance standards | Minimum Energy Performance Standards (MEPS) for cooking systems | A MEPS sets a baseline level of energy efficiency that cooking systems must achieve before they can be sold or distributed in a particular market. | Extended approach |
-| Regulatory instruments | Performance standards | Minimum Energy Performance Standards (MEPS) for electric equipment | A MEPS sets a baseline level of energy efficiency that electric equipment must achieve before they can be sold or distributed in a particular market. | Direct match |
+| Regulatory instruments | Performance standards | Minimum Energy Performance Standards for Electric Appliances (MEPS) | A MEPS sets a baseline level of energy efficiency that electric appliances must achieve before they can be sold or distributed in a particular market. | Direct match |
 | Regulatory instruments | Performance standards | Minimum Energy Performance Standards (MEPS) for lighting systems | A MEPS sets a baseline level of energy efficiency that lighting systems must achieve before they can be sold or distributed in a particular market. | Extended approach |
 | Regulatory instruments | Performance standards | Minimum Energy Performance Standards (MEPS) for residential solar panels | A MEPS sets a baseline level of energy efficiency that residential solar panels must achieve before they can be sold or distributed in a particular market. | Extended approach |
 | Regulatory instruments | Performance standards | Minimum Energy Performance Standards (MEPS) for spatial cooling | A MEPS sets a baseline level of energy efficiency that spatial cooling systems must achieve before they can be sold or distributed in a particular market. | Extended approach |
@@ -228,7 +228,7 @@
 | Insulation requirements for buildings | INS |
 | Minimum Energy Performance Standards (MEPS) for buildings | MEB |
 | Minimum Energy Performance Standards (MEPS) for cooking systems | MEC |
-| Minimum Energy Performance Standards (MEPS) for electric equipment | MEE |
+| Minimum Energy Performance Standards for Electric Appliances (MEPS) | MEE |
 | Minimum Energy Performance Standards (MEPS) for lighting systems | MEL |
 | Minimum Energy Performance Standards (MEPS) for residential solar panels | MEP |
 | Minimum Energy Performance Standards (MEPS) for spatial cooling | MCS |

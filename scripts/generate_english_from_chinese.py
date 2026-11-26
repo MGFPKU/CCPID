@@ -200,7 +200,7 @@ _STRUCTURAL_TRANSLATIONS: dict[str, tuple[str, dict[str, str]]] = {
     "状态": ("Status", {"生效": "in force", "已终止": "ended", "已通过": "adopted", "计划实施": "scheduled", "不存在": "non-existent"}),
     "减缓相关性": ("Mitigation relevance", {"直接": "Direct", "间接": "Indirect", "不适用": "N/A"}),
     "管辖地名称": ("Jurisdiction name", {"N/A": "N/A"}),
-    "路径": ("Approach", {"单位产品能源消耗限额": "Energy intensity limit for industrial production", "产品和电器能效标签": "Energy labels for products and appliances", "建筑能效标签": "Energy labels for buildings", "车辆能效标签": "Energy labels for vehicles", "电气设备最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards (MEPS) for electric equipment", "能源统计与审计": "Energy statistics and audit", "可持续信息披露": "Sustainability information disclosure", "温室气体排放报告": "Greenhouse gas emissions reporting", "绿色金融统计": "Green finance statistics", "绿色金融业绩评价": "Green finance performance evaluation", "绿色金融治理框架": "Green finance governance framework", "技术推广目录": "Technology promotion catalogue", "产业指导目录": "Industry guidance catalogue", "可持续金融分类目录": "Sustainable finance taxonomy", "技术指南": "Technical guidance", "能力建设计划": "Capacity building programme", "公众宣传教育活动": "Public awareness campaign", "公民行为规范": "Citizen code of conduct", "职业标准与技能开发": "Occupational standards and skills development", "教育体系建设": "Education system integration", "绿色标准体系": "Green standard system", "自愿碳中和方法": "Voluntary carbon neutrality methodology", "自愿性采购指南": "Voluntary procurement guidance", "自愿性认证标识": "Voluntary certification and labelling scheme", "自愿碳市场": "Voluntary carbon market", "自愿性信息披露": "Voluntary information disclosure", "自愿性目标": "Voluntary target", "碳抵消信用": "Offset credits", "环境审计要求": "Environmental auditing requirements", "自愿性对标与认定计划": "Voluntary benchmarking and recognition schemes", "绿电直连交易规则": "Green power direct connection rules", "非电力可再生能源消费比重义务": "Non-electric renewable energy consumption obligations", "建筑节能综合规范": "Comprehensive building energy code", "环境影响评价": "Environmental impact assessment", "投资项目节能减排评价": "Energy and carbon review for investment projects", "公共机构能源绩效管理框架": "Energy performance management framework for public institutions", "电动机最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards (MEPS) for electric motors", "中央预算内投资": "Central budget investment", "可交易可再生能源证书/配额/RPS": "Tradable renewable electricity credits, quota or tradable performance standards", "气候绩效评估考核": "Climate performance assessment and evaluation", "政府投资基金": "Government investment fund", "央行借贷支持": "Central bank lending support", "贷款利息补贴": "Interest subsidy", "车辆报废更新补贴": "Vehicle scrappage subsidy", "自愿调峰能力与并网承诺": "Voluntary capacity provision and grid-connection commitments", "热泵和冷水机组最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards (MEPS) for heat pumps and water chillers"}),
+    "路径": ("Approach", {"单位产品能源消耗限额": "Energy intensity limit for industrial production", "产品和电器能效标签": "Energy labels for products and appliances", "建筑能效标签": "Energy labels for buildings", "车辆能效标签": "Energy labels for vehicles", "电器最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards for Electric Appliances (MEPS)", "能源统计与审计": "Energy statistics and audit", "可持续信息披露": "Sustainability information disclosure", "温室气体排放报告": "Greenhouse gas emissions reporting", "绿色金融统计": "Green finance statistics", "绿色金融业绩评价": "Green finance performance evaluation", "绿色金融治理框架": "Green finance governance framework", "技术推广目录": "Technology promotion catalogue", "产业指导目录": "Industry guidance catalogue", "可持续金融分类目录": "Sustainable finance taxonomy", "技术指南": "Technical guidance", "能力建设计划": "Capacity building programme", "公众宣传教育活动": "Public awareness campaign", "公民行为规范": "Citizen code of conduct", "职业标准与技能开发": "Occupational standards and skills development", "教育体系建设": "Education system integration", "绿色标准体系": "Green standard system", "自愿碳中和方法": "Voluntary carbon neutrality methodology", "自愿性采购指南": "Voluntary procurement guidance", "自愿性认证标识": "Voluntary certification and labelling scheme", "自愿碳市场": "Voluntary carbon market", "自愿性信息披露": "Voluntary information disclosure", "自愿性目标": "Voluntary target", "碳抵消信用": "Offset credits", "环境审计要求": "Environmental auditing requirements", "自愿性对标与认定计划": "Voluntary benchmarking and recognition schemes", "绿电直连交易规则": "Green power direct connection rules", "非电力可再生能源消费比重义务": "Non-electric renewable energy consumption obligations", "建筑节能综合规范": "Comprehensive building energy code", "环境影响评价": "Environmental impact assessment", "投资项目节能减排评价": "Energy and carbon review for investment projects", "公共机构能源绩效管理框架": "Energy performance management framework for public institutions", "电动机最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards (MEPS) for electric motors", "中央预算内投资": "Central budget investment", "可交易可再生能源证书/配额/RPS": "Tradable renewable electricity credits, quota or tradable performance standards", "气候绩效评估考核": "Climate performance assessment and evaluation", "政府投资基金": "Government investment fund", "央行借贷支持": "Central bank lending support", "贷款利息补贴": "Interest subsidy", "车辆报废更新补贴": "Vehicle scrappage subsidy", "自愿调峰能力与并网承诺": "Voluntary capacity provision and grid-connection commitments", "热泵和冷水机组最低能源绩效标准（MEPS）": "Minimum Energy Performance Standards (MEPS) for heat pumps and water chillers"}),
     "受规制资产（状态）": ("Asset (Status)", {"新建": "New", "既有": "Existing", "新建；既有": "New; Existing", "N/A": "N/A"}),
     "减缓效果": ("Mitigation effect", {"正向": "Positive", "未知": "Unknown", "N/A": "N/A"}),
 }
@@ -4425,7 +4425,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 28 February 2025, GB 30720-2025 was published, consolidating and replacing GB 30720-2014 (household gas cookers) and GB 30531-2014 (commercial gas cookers), unifying the energy efficiency evaluation framework for household and commercial gas cooking appliances with raised thermal efficiency values across all grades.",
     },
     "CHNPRFMEEI01S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Industry",
         "Sub-sector": "Industrial electrical equipment; Low-voltage apparatus",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for AC Contactors",
@@ -4455,7 +4455,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 29 December 2022, GB 21518-2022 was published, replacing GB 21518-2008, expanding the scope to 6 A-630 A and raising energy efficiency values across all grades.",
     },
     "CHNPRFMEEI02S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Industry",
         "Sub-sector": "Power transmission and distribution; Renewable energy generation",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Power Transformers",
@@ -4485,7 +4485,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 29 April 2024, GB 20052-2024 was published, replacing GB 20052-2020, extending the scope to transformers on the renewable energy generation side and raising energy efficiency values across all grades.",
     },
     "CHNPRFMEEI03S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Buildings",
         "Sub-sector": "Information and communications technology; Data centres",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Tower and Rack Servers",
@@ -4513,7 +4513,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "GB 43630-2023 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Tower and Rack Servers",
     },
     "CHNPRFMEEI04S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Buildings",
         "Sub-sector": "Electronic equipment; Information and communications technology",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Displays",
@@ -4543,7 +4543,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 23 May 2023, GB 21520-2023 was published, replacing GB 21520-2015, expanding the scope to OLED and LED integrated display terminals and raising energy efficiency values across all grades.",
     },
     "CHNPRFMEEI05S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Buildings",
         "Sub-sector": "Household appliances",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Air Cleaners",
@@ -4573,7 +4573,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 29 September 2024, GB 36893-2024 was published, replacing GB 36893-2018, significantly expanding the scope to include gaseous pollutant removal, humidifying-purifiers and purifying fans, and raising energy efficiency values across all grades.",
     },
     "CHNPRFMEEI06S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Industry",
         "Sub-sector": "Industrial pumps; Water supply and drainage",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Submersible Motor-Pumps",
@@ -4601,7 +4601,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "GB 32030-2022 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Submersible Motor-Pumps",
     },
     "CHNPRFMEEI07S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Buildings",
         "Sub-sector": "Household appliances",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Electric Fans",
@@ -4631,7 +4631,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 11 October 2021, GB 12021.9-2021 was published, replacing GB 12021.9-2008, adding DC motor-driven fans and concentrated-flow fans, adding standby power requirements, and raising Grade 1 energy efficiency values by 30.9% to 80.6%.",
     },
     "CHNPRFMEEI08S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Buildings",
         "Sub-sector": "Consumer electronics",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Flat Panel Televisions and Set-Top Boxes",
@@ -4659,7 +4659,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "GB 24850-2020 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Flat Panel Televisions and Set-Top Boxes",
     },
     "CHNPRFMEEI09S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Buildings",
         "Sub-sector": "Industrial fans; Heating, ventilation and air conditioning",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Fans",
@@ -4687,7 +4687,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "GB 19761-2020 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Fans",
     },
     "CHNPRFMEEI10S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Industry",
         "Sub-sector": "Industrial compressors; General machinery",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Displacement Air Compressors",
@@ -4715,7 +4715,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "GB 19153-2019 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Displacement Air Compressors",
     },
     "CHNPRFMEEI11S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Industry",
         "Sub-sector": "Industrial welding equipment",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Welding Machines",
@@ -4743,7 +4743,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "GB 28736-2019 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Welding Machines",
     },
     "CHNPRFMEEI12S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Buildings",
         "Sub-sector": "Bathroom appliances",
         "English instrument name": "Minimum Allowable Values and Grades of the Energy Efficiency and Water Efficiency for Smart Toilets",
@@ -4773,7 +4773,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 1 August 2025, GB 38448-2025 was published, replacing GB 38448-2019, bringing simplified-type smart toilets within scope for the first time, tightening the energy efficiency minimum allowable value by 20% and the water efficiency minimum allowable value by 14%.",
     },
     "CHNPRFMEEI13S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Buildings",
         "Sub-sector": "Household appliances",
         "English instrument name": "Minimum Allowable Values and Grades of the Energy Efficiency and Water Efficiency for Dishwashers",
@@ -4803,7 +4803,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 1 August 2025, GB 38383-2025 was published, replacing GB 38383-2019, adding a noise indicator, reducing Grade 1 energy consumption by approximately 36% and Grade 1 water consumption by approximately 20%, and benchmarking against advanced EU levels.",
     },
     "CHNPRFMEEI14S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Buildings",
         "Sub-sector": "Household appliances",
         "English instrument name": "Minimum Allowable Values of Energy Consumption and Energy Efficiency Grades for Household Refrigerators",
@@ -4833,7 +4833,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 30 May 2025, GB 12021.2-2025 was published, replacing GB 12021.2-2015, marking the fifth revision, expanding scope to semiconductor cooling appliances, adding volume utilisation ratio and smart grid response requirements, and raising Grade 1 energy efficiency to internationally leading levels.",
     },
     "CHNPRFMEEI15S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Buildings",
         "Sub-sector": "Electronic equipment; Information and communications technology",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Grades for Microcomputers",
@@ -4863,7 +4863,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 24 January 2025, GB 28380-2025 was published, replacing GB 28380-2012, the first revision, changing the classification method and energy efficiency indicators, and updating the typical energy consumption calculation method.",
     },
     "CHNPRFMEEI16S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Buildings",
         "Sub-sector": "Household appliances",
         "English instrument name": "Minimum Allowable Values of Energy Consumption, Water Consumption and Grades for Electric Washing Machines and Washer-Dryers",
@@ -4893,7 +4893,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 31 March 2026, GB 12021.4-2026 was published, replacing GB 12021.4-2013, bringing washer-dryers within scope for the first time, expanding the capacity upper limit to 25 kg, setting washing duration limits for the first time, and updating test methods.",
     },
     "CHNPRFMEEI17S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Industry",
         "Sub-sector": "Wastewater treatment equipment",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Rotary Aerators in Wastewater Treatment",
@@ -4921,7 +4921,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "GB 37483-2019 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Rotary Aerators in Wastewater Treatment",
     },
     "CHNPRFMEEI18S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Industry",
         "Sub-sector": "Wastewater treatment equipment",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Submersible Push-Flow Mixers in Wastewater Treatment",
@@ -4949,7 +4949,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "GB 37485-2019 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Submersible Push-Flow Mixers in Wastewater Treatment",
     },
     "CHNPRFMEEI19S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Industry",
         "Sub-sector": "Industrial pumps; Petrochemical; Water supply and drainage",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Centrifugal Pumps",
@@ -4979,7 +4979,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 28 February 2025, GB 19762-2025 was published, replacing GB 19762-2007 and GB 32284-2015, for the first time unifying the energy efficiency standards for clean-water centrifugal pumps and petrochemical centrifugal pumps under a single evaluation framework.",
     },
     "CHNPRFMEEI20S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Industry",
         "Sub-sector": "Industrial dust removal; Air pollution control",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Dust Collectors",
@@ -5007,7 +5007,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "GB 37484-2019 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Dust Collectors",
     },
     "CHNPRFMEEI21S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Industry",
         "Sub-sector": "Hydrogen energy; Chemical equipment",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Water Electrolysis Hydrogen Production Systems",
@@ -5035,7 +5035,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "GB 32311-2015 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Water Electrolysis Hydrogen Production Systems",
     },
     "CHNPRFMEEI22S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Buildings",
         "Sub-sector": "Electronic equipment",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Projectors",
@@ -5065,7 +5065,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 30 June 2025, GB 32028-2025 was published, replacing GB 32028-2015, expanding the scope to solid-state light source projectors, updating test methods, and raising energy efficiency values across all grades.",
     },
     "CHNPRFMEEI23S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Buildings",
         "Sub-sector": "Household appliances; Ventilation equipment",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Range Hoods and Ventilation Fans",
@@ -5095,7 +5095,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 31 October 2025, GB 29539-2025 was published, replacing GB 29539-2013 and GB 32049-2015, for the first time unifying the energy efficiency standards for range hoods and ventilation fans under a single evaluation framework and raising energy efficiency values across all grades.",
     },
     "CHNPRFMEEI24S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Buildings",
         "Sub-sector": "Household appliances",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Drinking Water Dispensers",
@@ -5123,7 +5123,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "GB 30978-2014 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Drinking Water Dispensers",
     },
     "CHNPRFMEEI25S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Buildings",
         "Sub-sector": "Office equipment; Electronic equipment",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Copiers, Printers and Fax Machines",
@@ -5153,7 +5153,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 28 April 2014, GB 21521-2014 was published, replacing GB 21521-2008, adding definitions and requirements for LED/laser hybrid light source and variable-speed products, and raising energy efficiency values across all grades.",
     },
     "CHNPRFMEEI26S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Industry",
         "Sub-sector": "Electronic equipment; Power electronics",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Power Supplies",
@@ -5183,7 +5183,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 24 January 2025, GB 20943-2025 was published, replacing GB 20943-2013, significantly expanding the scope to include built-in power supplies (PC, server, industrial), and adding power factor requirements.",
     },
     "CHNPRFMEEI27S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Industry",
         "Sub-sector": "Industrial fans; General machinery",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Blowers",
@@ -5213,7 +5213,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Last revision (Details)": "On 31 March 2026, GB 28381-2026 was published, replacing GB 28381-2012, expanding the scope to screw blowers, updating test methods, and raising energy efficiency values across all grades.",
     },
     "CHNPRFMEEI28S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Industry",
         "Sub-sector": "Electric vehicle charging infrastructure; Power electronics",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Electric Vehicle Supply Equipment",
@@ -5241,7 +5241,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Legal statute": "GB 46519-2025 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Electric Vehicle Supply Equipment",
     },
     "CHNPRFMEEI29S000": {
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Industry",
         "Sub-sector": "Solar photovoltaic",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Crystalline Silicon Photovoltaic Modules and Inverters",
@@ -5273,7 +5273,7 @@ ROW_TRANSLATIONS: dict[str, dict[str, str]] = {
     },
     "CHNPRFMEEI30S000": {
         "Last revision (Details)": "First issued on 18 December 2013 as GB 30255-2013 Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Non-Directional Self-Ballasted LED Lamps for General Lighting, effective 1 September 2014. First revised in 2019 (GB 30255-2019), renamed Indoor Lighting LED Products with expanded product coverage. Second revision on 27 February 2026 (GB 30255-2026), adding narrow-beam LED downlights, LED high-bay luminaires, retrofit double-capped LED lamps and intelligent control products, raising energy efficiency thresholds at each grade, introducing a standby power requirement of <= 1.5 W, and promoting full-time energy efficiency evaluation. A 25-month transition period applies with full enforcement from the 25th month after 1 September 2027.",
-        "Approach": "Minimum Energy Performance Standards (MEPS) for electric equipment",
+        "Approach": "Minimum Energy Performance Standards for Electric Appliances (MEPS)",
         "Emission sector": "Industry; Buildings",
         "Sub-sector": "Lighting; Commercial buildings; Residential buildings; Public buildings",
         "English instrument name": "Minimum Allowable Values of Energy Efficiency and Energy Efficiency Grades for Indoor Lighting LED Products",

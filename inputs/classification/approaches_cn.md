@@ -142,7 +142,7 @@
 | Insulation requirements for buildings | 建筑保温要求 | 指建筑材料必须达到的最低热工性能标准，以减少热传递并提高能效。 |
 | Minimum Energy Performance Standards (MEPS) for buildings | 建筑最低能源绩效标准（MEPS） | MEPS 规定建筑在建造、出售或出租前必须达到的基准能效水平。具体而言，它要求建筑能源消耗不得超过某一最高水平。 |
 | Minimum Energy Performance Standards (MEPS) for cooking systems | 烹饪系统最低能源绩效标准（MEPS） | MEPS 规定烹饪系统在特定市场出售或分配前必须达到的基准能效水平。 |
-| Minimum Energy Performance Standards (MEPS) for electric equipment | 电气设备最低能源绩效标准（MEPS） | MEPS 规定电气设备在特定市场出售或分配前必须达到的基准能效水平。 |
+| Minimum Energy Performance Standards for Electric Appliances (MEPS) | 电器最低能源绩效标准（MEPS） | MEPS 规定电器在特定市场出售或分配前必须达到的基准能效水平。 |
 | Minimum Energy Performance Standards (MEPS) for lighting systems | 照明系统最低能源绩效标准（MEPS） | MEPS 规定照明系统在特定市场出售或分配前必须达到的基准能效水平。 |
 | Minimum Energy Performance Standards (MEPS) for residential solar panels | 户用太阳能板最低能源绩效标准（MEPS） | MEPS 规定户用太阳能板在特定市场出售或分配前必须达到的基准能效水平。 |
 | Minimum Energy Performance Standards (MEPS) for spatial cooling | 空间制冷最低能源绩效标准（MEPS） | MEPS 规定空间制冷系统在特定市场出售或分配前必须达到的基准能效水平。 |
@@ -319,7 +319,7 @@
 | Insulation requirements for buildings | 建筑保温要求 | INS |
 | Minimum Energy Performance Standards (MEPS) for buildings | 建筑最低能源绩效标准（MEPS） | MEB |
 | Minimum Energy Performance Standards (MEPS) for cooking systems | 烹饪系统最低能源绩效标准（MEPS） | MEC |
-| Minimum Energy Performance Standards (MEPS) for electric equipment | 电气设备最低能源绩效标准（MEPS） | MEE |
+| Minimum Energy Performance Standards for Electric Appliances (MEPS) | 电器最低能源绩效标准（MEPS） | MEE |
 | Minimum Energy Performance Standards (MEPS) for lighting systems | 照明系统最低能源绩效标准（MEPS） | MEL |
 | Minimum Energy Performance Standards (MEPS) for residential solar panels | 户用太阳能板最低能源绩效标准（MEPS） | MEP |
 | Minimum Energy Performance Standards (MEPS) for spatial cooling | 空间制冷最低能源绩效标准（MEPS） | MCS |
