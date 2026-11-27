@@ -67,7 +67,6 @@ CROSS_CAT_LABELS = {}
 # matrix_groups values stay untouched as they are the Approaches!B match keys.
 MATRIX_GROUP_LABELS = {
     "cn": {
-        "比较性能效标签": "标签",
         "报告与披露要求": "报告要求",
         "自愿性信息工具": "自愿信息工具",
         "自愿交易体系": "自愿交易机制",

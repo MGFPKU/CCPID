@@ -434,7 +434,7 @@ global_validation_rules:
         Administered price: ADP
         Voluntary information instrument: VII
         Voluntary trading system: VTS
-        Voluntary target: VTG
+        Voluntary recycling target: VTG
       approach:
         Carbon contract for difference: CCD
         Feebate: FEE
@@ -452,8 +452,8 @@ global_validation_rules:
         Trade-in subsidy: TIS
         Clean heating subsidy: CHS
         Recycling and treatment subsidy: RTS
-        Low-emission machinery purchase subsidy: MPS
-        Technology deployment reward: TDR
+        Low-emission equipment purchase subsidy: MPS
+        Performance-based technology deployment subsidy: TDR
         Demand response compensation: DRC
         GHG tax: GHT
         CIT incentive: CIT
@@ -474,7 +474,6 @@ global_validation_rules:
         "Tradable performance standards": TPS
         "Tradable renewable electricity credits, quota or tradable performance standards": REC
         Offset credits: OFC
-        Green electricity trading: GET
         Electricity market participation rules: DRM
         Energy labels for buildings: ELB
         Energy labels for products and appliances: ELP
@@ -483,51 +482,51 @@ global_validation_rules:
         Sustainability information disclosure: SID
         Greenhouse gas emissions reporting: GRV
         Green finance statistics: GFS
-        Green finance performance evaluation: GFE
+        Financial institution environmental performance evaluation: GFE
         Green finance governance framework: GFG
-        Technology promotion catalogue: TPC
         Industry guidance catalogue: IGC
-        Technical guidance: TGC
+        Technical guidance and promotion: TGC
         Capacity building programme: CBP
-        Public awareness campaign: PAC
-        Citizen code of conduct: COC
+        Public awareness and behavioural guidance: PAC
         Occupational standards and skills development: OSS
         Education system integration: ESI
-        Green standard system: GSS
         Sustainable finance taxonomy: SFT
-        Voluntary carbon neutrality methodology: VCN
-        Voluntary procurement guidance: VPG
+        Voluntary GHG management standards: VCN
         Voluntary carbon market: VCM
         Voluntary certification and labelling scheme: VLB
+        Sustainable finance product standards and labels: SFP
         Voluntary information disclosure: VID
         Voluntary benchmarking and recognition schemes: VBR
-        Voluntary target: VTG
+        Voluntary recycling target: VTG
         Voluntary capacity provision and grid-connection commitments: VCP
         Speed limits: SPD
         Energy performance management framework for public institutions: EPM
         Target responsibility system: TRS
         Enterprise energy management obligation: EEM
         Capacity replacement: CAP
-        Agricultural pollution control: APC
+        Livestock and poultry farming environmental management requirements: APC
         Extended producer responsibility: EPR
         Industrial transition governance: ITG
         Renewable priority dispatch: RPD
-        Green power direct connection rules: GPC
-        Comprehensive building energy code: CBC
+        Renewable electricity direct supply rules: GPC
+        Green electricity market rules: GRM
         Production scheduling mandate: PSM
-        Ecosystem protection mandate: ECM
+        Ecosystem protection and land-use restrictions: ECM
         Eco-environmental zoning: EEZ
         Eco-compensation: ECO
         Pollution discharge permitting: PDP
         Port ship shore power requirements: SPP
+        Renewable energy system installation requirements for buildings: BRI
         Mandatory waste sorting: MWS
         Energy metering requirements: EMR
         Building/envelope airtightness requirements: BAR
+        Building envelope thermal performance standards: BET
         EV fleet mandate: EFM
         EV sales mandate: ESM
         Fuel economy standard: FEC
         Insulation requirements for buildings: INS
         Minimum Energy Performance Standards (MEPS) for buildings: MEB
+        Minimum Energy Performance Standards (MEPS) for data centres: DCM
         Minimum Energy Performance Standards (MEPS) for cooking systems: MEC
         Minimum Energy Performance Standards for Electric Appliances (MEPS): MEE
         Minimum Energy Performance Standards (MEPS) for lighting systems: MEL
@@ -537,10 +536,11 @@ global_validation_rules:
         Minimum Energy Performance Standards (MEPS) for water heating systems: MWH
         Minimum Energy Performance Standards (MEPS) for industrial thermal equipment: MIT
         Minimum Energy Performance Standards (MEPS) for refrigeration equipment: MRE
-        Non-electric renewable energy consumption obligations: RCP
+        Non-electric renewable energy consumption quotas: RCP
         Energy intensity limit for industrial production: EIL
-        Methane emission limits: MTL
-        Ship carbon intensity management: SCM
+        Energy efficiency benchmark and baseline management: EBB
+        Methane emission standards: MTL
+        Ship carbon intensity standards: SCM
         Solar factor requirements for windows: SFW
         Bans and phase-outs of fossil fuel based power generation plants: BFP
         Bans and phase-outs of fossil fuel extraction: BFE
@@ -554,8 +554,8 @@ global_validation_rules:
         Biofuel quotas for maritime fuels: BQM
         Bans and phase-outs of plastic products: BPP
         Minimum Energy Performance Standards (MEPS) for electric motors: MEM
-        Government-funded RD&D programmes: RDD
-        Central budget investment: CBI
+        Government-funded R&D programmes: RDD
+        Public capital investment support: CBI
         Government investment fund: GIF
         Industrial differentiated electricity pricing: IDP
         Residential increasing-block tariff: RIT
@@ -567,7 +567,7 @@ global_validation_rules:
         Climate performance assessment and evaluation: CPA
         Environmental impact assessment: EIA
         Energy and carbon review for investment projects: ECR
-        Environmental auditing requirements: EAR
+        Mandatory cleaner production audits: EAR
         Ship energy consumption reporting: SEC
   blank_values:
     allowed_when_unknown:
@@ -705,8 +705,8 @@ allowed_values:
       - Trade-in subsidy
       - Clean heating subsidy
       - Recycling and treatment subsidy
-      - Low-emission machinery purchase subsidy
-      - Technology deployment reward
+      - Low-emission equipment purchase subsidy
+      - Performance-based technology deployment subsidy
       - Demand response compensation
     Taxes:
       - GHG tax
@@ -729,7 +729,6 @@ allowed_values:
       - Tradable performance standards
       - Tradable renewable electricity credits, quota or tradable performance standards
       - Offset credits
-      - Green electricity trading
     Administered prices:
       - Industrial differentiated electricity pricing
       - Residential increasing-block tariff
@@ -744,31 +743,33 @@ allowed_values:
       - Target responsibility system
       - Enterprise energy management obligation
       - Capacity replacement
-      - Agricultural pollution control
+      - Livestock and poultry farming environmental management requirements
       - Extended producer responsibility
       - Industrial transition governance
       - Renewable priority dispatch
-      - Green power direct connection rules
+      - Renewable electricity direct supply rules
       - Electricity market participation rules
-      - Comprehensive building energy code
+      - Green electricity market rules
       - Production scheduling mandate
       - Eco-environmental zoning
       - Eco-compensation
-      - Ecosystem protection mandate
+      - Ecosystem protection and land-use restrictions
       - Pollution discharge permitting
-      - Port ship shore power requirements
       - Mandatory waste sorting
-      - Energy metering requirements
       - Green finance governance framework
+      - Financial institution environmental performance evaluation
+      - Mandatory cleaner production audits
       - Environmental impact assessment
       - Energy and carbon review for investment projects
     Performance standards:
+      - Building envelope thermal performance standards
       - Building/envelope airtightness requirements
       - EV fleet mandate
       - EV sales mandate
       - Fuel economy standard
       - Insulation requirements for buildings
       - Minimum Energy Performance Standards (MEPS) for buildings
+      - Minimum Energy Performance Standards (MEPS) for data centres
       - Minimum Energy Performance Standards (MEPS) for cooking systems
       - Minimum Energy Performance Standards for Electric Appliances (MEPS)
       - Minimum Energy Performance Standards (MEPS) for lighting systems
@@ -779,10 +780,10 @@ allowed_values:
       - Minimum Energy Performance Standards (MEPS) for industrial thermal equipment
       - Minimum Energy Performance Standards (MEPS) for refrigeration equipment
       - Minimum Energy Performance Standards (MEPS) for electric motors
-      - Non-electric renewable energy consumption obligations
       - Energy intensity limit for industrial production
-      - Methane emission limits
-      - Ship carbon intensity management
+      - Energy efficiency benchmark and baseline management
+      - Methane emission standards
+      - Ship carbon intensity standards
       - Solar factor requirements for windows
       - Speed limits
     Technology standards:
@@ -797,9 +798,13 @@ allowed_values:
       - Biofuel quotas for land transport fuels
       - Biofuel quotas for maritime fuels
       - Bans and phase-outs of plastic products
+      - Port ship shore power requirements
+      - Energy metering requirements
+      - Non-electric renewable energy consumption quotas
+      - Renewable energy system installation requirements for buildings
     Public investment:
-      - Government-funded RD&D programmes
-      - Central budget investment
+      - Government-funded R&D programmes
+      - Public capital investment support
       - Government investment fund
     Public procurement:
       - Green public procurement
@@ -812,30 +817,25 @@ allowed_values:
       - Sustainability information disclosure
       - Greenhouse gas emissions reporting
       - Green finance statistics
-      - Green finance performance evaluation
-      - Environmental auditing requirements
       - Ship energy consumption reporting
     Capacity building and public awareness:
-      - Technology promotion catalogue
       - Industry guidance catalogue
-      - Technical guidance
+      - Technical guidance and promotion
       - Capacity building programme
-      - Public awareness campaign
-      - Citizen code of conduct
+      - Public awareness and behavioural guidance
       - Occupational standards and skills development
       - Education system integration
-      - Green standard system
     Voluntary information instruments:
       - Sustainable finance taxonomy
-      - Voluntary carbon neutrality methodology
-      - Voluntary procurement guidance
+      - Voluntary GHG management standards
       - Voluntary certification and labelling scheme
+      - Sustainable finance product standards and labels
       - Voluntary information disclosure
       - Voluntary benchmarking and recognition schemes
     Voluntary trading systems:
       - Voluntary carbon market
     Voluntary targets:
-      - Voluntary target
+      - Voluntary recycling target
       - Voluntary capacity provision and grid-connection commitments
   Approach:
     - Carbon contract for difference
@@ -854,8 +854,8 @@ allowed_values:
     - Trade-in subsidy
     - Clean heating subsidy
     - Recycling and treatment subsidy
-    - Low-emission machinery purchase subsidy
-    - Technology deployment reward
+    - Low-emission equipment purchase subsidy
+    - Performance-based technology deployment subsidy
     - Demand response compensation
     - GHG tax
     - CIT incentive
@@ -876,7 +876,6 @@ allowed_values:
     - Tradable performance standards
     - Tradable renewable electricity credits, quota or tradable performance standards
     - Offset credits
-    - Green electricity trading
     - Time-of-use pricing
     - Two-part heat tariff
     - Energy labels for buildings
@@ -886,39 +885,38 @@ allowed_values:
     - Sustainability information disclosure
     - Greenhouse gas emissions reporting
     - Green finance statistics
-    - Green finance performance evaluation
+    - Financial institution environmental performance evaluation
     - Green finance governance framework
-    - Technology promotion catalogue
     - Industry guidance catalogue
-    - Technical guidance
+    - Technical guidance and promotion
     - Capacity building programme
-    - Public awareness campaign
-    - Citizen code of conduct
+    - Public awareness and behavioural guidance
     - Occupational standards and skills development
     - Education system integration
-    - Green standard system
     - Sustainable finance taxonomy
-    - Voluntary carbon neutrality methodology
-    - Voluntary procurement guidance
+    - Voluntary GHG management standards
     - Voluntary carbon market
     - Voluntary certification and labelling scheme
+    - Sustainable finance product standards and labels
     - Voluntary information disclosure
     - Voluntary benchmarking and recognition schemes
-    - Voluntary target
+    - Voluntary recycling target
     - Voluntary capacity provision and grid-connection commitments
     - Speed limits
     - Energy performance management framework for public institutions
     - Target responsibility system
     - Enterprise energy management obligation
-    - Green power direct connection rules
+    - Renewable electricity direct supply rules
     - Electricity market participation rules
-    - Comprehensive building energy code
+    - Green electricity market rules
+    - Building envelope thermal performance standards
     - Building/envelope airtightness requirements
     - EV fleet mandate
     - EV sales mandate
     - Fuel economy standard
     - Insulation requirements for buildings
     - Minimum Energy Performance Standards (MEPS) for buildings
+    - Minimum Energy Performance Standards (MEPS) for data centres
     - Minimum Energy Performance Standards (MEPS) for cooking systems
     - Minimum Energy Performance Standards for Electric Appliances (MEPS)
     - Minimum Energy Performance Standards (MEPS) for lighting systems
@@ -928,10 +926,9 @@ allowed_values:
     - Minimum Energy Performance Standards (MEPS) for water heating systems
     - Minimum Energy Performance Standards (MEPS) for industrial thermal equipment
     - Minimum Energy Performance Standards (MEPS) for refrigeration equipment
-    - Non-electric renewable energy consumption obligations
     - Energy intensity limit for industrial production
-    - Methane emission limits
-    - Ship carbon intensity management
+    - Methane emission standards
+    - Ship carbon intensity standards
     - Solar factor requirements for windows
     - Bans and phase-outs of fossil fuel based power generation plants
     - Bans and phase-outs of fossil fuel extraction
@@ -944,17 +941,19 @@ allowed_values:
     - Biofuel quotas for land transport fuels
     - Biofuel quotas for maritime fuels
     - Bans and phase-outs of plastic products
+    - Non-electric renewable energy consumption quotas
     - Minimum Energy Performance Standards (MEPS) for electric motors
-    - Government-funded RD&D programmes
-    - Central budget investment
+    - Government-funded R&D programmes
+    - Public capital investment support
     - Government investment fund
     - Green public procurement
     - Strategic environmental assessment
     - Climate performance assessment and evaluation
     - Environmental impact assessment
     - Energy and carbon review for investment projects
-    - Environmental auditing requirements
+    - Mandatory cleaner production audits
     - Port ship shore power requirements
+    - Renewable energy system installation requirements for buildings
     - Mandatory waste sorting
     - Energy metering requirements
     - Ship energy consumption reporting
